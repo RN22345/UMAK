@@ -153,7 +153,7 @@ function allQuestionPool(selIds){
 }
 function buildQuizItem(p){
   const opts=shuffle([p.m.a,...p.m.w]);
-  return {id:p.id,l:p.l,q:p.m.q,ch:opts,c:opts.indexOf(p.m.a)};
+  return {id:p.id,l:p.l,q:p.m.q,ch:opts,c:opts.indexOf(p.m.a),e:p.m.e||''};
 }
 
 function viewQuiz(root){
@@ -256,6 +256,7 @@ function runQuiz(root,s){
       h('div',{class:'qmeta'},lessonTag(it.l),h('span',{class:'tag'},LBY[it.l].title),s.flag[s.idx]?h('span',{class:'tag',style:'color:var(--flag);border-color:var(--gold)'},'flagged'):null),
       h('p',{class:'qtext'},it.q), h('div',{class:'choices'},ch),
       locked?h('div',{class:'feedback '+(a===it.c?'ok':'no')}, a===it.c?'Correct.':'Incorrect. Correct answer: '+LET[it.c]+'. '+it.ch[it.c]):null,
+      locked&&it.e?h('p',{class:'expl'},it.e):null,
       h('div',{class:'nav'},
         h('button',{class:'btn',disabled:s.idx===0,onclick:()=>move(-1)},'Previous'),
         h('div',{class:'row'},
@@ -305,7 +306,8 @@ function runQuiz(root,s){
         return h('div',{class:'review-item'+(ok?'':' bad')},
           h('div',{class:'qmeta'},h('span',{class:'tag'},'Q'+(i+1)),lessonTag(it.l),h('span',{class:'tag',style:ok?'color:var(--good);border-color:var(--good)':'color:var(--bad);border-color:var(--bad)'},a==null?'skipped':ok?'correct':'wrong')),
           h('p',null,h('b',null,it.q)),
-          it.ch.map((t,k)=>h('div',{class:'rline '+(k===it.c?'c':(k===a?'x':''))},h('b',null,LET[k]+(k===it.c?' ✓':(k===a?' ✗':'  '))),h('span',null,t))));
+          it.ch.map((t,k)=>h('div',{class:'rline '+(k===it.c?'c':(k===a?'x':''))},h('b',null,LET[k]+(k===it.c?' ✓':(k===a?' ✗':'  '))),h('span',null,t))),
+          it.e?h('p',{class:'expl'},it.e):null);
       })(r)));
     }
     const f=(k,t)=>h('button',{class:'btn small','aria-pressed':'false',onclick:e=>{filter=k;drawList();}},t);
@@ -317,7 +319,7 @@ function runQuiz(root,s){
         h('p',{class:'muted'},pct(correct,N)+'% · '+fmtTime(s.elapsed)+(s.limit?' of '+fmtTime(s.limit):'')+' · '+(practice?'practice':'exam')),
         h('div',{class:'row',style:'justify-content:center;margin-top:10px'},
           wrongIdx.length?h('button',{class:'btn primary',onclick:()=>{
-              const items=wrongIdx.map(i=>{const it=s.items[i]; const opts=shuffle(it.ch.map((t,k)=>({t,k}))); return {id:it.id,l:it.l,q:it.q,ch:opts.map(o=>o.t),c:opts.findIndex(o=>o.k===it.c)};});
+              const items=wrongIdx.map(i=>{const it=s.items[i]; const opts=shuffle(it.ch.map((t,k)=>({t,k}))); return {id:it.id,l:it.l,q:it.q,ch:opts.map(o=>o.t),c:opts.findIndex(o=>o.k===it.c),e:it.e};});
               const ns={type:'quiz',mode:s.mode,t0:Date.now(),limit:0,items,ans:new Array(items.length).fill(null),flag:new Array(items.length).fill(false),idx:0,elapsed:0,lessons:s.lessons};
               store.set('session.quiz',ns); runQuiz(root,ns); window.scrollTo(0,0);
             }},'Retry the '+wrongIdx.length+' missed'):null,

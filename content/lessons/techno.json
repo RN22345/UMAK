@@ -10,7 +10,8 @@
     "Innovative entrepreneur",
     "Fabian entrepreneur",
     "Drone entrepreneur"
-   ]
+   ],
+   "e": "The imitating entrepreneur copies the innovative entrepreneur's products, technology, process and methods."
   },
   {
    "q": "Which entrepreneur is skeptical about change and waits for the outcome of released products in the market before starting the next project?",
@@ -19,7 +20,8 @@
     "Drone entrepreneur",
     "Innovative entrepreneur",
     "Imitating entrepreneur"
-   ]
+   ],
+   "e": "The Fabian entrepreneur is skeptical about change and waits to see how released products fare."
   },
   {
    "q": "Which entrepreneur is happy with business results even with financial losses and is reluctant to make any change?",
@@ -28,7 +30,8 @@
     "Fabian entrepreneur",
     "Imitating entrepreneur",
     "Innovative entrepreneur"
-   ]
+   ],
+   "e": "The drone entrepreneur is reluctant to change and content with results even when they involve financial losses."
   },
   {
    "q": "Which entrepreneur has a great passion for discovering new products, ideas and processes and enjoys the challenge of risk?",
@@ -37,7 +40,8 @@
     "Imitating entrepreneur",
     "Fabian entrepreneur",
     "Drone entrepreneur"
-   ]
+   ],
+   "e": "The innovative entrepreneur is passionate about discovering new products, ideas and processes and enjoys risk."
   },
   {
    "q": "Entrepreneurship is described as \"creating the new and destroying the old.\" Which of these is NOT listed as something new?",
@@ -46,7 +50,8 @@
     "New knowledge",
     "New business models",
     "New raw materials"
-   ]
+   ],
+   "e": "The slide lists new knowledge, products, processes, services, markets, business models and raw materials; taxes are not on it."
   },
   {
    "q": "According to Kuratko and Hodgetts (2007), an entrepreneur is an innovator who recognizes opportunities, adds value, and also:",
@@ -55,7 +60,8 @@
     "Avoids all financial risk",
     "Copies existing products only",
     "Depends entirely on government funding"
-   ]
+   ],
+   "e": "Kuratko and Hodgetts describe the entrepreneur as one who assumes the risks of the competitive marketplace and realizes the rewards."
   },
   {
    "q": "A technopreneur is defined by Daniel Mankani (2003) as an entrepreneur who:",
@@ -64,7 +70,8 @@
     "Imitates existing retail businesses",
     "Only sells computers",
     "Works for a government agency"
-   ]
+   ],
+   "e": "Mankani (2003) defines a technopreneur as an entrepreneur who uses cutting-edge technology to develop a new business."
   },
   {
    "q": "Technopreneurship is best described as:",
@@ -73,7 +80,8 @@
     "Selling gadgets in a mall",
     "Government regulation of technology",
     "Research done only in universities"
-   ]
+   ],
+   "e": "Technopreneurship is entrepreneurship in a technology-intensive context, merging technology prowess with entrepreneurial skills."
   },
   {
    "q": "Technology Developers, who create unique technology capable of driving a new business, are also known as:",
@@ -82,7 +90,8 @@
     "Innovators",
     "Imitators",
     "Investors"
-   ]
+   ],
+   "e": "Technology developers, who create the technology, are the inventors."
   },
   {
    "q": "Technology Users, who see a new technology and apply it to meet a new market need, are also known as:",
@@ -91,7 +100,8 @@
     "Inventors",
     "Imitators",
     "Incubators"
-   ]
+   ],
+   "e": "Technology users, who spot how a new technology meets a market need, are the innovators."
   },
   {
    "q": "Which is NOT considered a technology-based enterprise even though it uses computers?",
@@ -100,7 +110,8 @@
     "Apple iPod maker",
     "UPS delivery system",
     "A software startup"
-   ]
+   ],
+   "e": "An internet café uses computers in operations but is not a technology-based enterprise."
   },
   {
    "q": "The slide cites which Apple innovation as a technopreneurship example with a 160 GB, 1.8-inch hard disk drive?",
@@ -109,7 +120,8 @@
     "iPad",
     "MacBook",
     "Apple Watch"
-   ]
+   ],
+   "e": "The iPod example is the 160 GB, 1.8-inch hard disk drive."
   },
   {
    "q": "Which company is cited for offering one-day delivery anywhere in the world through its sorting and delivery facility?",
@@ -118,7 +130,8 @@
     "FedEx Ground",
     "DHL Express",
     "Amazon Prime"
-   ]
+   ],
+   "e": "UPS is the slide's example of one-day delivery anywhere in the world."
   },
   {
    "q": "How many stages are in the technopreneurial process shown in the slides?",
@@ -127,7 +140,8 @@
     "5",
     "6",
     "10"
-   ]
+   ],
+   "e": "The technopreneurial process has 8 steps, from idea generation to monitoring and evaluation."
   },
   {
    "q": "Which is the FIRST step of the technopreneurial process?",
@@ -136,7 +150,8 @@
     "Prototyping",
     "Commercialization",
     "Test marketing"
-   ]
+   ],
+   "e": "Idea generation is step 1 of the technopreneurial process."
   },
   {
    "q": "Which is the LAST step of the technopreneurial process?",
@@ -145,7 +160,8 @@
     "Commercialization",
     "Test marketing",
     "Business analysis"
-   ]
+   ],
+   "e": "Monitoring and evaluation is step 8, after commercialization."
   },
   {
    "q": "In the technopreneurial process, which step comes right after concept testing?",
@@ -154,7 +170,8 @@
     "Idea screening",
     "Prototyping",
     "Commercialization"
-   ]
+   ],
+   "e": "Business analysis is step 4, right after concept testing."
   },
   {
    "q": "The 5 steps of the entrepreneurial process end with:",
@@ -163,7 +180,8 @@
     "Implementation",
     "Gathering resources",
     "Business planning"
-   ]
+   ],
+   "e": "The entrepreneurial process ends with scaling and harvesting (step 5)."
   },
   {
    "q": "Innovation that happens incrementally, as a response to customer and market demands, is called:",
@@ -172,7 +190,8 @@
     "Disruptive innovation",
     "Breakthrough innovation",
     "Basic research innovation"
-   ]
+   ],
+   "e": "Sustaining innovation is incremental and responds to customer and market demands."
   },
   {
    "q": "Another name for sustaining innovation is:",
@@ -181,7 +200,8 @@
     "Radical innovation",
     "Frontier innovation",
     "Reverse innovation"
-   ]
+   ],
+   "e": "Sustaining innovation is also called routine innovation."
   },
   {
    "q": "Which companies are cited as examples of sustaining innovation?",
@@ -190,7 +210,8 @@
     "Kodak, Nokia and Sears",
     "Uber, Airbnb and Netflix",
     "Tesla, SpaceX and Boeing"
-   ]
+   ],
+   "e": "The slides cite Apple, Intel and Amazon as sustaining innovators."
   },
   {
    "q": "Who popularized the idea of disruptive innovation?",
@@ -199,7 +220,8 @@
     "Alexander Osterwalder",
     "Joerg Gemuenden",
     "Ash Maurya"
-   ]
+   ],
+   "e": "Clayton Christensen popularized disruptive innovation."
   },
   {
    "q": "Which Clayton Christensen book was published in 1997?",
@@ -208,7 +230,8 @@
     "The Innovator's Solution",
     "The Lean Startup",
     "Business Model Generation"
-   ]
+   ],
+   "e": "Christensen's The Innovator's Dilemma was published in 1997."
   },
   {
    "q": "A classic example of disruptive innovation given in the slides is:",
@@ -217,7 +240,8 @@
     "The first Apple iPhone",
     "The iPod hard drive",
     "Online surveys"
-   ]
+   ],
+   "e": "Cellphones displacing fixed-line telephony is the slides' classic disruptive example."
   },
   {
    "q": "Innovation that comes from inside a company and pushes something to the next level, opening new markets, is called:",
@@ -226,7 +250,8 @@
     "Sustaining innovation",
     "Disruptive innovation",
     "Incremental innovation"
-   ]
+   ],
+   "e": "Breakthrough innovation comes from inside a company, pushes something to the next level and opens new markets."
   },
   {
    "q": "Which product is the slide's example of breakthrough innovation?",
@@ -235,7 +260,8 @@
     "Nokia 3310",
     "Amazon Kindle",
     "UPS tracking"
-   ]
+   ],
+   "e": "The slides use the Apple iPhone as the breakthrough example."
   },
   {
    "q": "Innovation that begins with the discovery of a new phenomenon and seeks to understand how nature and people are put together is:",
@@ -244,7 +270,8 @@
     "Breakthrough innovation",
     "Sustaining innovation",
     "Disruptive innovation"
-   ]
+   ],
+   "e": "Basic research starts with discovering a new phenomenon to learn how nature and people are put together."
   },
   {
    "q": "Which principle of sustainable innovation states that new products must solve real customer problems?",
@@ -253,7 +280,8 @@
     "Ownership",
     "Accountability",
     "Idea management"
-   ]
+   ],
+   "e": "Value creation means new products must solve real customer problems."
   },
   {
    "q": "Which principle says that team members and leaders have full responsibility and obligation in the innovation?",
@@ -262,7 +290,8 @@
     "Ownership",
     "Inspire",
     "Net result and reward"
-   ]
+   ],
+   "e": "Accountability means the team and leaders carry full responsibility for the innovation."
   },
   {
    "q": "Which principle says that achieving the ROI should be followed by incentives for employees?",
@@ -271,7 +300,8 @@
     "Observe and measure",
     "Value creation",
     "Training and coaching"
-   ]
+   ],
+   "e": "Net result and reward: when the ROI is achieved, employees get incentives."
   },
   {
    "q": "\"Technopreneurs are risk takers\" matches which principle for sustainable innovation?",
@@ -280,7 +310,8 @@
     "Ownership",
     "Inspire",
     "New product process"
-   ]
+   ],
+   "e": "\"No risk, no innovation\" is the principle that technopreneurs are risk takers."
   },
   {
    "q": "In idea selection, the \"ABC analysis\" is used in which step?",
@@ -289,7 +320,8 @@
     "Step 2: Fine selection",
     "Step 3: Detailed analysis",
     "Step 4: Final launch"
-   ]
+   ],
+   "e": "Rough selection, the first of three idea-selection steps, uses ABC analysis."
   },
   {
    "q": "In the ABC analysis, which ideas are discussed and decided on together?",
@@ -298,7 +330,8 @@
     "A-ideas",
     "C-ideas",
     "None of them"
-   ]
+   ],
+   "e": "B-ideas are uncertain, so they are discussed and decided together."
   },
   {
    "q": "In the ABC analysis, C-ideas are:",
@@ -307,7 +340,8 @@
     "Automatically adopted",
     "Postponed for next year",
     "Moved straight to production"
-   ]
+   ],
+   "e": "C-ideas have no value and are rejected."
   },
   {
    "q": "In the \"dots gluing\" method of fine selection, how many sticky points does each participant receive?",
@@ -316,7 +350,8 @@
     "3",
     "10",
     "7"
-   ]
+   ],
+   "e": "In dot gluing each participant gets 5 sticky points to distribute among ideas."
   },
   {
    "q": "When there are fewer than ten ideas, fine selection can use the \"rating\" method with points from:",
@@ -325,7 +360,8 @@
     "1 to 10",
     "0 to 100",
     "1 to 3"
-   ]
+   ],
+   "e": "With fewer than ten ideas, each participant rates every idea from 0 to 5 points."
   },
   {
    "q": "Which is a criterion used in the detailed analysis of product ideas?",
@@ -334,7 +370,8 @@
     "Office location",
     "Number of employees",
     "Founder's age"
-   ]
+   ],
+   "e": "Detailed analysis judges customer benefit, differentiation and competitive factor, and technical and economic feasibility."
   },
   {
    "q": "A canvas by which person can be used in detailed analysis for new business models?",
@@ -343,7 +380,8 @@
     "Christensen",
     "Kuratko",
     "Mankani"
-   ]
+   ],
+   "e": "Osterwalder's canvas can be used in detailed analysis for new business models."
   },
   {
    "q": "A focus group typically consists of how many people with a moderator?",
@@ -352,7 +390,8 @@
     "2 to 4",
     "20 to 30",
     "50 or more"
-   ]
+   ],
+   "e": "A focus group is typically 8 to 12 people led by a moderator."
   },
   {
    "q": "The researcher gathers information by simply watching how a subject interacts with a product. This technique is:",
@@ -361,7 +400,8 @@
     "Survey",
     "Focus group",
     "In-depth interview"
-   ]
+   ],
+   "e": "Observation means watching how a subject interacts with a product."
   },
   {
    "q": "A one-on-one interview using probing questions to understand a person's product preferences is a(n):",
@@ -370,7 +410,8 @@
     "Focus group",
     "Survey",
     "Observation"
-   ]
+   ],
+   "e": "An in-depth interview is one-on-one with probing questions."
   },
   {
    "q": "Determining whether your product is of interest to a target market, usually before significant investment, is called:",
@@ -379,7 +420,8 @@
     "Market penetration",
     "Market segmentation",
     "Market share"
-   ]
+   ],
+   "e": "Market validation checks whether a target market is interested in your product, usually before significant investment."
   },
   {
    "q": "What is the FIRST of the 5 steps to determine market validation?",
@@ -388,7 +430,8 @@
     "Test your product or service",
     "Conduct customer validation interviews",
     "Assess market size and share"
-   ]
+   ],
+   "e": "Step 1 of market validation is writing down goals, assumptions and hypotheses."
   },
   {
    "q": "Which is the LAST of the 5 steps of market validation?",
@@ -397,7 +440,8 @@
     "Research search volume of related terms",
     "Assess market size and share",
     "Conduct customer validation interviews"
-   ]
+   ],
+   "e": "Step 5, the last step, is testing the product or service with alpha and beta testing."
   },
   {
    "q": "Testing by internal employees in a staged setting to eliminate bugs before outside users see the product is:",
@@ -406,7 +450,8 @@
     "Beta testing",
     "Market testing",
     "Focus testing"
-   ]
+   ],
+   "e": "Alpha testing uses internal employees in a staged setting to remove bugs before outsiders see the product."
   },
   {
    "q": "Testing by a limited group of real external users who are told to identify problems is:",
@@ -415,7 +460,8 @@
     "Alpha testing",
     "Unit testing",
     "Prototype testing"
-   ]
+   ],
+   "e": "Beta testing uses a limited group of real external users told to find problems."
   },
   {
    "q": "Which stage of the decision-making process comes right after \"Information search\"?",
@@ -424,7 +470,8 @@
     "Selection stage",
     "Problem or need recognition",
     "Evaluation of decision"
-   ]
+   ],
+   "e": "Information search is followed by evaluation of alternatives."
   },
   {
    "q": "The 5th and last stage of the decision-making process is:",
@@ -433,7 +480,8 @@
     "Selection stage",
     "Information search",
     "Problem or need recognition"
-   ]
+   ],
+   "e": "The five stages end with evaluation of the decision."
   },
   {
    "q": "The Business Model Canvas was proposed by:",
@@ -442,7 +490,8 @@
     "Clayton Christensen",
     "Alex Cowan",
     "Mark Zuckerberg"
-   ]
+   ],
+   "e": "Alexander Osterwalder proposed the Business Model Canvas (the slides also follow Alex Cowan's explanation)."
   },
   {
    "q": "How many building blocks does the Business Model Canvas have?",
@@ -451,7 +500,8 @@
     "7",
     "5",
     "12"
-   ]
+   ],
+   "e": "The Business Model Canvas has 9 building blocks."
   },
   {
    "q": "Which BMC block answers \"Who are the customers? What do they think, see, feel, do?\"",
@@ -460,7 +510,8 @@
     "Value propositions",
     "Channels",
     "Revenue streams"
-   ]
+   ],
+   "e": "Customer segments asks who the customers are and what they think, see, feel and do."
   },
   {
    "q": "A media property such as CNN.com with readers on one side and advertisers on the other is an example of a:",
@@ -469,7 +520,8 @@
     "Single-sided market",
     "Niche market",
     "Monopoly"
-   ]
+   ],
+   "e": "CNN.com serves readers and advertisers, which makes it a multi-sided market."
   },
   {
    "q": "Which BMC block is \"the value a company promises to deliver to customers should they choose to buy\"?",
@@ -478,7 +530,8 @@
     "Channels",
     "Key partnerships",
     "Cost structure"
-   ]
+   ],
+   "e": "The value proposition is the value the company promises to deliver to customers."
   },
   {
    "q": "Which is NOT one of the five phases of channels?",
@@ -487,7 +540,8 @@
     "Awareness",
     "Evaluation",
     "After sales"
-   ]
+   ],
+   "e": "The five channel phases are awareness, evaluation, purchase, delivery and after sales; production is not one."
   },
   {
    "q": "In the channel phases, \"word of mouth, social media, newspaper, television and flyers\" belong to which phase?",
@@ -496,7 +550,8 @@
     "Evaluation",
     "Purchase",
     "Delivery"
-   ]
+   ],
+   "e": "Word of mouth, social media, newspapers, TV and flyers are awareness channels."
   },
   {
    "q": "Which are the 3 benefits of good customer relationships listed in the slides?",
@@ -505,7 +560,8 @@
     "Profit, growth and fame",
     "Speed, price and quality",
     "Reach, frequency and recall"
-   ]
+   ],
+   "e": "Good customer relationships bring retention, loyalty and satisfaction."
   },
   {
    "q": "Which is NOT a way to generate revenue streams listed in the slides?",
@@ -514,7 +570,8 @@
     "Subscription fee",
     "Usage fee",
     "Advertising"
-   ]
+   ],
+   "e": "Crowdfunding is a way to raise startup capital, not one of the slide's revenue-stream types."
   },
   {
    "q": "Which BMC block asks \"What can the company not do so it can focus on its key activities?\"",
@@ -523,7 +580,8 @@
     "Key resources",
     "Key activities",
     "Cost structure"
-   ]
+   ],
+   "e": "The slide's key partnerships block is described as what the company will not do itself, so it can focus on key activities."
   },
   {
    "q": "A strategic alliance between competitors is called:",
@@ -532,7 +590,8 @@
     "Joint venture",
     "Buyer–supplier relationship",
     "Franchising"
-   ]
+   ],
+   "e": "Coopetition is cooperation between competitors, as listed under key partnerships."
   },
   {
    "q": "According to the slides, what percent of Google's revenue comes from advertising?",
@@ -541,7 +600,8 @@
     "50%",
     "75%",
     "33%"
-   ]
+   ],
+   "e": "The slide says 97% of Google's revenue comes from advertising."
   },
   {
    "q": "A cost structure focused on creating more value in the product rather than the lowest cost is:",
@@ -550,7 +610,8 @@
     "Cost-driven",
     "Price-driven",
     "Volume-driven"
-   ]
+   ],
+   "e": "Value-driven cost structures focus on creating more value in the product rather than the lowest cost."
   },
   {
    "q": "A cost structure focused on minimizing costs of the product or service is:",
@@ -559,7 +620,8 @@
     "Value-driven",
     "Brand-driven",
     "Partner-driven"
-   ]
+   ],
+   "e": "Cost-driven cost structures focus on minimizing the cost of the product or service."
   },
   {
    "q": "Which is NOT a type of key resource listed in the slides?",
@@ -568,7 +630,8 @@
     "Physical resources",
     "Intellectual resources",
     "Financial resources"
-   ]
+   ],
+   "e": "The key resource types are physical, intellectual, human and financial; political is not one."
   },
   {
    "q": "Patents, brands, copyrights and customer lists are what kind of key resources?",
@@ -577,7 +640,8 @@
     "Physical resources",
     "Human resources",
     "Financial resources"
-   ]
+   ],
+   "e": "Patents, brands, copyrights and customer lists are intellectual resources."
   },
   {
    "q": "Which is NOT one of the five types of intellectual property rights?",
@@ -586,7 +650,8 @@
     "Copyright",
     "Trade secrets",
     "Industrial design"
-   ]
+   ],
+   "e": "The five IP types are copyright, patents, trade secrets, trademarks and industrial design; a franchise is a business arrangement."
   },
   {
    "q": "Which IP right protects literary and artistic works, including computer programs and databases?",
@@ -595,7 +660,8 @@
     "Patent",
     "Trademark",
     "Trade secret"
-   ]
+   ],
+   "e": "Copyright protects literary and artistic works, including computer programs and databases."
   },
   {
    "q": "Which is NOT a right granted under copyright law?",
@@ -604,7 +670,8 @@
     "Reproduce the work",
     "Prepare derivative works",
     "Perform the work publicly"
-   ]
+   ],
+   "e": "Copyright rights cover reproducing, derivative works, distributing, and public performance and display; patenting is a different right."
   },
   {
    "q": "Patent applications in the Philippines are published in the:",
@@ -613,7 +680,8 @@
     "Official Gazette of the BIR",
     "SEC Bulletin",
     "DTI Journal"
-   ]
+   ],
+   "e": "Philippine patent applications are published in the IPO Gazette, where anyone may contest them."
   },
   {
    "q": "Which is NOT a type of patent mentioned in the slides?",
@@ -622,7 +690,8 @@
     "Utility patent",
     "Design patent",
     "Plant patent"
-   ]
+   ],
+   "e": "The slide patent types are utility, design and plant; a process falls under utility."
   },
   {
    "q": "A patent covering an original, new and ornamental design for a manufactured product is a:",
@@ -631,7 +700,8 @@
     "Utility patent",
     "Plant patent",
     "Basic patent"
-   ]
+   ],
+   "e": "A design patent covers an original, new and ornamental design."
   },
   {
    "q": "A practice or process generally unknown outside the company that gives an economic advantage is a:",
@@ -640,7 +710,8 @@
     "Patent",
     "Copyright",
     "Collective mark"
-   ]
+   ],
+   "e": "A trade secret is a practice or process not generally known outside the company that gives it an economic advantage."
   },
   {
    "q": "A special trademark that designates protection for services is a:",
@@ -649,7 +720,8 @@
     "Collective mark",
     "Certification mark",
     "Trade secret"
-   ]
+   ],
+   "e": "A service mark protects services, as distinct from products."
   },
   {
    "q": "A special trademark owned by an organization or association is a:",
@@ -658,7 +730,8 @@
     "Service mark",
     "Certification mark",
     "Design patent"
-   ]
+   ],
+   "e": "A collective mark is owned by an organization or association."
   },
   {
    "q": "A mark registered to ascertain adherence to local regulations is a:",
@@ -667,7 +740,8 @@
     "Collective mark",
     "Service mark",
     "Trademark"
-   ]
+   ],
+   "e": "A certification mark is registered to ascertain adherence to local regulations."
   },
   {
    "q": "The ornamental or aesthetic aspect of an article, including 3D shape or 2D patterns, is covered by:",
@@ -676,7 +750,8 @@
     "Utility patent",
     "Copyright",
     "Trade secret"
-   ]
+   ],
+   "e": "Industrial design protects the ornamental or aesthetic aspect of an article, in 3D shape or 2D patterns."
   },
   {
    "q": "Which investors make high-risk investments in early-stage ventures as individuals?",
@@ -685,7 +760,8 @@
     "Private equity firms",
     "Strategic investors",
     "Banks"
-   ]
+   ],
+   "e": "Angel investors are individuals making high-risk investments in early-stage ventures."
   },
   {
    "q": "Which investors invest in relatively mature ventures with a track record in a 1–5 year time frame?",
@@ -694,7 +770,8 @@
     "Angel investors",
     "Venture capital companies",
     "Public funding agencies"
-   ]
+   ],
+   "e": "Private equity firms invest in relatively mature ventures with a track record, on a 1–5 year time frame."
   },
   {
    "q": "Which source of funds offers the lowest cost of capital according to the slides?",
@@ -703,7 +780,8 @@
     "Angel investors",
     "Venture capital",
     "Crowdfunding"
-   ]
+   ],
+   "e": "The slides say banks offer the lowest cost of capital."
   },
   {
    "q": "Strategic investors are usually:",
@@ -712,7 +790,8 @@
     "Individual friends and family",
     "Government agencies",
     "Small online lenders"
-   ]
+   ],
+   "e": "Strategic investors are usually larger companies in the same industry."
   },
   {
    "q": "Which is NOT a way of raising capital for startups listed in the slides?",
@@ -721,7 +800,8 @@
     "Crowdfunding",
     "Friends and family",
     "Entering competitions"
-   ]
+   ],
+   "e": "The slide's capital-raising ways are self-funding, crowdfunding, friends and family, loans and competitions."
   },
   {
    "q": "Which is NOT a component of a small business financial plan?",
@@ -730,7 +810,8 @@
     "Income statement",
     "Balance sheet",
     "Break-even analysis"
-   ]
+   ],
+   "e": "Small-business financial plan components are statements, projections, ratios and break-even analysis; a marketing slogan is not one."
   },
   {
    "q": "Determining capital requirements and capital structure are objectives of:",
@@ -739,7 +820,8 @@
     "Market research",
     "Idea selection",
     "Elevator pitching"
-   ]
+   ],
+   "e": "Financial planning determines capital requirements and capital structure, among other objectives."
   },
   {
    "q": "A document that summarizes operational and financial objectives with detailed plans and budgets is a:",
@@ -748,7 +830,8 @@
     "Lean canvas",
     "Elevator pitch",
     "Value proposition"
-   ]
+   ],
+   "e": "A business plan summarizes operational and financial objectives with detailed plans and budgets."
   },
   {
    "q": "How many sections are in the business plan outline in the slides?",
@@ -757,7 +840,8 @@
     "5",
     "9",
     "10"
-   ]
+   ],
+   "e": "The business plan outline has 7 sections."
   },
   {
    "q": "Which section of the business plan comes FIRST?",
@@ -766,7 +850,8 @@
     "Company description",
     "Market analysis",
     "Financial plan"
-   ]
+   ],
+   "e": "The executive summary comes first in the outline."
   },
   {
    "q": "Which section is the LAST in the business plan outline?",
@@ -775,7 +860,8 @@
     "Management team",
     "Strategy and implementation",
     "Product or service"
-   ]
+   ],
+   "e": "The financial plan is the 7th and last section."
   },
   {
    "q": "How many blocks does the Lean Canvas have?",
@@ -784,7 +870,8 @@
     "5",
     "7",
     "12"
-   ]
+   ],
+   "e": "The Lean Canvas has 9 blocks."
   },
   {
    "q": "Which is a block of the Lean Canvas in the slides?",
@@ -793,7 +880,8 @@
     "Key partnerships",
     "Customer relationships",
     "Key resources"
-   ]
+   ],
+   "e": "Unfair advantage is a Lean Canvas block; key partnerships, customer relationships and key resources belong to the Business Model Canvas."
   },
   {
    "q": "An elevator pitch is usually how long?",
@@ -802,7 +890,8 @@
     "5 to 10 minutes",
     "15 to 20 minutes",
     "1 hour"
-   ]
+   ],
+   "e": "An elevator pitch is concise, usually 30 seconds to 2 minutes."
   },
   {
    "q": "What is the FIRST step of the 5-step elevator pitch?",
@@ -811,7 +900,8 @@
     "Identify the problem",
     "Announce your promise",
     "Offer proof and a plan"
-   ]
+   ],
+   "e": "Step 1 of the pitch is introducing yourself with your name, company and service."
   },
   {
    "q": "What is the LAST step of the 5-step elevator pitch?",
@@ -820,7 +910,8 @@
     "Offer proof and a plan",
     "Announce your promise",
     "Introduce yourself"
-   ]
+   ],
+   "e": "Step 5 is knowing when to stop and listen."
   },
   {
    "q": "Which of the three essential components of a pitch is the most important?",
@@ -829,7 +920,8 @@
     "Transition that interest",
     "Share a vision",
     "Close the sale"
-   ]
+   ],
+   "e": "Stimulating interest is the most important of the three pitch components."
   },
   {
    "q": "The \"100/20 Rule\" is associated with which pitch component?",
@@ -838,7 +930,8 @@
     "Stimulate interest",
     "Transition that interest",
     "Introduce yourself"
-   ]
+   ],
+   "e": "The 100/20 Rule backs the \"share a vision\" component, the value proposition."
   }
  ],
  "cards": [

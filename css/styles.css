@@ -116,6 +116,7 @@ details.pals summary{cursor:pointer;font-weight:600}
 .notice{border-radius:10px;padding:10px 14px;background:var(--soft);display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
 .feedback{margin-top:14px;padding:10px 14px;border-radius:10px;font-weight:600}
 .feedback.ok{background:var(--good-bg);color:var(--good)} .feedback.no{background:var(--bad-bg);color:var(--bad)}
+.expl{margin:8px 0 0;font-size:.95rem;color:var(--ink2);overflow-wrap:anywhere}
 
 /* cards */
 .flash{min-height:220px;display:flex;flex-direction:column;justify-content:center;gap:16px}
