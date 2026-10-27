@@ -792,6 +792,336 @@
     "LEN(*)"
    ],
    "d": "E"
+  },
+  {
+   "q": "Employees: (Ann, Sales, 30000) (Ben, Sales, 40000) (Cy, IT, 50000) (Di, IT, 70000) (Ed, HR, NULL). What does SELECT dept FROM Employees GROUP BY dept HAVING AVG(salary) > 45000 return?",
+   "a": "IT only",
+   "w": [
+    "Sales and IT",
+    "IT and HR",
+    "Sales, IT and HR"
+   ],
+   "d": "D",
+   "e": "Sales averages 35000 and IT averages 60000, so only IT passes. HR's AVG is NULL, so the comparison is unknown and the group is dropped."
+  },
+  {
+   "q": "Employees salaries: 30000, 40000, 50000, 70000 and NULL (5 rows). How many rows does SELECT * FROM Employees WHERE salary <> 40000 return?",
+   "a": "3",
+   "w": [
+    "4",
+    "5",
+    "2"
+   ],
+   "d": "D",
+   "e": "Only 30000, 50000 and 70000 satisfy the condition. The NULL row evaluates to unknown, not true, so it is excluded."
+  },
+  {
+   "q": "Table A has ids (1,2,3) and table B has ids (2,3,4). Which A ids does SELECT A.id FROM A LEFT JOIN B ON A.id = B.id WHERE B.id IS NULL return?",
+   "a": "1",
+   "w": [
+    "4",
+    "2 and 3",
+    "1 and 4"
+   ],
+   "d": "D",
+   "e": "The LEFT JOIN keeps all of A and fills B.id with NULL when no match exists; only id 1 has no match. Id 4 exists only in B and is never returned by a LEFT JOIN."
+  },
+  {
+   "q": "Query 1 returns the values 1, 2, 2, 3 and query 2 returns 2, 3, 3, 4. How many rows does Query 1 UNION ALL Query 2 return?",
+   "a": "8",
+   "w": [
+    "4",
+    "6",
+    "7"
+   ],
+   "d": "D",
+   "e": "UNION ALL keeps every row: 4 + 4 = 8. Plain UNION would remove duplicates and return the 4 distinct values 1, 2, 3, 4."
+  },
+  {
+   "q": "In relational algebra, a relation has 5 tuples whose dept values are Sales, Sales, IT, IT, HR. How many tuples does projecting onto dept return?",
+   "a": "3",
+   "w": [
+    "5",
+    "2",
+    "4"
+   ],
+   "d": "D",
+   "e": "A relation is a set, so projection (pi) eliminates duplicate tuples, leaving Sales, IT and HR. SQL's SELECT without DISTINCT would keep 5 rows."
+  },
+  {
+   "q": "A query such as 'find students enrolled in ALL courses' is expressed in relational algebra with which operator?",
+   "a": "Division",
+   "w": [
+    "Natural join",
+    "Intersection",
+    "Rename"
+   ],
+   "d": "D",
+   "e": "Division (÷) answers 'for all' queries by returning tuples related to every value in the divisor. A join only matches rows and does not test for coverage of a whole set."
+  },
+  {
+   "q": "Relation R(A, B, C) has A as its only candidate key. How many super keys does R have?",
+   "a": "4",
+   "w": [
+    "3",
+    "7",
+    "1"
+   ],
+   "d": "D",
+   "e": "Every super key must contain A: A, AB, AC and ABC, giving 2 x 2 = 4. The 7 would count all non-empty attribute subsets, most of which do not determine the row."
+  },
+  {
+   "q": "Which is NOT one of Armstrong's three axioms for functional dependencies?",
+   "a": "Decomposition",
+   "w": [
+    "Reflexivity",
+    "Augmentation",
+    "Transitivity"
+   ],
+   "d": "D",
+   "e": "Armstrong's axioms are reflexivity, augmentation and transitivity. Decomposition (X -> YZ implies X -> Y) is a rule derived from them."
+  },
+  {
+   "q": "Given FDs A -> B, B -> C and CD -> E on R(A, B, C, D, E), what is the closure A+?",
+   "a": "{A, B, C}",
+   "w": [
+    "{A, B}",
+    "{A, B, C, E}",
+    "{A, B, C, D, E}"
+   ],
+   "d": "D",
+   "e": "A gives B, and B gives C, but CD -> E needs D, which is not in the closure. So E is not reached and A+ = {A, B, C}."
+  },
+  {
+   "q": "R(StudentID, CourseID, StudentName, Grade) has key (StudentID, CourseID) and the FD StudentID -> StudentName. Assuming atomic values, what is the highest normal form R satisfies?",
+   "a": "1NF",
+   "w": [
+    "2NF",
+    "3NF",
+    "BCNF"
+   ],
+   "d": "D",
+   "e": "StudentName depends on only part of the composite key, a partial dependency, which violates 2NF. The relation is therefore only in 1NF."
+  },
+  {
+   "q": "R(EmpID, DeptID, DeptName) has key EmpID and the FD DeptID -> DeptName. What is the highest normal form R satisfies?",
+   "a": "2NF",
+   "w": [
+    "1NF",
+    "3NF",
+    "BCNF"
+   ],
+   "d": "D",
+   "e": "The key is a single attribute so no partial dependency is possible (2NF holds). DeptName depends on EmpID only through DeptID, a transitive dependency that violates 3NF."
+  },
+  {
+   "q": "A relation is in 3NF but not in BCNF. For the violating FD X -> Y, X is not a super key, so Y must be:",
+   "a": "A prime attribute (part of a candidate key)",
+   "w": [
+    "A non-prime attribute",
+    "A foreign key",
+    "A multivalued attribute"
+   ],
+   "d": "A",
+   "e": "3NF allows X -> Y if X is a super key or Y is prime; BCNF drops the prime-attribute exception. A non-prime Y would violate 3NF itself."
+  },
+  {
+   "q": "Which is the weakest SQL isolation level that prevents dirty reads?",
+   "a": "READ COMMITTED",
+   "w": [
+    "READ UNCOMMITTED",
+    "REPEATABLE READ",
+    "SERIALIZABLE"
+   ],
+   "d": "D",
+   "e": "Levels from weakest to strongest are READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE. READ COMMITTED is the first that stops reads of uncommitted data."
+  },
+  {
+   "q": "Two transactions read the same balance, each computes a new value and writes it back, so one write silently overwrites the other. This problem is a:",
+   "a": "Lost update",
+   "w": [
+    "Dirty read",
+    "Phantom read",
+    "Non-repeatable read"
+   ],
+   "d": "A",
+   "e": "A lost update is a write-write overwrite. A dirty read is reading uncommitted data; a phantom read is extra rows appearing in a repeated range query."
+  },
+  {
+   "q": "In two-phase locking, once a transaction has released its first lock it:",
+   "a": "Cannot acquire any new locks",
+   "w": [
+    "Must commit immediately",
+    "Must release all other locks at once",
+    "Can only acquire shared locks"
+   ],
+   "d": "D",
+   "e": "2PL has a growing phase (acquire only) followed by a shrinking phase (release only). The first release marks the start of shrinking, after which no new lock may be taken."
+  },
+  {
+   "q": "A deadlock is detected when the wait-for graph contains a:",
+   "a": "Cycle",
+   "w": [
+    "Node with two incoming edges",
+    "Node with two outgoing edges",
+    "Path of more than two edges"
+   ],
+   "d": "D",
+   "e": "A cycle means each transaction in it waits for another in the same loop, so none can proceed. The DBMS then rolls back a victim transaction."
+  },
+  {
+   "q": "Scores 90, 80, 80, 70 are ranked in descending order. What are RANK() and DENSE_RANK() for the score 70?",
+   "a": "4 and 3",
+   "w": [
+    "3 and 4",
+    "3 and 3",
+    "4 and 4"
+   ],
+   "d": "D",
+   "e": "RANK leaves a gap after the tie (1, 2, 2, 4) while DENSE_RANK does not (1, 2, 2, 3)."
+  },
+  {
+   "q": "What is the logical (processing) order of these clauses?",
+   "a": "WHERE, GROUP BY, HAVING, SELECT",
+   "w": [
+    "SELECT, WHERE, GROUP BY, HAVING",
+    "GROUP BY, WHERE, HAVING, SELECT",
+    "WHERE, HAVING, GROUP BY, SELECT"
+   ],
+   "d": "D",
+   "e": "Rows are filtered by WHERE, then grouped, then groups are filtered by HAVING, and SELECT is evaluated afterwards. The first option is the written order, not the execution order."
+  },
+  {
+   "q": "Employees salaries: 30000, 40000, 50000, 70000 and NULL (5 rows). How many rows does WHERE NOT (salary > 35000) return?",
+   "a": "1",
+   "w": [
+    "2",
+    "4",
+    "5"
+   ],
+   "d": "D",
+   "e": "Only 30000 makes the inner condition false so NOT makes it true. For the NULL row, NOT unknown is still unknown, so it is excluded."
+  },
+  {
+   "q": "Which statement is true of DELETE but not of TRUNCATE?",
+   "a": "It can use a WHERE clause to remove selected rows",
+   "w": [
+    "It is classified as DDL",
+    "It resets the identity counter",
+    "It removes the table structure"
+   ],
+   "d": "D",
+   "e": "DELETE is DML, works row by row with WHERE and can be rolled back. TRUNCATE is DDL and removes all rows at once, while only DROP removes the structure."
+  },
+  {
+   "q": "During a network partition, a distributed store refuses requests rather than risk returning stale data. Under the CAP theorem it has sacrificed:",
+   "a": "Availability",
+   "w": [
+    "Consistency",
+    "Partition tolerance",
+    "Durability"
+   ],
+   "d": "D",
+   "e": "Refusing to answer keeps data consistent (a CP choice) but gives up availability. Durability is not one of the CAP properties."
+  },
+  {
+   "q": "In an ER diagram, a weak entity is drawn as a double rectangle and tied to its owner by:",
+   "a": "A double diamond (identifying relationship)",
+   "w": [
+    "A double ellipse",
+    "A dashed ellipse",
+    "An underlined ellipse"
+   ],
+   "d": "A",
+   "e": "A weak entity has no key of its own and uses an identifying relationship shown as a double diamond. A double ellipse is a multivalued attribute and a dashed ellipse is a derived attribute."
+  },
+  {
+   "q": "Department and Employee have a 1:N relationship. In the relational schema the foreign key goes in:",
+   "a": "The Employee table",
+   "w": [
+    "The Department table",
+    "Both tables",
+    "A separate junction table"
+   ],
+   "d": "A",
+   "e": "A 1:N relationship puts the FK on the 'many' side, so Employee holds DeptID. A junction table is only needed for M:N."
+  },
+  {
+   "q": "Which OLAP operation selects values on two or more dimensions to produce a sub-cube?",
+   "a": "Dice",
+   "w": [
+    "Slice",
+    "Roll-up",
+    "Pivot"
+   ],
+   "d": "A",
+   "e": "Dice filters on several dimensions; slice fixes a single dimension value. Roll-up aggregates to a higher level and pivot rotates the view."
+  },
+  {
+   "q": "Which is NOT one of the four characteristics of a data warehouse in Bill Inmon's definition?",
+   "a": "Volatile",
+   "w": [
+    "Subject-oriented",
+    "Integrated",
+    "Time-variant"
+   ],
+   "d": "D",
+   "e": "A warehouse is subject-oriented, integrated, time-variant and non-volatile, meaning data is not changed once loaded. 'Volatile' is the opposite of the last property."
+  },
+  {
+   "q": "Who developed SEQUEL, the forerunner of SQL, at IBM for System R?",
+   "a": "Donald Chamberlin and Raymond Boyce",
+   "w": [
+    "Edgar Codd and Chris Date",
+    "Peter Chen and Charles Bachman",
+    "Michael Stonebraker and Larry Ellison"
+   ],
+   "d": "D",
+   "e": "Chamberlin and Boyce created SEQUEL in the 1970s. Codd proposed the relational model that inspired it."
+  },
+  {
+   "q": "Under write-ahead logging (WAL), what must reach stable storage before a modified data page is written to disk?",
+   "a": "The log records describing that change",
+   "w": [
+    "The next checkpoint record",
+    "A full backup of the database",
+    "The commit of every other transaction"
+   ],
+   "d": "D",
+   "e": "WAL requires the log record to be flushed first so the change can be undone or redone after a crash. Checkpoints and backups are separate recovery mechanisms."
+  },
+  {
+   "q": "A decomposition of a relation is lossless-join when:",
+   "a": "Joining the parts reproduces exactly the original relation",
+   "w": [
+    "Every functional dependency can be checked within a single part",
+    "Every resulting relation is in BCNF",
+    "No attribute appears in more than one part"
+   ],
+   "d": "D",
+   "e": "Lossless join means no spurious or missing tuples after rejoining. Checking each FD inside one part is dependency preservation, a separate property."
+  },
+  {
+   "q": "A parent row is deleted and the matching child rows stay but have their foreign key set to NULL. Which referential action is used?",
+   "a": "ON DELETE SET NULL",
+   "w": [
+    "ON DELETE CASCADE",
+    "ON DELETE RESTRICT",
+    "ON DELETE NO ACTION"
+   ],
+   "d": "A",
+   "e": "SET NULL keeps child rows and nulls the FK. CASCADE deletes the child rows, while RESTRICT and NO ACTION block the deletion."
+  },
+  {
+   "q": "A table has four candidate keys and one is chosen as the primary key. How many alternate keys does it have?",
+   "a": "3",
+   "w": [
+    "4",
+    "1",
+    "0"
+   ],
+   "d": "A",
+   "e": "Alternate keys are the candidate keys not chosen as the primary key, so 4 - 1 = 3."
   }
  ],
  "cards": [
@@ -1181,6 +1511,133 @@
    "a": "T-SQL",
    "alt": [
     "Transact-SQL"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What was SQL originally called when IBM developed it for System R?",
+   "a": "SEQUEL",
+   "alt": [
+    "Sequel"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which relational algebra operator is written with the Greek letter sigma?",
+   "a": "Selection",
+   "alt": [
+    "Select",
+    "Selection (rows)"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which Philippine agency regulates compliance with the Data Privacy Act of 2012?",
+   "a": "National Privacy Commission",
+   "alt": [
+    "NPC"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which DCL command, specific to SQL Server, explicitly blocks a permission?",
+   "a": "DENY",
+   "alt": [
+    "Deny"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who created the embedded database SQLite?",
+   "a": "D. Richard Hipp",
+   "alt": [
+    "Richard Hipp",
+    "Hipp"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the query language of the Neo4j graph database?",
+   "a": "Cypher",
+   "alt": [
+    "Cypher Query Language"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is Oracle's name for the EXCEPT set operator?",
+   "a": "MINUS",
+   "alt": [
+    "Minus"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which relational algebra operator, written with the symbol ÷, answers 'for all' queries?",
+   "a": "Division",
+   "alt": [
+    "Divide"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "A(1,2,3) LEFT JOIN B(2,3,4) on id produces how many rows?",
+   "a": "3",
+   "alt": [
+    "three"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is horizontal partitioning of a database across servers called?",
+   "a": "Sharding",
+   "alt": [
+    "Shard",
+    "Horizontal partitioning"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which normal form requires no non-trivial multivalued dependencies?",
+   "a": "4NF",
+   "alt": [
+    "Fourth Normal Form",
+    "Fourth normal form"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which computer scientist is credited with the CAP theorem?",
+   "a": "Eric Brewer",
+   "alt": [
+    "Brewer"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which OLAP operation selects on two or more dimensions to create a sub-cube?",
+   "a": "Dice",
+   "alt": [
+    "Dicing"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which window function leaves gaps in the ranking after ties?",
+   "a": "RANK",
+   "alt": [
+    "RANK()",
+    "Rank"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which approach to data warehouse design is Ralph Kimball associated with?",
+   "a": "Dimensional modeling",
+   "alt": [
+    "Dimensional modelling",
+    "Dimensional model",
+    "Dimensional"
    ]
   }
  ]

@@ -472,6 +472,325 @@
     "Always 4"
    ],
    "d": "A"
+  },
+  {
+   "q": "What is the maximum speed of USB 2.0?",
+   "a": "480 Mbps",
+   "w": [
+    "5 Gbps",
+    "10 Gbps",
+    "40 Gbps"
+   ],
+   "d": "A",
+   "e": "USB 2.0 tops out at 480 Mbps. 5 Gbps is USB 3.0/3.1 Gen1, 10/20 Gbps is USB 3.2, and 40 Gbps is USB4."
+  },
+  {
+   "q": "USB 3.0 (also called USB 3.1 Gen1) runs at up to:",
+   "a": "5 Gbps",
+   "w": [
+    "480 Mbps",
+    "10 Gbps",
+    "40 Gbps"
+   ],
+   "d": "D",
+   "e": "USB 3.0/3.1 Gen1 is 5 Gbps. 480 Mbps is USB 2.0; 10 Gbps is the lower USB 3.2 tier."
+  },
+  {
+   "q": "How many rows does a modern Excel worksheet (.xlsx) have?",
+   "a": "1,048,576",
+   "w": [
+    "65,536",
+    "1,000,000",
+    "16,384"
+   ],
+   "d": "D",
+   "e": "A modern sheet has 2^20 = 1,048,576 rows by 16,384 columns (A to XFD). 16,384 is the column count, not rows."
+  },
+  {
+   "q": "Colossus (UK, 1943-44) was built mainly for:",
+   "a": "Code-breaking",
+   "w": [
+    "Census tabulation",
+    "Payroll processing",
+    "Weather forecasting"
+   ],
+   "d": "A",
+   "e": "Colossus was a British code-breaking machine. Census tabulation is Hollerith's 1890 machine."
+  },
+  {
+   "q": "The Manchester Baby, one of the first stored-program machines, ran in:",
+   "a": "1948",
+   "w": [
+    "1945",
+    "1949",
+    "1951"
+   ],
+   "d": "D",
+   "e": "The Manchester Baby dates from 1948. EDSAC followed in 1949, and UNIVAC I (commercial) came in 1951."
+  },
+  {
+   "q": "The first computer 'bug' (a moth) was found in 1947 in which machine?",
+   "a": "Harvard Mark II",
+   "w": [
+    "Harvard Mark I",
+    "ENIAC",
+    "UNIVAC I"
+   ],
+   "d": "D",
+   "e": "The moth was found in the Mark II by Grace Hopper's team. Mark I (1944, Howard Aiken) is the earlier, different machine."
+  },
+  {
+   "q": "Which Leibniz machine (1672-73) could add, subtract, multiply and divide?",
+   "a": "Stepped Reckoner",
+   "w": [
+    "Pascaline",
+    "Difference Engine",
+    "Jacquard loom"
+   ],
+   "d": "D",
+   "e": "Leibniz's Stepped Reckoner handled all four operations. Pascal's Pascaline (1642) was a mechanical adder."
+  },
+  {
+   "q": "In the OS generations in the notes, the 2nd generation (1955-65) is characterized by:",
+   "a": "Transistors and batch processing",
+   "w": [
+    "Vacuum tubes and plugboards",
+    "ICs and multiprogramming",
+    "Personal computers"
+   ],
+   "d": "D",
+   "e": "OS generation 2 is transistors and batch systems. Vacuum tubes/plugboards is gen 1; ICs with multiprogramming/spooling/timesharing is gen 3."
+  },
+  {
+   "q": "Which was the first popular microcomputer kit (1975)?",
+   "a": "Altair 8800",
+   "w": [
+    "Apple I",
+    "Apple II",
+    "IBM PC"
+   ],
+   "d": "A",
+   "e": "The Altair 8800 (1975) was the first popular microcomputer kit. Apple I came in 1976, Apple II in 1977, IBM PC in 1981."
+  },
+  {
+   "q": "Which lists these in order from earliest to latest release?",
+   "a": "Altair 8800, Apple I, IBM PC, Macintosh",
+   "w": [
+    "Apple I, Altair 8800, IBM PC, Macintosh",
+    "Altair 8800, Apple I, Macintosh, IBM PC",
+    "Apple I, Altair 8800, Macintosh, IBM PC"
+   ],
+   "d": "D",
+   "e": "Altair 8800 (1975), Apple I (1976), IBM PC (1981), Macintosh (1984)."
+  },
+  {
+   "q": "Who made the first handheld cell phone call (1973) while at Motorola?",
+   "a": "Martin Cooper",
+   "w": [
+    "Ray Tomlinson",
+    "Vint Cerf",
+    "Gordon Moore"
+   ],
+   "d": "A",
+   "e": "Martin Cooper of Motorola made the first handheld cellular call in 1973. Ray Tomlinson is the email @ pioneer."
+  },
+  {
+   "q": "By Moore's Law (doubling every 2 years), a chip with 2,000 transistors would have about how many after 10 years?",
+   "a": "64,000",
+   "w": [
+    "20,000",
+    "32,000",
+    "128,000"
+   ],
+   "d": "D",
+   "e": "10 years is 5 doublings, so 2,000 x 2^5 = 64,000. 32,000 would be only 4 doublings."
+  },
+  {
+   "q": "Roughly how many single-layer DVDs (4.7 GB) are needed to hold the contents of one full single-layer Blu-ray (25 GB)?",
+   "a": "6",
+   "w": [
+    "3",
+    "4",
+    "8"
+   ],
+   "d": "D",
+   "e": "25 / 4.7 is about 5.3, so 6 discs are needed (5 would only hold 23.5 GB)."
+  },
+  {
+   "q": "What is 10110110 (binary) in decimal?",
+   "a": "182",
+   "w": [
+    "174",
+    "186",
+    "190"
+   ],
+   "d": "D",
+   "e": "128 + 32 + 16 + 4 + 2 = 182."
+  },
+  {
+   "q": "What is hexadecimal 0x2F in decimal?",
+   "a": "47",
+   "w": [
+    "37",
+    "57",
+    "63"
+   ],
+   "d": "D",
+   "e": "2 x 16 + 15 (F = 15) = 47."
+  },
+  {
+   "q": "What is binary 11010110 in hexadecimal?",
+   "a": "D6",
+   "w": [
+    "B6",
+    "6D",
+    "D9"
+   ],
+   "d": "D",
+   "e": "Group by 4 bits: 1101 = D and 0110 = 6, so D6. 6D swaps the nibbles."
+  },
+  {
+   "q": "In 8-bit two's complement, -5 is represented as:",
+   "a": "11111011",
+   "w": [
+    "11111010",
+    "10000101",
+    "11111101"
+   ],
+   "d": "D",
+   "e": "+5 = 00000101; invert to 11111010 and add 1 to get 11111011. 11111010 is only the inverted (one's complement) form and 10000101 is sign-magnitude."
+  },
+  {
+   "q": "What is the range of a 16-bit signed (two's complement) integer?",
+   "a": "-32,768 to 32,767",
+   "w": [
+    "-32,767 to 32,768",
+    "0 to 65,535",
+    "-65,536 to 65,535"
+   ],
+   "d": "D",
+   "e": "The n-bit signed range is -2^(n-1) to 2^(n-1)-1, so -32,768 to 32,767. 0 to 65,535 is the unsigned range."
+  },
+  {
+   "q": "Given 'A' = 65 and 'a' = 97 in ASCII, what is the code of 'd'?",
+   "a": "100",
+   "w": [
+    "68",
+    "101",
+    "103"
+   ],
+   "d": "D",
+   "e": "'d' is 3 letters after 'a', so 97 + 3 = 100. 68 is uppercase 'D'."
+  },
+  {
+   "q": "Extended ASCII uses 8 bits and so defines up to how many characters?",
+   "a": "256",
+   "w": [
+    "128",
+    "512",
+    "65,536"
+   ],
+   "d": "A",
+   "e": "2^8 = 256. Standard 7-bit ASCII defines 128."
+  },
+  {
+   "q": "Which of these cannot be a valid octal number?",
+   "a": "5389",
+   "w": [
+    "1750",
+    "3047",
+    "7261"
+   ],
+   "d": "D",
+   "e": "Octal digits are 0-7 only, so the digits 8 and 9 in 5389 make it invalid. The others use only 0-7."
+  },
+  {
+   "q": "Which of the following is NOT system software?",
+   "a": "Point-of-sale (POS) software",
+   "w": [
+    "Device driver",
+    "Antivirus utility",
+    "Firmware"
+   ],
+   "d": "D",
+   "e": "POS, like ERP and CRM, is application software. Drivers, utilities such as antivirus, and firmware are system software."
+  },
+  {
+   "q": "Prolog is classified as which programming-language generation?",
+   "a": "5GL",
+   "w": [
+    "4GL",
+    "3GL",
+    "2GL"
+   ],
+   "d": "A",
+   "e": "Prolog is constraint/AI based, a 5GL. SQL and MATLAB are 4GL; C and Java are 3GL."
+  },
+  {
+   "q": "Which information system gives senior managers 'what-if' projections for decisions?",
+   "a": "DSS",
+   "w": [
+    "MIS",
+    "TPS",
+    "PCS"
+   ],
+   "d": "D",
+   "e": "A Decision Support System supports what-if analysis. MIS gives middle managers periodic performance reports."
+  },
+  {
+   "q": "Which information system produces periodic performance reports (sales, inventory, budgeting) for middle managers?",
+   "a": "MIS",
+   "w": [
+    "DSS",
+    "TPS",
+    "EDMS"
+   ],
+   "d": "D",
+   "e": "MIS serves middle management with periodic reports. TPS handles operational transactions and DSS provides what-if projections."
+  },
+  {
+   "q": "Which is NOT one of the three sources of IT projects?",
+   "a": "Training",
+   "w": [
+    "Problem",
+    "Opportunity",
+    "Directive"
+   ],
+   "d": "D",
+   "e": "IT projects arise from a Problem, an Opportunity, or a Directive."
+  },
+  {
+   "q": "Which raster image format is limited to 256 colors but supports animation?",
+   "a": "GIF",
+   "w": [
+    "PNG",
+    "JPEG",
+    "BMP"
+   ],
+   "d": "D",
+   "e": "GIF has a 256-color palette and animation. PNG is lossless with transparency, JPEG is lossy, and BMP is raw."
+  },
+  {
+   "q": "Which connector is used for telephone lines?",
+   "a": "RJ-11",
+   "w": [
+    "RJ-45",
+    "PS/2",
+    "eSATA"
+   ],
+   "d": "A",
+   "e": "RJ-11 is the phone connector. RJ-45 is the Ethernet connector."
+  },
+  {
+   "q": "The TOP500 supercomputer ranking is refreshed twice a year, in:",
+   "a": "June and November",
+   "w": [
+    "March and September",
+    "January and July",
+    "April and October"
+   ],
+   "d": "A",
+   "e": "TOP500 lists are published each June and November."
   }
  ],
  "cards": [
@@ -829,6 +1148,130 @@
    "q": "Which type of memory is both fast and used for CPU cache: SRAM or DRAM?",
    "a": "SRAM",
    "alt": []
+  },
+  {
+   "d": "D",
+   "q": "How many rows does a modern Excel worksheet have?",
+   "a": "1,048,576",
+   "alt": [
+    "1048576",
+    "2^20"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the label of the last column in a modern Excel worksheet (16,384th)?",
+   "a": "XFD",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the name of Leibniz's calculator that could add, subtract, multiply and divide?",
+   "a": "Stepped Reckoner",
+   "alt": [
+    "Leibniz wheel"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the maximum speed of USB 2.0 in Mbps?",
+   "a": "480",
+   "alt": [
+    "480 Mbps"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the approximate range of NFC in centimeters?",
+   "a": "4",
+   "alt": [
+    "4 cm",
+    "4cm",
+    "about 4 cm"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "List the four steps of the machine cycle in order.",
+   "a": "Fetch, Decode, Execute, Store",
+   "alt": [
+    "fetch decode execute store",
+    "fetch-decode-execute-store"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Add the binary numbers 1101 and 0111.",
+   "a": "10100",
+   "alt": [
+    "10100₂",
+    "010100"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "How is -1 written in 8-bit two's complement?",
+   "a": "11111111",
+   "alt": [
+    "1111 1111"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the ASCII code of the space character?",
+   "a": "32",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "In which machine (1947) was the first computer 'bug', a moth, found?",
+   "a": "Harvard Mark II",
+   "alt": [
+    "Mark II"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which programming-language generation does Prolog belong to?",
+   "a": "5GL",
+   "alt": [
+    "fifth generation",
+    "5th generation"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which information system gives middle managers periodic performance reports?",
+   "a": "MIS",
+   "alt": [
+    "Management Information System"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What are the three sources of IT projects?",
+   "a": "Problem, Opportunity, Directive",
+   "alt": [
+    "problem opportunity directive",
+    "problems, opportunities, directives"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "By type of data handled, which class of computer do ICU monitors and gas pumps belong to?",
+   "a": "Hybrid",
+   "alt": [
+    "hybrid computer"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who created Ethereum?",
+   "a": "Vitalik Buterin",
+   "alt": [
+    "Buterin",
+    "Vitalik"
+   ]
   }
  ]
 }

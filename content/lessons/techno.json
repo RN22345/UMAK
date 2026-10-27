@@ -1025,6 +1025,446 @@
    ],
    "e": "The 100/20 Rule is associated with the share a vision component (the value proposition). The closest confusion is stimulate interest, the other component the options name.",
    "d": "D"
+  },
+  {
+   "q": "In the slide's list of 10 principles for sustainable innovation, which principle comes immediately after Ownership?",
+   "a": "Value creation",
+   "w": [
+    "Accountability",
+    "Training and coaching",
+    "Idea management"
+   ],
+   "d": "D",
+   "e": "The order is Inspire, No risk no innovation, New product process, Ownership, Value creation, then Accountability (6th)."
+  },
+  {
+   "q": "Which principle of sustainable innovation covers hiring, staffing training and continuous coaching?",
+   "a": "Training and coaching",
+   "w": [
+    "Idea management",
+    "Ownership",
+    "New product process"
+   ],
+   "d": "D",
+   "e": "Training and coaching is principle 7. Idea management (8) is about valuing customers' and sales members' input."
+  },
+  {
+   "q": "Which principle of sustainable innovation says to value customers' and sales members' input through brainstorming?",
+   "a": "Idea management",
+   "w": [
+    "Observe and measure",
+    "Inspire",
+    "Value creation"
+   ],
+   "d": "D",
+   "e": "Idea management is principle 8. Observe and measure (9) is about tracking results such as ROI."
+  },
+  {
+   "q": "How many principles for sustainable innovation are listed in the slides?",
+   "a": "10",
+   "w": [
+    "8",
+    "9",
+    "12"
+   ],
+   "d": "A",
+   "e": "The slides list 10 principles, from Inspire to Net result and reward."
+  },
+  {
+   "q": "Which is NOT one of the 10 idea-presentation styles in the slides?",
+   "a": "Infographic",
+   "w": [
+    "Photo-only",
+    "Immersive",
+    "Props"
+   ],
+   "d": "D",
+   "e": "The styles are storytelling, musical, video, photo-only, immersive, question, demonstrative, humorous, animated and props."
+  },
+  {
+   "q": "Which is NOT one of the 7 ways to generate revenue listed in the slides?",
+   "a": "Franchise fees",
+   "w": [
+    "Brokerage fees",
+    "Lending, renting or leasing",
+    "Volume and unit selling"
+   ],
+   "d": "D",
+   "e": "The seven are sale of physical product, usage fee, subscription fee, lending/renting/leasing, brokerage fees, advertising, and volume and unit selling."
+  },
+  {
+   "q": "How many ways to generate revenue does the slide list under revenue streams?",
+   "a": "7",
+   "w": [
+    "5",
+    "6",
+    "9"
+   ],
+   "d": "A",
+   "e": "Seven ways are listed, from sale of a physical product to volume and unit selling."
+  },
+  {
+   "q": "Which is NOT one of the four key-activity groups in the Business Model Canvas slides?",
+   "a": "Human resources management",
+   "w": [
+    "Production",
+    "Marketing",
+    "Research and development"
+   ],
+   "d": "D",
+   "e": "The four groups are R&D, production, marketing, and sales and customer services."
+  },
+  {
+   "q": "Product and process selection, capacity, inventory and machine maintenance belong to which key-activity group?",
+   "a": "Production",
+   "w": [
+    "Research and development",
+    "Marketing",
+    "Sales and customer services"
+   ],
+   "d": "D",
+   "e": "These are listed under production. R&D covers new product research, existing product updates, quality checks and innovation."
+  },
+  {
+   "q": "Handling problems, assisting sales and clerical tasks belong to which key-activity group?",
+   "a": "Sales and customer services",
+   "w": [
+    "Marketing",
+    "Production",
+    "Research and development"
+   ],
+   "d": "D",
+   "e": "Sales and customer services covers handling problems, assisting sales and clerical tasks. Marketing covers strategy, research, communications and events."
+  },
+  {
+   "q": "Which investors have a mandate to fund ventures for economic, environmental, cultural or social-policy objectives?",
+   "a": "Public funding agencies",
+   "w": [
+    "Strategic investors",
+    "Angel investors",
+    "Venture capital companies"
+   ],
+   "d": "D",
+   "e": "Public funding agencies fund ventures for policy objectives and suit the early stage. Venture capital firms instead chase high returns on high-risk ventures."
+  },
+  {
+   "q": "Which is NOT one of the 6 types of investors in the slides?",
+   "a": "Business incubators",
+   "w": [
+    "Banks",
+    "Angel investors",
+    "Private equity firms"
+   ],
+   "d": "A",
+   "e": "The six are angel investors, public funding agencies, venture capital companies, private equity firms, strategic investors and banks."
+  },
+  {
+   "q": "Which financial-plan objective covers cash control, lending and borrowing?",
+   "a": "Frame financial policies",
+   "w": [
+    "Determine capital requirements",
+    "Determine capital structure",
+    "Use scarce funds at least cost for maximum ROI"
+   ],
+   "d": "D",
+   "e": "Framing financial policies covers cash control, lending and borrowing. Capital requirements are short and long term needs."
+  },
+  {
+   "q": "Determining the kind and proportion of capital is which objective of the financial plan?",
+   "a": "Determine capital structure",
+   "w": [
+    "Determine capital requirements",
+    "Frame financial policies",
+    "Maximize use of scarce funds"
+   ],
+   "d": "D",
+   "e": "Capital structure is the kind and proportion of capital; capital requirements are the short- and long-term amounts needed."
+  },
+  {
+   "q": "Which is NOT among the 6 listed points on the importance of a financial plan?",
+   "a": "Guarantees approval of every loan",
+   "w": [
+    "Ensures adequate funds",
+    "Reduces uncertainties from market trends",
+    "Supports growth and expansion programs"
+   ],
+   "d": "D",
+   "e": "The slide's points include adequate funds, inflow/outflow balance, investor preference for planners, growth programs, reduced uncertainty, and stability and profitability."
+  },
+  {
+   "q": "How many components of a small-business financial plan are listed in the slides?",
+   "a": "8",
+   "w": [
+    "6",
+    "7",
+    "10"
+   ],
+   "d": "A",
+   "e": "The eight include income statement, balance sheet, personnel plan, business ratios, cash-flow projection, income projections, assets and liabilities, and break-even analysis."
+  },
+  {
+   "q": "Which is NOT one of the 4 reasons for the importance of a business plan?",
+   "a": "Reduce taxes",
+   "w": [
+    "Raise money",
+    "Identify potential weaknesses",
+    "Communicate your idea with stakeholders"
+   ],
+   "d": "A",
+   "e": "The four are raise money, make sound decisions, identify potential weaknesses and communicate your idea with stakeholders."
+  },
+  {
+   "q": "Which is the last of the 10 benefits of a business plan listed in the slides?",
+   "a": "Realistic regular reminders",
+   "w": [
+    "Metrics",
+    "Milestones",
+    "Strategic alignment"
+   ],
+   "d": "D",
+   "e": "The list ends with strategic alignment, milestones, metrics and then realistic regular reminders."
+  },
+  {
+   "q": "Which is NOT one of the 4 final tips for the pitch?",
+   "a": "Memorize every word",
+   "w": [
+    "Take your time",
+    "Make it conversational",
+    "Avoid niche words and phrases"
+   ],
+   "d": "D",
+   "e": "The tips are take your time, make it conversational, avoid niche words and phrases, and express confidence."
+  },
+  {
+   "q": "In the 5-step pitch, which step comes immediately after identifying the problem your company solves?",
+   "a": "Announce your promise",
+   "w": [
+    "Offer proof and a plan",
+    "Introduce yourself",
+    "Know when to stop and listen"
+   ],
+   "d": "D",
+   "e": "The order is introduce yourself, identify the problem, announce your promise, offer proof and a plan, then know when to stop and listen."
+  },
+  {
+   "q": "Which pitch component addresses pain, fear or guilt and depends on logic?",
+   "a": "Transition that interest",
+   "w": [
+    "Stimulate interest",
+    "Share a vision",
+    "Announce your promise"
+   ],
+   "d": "D",
+   "e": "Transitioning interest addresses pain, fear or guilt. Stimulating interest is the most important component; sharing a vision uses the 100/20 Rule."
+  },
+  {
+   "q": "In the slide's Lean Canvas, which block comes right after Problem?",
+   "a": "Customer Segments",
+   "w": [
+    "Solution",
+    "Unique Value Proposition",
+    "Key Activity"
+   ],
+   "d": "D",
+   "e": "The slide order is Problem, Customer Segments, Unique Value Proposition, Solution, Key Activity, Channels, Cost Structure, Revenue Streams, Unfair Advantage."
+  },
+  {
+   "q": "In the slide's Lean Canvas, which block is fifth?",
+   "a": "Key Activity",
+   "w": [
+    "Key Resources",
+    "Key Partnerships",
+    "Channels"
+   ],
+   "d": "D",
+   "e": "Fifth is Key Activity, after Solution; the slide uses it where Ash Maurya's original has Key Metrics."
+  },
+  {
+   "q": "Which Lean Canvas block has no counterpart among the Business Model Canvas's blocks?",
+   "a": "Problem",
+   "w": [
+    "Customer Segments",
+    "Channels",
+    "Revenue Streams"
+   ],
+   "d": "D",
+   "e": "Problem (with Solution and Unfair Advantage) is unique to the Lean Canvas; the other options are blocks in both canvases."
+  },
+  {
+   "q": "Personas, single- versus multi-sided markets and current alternatives are discussed under which BMC block?",
+   "a": "Customer Segments",
+   "w": [
+    "Value Propositions",
+    "Customer Relationships",
+    "Channels"
+   ],
+   "d": "A",
+   "e": "Customer Segments covers who the customers are, personas, problems, needs, habits and alternatives."
+  },
+  {
+   "q": "Which is NOT among the value proposition examples listed in the slides?",
+   "a": "Geographic coverage",
+   "w": [
+    "Brand or status",
+    "Risk reduction",
+    "Convenience"
+   ],
+   "d": "D",
+   "e": "Listed examples include newness, performance, customization, design, brand/status, price, cost reduction, risk reduction and convenience."
+  },
+  {
+   "q": "Self-checkout, credit card and cash on delivery are examples of which channel phase?",
+   "a": "Purchase",
+   "w": [
+    "Evaluation",
+    "Delivery",
+    "After sales"
+   ],
+   "d": "A",
+   "e": "They are purchase-phase channels. Delivery is over-the-counter or door-to-door; after sales is call center, return policy and assistance."
+  },
+  {
+   "q": "Which three core business types does the BMC propose in the slide wording?",
+   "a": "Product, scope and infrastructure",
+   "w": [
+    "Product, price and promotion",
+    "Customer, product and finance",
+    "Infrastructure, customer and finance"
+   ],
+   "d": "D",
+   "e": "The slide wording lists product, scope and infrastructure as the three core business types."
+  },
+  {
+   "q": "Which test may be opened to the public with an \"unfinished\" notice?",
+   "a": "Beta testing",
+   "w": [
+    "Alpha testing",
+    "Concept testing",
+    "Test marketing"
+   ],
+   "d": "D",
+   "e": "Beta testing uses real external users and may be public with an unfinished notice. Alpha testing is internal, by employees in a staged setting."
+  },
+  {
+   "q": "The \"240 monthly searches\" for \"best mattress for lower back pain sufferers\" (per Moz) supports which market-validation step?",
+   "a": "Research search volume of related terms",
+   "w": [
+    "Assess market size and share",
+    "Conduct customer validation interviews",
+    "Write down goals, assumptions and hypotheses"
+   ],
+   "d": "D",
+   "e": "Step 3 researches search volume. Casper mattresses is the example for step 2, market size and share."
+  },
+  {
+   "q": "The slide contrasts the iPod's 160 GB, 1.8-inch drive with an average 3.5-inch drive of what capacity?",
+   "a": "40 GB",
+   "w": [
+    "20 GB",
+    "80 GB",
+    "120 GB"
+   ],
+   "d": "D",
+   "e": "The average 3.5-inch drive in the slide held 40 GB, versus the iPod's 160 GB in a 1.8-inch drive."
+  },
+  {
+   "q": "Which definition of technopreneur is credited to Sarimah Hanim and Abd. Rashid (2008)?",
+   "a": "An entrepreneur involved in technological changes in producing goods or services for his organization",
+   "w": [
+    "An entrepreneur who uses cutting-edge technology to develop a new business",
+    "An entrepreneur who only sells technology products",
+    "An investor who funds technology startups"
+   ],
+   "d": "D",
+   "e": "The cutting-edge technology definition belongs to Daniel Mankani (2003); Sarimah Hanim and Abd. Rashid stress technological changes in producing goods or services."
+  },
+  {
+   "q": "Who described innovation as a process of multiple activities by multiple actors in which new combinations of means and ends are developed, implemented and transferred?",
+   "a": "Joerg Gemuenden",
+   "w": [
+    "Clayton Christensen",
+    "Barack Obama",
+    "Alex Cowan"
+   ],
+   "d": "D",
+   "e": "This is Joerg Gemuenden's description. Barack Obama's quote instead describes innovation as creating something that improves the way we live our lives."
+  },
+  {
+   "q": "Which Clayton Christensen book is the follow-up to The Innovator's Dilemma?",
+   "a": "The Innovator's Solution",
+   "w": [
+    "The Lean Startup",
+    "Business Model Generation",
+    "The Innovator's Handbook"
+   ],
+   "d": "A",
+   "e": "The Innovator's Solution followed The Innovator's Dilemma (1997)."
+  },
+  {
+   "q": "Which is NOT one of the three basic requirements of a patent in the slides?",
+   "a": "Commercially profitable",
+   "w": [
+    "Novel",
+    "Inventive",
+    "Industrially applicable"
+   ],
+   "d": "D",
+   "e": "A patentable invention must be novel, inventive and industrially applicable; profitability is not a requirement."
+  },
+  {
+   "q": "Which is NOT one of the three conditions for a trade secret in the slides?",
+   "a": "It is registered and published in the IPO Gazette",
+   "w": [
+    "It is not public",
+    "Its secrecy gives an economic benefit",
+    "Its secrecy is actively protected"
+   ],
+   "d": "D",
+   "e": "A trade secret is not public, its secrecy gives economic benefit, and it is actively protected. Publication in the IPO Gazette applies to patent applications."
+  },
+  {
+   "q": "In the copyright application steps, what comes right after filling out the form?",
+   "a": "Attach a copy of the work",
+   "w": [
+    "Pay the filing fee at the IPO",
+    "Publish in the IPO Gazette",
+    "Submit drawings and descriptions"
+   ],
+   "d": "D",
+   "e": "The sequence is fill out the form, attach a copy of the work, then pay the filing fee at the IPO. Drawings and Gazette publication are for patents."
+  },
+  {
+   "q": "A process, article, machine or composition of matter is covered by which type of patent?",
+   "a": "Utility patent",
+   "w": [
+    "Design patent",
+    "Plant patent",
+    "Industrial design"
+   ],
+   "d": "D",
+   "e": "Utility patents cover process, article, machine and composition of matter. Design patents cover ornamental designs; plant patents cover new reproducible plants."
+  },
+  {
+   "q": "Patterns, lines and color of an article are which kind of industrial design?",
+   "a": "2D",
+   "w": [
+    "3D",
+    "Utility",
+    "Plant"
+   ],
+   "d": "A",
+   "e": "2D industrial design covers patterns, lines and color; 3D covers shape and surface."
+  },
+  {
+   "q": "Maps, technical drawings and advertisements are protected by which IP right?",
+   "a": "Copyright",
+   "w": [
+    "Patent",
+    "Trademark",
+    "Trade secret"
+   ],
+   "d": "A",
+   "e": "Copyright covers literary and artistic works including maps, technical drawings and ads."
   }
  ],
  "cards": [
@@ -1402,6 +1842,159 @@
    "q": "What are the 3 essential components of a pitch?",
    "a": "Stimulate interest, transition that interest, share a vision",
    "alt": []
+  },
+  {
+   "d": "A",
+   "q": "How many principles for sustainable innovation does the slide list?",
+   "a": "10",
+   "alt": [
+    "ten"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which sustainable-innovation principle says the business leader owns the new products?",
+   "a": "Ownership",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which sustainable-innovation principle involves tracking results such as ROI when releasing new products?",
+   "a": "Observe and measure",
+   "alt": [
+    "observe & measure"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "How many idea-presentation styles are listed in the slides?",
+   "a": "10",
+   "alt": [
+    "ten"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which sustainable-innovation principle calls for a leader who can inspire others?",
+   "a": "Inspire",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What are the four groups of key activities in the BMC?",
+   "a": "R&D, production, marketing, sales and customer services",
+   "alt": [
+    "research and development, production, marketing, sales and customer services"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "How many ways to generate revenue are listed in the slides?",
+   "a": "7",
+   "alt": [
+    "seven"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What are the four types of key resources in the BMC?",
+   "a": "Physical, intellectual, human, financial",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What three core business types does the BMC propose in the slide wording?",
+   "a": "Product, scope, infrastructure",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What are the six types of investors in the slides?",
+   "a": "Angel, public funding agencies, venture capital, private equity, strategic, banks",
+   "alt": [
+    "angel investors, public funding agencies, venture capital companies, private equity firms, strategic investors, banks"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which type of investor is defined by intent and usually consists of larger companies in the same industry?",
+   "a": "Strategic investors",
+   "alt": [
+    "strategic",
+    "strategic investor"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which block does the slide's Lean Canvas use where Ash Maurya's original has Key Metrics?",
+   "a": "Key Activity",
+   "alt": [
+    "key activities"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What type of patent covers a new reproducible plant?",
+   "a": "Plant patent",
+   "alt": [
+    "plant"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which IP right requires that the information is not public, its secrecy gives economic benefit, and the secrecy is actively protected?",
+   "a": "Trade secret",
+   "alt": [
+    "trade secrets"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What are the three basic requirements of a patent?",
+   "a": "Novel, inventive, industrially applicable",
+   "alt": [
+    "novelty, inventive step, industrial applicability"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "How many components does a small-business financial plan have in the slides?",
+   "a": "8",
+   "alt": [
+    "eight"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What are the four final tips for the pitch?",
+   "a": "Take your time, make it conversational, avoid niche words and phrases, express confidence",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Who defined a technopreneur as an entrepreneur involved in technological changes in producing goods and services for his organization?",
+   "a": "Sarimah Hanim and Abd. Rashid",
+   "alt": [
+    "sarimah hanim",
+    "abd. rashid",
+    "hanim and rashid"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who described innovation as a process involving multiple activities by multiple actors?",
+   "a": "Joerg Gemuenden",
+   "alt": [
+    "gemuenden"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which book is the follow-up to Christensen's The Innovator's Dilemma?",
+   "a": "The Innovator's Solution",
+   "alt": [
+    "innovators solution"
+   ]
   }
  ]
 }

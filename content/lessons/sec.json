@@ -1052,6 +1052,336 @@
     "Flash"
    ],
    "d": "A"
+  },
+  {
+   "q": "Under the CVSS 0.0-10.0 scale, what is the lowest base score that is rated Critical?",
+   "a": "9.0",
+   "w": [
+    "8.0",
+    "8.5",
+    "9.5"
+   ],
+   "d": "D",
+   "e": "Critical begins at 9.0 and runs to 10.0. A 9.5 is Critical too but is not the lowest, and scores of 7.0 to 8.9 are rated High."
+  },
+  {
+   "q": "The GDPR sets its maximum administrative fine for the most serious infringements at:",
+   "a": "EUR 20 million or 4% of global annual turnover",
+   "w": [
+    "EUR 10 million or 2% of global annual turnover",
+    "EUR 50 million or 5% of global annual turnover",
+    "EUR 20 million or 10% of global annual turnover"
+   ],
+   "d": "D",
+   "e": "The upper tier is EUR 20 million or 4% of worldwide turnover (whichever is higher). EUR 10 million or 2% is the lower tier."
+  },
+  {
+   "q": "Encrypting CYBER with a Caesar cipher of shift 3 (wrapping around the alphabet) gives:",
+   "a": "FBEHU",
+   "w": [
+    "FAEHU",
+    "ZVYBO",
+    "FBEHV"
+   ],
+   "d": "D",
+   "e": "C to F, Y wraps to B, B to E, E to H, R to U. ZVYBO is what a shift of 3 in the opposite direction would give."
+  },
+  {
+   "q": "Alice sends Bob a digitally signed message. Which key does Bob use to verify the signature?",
+   "a": "Alice's public key",
+   "w": [
+    "Alice's private key",
+    "Bob's private key",
+    "Bob's public key"
+   ],
+   "d": "D",
+   "e": "Signatures are made with the signer's private key and checked with the signer's public key. Bob's keys would be used for encrypting to or decrypting for Bob, not for verifying Alice."
+  },
+  {
+   "q": "Which statement correctly distinguishes a salt from a pepper in password storage?",
+   "a": "A salt is unique per user and stored beside the hash; a pepper is a secret kept outside the database",
+   "w": [
+    "A salt is a secret kept outside the database; a pepper is stored beside each hash",
+    "A salt is applied after hashing; a pepper is applied before hashing",
+    "A salt is a fixed value shared by all users; a pepper is unique per user"
+   ],
+   "d": "D",
+   "e": "Salts are random per-user values that are not secret; peppers are secret values held separately (for example in an HSM or app config). The other options reverse or distort these roles."
+  },
+  {
+   "q": "A database leaks salted SHA-256 password hashes. Which attack does the per-user salt make impractical?",
+   "a": "Using one precomputed rainbow table against all users",
+   "w": [
+    "Brute-forcing a single targeted user's hash offline",
+    "Guessing a weak password from a dictionary for one user",
+    "Using a GPU to test many guesses against one hash"
+   ],
+   "d": "D",
+   "e": "Salting forces a separate computation per user, which defeats precomputed tables. It does not stop guessing against one specific hash, only slow hashes like bcrypt or Argon2 make that costly."
+  },
+  {
+   "q": "An attacker tries the single password 'Password123' against 5,000 different accounts, one attempt per account, to avoid lockouts. This is:",
+   "a": "Password spraying",
+   "w": [
+    "Credential stuffing",
+    "Brute-force attack",
+    "Hybrid attack"
+   ],
+   "d": "D",
+   "e": "Spraying is one (or few) common passwords across many accounts. Credential stuffing uses leaked username-password pairs, and brute force tries many passwords against one account."
+  },
+  {
+   "q": "A Smurf attack amplifies traffic by sending spoofed ICMP echo requests to:",
+   "a": "A network's broadcast address",
+   "w": [
+    "Open DNS resolvers",
+    "Public NTP servers",
+    "Memcached servers"
+   ],
+   "d": "D",
+   "e": "Every host on the broadcast network replies to the spoofed victim address. DNS, NTP and memcached are separate amplification techniques that use UDP services."
+  },
+  {
+   "q": "Which attack ties up a web server by holding many connections open with deliberately incomplete HTTP requests?",
+   "a": "Slowloris",
+   "w": [
+    "HTTP flood",
+    "SYN flood",
+    "Ping of Death"
+   ],
+   "d": "D",
+   "e": "Slowloris sends partial headers slowly so connection slots are never freed. An HTTP flood sends large numbers of complete requests, and a SYN flood abuses the TCP handshake."
+  },
+  {
+   "q": "The Ping of Death works by sending:",
+   "a": "An oversized ICMP packet exceeding the 65,535-byte IP limit once reassembled",
+   "w": [
+    "ICMP echo requests to a broadcast address with a spoofed source",
+    "Thousands of half-open TCP connections",
+    "Partial HTTP requests that never complete"
+   ],
+   "d": "A",
+   "e": "Fragments reassemble to more than the maximum IP packet size and crash vulnerable stacks. The broadcast variant is Smurf and the half-open variant is a SYN flood."
+  },
+  {
+   "q": "In the Lockheed Martin Cyber Kill Chain, which stage pairs an exploit with a payload into a deliverable such as a malicious PDF?",
+   "a": "Weaponization",
+   "w": [
+    "Delivery",
+    "Exploitation",
+    "Installation"
+   ],
+   "d": "D",
+   "e": "Weaponization is building the attack package. Delivery is transmitting it (email, USB), and exploitation is when it triggers on the target."
+  },
+  {
+   "q": "In the NIST SP 800-61 incident response lifecycle, eradication belongs to which phase?",
+   "a": "Containment, Eradication and Recovery",
+   "w": [
+    "Detection and Analysis",
+    "Preparation",
+    "Post-Incident Activity"
+   ],
+   "d": "D",
+   "e": "NIST merges containment, eradication and recovery into one phase, giving four phases overall. The SANS model separates them into distinct steps (six in total)."
+  },
+  {
+   "q": "Following the order of volatility in forensic collection, which evidence is gathered first?",
+   "a": "Contents of RAM",
+   "w": [
+    "The hard disk image",
+    "Backup tapes",
+    "Archived logs on remote storage"
+   ],
+   "d": "A",
+   "e": "The most volatile data is captured first because it vanishes on power loss. Disk contents come afterwards, and offline backups and archives are the least volatile."
+  },
+  {
+   "q": "Under the cloud shared responsibility model for IaaS, which task falls to the customer?",
+   "a": "Patching the guest operating system",
+   "w": [
+    "Securing the physical data center",
+    "Patching the hypervisor",
+    "Maintaining the host hardware"
+   ],
+   "d": "D",
+   "e": "In IaaS the provider secures facilities, hardware and hypervisor, while the customer secures what runs in the instance, including OS patches, apps, data and IAM."
+  },
+  {
+   "q": "Access is granted only if the user is in the Finance department, logging in between 8 AM and 5 PM, from a managed device. Which access control model is this?",
+   "a": "ABAC",
+   "w": [
+    "RBAC",
+    "MAC",
+    "DAC"
+   ],
+   "d": "D",
+   "e": "ABAC evaluates attributes of the user, resource and environment. RBAC would use only the user's role, and MAC uses system-enforced classification labels."
+  },
+  {
+   "q": "Making a biometric system's matching threshold stricter typically:",
+   "a": "Lowers the FAR and raises the FRR",
+   "w": [
+    "Raises the FAR and lowers the FRR",
+    "Lowers both the FAR and the FRR",
+    "Raises both the FAR and the FRR"
+   ],
+   "d": "D",
+   "e": "A stricter threshold rejects more impostors (fewer false acceptances) but also more genuine users (more false rejections). The two trade off against each other around the EER."
+  },
+  {
+   "q": "In the OWASP Top 10 (2021), cross-site scripting was merged into which category?",
+   "a": "A03 Injection",
+   "w": [
+    "A01 Broken Access Control",
+    "A04 Insecure Design",
+    "A05 Security Misconfiguration"
+   ],
+   "d": "D",
+   "e": "The 2021 edition folds XSS together with SQL injection under A03 Injection. Broken Access Control is A01 and Insecure Design is the new A04."
+  },
+  {
+   "q": "Which is NOT an effective defense against cross-site scripting?",
+   "a": "Using parameterized queries",
+   "w": [
+    "Output encoding",
+    "A Content Security Policy",
+    "HttpOnly cookies"
+   ],
+   "d": "D",
+   "e": "Parameterized queries defend against SQL injection, which targets the database. Output encoding and CSP stop script injection, and HttpOnly prevents scripts from reading session cookies."
+  },
+  {
+   "q": "Which cookie attribute is a defense against CSRF?",
+   "a": "SameSite",
+   "w": [
+    "HttpOnly",
+    "Secure",
+    "Path"
+   ],
+   "d": "D",
+   "e": "SameSite stops browsers sending the cookie on cross-site requests. HttpOnly hides it from JavaScript (an XSS mitigation) and Secure limits it to HTTPS."
+  },
+  {
+   "q": "A user denies placing an order, and the system keeps no logs able to prove otherwise. Which STRIDE category does this represent?",
+   "a": "Repudiation",
+   "w": [
+    "Spoofing",
+    "Tampering",
+    "Elevation of privilege"
+   ],
+   "d": "D",
+   "e": "Repudiation is the ability to deny an action because there is no proof. Spoofing would be pretending to be another identity."
+  },
+  {
+   "q": "A full backup is made Sunday and differential backups every night. The disk fails Thursday morning. Which backups are needed to restore?",
+   "a": "Sunday's full and Wednesday's differential",
+   "w": [
+    "Sunday's full and every differential from Monday to Wednesday",
+    "Wednesday's differential only",
+    "Sunday's full and Monday's differential"
+   ],
+   "d": "D",
+   "e": "Each differential holds all changes since the last full backup, so only the newest one is needed with the full. Incremental backups would require the whole chain."
+  },
+  {
+   "q": "Nightly backups run at 11 PM and the RPO is 8 hours. The storage fails at 3 PM the next day. How much data is lost and is the RPO met?",
+   "a": "16 hours of data; the RPO is exceeded",
+   "w": [
+    "16 hours of data; the RPO is met",
+    "8 hours of data; the RPO is exceeded",
+    "4 hours of data; the RPO is met"
+   ],
+   "d": "D",
+   "e": "From 11 PM to 3 PM is 16 hours, double the 8-hour RPO. RPO measures maximum tolerable data loss; RTO is about downtime."
+  },
+  {
+   "q": "The Philippine law passed after the 2000 ILOVEYOU outbreak, since no existing law could prosecute its author, is:",
+   "a": "E-Commerce Act (RA 8792)",
+   "w": [
+    "Cybercrime Prevention Act (RA 10175)",
+    "Data Privacy Act (RA 10173)",
+    "Access Devices Regulation Act (RA 8484)"
+   ],
+   "d": "D",
+   "e": "RA 8792 (2000) penalizes hacking and recognizes e-documents and e-signatures. RA 10175 only came in 2012."
+  },
+  {
+   "q": "Under RA 10175, a traditional crime such as libel committed through ICT is punished:",
+   "a": "One degree higher than under the Revised Penal Code",
+   "w": [
+    "One degree lower than under the Revised Penal Code",
+    "At the same penalty as the offline crime",
+    "With a fine only, with no imprisonment"
+   ],
+   "d": "D",
+   "e": "The Cybercrime Prevention Act raises penalties by one degree for crimes under the Revised Penal Code and special laws when committed via ICT."
+  },
+  {
+   "q": "Under RA 10175, cyber-squatting is classified as an offense against:",
+   "a": "The confidentiality, integrity and availability of computer data and systems",
+   "w": [
+    "Computer-related offenses",
+    "Content-related offenses",
+    "Offenses involving aiding or abetting"
+   ],
+   "d": "A",
+   "e": "Cyber-squatting sits with illegal access, interception, data and system interference and misuse of devices. Forgery, fraud and identity theft are the computer-related offenses."
+  },
+  {
+   "q": "Which block cipher mode of operation also provides authentication (integrity) of the ciphertext?",
+   "a": "GCM",
+   "w": [
+    "CBC",
+    "CTR",
+    "ECB"
+   ],
+   "d": "D",
+   "e": "GCM is an authenticated mode (AEAD). CBC and CTR give confidentiality only, and ECB leaks patterns and is considered insecure."
+  },
+  {
+   "q": "Perfect forward secrecy ensures that:",
+   "a": "Compromise of a long-term private key does not expose past session traffic",
+   "w": [
+    "Session keys never expire during a connection",
+    "The server certificate can never be revoked",
+    "Traffic is encrypted twice with two different algorithms"
+   ],
+   "d": "D",
+   "e": "PFS uses ephemeral key exchange so each session key is independent of the server's long-term key. Recorded old traffic stays protected even if that key leaks later."
+  },
+  {
+   "q": "Because of Grover's algorithm, AES-256 is considered to have an effective strength against a quantum attacker of about:",
+   "a": "128 bits",
+   "w": [
+    "64 bits",
+    "192 bits",
+    "256 bits"
+   ],
+   "d": "D",
+   "e": "Grover gives a quadratic speedup, roughly halving effective key length. Shor's algorithm, in contrast, breaks RSA and ECC outright."
+  },
+  {
+   "q": "Which NIST post-quantum standard is FIPS 204?",
+   "a": "ML-DSA (Dilithium), a digital signature scheme",
+   "w": [
+    "ML-KEM (Kyber), a key-encapsulation mechanism",
+    "SLH-DSA (SPHINCS+), a hash-based signature scheme",
+    "SHA-3 (Keccak), a hash function"
+   ],
+   "d": "D",
+   "e": "FIPS 203 is ML-KEM, FIPS 204 is ML-DSA, and FIPS 205 is SLH-DSA. Only ML-KEM is for key establishment."
+  },
+  {
+   "q": "Malware that rewrites its own code with each infection, rather than just re-encrypting it with a changing key, is called:",
+   "a": "Metamorphic",
+   "w": [
+    "Polymorphic",
+    "Stealth",
+    "Macro"
+   ],
+   "d": "D",
+   "e": "Metamorphic malware rewrites its body entirely, while polymorphic malware mainly mutates its encryption or decryptor wrapper. Both evade signature-based detection."
   }
  ],
  "cards": [
@@ -1443,6 +1773,129 @@
    "q": "Which 2017 ransomware used the EternalBlue exploit?",
    "a": "WannaCry",
    "alt": []
+  },
+  {
+   "d": "D",
+   "q": "In the Lockheed Martin Cyber Kill Chain, which stage comes immediately after Delivery?",
+   "a": "Exploitation",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which IPsec protocol provides payload encryption (confidentiality)?",
+   "a": "ESP",
+   "alt": [
+    "Encapsulating Security Payload"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Decrypt XYZ with a Caesar cipher of shift 3.",
+   "a": "UVW",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which NIST FIPS number is ML-DSA (Dilithium)?",
+   "a": "FIPS 204",
+   "alt": [
+    "204"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which post-quantum algorithm (also called SPHINCS+) is specified in FIPS 205?",
+   "a": "SLH-DSA",
+   "alt": [
+    "SPHINCS+",
+    "SPHINCS plus"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is A10 in the OWASP Top 10 (2021)?",
+   "a": "Server-Side Request Forgery",
+   "alt": [
+    "SSRF"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which HTTP response header defends against clickjacking?",
+   "a": "X-Frame-Options",
+   "alt": [
+    "X Frame Options"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the block size of AES in bits?",
+   "a": "128",
+   "alt": [
+    "128 bits",
+    "128-bit"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the digest size of SHA-1 in bits?",
+   "a": "160",
+   "alt": [
+    "160 bits",
+    "160-bit"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who popularized the term zero trust?",
+   "a": "John Kindervag",
+   "alt": [
+    "Kindervag"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Philippine law is the E-Commerce Act of 2000?",
+   "a": "RA 8792",
+   "alt": [
+    "8792",
+    "Republic Act 8792"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Under which Philippine law was the Cybercrime Investigation and Coordinating Center (CICC) created?",
+   "a": "RA 10175",
+   "alt": [
+    "10175",
+    "Cybercrime Prevention Act",
+    "Cybercrime Prevention Act of 2012"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which tool is commonly used for memory (RAM) forensics?",
+   "a": "Volatility",
+   "alt": [
+    "Volatility Framework"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "The SQL Slammer worm of 2003 attacked which UDP port?",
+   "a": "1434",
+   "alt": [
+    "UDP 1434",
+    "port 1434"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which DNS provider was the target of the 2016 Mirai botnet DDoS attack?",
+   "a": "Dyn",
+   "alt": [
+    "Dyn DNS"
+   ]
   }
  ]
 }

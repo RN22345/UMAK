@@ -852,6 +852,336 @@
     "Alan Turing and John Tukey"
    ],
    "d": "D"
+  },
+  {
+   "q": "A classifier has TP=30, FP=20, FN=10, TN=40. What is its F1 score (rounded)?",
+   "a": "0.67",
+   "w": [
+    "0.60",
+    "0.75",
+    "0.50"
+   ],
+   "d": "D",
+   "e": "Precision = 30/50 = 0.60 and recall = 30/40 = 0.75, so F1 = 2(0.60)(0.75)/1.35 = 0.67 (also 2TP/(2TP+FP+FN) = 60/90). 0.60 is only the precision and 0.75 only the recall."
+  },
+  {
+   "q": "With TP=45, FP=5, FN=15, TN=35, the specificity is:",
+   "a": "0.875",
+   "w": [
+    "0.75",
+    "0.90",
+    "0.80"
+   ],
+   "d": "D",
+   "e": "Specificity = TN/(TN+FP) = 35/40 = 0.875. 0.75 is the recall (45/60), 0.90 the precision (45/50), and 0.80 the accuracy (80/100)."
+  },
+  {
+   "q": "A dataset has 990 negatives and 10 positives, and a model predicts 'negative' for every case. Which result is correct?",
+   "a": "Accuracy 99% but recall 0%",
+   "w": [
+    "Accuracy 99% and recall 99%",
+    "Accuracy 50% and recall 0%",
+    "Accuracy 1% and recall 100%"
+   ],
+   "d": "D",
+   "e": "All 990 negatives are correct (990/1000 = 99%), but no positive is found so TP=0 and recall = 0. This is why accuracy misleads on imbalanced classes."
+  },
+  {
+   "q": "Using min-max normalization, a value of 20 in data ranging from 10 to 50 becomes:",
+   "a": "0.25",
+   "w": [
+    "0.20",
+    "0.40",
+    "0.50"
+   ],
+   "d": "A",
+   "e": "(20 - 10)/(50 - 10) = 10/40 = 0.25. 0.40 would be 20/50, which ignores subtracting the minimum."
+  },
+  {
+   "q": "A value of 70 comes from data with mean 50 and standard deviation 10. Its z-score is:",
+   "a": "2",
+   "w": [
+    "0.2",
+    "20",
+    "-2"
+   ],
+   "d": "D",
+   "e": "z = (x - mean)/SD = (70 - 50)/10 = 2, meaning two standard deviations above the mean. 20 is the raw difference before dividing by SD."
+  },
+  {
+   "q": "If Q1 = 20 and Q3 = 36, values above which number are flagged as outliers by the 1.5 x IQR rule?",
+   "a": "60",
+   "w": [
+    "52",
+    "68",
+    "44"
+   ],
+   "d": "D",
+   "e": "IQR = 36 - 20 = 16, and the upper fence is Q3 + 1.5 x 16 = 36 + 24 = 60. 52 is Q3 + 1 x IQR, and 68 is Q3 + 2 x IQR."
+  },
+  {
+   "q": "What is the population standard deviation of {2, 4, 4, 4, 5, 5, 7, 9}?",
+   "a": "2",
+   "w": [
+    "4",
+    "2.14",
+    "5"
+   ],
+   "d": "D",
+   "e": "The mean is 5 and the squared deviations sum to 32, so population variance = 32/8 = 4 and SD = 2. Using n - 1 gives sample SD = sqrt(32/7), about 2.14."
+  },
+  {
+   "q": "Why does the sample variance divide by n - 1 instead of n?",
+   "a": "To correct the underestimate of population variance (Bessel's correction)",
+   "w": [
+    "To make the standard deviation equal the range",
+    "To remove outliers from the sample",
+    "To force the sample mean to equal the median"
+   ],
+   "d": "D",
+   "e": "Deviations from the sample mean are on average smaller than from the true mean, so dividing by n - 1 (Bessel's correction) gives an unbiased variance estimate. It has nothing to do with outliers."
+  },
+  {
+   "q": "A disease affects 1% of people. A test is positive for 90% of sick people and 10% of healthy people. Given a positive test, the probability of disease is about:",
+   "a": "8.3%",
+   "w": [
+    "90%",
+    "50%",
+    "1%"
+   ],
+   "d": "D",
+   "e": "P(+) = 0.01(0.9) + 0.99(0.1) = 0.009 + 0.099 = 0.108, so P(disease|+) = 0.009/0.108, about 8.3% by Bayes' theorem. 90% is the sensitivity P(+|disease), not the posterior."
+  },
+  {
+   "q": "If a test has Type II error probability beta = 0.20, its statistical power is:",
+   "a": "0.80",
+   "w": [
+    "0.20",
+    "0.95",
+    "0.05"
+   ],
+   "d": "A",
+   "e": "Power = 1 - beta = 0.80. 0.05 is the usual alpha (Type I error rate), and 0.20 is beta itself."
+  },
+  {
+   "q": "In a right-skewed distribution, the usual ordering of the measures of center is:",
+   "a": "Mean > median > mode",
+   "w": [
+    "Mode > median > mean",
+    "Median > mean > mode",
+    "Mean = median = mode"
+   ],
+   "d": "D",
+   "e": "A long right tail pulls the mean upward the most, the median less, leaving the mode at the peak. The reverse order (mode > median > mean) describes left skew."
+  },
+  {
+   "q": "Which pair is correctly matched with its measurement scale?",
+   "a": "Celsius temperature - interval; Kelvin temperature - ratio",
+   "w": [
+    "Celsius temperature - ratio; Kelvin temperature - interval",
+    "Celsius temperature - ordinal; Kelvin temperature - interval",
+    "Celsius temperature - nominal; Kelvin temperature - ratio"
+   ],
+   "d": "D",
+   "e": "0 degrees Celsius is not an absence of heat (no true zero), so Celsius is interval, while 0 K is absolute zero, making Kelvin a ratio scale."
+  },
+  {
+   "q": "Which task is NOT an unsupervised learning task?",
+   "a": "Regression",
+   "w": [
+    "Clustering",
+    "Dimensionality reduction",
+    "Association rule mining"
+   ],
+   "d": "D",
+   "e": "Regression needs labeled continuous targets, so it is supervised. Clustering, dimensionality reduction (PCA) and association rules (Apriori) work on unlabeled data."
+  },
+  {
+   "q": "Which of these is NOT a core component of Hadoop?",
+   "a": "Apache Kafka",
+   "w": [
+    "HDFS",
+    "MapReduce",
+    "YARN"
+   ],
+   "d": "D",
+   "e": "Hadoop's core is HDFS (storage), MapReduce (processing) and YARN (resource management). Kafka is a separate streaming platform."
+  },
+  {
+   "q": "Which of these is NOT a tree-based ensemble method?",
+   "a": "SVM",
+   "w": [
+    "Random Forest",
+    "XGBoost",
+    "LightGBM"
+   ],
+   "d": "D",
+   "e": "SVM finds a maximal-margin hyperplane (with kernels) and uses no trees. Random Forest is a bagging ensemble of trees; XGBoost and LightGBM are gradient-boosted trees."
+  },
+  {
+   "q": "Which tool is used mainly for workflow orchestration of data pipelines?",
+   "a": "Apache Airflow",
+   "w": [
+    "Apache Flink",
+    "Apache Kafka",
+    "Apache HBase"
+   ],
+   "d": "A",
+   "e": "Airflow schedules and orchestrates pipeline tasks. Flink is a stream processor, Kafka a streaming platform and HBase a NoSQL store."
+  },
+  {
+   "q": "Which of these is a columnar storage format used in big data?",
+   "a": "Parquet",
+   "w": [
+    "JSON",
+    "CSV",
+    "XML"
+   ],
+   "d": "A",
+   "e": "Parquet (like ORC) stores data by column, which suits analytic scans. JSON, CSV and XML are row-oriented text formats."
+  },
+  {
+   "q": "Which of these is NOT a dimensionality reduction technique?",
+   "a": "DBSCAN",
+   "w": [
+    "PCA",
+    "t-SNE",
+    "UMAP"
+   ],
+   "d": "D",
+   "e": "DBSCAN is a density-based clustering algorithm. PCA, t-SNE and UMAP all reduce the number of dimensions."
+  },
+  {
+   "q": "Which statement correctly contrasts bagging and boosting?",
+   "a": "Bagging trains models in parallel to reduce variance; boosting trains sequentially to reduce bias",
+   "w": [
+    "Bagging trains models sequentially to reduce bias; boosting trains in parallel to reduce variance",
+    "Both train in parallel, but only bagging reduces variance",
+    "Bagging reduces bias and boosting reduces variance, both sequentially"
+   ],
+   "d": "D",
+   "e": "Random Forest (bagging) averages independent trees to cut variance, whereas gradient boosting adds trees one after another, each correcting prior errors to cut bias."
+  },
+  {
+   "q": "Which regularization method can shrink some coefficients exactly to zero, acting as embedded feature selection?",
+   "a": "L1 (Lasso)",
+   "w": [
+    "L2 (Ridge)",
+    "Dropout",
+    "Early stopping"
+   ],
+   "d": "D",
+   "e": "The L1 penalty drives some weights to exactly zero. L2/Ridge only shrinks weights toward zero, while dropout and early stopping are different regularization techniques."
+  },
+  {
+   "q": "A trend appears in every subgroup but reverses when the groups are combined. This is known as:",
+   "a": "Simpson's paradox",
+   "w": [
+    "Berkson's paradox",
+    "The curse of dimensionality",
+    "Bessel's correction"
+   ],
+   "d": "D",
+   "e": "Simpson's paradox is a reversal caused by a lurking grouping variable. The curse of dimensionality concerns high-dimensional data, and Bessel's correction is the n - 1 divisor."
+  },
+  {
+   "q": "In the KDD process, which step comes immediately after Transformation?",
+   "a": "Data mining",
+   "w": [
+    "Preprocessing",
+    "Interpretation",
+    "Selection"
+   ],
+   "d": "A",
+   "e": "KDD runs Selection, Preprocessing, Transformation, Data mining, then Interpretation, so mining follows transformation."
+  },
+  {
+   "q": "In the OSEMN workflow, the 'S' stands for:",
+   "a": "Scrub",
+   "w": [
+    "Sample",
+    "Segment",
+    "Score"
+   ],
+   "d": "A",
+   "e": "OSEMN = Obtain, Scrub, Explore, Model, iNterpret; scrubbing is data cleaning."
+  },
+  {
+   "q": "In CRISP-DM, which phase comes immediately before Modeling?",
+   "a": "Data preparation",
+   "w": [
+    "Data understanding",
+    "Evaluation",
+    "Business understanding"
+   ],
+   "d": "D",
+   "e": "The order is Business understanding, Data understanding, Data preparation, Modeling, Evaluation, Deployment. Data understanding comes two steps before modeling."
+  },
+  {
+   "q": "Backpropagation was popularized in 1986 by:",
+   "a": "Rumelhart, Hinton and Williams",
+   "w": [
+    "Rosenblatt, Minsky and Papert",
+    "LeCun, Bengio and Goodfellow",
+    "Hochreiter and Schmidhuber"
+   ],
+   "d": "D",
+   "e": "Rumelhart, Hinton and Williams popularized backpropagation in 1986. Frank Rosenblatt invented the perceptron in 1958."
+  },
+  {
+   "q": "Who shared the 2024 Nobel Prize in Chemistry with Demis Hassabis and John Jumper?",
+   "a": "David Baker",
+   "w": [
+    "Geoffrey Hinton",
+    "John Hopfield",
+    "Fei-Fei Li"
+   ],
+   "d": "D",
+   "e": "The prize went to Hassabis and Jumper for AlphaFold protein structure prediction and to David Baker for computational protein design. Hinton and Hopfield won the 2024 Physics prize."
+  },
+  {
+   "q": "Which activation function converts a layer's outputs into probabilities over multiple classes?",
+   "a": "Softmax",
+   "w": [
+    "ReLU",
+    "Tanh",
+    "Sigmoid"
+   ],
+   "d": "A",
+   "e": "Softmax produces a probability distribution that sums to 1 over multi-class outputs. Sigmoid handles a single binary probability, while ReLU and tanh are hidden-layer activations."
+  },
+  {
+   "q": "Which scenario is an example of data leakage?",
+   "a": "Fitting a scaler on the entire dataset before splitting into train and test sets",
+   "w": [
+    "Using stratified sampling for the train/test split",
+    "Evaluating with k-fold cross-validation",
+    "Holding out a test set until final evaluation"
+   ],
+   "d": "D",
+   "e": "Fitting the scaler on all data lets test-set statistics influence training. Stratified splits, k-fold CV and a held-out test set are normal good practice."
+  },
+  {
+   "q": "For a cancer-screening model where missing a sick patient is far costlier than a false alarm, which metric should be prioritized?",
+   "a": "Recall",
+   "w": [
+    "Precision",
+    "Specificity",
+    "Accuracy"
+   ],
+   "d": "D",
+   "e": "Recall = TP/(TP+FN) penalizes false negatives, which are the costly error here. Precision and specificity focus on false positives, and accuracy can hide missed cases."
+  },
+  {
+   "q": "The original 3 Vs of big data, defined by Doug Laney, are:",
+   "a": "Volume, velocity, variety",
+   "w": [
+    "Volume, veracity, value",
+    "Velocity, variety, veracity",
+    "Volume, validity, variety"
+   ],
+   "d": "D",
+   "e": "Laney's 3 Vs are volume, velocity and variety; veracity and value were added later to make the 5 Vs."
   }
  ],
  "cards": [
@@ -1221,6 +1551,134 @@
    "a": "30 November 2022",
    "alt": [
     "November 30, 2022"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does OSEMN stand for in the data science workflow?",
+   "a": "Obtain, Scrub, Explore, Model, iNterpret",
+   "alt": [
+    "Obtain Scrub Explore Model Interpret"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the formula for specificity in terms of TN and FP?",
+   "a": "TN/(TN+FP)",
+   "alt": [
+    "TN / (TN + FP)"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the formula for false positive rate (FPR)?",
+   "a": "FP/(FP+TN)",
+   "alt": [
+    "FP / (FP + TN)",
+    "1 - specificity"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What other names are used for recall in classification?",
+   "a": "Sensitivity",
+   "alt": [
+    "TPR",
+    "True positive rate",
+    "Sensitivity or TPR"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the population standard deviation of {2, 4, 4, 4, 5, 5, 7, 9}?",
+   "a": "2",
+   "alt": [
+    "2.0"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Using min-max normalization, what does 20 become in data ranging from 10 to 50?",
+   "a": "0.25",
+   "alt": [
+    ".25",
+    "1/4"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Apache tool is used to orchestrate and schedule data pipelines?",
+   "a": "Apache Airflow",
+   "alt": [
+    "Airflow"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which ensemble technique trains models sequentially, each correcting the previous errors, to reduce bias?",
+   "a": "Boosting",
+   "alt": [
+    "Gradient boosting"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which regularization penalty (L1 or L2) is used by Lasso?",
+   "a": "L1",
+   "alt": [
+    "L1 regularization",
+    "L1 norm"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which Hadoop component handles cluster resource management?",
+   "a": "YARN",
+   "alt": [
+    "Yet Another Resource Negotiator"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who shared the 2024 Nobel Prize in Chemistry with Demis Hassabis and John Jumper?",
+   "a": "David Baker",
+   "alt": [
+    "Baker"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What Greek letter denotes the probability of a Type II error?",
+   "a": "Beta",
+   "alt": [
+    "β"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Statistical power equals 1 minus the probability of which error type?",
+   "a": "Type II error",
+   "alt": [
+    "Type 2 error",
+    "Beta",
+    "β"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the name of the paradox in which a trend in subgroups reverses when the groups are combined?",
+   "a": "Simpson's paradox",
+   "alt": [
+    "Simpsons paradox",
+    "Simpson paradox"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which clustering algorithm groups points by density and can mark noise points?",
+   "a": "DBSCAN",
+   "alt": [
+    "Density-Based Spatial Clustering of Applications with Noise"
    ]
   }
  ]

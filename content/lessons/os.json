@@ -792,6 +792,336 @@
     "3 users, 2 admins, 1 owner"
    ],
    "d": "A"
+  },
+  {
+   "q": "Four jobs with burst times 5, 2, 4 and 1 all arrive at time 0. What is the average waiting time under SJF?",
+   "a": "2.75",
+   "w": [
+    "5.75",
+    "8.75",
+    "3.5"
+   ],
+   "d": "D",
+   "e": "SJF order is 1, 2, 4, 5 giving waits 0, 1, 3, 7 = 11/4 = 2.75. The 5.75 figure is the SJF average turnaround time (or the FCFS average waiting time), a common mix-up."
+  },
+  {
+   "q": "P1 (arrival 0, burst 7), P2 (2, 4), P3 (4, 1), P4 (5, 5) run under non-preemptive SJF. What is P2's waiting time?",
+   "a": "6",
+   "w": [
+    "1",
+    "4",
+    "8"
+   ],
+   "d": "D",
+   "e": "P1 runs 0-7, then P3 7-8, then P2 8-12, so P2 waits 8 - 2 = 6. A waiting time of 1 is what P2 gets under preemptive SRTN."
+  },
+  {
+   "q": "For P1 (arrival 0, burst 7), P2 (2, 4), P3 (4, 1), P4 (5, 5), what is the average waiting time under SRTN (preemptive SJF)?",
+   "a": "3.25",
+   "w": [
+    "4",
+    "3.75",
+    "2.75"
+   ],
+   "d": "D",
+   "e": "Waits are P1 = 10 or 5 plus P4 = 2 or 7 (the tie order does not change the sum), P2 = 1, P3 = 0, total 13/4 = 3.25. Non-preemptive SJF on the same jobs gives 4."
+  },
+  {
+   "q": "Round Robin with quantum 20 runs P1 = 53, P2 = 17, P3 = 68, P4 = 24, all arriving at time 0. What is the average waiting time?",
+   "a": "73",
+   "w": [
+    "81",
+    "97",
+    "68"
+   ],
+   "d": "D",
+   "e": "Completions are P2 = 37, P4 = 121, P1 = 134, P3 = 162, so waits (completion - burst) are 20, 97, 81, 94 and the average is 292/4 = 73. 81 is only P1's wait and 97 only P4's."
+  },
+  {
+   "q": "Priority scheduling (lowest number = highest priority) with all jobs at time 0: P1 (burst 10, pri 3), P2 (1, pri 1), P3 (2, pri 3), P4 (1, pri 4), P5 (5, pri 2). What is the average waiting time, with ties broken by order P1 before P3?",
+   "a": "8.2",
+   "w": [
+    "9.8",
+    "7.4",
+    "6.2"
+   ],
+   "d": "D",
+   "e": "Order P2, P5, P1, P3, P4 gives waits 0, 1, 6, 16, 18 = 41/5 = 8.2. Plain FCFS order P1 to P5 would give 9.8."
+  },
+  {
+   "q": "Under Round Robin with 5 processes and a quantum of 10 ms, what is the longest any ready process must wait for its next turn?",
+   "a": "40 ms",
+   "w": [
+    "50 ms",
+    "10 ms",
+    "60 ms"
+   ],
+   "d": "A",
+   "e": "No process waits more than (n - 1) x q = 4 x 10 = 40 ms, because the other n - 1 processes each use at most one quantum."
+  },
+  {
+   "q": "How many page faults occur with FIFO replacement and 3 frames on the reference string 1, 2, 3, 1, 4, 2?",
+   "a": "4",
+   "w": [
+    "3",
+    "5",
+    "6"
+   ],
+   "d": "D",
+   "e": "Faults on 1, 2, 3 and 4 (which evicts page 1); the final reference to 2 is still resident, so it is a hit. LRU would evict 2 for page 4 and so fault 5 times."
+  },
+  {
+   "q": "On the string 7,0,1,2,0,3,0,4,2,3,0,3,2,1,2,0,1,7,0,1 with 3 frames, the page-fault counts for FIFO, LRU and Optimal are respectively:",
+   "a": "15, 12, 9",
+   "w": [
+    "16, 12, 8",
+    "14, 11, 9",
+    "15, 13, 10"
+   ],
+   "d": "D",
+   "e": "This classic trace gives FIFO 15, LRU 12 and Optimal 9; Optimal is always the minimum and LRU usually beats FIFO."
+  },
+  {
+   "q": "For the string 1,2,3,4,1,2,5,1,2,3,4,5 under FIFO, the page faults with 3 frames and with 4 frames are respectively:",
+   "a": "9 and 10",
+   "w": [
+    "10 and 9",
+    "9 and 8",
+    "9 and 9"
+   ],
+   "d": "D",
+   "e": "More frames produced more faults (9 then 10), which is Belady's anomaly. LRU and Optimal never behave this way."
+  },
+  {
+   "q": "A system has 12 tape drives. P0 holds 5 and may need 10 in total, P1 holds 2 and may need 4, P2 holds 2 and may need 9. Using the Banker's algorithm, which process can safely be satisfied and finish first?",
+   "a": "P1",
+   "w": [
+    "P0",
+    "P2",
+    "None; the state is unsafe"
+   ],
+   "d": "D",
+   "e": "3 drives are free; P1 needs 2 more, P0 needs 5 and P2 needs 7. After P1 finishes, 5 are free so P0 can finish, then P2, giving the safe sequence P1, P0, P2."
+  },
+  {
+   "q": "Four processes each need up to 3 units of the same resource. What is the minimum number of units that guarantees deadlock cannot occur?",
+   "a": "9",
+   "w": [
+    "8",
+    "10",
+    "12"
+   ],
+   "d": "D",
+   "e": "The worst case is each process holding 2 (4 x 2 = 8 units) with none free; one extra unit (9) lets someone finish. 8 units could deadlock."
+  },
+  {
+   "q": "With 4 KB pages, virtual address 20500 corresponds to which page number and offset?",
+   "a": "Page 5, offset 20",
+   "w": [
+    "Page 4, offset 4116",
+    "Page 5, offset 4",
+    "Page 6, offset 20"
+   ],
+   "d": "D",
+   "e": "20500 = 5 x 4096 + 20, so the page is 5 and the offset is 20."
+  },
+  {
+   "q": "A 32-bit virtual address with 4 KB pages uses how many bits for the page number?",
+   "a": "20",
+   "w": [
+    "12",
+    "22",
+    "16"
+   ],
+   "d": "A",
+   "e": "4 KB = 2^12 gives a 12-bit offset, leaving 32 - 12 = 20 bits (about 1 million pages). 12 is the offset width."
+  },
+  {
+   "q": "A bitmap tracks 32 MB of memory using one bit per 4 KB allocation unit. How large is the bitmap?",
+   "a": "1 KB",
+   "w": [
+    "8 KB",
+    "128 bytes",
+    "4 KB"
+   ],
+   "d": "D",
+   "e": "32 MB / 4 KB = 8192 units, so 8192 bits = 1024 bytes = 1 KB."
+  },
+  {
+   "q": "Free holes in list order are 10, 4, 18, 20, 7, 9, 12 and 15 KB. A 12 KB request is served by worst fit. How large is the leftover hole?",
+   "a": "8 KB",
+   "w": [
+    "0 KB",
+    "6 KB",
+    "3 KB"
+   ],
+   "d": "D",
+   "e": "Worst fit takes the largest hole (20 KB), leaving 8 KB. Best fit would use the exact 12 KB hole (0 left) and first fit the 18 KB hole (6 left)."
+  },
+  {
+   "q": "A process of 72,766 bytes is placed in 2048-byte pages. How much internal fragmentation occurs in its last page?",
+   "a": "962 bytes",
+   "w": [
+    "1086 bytes",
+    "2048 bytes",
+    "1024 bytes"
+   ],
+   "d": "D",
+   "e": "It needs 36 pages (73,728 bytes); the last page holds 72,766 - 35 x 2048 = 1086 bytes, wasting 2048 - 1086 = 962. 1086 is the used part."
+  },
+  {
+   "q": "A disk spins at 6000 RPM with an average seek of 8 ms and a transfer time of 1 ms. What is the average access time?",
+   "a": "14 ms",
+   "w": [
+    "19 ms",
+    "9 ms",
+    "10 ms"
+   ],
+   "d": "D",
+   "e": "One rotation takes 10 ms, so average rotational latency is half, 5 ms; 8 + 5 + 1 = 14 ms. Using a full rotation (19 ms) is the usual error."
+  },
+  {
+   "q": "Head at cylinder 53, request queue 98, 183, 37, 122, 14, 124, 65, 67. What is the total head movement under FCFS?",
+   "a": "640 cylinders",
+   "w": [
+    "236 cylinders",
+    "208 cylinders",
+    "559 cylinders"
+   ],
+   "d": "D",
+   "e": "FCFS moves 45 + 85 + 146 + 85 + 108 + 110 + 59 + 2 = 640. SSTF on the same queue needs only 236."
+  },
+  {
+   "q": "Head at 53 moving toward cylinder 0 first, same queue 98, 183, 37, 122, 14, 124, 65, 67. What is the total head movement under LOOK?",
+   "a": "208 cylinders",
+   "w": [
+    "236 cylinders",
+    "169 cylinders",
+    "640 cylinders"
+   ],
+   "d": "D",
+   "e": "LOOK reverses at the last request: 53 to 14 is 39, then 14 to 183 is 169, total 208. SCAN goes all the way to cylinder 0 first, giving 53 + 183 = 236."
+  },
+  {
+   "q": "Four 2 TB disks are used in RAID 5. What is the usable capacity?",
+   "a": "6 TB",
+   "w": [
+    "8 TB",
+    "4 TB",
+    "2 TB"
+   ],
+   "d": "D",
+   "e": "RAID 5 gives up one disk's worth of space to distributed parity, so (n - 1) x 2 TB = 6 TB. 4 TB would be RAID 6 or RAID 10 with these disks."
+  },
+  {
+   "q": "In Dijkstra's THE system, which layer handles I/O buffering?",
+   "a": "Layer 3",
+   "w": [
+    "Layer 1",
+    "Layer 2",
+    "Layer 4"
+   ],
+   "d": "D",
+   "e": "The layers are 0 processor allocation, 1 memory/drum, 2 operator console communication, 3 I/O buffering, 4 user programs, 5 operator process."
+  },
+  {
+   "q": "Which OS kernel is classified as a hybrid (monolithic plus microkernel ideas)?",
+   "a": "Windows NT",
+   "w": [
+    "MINIX",
+    "QNX",
+    "Classic UNIX"
+   ],
+   "d": "A",
+   "e": "Windows NT and macOS (XNU) are hybrids. MINIX and QNX are microkernels and classic UNIX is monolithic."
+  },
+  {
+   "q": "Which process state transition is NOT possible?",
+   "a": "Blocked to Running",
+   "w": [
+    "Ready to Running",
+    "Running to Ready",
+    "Running to Blocked"
+   ],
+   "d": "A",
+   "e": "A blocked process must first go Blocked to Ready when its event completes, then be dispatched by the scheduler."
+  },
+  {
+   "q": "Requiring a process to request all the resources it needs before it starts running prevents which deadlock condition?",
+   "a": "Hold and wait",
+   "w": [
+    "Circular wait",
+    "No preemption",
+    "Mutual exclusion"
+   ],
+   "d": "A",
+   "e": "If a process never holds some resources while waiting for others, hold and wait is broken. Ordering resources breaks circular wait instead."
+  },
+  {
+   "q": "In a resource-allocation graph where resources have multiple instances, a cycle means:",
+   "a": "Deadlock is possible but not certain",
+   "w": [
+    "Deadlock has definitely occurred",
+    "The system is in a safe state",
+    "No process is waiting"
+   ],
+   "d": "D",
+   "e": "A cycle implies deadlock only when every resource has a single instance; with multiple instances it is necessary but not sufficient."
+  },
+  {
+   "q": "A counting semaphore starts at 3 and five processes each perform one wait (P) with no signals. How many processes are blocked?",
+   "a": "2",
+   "w": [
+    "3",
+    "5",
+    "0"
+   ],
+   "d": "D",
+   "e": "The first three waits decrement the count to 0 and succeed; the remaining two block."
+  },
+  {
+   "q": "If one user-level thread makes a blocking system call, what happens?",
+   "a": "The entire process blocks, since the kernel is unaware of the threads",
+   "w": [
+    "Only that thread blocks while the others keep running",
+    "The kernel schedules another thread of the same process",
+    "The thread is converted into a kernel-level thread"
+   ],
+   "d": "D",
+   "e": "The kernel sees only one schedulable entity, so all user-level threads in the process stall. Kernel-level threads avoid this."
+  },
+  {
+   "q": "The modified (dirty) bit in a page-table entry tells the OS that:",
+   "a": "The page must be written back to disk before its frame is reused",
+   "w": [
+    "The page was recently referenced",
+    "The page is not present in memory",
+    "The page is write-protected"
+   ],
+   "d": "D",
+   "e": "A modified page differs from its disk copy. The referenced bit (used by Clock and NRU) records recent use, and the present/absent bit records residence."
+  },
+  {
+   "q": "Which chmod mode gives the owner read and write, the group read only, and others no access?",
+   "a": "640",
+   "w": [
+    "604",
+    "750",
+    "460"
+   ],
+   "d": "A",
+   "e": "rw- = 4+2 = 6, r-- = 4, --- = 0, so 640 (rw-r-----). 750 would be rwxr-x---."
+  },
+  {
+   "q": "Which kind of OS makes a collection of machines appear as a single uniprocessor system with location transparency?",
+   "a": "Distributed OS",
+   "w": [
+    "Network OS",
+    "Multiprogramming OS",
+    "Real-time OS"
+   ],
+   "d": "A",
+   "e": "In a network OS users know about the separate machines (remote login, file copy); a distributed OS hides them."
   }
  ],
  "cards": [
@@ -1165,6 +1495,122 @@
    "q": "What is the name of the Linux scheduler used from 2007 until kernel 6.6, abbreviated CFS?",
    "a": "Completely Fair Scheduler",
    "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the maximum number of primary partitions on an MBR disk?",
+   "a": "4",
+   "alt": [
+    "four"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "How many partitions does GPT support under the notes' figures?",
+   "a": "128",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which Intel processor was CP/M written for?",
+   "a": "8080",
+   "alt": [
+    "Intel 8080"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Whose GUI ideas at SRI were carried to Xerox PARC?",
+   "a": "Doug Engelbart",
+   "alt": [
+    "Engelbart",
+    "Douglas Engelbart"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Free holes in list order are 10, 4, 18, 20, 7, 9, 12, 15 KB. Which hole does first fit use for a 12 KB request?",
+   "a": "18 KB",
+   "alt": [
+    "18"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Average waiting time under SJF for jobs of 5, 2, 4 and 1 time units, all arriving at 0?",
+   "a": "2.75",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "With n processes and quantum q, what is the maximum time a process waits in Round Robin?",
+   "a": "(n-1)q",
+   "alt": [
+    "(n-1)*q",
+    "(n-1) x q",
+    "(n - 1)q"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What PTE bit marks a page that must be written back to disk before eviction?",
+   "a": "Dirty bit",
+   "alt": [
+    "Modified bit",
+    "dirty",
+    "modified"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which disk scheduling variant reverses at the last request instead of the disk edge?",
+   "a": "LOOK",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Head at 53, queue 98, 183, 37, 122, 14, 124, 65, 67. What is the total head movement under SSTF?",
+   "a": "236",
+   "alt": [
+    "236 cylinders"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What chmod number gives rw-r-----?",
+   "a": "640",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which Coffman condition is broken by requiring all resources to be requested up front?",
+   "a": "Hold and wait",
+   "alt": [
+    "hold & wait"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the maximum file size on FAT32?",
+   "a": "4 GB",
+   "alt": [
+    "4GB",
+    "4 gigabytes"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the set of the same track on all disk surfaces called?",
+   "a": "Cylinder",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which Linux directory exposes process information?",
+   "a": "/proc",
+   "alt": [
+    "proc"
+   ]
   }
  ]
 }

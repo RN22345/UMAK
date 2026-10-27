@@ -892,6 +892,336 @@
     "Ilya Sutskever"
    ],
    "d": "A"
+  },
+  {
+   "q": "Which company runs the Stargate data-center project together with Oracle and SoftBank?",
+   "a": "OpenAI",
+   "w": [
+    "Anthropic",
+    "xAI",
+    "Google DeepMind"
+   ],
+   "d": "A",
+   "e": "Stargate is OpenAI's data-center project with Oracle and SoftBank. Colossus, the Memphis supercomputer, is xAI's."
+  },
+  {
+   "q": "Who is the CEO of Alibaba, the company behind the Qwen models?",
+   "a": "Eddie Wu",
+   "w": [
+    "Jack Ma",
+    "Pony Ma",
+    "Zhang Yiming"
+   ],
+   "d": "A",
+   "e": "The notes list Eddie Wu as Alibaba's CEO. Jack Ma is the founder, Pony Ma founded Tencent and Zhang Yiming founded ByteDance."
+  },
+  {
+   "q": "Which company owns the e-commerce platform Lazada?",
+   "a": "Alibaba",
+   "w": [
+    "Sea Ltd",
+    "Tencent",
+    "Grab"
+   ],
+   "d": "A",
+   "e": "Lazada is owned by Alibaba. Shopee is the platform owned by Sea Ltd."
+  },
+  {
+   "q": "Trainium is an AI chip made by which company?",
+   "a": "Amazon (AWS)",
+   "w": [
+    "Google",
+    "Microsoft",
+    "Nvidia"
+   ],
+   "d": "A",
+   "e": "Trainium and Inferentia are AWS chips. Google makes the TPU, Microsoft makes Maia and Nvidia makes H100/B200/Rubin."
+  },
+  {
+   "q": "In GPT-4o, what does the letter o stand for?",
+   "a": "omni",
+   "w": [
+    "open",
+    "optimized",
+    "online"
+   ],
+   "d": "A",
+   "e": "The notes explain 4o as 'omni'. The separate o-series (o1) refers to reasoning models."
+  },
+  {
+   "q": "Who founded Alibaba in 1999?",
+   "a": "Jack Ma",
+   "w": [
+    "Pony Ma",
+    "Ren Zhengfei",
+    "Zhang Yiming"
+   ],
+   "d": "A",
+   "e": "Alibaba was founded by Jack Ma in Hangzhou. Pony Ma founded Tencent, Ren Zhengfei founded Huawei and Zhang Yiming founded ByteDance."
+  },
+  {
+   "q": "In which city is Mistral AI based?",
+   "a": "Paris",
+   "w": [
+    "Berlin",
+    "London",
+    "Zurich"
+   ],
+   "d": "A",
+   "e": "Mistral AI is a Paris company led by CEO Arthur Mensch, described as Europe's champion."
+  },
+  {
+   "q": "ASTI and PCIEERD are councils or institutes under which Philippine department?",
+   "a": "DOST",
+   "w": [
+    "DICT",
+    "CHED",
+    "TESDA"
+   ],
+   "d": "A",
+   "e": "The notes place PCIEERD and ASTI under DOST, the Department of Science and Technology. DICT handles ICT policy."
+  },
+  {
+   "q": "Who is the President and co-founder of OpenAI?",
+   "a": "Greg Brockman",
+   "w": [
+    "Sarah Friar",
+    "Bret Taylor",
+    "Mira Murati"
+   ],
+   "d": "D",
+   "e": "Greg Brockman is OpenAI's President and co-founder. Sarah Friar is the CFO and Bret Taylor is the Chair."
+  },
+  {
+   "q": "Which GPT-6 family model is the low-cost tier?",
+   "a": "GPT-6 Luna",
+   "w": [
+    "GPT-6 Astra",
+    "GPT-6 Sol",
+    "GPT-6.1 Sol"
+   ],
+   "d": "D",
+   "e": "In the September 2026 GPT-6 family, Astra is top-tier, Sol is the balanced default and Luna is low-cost. GPT-6.1 Sol followed on 29 Sep."
+  },
+  {
+   "q": "Who is the President of Anthropic?",
+   "a": "Daniela Amodei",
+   "w": [
+    "Mira Murati",
+    "Ilya Sutskever",
+    "Greg Brockman"
+   ],
+   "d": "D",
+   "e": "Daniela Amodei is Anthropic's President, while Dario Amodei is CEO. Brockman is OpenAI's President."
+  },
+  {
+   "q": "Which Claude model was released on 28 September 2026?",
+   "a": "Claude Sonnet 5.5",
+   "w": [
+    "Claude Opus 5.5",
+    "Claude Haiku 5.5",
+    "Claude Fable 5.1"
+   ],
+   "d": "D",
+   "e": "Claude Sonnet 5.5 came on 28 Sep. Claude Opus 5.5 arrived on 22 Sep and Claude Haiku 5.5 on 7 Oct."
+  },
+  {
+   "q": "Mythos Preview was made available through which Anthropic initiative?",
+   "a": "Project Glasswing",
+   "w": [
+    "Project Stargate",
+    "Constitutional AI",
+    "Responsible Scaling Policy"
+   ],
+   "d": "D",
+   "e": "The restricted Claude Mythos tier is offered as Mythos Preview via Project Glasswing. Constitutional AI and the Responsible Scaling Policy are separate Anthropic frameworks."
+  },
+  {
+   "q": "On what date did Gemini 4 'Argon' become publicly available?",
+   "a": "13 October 2026",
+   "w": [
+    "30 September 2026",
+    "7 October 2026",
+    "21 October 2026"
+   ],
+   "d": "D",
+   "e": "Gemini 4 Argon was announced on 30 Sep / 1 Oct 2026 but went public on 13 Oct 2026."
+  },
+  {
+   "q": "In which year was Google Brain merged with DeepMind?",
+   "a": "2023",
+   "w": [
+    "2014",
+    "2015",
+    "2021"
+   ],
+   "d": "D",
+   "e": "Google Brain merged with DeepMind in 2023. DeepMind was acquired in 2014 and Alphabet was created in 2015."
+  },
+  {
+   "q": "Which Meta model was released on 8 April 2026?",
+   "a": "Muse Spark",
+   "w": [
+    "Muse Wonder",
+    "Llama 4",
+    "Llama 3"
+   ],
+   "d": "D",
+   "e": "Muse Spark came out on 8 Apr 2026, while Muse Wonder followed on 12 Oct 2026. Llama 4 was April 2025 and its line is now paused."
+  },
+  {
+   "q": "Which AI leader left Meta in November 2025 to start his own venture?",
+   "a": "Yann LeCun",
+   "w": [
+    "Alexandr Wang",
+    "Andrew Ng",
+    "Demis Hassabis"
+   ],
+   "d": "D",
+   "e": "The notes say Turing Award winner Yann LeCun left Meta in Nov 2025. Alexandr Wang remains Chief AI Officer."
+  },
+  {
+   "q": "On what date was SpaceX's acquisition of xAI announced?",
+   "a": "2 February 2026",
+   "w": [
+    "21 April 2026",
+    "8 April 2026",
+    "1 September 2026"
+   ],
+   "d": "D",
+   "e": "SpaceX acquiring xAI was announced on 2 Feb 2026. The 21 April date is Apple's CEO announcement."
+  },
+  {
+   "q": "Which model released on 23 October 2026 is a 2.8 trillion-parameter MoE with open weights?",
+   "a": "Kimi K3.1 Pro",
+   "w": [
+    "Qwen 4",
+    "DeepSeek V4.1-Flash",
+    "Mistral Large 4"
+   ],
+   "d": "D",
+   "e": "Kimi K3.1 Pro from Moonshot AI matches the 23 Oct 2026 date and 2.8 T-parameter MoE. Qwen 4 is still in training."
+  },
+  {
+   "q": "Which two companies are behind the Agentic Commerce Protocol (ACP)?",
+   "a": "OpenAI and Stripe",
+   "w": [
+    "Google and Stripe",
+    "Anthropic and Stripe",
+    "OpenAI and Oracle"
+   ],
+   "d": "D",
+   "e": "ACP is from OpenAI plus Stripe. Google's counterpart is AP2, the Agent Payments Protocol."
+  },
+  {
+   "q": "Which trio created AlexNet, which won ImageNet in 2012?",
+   "a": "Krizhevsky, Sutskever and Hinton",
+   "w": [
+    "Hinton, LeCun and Bengio",
+    "Rumelhart, Hinton and Williams",
+    "Krizhevsky, LeCun and Bengio"
+   ],
+   "d": "D",
+   "e": "AlexNet was by Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton. Hinton, LeCun and Bengio won the 2018 Turing Award, and Rumelhart, Hinton and Williams popularized backpropagation in 1986."
+  },
+  {
+   "q": "Who won the 2023 ACM Turing Award for work on complexity and randomness?",
+   "a": "Avi Wigderson",
+   "w": [
+    "Robert Metcalfe",
+    "Jack Dongarra",
+    "Charles Bennett"
+   ],
+   "d": "D",
+   "e": "Avi Wigderson won in 2023. Metcalfe won in 2022, Dongarra in 2021 and Bennett (with Brassard) in 2025."
+  },
+  {
+   "q": "Along with Jensen Huang, who co-founded Nvidia in 1993?",
+   "a": "Chris Malachowsky and Curtis Priem",
+   "w": [
+    "Robert Noyce and Gordon Moore",
+    "Jerry Sanders and Ed Oates",
+    "Reed Hastings and Marc Randolph"
+   ],
+   "d": "D",
+   "e": "Nvidia was founded by Huang, Malachowsky and Priem. Noyce and Moore founded Intel and Hastings and Randolph founded Netflix."
+  },
+  {
+   "q": "Which company did IBM acquire in 2019 for about $34 billion?",
+   "a": "Red Hat",
+   "w": [
+    "Sun Microsystems",
+    "GitHub",
+    "Mojang"
+   ],
+   "d": "D",
+   "e": "The notes say IBM bought Red Hat for $34 B in 2019. Sun was bought by Oracle in 2010 and GitHub by Microsoft in 2018."
+  },
+  {
+   "q": "On what date was Python 3.15 released?",
+   "a": "9 October 2026",
+   "w": [
+    "21 October 2026",
+    "14 October 2026",
+    "7 October 2025"
+   ],
+   "d": "D",
+   "e": "Python 3.15 was released on 9 Oct 2026, with 3.15.1 following on 21 Oct. Python 3.14 came out in Oct 2025."
+  },
+  {
+   "q": "Which HDMI version, announced in January 2025, supports 96 Gbps?",
+   "a": "HDMI 2.2",
+   "w": [
+    "HDMI 2.1",
+    "HDMI 2.3",
+    "HDMI 3.0"
+   ],
+   "d": "D",
+   "e": "The notes list HDMI 2.1 as the mainstream standard and HDMI 2.2 (96 Gbps) as announced in Jan 2025."
+  },
+  {
+   "q": "Which Philippine law is Republic Act 11934?",
+   "a": "SIM Registration Act",
+   "w": [
+    "Data Privacy Act",
+    "Cybercrime Prevention Act",
+    "Internet Transactions Act"
+   ],
+   "d": "D",
+   "e": "RA 11934 is the SIM Registration Act. The Data Privacy Act is RA 10173, Cybercrime RA 10175 and Internet Transactions RA 11967."
+  },
+  {
+   "q": "Which is the Philippine internet exchange?",
+   "a": "PHOPEX",
+   "w": [
+    "PHNet",
+    "dotPH",
+    "PhilSys"
+   ],
+   "d": "D",
+   "e": "PHOPEX is the Philippine Open Internet Exchange. PHNet was the first Philippine Internet connection (1994) and dotPH handles the .ph domain."
+  },
+  {
+   "q": "Which regional language model from AI Singapore covers Filipino?",
+   "a": "SEA-LION",
+   "w": [
+    "Gemma",
+    "Qwen",
+    "Nemotron"
+   ],
+   "d": "D",
+   "e": "The notes cite SEA-LION by AI Singapore as a regional model covering Filipino. Gemma is Google's open model family."
+  },
+  {
+   "q": "Which was the first registered domain name, in 1985?",
+   "a": "symbolics.com",
+   "w": [
+    "info.cern.ch",
+    "archie.com",
+    "apple.com"
+   ],
+   "d": "D",
+   "e": "symbolics.com (1985) is the first domain. info.cern.ch (1991) was the first website, a different milestone."
   }
  ],
  "cards": [
@@ -1298,6 +1628,123 @@
    "q": "Which company created the QR code in 1994?",
    "a": "Denso Wave",
    "alt": []
+  },
+  {
+   "d": "A",
+   "q": "In which US city are OpenAI and Anthropic both headquartered?",
+   "a": "San Francisco",
+   "alt": [
+    "SF"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which company makes the Nano Banana image model?",
+   "a": "Google",
+   "alt": [
+    "Google DeepMind",
+    "DeepMind"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who founded Zoom?",
+   "a": "Eric Yuan",
+   "alt": [
+    "Yuan"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who founded Canva?",
+   "a": "Melanie Perkins",
+   "alt": [
+    "Perkins"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who leads Baidu, the maker of ERNIE?",
+   "a": "Robin Li",
+   "alt": [
+    "Li Yanhong",
+    "Robin Li Yanhong"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who founded Grab?",
+   "a": "Anthony Tan",
+   "alt": [
+    "Tan"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which company is the parent of Shopee?",
+   "a": "Sea Ltd",
+   "alt": [
+    "Sea",
+    "Sea Limited"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who is the CFO of OpenAI?",
+   "a": "Sarah Friar",
+   "alt": [
+    "Friar"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who is the Chair of OpenAI?",
+   "a": "Bret Taylor",
+   "alt": [
+    "Taylor"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who introduced GANs in 2014?",
+   "a": "Ian Goodfellow",
+   "alt": [
+    "Goodfellow"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which company bought Slack?",
+   "a": "Salesforce",
+   "alt": [
+    "Salesforce Inc"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who was Microsoft's CEO between Bill Gates and Satya Nadella?",
+   "a": "Steve Ballmer",
+   "alt": [
+    "Ballmer"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who won the 2021 Turing Award for high-performance computing?",
+   "a": "Jack Dongarra",
+   "alt": [
+    "Dongarra"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who won the 2025 Turing Award for quantum cryptography?",
+   "a": "Charles Bennett and Gilles Brassard",
+   "alt": [
+    "Bennett and Brassard",
+    "Bennett & Brassard",
+    "Charles Bennett, Gilles Brassard"
+   ]
   }
  ]
 }

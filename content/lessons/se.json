@@ -782,6 +782,336 @@
     "Retopology"
    ],
    "d": "A"
+  },
+  {
+   "q": "Using the PERT three-point formula, a task has optimistic 4 days, most likely 7 days and pessimistic 16 days. The expected duration is:",
+   "a": "8 days",
+   "w": [
+    "9 days",
+    "7 days",
+    "8.5 days"
+   ],
+   "d": "D",
+   "e": "(O + 4M + P) / 6 = (4 + 28 + 16) / 6 = 48 / 6 = 8. A plain average gives 9, and (O + 2M + P) / 4 gives 8.5, both of which are wrong formulas."
+  },
+  {
+   "q": "A function contains 4 if statements and 1 while loop (no compound conditions, no other branching). Its cyclomatic complexity is:",
+   "a": "6",
+   "w": [
+    "5",
+    "7",
+    "4"
+   ],
+   "d": "D",
+   "e": "Cyclomatic complexity = number of decision points + 1 = 5 + 1 = 6. Counting only the decisions (5) forgets the +1."
+  },
+  {
+   "q": "A control-flow graph has 12 edges, 9 nodes and 1 connected component. Using McCabe's formula, V(G) is:",
+   "a": "5",
+   "w": [
+    "4",
+    "6",
+    "3"
+   ],
+   "d": "D",
+   "e": "V(G) = E - N + 2P = 12 - 9 + 2(1) = 5. Forgetting the 2P term gives 3."
+  },
+  {
+   "q": "Which of the following is NOT a Scrum event?",
+   "a": "Product Backlog",
+   "w": [
+    "Sprint Planning",
+    "Daily Scrum",
+    "Sprint Review"
+   ],
+   "d": "A",
+   "e": "The Product Backlog is an artifact (with the Sprint Backlog and the Increment). Sprint Planning, Daily Scrum, Sprint Review and Sprint Retrospective are events."
+  },
+  {
+   "q": "Which of the following is NOT a Scrum artifact?",
+   "a": "Sprint Review",
+   "w": [
+    "Product Backlog",
+    "Sprint Backlog",
+    "Increment"
+   ],
+   "d": "A",
+   "e": "Sprint Review is an event. The three Scrum artifacts are the Product Backlog, the Sprint Backlog and the Increment."
+  },
+  {
+   "q": "A team restructures working code without changing its behavior so that future defects are less likely. This is which type of maintenance?",
+   "a": "Preventive",
+   "w": [
+    "Perfective",
+    "Corrective",
+    "Adaptive"
+   ],
+   "d": "D",
+   "e": "Preventive maintenance refactors to avoid future issues. Perfective maintenance enhances features or performance, so it is the nearest wrong option."
+  },
+  {
+   "q": "In a pipeline where every change that passes all automated tests is released to production automatically with no manual approval, the practice is:",
+   "a": "Continuous Deployment",
+   "w": [
+    "Continuous Delivery",
+    "Continuous Integration",
+    "Infrastructure as Code"
+   ],
+   "d": "D",
+   "e": "Continuous Deployment auto-releases every passing change. Continuous Delivery only keeps the build always releasable, with release still a manual decision."
+  },
+  {
+   "q": "In the Spiral model, which activity comes immediately after Risk Analysis?",
+   "a": "Engineering",
+   "w": [
+    "Planning",
+    "Evaluation",
+    "Deployment"
+   ],
+   "d": "A",
+   "e": "The quadrant order is Planning, Risk Analysis, Engineering, Evaluation, then the spiral repeats."
+  },
+  {
+   "q": "Which of the following is NOT one of the listed types of prototyping?",
+   "a": "Agile",
+   "w": [
+    "Rapid throwaway",
+    "Evolutionary",
+    "Extreme"
+   ],
+   "d": "D",
+   "e": "The prototyping types are rapid throwaway, evolutionary, incremental and extreme. Agile is a separate development approach, not a prototyping type."
+  },
+  {
+   "q": "Which ISO/IEC 25010:2023 sub-characteristic belongs to Safety?",
+   "a": "Hazard warning",
+   "w": [
+    "Non-repudiation",
+    "Fault tolerance",
+    "Scalability"
+   ],
+   "d": "D",
+   "e": "Safety covers operational constraint, risk identification, fail safe, hazard warning and safe integration. Non-repudiation is Security, fault tolerance is Reliability and scalability is Flexibility."
+  },
+  {
+   "q": "In ISO/IEC 25010, availability is a sub-characteristic of:",
+   "a": "Reliability",
+   "w": [
+    "Performance Efficiency",
+    "Security",
+    "Safety"
+   ],
+   "d": "D",
+   "e": "Reliability includes faultlessness, availability, fault tolerance and recoverability. Performance Efficiency covers time behaviour, resource utilization and capacity."
+  },
+  {
+   "q": "In the ISO/IEC 25000 SQuaRE series, the 2501n division covers:",
+   "a": "Quality Model",
+   "w": [
+    "Quality Management",
+    "Quality Measurement",
+    "Quality Evaluation"
+   ],
+   "d": "A",
+   "e": "2500n is Quality Management, 2501n Quality Model, 2502n Quality Measurement, 2503n Quality Requirements and 2504n Quality Evaluation."
+  },
+  {
+   "q": "Which of the following belongs to the ISO/IEC 25010 quality in use model?",
+   "a": "Context coverage",
+   "w": [
+    "Modularity",
+    "Interoperability",
+    "Testability"
+   ],
+   "d": "D",
+   "e": "Quality in use covers effectiveness, efficiency, satisfaction, freedom from risk and context coverage. Modularity, interoperability and testability are product quality sub-characteristics."
+  },
+  {
+   "q": "Sandwich (hybrid) integration testing combines:",
+   "a": "Top-down and bottom-up integration",
+   "w": [
+    "Big-bang and top-down integration",
+    "Big-bang and bottom-up integration",
+    "Unit and system testing"
+   ],
+   "d": "D",
+   "e": "Sandwich integration works from both the top layers (using stubs) and the bottom layers (using drivers) toward the middle."
+  },
+  {
+   "q": "Which of the following is NOT a black-box test design technique?",
+   "a": "Branch coverage",
+   "w": [
+    "Equivalence partitioning",
+    "Boundary-value analysis",
+    "Decision tables"
+   ],
+   "d": "D",
+   "e": "Branch coverage needs knowledge of the code structure, so it is white-box. The other three derive tests from the specification only."
+  },
+  {
+   "q": "A project has tasks A (3 days, no predecessor), B (4 days, after A), C (6 days, after A) and D (2 days, after both B and C). The minimum project duration is:",
+   "a": "11 days",
+   "w": [
+    "9 days",
+    "13 days",
+    "15 days"
+   ],
+   "d": "D",
+   "e": "Paths: A-B-D = 9 days and A-C-D = 11 days. The longest path (the critical path) sets the duration, so B has 2 days of slack."
+  },
+  {
+   "q": "Dropping a risky feature from the scope so that the risk can no longer occur is which risk response?",
+   "a": "Avoid",
+   "w": [
+    "Mitigate",
+    "Transfer",
+    "Accept"
+   ],
+   "d": "D",
+   "e": "Avoidance eliminates the risk source. Mitigation only reduces probability or impact, and transfer shifts the impact to a third party such as an insurer or vendor."
+  },
+  {
+   "q": "In cause-and-effect (fishbone) analysis, which step comes immediately after working out the major factors?",
+   "a": "Identify possible causes",
+   "w": [
+    "Identify the problem",
+    "Analyze the diagram",
+    "Rank causes by the 80/20 rule"
+   ],
+   "d": "D",
+   "e": "The order is identify the problem, work out major factors, identify possible causes, then analyze the diagram."
+  },
+  {
+   "q": "Which of the following is NOT one of the TELOS feasibility dimensions?",
+   "a": "Strategic",
+   "w": [
+    "Technical",
+    "Legal",
+    "Schedule"
+   ],
+   "d": "D",
+   "e": "TELOS is Technical, Economic, Legal, Operational and Schedule feasibility."
+  },
+  {
+   "q": "Which data flow is NOT allowed in a Data Flow Diagram?",
+   "a": "Directly from one data store to another data store",
+   "w": [
+    "From an external entity to a process",
+    "From a process to a data store",
+    "From one process to another process"
+   ],
+   "d": "D",
+   "e": "Data stores can only exchange data through a process. Processes need both input and output so they are not black holes or miracles."
+  },
+  {
+   "q": "Which API style uses HTTP/2 and Protocol Buffers (protobuf)?",
+   "a": "gRPC",
+   "w": [
+    "REST",
+    "SOAP",
+    "GraphQL"
+   ],
+   "d": "A",
+   "e": "gRPC uses HTTP/2 with protobuf. REST usually uses HTTP verbs with JSON, and SOAP uses XML messages."
+  },
+  {
+   "q": "Which of the following is NOT a UML behavioral diagram?",
+   "a": "Composite structure diagram",
+   "w": [
+    "Timing diagram",
+    "Communication diagram",
+    "Interaction overview diagram"
+   ],
+   "d": "D",
+   "e": "Composite structure is one of the 7 structural diagrams. Timing, communication, interaction overview, sequence, activity, use case and state diagrams are the 7 behavioral ones."
+  },
+  {
+   "q": "In a UML sequence diagram, which combined fragment runs its operand only if its guard is true, like an if without an else?",
+   "a": "opt",
+   "w": [
+    "alt",
+    "loop",
+    "par"
+   ],
+   "d": "D",
+   "e": "opt is a single optional operand. alt offers alternative operands (if/else), loop repeats, and par runs operands in parallel."
+  },
+  {
+   "q": "In a UML component diagram, a socket (half-circle) represents a:",
+   "a": "Required interface",
+   "w": [
+    "Provided interface",
+    "Port",
+    "Artifact"
+   ],
+   "d": "D",
+   "e": "The lollipop is the provided interface and the socket is the required interface. A port is drawn as a small square on the component edge."
+  },
+  {
+   "q": "Which pair is the best example of composition rather than aggregation?",
+   "a": "A hotel building and its floors",
+   "w": [
+    "An apartment and its rentee",
+    "An order and a product",
+    "An employee and a part-time employee"
+   ],
+   "d": "D",
+   "e": "Floors cannot exist without the building (filled diamond). Apartment and rentee is aggregation, order-product is dependency, and employee-part-time employee is generalization."
+  },
+  {
+   "q": "In a UML class diagram, an attribute written as /age is:",
+   "a": "A derived attribute",
+   "w": [
+    "A protected attribute",
+    "A package-visible attribute",
+    "A private attribute"
+   ],
+   "d": "A",
+   "e": "A leading slash marks a derived attribute (computed from others). Protected is #, package is ~, private is -."
+  },
+  {
+   "q": "Which of the following is NOT a creational design pattern?",
+   "a": "Decorator",
+   "w": [
+    "Builder",
+    "Prototype",
+    "Abstract Factory"
+   ],
+   "d": "D",
+   "e": "Decorator is structural (adds behavior at run-time). Singleton, Factory Method, Abstract Factory, Builder and Prototype are the creational patterns."
+  },
+  {
+   "q": "Which of these is NOT one of the four elements used to describe a design pattern?",
+   "a": "Implementation code",
+   "w": [
+    "Name",
+    "Problem description",
+    "Consequences"
+   ],
+   "d": "D",
+   "e": "A pattern is described by its name, problem description, solution description and consequences. The solution is general, not a fixed piece of code."
+  },
+  {
+   "q": "The SOLID principle stating that high-level modules should depend on abstractions rather than on low-level modules is:",
+   "a": "Dependency Inversion",
+   "w": [
+    "Interface Segregation",
+    "Open/Closed",
+    "Liskov Substitution"
+   ],
+   "d": "A",
+   "e": "D in SOLID is Dependency Inversion. Interface Segregation says clients should not depend on methods they do not use."
+  },
+  {
+   "q": "Which GNU license is intended to let a component link to a library without having to publish the component's own source code?",
+   "a": "LGPL",
+   "w": [
+    "GPL",
+    "AGPL",
+    "GNU FDL"
+   ],
+   "d": "D",
+   "e": "The Lesser GPL permits linking from proprietary components. The plain GPL is reciprocal and requires derived works to be open source."
   }
  ],
  "cards": [
@@ -1156,6 +1486,132 @@
    "q": "In Blender, what do you call pre-computing lighting or shaders into an image to speed up rendering?",
    "a": "Baking",
    "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which ISO/IEC standard defines software life cycle processes?",
+   "a": "ISO/IEC 12207",
+   "alt": [
+    "12207",
+    "ISO 12207"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What formula gives McCabe's cyclomatic complexity from edges E, nodes N and connected components P?",
+   "a": "E - N + 2P",
+   "alt": [
+    "E-N+2P",
+    "V(G) = E - N + 2P",
+    "E - N + 2"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Using PERT, what is the expected duration when O = 2, M = 5 and P = 14 days?",
+   "a": "6",
+   "alt": [
+    "6 days"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "In Kruchten's 4+1 model, which view shows the key abstractions as objects or classes?",
+   "a": "Logical",
+   "alt": [
+    "Logical view"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the name of CMMI level 2?",
+   "a": "Managed",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which ISO/IEC/IEEE standard covers requirements engineering and the SRS (successor of IEEE 830)?",
+   "a": "ISO/IEC/IEEE 29148",
+   "alt": [
+    "29148",
+    "ISO 29148"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Adapter, Bridge, Composite, Decorator and Facade belong to which GoF pattern category?",
+   "a": "Structural",
+   "alt": [
+    "Structural patterns"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What are the five TELOS feasibility dimensions?",
+   "a": "Technical, Economic, Legal, Operational, Schedule",
+   "alt": [
+    "Technical, Economic, Operational, Legal, Schedule"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which API style, associated with Facebook, lets the client specify exactly which fields it wants?",
+   "a": "GraphQL",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which SQuaRE division number covers Quality Measurement?",
+   "a": "2502n",
+   "alt": [
+    "ISO/IEC 2502n",
+    "25020"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which combined fragment operator in a UML sequence diagram repeats its operand?",
+   "a": "loop",
+   "alt": [
+    "Loop"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which Git command downloads remote changes without merging them into your branch?",
+   "a": "git fetch",
+   "alt": [
+    "fetch"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which license lets you link to a library without publishing your own component's source (the Lesser GPL)?",
+   "a": "LGPL",
+   "alt": [
+    "Lesser GPL",
+    "GNU Lesser General Public License"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What does JRP stand for in fact-finding techniques?",
+   "a": "Joint Requirement Planning",
+   "alt": [
+    "Joint Requirements Planning",
+    "JAD",
+    "Joint Application Development"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who wrote The Mythical Man-Month?",
+   "a": "Fred Brooks",
+   "alt": [
+    "Frederick Brooks",
+    "Brooks",
+    "Frederick P. Brooks"
+   ]
   }
  ]
 }

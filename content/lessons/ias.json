@@ -2521,6 +2521,501 @@
    ],
    "e": "NIACAP has four phases: definition, verification, validation and post-accreditation. The closest numeric distractors are 3, 5 and 6.",
    "d": "D"
+  },
+  {
+   "q": "Which is NOT a phase of NIACAP?",
+   "a": "Initiation",
+   "w": [
+    "Definition",
+    "Verification",
+    "Validation"
+   ],
+   "d": "A",
+   "e": "NIACAP has four phases: definition, verification, validation and post-accreditation. Initiation is a phase name from the NIST SP 800-64 SDLC list, not NIACAP."
+  },
+  {
+   "q": "In NIACAP, which phase comes immediately after verification?",
+   "a": "Validation",
+   "w": [
+    "Definition",
+    "Post-accreditation",
+    "Certification"
+   ],
+   "d": "A",
+   "e": "The NIACAP order is definition, verification, validation, post-accreditation. Certification is an evaluation concept, not a NIACAP phase."
+  },
+  {
+   "q": "Which is NOT one of the 12 threat categories in Table 2-5?",
+   "a": "Social engineering",
+   "w": [
+    "Technological obsolescence",
+    "Information extortion",
+    "Forces of nature"
+   ],
+   "d": "D",
+   "e": "Social engineering is discussed under human error or failure, not as its own category. The other three are among the 12 categories."
+  },
+  {
+   "q": "An Intel Pentium CPU flaw is an example of which threat category?",
+   "a": "Technical hardware failures or errors",
+   "w": [
+    "Technical software failures or errors",
+    "Technological obsolescence",
+    "Deviations in quality of service"
+   ],
+   "d": "A",
+   "e": "Equipment failure, such as a defective CPU, is a technical hardware failure. Technical software failures cover bugs, code problems and unknown loopholes."
+  },
+  {
+   "q": "Illegal confiscation of equipment or information falls under which threat category?",
+   "a": "Theft",
+   "w": [
+    "Espionage or trespass",
+    "Sabotage or vandalism",
+    "Information extortion"
+   ],
+   "d": "A",
+   "e": "Theft is the illegal confiscation of equipment or information. Espionage or trespass is unauthorized access and data collection, and extortion is blackmail or disclosure threats."
+  },
+  {
+   "q": "Which characteristic of information is the quality of having value for some purpose or end?",
+   "a": "Utility",
+   "w": [
+    "Accuracy",
+    "Authenticity",
+    "Possession"
+   ],
+   "d": "D",
+   "e": "Utility means information is useful for a purpose. Accuracy is freedom from error, authenticity is being genuine, and possession is ownership or control."
+  },
+  {
+   "q": "Which characteristic is the quality of being genuine or original rather than a reproduction or fabrication?",
+   "a": "Authenticity",
+   "w": [
+    "Accuracy",
+    "Utility",
+    "Possession"
+   ],
+   "d": "D",
+   "e": "Authenticity concerns genuineness of origin. Accuracy means free from mistakes or errors."
+  },
+  {
+   "q": "In NIST SP 800-64 Rev. 2, which phase directly follows Implementation/Assessment?",
+   "a": "Operations and Maintenance",
+   "w": [
+    "Disposal",
+    "Initiation",
+    "Development/Acquisition"
+   ],
+   "d": "D",
+   "e": "The order is Initiation, Development/Acquisition, Implementation/Assessment, Operations and Maintenance, Disposal."
+  },
+  {
+   "q": "In the NIST Cybersecurity Framework 7-step implementation, which step comes right after creating a current profile?",
+   "a": "Conduct a risk assessment",
+   "w": [
+    "Orient",
+    "Create a target profile",
+    "Implement action plan"
+   ],
+   "d": "D",
+   "e": "The steps are prioritize and scope, orient, create current profile, conduct risk assessment, create target profile, determine/analyze/prioritize gaps, implement action plan."
+  },
+  {
+   "q": "In the NIST CSF 7-step implementation, which step comes immediately before implementing the action plan?",
+   "a": "Determine, analyze and prioritize gaps",
+   "w": [
+    "Create a target profile",
+    "Conduct a risk assessment",
+    "Orient"
+   ],
+   "d": "D",
+   "e": "Gap analysis (step 6) feeds the action plan (step 7). Creating the target profile is step 5."
+  },
+  {
+   "q": "What is the second stage of the business impact analysis?",
+   "a": "Identify recovery priorities for system resources",
+   "w": [
+    "Determine mission/business processes and recovery criticality",
+    "Identify resource requirements",
+    "Develop the contingency plan"
+   ],
+   "d": "D",
+   "e": "BIA stages are: determine processes and criticality, identify recovery priorities for system resources, then identify resource requirements."
+  },
+  {
+   "q": "In the 7-step contingency planning process, which step immediately follows conducting the BIA?",
+   "a": "Identify preventive controls",
+   "w": [
+    "Create contingency strategies",
+    "Develop the contingency plan",
+    "Develop the CP policy statement"
+   ],
+   "d": "D",
+   "e": "The order is policy statement, BIA, preventive controls, contingency strategies, plan development, testing/training/exercises, plan maintenance."
+  },
+  {
+   "q": "In the 7-step contingency planning process, which step comes immediately before ensuring plan maintenance?",
+   "a": "Ensure plan testing, training and exercises",
+   "w": [
+    "Develop the contingency plan",
+    "Create contingency strategies",
+    "Identify preventive controls"
+   ],
+   "d": "D",
+   "e": "Testing, training and exercises is step 6 and plan maintenance is step 7."
+  },
+  {
+   "q": "Which is the third offense defined by the UK Computer Misuse Act 1990?",
+   "a": "Unauthorized acts with intent to impair the operation of a computer",
+   "w": [
+    "Unauthorized access to computer material",
+    "Unauthorized access with intent to commit further offenses",
+    "Unauthorized interception of electronic communications"
+   ],
+   "d": "D",
+   "e": "The three offenses are unauthorized access, unauthorized access with intent to commit further offenses, and unauthorized acts to impair operation. Interception is not one of them."
+  },
+  {
+   "q": "Which is NOT one of the six PCI DSS areas?",
+   "a": "Implement mandatory biometric authentication for all users",
+   "w": [
+    "Build and maintain a secure network",
+    "Protect cardholder data",
+    "Regularly monitor and test networks"
+   ],
+   "d": "D",
+   "e": "PCI DSS areas: secure networks, protect cardholder data, vulnerability management, strong access control, monitor/test networks, maintain a security policy. Biometrics is not required."
+  },
+  {
+   "q": "Which 1987 law was one of the first attempts to protect federal computer systems by setting minimum security practices?",
+   "a": "Computer Security Act",
+   "w": [
+    "Computer Fraud and Abuse Act",
+    "Federal Privacy Act",
+    "Economic Espionage Act"
+   ],
+   "d": "D",
+   "e": "The Computer Security Act of 1987 set minimum practices for federal systems. The CFA Act is 1986, the Privacy Act 1974 and the Economic Espionage Act 1996."
+  },
+  {
+   "q": "The National Information Infrastructure Protection Act of 1996 modified which law?",
+   "a": "Computer Fraud and Abuse Act",
+   "w": [
+    "Computer Security Act",
+    "Electronic Communications Privacy Act",
+    "Economic Espionage Act"
+   ],
+   "d": "D",
+   "e": "The NIIPA amended the CFA Act, adding higher penalties based on value and purpose (commercial advantage, private gain, furthering a crime)."
+  },
+  {
+   "q": "Which of these privacy laws was enacted earliest?",
+   "a": "Federal Privacy Act",
+   "w": [
+    "Electronic Communications Privacy Act",
+    "HIPAA",
+    "Gramm-Leach-Bliley Act"
+   ],
+   "d": "D",
+   "e": "Federal Privacy Act 1974, then ECPA 1986, HIPAA 1996, Gramm-Leach-Bliley 1999."
+  },
+  {
+   "q": "Which law and year are correctly paired?",
+   "a": "Gramm-Leach-Bliley Act - 1999",
+   "w": [
+    "HIPAA - 1999",
+    "Sarbanes-Oxley Act - 2001",
+    "Economic Espionage Act - 1999"
+   ],
+   "d": "D",
+   "e": "Gramm-Leach-Bliley is 1999. HIPAA is 1996, Sarbanes-Oxley 2002 and the Economic Espionage Act 1996."
+  },
+  {
+   "q": "In the identity-theft steps coordinated by the FTC, what comes immediately after ordering your credit reports?",
+   "a": "File an identity theft report",
+   "w": [
+    "Place an initial fraud alert",
+    "Monitor your credit",
+    "Notify the Secret Service"
+   ],
+   "d": "D",
+   "e": "The sequence is initial fraud alert, order credit reports, identity theft report, then monitor."
+  },
+  {
+   "q": "A firm follows legally and ethically prudent security practices and knows the consequences, but never checks whether its controls work. It is meeting:",
+   "a": "Due care only",
+   "w": [
+    "Due diligence only",
+    "Both due care and due diligence",
+    "Neither due care nor due diligence"
+   ],
+   "d": "D",
+   "e": "Due care is acting prudently and knowing the consequences. Due diligence additionally requires maintaining that standard and ensuring actions are effective."
+  },
+  {
+   "q": "A designated authority formally authorizes a system to process, store and transmit information after reviewing its security evaluation. This is:",
+   "a": "Accreditation",
+   "w": [
+    "Certification",
+    "Validation",
+    "Verification"
+   ],
+   "d": "A",
+   "e": "Accreditation is the formal authorization to operate. Certification is the evaluation of technical and nontechnical controls that precedes it."
+  },
+  {
+   "q": "An asset is worth $80,000 and an incident would destroy 40% of its value. What is the SLE?",
+   "a": "$32,000",
+   "w": [
+    "$48,000",
+    "$40,000",
+    "$3,200"
+   ],
+   "d": "A",
+   "e": "SLE = asset value x exposure factor = 80,000 x 0.40 = 32,000."
+  },
+  {
+   "q": "The SLE of an incident is $30,000 and it is expected once every 5 years (ARO 0.2). What is the ALE?",
+   "a": "$6,000",
+   "w": [
+    "$150,000",
+    "$24,000",
+    "$30,200"
+   ],
+   "d": "D",
+   "e": "ALE = SLE x ARO = 30,000 x 0.2 = 6,000."
+  },
+  {
+   "q": "A safeguard cuts ALE from $50,000 to $10,000 and costs $15,000 per year (ACS). What is the CBA result?",
+   "a": "$25,000",
+   "w": [
+    "$40,000",
+    "$55,000",
+    "$75,000"
+   ],
+   "d": "D",
+   "e": "CBA = ALE(prior) - ALE(post) - ACS = 50,000 - 10,000 - 15,000 = 25,000."
+  },
+  {
+   "q": "ALE before a safeguard is $20,000, ALE after is $8,000, and ACS is $15,000. What is the CBA result?",
+   "a": "-$3,000, so the safeguard is not cost-justified",
+   "w": [
+    "+$3,000, so the safeguard is cost-justified",
+    "+$12,000, so the safeguard is cost-justified",
+    "-$12,000, so the safeguard is not cost-justified"
+   ],
+   "d": "D",
+   "e": "20,000 - 8,000 - 15,000 = -3,000. A negative CBA means the safeguard costs more than it saves."
+  },
+  {
+   "q": "A server worth $150,000 would lose 30% of its value in a flood expected once every 5 years. What is the ALE?",
+   "a": "$9,000",
+   "w": [
+    "$45,000",
+    "$30,000",
+    "$13,500"
+   ],
+   "d": "D",
+   "e": "SLE = 150,000 x 0.30 = 45,000; ARO = 1/5 = 0.2; ALE = 45,000 x 0.2 = 9,000."
+  },
+  {
+   "q": "An attack with SLE $60,000 is expected once every 4 years. What is the ALE?",
+   "a": "$15,000",
+   "w": [
+    "$240,000",
+    "$60,000",
+    "$1,500"
+   ],
+   "d": "A",
+   "e": "ARO = 1/4 = 0.25, so ALE = 60,000 x 0.25 = 15,000."
+  },
+  {
+   "q": "Which is NOT a component of an ISSP?",
+   "a": "Statement of purpose",
+   "w": [
+    "Prohibited use of equipment",
+    "Violations of policy",
+    "Limitations of liability"
+   ],
+   "d": "D",
+   "e": "An ISSP has a statement of policy, not a statement of purpose, which is an EISP component. Prohibited use, violations and limitations of liability are ISSP components."
+  },
+  {
+   "q": "Which component belongs to the EISP rather than the ISSP?",
+   "a": "Reference to other standards and guidelines",
+   "w": [
+    "Authorized access and usage of equipment",
+    "Systems management",
+    "Limitations of liability"
+   ],
+   "d": "D",
+   "e": "EISP components: purpose, information security elements, responsibilities and roles, and references to other standards. The others are ISSP components."
+  },
+  {
+   "q": "ISO/IEC 27002 is best described as:",
+   "a": "A code of practice for information security controls",
+   "w": [
+    "Requirements for an ISMS",
+    "Information security risk management",
+    "Overview and vocabulary"
+   ],
+   "d": "A",
+   "e": "27002 is the code of practice. 27001 gives ISMS requirements, 27005 risk management and 27000 the overview and vocabulary."
+  },
+  {
+   "q": "Which ISO/IEC 27000-series number covers governance of information security?",
+   "a": "ISO/IEC 27014",
+   "w": [
+    "ISO/IEC 27004",
+    "ISO/IEC 27006",
+    "ISO/IEC 27033"
+   ],
+   "d": "D",
+   "e": "27014 is governance. 27004 is measurement, 27006 audit/certification bodies and 27033 network security."
+  },
+  {
+   "q": "The basis for the design, selection and implementation of policies, training programs and technical controls is the:",
+   "a": "Blueprint",
+   "w": [
+    "Framework",
+    "Security perimeter",
+    "Baseline"
+   ],
+   "d": "D",
+   "e": "A blueprint is the basis for design and implementation. A framework is only an outline of the overall strategy."
+  },
+  {
+   "q": "Which is NOT a firewall best practice from the slides?",
+   "a": "Telnet access to internal servers is permitted from the public network",
+   "w": [
+    "ICMP data are denied",
+    "All traffic from the trusted network is allowed out",
+    "SMTP data are allowed through"
+   ],
+   "d": "A",
+   "e": "Telnet to internal servers should be blocked. The other three are listed best practices."
+  },
+  {
+   "q": "Which authentication system emerged as an alternative to RADIUS?",
+   "a": "Diameter",
+   "w": [
+    "TACACS",
+    "Kerberos",
+    "SESAME"
+   ],
+   "d": "D",
+   "e": "Diameter is the emerging alternative from RADIUS. TACACS is a separate centralized client/server validation system."
+  },
+  {
+   "q": "In Kerberos, which service issues the ticket-granting ticket (TGT)?",
+   "a": "Authentication Server (AS)",
+   "w": [
+    "Ticket Granting Service (TGS)",
+    "Privilege attribute server",
+    "Registration authority"
+   ],
+   "d": "A",
+   "e": "The AS issues the TGT, which the TGS then exchanges for service tickets. The privilege attribute server belongs to SESAME."
+  },
+  {
+   "q": "Which is NOT one of NIST's four recommended NIDPS sensor locations?",
+   "a": "On every host's network interface card",
+   "w": [
+    "Behind each external firewall, in the DMZ",
+    "Outside an external firewall",
+    "On major network backbones"
+   ],
+   "d": "D",
+   "e": "The four locations are behind external firewalls in the DMZ, outside an external firewall, on major backbones and on critical subnets. Per-host monitoring is HIDPS."
+  },
+  {
+   "q": "An attacker changes the format or timing of an attack so the IDPS fails to recognize it. This IDPS term is:",
+   "a": "Evasion",
+   "w": [
+    "Noise",
+    "False attack stimulus",
+    "Tuning"
+   ],
+   "d": "D",
+   "e": "Evasion is deliberately altering an attack to avoid detection. Tuning is adjusting the IDPS to improve its detection."
+  },
+  {
+   "q": "A Confidential-cleared user is blocked from reading a Secret document. Which rule enforces this?",
+   "a": "Bell-LaPadula no read up",
+   "w": [
+    "Bell-LaPadula no write down",
+    "Biba no write up",
+    "Biba no read down"
+   ],
+   "d": "D",
+   "e": "Bell-LaPadula protects confidentiality: no read up and no write down. Biba rules concern integrity."
+  },
+  {
+   "q": "Which is NOT one of the six PGP services?",
+   "a": "Certificate revocation",
+   "w": [
+    "Compression",
+    "Segmentation",
+    "Key management"
+   ],
+   "d": "D",
+   "e": "PGP services: digital-signature authentication, message encryption, compression, e-mail compatibility, segmentation and key management."
+  },
+  {
+   "q": "Which is NOT one of the seven sources of physical loss?",
+   "a": "Social unrest",
+   "w": [
+    "Living organisms",
+    "Projectiles",
+    "Gases"
+   ],
+   "d": "D",
+   "e": "The seven are extreme temperature, gases, liquids, living organisms, projectiles, movement and energy anomalies."
+  },
+  {
+   "q": "Class C fire extinguishers are intended for fires involving:",
+   "a": "Energized electrical equipment",
+   "w": [
+    "Ordinary combustibles",
+    "Flammable liquids",
+    "Combustible metals"
+   ],
+   "d": "A",
+   "e": "Class C is electrical. A is ordinary combustibles, B flammable liquids, D combustible metals, and K cooking oils."
+  },
+  {
+   "q": "Which conversion strategy runs the old and new systems side by side until the new one proves reliable?",
+   "a": "Parallel operations",
+   "w": [
+    "Pilot implementation",
+    "Phased implementation",
+    "Direct changeover"
+   ],
+   "d": "A",
+   "e": "Parallel operations run both systems together. Pilot implements the whole system in one location first and phased rolls out one component at a time."
+  },
+  {
+   "q": "Which is NOT one of the eight project planning considerations?",
+   "a": "Marketing and public relations",
+   "w": [
+    "Procurement",
+    "Training and indoctrination",
+    "Organizational feasibility"
+   ],
+   "d": "D",
+   "e": "The eight are financial, priority, time and scheduling, staffing, procurement, organizational feasibility, training and indoctrination, and scope."
+  },
+  {
+   "q": "In BIA recovery metrics, RTO plus WRT must not exceed the:",
+   "a": "Maximum tolerable downtime (MTD)",
+   "w": [
+    "Recovery point objective (RPO)",
+    "Mean time between failures (MTBF)",
+    "Annualized rate of occurrence (ARO)"
+   ],
+   "d": "D",
+   "e": "MTD is the total downtime an organization can tolerate and is made up of the recovery time (RTO) plus work recovery time (WRT)."
   }
  ],
  "cards": [
@@ -3200,6 +3695,180 @@
    "q": "What are the four NIACAP phases?",
    "a": "Definition, verification, validation, post accreditation",
    "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the first step of the NIST CSF 7-step implementation?",
+   "a": "Prioritize and scope",
+   "alt": [
+    "prioritize and scope",
+    "scope"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the third stage of the business impact analysis?",
+   "a": "Identify resource requirements",
+   "alt": [
+    "resource requirements"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "How many areas does PCI DSS have in the slides?",
+   "a": "6",
+   "alt": [
+    "six"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "An asset worth $200,000 has an exposure factor of 35%. What is the SLE?",
+   "a": "$70,000",
+   "alt": [
+    "70000",
+    "70,000",
+    "P70,000"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "SLE is $70,000 and ARO is 0.25. What is the ALE?",
+   "a": "$17,500",
+   "alt": [
+    "17500",
+    "17,500",
+    "P17,500"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "In BIA, what does MTD stand for?",
+   "a": "Maximum tolerable downtime",
+   "alt": [
+    "maximum tolerable down time",
+    "max tolerable downtime"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "In BIA, what does WRT stand for?",
+   "a": "Work recovery time",
+   "alt": [
+    "work recovery"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which ISO/IEC 27000-series number is the code of practice for information security controls?",
+   "a": "27002",
+   "alt": [
+    "ISO 27002",
+    "ISO/IEC 27002"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which ISO/IEC 27000-series number covers incident management?",
+   "a": "27035",
+   "alt": [
+    "ISO 27035",
+    "ISO/IEC 27035"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What port does FTP use for its control connection?",
+   "a": "21",
+   "alt": [
+    "port 21",
+    "TCP 21"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who wrote the 1982 paper On the Security of UNIX?",
+   "a": "Dennis Ritchie",
+   "alt": [
+    "Ritchie"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which 2015 act inherited select functions of the expiring USA PATRIOT Act?",
+   "a": "USA FREEDOM Act",
+   "alt": [
+    "Freedom Act"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which 1974 law governs federal agency handling of personal records?",
+   "a": "Federal Privacy Act",
+   "alt": [
+    "Privacy Act of 1974",
+    "Privacy Act"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What term names the three groups of federal information: NSI, Non-NSI and what?",
+   "a": "Intelligence Community (IC)",
+   "alt": [
+    "IC",
+    "intelligence community"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which access control model defines objects, subjects and rights?",
+   "a": "Graham-Denning",
+   "alt": [
+    "Graham-Denning model"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What IDPS term means adjusting the system to improve detection and reduce false positives?",
+   "a": "Tuning",
+   "alt": [
+    "tune"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What tar-pit active-prevention tool did the slides name?",
+   "a": "LaBrea",
+   "alt": [
+    "La Brea"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which substitution cipher uses 26 alphabets?",
+   "a": "Vigenere",
+   "alt": [
+    "Vigenère",
+    "Vigenere cipher",
+    "Vigenère cipher"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Kerberos component issues the ticket-granting ticket?",
+   "a": "Authentication Server",
+   "alt": [
+    "AS",
+    "authentication server (AS)"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does an attacker practice first: footprinting or fingerprinting?",
+   "a": "Footprinting",
+   "alt": [
+    "footprint"
+   ]
   }
  ]
 }

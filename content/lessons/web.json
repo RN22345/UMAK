@@ -1082,6 +1082,336 @@
     "A2A"
    ],
    "d": "D"
+  },
+  {
+   "q": "What is the CSS specificity of the selector #nav .item a:hover (using id=100, class/pseudo-class=10, element=1)?",
+   "a": "121",
+   "w": [
+    "111",
+    "131",
+    "211"
+   ],
+   "d": "D",
+   "e": "One id (100) + one class (.item = 10) + one pseudo-class (:hover = 10) + one element (a = 1) = 121. Pseudo-classes count like classes, not like elements."
+  },
+  {
+   "q": "An element has width: 200px; padding: 20px; border: 5px solid; margin: 10px and box-sizing: content-box. How much horizontal space does its box (excluding margin) occupy?",
+   "a": "250px",
+   "w": [
+    "200px",
+    "240px",
+    "260px"
+   ],
+   "d": "D",
+   "e": "With content-box, width is content only: 200 + 20 + 20 (padding) + 5 + 5 (border) = 250px. With border-box it would stay 200px; 260px wrongly adds a 10px margin."
+  },
+  {
+   "q": "For margin: 5px 10px 15px 20px, which values apply to the bottom and left sides respectively?",
+   "a": "15px and 20px",
+   "w": [
+    "5px and 10px",
+    "10px and 15px",
+    "20px and 15px"
+   ],
+   "d": "D",
+   "e": "Four-value shorthand goes clockwise: top, right, bottom, left (TRBL), so bottom = 15px and left = 20px."
+  },
+  {
+   "q": "A page has an h1 followed by three sibling p elements. How many of those p elements does the selector h1 ~ p match?",
+   "a": "3",
+   "w": [
+    "1",
+    "2",
+    "0"
+   ],
+   "d": "D",
+   "e": "The general sibling combinator (~) matches all following siblings, so all 3 paragraphs. The adjacent sibling combinator h1 + p would match only the first."
+  },
+  {
+   "q": "A parent has font-size: 20px and the root (html) font-size is 16px. What is the computed font-size of a child with font-size: 1.5em?",
+   "a": "30px",
+   "w": [
+    "24px",
+    "24.5px",
+    "36px"
+   ],
+   "d": "D",
+   "e": "em is relative to the parent font size: 1.5 x 20 = 30px. 1.5rem would be relative to the root: 1.5 x 16 = 24px."
+  },
+  {
+   "q": "A 900px-wide container uses display:grid; grid-template-columns: repeat(3, 1fr); column-gap: 30px. How wide is each column?",
+   "a": "280px",
+   "w": [
+    "300px",
+    "270px",
+    "290px"
+   ],
+   "d": "D",
+   "e": "The two gaps take 2 x 30 = 60px, leaving 840px shared equally by 3 fr tracks = 280px each. 300px would be the width with no gap."
+  },
+  {
+   "q": "In a flex container, which justify-content value leaves equal space between items and also equal space at both container edges?",
+   "a": "space-evenly",
+   "w": [
+    "space-between",
+    "space-around",
+    "center"
+   ],
+   "d": "D",
+   "e": "space-evenly makes every gap, including the two edge gaps, identical. space-around gives edge gaps of half size, and space-between puts no space at the edges."
+  },
+  {
+   "q": "A request returns HTTP 403. What does this mean?",
+   "a": "The server understood the request but refuses to authorize it",
+   "w": [
+    "The requested resource was not found",
+    "The client must authenticate because credentials are missing or invalid",
+    "The server crashed while handling the request"
+   ],
+   "d": "D",
+   "e": "403 Forbidden means access is refused even if you are known. 401 is the one for missing or invalid credentials, 404 is Not Found, and 500 is an internal server error."
+  },
+  {
+   "q": "Which HTTP status code signals that a resource has been moved permanently to a new URL?",
+   "a": "301",
+   "w": [
+    "302",
+    "304",
+    "307"
+   ],
+   "d": "D",
+   "e": "301 Moved Permanently is the permanent redirect. 302 and 307 are temporary redirects, and 304 Not Modified tells the client to use its cached copy."
+  },
+  {
+   "q": "What does this JavaScript print? for (var i = 0; i < 3; i++) { setTimeout(() => console.log(i), 0); }",
+   "a": "3 3 3",
+   "w": [
+    "0 1 2",
+    "0 0 0",
+    "undefined undefined undefined"
+   ],
+   "d": "D",
+   "e": "var is function-scoped, so all callbacks share one i, which is 3 when the timeouts run after the loop. Declaring it with let would give a new binding per iteration and print 0 1 2."
+  },
+  {
+   "q": "In JavaScript, what are the results of \"5\" + 3 and \"5\" - 3?",
+   "a": "\"53\" and 2",
+   "w": [
+    "8 and 2",
+    "\"53\" and \"53\"",
+    "8 and \"2\""
+   ],
+   "d": "D",
+   "e": "The + operator concatenates when one operand is a string, giving \"53\", while - always converts to numbers, giving 2."
+  },
+  {
+   "q": "What happens when you set element.textContent = \"<b>Hi</b>\"?",
+   "a": "The literal text <b>Hi</b> is displayed, not bold text",
+   "w": [
+    "The word Hi is displayed in bold",
+    "Nothing is displayed because tags are stripped",
+    "The browser throws a syntax error"
+   ],
+   "d": "A",
+   "e": "textContent treats the value as plain text, so tags show literally. innerHTML would parse the markup and render bold Hi."
+  },
+  {
+   "q": "When an external script is loaded with the defer attribute, when does it execute?",
+   "a": "After the HTML is fully parsed, in document order",
+   "w": [
+    "Immediately, pausing HTML parsing until it finishes",
+    "As soon as it downloads, in any order",
+    "Only after the window load event and all images finish"
+   ],
+   "d": "D",
+   "e": "defer downloads in parallel with parsing and runs once parsing is done, preserving order. The immediate-blocking behaviour is a plain script; the as-soon-as-downloaded one is async."
+  },
+  {
+   "q": "Which statement about form fields is correct?",
+   "a": "A disabled field is not submitted with the form, but a readonly field is",
+   "w": [
+    "A readonly field is not submitted, but a disabled field is",
+    "Both disabled and readonly fields are never submitted",
+    "Both are submitted, but readonly cannot be focused"
+   ],
+   "d": "D",
+   "e": "Disabled controls are excluded from form submission and cannot be focused; readonly fields can be focused and their value is sent."
+  },
+  {
+   "q": "In the URL https://www.umak.edu.ph:8080/about?x=1#top, which part is not sent to the server in the HTTP request?",
+   "a": "#top",
+   "w": [
+    "?x=1",
+    "/about",
+    "8080"
+   ],
+   "d": "D",
+   "e": "The fragment (#top) is handled only by the browser. The path, the query string (?x=1) and the port (used to connect) are all part of the request."
+  },
+  {
+   "q": "Which of these HTML elements is NOT a void (empty) element?",
+   "a": "<textarea>",
+   "w": [
+    "<input>",
+    "<meta>",
+    "<link>"
+   ],
+   "d": "D",
+   "e": "textarea has a start tag, content and an end tag. input, meta and link, like br, hr and img, cannot have content or an end tag."
+  },
+  {
+   "q": "Which Core Web Vital measures responsiveness to user interaction and replaced FID in March 2024?",
+   "a": "INP",
+   "w": [
+    "LCP",
+    "CLS",
+    "TTFB"
+   ],
+   "d": "A",
+   "e": "INP (Interaction to Next Paint) measures responsiveness. LCP is loading, CLS is visual stability, and TTFB is not a Core Web Vital."
+  },
+  {
+   "q": "What is the minimum WCAG contrast ratio for normal-size text at level AAA?",
+   "a": "7:1",
+   "w": [
+    "4.5:1",
+    "3:1",
+    "5.5:1"
+   ],
+   "d": "A",
+   "e": "AAA requires 7:1 for normal text. 4.5:1 is the AA requirement, and 3:1 is the AA minimum for large text."
+  },
+  {
+   "q": "A form offers an undo button and a clearly marked way to cancel an operation. Which of Nielsen's heuristics does this best support?",
+   "a": "User control and freedom",
+   "w": [
+    "Error prevention",
+    "Flexibility and efficiency of use",
+    "Consistency and standards"
+   ],
+   "d": "D",
+   "e": "Undo, redo and clear emergency exits give users control and freedom. Error prevention would stop the mistake from happening in the first place."
+  },
+  {
+   "q": "A store gets 40,000 visitors, 2% of them order, and the average order value is PHP 1,500. What is the revenue?",
+   "a": "PHP 1,200,000",
+   "w": [
+    "PHP 800,000",
+    "PHP 120,000",
+    "PHP 3,000,000"
+   ],
+   "d": "D",
+   "e": "Orders = 40,000 x 0.02 = 800; revenue = 800 x 1,500 = PHP 1,200,000. PHP 800,000 is just the confusion of the orders figure with revenue."
+  },
+  {
+   "q": "An ad receives 200,000 impressions with a 1.5% CTR, and 4% of the clicks result in an order. How many orders result?",
+   "a": "120",
+   "w": [
+    "12",
+    "300",
+    "3,000"
+   ],
+   "d": "D",
+   "e": "Clicks = 200,000 x 0.015 = 3,000; orders = 3,000 x 0.04 = 120. 3,000 is the number of clicks, not orders."
+  },
+  {
+   "q": "A seller spends PHP 30,000 on ads and earns PHP 90,000 in sales from them. What is the ROAS?",
+   "a": "3.0 (3:1)",
+   "w": [
+    "2.0 (2:1)",
+    "0.33",
+    "30%"
+   ],
+   "d": "D",
+   "e": "ROAS = revenue / ad spend = 90,000 / 30,000 = 3. The value 2.0 would be net profit over spend, (90,000 - 30,000) / 30,000, which is closer to ROI."
+  },
+  {
+   "q": "If 1,000 shopping carts were created and 300 resulted in completed purchases, what is the cart abandonment rate?",
+   "a": "70%",
+   "w": [
+    "30%",
+    "300%",
+    "3.3%"
+   ],
+   "d": "D",
+   "e": "Abandoned carts = 1,000 - 300 = 700, so 700 / 1,000 = 70%. The 30% figure is the checkout completion rate."
+  },
+  {
+   "q": "Which Philippine law, enacted in 2024, targets account takeover and the scamming of financial accounts, such as e-wallet and bank fraud?",
+   "a": "RA 12010 (Anti-Financial Account Scamming Act)",
+   "w": [
+    "RA 11765 (Financial Products and Services Consumer Protection Act)",
+    "RA 11934 (SIM Registration Act)",
+    "RA 10175 (Cybercrime Prevention Act)"
+   ],
+   "d": "D",
+   "e": "AFASA is RA 12010. RA 11765 is the broader financial consumer protection law, and RA 10175 is the general cybercrime law from 2012."
+  },
+  {
+   "q": "Which Republic Act established the Philippine Identification System (PhilSys) National ID, used for e-KYC?",
+   "a": "RA 11055",
+   "w": [
+    "RA 11934",
+    "RA 7277",
+    "RA 11967"
+   ],
+   "d": "D",
+   "e": "PhilSys is RA 11055. RA 11934 is SIM registration, RA 7277 is the Magna Carta for Persons with Disability, and RA 11967 is the Internet Transactions Act."
+  },
+  {
+   "q": "In a card payment, which party is the customer's own bank that approves or declines the transaction?",
+   "a": "Issuer",
+   "w": [
+    "Acquirer",
+    "Payment gateway",
+    "Card network"
+   ],
+   "d": "A",
+   "e": "The issuer issued the card and holds the customer's account. The acquirer serves the merchant, and the card network (Visa/Mastercard) routes the messages between them."
+  },
+  {
+   "q": "Which browser is NOT correctly paired with its rendering engine?",
+   "a": "Opera - Gecko",
+   "w": [
+    "Safari - WebKit",
+    "Edge - Blink",
+    "Firefox - Gecko"
+   ],
+   "d": "D",
+   "e": "Opera is Chromium-based and uses Blink. Gecko belongs to Firefox, WebKit to Safari, and Edge moved to Blink."
+  },
+  {
+   "q": "Which of these is NOT a typical B2C e-commerce example?",
+   "a": "IndiaMART",
+   "w": [
+    "Zalora",
+    "Lazada",
+    "Apple Store"
+   ],
+   "d": "A",
+   "e": "IndiaMART is a B2B marketplace linking businesses. Zalora, Lazada and Apple Store sell to individual consumers."
+  },
+  {
+   "q": "Replacing a real card number with a non-sensitive surrogate value that is useless if stolen is called:",
+   "a": "Tokenization",
+   "w": [
+    "3-D Secure",
+    "Chargeback",
+    "Escrow"
+   ],
+   "d": "D",
+   "e": "Tokenization swaps the card number for a token. 3-D Secure adds an OTP/authentication step, a chargeback is a disputed transaction reversal, and escrow holds funds until delivery."
+  },
+  {
+   "q": "How is a digital signature created?",
+   "a": "The sender hashes the message and encrypts the hash with the sender's private key",
+   "w": [
+    "The sender encrypts the whole message with the receiver's public key",
+    "The sender hashes the message and encrypts the hash with the receiver's private key",
+    "The sender encrypts the message with a shared symmetric key"
+   ],
+   "d": "D",
+   "e": "A signature is a hash signed with the signer's private key so anyone can verify it with the matching public key. Encrypting with the receiver's public key gives confidentiality, not a signature."
   }
  ],
  "cards": [
@@ -1497,6 +1827,144 @@
    "q": "Which Philippine law is the SIM Registration Act?",
    "a": "RA 11934",
    "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Who created the PHP language in 1994?",
+   "a": "Rasmus Lerdorf",
+   "alt": [
+    "Lerdorf"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who created the Node.js runtime in 2009?",
+   "a": "Ryan Dahl",
+   "alt": [
+    "Dahl"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What four principles make up the CRAP design mnemonic?",
+   "a": "Contrast, Repetition, Alignment, Proximity",
+   "alt": [
+    "contrast repetition alignment proximity"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "In 1994, NetMarket made the first secure online purchase. What item was bought?",
+   "a": "A Sting CD",
+   "alt": [
+    "Sting CD",
+    "CD",
+    "Sting album"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who founded Shopify in 2006?",
+   "a": "Tobias Lutke",
+   "alt": [
+    "Tobias Lütke",
+    "Lutke",
+    "Lütke"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Republic Act is the Anti-Financial Account Scamming Act (AFASA)?",
+   "a": "RA 12010",
+   "alt": [
+    "12010",
+    "Republic Act 12010",
+    "Republic Act No. 12010"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Republic Act is the Financial Products and Services Consumer Protection Act?",
+   "a": "RA 11765",
+   "alt": [
+    "11765",
+    "Republic Act 11765",
+    "Republic Act No. 11765"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Republic Act created the PhilSys National ID?",
+   "a": "RA 11055",
+   "alt": [
+    "11055",
+    "Republic Act 11055",
+    "Republic Act No. 11055"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Republic Act is the Magna Carta for Persons with Disability?",
+   "a": "RA 7277",
+   "alt": [
+    "7277",
+    "Republic Act 7277",
+    "Republic Act No. 7277"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which HTTP status code means Not Found?",
+   "a": "404",
+   "alt": [
+    "HTTP 404",
+    "error 404"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which browser engine powers Apple's Safari?",
+   "a": "WebKit",
+   "alt": [
+    "Webkit"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "In typography, what is the term for the spacing between lines of text?",
+   "a": "Leading",
+   "alt": [
+    "line spacing",
+    "line-height"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which advertising metric is revenue divided by ad spend?",
+   "a": "ROAS",
+   "alt": [
+    "Return on Ad Spend",
+    "return on advertising spend"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which CSS function returns a value constrained between a minimum and a maximum, with a preferred value in between?",
+   "a": "clamp()",
+   "alt": [
+    "clamp"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which pair of HTML5 elements creates a collapsible disclosure widget?",
+   "a": "details and summary",
+   "alt": [
+    "<details> and <summary>",
+    "details, summary",
+    "details/summary",
+    "summary and details"
+   ]
   }
  ]
 }

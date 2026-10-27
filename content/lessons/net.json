@@ -1012,6 +1012,325 @@
     "Zabbix"
    ],
    "d": "E"
+  },
+  {
+   "q": "What is the broadcast address of 172.16.40.9/20?",
+   "a": "172.16.47.255",
+   "w": [
+    "172.16.40.255",
+    "172.16.32.255",
+    "172.16.48.255"
+   ],
+   "d": "D",
+   "e": "/20 gives a block size of 16 in the third octet; 40 lies in the 32-47 block, so the broadcast is 172.16.47.255. 172.16.32.0 is the network address of that block."
+  },
+  {
+   "q": "How many usable host addresses does a /22 network provide?",
+   "a": "1022",
+   "w": [
+    "1024",
+    "510",
+    "2046"
+   ],
+   "d": "D",
+   "e": "A /22 leaves 10 host bits, so 2^10 - 2 = 1022. 1024 forgets the network and broadcast addresses, and 510 is a /23."
+  },
+  {
+   "q": "What is the broadcast address of 10.20.30.200/27?",
+   "a": "10.20.30.223",
+   "w": [
+    "10.20.30.255",
+    "10.20.30.207",
+    "10.20.30.224"
+   ],
+   "d": "D",
+   "e": "A /27 has a block size of 32; 200 falls in the 192-223 block, so the network is .192 and the broadcast is .223. .224 is the next network."
+  },
+  {
+   "q": "How many /28 subnets can be carved out of one /24 network?",
+   "a": "16",
+   "w": [
+    "8",
+    "14",
+    "32"
+   ],
+   "d": "A",
+   "e": "Borrowing 4 bits gives 2^4 = 16 subnets (block size 16). 14 is the usable hosts per /28, not the number of subnets."
+  },
+  {
+   "q": "Which prefix length does RFC 3021 allow on point-to-point links so that both addresses are usable hosts?",
+   "a": "/31",
+   "w": [
+    "/30",
+    "/29",
+    "/32"
+   ],
+   "d": "D",
+   "e": "A /31 has 2 addresses and RFC 3021 lets both be used with no network or broadcast address. A /30 wastes 2 of its 4 addresses, and a /32 is a single host."
+  },
+  {
+   "q": "What is the wildcard mask that matches a /26 subnet mask?",
+   "a": "0.0.0.63",
+   "w": [
+    "0.0.0.64",
+    "0.0.0.31",
+    "0.0.0.192"
+   ],
+   "d": "D",
+   "e": "The wildcard is the inverse of 255.255.255.192, which is 0.0.0.63. 0.0.0.64 is the block size, and 0.0.0.31 is the wildcard of a /27."
+  },
+  {
+   "q": "Why does the Class A first-octet range end at 126 instead of 127?",
+   "a": "127.x.x.x is reserved for loopback",
+   "w": [
+    "127.x.x.x is reserved for multicast",
+    "127.x.x.x is the APIPA block",
+    "127.x.x.x is the broadcast block"
+   ],
+   "d": "D",
+   "e": "The 127.0.0.0/8 block is loopback (127.0.0.1 is localhost). Multicast is Class D (224-239) and APIPA is 169.254.0.0/16."
+  },
+  {
+   "q": "Which address belongs to the private block 172.16.0.0/12?",
+   "a": "172.31.200.1",
+   "w": [
+    "172.32.0.1",
+    "172.15.0.1",
+    "172.160.0.1"
+   ],
+   "d": "A",
+   "e": "The /12 block covers 172.16.0.0 through 172.31.255.255. 172.15.x.x and 172.32.x.x fall just outside it and are public."
+  },
+  {
+   "q": "In the TCP/IP model, which OSI layers are merged into the Application layer?",
+   "a": "Session, Presentation and Application",
+   "w": [
+    "Presentation and Application only",
+    "Transport, Session and Presentation",
+    "Transport through Application"
+   ],
+   "d": "A",
+   "e": "TCP/IP's Application layer covers OSI layers 5 to 7. OSI Transport (4) stays its own TCP/IP layer."
+  },
+  {
+   "q": "Which device splits broadcast domains by default?",
+   "a": "Router",
+   "w": [
+    "Switch",
+    "Hub",
+    "Bridge"
+   ],
+   "d": "A",
+   "e": "Each router interface is its own broadcast domain. Switches split collision domains but forward broadcasts unless VLANs are used; hubs and bridges do not split broadcast domains either."
+  },
+  {
+   "q": "How many collision domains does an 8-port switch create when one device is on every port?",
+   "a": "8",
+   "w": [
+    "1",
+    "2",
+    "7"
+   ],
+   "d": "D",
+   "e": "Each switch port is its own collision domain, so 8. A hub with 8 ports would be a single collision domain."
+  },
+  {
+   "q": "How many bytes larger is the minimum TCP header than the UDP header?",
+   "a": "12",
+   "w": [
+    "8",
+    "20",
+    "28"
+   ],
+   "d": "D",
+   "e": "The TCP header is at least 20 bytes and the UDP header is fixed at 8 bytes, a difference of 12. 28 would be their sum."
+  },
+  {
+   "q": "A DHCP client listens for server replies on which UDP port?",
+   "a": "68",
+   "w": [
+    "67",
+    "69",
+    "53"
+   ],
+   "d": "D",
+   "e": "DHCP uses UDP 67 on the server and 68 on the client. UDP 69 is TFTP and 53 is DNS."
+  },
+  {
+   "q": "On which port are SNMP traps normally received by the manager?",
+   "a": "162",
+   "w": [
+    "161",
+    "179",
+    "514"
+   ],
+   "d": "D",
+   "e": "SNMP uses 161 for polling the agent and 162 for traps. 179 is BGP and 514 is Syslog."
+  },
+  {
+   "q": "Which port does POP3 over TLS (POP3S) use?",
+   "a": "995",
+   "w": [
+    "993",
+    "465",
+    "587"
+   ],
+   "d": "D",
+   "e": "POP3S is 995. IMAPS is 993, SMTPS is 465 and SMTP submission is 587."
+  },
+  {
+   "q": "Which HTTP status code tells the client that its cached copy is still valid?",
+   "a": "304 Not Modified",
+   "w": [
+    "301 Moved Permanently",
+    "204 No Content",
+    "302 Found"
+   ],
+   "d": "D",
+   "e": "304 is a redirection-class response meaning use the cached copy. 301 and 302 redirect to another URL, while 204 is a success with no body."
+  },
+  {
+   "q": "A gateway or proxy that gets no timely response from the upstream server returns which status code?",
+   "a": "504",
+   "w": [
+    "502",
+    "503",
+    "408"
+   ],
+   "d": "D",
+   "e": "504 is Gateway Timeout. 502 is Bad Gateway (invalid upstream response), 503 is Service Unavailable, and 408 is a client request timeout."
+  },
+  {
+   "q": "Which is the correct compressed form of 2001:0db8:0000:0000:0000:ff00:0042:8329?",
+   "a": "2001:db8::ff00:42:8329",
+   "w": [
+    "2001:db8::ff00::42:8329",
+    "2001:db8:ff00:42:8329",
+    "2001:db8::ff:42:8329"
+   ],
+   "d": "D",
+   "e": "Drop leading zeros and replace one run of zero groups with ::. Using :: twice is invalid, and removing zero groups without :: leaves too few groups."
+  },
+  {
+   "q": "Which IPv6 prefix is reserved for link-local addresses?",
+   "a": "fe80::/10",
+   "w": [
+    "fc00::/7",
+    "2000::/3",
+    "::1/128"
+   ],
+   "d": "D",
+   "e": "Link-local is fe80::/10. fc00::/7 is unique local, 2000::/3 is global unicast, and ::1 is loopback."
+  },
+  {
+   "q": "What is the administrative distance of OSPF?",
+   "a": "110",
+   "w": [
+    "90",
+    "120",
+    "1"
+   ],
+   "d": "D",
+   "e": "OSPF is 110. EIGRP is 90, RIP is 120 and a static route is 1."
+  },
+  {
+   "q": "In RIP, what does a hop count of 16 mean?",
+   "a": "The destination is unreachable",
+   "w": [
+    "The maximum valid distance",
+    "The route is directly connected",
+    "The route is a default route"
+   ],
+   "d": "A",
+   "e": "RIP allows at most 15 hops; 16 is treated as infinity, meaning unreachable."
+  },
+  {
+   "q": "Which IEEE standard defines Rapid Spanning Tree Protocol (RSTP)?",
+   "a": "802.1w",
+   "w": [
+    "802.1D",
+    "802.1Q",
+    "802.3ad"
+   ],
+   "d": "D",
+   "e": "RSTP is 802.1w. Classic STP is 802.1D, VLAN tagging is 802.1Q and LACP link aggregation is 802.3ad."
+  },
+  {
+   "q": "What is the maximum distance at which Cat6 cable supports 10 Gbps?",
+   "a": "55 meters",
+   "w": [
+    "100 meters",
+    "37 meters",
+    "30 meters"
+   ],
+   "d": "D",
+   "e": "Cat6 carries 10 Gbps only up to about 55 m, while Cat6a reaches the full 100 m. Cat6 at 1 Gbps still reaches 100 m."
+  },
+  {
+   "q": "Which of these is NOT a fiber optic connector?",
+   "a": "BNC",
+   "w": [
+    "LC",
+    "SC",
+    "MPO"
+   ],
+   "d": "A",
+   "e": "BNC is a coaxial connector. LC, SC, ST and MPO are all fiber connectors."
+  },
+  {
+   "q": "What is the allowed size range of the data field in an Ethernet frame?",
+   "a": "46-1500 bytes",
+   "w": [
+    "64-1518 bytes",
+    "0-1500 bytes",
+    "46-1518 bytes"
+   ],
+   "d": "D",
+   "e": "The payload is 46 to 1500 bytes (1500 is the MTU). 64-1518 is the range of the whole frame including headers and FCS."
+  },
+  {
+   "q": "Which mechanism replaces the PSK handshake in WPA3-Personal and resists offline dictionary attacks?",
+   "a": "SAE",
+   "w": [
+    "TKIP",
+    "AES-CCMP",
+    "WPS PIN"
+   ],
+   "d": "D",
+   "e": "WPA3 uses Simultaneous Authentication of Equals (SAE). TKIP belongs to WPA, and AES-CCMP is the WPA2 cipher."
+  },
+  {
+   "q": "By Shannon's formula, what is the maximum capacity of a 3000 Hz channel with S/N = 1023?",
+   "a": "30,000 bps",
+   "w": [
+    "3,069,000 bps",
+    "15,000 bps",
+    "300,000 bps"
+   ],
+   "d": "D",
+   "e": "C = 3000 x log2(1 + 1023) = 3000 x log2(1024) = 3000 x 10 = 30,000 bps."
+  },
+  {
+   "q": "At full throughput, how long does a 250 MB file take to cross a 100 Mbps link?",
+   "a": "20 seconds",
+   "w": [
+    "2.5 seconds",
+    "25 seconds",
+    "200 seconds"
+   ],
+   "d": "A",
+   "e": "250 MB x 8 = 2000 Mb, divided by 100 Mbps = 20 s. Dividing 250 by 100 without converting bytes to bits gives the 2.5 s trap."
+  },
+  {
+   "q": "In a fiber-to-the-home network, which device terminates the fiber at the customer's premises?",
+   "a": "ONT",
+   "w": [
+    "OLT",
+    "DSLAM",
+    "CMTS"
+   ],
+   "d": "D",
+   "e": "The Optical Network Terminal sits at the customer end. The OLT is at the ISP's central office; DSLAM and CMTS serve DSL and cable broadband."
   }
  ],
  "cards": [
@@ -1458,6 +1777,119 @@
    "q": "What DNS public resolver address is operated by Cloudflare?",
    "a": "1.1.1.1",
    "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the administrative distance of OSPF?",
+   "a": "110",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the administrative distance of RIP?",
+   "a": "120",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the default port of BGP?",
+   "a": "179",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the default port used to poll SNMP agents (not traps)?",
+   "a": "161",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the default port of IMAP over TLS (IMAPS)?",
+   "a": "993",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which protocol replaces ARP in IPv6?",
+   "a": "NDP",
+   "alt": [
+    "Neighbor Discovery Protocol",
+    "Neighbor Discovery",
+    "Neighbour Discovery Protocol"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What IEEE standard number defines Rapid Spanning Tree?",
+   "a": "802.1w",
+   "alt": [
+    "IEEE 802.1w"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "How many usable hosts are in a /20 network?",
+   "a": "4094",
+   "alt": [
+    "4,094"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the dotted-decimal subnet mask of /20?",
+   "a": "255.255.240.0",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the fixed size in bytes of the IPv6 base header?",
+   "a": "40",
+   "alt": [
+    "40 bytes"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the data rate of a T1 line in Mbps?",
+   "a": "1.544",
+   "alt": [
+    "1.544 Mbps"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the data rate of an E1 line in Mbps?",
+   "a": "2.048",
+   "alt": [
+    "2.048 Mbps"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the Ethernet broadcast MAC address?",
+   "a": "FF:FF:FF:FF:FF:FF",
+   "alt": [
+    "FF-FF-FF-FF-FF-FF",
+    "ffffffffffff"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who created the Nmap port scanner, known by the handle Fyodor?",
+   "a": "Gordon Lyon",
+   "alt": [
+    "Fyodor",
+    "Gordon Fyodor Lyon"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the IPv6 link-local prefix?",
+   "a": "fe80::/10",
+   "alt": [
+    "fe80::",
+    "fe80"
+   ]
   }
  ]
 }

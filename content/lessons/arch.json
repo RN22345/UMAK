@@ -762,6 +762,336 @@
     "RPM"
    ],
    "d": "E"
+  },
+  {
+   "q": "An ideal 5-stage pipeline with no stalls executes 200 instructions in how many cycles?",
+   "a": "204",
+   "w": [
+    "200",
+    "205",
+    "1000"
+   ],
+   "d": "D",
+   "e": "Total cycles = k + n - 1 = 5 + 200 - 1 = 204. 205 forgets the overlap of the first stage; 1000 is the unpipelined 5 x 200."
+  },
+  {
+   "q": "For 100 instructions on a 5-stage pipeline, what is the speedup over an unpipelined machine taking 5 cycles per instruction (stalls ignored)?",
+   "a": "About 4.8x",
+   "w": [
+    "Exactly 5x",
+    "About 4.0x",
+    "About 4.2x"
+   ],
+   "d": "D",
+   "e": "Unpipelined = 500 cycles, pipelined = 104 cycles, so 500/104 is about 4.8. The ideal speedup of 5 (number of stages) is only approached as n becomes very large."
+  },
+  {
+   "q": "A program is 90% parallelizable. What is the maximum possible speedup by Amdahl's Law, however many processors are used?",
+   "a": "10x",
+   "w": [
+    "9x",
+    "11x",
+    "90x"
+   ],
+   "d": "D",
+   "e": "Maximum speedup with infinite S is 1/(1-P) = 1/0.1 = 10. The serial 10% always remains."
+  },
+  {
+   "q": "By Amdahl's Law, what is the overall speedup if 50% of a program is sped up by 10x?",
+   "a": "About 1.82x",
+   "w": [
+    "About 2.0x",
+    "About 5.5x",
+    "About 1.1x"
+   ],
+   "d": "D",
+   "e": "Speedup = 1/((1-0.5) + 0.5/10) = 1/0.55 = about 1.82. 2.0x is only the ceiling 1/(1-P) reached when S is infinite."
+  },
+  {
+   "q": "A 3 GHz CPU executes 6 x 10^9 instructions with an average CPI of 1.5. How long does the program take?",
+   "a": "3 seconds",
+   "w": [
+    "2 seconds",
+    "4.5 seconds",
+    "6 seconds"
+   ],
+   "d": "D",
+   "e": "Cycles = 6e9 x 1.5 = 9e9; time = 9e9 / 3e9 Hz = 3 s. 2 s would result from ignoring CPI."
+  },
+  {
+   "q": "A cache has a hit time of 1 ns, a miss rate of 5%, and a miss penalty of 80 ns. What is the AMAT?",
+   "a": "5 ns",
+   "w": [
+    "4 ns",
+    "41 ns",
+    "81 ns"
+   ],
+   "d": "D",
+   "e": "AMAT = hit time + miss rate x miss penalty = 1 + 0.05 x 80 = 5 ns. 4 ns is only the miss term."
+  },
+  {
+   "q": "A memory has 14 address lines and 16-bit words. What is its capacity?",
+   "a": "32 KB",
+   "w": [
+    "16 KB",
+    "64 KB",
+    "256 KB"
+   ],
+   "d": "D",
+   "e": "2^14 = 16,384 words x 2 bytes = 32,768 bytes = 32 KB. 16 KB would be correct only for 8-bit words."
+  },
+  {
+   "q": "How many address lines are needed to address every byte of a 2 MB memory?",
+   "a": "21",
+   "w": [
+    "20",
+    "22",
+    "19"
+   ],
+   "d": "A",
+   "e": "2 MB = 2^21 bytes, so 21 lines. 20 lines reach only 1 MB (the 8086 limit)."
+  },
+  {
+   "q": "The practical (implemented) address width of 64-bit x86-64 CPUs of the era in the notes, 48 bits, gives an address space of:",
+   "a": "256 TB",
+   "w": [
+    "16 TB",
+    "64 TB",
+    "16 EB"
+   ],
+   "d": "A",
+   "e": "2^48 bytes = 256 TB. 16 EB is the theoretical limit of a full 64-bit address (2^64)."
+  },
+  {
+   "q": "Approximately what bandwidth does a PCIe Gen 4 x4 link provide (about 2 GB/s per lane)?",
+   "a": "About 8 GB/s",
+   "w": [
+    "About 4 GB/s",
+    "About 16 GB/s",
+    "About 2 GB/s"
+   ],
+   "d": "D",
+   "e": "4 lanes x ~2 GB/s = ~8 GB/s, which is why Gen 4 NVMe SSDs peak near 7 GB/s. Bandwidth per lane doubles each generation."
+  },
+  {
+   "q": "Which technique removes a RAW (read-after-write) data hazard in a pipeline without always stalling?",
+   "a": "Forwarding (bypassing)",
+   "w": [
+    "Branch prediction",
+    "Delay slots",
+    "Adding a second memory port"
+   ],
+   "d": "D",
+   "e": "Forwarding passes a result straight from the EX/MEM stage to the dependent instruction. Branch prediction and delay slots address control hazards; a second memory port addresses structural hazards."
+  },
+  {
+   "q": "Register renaming removes which hazards?",
+   "a": "WAR and WAW (false dependences)",
+   "w": [
+    "RAW only",
+    "Structural and control hazards",
+    "RAW and structural hazards"
+   ],
+   "d": "D",
+   "e": "WAR and WAW are name dependences caused by reusing register names, which renaming eliminates. RAW is a true data dependence and cannot be renamed away."
+  },
+  {
+   "q": "Which is NOT one of the three classic types of cache miss?",
+   "a": "Associative miss",
+   "w": [
+    "Compulsory miss",
+    "Capacity miss",
+    "Conflict miss"
+   ],
+   "d": "A",
+   "e": "The three Cs are compulsory, capacity and conflict. Associativity is a mapping scheme, not a miss type."
+  },
+  {
+   "q": "Which cache write policy marks lines with a dirty bit and updates main memory only when the line is evicted?",
+   "a": "Write-back",
+   "w": [
+    "Write-through",
+    "Write-around",
+    "Write-allocate"
+   ],
+   "d": "A",
+   "e": "Write-back defers the memory update using a dirty bit. Write-through updates memory on every write; write-allocate only decides whether a block is loaded into cache on a write miss."
+  },
+  {
+   "q": "How many logical processors does an 8-core CPU with 2-way SMT (Hyper-Threading) present to the OS?",
+   "a": "16",
+   "w": [
+    "8",
+    "4",
+    "32"
+   ],
+   "d": "D",
+   "e": "SMT runs 2 threads per core, so 8 x 2 = 16 logical processors, though not 16 times the performance."
+  },
+  {
+   "q": "Which flash type is typically used for firmware code storage, while the other is used in SSDs, USB drives and SD cards?",
+   "a": "NOR",
+   "w": [
+    "NAND",
+    "EEPROM",
+    "Mask ROM"
+   ],
+   "d": "D",
+   "e": "NOR flash allows random-access reads suited to executing firmware code; NAND is dense and used for bulk storage. EEPROM and mask ROM are different ROM-family types."
+  },
+  {
+   "q": "Which ROM type is erased by exposing the chip to ultraviolet light?",
+   "a": "EPROM",
+   "w": [
+    "EEPROM",
+    "PROM",
+    "Mask ROM"
+   ],
+   "d": "A",
+   "e": "EPROM uses a UV-transparent window for erasure. EEPROM is erased electrically, PROM is one-time programmable, and mask ROM is fixed at manufacture."
+  },
+  {
+   "q": "A 32-bit value 0x12345678 is stored starting at address 0x100 on a big-endian machine. What byte is at address 0x101?",
+   "a": "0x34",
+   "w": [
+    "0x12",
+    "0x56",
+    "0x78"
+   ],
+   "d": "D",
+   "e": "Big-endian puts the most significant byte first: 0x100=12, 0x101=34, 0x102=56, 0x103=78. On little-endian, 0x101 would hold 0x56."
+  },
+  {
+   "q": "In IEEE 754 single precision, the stored exponent field is 130. What is the true exponent?",
+   "a": "3",
+   "w": [
+    "2",
+    "4",
+    "257"
+   ],
+   "d": "D",
+   "e": "The exponent bias is 127, so the true exponent = 130 - 127 = 3. (Double precision uses a bias of 1023.)"
+  },
+  {
+   "q": "What is the range of an 8-bit two's complement integer?",
+   "a": "-128 to 127",
+   "w": [
+    "-127 to 127",
+    "-128 to 128",
+    "0 to 255"
+   ],
+   "d": "A",
+   "e": "Two's complement has one extra negative value: -128 to +127. -127 to 127 is the range of sign-magnitude or one's complement; 0 to 255 is unsigned."
+  },
+  {
+   "q": "Which signed number representations each have two representations of zero (+0 and -0)?",
+   "a": "Sign-magnitude and 1's complement",
+   "w": [
+    "1's complement and 2's complement",
+    "Sign-magnitude and 2's complement",
+    "2's complement only"
+   ],
+   "d": "D",
+   "e": "Sign-magnitude and 1's complement both have +0 and -0; 2's complement has a single zero, which is one reason it is used for signed integers."
+  },
+  {
+   "q": "Which status flag is set when an unsigned addition produces a carry out of the most significant bit?",
+   "a": "Carry flag",
+   "w": [
+    "Overflow flag",
+    "Zero flag",
+    "Sign flag"
+   ],
+   "d": "D",
+   "e": "The carry flag signals unsigned carry/borrow. The overflow flag signals signed two's complement overflow, which is a different condition."
+  },
+  {
+   "q": "During the fetch step, which sequence of register transfers is correct?",
+   "a": "PC to MAR, memory to MDR, MDR to IR, PC incremented",
+   "w": [
+    "PC to MDR, memory to MAR, MAR to IR, PC incremented",
+    "IR to MAR, memory to PC, MDR to IR",
+    "PC to IR, IR to MAR, memory to MDR"
+   ],
+   "d": "D",
+   "e": "The PC supplies the address via MAR, the instruction comes back through MDR into the IR, and the PC is advanced to the next instruction."
+  },
+  {
+   "q": "Which technique relies on the compiler to pack independent operations into one long instruction word for parallel issue?",
+   "a": "VLIW",
+   "w": [
+    "Superscalar",
+    "Out-of-order execution",
+    "SMT"
+   ],
+   "d": "D",
+   "e": "VLIW (and Intel's EPIC/Itanium) shifts parallelism detection to compile time. Superscalar, out-of-order and SMT find parallelism in hardware at run time."
+  },
+  {
+   "q": "A system has four 2 TB drives in RAID 5. What is the usable capacity?",
+   "a": "6 TB",
+   "w": [
+    "8 TB",
+    "4 TB",
+    "2 TB"
+   ],
+   "d": "D",
+   "e": "RAID 5 gives up one drive's worth for parity: (4 - 1) x 2 TB = 6 TB. 4 TB would be RAID 6 or RAID 10; 8 TB would be RAID 0."
+  },
+  {
+   "q": "Which RAID level can guarantee survival of any two simultaneous drive failures?",
+   "a": "RAID 6",
+   "w": [
+    "RAID 5",
+    "RAID 10",
+    "RAID 1"
+   ],
+   "d": "D",
+   "e": "RAID 6 uses double parity. RAID 5 tolerates one failure; RAID 10 survives two only if they hit different mirror pairs, so it is not guaranteed."
+  },
+  {
+   "q": "A disk has 2 surfaces, 1024 tracks per surface, 64 sectors per track and 512 bytes per sector. What is its capacity?",
+   "a": "64 MB",
+   "w": [
+    "32 MB",
+    "128 MB",
+    "16 MB"
+   ],
+   "d": "D",
+   "e": "2 x 1024 x 64 x 512 = 2^1 x 2^10 x 2^6 x 2^9 = 2^26 bytes = 64 MB."
+  },
+  {
+   "q": "How many 16K x 4-bit chips are needed to build a 64K x 8-bit memory?",
+   "a": "8",
+   "w": [
+    "4",
+    "16",
+    "6"
+   ],
+   "d": "D",
+   "e": "Depth: 64K/16K = 4 banks; width: 8/4 = 2 chips per bank; 4 x 2 = 8 chips."
+  },
+  {
+   "q": "Which Flynn class is rare and associated mainly with fault-tolerant systems?",
+   "a": "MISD",
+   "w": [
+    "SISD",
+    "SIMD",
+    "MIMD"
+   ],
+   "d": "A",
+   "e": "MISD applies multiple instruction streams to the same data and is mostly seen in redundant fault-tolerant designs. Multicore and clusters are MIMD; GPUs and vector units are SIMD."
+  },
+  {
+   "q": "Which NIST post-quantum standard (FIPS 203) specifies the key-encapsulation mechanism formerly known as Kyber?",
+   "a": "ML-KEM",
+   "w": [
+    "ML-DSA",
+    "SLH-DSA",
+    "FN-DSA"
+   ],
+   "d": "D",
+   "e": "ML-KEM is FIPS 203 (Kyber). ML-DSA (FIPS 204, Dilithium) and SLH-DSA (FIPS 205, SPHINCS+) are digital signature standards."
   }
  ],
  "cards": [
@@ -1098,6 +1428,131 @@
    "q": "What do Spectre and Meltdown exploit?",
    "a": "Speculative execution",
    "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the exponent bias in IEEE 754 single precision?",
+   "a": "127",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the exponent bias in IEEE 754 double precision?",
+   "a": "1023",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "How large is a 48-bit byte-addressable address space?",
+   "a": "256 TB",
+   "alt": [
+    "256TB",
+    "256 terabytes"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the theoretical size of a full 64-bit byte address space?",
+   "a": "16 EB",
+   "alt": [
+    "16EB",
+    "16 exabytes"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "How many cycles does an ideal k-stage pipeline need for n instructions?",
+   "a": "k + n - 1",
+   "alt": [
+    "k+n-1",
+    "n + k - 1",
+    "n+k-1"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What technique, also called bypassing, passes a result directly to a dependent instruction to avoid a RAW stall?",
+   "a": "Forwarding",
+   "alt": [
+    "Bypassing",
+    "Data forwarding"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Name the three classic types of cache miss.",
+   "a": "Compulsory, capacity, conflict",
+   "alt": [
+    "Compulsory, conflict, capacity",
+    "Capacity, compulsory, conflict",
+    "Conflict, capacity, compulsory"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which ROM type is erased with ultraviolet light?",
+   "a": "EPROM",
+   "alt": [
+    "Erasable Programmable ROM"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which flash memory type is commonly used for firmware, as opposed to NAND for SSDs?",
+   "a": "NOR",
+   "alt": [
+    "NOR flash"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which NIST FIPS 204 algorithm is derived from Dilithium?",
+   "a": "ML-DSA",
+   "alt": [
+    "ML DSA"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which NIST FIPS 203 algorithm is derived from Kyber?",
+   "a": "ML-KEM",
+   "alt": [
+    "ML KEM"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which architecture style relies on the compiler to bundle independent operations into one long instruction?",
+   "a": "VLIW",
+   "alt": [
+    "Very Long Instruction Word"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What table holds the addresses of interrupt service routines?",
+   "a": "Interrupt vector table",
+   "alt": [
+    "IVT",
+    "Vector table"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Approximately how many MB/s is SATA III's 6 Gbps link?",
+   "a": "600 MB/s",
+   "alt": [
+    "600",
+    "600MB/s"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the smallest value of an 8-bit two's complement integer?",
+   "a": "-128",
+   "alt": [
+    "negative 128"
+   ]
   }
  ]
 }
