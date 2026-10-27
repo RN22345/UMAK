@@ -22,15 +22,6 @@
    ]
   },
   {
-   "q": "Who is the CEO of Nvidia?",
-   "a": "Jensen Huang",
-   "w": [
-    "Lisa Su",
-    "Elon Musk",
-    "Pat Gelsinger"
-   ]
-  },
-  {
    "q": "Who is the CEO of Microsoft?",
    "a": "Satya Nadella",
    "w": [
@@ -82,15 +73,6 @@
     "Steve Jobs",
     "John Sculley",
     "John Ternus"
-   ]
-  },
-  {
-   "q": "Who is the CEO of AMD?",
-   "a": "Lisa Su",
-   "w": [
-    "Jensen Huang",
-    "Lip-Bu Tan",
-    "Cristiano Amon"
    ]
   },
   {
@@ -508,15 +490,6 @@
    ]
   },
   {
-   "q": "Who founded Amazon?",
-   "a": "Jeff Bezos",
-   "w": [
-    "Jack Ma",
-    "Elon Musk",
-    "Reed Hastings"
-   ]
-  },
-  {
    "q": "Who founded Facebook?",
    "a": "Mark Zuckerberg",
    "w": [
@@ -640,15 +613,6 @@
     "AMD",
     "Qualcomm",
     "Broadcom"
-   ]
-  },
-  {
-   "q": "Which company is the world's largest contract chipmaker?",
-   "a": "TSMC",
-   "w": [
-    "Samsung",
-    "Intel",
-    "SMIC"
    ]
   },
   {
@@ -856,12 +820,6 @@
   },
   {
    "d": "E",
-   "q": "Who is the CEO of Nvidia?",
-   "a": "Jensen Huang",
-   "alt": []
-  },
-  {
-   "d": "E",
    "q": "Who is the CEO of Microsoft?",
    "a": "Satya Nadella",
    "alt": []
@@ -948,20 +906,8 @@
   },
   {
    "d": "E",
-   "q": "Who created Linux?",
-   "a": "Linus Torvalds",
-   "alt": []
-  },
-  {
-   "d": "E",
    "q": "Who founded Facebook?",
    "a": "Mark Zuckerberg",
-   "alt": []
-  },
-  {
-   "d": "A",
-   "q": "Who is the CEO of AMD?",
-   "a": "Lisa Su",
    "alt": []
   },
   {
@@ -1195,12 +1141,6 @@
    "alt": [
     "Stallman"
    ]
-  },
-  {
-   "d": "D",
-   "q": "Which Filipino created the ILOVEYOU worm?",
-   "a": "Onel de Guzman",
-   "alt": []
   },
   {
    "d": "D",

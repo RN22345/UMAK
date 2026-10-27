@@ -54,16 +54,6 @@
    "e": "IETF researchers at the Naval Research Laboratory developed the SIPP security protocols that led to IPSec."
   },
   {
-   "q": "The C.I.A. triad stands for:",
-   "a": "Confidentiality, Integrity, Availability",
-   "w": [
-    "Confidentiality, Identity, Authentication",
-    "Control, Integrity, Access",
-    "Confidentiality, Integrity, Accountability"
-   ],
-   "e": "The C.I.A. triad is Confidentiality, Integrity, Availability."
-  },
-  {
    "q": "Which is NOT one of the seven critical characteristics of information in the slides?",
    "a": "Non-repudiation",
    "w": [
@@ -1402,16 +1392,6 @@
     "Something you do"
    ],
    "e": "A smart card (chip card) is something you have."
-  },
-  {
-   "q": "A fingerprint is an example of:",
-   "a": "Something you are",
-   "w": [
-    "Something you know",
-    "Something you have",
-    "Something you wear"
-   ],
-   "e": "Fingerprints and other biometrics are something you are."
   },
   {
    "q": "A series of characters longer than a password, from which a virtual password is derived, is a:",

@@ -1041,12 +1041,6 @@
   },
   {
    "d": "E",
-   "q": "Who invented the World Wide Web?",
-   "a": "Tim Berners-Lee",
-   "alt": []
-  },
-  {
-   "d": "E",
    "q": "Which HTML tag creates a hyperlink?",
    "a": "a",
    "alt": [
@@ -1091,12 +1085,6 @@
     "Maya",
     "PayMaya"
    ]
-  },
-  {
-   "d": "A",
-   "q": "Who created JavaScript?",
-   "a": "Brendan Eich",
-   "alt": []
   },
   {
    "d": "A",

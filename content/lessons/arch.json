@@ -691,12 +691,6 @@
  "cards": [
   {
    "d": "E",
-   "q": "What does CPU stand for?",
-   "a": "Central Processing Unit",
-   "alt": []
-  },
-  {
-   "d": "E",
    "q": "What does ALU stand for?",
    "a": "Arithmetic Logic Unit",
    "alt": []

@@ -832,15 +832,6 @@
    ]
   },
   {
-   "q": "Which Philippine law is the Data Privacy Act?",
-   "a": "RA 10173",
-   "w": [
-    "RA 10175",
-    "RA 8792",
-    "RA 11934"
-   ]
-  },
-  {
    "q": "Which Philippine law is the Cybercrime Prevention Act of 2012?",
    "a": "RA 10175",
    "w": [
@@ -1193,12 +1184,6 @@
    "alt": []
   },
   {
-   "d": "A",
-   "q": "Which Philippine law is the Cybercrime Prevention Act?",
-   "a": "RA 10175",
-   "alt": []
-  },
-  {
    "d": "D",
    "q": "What are the five NIST CSF core functions (original)?",
    "a": "Identify, Protect, Detect, Respond, Recover",
@@ -1239,14 +1224,6 @@
    "q": "What does STRIDE stand for in threat modeling?",
    "a": "Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege",
    "alt": []
-  },
-  {
-   "d": "D",
-   "q": "Which quantum algorithm breaks RSA?",
-   "a": "Shor's algorithm",
-   "alt": [
-    "Shor"
-   ]
   },
   {
    "d": "D",
@@ -1320,12 +1297,6 @@
    "d": "D",
    "q": "What is the deadline for reporting a data breach to the NPC?",
    "a": "72 hours",
-   "alt": []
-  },
-  {
-   "d": "D",
-   "q": "Which Philippine law is the SIM Registration Act?",
-   "a": "RA 11934",
    "alt": []
   },
   {
