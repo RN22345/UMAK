@@ -10,7 +10,8 @@
     "Dario Amodei",
     "Sundar Pichai",
     "Satya Nadella"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who is the CEO of Anthropic?",
@@ -19,7 +20,8 @@
     "Sam Altman",
     "Demis Hassabis",
     "Mustafa Suleyman"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who is the CEO of Microsoft?",
@@ -28,7 +30,8 @@
     "Steve Ballmer",
     "Sundar Pichai",
     "Brad Smith"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who is the CEO of Alphabet and Google?",
@@ -37,7 +40,8 @@
     "Larry Page",
     "Demis Hassabis",
     "Eric Schmidt"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who is the CEO of Meta?",
@@ -46,7 +50,8 @@
     "Alexandr Wang",
     "Sheryl Sandberg",
     "Nick Clegg"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who is the CEO of Amazon?",
@@ -55,7 +60,8 @@
     "Jeff Bezos",
     "Werner Vogels",
     "Adam Selipsky"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who became CEO of Apple on 1 September 2026?",
@@ -64,7 +70,8 @@
     "Tim Cook",
     "Craig Federighi",
     "Jeff Williams"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who was Apple's CEO from 2011 until 2026?",
@@ -73,7 +80,8 @@
     "Steve Jobs",
     "John Sculley",
     "John Ternus"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who has been Intel's CEO since March 2025?",
@@ -82,7 +90,8 @@
     "Pat Gelsinger",
     "Brian Krzanich",
     "Bob Swan"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who leads xAI, Tesla and SpaceX?",
@@ -91,7 +100,8 @@
     "Sam Altman",
     "Jeff Bezos",
     "Peter Thiel"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who founded DeepSeek?",
@@ -100,7 +110,8 @@
     "Jack Ma",
     "Robin Li",
     "Pony Ma"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who is the CEO of Mistral AI?",
@@ -109,7 +120,8 @@
     "Yann LeCun",
     "Clement Delangue",
     "Aidan Gomez"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who heads Meta Superintelligence Labs as Meta's Chief AI Officer?",
@@ -118,7 +130,8 @@
     "Yann LeCun",
     "Mustafa Suleyman",
     "Andrej Karpathy"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who is the CEO of Microsoft AI and a co-founder of DeepMind?",
@@ -127,7 +140,8 @@
     "Demis Hassabis",
     "Ilya Sutskever",
     "Mira Murati"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who is the CEO of Safe Superintelligence Inc. (SSI)?",
@@ -136,7 +150,8 @@
     "Mira Murati",
     "Andrej Karpathy",
     "Greg Brockman"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which company makes ChatGPT?",
@@ -145,7 +160,8 @@
     "Anthropic",
     "Google",
     "Microsoft"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company makes Claude?",
@@ -154,7 +170,8 @@
     "OpenAI",
     "Meta",
     "xAI"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company makes Gemini?",
@@ -163,7 +180,8 @@
     "Microsoft",
     "Meta",
     "Amazon"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company makes Grok?",
@@ -172,7 +190,8 @@
     "OpenAI",
     "Meta",
     "Mistral"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company makes the Llama and Muse models?",
@@ -181,7 +200,8 @@
     "Google",
     "Microsoft",
     "Nvidia"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which company makes Qwen?",
@@ -190,7 +210,8 @@
     "Baidu",
     "Tencent",
     "Huawei"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which company makes the Kimi models?",
@@ -199,7 +220,8 @@
     "DeepSeek",
     "MiniMax",
     "Zhipu"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which company makes Copilot?",
@@ -208,7 +230,8 @@
     "Google",
     "Apple",
     "Amazon"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company makes Siri?",
@@ -217,7 +240,8 @@
     "Google",
     "Amazon",
     "Samsung"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company makes Alexa?",
@@ -226,7 +250,8 @@
     "Google",
     "Apple",
     "Microsoft"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company created Stable Diffusion?",
@@ -235,7 +260,8 @@
     "Midjourney",
     "OpenAI",
     "Runway"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which company created Midjourney?",
@@ -244,7 +270,8 @@
     "Stability AI",
     "OpenAI",
     "Adobe"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which company makes Sora?",
@@ -253,7 +280,8 @@
     "Google",
     "Runway",
     "Meta"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company makes Veo?",
@@ -262,7 +290,8 @@
     "OpenAI",
     "Runway",
     "Midjourney"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which company makes Claude Code?",
@@ -271,7 +300,8 @@
     "GitHub",
     "OpenAI",
     "Cursor"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company makes Cursor, the AI code editor?",
@@ -280,7 +310,8 @@
     "Cognition",
     "GitHub",
     "JetBrains"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which company makes the Devin AI software engineer?",
@@ -289,7 +320,8 @@
     "Anysphere",
     "OpenAI",
     "Replit"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which company makes Whisper, the speech recognition model?",
@@ -298,7 +330,8 @@
     "Google",
     "Meta",
     "Apple"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which company created the AlphaFold system?",
@@ -307,7 +340,8 @@
     "OpenAI",
     "Meta AI",
     "IBM"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which AI protocol, introduced by Anthropic in November 2024, connects AI apps to tools and data?",
@@ -316,7 +350,8 @@
     "A2A",
     "ACP",
     "AP2"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which protocol was introduced by Google for agent-to-agent communication?",
@@ -325,7 +360,8 @@
     "MCP",
     "ACP",
     "REST"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "When was ChatGPT launched?",
@@ -334,7 +370,8 @@
     "14 March 2023",
     "1 January 2023",
     "10 October 2022"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who coined the term \"vibe coding\"?",
@@ -343,7 +380,8 @@
     "Sam Altman",
     "Andrew Ng",
     "Linus Torvalds"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who coined the term \"artificial intelligence\" at the 1956 Dartmouth workshop?",
@@ -352,7 +390,8 @@
     "Alan Turing",
     "Marvin Minsky",
     "Claude Shannon"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who proposed the Turing Test in 1950?",
@@ -361,7 +400,8 @@
     "John McCarthy",
     "Joseph Weizenbaum",
     "Marvin Minsky"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which was the first well-known chatbot, created by Joseph Weizenbaum?",
@@ -370,7 +410,8 @@
     "ALICE",
     "Siri",
     "Watson"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which AI system defeated Garry Kasparov in 1997?",
@@ -379,7 +420,8 @@
     "AlphaGo",
     "IBM Watson",
     "Stockfish"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which AI system defeated Lee Sedol at Go in 2016?",
@@ -388,7 +430,8 @@
     "Deep Blue",
     "Watson",
     "GPT-3"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which 2012 event, achieved by AlexNet, started the deep learning boom?",
@@ -397,7 +440,8 @@
     "Winning Jeopardy!",
     "Beating Kasparov",
     "Launching GPT-1"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which paper introduced the Transformer architecture in 2017?",
@@ -406,7 +450,8 @@
     "Deep Residual Learning",
     "Playing Atari with Deep RL",
     "ImageNet Classification"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who shared the 2024 Nobel Prize in Physics for neural network research?",
@@ -415,7 +460,8 @@
     "Yann LeCun and Yoshua Bengio",
     "Demis Hassabis and John Jumper",
     "Fei-Fei Li and Andrew Ng"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who won the 2024 Nobel Prize in Chemistry along with David Baker for AI protein structure work?",
@@ -424,7 +470,8 @@
     "Geoffrey Hinton and John Hopfield",
     "Sam Altman and Ilya Sutskever",
     "Yann LeCun and Fei-Fei Li"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who won the 2018 Turing Award for deep learning?",
@@ -433,7 +480,8 @@
     "Knuth, Dijkstra and Codd",
     "Barto and Sutton",
     "Page, Brin and Schmidt"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who won the 2024 ACM Turing Award for reinforcement learning?",
@@ -442,7 +490,8 @@
     "Geoffrey Hinton and Yann LeCun",
     "Demis Hassabis and David Silver",
     "Ilya Sutskever and Alex Krizhevsky"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who won the 2022 Turing Award for inventing Ethernet?",
@@ -451,7 +500,8 @@
     "Vint Cerf",
     "Tim Berners-Lee",
     "Bob Kahn"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "The tiers of the Claude model family from smallest to largest in the older lineup are:",
@@ -460,7 +510,8 @@
     "Opus, Sonnet, Haiku",
     "Sonnet, Haiku, Opus",
     "Haiku, Opus, Sonnet"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who founded Microsoft?",
@@ -469,7 +520,8 @@
     "Steve Jobs and Steve Wozniak",
     "Larry Page and Sergey Brin",
     "Jeff Bezos and Paul Allen"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who founded Apple?",
@@ -478,7 +530,8 @@
     "Bill Gates and Paul Allen",
     "Tim Cook and Jony Ive",
     "Steve Jobs and John Sculley"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who founded Google?",
@@ -487,7 +540,8 @@
     "Eric Schmidt and Sundar Pichai",
     "Mark Zuckerberg and Eduardo Saverin",
     "Jeff Bezos and Marc Andreessen"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who founded Facebook?",
@@ -496,7 +550,8 @@
     "Jack Dorsey",
     "Evan Spiegel",
     "Kevin Systrom"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company restructured under the parent holding company Alphabet in 2015?",
@@ -505,7 +560,8 @@
     "Microsoft",
     "Facebook",
     "Amazon"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In which year did Facebook rename itself Meta?",
@@ -514,7 +570,8 @@
     "2019",
     "2022",
     "2023"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In which year did Twitter get renamed X?",
@@ -523,7 +580,8 @@
     "2022",
     "2024",
     "2021"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which company acquired xAI in 2026?",
@@ -532,7 +590,8 @@
     "Tesla",
     "OpenAI",
     "Microsoft"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who created Linux and Git?",
@@ -541,7 +600,8 @@
     "Richard Stallman",
     "Dennis Ritchie",
     "Guido van Rossum"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who founded the GNU Project and the Free Software Foundation?",
@@ -550,7 +610,8 @@
     "Linus Torvalds",
     "Eric Raymond",
     "Ken Thompson"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who created the C programming language?",
@@ -559,7 +620,8 @@
     "Ken Thompson",
     "Bjarne Stroustrup",
     "Brian Kernighan"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which company bought GitHub in 2018?",
@@ -568,7 +630,8 @@
     "Google",
     "Amazon",
     "Oracle"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company bought Instagram in 2012?",
@@ -577,7 +640,8 @@
     "Google",
     "Twitter",
     "Snap"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company bought WhatsApp in 2014?",
@@ -586,7 +650,8 @@
     "Google",
     "Microsoft",
     "Apple"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company acquired YouTube in 2006?",
@@ -595,7 +660,8 @@
     "Microsoft",
     "Yahoo",
     "Facebook"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company acquired DeepMind in 2014?",
@@ -604,7 +670,8 @@
     "Facebook",
     "Microsoft",
     "OpenAI"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which chip company is headquartered in Santa Clara and makes the Blackwell GPU?",
@@ -613,7 +680,8 @@
     "AMD",
     "Qualcomm",
     "Broadcom"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company makes the only EUV lithography machines?",
@@ -622,7 +690,8 @@
     "Applied Materials",
     "Lam Research",
     "Nikon"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which Google quantum chip announced in 2024 reduced errors as qubits scaled?",
@@ -631,7 +700,8 @@
     "Sycamore",
     "Condor",
     "Eagle"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "What is the name of the Philippine government department for ICT created by RA 10844?",
@@ -640,7 +710,8 @@
     "DOST",
     "NTC",
     "DTI"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which is the Philippines' largest e-wallet?",
@@ -649,7 +720,8 @@
     "Maya",
     "GrabPay",
     "ShopeePay"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which is the Philippines' third major telco launched in 2021?",
@@ -658,7 +730,8 @@
     "Globe",
     "Smart",
     "Sun Cellular"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which company operates the Philippine Long Distance Telephone and the Smart brand?",
@@ -667,7 +740,8 @@
     "Globe",
     "Converge",
     "DITO"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which Philippine microsatellite launched in 2016 was the country's first?",
@@ -676,7 +750,8 @@
     "Maya-1",
     "PhilSat-1",
     "Bayanihan-1"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Filipino inventor is credited with the Sing-Along System (karaoke)?",
@@ -685,7 +760,8 @@
     "Gregorio Zara",
     "Diosdado Banatao",
     "Onel de Guzman"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Filipino created the first two-way videophone in 1955?",
@@ -694,7 +770,8 @@
     "Roberto del Rosario",
     "Diosdado Banatao",
     "Josefino Comiso"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Filipino-American is known as a pioneer of chip design and the S3 graphics accelerator?",
@@ -703,7 +780,8 @@
     "Gregorio Zara",
     "Roberto del Rosario",
     "Onel de Guzman"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "What does CAPTCHA stand for?",
@@ -712,7 +790,8 @@
     "Computer Automated Program To Check Human Access",
     "Code Authentication Protocol To Check Human Activity",
     "Completely Automated Program for Testing Computers"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "What is the Unix epoch?",
@@ -721,7 +800,8 @@
     "1 January 1900",
     "1 January 2000",
     "1 January 1980"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The Year 2038 problem relates to:",
@@ -730,7 +810,8 @@
     "Date format change",
     "Leap year bug",
     "Windows licensing"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who invented the first computer mouse in 1964?",
@@ -739,7 +820,8 @@
     "Steve Jobs",
     "Alan Kay",
     "Xerox's Bob Taylor"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who wrote the first email program and chose the @ symbol?",
@@ -748,7 +830,8 @@
     "Tim Berners-Lee",
     "Vint Cerf",
     "Jon Postel"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which company invented the QR code in 1994?",
@@ -757,7 +840,8 @@
     "Sony",
     "Toshiba",
     "Samsung"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who created the first emoji set in 1999?",
@@ -766,7 +850,8 @@
     "Steve Jobs",
     "Takeshi Kitano",
     "Masayoshi Son"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "VisiCalc (1979) was the first widely used:",
@@ -775,7 +860,8 @@
     "Word processor",
     "Web browser",
     "Database system"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which was the first web browser, created by Tim Berners-Lee?",
@@ -784,7 +870,8 @@
     "Mosaic",
     "Netscape",
     "Internet Explorer"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who is known as the \"Godfather of AI\" and won the 2024 Nobel Prize in Physics?",
@@ -793,7 +880,8 @@
     "Yann LeCun",
     "Yoshua Bengio",
     "Andrew Ng"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who led the ImageNet project?",
@@ -802,7 +890,8 @@
     "Andrew Ng",
     "Demis Hassabis",
     "Ilya Sutskever"
-   ]
+   ],
+   "d": "A"
   }
  ],
  "cards": [

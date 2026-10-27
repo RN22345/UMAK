@@ -10,7 +10,8 @@
     "Input, Program, Output, Software",
     "Instruction, Process, Operation, Storage",
     "Input, Processing, Operating, System"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Raw facts and figures are called:",
@@ -19,7 +20,8 @@
     "Information",
     "Knowledge",
     "Wisdom"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Software embedded in hardware, such as the BIOS or UEFI, is called:",
@@ -28,7 +30,8 @@
     "Freeware",
     "Middleware",
     "Shareware"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who is called the \"Father of the Computer\" for designing the Analytical Engine?",
@@ -37,7 +40,8 @@
     "Blaise Pascal",
     "John von Neumann",
     "Alan Turing"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who is considered the world's first programmer?",
@@ -46,7 +50,8 @@
     "Grace Hopper",
     "Margaret Hamilton",
     "Katherine Johnson"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The Pascaline, a mechanical adding machine, was built in 1642 by:",
@@ -55,7 +60,8 @@
     "Gottfried Leibniz",
     "John Napier",
     "William Oughtred"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Herman Hollerith's tabulating machine for the 1890 US census led to the company later known as:",
@@ -64,7 +70,8 @@
     "Intel",
     "Microsoft",
     "Apple"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which machine is regarded as the first general-purpose electronic digital computer?",
@@ -73,7 +80,8 @@
     "UNIVAC I",
     "Harvard Mark I",
     "Colossus"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The stored-program concept (program and data in the same memory) is credited to:",
@@ -82,7 +90,8 @@
     "Alan Turing",
     "Konrad Zuse",
     "Howard Aiken"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "First-generation computers used which core technology?",
@@ -91,7 +100,8 @@
     "Transistors",
     "Integrated circuits",
     "Microprocessors"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Second-generation computers (1956-1963) were built with:",
@@ -100,7 +110,8 @@
     "Vacuum tubes",
     "Integrated circuits",
     "VLSI chips"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The IBM System/360 is associated with which generation?",
@@ -109,7 +120,8 @@
     "First (vacuum tubes)",
     "Second (transistors)",
     "Fourth (microprocessors)"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The first commercially available microprocessor was the:",
@@ -118,7 +130,8 @@
     "Intel 8086",
     "Intel 8080",
     "Motorola 68000"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "\"The number of transistors on a chip doubles about every two years\" is known as:",
@@ -127,7 +140,8 @@
     "Amdahl's Law",
     "Metcalfe's Law",
     "Murphy's Law"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who proposed the World Wide Web at CERN?",
@@ -136,7 +150,8 @@
     "Vint Cerf",
     "Marc Andreessen",
     "Ray Tomlinson"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who introduced the \"@\" symbol in email addresses (1971)?",
@@ -145,7 +160,8 @@
     "Tim Berners-Lee",
     "Bob Kahn",
     "Jon Postel"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The Internet's \"birthday\" when ARPANET adopted TCP/IP is commonly given as:",
@@ -154,7 +170,8 @@
     "29 October 1969",
     "6 August 1991",
     "1 January 1990"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which computer type is used for weather forecasting and nuclear simulation and measured in FLOPS?",
@@ -163,7 +180,8 @@
     "Mainframe",
     "Minicomputer",
     "Microcomputer"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A speedometer that shows continuously varying values is an example of an:",
@@ -172,7 +190,8 @@
     "Digital device",
     "Hybrid device",
     "Embedded device"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The ranking of the world's fastest supercomputers is called the:",
@@ -181,7 +200,8 @@
     "Fortune 500",
     "Green500 list only",
     "Gartner Quadrant"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which memory is volatile?",
@@ -190,7 +210,8 @@
     "ROM",
     "Flash memory",
     "EEPROM"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which is the fastest storage location in a computer?",
@@ -199,7 +220,8 @@
     "L3 cache",
     "RAM",
     "SSD"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which input technology reads marked bubbles on exam answer sheets?",
@@ -208,7 +230,8 @@
     "OCR",
     "MICR",
     "RFID"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "MICR is mainly used by banks for:",
@@ -217,7 +240,8 @@
     "Scanning fingerprints",
     "Reading barcodes",
     "Printing receipts"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "How many bits are in a nibble?",
@@ -226,7 +250,8 @@
     "2",
     "8",
     "16"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which USB generation/standard reaches 40 Gbps?",
@@ -235,7 +260,8 @@
     "USB 2.0",
     "USB 3.0",
     "USB 3.2 Gen 2"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "The 7-bit character encoding with 128 characters is:",
@@ -244,7 +270,8 @@
     "Unicode",
     "EBCDIC",
     "BCD"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "What is 11111111 in binary equal to in decimal?",
@@ -253,7 +280,8 @@
     "256",
     "127",
     "128"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "What is the hexadecimal 0x1A in decimal?",
@@ -262,7 +290,8 @@
     "16",
     "21",
     "31"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "What is decimal 25 in binary?",
@@ -271,7 +300,8 @@
     "10101",
     "11010",
     "10011"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "A translator that converts the entire source code into an executable before running is a:",
@@ -280,7 +310,8 @@
     "Interpreter",
     "Assembler",
     "Debugger"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Assembly language belongs to which programming-language generation?",
@@ -289,7 +320,8 @@
     "1GL",
     "3GL",
     "4GL"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "SQL is classified as which generation of programming language?",
@@ -298,7 +330,8 @@
     "3GL",
     "2GL",
     "5GL"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which information system supports day-to-day operational-level transactions such as payroll and order processing?",
@@ -307,7 +340,8 @@
     "MIS",
     "DSS",
     "EIS"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which system is aimed at senior executives for strategic, long-term decisions?",
@@ -316,7 +350,8 @@
     "TPS",
     "MIS",
     "PCS"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Gmail and Office 365 are examples of which cloud service model?",
@@ -325,7 +360,8 @@
     "IaaS",
     "PaaS",
     "DaaS"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which cloud model provides virtual machines and raw infrastructure (e.g., AWS EC2)?",
@@ -334,7 +370,8 @@
     "SaaS",
     "PaaS",
     "FaaS only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which image format is lossless and supports transparency?",
@@ -343,7 +380,8 @@
     "JPEG",
     "GIF",
     "BMP"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which image format is vector-based and scales without loss?",
@@ -352,7 +390,8 @@
     "PNG",
     "BMP",
     "JPEG"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In Excel, which cell reference is an absolute reference?",
@@ -361,7 +400,8 @@
     "A1",
     "A$1:B1",
     "#A1"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which keyboard shortcut opens Task Manager directly in Windows?",
@@ -370,7 +410,8 @@
     "Ctrl+Alt+Esc",
     "Alt+F4",
     "Win+L"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The Z3 (Konrad Zuse, 1941) is noted as the first:",
@@ -379,7 +420,8 @@
     "Stored-program computer",
     "Commercial computer",
     "Microcomputer"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which person is credited with the Analytical Engine's first published algorithm for Bernoulli numbers?",
@@ -388,7 +430,8 @@
     "Charles Babbage",
     "Grace Hopper",
     "Joseph Jacquard"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The Jacquard loom used which input medium that later inspired computing?",
@@ -397,7 +440,8 @@
     "Magnetic tape",
     "Paper tape",
     "Floppy disks"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The transistor was invented at Bell Labs in:",
@@ -406,7 +450,8 @@
     "1958",
     "1965",
     "1971"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which people built the first integrated circuit independently in 1958-59?",
@@ -415,7 +460,8 @@
     "William Shockley and John Bardeen",
     "Gordon Moore and Andy Grove",
     "Steve Jobs and Steve Wozniak"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "UTF-8 uses how many bytes per character?",
@@ -424,7 +470,8 @@
     "Always 1",
     "Always 2",
     "Always 4"
-   ]
+   ],
+   "d": "A"
   }
  ],
  "cards": [

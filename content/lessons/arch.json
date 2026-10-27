@@ -10,7 +10,8 @@
     "Memory chip voltage",
     "Cooling methods",
     "Cable routing"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which architecture uses one memory for both instructions and data?",
@@ -19,7 +20,8 @@
     "Harvard",
     "Modified Harvard only",
     "Dataflow"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The limitation of using a single bus for instructions and data is known as the:",
@@ -28,7 +30,8 @@
     "Harvard gap",
     "Moore wall",
     "Amdahl limit"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which architecture has separate memories for instructions and data?",
@@ -37,7 +40,8 @@
     "Von Neumann",
     "Neural",
     "Hybrid"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Flynn's taxonomy classification of a typical GPU's vector processing is:",
@@ -46,7 +50,8 @@
     "SISD",
     "MISD",
     "MIMD"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Flynn's classification of a multicore processor running different programs on different data is:",
@@ -55,7 +60,8 @@
     "SISD",
     "SIMD",
     "MISD"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which part of the CPU performs arithmetic and logic operations?",
@@ -64,7 +70,8 @@
     "Control Unit",
     "Cache",
     "Bus"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which part of the CPU decodes instructions and issues control signals?",
@@ -73,7 +80,8 @@
     "ALU",
     "Register file",
     "Clock"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which register holds the address of the next instruction to execute?",
@@ -82,7 +90,8 @@
     "Instruction Register",
     "MAR",
     "Accumulator"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which register holds the instruction currently being executed?",
@@ -91,7 +100,8 @@
     "Program Counter",
     "MDR",
     "Stack Pointer"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which register holds the address of the memory location to be read or written?",
@@ -100,7 +110,8 @@
     "MDR",
     "PC",
     "IR"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which register holds data being transferred to or from memory?",
@@ -109,7 +120,8 @@
     "MAR",
     "IR",
     "PC"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The correct order of the basic instruction cycle is:",
@@ -118,7 +130,8 @@
     "Decode, Fetch, Execute, Store",
     "Fetch, Execute, Decode, Store",
     "Store, Fetch, Decode, Execute"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A CPU with a 16-bit address bus can address how many memory locations?",
@@ -127,7 +140,8 @@
     "16,384",
     "32,768",
     "1,048,576"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A 32-bit address bus can address up to:",
@@ -136,7 +150,8 @@
     "2 GB",
     "8 GB",
     "16 GB"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A 20-bit address bus (Intel 8086) can address:",
@@ -145,7 +160,8 @@
     "640 KB",
     "64 KB",
     "4 MB"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which bus carries read/write and clock signals?",
@@ -154,7 +170,8 @@
     "Address bus",
     "Data bus",
     "Expansion bus"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which ISA family uses simple, fixed-length instructions and load/store architecture?",
@@ -163,7 +180,8 @@
     "CISC",
     "VLIW",
     "EPIC"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "x86 is an example of which type of ISA?",
@@ -172,7 +190,8 @@
     "RISC",
     "VLIW",
     "Stack machine"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which of these is an open-standard RISC instruction set originated at UC Berkeley?",
@@ -181,7 +200,8 @@
     "ARM",
     "MIPS",
     "x86-64"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which ISA do Apple Silicon chips and most smartphones use?",
@@ -190,7 +210,8 @@
     "x86",
     "PowerPC",
     "MIPS"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company created the x86-64 (AMD64) extension?",
@@ -199,7 +220,8 @@
     "Intel",
     "ARM",
     "IBM"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In IEEE 754 single precision, the number of bits is:",
@@ -208,7 +230,8 @@
     "64 (1, 11, 52)",
     "16 (1, 5, 10)",
     "128"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In IEEE 754 double precision, the number of bits is:",
@@ -217,7 +240,8 @@
     "32",
     "80",
     "128"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which endianness stores the least significant byte at the lowest address?",
@@ -226,7 +250,8 @@
     "Big-endian",
     "Middle-endian",
     "Network order"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Network byte order is:",
@@ -235,7 +260,8 @@
     "Little-endian",
     "Mixed",
     "Random"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "CPU time is calculated as:",
@@ -244,7 +270,8 @@
     "Instruction count / CPI",
     "CPI / clock rate",
     "Clock rate x instructions"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A CPU with CPI 2 executes 1 billion instructions at 2 GHz. How long does it take?",
@@ -253,7 +280,8 @@
     "0.5 seconds",
     "2 seconds",
     "4 seconds"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Amdahl's Law describes:",
@@ -262,7 +290,8 @@
     "Transistor doubling",
     "Cache hit rate",
     "Bus width scaling"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "If 80% of a program is parallelizable with a 4x speedup on that part, the overall speedup is:",
@@ -271,7 +300,8 @@
     "3.2x",
     "4x",
     "1.8x"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Pipelining improves:",
@@ -280,7 +310,8 @@
     "Latency of a single instruction",
     "Memory capacity",
     "Clock cycle"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The classic 5-stage RISC pipeline stages are:",
@@ -289,7 +320,8 @@
     "IF, ID, EX, WB, MEM",
     "FE, DE, EX, ST, RT",
     "LD, DC, EX, MM, ST"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "How many cycles does a 5-stage pipeline need to execute 100 instructions ideally?",
@@ -298,7 +330,8 @@
     "100",
     "500",
     "105"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which pipeline hazard occurs due to a branch instruction?",
@@ -307,7 +340,8 @@
     "Data hazard",
     "Structural hazard",
     "Memory hazard"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which pipeline hazard occurs when two instructions need the same hardware resource?",
@@ -316,7 +350,8 @@
     "Data hazard",
     "Control hazard",
     "Branch hazard"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Spectre and Meltdown vulnerabilities (2018) exploit:",
@@ -325,7 +360,8 @@
     "Pipelining stalls",
     "Cache write-through",
     "Virtual memory paging"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Intel's implementation of simultaneous multithreading is called:",
@@ -334,7 +370,8 @@
     "Turbo Boost",
     "SpeedStep",
     "vPro"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which memory is the fastest in a computer?",
@@ -343,7 +380,8 @@
     "L1 cache",
     "RAM",
     "SSD"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which principle explains why caches work by reusing recently accessed data?",
@@ -352,7 +390,8 @@
     "Spatial parity",
     "Amdahl's principle",
     "Pareto principle"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Accessing nearby memory addresses soon after one another is:",
@@ -361,7 +400,8 @@
     "Temporal locality",
     "Cache coherence",
     "Hit ratio"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In a direct-mapped cache, each memory block maps to:",
@@ -370,7 +410,8 @@
     "Any cache line",
     "A set of lines",
     "No fixed line"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A cache that allows a block to be placed in any line is:",
@@ -379,7 +420,8 @@
     "Direct-mapped",
     "Set-associative with 1 way",
     "Write-through"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which write policy updates both cache and main memory on every write?",
@@ -388,7 +430,8 @@
     "Write-back",
     "Write-around",
     "Write-allocate"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "SRAM is typically used for:",
@@ -397,7 +440,8 @@
     "Main memory",
     "Mass storage",
     "BIOS firmware"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "DRAM requires:",
@@ -406,7 +450,8 @@
     "No power",
     "Ultraviolet light to erase",
     "Mechanical parts"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which DDR generation was introduced in 2021 with speeds of at least 4800 MT/s?",
@@ -415,7 +460,8 @@
     "DDR4",
     "DDR3",
     "DDR6"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which type of memory is stacked and used with AI GPUs?",
@@ -424,7 +470,8 @@
     "SO-DIMM",
     "GDDR3",
     "EEPROM"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which flash type is used in SSDs and USB drives?",
@@ -433,7 +480,8 @@
     "NOR",
     "PROM",
     "Mask ROM"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "With a hit ratio of 0.9, cache time 2 ns and memory time 100 ns, AMAT = ?",
@@ -442,7 +490,8 @@
     "10 ns",
     "102 ns",
     "2.1 ns"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which interface carries NVMe SSDs?",
@@ -451,7 +500,8 @@
     "SATA",
     "USB 2.0",
     "PS/2"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Approximately how fast is SATA III?",
@@ -460,7 +510,8 @@
     "3 Gbps",
     "12 Gbps",
     "600 Gbps"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which company developed CUDA?",
@@ -469,7 +520,8 @@
     "AMD",
     "Intel",
     "Qualcomm"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who is the CEO of Nvidia?",
@@ -478,7 +530,8 @@
     "Lisa Su",
     "Pat Gelsinger",
     "Satya Nadella"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who is the CEO of AMD?",
@@ -487,7 +540,8 @@
     "Jensen Huang",
     "Lip-Bu Tan",
     "Cristiano Amon"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who has been CEO of Intel since March 2025?",
@@ -496,7 +550,8 @@
     "Pat Gelsinger",
     "Bob Swan",
     "Brian Krzanich"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Nvidia GPU architecture came after Hopper?",
@@ -505,7 +560,8 @@
     "Ampere",
     "Volta",
     "Turing"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which company is the world's largest contract chipmaker?",
@@ -514,7 +570,8 @@
     "Samsung Foundry",
     "Intel Foundry",
     "GlobalFoundries"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company is the only maker of EUV lithography machines?",
@@ -523,7 +580,8 @@
     "Applied Materials",
     "Tokyo Electron",
     "Canon"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Apple's in-house computer chips are branded as:",
@@ -532,7 +590,8 @@
     "Ryzen",
     "Snapdragon",
     "Exynos"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Qualcomm's mobile chip brand is:",
@@ -541,7 +600,8 @@
     "Dimensity",
     "Exynos",
     "Kirin"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "AMD's server CPU line is:",
@@ -550,7 +610,8 @@
     "Ryzen",
     "Xeon",
     "Threadripper only"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Intel's server CPU line is:",
@@ -559,7 +620,8 @@
     "Core Ultra",
     "EPYC",
     "Atom"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which quantum algorithm threatens RSA encryption?",
@@ -568,7 +630,8 @@
     "Grover's algorithm",
     "Dijkstra's algorithm",
     "Kruskal's algorithm"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A quantum bit is called a:",
@@ -577,7 +640,8 @@
     "Qbyte",
     "Quint",
     "Photon bit"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which Google quantum chip announced in December 2024 showed below-threshold error correction?",
@@ -586,7 +650,8 @@
     "Sycamore",
     "Condor",
     "Majorana"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "The TOP500 ranking benchmark is:",
@@ -595,7 +660,8 @@
     "SPEC CPU",
     "3DMark",
     "Geekbench"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which supercomputer at Lawrence Livermore National Laboratory topped the TOP500 from November 2024?",
@@ -604,7 +670,8 @@
     "Frontier",
     "Aurora",
     "Fugaku"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "FPGA stands for:",
@@ -613,7 +680,8 @@
     "Fast Parallel Graphics Accelerator",
     "Fixed Programmable Gate Array",
     "Field Processing Graphics Adapter"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which chip is custom-designed for one specific application?",
@@ -622,7 +690,8 @@
     "FPGA",
     "CPU",
     "GPU"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The firmware that replaced the legacy BIOS with Secure Boot and GPT support is:",
@@ -631,7 +700,8 @@
     "CMOS",
     "POST",
     "MBR"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which battery keeps BIOS settings and the clock on a motherboard?",
@@ -640,7 +710,8 @@
     "UPS battery",
     "PSU capacitor",
     "Li-ion pack"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The converts AC to DC for computer components:",
@@ -649,7 +720,8 @@
     "Motherboard",
     "UPS",
     "Chipset"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "80 PLUS certification rates a PSU's:",
@@ -658,7 +730,8 @@
     "Wattage",
     "Noise",
     "Voltage regulation only"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A device that provides backup power during outages is a:",
@@ -667,7 +740,8 @@
     "PSU",
     "KVM",
     "AVR only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which memory technology holds data using a capacitor and transistor per bit?",
@@ -676,7 +750,8 @@
     "SRAM",
     "ROM",
     "Flash"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The unit measuring floating-point operations per second is:",
@@ -685,7 +760,8 @@
     "MIPS",
     "CPI",
     "RPM"
-   ]
+   ],
+   "d": "E"
   }
  ],
  "cards": [

@@ -10,7 +10,8 @@
     "Finiteness",
     "Definiteness",
     "Effectiveness"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The word \"algorithm\" is derived from the name of:",
@@ -19,7 +20,8 @@
     "Euclid",
     "Pythagoras",
     "Fibonacci"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "An error where the program runs but produces wrong results is a:",
@@ -28,7 +30,8 @@
     "Syntax error",
     "Runtime error",
     "Compile error"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Dividing by zero while the program is running is an example of a:",
@@ -37,7 +40,8 @@
     "Syntax error",
     "Logic error",
     "Semantic warning"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which flowchart symbol represents a decision?",
@@ -46,7 +50,8 @@
     "Rectangle",
     "Parallelogram",
     "Oval"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which flowchart symbol represents input/output?",
@@ -55,7 +60,8 @@
     "Rectangle",
     "Diamond",
     "Hexagon"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The oval (terminator) in a flowchart represents:",
@@ -64,7 +70,8 @@
     "Process",
     "Decision",
     "Connector"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which loop is guaranteed to run at least once?",
@@ -73,7 +80,8 @@
     "while",
     "for",
     "foreach over an empty list"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A while loop whose condition is false at the start will run:",
@@ -82,7 +90,8 @@
     "Once",
     "Infinitely",
     "Twice"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In most languages, which statement skips to the next iteration of a loop?",
@@ -91,7 +100,8 @@
     "break",
     "return",
     "exit"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "What is the value of 2 + 3 * 4?",
@@ -100,7 +110,8 @@
     "20",
     "24",
     "10"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "What is 17 % 5 + 17 / 5 using integer arithmetic?",
@@ -109,7 +120,8 @@
     "6",
     "3",
     "2"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In Python 3, what does 7 // 2 return?",
@@ -118,7 +130,8 @@
     "3.5",
     "4",
     "1"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "After i = 5; j = i++; what are the values of i and j?",
@@ -127,7 +140,8 @@
     "i = 5, j = 6",
     "i = 6, j = 6",
     "i = 5, j = 5"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which pair of gates is universal?",
@@ -136,7 +150,8 @@
     "AND and OR",
     "XOR and XNOR",
     "NOT and AND"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which gate outputs 1 only when its inputs differ?",
@@ -145,7 +160,8 @@
     "XNOR",
     "NAND",
     "NOR"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "What is the output of a NOR gate when both inputs are 0?",
@@ -154,7 +170,8 @@
     "0",
     "Undefined",
     "Floating"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "By De Morgan's law, (A + B)' equals:",
@@ -163,7 +180,8 @@
     "A' + B'",
     "AB",
     "A + B'"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "By the absorption law, A + AB equals:",
@@ -172,7 +190,8 @@
     "B",
     "AB",
     "A + B"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "What does A·B + A·B' simplify to?",
@@ -181,7 +200,8 @@
     "B",
     "A + B",
     "1"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The sum output of a half adder is:",
@@ -190,7 +210,8 @@
     "A AND B",
     "A OR B",
     "A NAND B"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A full adder can be built from:",
@@ -199,7 +220,8 @@
     "Two XOR gates only",
     "Three AND gates",
     "One half adder and a NOT gate"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "How many rows are in the truth table of a 4-variable function?",
@@ -208,7 +230,8 @@
     "8",
     "4",
     "32"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "How many select lines does a 4:1 multiplexer need?",
@@ -217,7 +240,8 @@
     "1",
     "3",
     "4"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which of these is a sequential (memory-based) circuit element?",
@@ -226,7 +250,8 @@
     "Half adder",
     "Decoder",
     "Multiplexer"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The implication p → q is false only when:",
@@ -235,7 +260,8 @@
     "p is false and q is true",
     "both are false",
     "both are true"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The contrapositive of p → q is:",
@@ -244,7 +270,8 @@
     "q → p",
     "¬p → ¬q",
     "¬p → q"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which inference rule is: p → q, p, therefore q?",
@@ -253,7 +280,8 @@
     "Modus tollens",
     "Hypothetical syllogism",
     "Disjunctive syllogism"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which inference rule is: p → q, ¬q, therefore ¬p?",
@@ -262,7 +290,8 @@
     "Modus ponens",
     "Addition",
     "Resolution"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A statement that is always true regardless of truth values is a:",
@@ -271,7 +300,8 @@
     "Contradiction",
     "Contingency",
     "Paradox"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The negation of \"for all x, P(x)\" is:",
@@ -280,7 +310,8 @@
     "For all x, not P(x)",
     "There exists x such that P(x)",
     "Not there exists x"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which data structure follows LIFO?",
@@ -289,7 +320,8 @@
     "Queue",
     "Array",
     "Heap"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which data structure follows FIFO?",
@@ -298,7 +330,8 @@
     "Stack",
     "Tree",
     "Hash table"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The inorder traversal of a binary search tree yields the values in:",
@@ -307,7 +340,8 @@
     "Reverse insertion order",
     "Level order",
     "Random order"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "For a binary tree with root A, left child B (children D, E) and right child C, the preorder traversal is:",
@@ -316,7 +350,8 @@
     "D B E A C",
     "D E B C A",
     "A B C D E"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "What is the postfix form of the infix expression A + B * C?",
@@ -325,7 +360,8 @@
     "A B + C *",
     "+ A * B C",
     "A + B C *"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Evaluating the postfix expression 5 3 + 2 * gives:",
@@ -334,7 +370,8 @@
     "11",
     "13",
     "10"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which sorting algorithm has a worst case of O(n²) but average O(n log n)?",
@@ -343,7 +380,8 @@
     "Merge sort",
     "Heap sort",
     "Radix sort"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which sorting algorithm is O(n log n) in all cases and needs O(n) extra space?",
@@ -352,7 +390,8 @@
     "Quick sort",
     "Bubble sort",
     "Selection sort"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Binary search requires the data to be:",
@@ -361,7 +400,8 @@
     "Unique",
     "Numeric",
     "Stored in a linked list"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Approximately how many comparisons does binary search need for 1,000 sorted items?",
@@ -370,7 +410,8 @@
     "About 100",
     "About 500",
     "About 1,000"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which of the following grows fastest?",
@@ -379,7 +420,8 @@
     "O(2^n)",
     "O(n^2)",
     "O(n log n)"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "How many moves does the Tower of Hanoi need for 4 disks?",
@@ -388,7 +430,8 @@
     "16",
     "8",
     "31"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "What is gcd(48, 18)?",
@@ -397,7 +440,8 @@
     "12",
     "3",
     "9"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "What is the sum of integers from 1 to 100?",
@@ -406,7 +450,8 @@
     "5000",
     "5100",
     "4950"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "What is F(7) in the Fibonacci sequence with F0 = 0, F1 = 1?",
@@ -415,7 +460,8 @@
     "8",
     "21",
     "11"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "What is C(5,2)?",
@@ -424,7 +470,8 @@
     "20",
     "5",
     "25"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In how many distinct ways can the 5 distinct letters of \"LOGIC\" be arranged?",
@@ -433,7 +480,8 @@
     "60",
     "25",
     "24"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "After the code x = 5; y = 3; x = x + y; y = x - y; x = x - y, what are x and y?",
@@ -442,7 +490,8 @@
     "x = 5, y = 3",
     "x = 8, y = 5",
     "x = 2, y = 3"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "A loop: n = 10; while (n > 0) { n -= 3; } ends with n equal to:",
@@ -451,7 +500,8 @@
     "0",
     "1",
     "-3"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Python: what does \"HELLO\"[1:4] return?",
@@ -460,7 +510,8 @@
     "HEL",
     "ELLO",
     "LLO"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which graph traversal uses a queue?",
@@ -469,7 +520,8 @@
     "Depth-first search",
     "Both use only stacks",
     "Dijkstra only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which algorithm finds shortest paths with non-negative edge weights?",
@@ -478,7 +530,8 @@
     "Kruskal",
     "Prim",
     "Bellman-Ford only"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Kruskal's and Prim's algorithms are used to find a:",
@@ -487,7 +540,8 @@
     "Shortest path",
     "Maximum flow",
     "Topological order"
-   ]
+   ],
+   "d": "E"
   }
  ],
  "cards": [

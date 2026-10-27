@@ -10,7 +10,8 @@
     "Diagnostic",
     "Predictive",
     "Prescriptive"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which type of analytics answers \"Why did it happen?\"",
@@ -19,7 +20,8 @@
     "Descriptive",
     "Predictive",
     "Prescriptive"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which type of analytics answers \"What will happen?\"",
@@ -28,7 +30,8 @@
     "Descriptive",
     "Diagnostic",
     "Prescriptive"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which type of analytics answers \"What should we do?\"",
@@ -37,7 +40,8 @@
     "Predictive",
     "Descriptive",
     "Diagnostic"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The DIKW pyramid stands for:",
@@ -46,7 +50,8 @@
     "Database, Information, Knowledge, Web",
     "Data, Insight, Knowledge, Wisdom",
     "Documents, Information, Knowledge, Wisdom"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The first phase of CRISP-DM is:",
@@ -55,7 +60,8 @@
     "Data preparation",
     "Modeling",
     "Evaluation"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which is the last phase of CRISP-DM?",
@@ -64,7 +70,8 @@
     "Evaluation",
     "Modeling",
     "Data understanding"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The 5 Vs of big data are:",
@@ -73,7 +80,8 @@
     "Volume, Velocity, Variety, Validity, Visibility",
     "Volume, Variety, Vision, Veracity, Value",
     "Value, Version, Velocity, Variety, Volume"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which Hadoop component provides distributed storage?",
@@ -82,7 +90,8 @@
     "MapReduce",
     "YARN",
     "Hive"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which in-memory engine is commonly used for fast big-data processing?",
@@ -91,7 +100,8 @@
     "Apache Hive",
     "HBase",
     "Pig"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which tool is commonly used for real-time streaming data pipelines?",
@@ -100,7 +110,8 @@
     "Apache Hive",
     "MySQL",
     "phpMyAdmin"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which of these is unstructured data?",
@@ -109,7 +120,8 @@
     "SQL tables",
     "Excel tables",
     "CSV files"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "JSON data is classified as:",
@@ -118,7 +130,8 @@
     "Structured",
     "Unstructured",
     "Binary"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The NOIR scales of measurement are:",
@@ -127,7 +140,8 @@
     "Numeric, Ordinal, Interval, Ratio",
     "Nominal, Ordinal, Integer, Real",
     "Name, Order, Interval, Rank"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which scale has a true zero?",
@@ -136,7 +150,8 @@
     "Interval",
     "Ordinal",
     "Nominal"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A survey rating from 1 to 5 (Poor to Excellent) is:",
@@ -145,7 +160,8 @@
     "Nominal",
     "Ratio",
     "Continuous interval"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Eye color is an example of:",
@@ -154,7 +170,8 @@
     "Ordinal data",
     "Ratio data",
     "Interval data"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The number of students in a class is:",
@@ -163,7 +180,8 @@
     "Continuous data",
     "Nominal data",
     "Ordinal data"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which technique replaces missing values with a statistical value?",
@@ -172,7 +190,8 @@
     "Normalization",
     "Encoding",
     "Binning"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The IQR rule flags values outside:",
@@ -181,7 +200,8 @@
     "Q1 and Q3",
     "Mean +/- 1 SD",
     "Median +/- IQR"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Min-max normalization scales values to the range:",
@@ -190,7 +210,8 @@
     "-1 to 1",
     "0 to 100",
     "Mean 0, SD 1"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Standardization (z-score) results in:",
@@ -199,7 +220,8 @@
     "Range 0 to 1",
     "Median 0",
     "Variance 0"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which encoding creates a binary column for each category?",
@@ -208,7 +230,8 @@
     "Label encoding",
     "Ordinal encoding",
     "Hash encoding"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which is the middle value of a sorted dataset?",
@@ -217,7 +240,8 @@
     "Mean",
     "Mode",
     "Range"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which measure is most affected by outliers?",
@@ -226,7 +250,8 @@
     "Median",
     "Mode",
     "IQR"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which is the most frequent value?",
@@ -235,7 +260,8 @@
     "Mean",
     "Median",
     "Range"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "For the dataset {2, 3, 3, 5, 7, 9, 100}, the median is:",
@@ -244,7 +270,8 @@
     "3",
     "18.4",
     "7"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The square root of variance is the:",
@@ -253,7 +280,8 @@
     "Range",
     "Mean",
     "IQR"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "IQR is computed as:",
@@ -262,7 +290,8 @@
     "Q1 - Q3",
     "Max - Min",
     "Median - Q1"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A Pearson correlation of -1 means:",
@@ -271,7 +300,8 @@
     "No relationship",
     "Perfect positive relationship",
     "Causation"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Correlation does not imply:",
@@ -280,7 +310,8 @@
     "Association",
     "Relationship",
     "Covariance"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In a normal distribution, about what percent of data lies within 1 standard deviation of the mean?",
@@ -289,7 +320,8 @@
     "95%",
     "99.7%",
     "50%"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In a normal distribution, about what percent lies within 2 standard deviations?",
@@ -298,7 +330,8 @@
     "68%",
     "99.7%",
     "90%"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In a normal distribution, about what percent lies within 3 standard deviations?",
@@ -307,7 +340,8 @@
     "95%",
     "68%",
     "100%"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The Central Limit Theorem states that:",
@@ -316,7 +350,8 @@
     "All data is normal",
     "The mean equals the median",
     "Variance is constant"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In hypothesis testing, a p-value below alpha (0.05) leads you to:",
@@ -325,7 +360,8 @@
     "Accept the null hypothesis",
     "Increase the sample",
     "Ignore the test"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A Type I error is:",
@@ -334,7 +370,8 @@
     "Failing to reject a false null hypothesis",
     "Accepting the alternative",
     "A computation error"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A Type II error is:",
@@ -343,7 +380,8 @@
     "Rejecting a true null hypothesis",
     "A sampling error",
     "A measurement error"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which statistical test compares the means of three or more groups?",
@@ -352,7 +390,8 @@
     "t-test",
     "Chi-square",
     "z-test"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which test is used to examine association between categorical variables?",
@@ -361,7 +400,8 @@
     "t-test",
     "ANOVA",
     "Linear regression"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Machine learning was defined in 1959 by:",
@@ -370,7 +410,8 @@
     "Alan Turing",
     "John McCarthy",
     "Geoffrey Hinton"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which learning type uses labeled data?",
@@ -379,7 +420,8 @@
     "Unsupervised learning",
     "Reinforcement learning",
     "Clustering"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Predicting a continuous value like house price is:",
@@ -388,7 +430,8 @@
     "Classification",
     "Clustering",
     "Association"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Predicting a discrete label such as spam or not spam is:",
@@ -397,7 +440,8 @@
     "Regression",
     "Clustering",
     "Dimensionality reduction"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Grouping unlabeled data into similar groups is:",
@@ -406,7 +450,8 @@
     "Classification",
     "Regression",
     "Reinforcement"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which algorithm uses centroids to cluster data?",
@@ -415,7 +460,8 @@
     "k-NN",
     "SVM",
     "Naive Bayes"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which algorithm classifies by looking at the nearest neighbors?",
@@ -424,7 +470,8 @@
     "k-Means",
     "DBSCAN",
     "PCA"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which ensemble method builds many decision trees and combines their votes?",
@@ -433,7 +480,8 @@
     "SVM",
     "Linear regression",
     "Naive Bayes"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which technique reduces the number of features while preserving variance?",
@@ -442,7 +490,8 @@
     "SMOTE",
     "One-hot encoding",
     "k-Means"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Reinforcement learning uses:",
@@ -451,7 +500,8 @@
     "Labeled pairs only",
     "Clusters",
     "Decision trees only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A model that performs well on training data but poorly on new data is:",
@@ -460,7 +510,8 @@
     "Underfitting",
     "Well-fitted",
     "Normalized"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A model too simple to capture patterns is:",
@@ -469,7 +520,8 @@
     "Overfitting",
     "Regularized",
     "Ensemble"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which technique evaluates a model by splitting data into k parts?",
@@ -478,7 +530,8 @@
     "Bootstrapping only",
     "Gradient descent",
     "Dropout"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In a confusion matrix, TP stands for:",
@@ -487,7 +540,8 @@
     "Total Predicted",
     "Test Prediction",
     "Target Positive"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Precision is calculated as:",
@@ -496,7 +550,8 @@
     "TP / (TP + FN)",
     "(TP + TN) / total",
     "TN / (TN + FP)"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Recall is calculated as:",
@@ -505,7 +560,8 @@
     "TP / (TP + FP)",
     "TN / (TN + FP)",
     "(TP + TN) / total"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Accuracy is calculated as:",
@@ -514,7 +570,8 @@
     "TP / (TP + FP)",
     "TP / (TP + FN)",
     "FP / (FP + TN)"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The F1 score is the:",
@@ -523,7 +580,8 @@
     "Arithmetic mean of precision and recall",
     "Product of precision and recall",
     "Difference of precision and recall"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "With TP=40, FP=10, FN=20, TN=30, the precision is:",
@@ -532,7 +590,8 @@
     "0.67",
     "0.70",
     "0.50"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "With TP=40, FP=10, FN=20, TN=30, the accuracy is:",
@@ -541,7 +600,8 @@
     "0.80",
     "0.67",
     "0.60"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "An AUC of 0.5 means the classifier:",
@@ -550,7 +610,8 @@
     "Is perfect",
     "Is always wrong",
     "Has 50% precision"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which library is Google's deep learning framework?",
@@ -559,7 +620,8 @@
     "PyTorch",
     "scikit-learn",
     "Keras only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which deep learning framework was developed by Meta?",
@@ -568,7 +630,8 @@
     "TensorFlow",
     "MXNet",
     "Theano"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which Python library is used for data manipulation with DataFrames?",
@@ -577,7 +640,8 @@
     "NumPy",
     "Matplotlib",
     "Seaborn"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which Python library is mainly used for numerical arrays?",
@@ -586,7 +650,8 @@
     "pandas",
     "Seaborn",
     "Requests"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which neural network architecture is the basis of GPT, BERT and Claude?",
@@ -595,7 +660,8 @@
     "CNN",
     "RNN",
     "GAN"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The paper that introduced the Transformer (2017) is titled:",
@@ -604,7 +670,8 @@
     "Deep Residual Learning",
     "Generative Adversarial Nets",
     "Language Models are Few-Shot Learners"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which architecture is best suited to image tasks?",
@@ -613,7 +680,8 @@
     "RNN",
     "Transformer only",
     "Autoencoder only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who invented GANs in 2014?",
@@ -622,7 +690,8 @@
     "Geoffrey Hinton",
     "Yann LeCun",
     "Yoshua Bengio"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "RAG stands for:",
@@ -631,7 +700,8 @@
     "Rapid Artificial Generation",
     "Random Access Graph",
     "Recursive Attention Gate"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "RLHF stands for:",
@@ -640,7 +710,8 @@
     "Recursive Learning with Hidden Features",
     "Reward Learning for Hidden Functions",
     "Reinforced Language Heuristic Framework"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which chart type best shows a trend over time?",
@@ -649,7 +720,8 @@
     "Pie chart",
     "Scatter plot",
     "Treemap"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which chart type best shows the distribution of a numeric variable?",
@@ -658,7 +730,8 @@
     "Line chart",
     "Pie chart",
     "Gauge"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which chart type shows the relationship between two numeric variables?",
@@ -667,7 +740,8 @@
     "Pie chart",
     "Histogram",
     "Bar chart"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which chart shows median, quartiles and outliers?",
@@ -676,7 +750,8 @@
     "Histogram",
     "Pie chart",
     "Heatmap"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which tool is Microsoft's business intelligence platform?",
@@ -685,7 +760,8 @@
     "Tableau",
     "Looker",
     "Qlik"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Tableau is owned by:",
@@ -694,7 +770,8 @@
     "Microsoft",
     "Google",
     "Oracle"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who is known for the data-ink ratio concept in data visualization?",
@@ -703,7 +780,8 @@
     "Hans Rosling",
     "Nate Silver",
     "Florence Nightingale"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who shared the 2024 Nobel Prize in Physics for foundational neural network work?",
@@ -712,7 +790,8 @@
     "Yann LeCun and Yoshua Bengio",
     "Demis Hassabis and John Jumper",
     "Fei-Fei Li and Andrew Ng"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "The 2024 Nobel Prize in Chemistry honored work on:",
@@ -721,7 +800,8 @@
     "Quantum computing",
     "Graphene",
     "CRISPR"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which AI system beat Garry Kasparov in 1997?",
@@ -730,7 +810,8 @@
     "IBM Watson",
     "AlphaGo",
     "AlphaZero"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which AI system won Jeopardy! in 2011?",
@@ -739,7 +820,8 @@
     "Deep Blue",
     "AlphaGo",
     "ChatGPT"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which AI system beat Lee Sedol at Go in 2016?",
@@ -748,7 +830,8 @@
     "Deep Blue",
     "Watson",
     "Stockfish"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "ChatGPT was launched on:",
@@ -757,7 +840,8 @@
     "14 March 2023",
     "1 January 2022",
     "1 May 2023"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who popularized the term \"data scientist\" and wrote about the \"sexiest job of the 21st century\"?",
@@ -766,7 +850,8 @@
     "Hal Varian and Jim Gray",
     "Peter Norvig and Andrew Ng",
     "Alan Turing and John Tukey"
-   ]
+   ],
+   "d": "D"
   }
  ],
  "cards": [

@@ -10,7 +10,8 @@
     "Control, Integrity, Authentication",
     "Confidentiality, Identity, Access",
     "Cryptography, Integrity, Authorization"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which element of the CIA triad is protected by encryption?",
@@ -19,7 +20,8 @@
     "Integrity",
     "Availability",
     "Non-repudiation"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Hashing and digital signatures primarily protect:",
@@ -28,7 +30,8 @@
     "Confidentiality",
     "Availability",
     "Anonymity"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Redundancy, backups and DDoS protection primarily support:",
@@ -37,7 +40,8 @@
     "Confidentiality",
     "Integrity",
     "Authenticity"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "AAA stands for:",
@@ -46,7 +50,8 @@
     "Access, Authority, Audit",
     "Authentication, Access, Accountability",
     "Authorization, Administration, Accounting"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which step answers \"Who are you?\"",
@@ -55,7 +60,8 @@
     "Authorization",
     "Accounting",
     "Auditing"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which step answers \"What are you allowed to do?\"",
@@ -64,7 +70,8 @@
     "Authentication",
     "Accounting",
     "Identification"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A weakness in a system that can be exploited is a:",
@@ -73,7 +80,8 @@
     "Threat",
     "Risk",
     "Payload"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A vulnerability unknown to the vendor and unpatched is a:",
@@ -82,7 +90,8 @@
     "Legacy bug",
     "Backdoor",
     "Patch gap only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Giving users only the access they need to do their job is:",
@@ -91,7 +100,8 @@
     "Separation of duties",
     "Defense in depth",
     "Need-to-know only"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Using multiple layers of security controls is called:",
@@ -100,7 +110,8 @@
     "Least privilege",
     "Security by obscurity",
     "Zero trust only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "\"Never trust, always verify\" describes:",
@@ -109,7 +120,8 @@
     "Defense in depth",
     "Least privilege",
     "Security by obscurity"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Malware that attaches to a host file and needs user action to spread is a:",
@@ -118,7 +130,8 @@
     "Worm",
     "Trojan",
     "Rootkit"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Malware that spreads by itself across networks without user action is a:",
@@ -127,7 +140,8 @@
     "Virus",
     "Trojan",
     "Spyware"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Malware disguised as legitimate software is a:",
@@ -136,7 +150,8 @@
     "Worm",
     "Virus",
     "Adware"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Malware that encrypts files and demands payment is:",
@@ -145,7 +160,8 @@
     "Spyware",
     "Adware",
     "Rootkit"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Malware that hides deep in the OS to keep privileged access is a:",
@@ -154,7 +170,8 @@
     "Adware",
     "Keylogger",
     "Worm"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Software that records keystrokes is a:",
@@ -163,7 +180,8 @@
     "Rootkit",
     "Botnet",
     "Adware"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A network of infected computers controlled remotely is a:",
@@ -172,7 +190,8 @@
     "Honeynet",
     "Subnet",
     "Darknet"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Malware that triggers when a certain condition or date is met is a:",
@@ -181,7 +200,8 @@
     "Worm",
     "Trojan",
     "Spyware"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The WannaCry attack of 2017 was:",
@@ -190,7 +210,8 @@
     "A DDoS",
     "A phishing campaign",
     "Adware"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which worm, created by a Filipino student in 2000, spread through email?",
@@ -199,7 +220,8 @@
     "Melissa",
     "Code Red",
     "Slammer"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who wrote the ILOVEYOU worm?",
@@ -208,7 +230,8 @@
     "Kevin Mitnick",
     "Robert Morris",
     "Gary McKinnon"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who created the first major Internet worm in 1988?",
@@ -217,7 +240,8 @@
     "Kevin Mitnick",
     "Adrian Lamo",
     "Onel de Guzman"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which 2010 malware targeted Iranian nuclear centrifuges?",
@@ -226,7 +250,8 @@
     "WannaCry",
     "Mirai",
     "NotPetya"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which 2016 botnet used IoT devices to launch massive DDoS attacks?",
@@ -235,7 +260,8 @@
     "Conficker",
     "Zeus",
     "Emotet"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Phishing carried out via SMS is called:",
@@ -244,7 +270,8 @@
     "Vishing",
     "Whaling",
     "Pharming"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Phishing carried out via voice calls is called:",
@@ -253,7 +280,8 @@
     "Smishing",
     "Quishing",
     "Spear phishing"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Phishing aimed at senior executives is called:",
@@ -262,7 +290,8 @@
     "Spear phishing",
     "Smishing",
     "Pharming"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Phishing that targets a specific individual or organization is called:",
@@ -271,7 +300,8 @@
     "Mass phishing",
     "Vishing",
     "Pharming"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Redirecting users to a fake website by tampering with DNS is:",
@@ -280,7 +310,8 @@
     "Phishing",
     "Smishing",
     "Spoofing only"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Phishing through QR codes is called:",
@@ -289,7 +320,8 @@
     "Smishing",
     "Vishing",
     "Baiting"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Following an authorized person into a restricted area is:",
@@ -298,7 +330,8 @@
     "Pretexting",
     "Baiting",
     "Shoulder surfing"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Watching someone type a password over their shoulder is:",
@@ -307,7 +340,8 @@
     "Tailgating",
     "Dumpster diving",
     "Baiting"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Searching trash for sensitive information is:",
@@ -316,7 +350,8 @@
     "Shoulder surfing",
     "Tailgating",
     "Pretexting"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Leaving infected USB drives for victims to find is:",
@@ -325,7 +360,8 @@
     "Pretexting",
     "Tailgating",
     "Quid pro quo"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A DDoS attack aims to:",
@@ -334,7 +370,8 @@
     "Steal passwords",
     "Encrypt files",
     "Hide malware"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A SYN flood exploits which protocol step?",
@@ -343,7 +380,8 @@
     "DNS lookup",
     "ARP request",
     "DHCP lease"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Intercepting and possibly altering communication between two parties is a:",
@@ -352,7 +390,8 @@
     "Brute force attack",
     "DDoS attack",
     "Replay attack"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Trying every possible password combination is a:",
@@ -361,7 +400,8 @@
     "Dictionary attack",
     "Rainbow table attack",
     "Spraying attack"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Trying commonly used words as passwords is a:",
@@ -370,7 +410,8 @@
     "Brute-force attack",
     "Credential stuffing",
     "Phishing"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Using leaked username-password pairs on other sites is:",
@@ -379,7 +420,8 @@
     "Password spraying",
     "Brute force",
     "Keylogging"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Adding a random value to a password before hashing is called:",
@@ -388,7 +430,8 @@
     "Peppering only",
     "Encoding",
     "Obfuscation"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Salting primarily defends against:",
@@ -397,7 +440,8 @@
     "DDoS",
     "Phishing",
     "SQL injection"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Inserting malicious SQL through user input is:",
@@ -406,7 +450,8 @@
     "XSS",
     "CSRF",
     "Buffer overflow"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The best defense against SQL injection is:",
@@ -415,7 +460,8 @@
     "Longer passwords",
     "Firewalls only",
     "Encryption of the database"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Injecting malicious scripts into pages viewed by other users is:",
@@ -424,7 +470,8 @@
     "SQL injection",
     "CSRF",
     "Clickjacking"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Tricking an authenticated user's browser into sending unwanted requests is:",
@@ -433,7 +480,8 @@
     "XSS",
     "SQL injection",
     "Session fixation"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which is #1 in the OWASP Top 10 (2021)?",
@@ -442,7 +490,8 @@
     "Injection",
     "Cryptographic Failures",
     "Security Misconfiguration"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "OWASP stands for:",
@@ -451,7 +500,8 @@
     "Online Web Application Security Protocol",
     "Open Web Authentication Standard Project",
     "Official Web Application Security Practice"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which type of cryptography uses the same key for encryption and decryption?",
@@ -460,7 +510,8 @@
     "Asymmetric",
     "Hashing",
     "Quantum"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which of these is a symmetric encryption algorithm?",
@@ -469,7 +520,8 @@
     "RSA",
     "ECC",
     "Diffie-Hellman"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which of these is an asymmetric algorithm?",
@@ -478,7 +530,8 @@
     "AES",
     "DES",
     "ChaCha20"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which algorithm was the US standard that replaced DES in 2001?",
@@ -487,7 +540,8 @@
     "3DES",
     "Blowfish",
     "RC4"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "DES uses a key length of:",
@@ -496,7 +550,8 @@
     "128 bits",
     "192 bits",
     "256 bits"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which of these is a hashing algorithm?",
@@ -505,7 +560,8 @@
     "AES",
     "RSA",
     "Diffie-Hellman"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "How many bits is a SHA-256 digest?",
@@ -514,7 +570,8 @@
     "128",
     "160",
     "512"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "MD5 produces a digest of:",
@@ -523,7 +580,8 @@
     "160 bits",
     "256 bits",
     "64 bits"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which algorithm is used for key exchange, developed by Diffie and Hellman?",
@@ -532,7 +590,8 @@
     "RSA",
     "AES",
     "SHA"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A digital signature is created using the sender's:",
@@ -541,7 +600,8 @@
     "Public key",
     "Session key",
     "Hash only"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Messages encrypted with a public key can be decrypted with:",
@@ -550,7 +610,8 @@
     "The same public key",
     "Any key",
     "A hash"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A digital certificate is issued by a:",
@@ -559,7 +620,8 @@
     "Internet Service Provider",
     "Domain registrar only",
     "Firewall"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The Caesar cipher with shift 3 turns HELLO into:",
@@ -568,7 +630,8 @@
     "IFMMP",
     "EBIIL",
     "JGNNQ"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "The only theoretically unbreakable cipher when used correctly is the:",
@@ -577,7 +640,8 @@
     "Caesar cipher",
     "Vigenere cipher",
     "DES"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Hiding data inside images or other files is:",
@@ -586,7 +650,8 @@
     "Cryptography",
     "Encoding",
     "Hashing"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "TLS is the successor of:",
@@ -595,7 +660,8 @@
     "SSH",
     "IPsec",
     "PGP"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "HTTPS uses TLS on which port by default?",
@@ -604,7 +670,8 @@
     "80",
     "22",
     "8080"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which quantum algorithm threatens RSA and ECC?",
@@ -613,7 +680,8 @@
     "Grover's algorithm",
     "Dijkstra's algorithm",
     "Simon's algorithm only"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which NIST post-quantum standard is a key-encapsulation mechanism (Kyber)?",
@@ -622,7 +690,8 @@
     "ML-DSA",
     "SLH-DSA",
     "AES-GCM"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "MFA combines at least two of which factor types?",
@@ -631,7 +700,8 @@
     "Two passwords",
     "Two usernames",
     "Two security questions"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A fingerprint is an example of:",
@@ -640,7 +710,8 @@
     "Something you know",
     "Something you have",
     "Somewhere you are"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A smart card or token is:",
@@ -649,7 +720,8 @@
     "Something you know",
     "Something you are",
     "Something you do"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which passwordless, phishing-resistant standard underlies passkeys?",
@@ -658,7 +730,8 @@
     "SAML",
     "RADIUS",
     "LDAP"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which access control model assigns permissions based on job roles?",
@@ -667,7 +740,8 @@
     "DAC",
     "MAC",
     "ABAC"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In which access control model does the owner decide who has access?",
@@ -676,7 +750,8 @@
     "MAC",
     "RBAC",
     "ABAC"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which system detects and alerts about suspicious traffic but does not block it?",
@@ -685,7 +760,8 @@
     "IPS",
     "WAF",
     "NGFW"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which system detects and actively blocks malicious traffic?",
@@ -694,7 +770,8 @@
     "IDS",
     "SIEM",
     "Honeypot"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A network segment between the internet and the internal network hosting public servers is a:",
@@ -703,7 +780,8 @@
     "VLAN",
     "VPN",
     "NAT"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which device protects web applications against SQLi and XSS at Layer 7?",
@@ -712,7 +790,8 @@
     "Hub",
     "Router",
     "Switch"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A decoy system used to lure attackers is a:",
@@ -721,7 +800,8 @@
     "Firewall",
     "Proxy",
     "Sandbox"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "SIEM stands for:",
@@ -730,7 +810,8 @@
     "System Integration and Event Monitoring",
     "Secure Internet Email Management",
     "Security Intrusion and Endpoint Management"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which tool is a popular network packet analyzer?",
@@ -739,7 +820,8 @@
     "Nmap",
     "Metasploit",
     "Burp Suite"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which tool is a popular network scanner?",
@@ -748,7 +830,8 @@
     "Wireshark",
     "John the Ripper",
     "Hydra"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which framework is widely used for exploit development and penetration testing?",
@@ -757,7 +840,8 @@
     "Snort",
     "Splunk",
     "Zeek"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which Linux distribution is designed for penetration testing?",
@@ -766,7 +850,8 @@
     "Ubuntu",
     "Fedora",
     "Alpine"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The first phase of a penetration test is generally:",
@@ -775,7 +860,8 @@
     "Exploitation",
     "Reporting",
     "Covering tracks"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In a pen test, a black-box tester has:",
@@ -784,7 +870,8 @@
     "Full knowledge",
     "Source code only",
     "Admin access"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "CVE stands for:",
@@ -793,7 +880,8 @@
     "Critical Vulnerability Evaluation",
     "Cyber Vulnerability Engine",
     "Computer Virus Event"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "CVSS provides:",
@@ -802,7 +890,8 @@
     "A list of malware",
     "A password strength rating",
     "A firewall rule set"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The NIST Cybersecurity Framework core functions include:",
@@ -811,7 +900,8 @@
     "Plan, Do, Check, Act",
     "Prevent, Detect, Correct",
     "Assess, Block, Monitor, Report"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "RTO stands for:",
@@ -820,7 +910,8 @@
     "Recovery Test Operation",
     "Real-Time Output",
     "Risk Tolerance Objective"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "RPO represents:",
@@ -829,7 +920,8 @@
     "The maximum downtime",
     "The cost of recovery",
     "The backup size"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which Philippine law is the Cybercrime Prevention Act of 2012?",
@@ -838,7 +930,8 @@
     "RA 10173",
     "RA 8484",
     "RA 9995"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which agency enforces the Data Privacy Act?",
@@ -847,7 +940,8 @@
     "DICT",
     "NBI",
     "CICC"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "How soon must a personal data breach be reported to the NPC under the Data Privacy Act rules?",
@@ -856,7 +950,8 @@
     "24 hours",
     "7 days",
     "30 days"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Philippine law penalizes access device fraud, such as credit card fraud?",
@@ -865,7 +960,8 @@
     "RA 10175",
     "RA 9995",
     "RA 8792"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Philippine law prohibits photo and video voyeurism?",
@@ -874,7 +970,8 @@
     "RA 9775",
     "RA 10173",
     "RA 4200"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Philippine law is the Anti-Wiretapping Act?",
@@ -883,7 +980,8 @@
     "RA 10175",
     "RA 8792",
     "RA 10844"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Philippine law created the Department of Information and Communications Technology?",
@@ -892,7 +990,8 @@
     "RA 10173",
     "RA 10175",
     "RA 11934"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which law penalizes money mules and social-engineering account scams (2024)?",
@@ -901,7 +1000,8 @@
     "RA 11934",
     "RA 10175",
     "RA 11967"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "The cloud shared responsibility model means:",
@@ -910,7 +1010,8 @@
     "The customer is solely responsible",
     "The provider is solely responsible",
     "Both share equally every control"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Prompt injection is an attack against:",
@@ -919,7 +1020,8 @@
     "SQL databases only",
     "Routers",
     "Hard disks"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "CrowdStrike's July 2024 global outage was caused by:",
@@ -928,7 +1030,8 @@
     "A ransomware attack",
     "A DDoS attack",
     "A nation-state intrusion"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The Log4Shell vulnerability affected which library?",
@@ -937,7 +1040,8 @@
     "OpenSSL",
     "Bash",
     "Struts"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The Heartbleed bug affected:",
@@ -946,7 +1050,8 @@
     "Log4j",
     "SMB",
     "Flash"
-   ]
+   ],
+   "d": "A"
   }
  ],
  "cards": [

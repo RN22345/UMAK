@@ -10,7 +10,8 @@
     "Vint Cerf",
     "Marc Andreessen",
     "Brendan Eich"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which organization, founded by Tim Berners-Lee in 1994, develops web standards?",
@@ -19,7 +20,8 @@
     "IETF",
     "ICANN",
     "IEEE"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which web browser engine is used by Chrome and Edge?",
@@ -28,7 +30,8 @@
     "WebKit",
     "Gecko",
     "Trident"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which browser engine does Firefox use?",
@@ -37,7 +40,8 @@
     "Blink",
     "WebKit",
     "Chromium"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "HTML stands for:",
@@ -46,7 +50,8 @@
     "HighText Machine Language",
     "Hyperlinks and Text Markup Language",
     "Home Tool Markup Language"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which tag defines the largest heading in HTML?",
@@ -55,7 +60,8 @@
     "<h6>",
     "<head>",
     "<header>"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which HTML tag creates a hyperlink?",
@@ -64,7 +70,8 @@
     "<link>",
     "<href>",
     "<url>"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which attribute of <img> provides alternative text?",
@@ -73,7 +80,8 @@
     "title",
     "src",
     "name"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which of these is a void (empty) element in HTML?",
@@ -82,7 +90,8 @@
     "<p>",
     "<div>",
     "<span>"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which element should hold the main navigation links semantically?",
@@ -91,7 +100,8 @@
     "<menu>",
     "<aside>",
     "<section>"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which of these is a semantic HTML5 element?",
@@ -100,7 +110,8 @@
     "<div>",
     "<span>",
     "<b>"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which HTML tag creates an ordered list?",
@@ -109,7 +120,8 @@
     "<ul>",
     "<li>",
     "<dl>"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which tag creates an unordered (bulleted) list?",
@@ -118,7 +130,8 @@
     "<ol>",
     "<li>",
     "<list>"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which tag defines a table row?",
@@ -127,7 +140,8 @@
     "<td>",
     "<th>",
     "<row>"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which tag defines a table header cell?",
@@ -136,7 +150,8 @@
     "<td>",
     "<tr>",
     "<thead> only"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which attribute opens a link in a new tab?",
@@ -145,7 +160,8 @@
     "href=\"_new\"",
     "open=\"new\"",
     "rel=\"newtab\""
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which HTTP method sends form data in the URL and is bookmarkable?",
@@ -154,7 +170,8 @@
     "POST",
     "PUT",
     "DELETE"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which form method sends data in the request body?",
@@ -163,7 +180,8 @@
     "GET",
     "HEAD",
     "TRACE"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which input type hides the characters being typed?",
@@ -172,7 +190,8 @@
     "hidden",
     "secret",
     "text"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which input type provides a color picker?",
@@ -181,7 +200,8 @@
     "palette",
     "range",
     "picker"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "CSS stands for:",
@@ -190,7 +210,8 @@
     "Creative Style Sheets",
     "Computer Style Sheets",
     "Colorful Style Sheets"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who proposed CSS in 1994?",
@@ -199,7 +220,8 @@
     "Tim Berners-Lee",
     "Brendan Eich",
     "Ethan Marcotte"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which is the best practice for adding CSS to many pages?",
@@ -208,7 +230,8 @@
     "Inline styles",
     "Internal <style> block",
     "JavaScript only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In the CSS box model, the order from inside to outside is:",
@@ -217,7 +240,8 @@
     "Content, margin, border, padding",
     "Margin, border, padding, content",
     "Padding, content, border, margin"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "What does the CSS rule \"margin: 10px 20px\" set?",
@@ -226,7 +250,8 @@
     "10px left/right and 20px top/bottom",
     "10px top only",
     "20px on all sides"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which CSS selector selects elements by class?",
@@ -235,7 +260,8 @@
     "#name",
     "name",
     "*name"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which CSS selector selects an element by id?",
@@ -244,7 +270,8 @@
     ".name",
     "name",
     "@name"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which has the highest CSS specificity?",
@@ -253,7 +280,8 @@
     "ID selector",
     "Class selector",
     "Element selector"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which CSS property controls text color?",
@@ -262,7 +290,8 @@
     "font-color",
     "text-color",
     "foreground"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which CSS display value makes a one-dimensional flexible layout?",
@@ -271,7 +300,8 @@
     "grid",
     "block",
     "table"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which CSS display value creates a two-dimensional layout?",
@@ -280,7 +310,8 @@
     "flex",
     "inline",
     "block"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which CSS position is relative to the browser window and does not scroll?",
@@ -289,7 +320,8 @@
     "absolute",
     "relative",
     "static"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which CSS feature applies styles based on screen width?",
@@ -298,7 +330,8 @@
     "Pseudo-elements",
     "Keyframes",
     "Variables"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who coined the term \"responsive web design\" in 2010?",
@@ -307,7 +340,8 @@
     "Jakob Nielsen",
     "Luke Wroblewski",
     "Steve Krug"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which CSS framework was originally developed at Twitter?",
@@ -316,7 +350,8 @@
     "Tailwind",
     "Bulma",
     "Foundation"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which CSS framework is utility-first?",
@@ -325,7 +360,8 @@
     "Bootstrap",
     "Bulma",
     "Materialize"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "What is the HEX code for white?",
@@ -334,7 +370,8 @@
     "#000000",
     "#FF0000",
     "#00FF00"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "What is the HEX code for black?",
@@ -343,7 +380,8 @@
     "#FFFFFF",
     "#FF0000",
     "#0000FF"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who created JavaScript?",
@@ -352,7 +390,8 @@
     "James Gosling",
     "Tim Berners-Lee",
     "Rasmus Lerdorf"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "DOM stands for:",
@@ -361,7 +400,8 @@
     "Data Object Model",
     "Document Order Model",
     "Digital Object Map"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which JavaScript keyword declares a block-scoped variable?",
@@ -370,7 +410,8 @@
     "var",
     "def",
     "dim"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which operator checks equality without type conversion in JavaScript?",
@@ -379,7 +420,8 @@
     "==",
     "=",
     "!=="
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which browser storage persists even after the browser is closed (and is not sent to the server)?",
@@ -388,7 +430,8 @@
     "sessionStorage",
     "Cookies sent per request",
     "RAM cache"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which JavaScript library created by Meta uses a virtual DOM and JSX?",
@@ -397,7 +440,8 @@
     "Angular",
     "Vue",
     "jQuery"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which JavaScript framework was created by Google and uses TypeScript?",
@@ -406,7 +450,8 @@
     "React",
     "Vue",
     "Svelte"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who created Vue.js?",
@@ -415,7 +460,8 @@
     "Jordan Walke",
     "Misko Hevery",
     "Ryan Dahl"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which runtime lets JavaScript run on the server using the V8 engine?",
@@ -424,7 +470,8 @@
     "Deno only",
     "JVM",
     ".NET"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "UI design focuses on:",
@@ -433,7 +480,8 @@
     "The entire customer journey only",
     "Server performance",
     "Database design"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which low-fidelity design is a basic layout sketch of a page?",
@@ -442,7 +490,8 @@
     "Prototype",
     "Mockup",
     "Style guide"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which design tool is browser-based and widely used for UI collaboration?",
@@ -451,7 +500,8 @@
     "Notepad",
     "Excel",
     "MySQL Workbench"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which color model is additive and used for screens?",
@@ -460,7 +510,8 @@
     "CMYK",
     "Pantone",
     "RYB"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which color model is subtractive and used for printing?",
@@ -469,7 +520,8 @@
     "RGB",
     "HSL",
     "HEX"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Colors opposite each other on the color wheel are:",
@@ -478,7 +530,8 @@
     "Analogous",
     "Triadic",
     "Monochromatic"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Colors next to each other on the color wheel are:",
@@ -487,7 +540,8 @@
     "Complementary",
     "Triadic",
     "Tetradic"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Fitts's Law says that the time to reach a target depends on:",
@@ -496,7 +550,8 @@
     "The number of choices",
     "The color",
     "The font"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Hick's Law says that decision time increases with:",
@@ -505,7 +560,8 @@
     "The size of the target",
     "The screen resolution",
     "The font size"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "How many usability heuristics did Jakob Nielsen define?",
@@ -514,7 +570,8 @@
     "7",
     "5",
     "12"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "WCAG stands for:",
@@ -523,7 +580,8 @@
     "Web Content Access Group",
     "World Content Accessibility Guide",
     "Web Coding Accessibility Guide"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The WCAG POUR principles are:",
@@ -532,7 +590,8 @@
     "Perceivable, Open, Usable, Reliable",
     "Portable, Operable, Universal, Robust",
     "Purposeful, Operable, Understandable, Responsive"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "The minimum WCAG AA contrast ratio for normal text is:",
@@ -541,7 +600,8 @@
     "3:1",
     "7:1",
     "2:1"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which is NOT one of the Core Web Vitals?",
@@ -550,7 +610,8 @@
     "LCP",
     "INP",
     "CLS"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "LCP in Core Web Vitals measures:",
@@ -559,7 +620,8 @@
     "Interactivity",
     "Layout stability",
     "Server speed"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "CLS measures:",
@@ -568,7 +630,8 @@
     "Loading speed",
     "Interactivity",
     "Bandwidth"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which file tells search engine crawlers which pages not to crawl?",
@@ -577,7 +640,8 @@
     "sitemap.xml",
     ".htaccess",
     "index.html"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which file lists a site's pages to help search engines index it?",
@@ -586,7 +650,8 @@
     "robots.txt",
     "manifest.json",
     "package.json"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "SEO stands for:",
@@ -595,7 +660,8 @@
     "Site Engine Operation",
     "Search Engagement Output",
     "Secure Engine Optimization"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Backlinks from other sites are part of which SEO category?",
@@ -604,7 +670,8 @@
     "On-page SEO",
     "Technical SEO",
     "Local SEO only"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who developed PageRank?",
@@ -613,7 +680,8 @@
     "Jeff Bezos",
     "Mark Zuckerberg",
     "Tim Berners-Lee"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "E-commerce is best defined as:",
@@ -622,7 +690,8 @@
     "Only selling on Facebook",
     "Delivering goods by drones",
     "Running a physical store with computers"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "M-commerce refers to commerce conducted through:",
@@ -631,7 +700,8 @@
     "Mainframes",
     "Mailing lists",
     "Metaverse only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Amazon, Lazada and Shopee are examples of:",
@@ -640,7 +710,8 @@
     "B2B",
     "C2C",
     "B2G"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "eBay and Carousell are examples of:",
@@ -649,7 +720,8 @@
     "B2C",
     "B2B",
     "G2C"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Alibaba.com is an example of:",
@@ -658,7 +730,8 @@
     "B2C",
     "C2C",
     "C2B"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "PhilGEPS is an example of:",
@@ -667,7 +740,8 @@
     "B2C",
     "C2C",
     "G2C"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Upwork and Fiverr, where individuals sell services to businesses, are examples of:",
@@ -676,7 +750,8 @@
     "B2C",
     "B2B",
     "G2B"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Selling products without holding inventory, with the supplier shipping directly, is:",
@@ -685,7 +760,8 @@
     "Wholesaling",
     "Consignment",
     "Franchising"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The strategy that combines online and physical channels seamlessly is:",
@@ -694,7 +770,8 @@
     "Pure-play",
     "Brick-and-mortar",
     "Drop shipping"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who founded Amazon?",
@@ -703,7 +780,8 @@
     "Jack Ma",
     "Pierre Omidyar",
     "Elon Musk"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who founded Alibaba?",
@@ -712,7 +790,8 @@
     "Jeff Bezos",
     "Pony Ma",
     "Robin Li"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who founded eBay?",
@@ -721,7 +800,8 @@
     "Jeff Bezos",
     "Peter Thiel",
     "Jack Ma"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who invented online shopping (teleshopping) in 1979?",
@@ -730,7 +810,8 @@
     "Jeff Bezos",
     "Tim Berners-Lee",
     "Pierre Omidyar"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "EDI stands for:",
@@ -739,7 +820,8 @@
     "Electronic Digital Information",
     "Enterprise Data Integration",
     "Electronic Direct Interface"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which is the Philippine real-time interbank electronic fund transfer service with a per-transaction limit of PHP 50,000?",
@@ -748,7 +830,8 @@
     "PESONet",
     "GCash Send",
     "Swift"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which BSP-standard QR code allows interoperable payments in the Philippines?",
@@ -757,7 +840,8 @@
     "QR Pay",
     "PhilQR",
     "BSP Code"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "PESONet is a:",
@@ -766,7 +850,8 @@
     "Real-time payment rail",
     "Cryptocurrency network",
     "Credit card scheme"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Philippine central bank regulates payment systems?",
@@ -775,7 +860,8 @@
     "SEC",
     "DTI",
     "BIR"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which are major Philippine e-wallets?",
@@ -784,7 +870,8 @@
     "PayPal and Venmo",
     "Alipay and Paytm",
     "Zelle and Cash App"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The security standard for organizations that handle card data is:",
@@ -793,7 +880,8 @@
     "HIPAA",
     "ISO 9001",
     "SOX"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "3-D Secure authentication typically adds:",
@@ -802,7 +890,8 @@
     "A hardware token only",
     "A paper receipt",
     "A fingerprint scan only"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "What does a payment gateway do?",
@@ -811,7 +900,8 @@
     "Stores products",
     "Delivers parcels",
     "Designs websites"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which is a payment gateway/provider used in the Philippines?",
@@ -820,7 +910,8 @@
     "Zelle",
     "Venmo",
     "Klarna"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Conversion rate is computed as:",
@@ -829,7 +920,8 @@
     "Visitors divided by orders",
     "Revenue divided by visitors",
     "Clicks divided by impressions"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "10,000 visitors and 250 orders gives a conversion rate of:",
@@ -838,7 +930,8 @@
     "25%",
     "0.25%",
     "4%"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "AOV stands for:",
@@ -847,7 +940,8 @@
     "Annual Online Volume",
     "Average Online Visits",
     "Authorized Order Value"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "CTR is computed as:",
@@ -856,7 +950,8 @@
     "Impressions divided by clicks",
     "Orders divided by clicks",
     "Clicks divided by orders"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "CAC stands for:",
@@ -865,7 +960,8 @@
     "Customer Account Code",
     "Cost of Annual Contracts",
     "Cart Abandonment Count"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "AIDA stands for:",
@@ -874,7 +970,8 @@
     "Awareness, Intent, Decision, Action",
     "Attract, Inform, Decide, Act",
     "Audience, Interest, Demand, Approval"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The 4Ps of the marketing mix are:",
@@ -883,7 +980,8 @@
     "People, Process, Product, Price",
     "Plan, Pilot, Produce, Promote",
     "Product, Profit, Place, Package"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which Philippine law is the E-Commerce Act?",
@@ -892,7 +990,8 @@
     "RA 10173",
     "RA 10175",
     "RA 11967"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Philippine law is the Internet Transactions Act of 2023?",
@@ -901,7 +1000,8 @@
     "RA 8792",
     "RA 10173",
     "RA 11934"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Philippine law is the Data Privacy Act?",
@@ -910,7 +1010,8 @@
     "RA 10175",
     "RA 8792",
     "RA 7394"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Philippine law is the Cybercrime Prevention Act?",
@@ -919,7 +1020,8 @@
     "RA 10173",
     "RA 8792",
     "RA 11934"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Philippine law is the SIM Registration Act?",
@@ -928,7 +1030,8 @@
     "RA 11967",
     "RA 10173",
     "RA 12010"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Philippine law is the Consumer Act?",
@@ -937,7 +1040,8 @@
     "RA 8792",
     "RA 10173",
     "RA 11765"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "The Internet Transactions Act created which bureau under DTI?",
@@ -946,7 +1050,8 @@
     "Cyber Bureau",
     "Digital Commerce Authority",
     "Online Trade Office"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which Philippine agency oversees data privacy?",
@@ -955,7 +1060,8 @@
     "DTI",
     "DICT",
     "NTC"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The ACP (Agentic Commerce Protocol) was introduced by:",
@@ -964,7 +1070,8 @@
     "Google and PayPal",
     "Amazon and Visa",
     "Meta and Shopify"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which protocol did Google introduce for AI agent payments?",
@@ -973,7 +1080,8 @@
     "ACP",
     "MCP",
     "A2A"
-   ]
+   ],
+   "d": "D"
   }
  ],
  "cards": [

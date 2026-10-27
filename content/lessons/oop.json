@@ -10,7 +10,8 @@
     "Encapsulation",
     "Inheritance",
     "Polymorphism"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A blueprint or template from which objects are created is a:",
@@ -19,7 +20,8 @@
     "Object",
     "Method",
     "Package"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "An instance of a class is called a:",
@@ -28,7 +30,8 @@
     "Interface",
     "Constructor",
     "Module"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Bundling data and methods and hiding internal state is:",
@@ -37,7 +40,8 @@
     "Abstraction",
     "Inheritance",
     "Polymorphism"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Exposing only essential features while hiding implementation details is:",
@@ -46,7 +50,8 @@
     "Encapsulation",
     "Overloading",
     "Cohesion"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Creating a new class from an existing class to reuse its members is:",
@@ -55,7 +60,8 @@
     "Polymorphism",
     "Encapsulation",
     "Instantiation"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Private variables with public getters and setters illustrate:",
@@ -64,7 +70,8 @@
     "Inheritance",
     "Polymorphism",
     "Overloading"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which concept allows the same method call to behave differently depending on the object?",
@@ -73,7 +80,8 @@
     "Encapsulation",
     "Composition",
     "Aggregation"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Method overloading is an example of:",
@@ -82,7 +90,8 @@
     "Run-time polymorphism",
     "Inheritance",
     "Encapsulation"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Method overriding is an example of:",
@@ -91,7 +100,8 @@
     "Compile-time polymorphism",
     "Static binding",
     "Abstraction"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Method overloading requires methods with the same name but different:",
@@ -100,7 +110,8 @@
     "Return types only",
     "Access modifiers only",
     "Class names"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A special method called when an object is created is a:",
@@ -109,7 +120,8 @@
     "Destructor",
     "Getter",
     "Static method"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which statement is true about a Java constructor?",
@@ -118,7 +130,8 @@
     "It must return void",
     "It is inherited by subclasses",
     "It can be declared final"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In Python, the constructor method is named:",
@@ -127,7 +140,8 @@
     "__new_obj__",
     "constructor",
     "__start__"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The keyword that refers to the current object in Java is:",
@@ -136,7 +150,8 @@
     "self",
     "super",
     "current"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The keyword that refers to the parent class in Java is:",
@@ -145,7 +160,8 @@
     "this",
     "parent",
     "base"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In Python, the first parameter of an instance method that refers to the object is conventionally:",
@@ -154,7 +170,8 @@
     "this",
     "me",
     "obj"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Members declared static belong to:",
@@ -163,7 +180,8 @@
     "Each object separately",
     "Only subclasses",
     "The JVM only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In Java, which keyword prevents a class from being inherited?",
@@ -172,7 +190,8 @@
     "static",
     "abstract",
     "sealed (Java 8)"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which Java keyword is used by a class to inherit another class?",
@@ -181,7 +200,8 @@
     "implements",
     "inherits",
     "super"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which Java keyword is used by a class to adopt an interface?",
@@ -190,7 +210,8 @@
     "extends",
     "using",
     "interface"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A class that cannot be instantiated and may contain abstract methods is:",
@@ -199,7 +220,8 @@
     "A final class",
     "A static class",
     "A wrapper class"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which can a class implement more than one of in Java?",
@@ -208,7 +230,8 @@
     "Abstract classes via extends",
     "Final classes",
     "Enums"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which access modifier allows access only within the same class?",
@@ -217,7 +240,8 @@
     "protected",
     "public",
     "default"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which access modifier allows access from subclasses and the same package, but not the world?",
@@ -226,7 +250,8 @@
     "private",
     "public",
     "default"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Multiple inheritance of classes is NOT supported in:",
@@ -235,7 +260,8 @@
     "C++",
     "Python",
     "Lisp"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The ambiguity problem with multiple inheritance is called the:",
@@ -244,7 +270,8 @@
     "Pigeonhole problem",
     "Halting problem",
     "Knapsack problem"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "\"A Car has an Engine\" is an example of:",
@@ -253,7 +280,8 @@
     "Inheritance (is-a)",
     "Polymorphism",
     "Overloading"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "\"A Dog is an Animal\" is an example of:",
@@ -262,7 +290,8 @@
     "Composition",
     "Aggregation",
     "Association"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Java source code is compiled to:",
@@ -271,7 +300,8 @@
     "Machine code for each OS",
     "Assembly",
     "Source maps"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Bytecode is executed by the:",
@@ -280,7 +310,8 @@
     "JDK",
     "IDE",
     "JIT only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "\"Write Once, Run Anywhere\" is associated with:",
@@ -289,7 +320,8 @@
     "C++",
     "Python",
     "C"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which includes the compiler and development tools for Java?",
@@ -298,7 +330,8 @@
     "JRE",
     "JVM",
     "JIT"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who created Java?",
@@ -307,7 +340,8 @@
     "Bjarne Stroustrup",
     "Guido van Rossum",
     "Anders Hejlsberg"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who created C++?",
@@ -316,7 +350,8 @@
     "Dennis Ritchie",
     "James Gosling",
     "Ken Thompson"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who created Python?",
@@ -325,7 +360,8 @@
     "Brendan Eich",
     "Rasmus Lerdorf",
     "Larry Wall"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who created JavaScript at Netscape in 1995?",
@@ -334,7 +370,8 @@
     "Ryan Dahl",
     "Tim Berners-Lee",
     "Marc Andreessen"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who created C#?",
@@ -343,7 +380,8 @@
     "James Gosling",
     "Bjarne Stroustrup",
     "Rasmus Lerdorf"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who created PHP?",
@@ -352,7 +390,8 @@
     "Larry Wall",
     "Yukihiro Matsumoto",
     "Guido van Rossum"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "The first object-oriented programming language was:",
@@ -361,7 +400,8 @@
     "Smalltalk",
     "C++",
     "Java"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which language is credited with popularizing OOP, created by Alan Kay's team at Xerox PARC?",
@@ -370,7 +410,8 @@
     "Simula",
     "Ada",
     "Pascal"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which Java block always executes, whether or not an exception occurs?",
@@ -379,7 +420,8 @@
     "catch",
     "try only",
     "throws"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The Java keyword used to raise an exception is:",
@@ -388,7 +430,8 @@
     "throws",
     "raise",
     "catch"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which of these is an unchecked exception in Java?",
@@ -397,7 +440,8 @@
     "IOException",
     "SQLException",
     "FileNotFoundException"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Java is always:",
@@ -406,7 +450,8 @@
     "Pass-by-reference",
     "Pass-by-name",
     "Pass-by-pointer"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "In Java, == on two object references compares:",
@@ -415,7 +460,8 @@
     "Contents",
     "Hash codes only",
     "Types"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which method compares the contents of two Java Strings?",
@@ -424,7 +470,8 @@
     "==",
     "compare() only",
     "same()"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Strings in Java are:",
@@ -433,7 +480,8 @@
     "Mutable",
     "Primitive",
     "Char arrays only"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which Python collection is immutable?",
@@ -442,7 +490,8 @@
     "list",
     "dict",
     "set"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In C++, a pure virtual function is declared by appending:",
@@ -451,7 +500,8 @@
     "= null",
     "= void",
     "= abstract"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In C++, the default access in a struct is:",
@@ -460,7 +510,8 @@
     "private",
     "protected",
     "package"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "In C++, the default access in a class is:",
@@ -469,7 +520,8 @@
     "public",
     "protected",
     "internal"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which C++ feature lets you use the same operator for user-defined types?",
@@ -478,7 +530,8 @@
     "Templates",
     "Friend functions",
     "Namespaces"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "What is the output? Animal a = new Dog(); a.speak(); where Dog overrides speak() to print \"Woof\"",
@@ -487,7 +540,8 @@
     "Animal",
     "Compile error",
     "Nothing"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "What does a static counter incremented in the constructor print after three objects are created?",
@@ -496,7 +550,8 @@
     "1",
     "0",
     "2"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In Java: try { print A; 5/0; print B } catch(ArithmeticException) { print C } finally { print D }. Output?",
@@ -505,7 +560,8 @@
     "ABCD",
     "AD",
     "ACBD"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "In Python, what is the output of: class A: __init__ sets x=1; class B(A): __init__ calls super().__init__() then y = x+1; print(B().y)?",
@@ -514,7 +570,8 @@
     "1",
     "0",
     "Error"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which naming convention uses capital letters for each word including the first, commonly for class names?",
@@ -523,7 +580,8 @@
     "camelCase",
     "snake_case",
     "kebab-case"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which naming convention is typically used for Python variables and functions?",
@@ -532,7 +590,8 @@
     "PascalCase",
     "SCREAMING_CASE",
     "kebab-case"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Java's automatic memory reclamation is called:",
@@ -541,7 +600,8 @@
     "Manual deallocation",
     "Reference counting only",
     "RAII"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which describes high-quality OO design?",
@@ -550,7 +610,8 @@
     "Low cohesion and high coupling",
     "High coupling and high cohesion",
     "Low cohesion and low coupling"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which Java collection stores unique elements without duplicates?",
@@ -559,7 +620,8 @@
     "ArrayList",
     "LinkedList",
     "Vector"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which Java collection stores key-value pairs?",
@@ -568,7 +630,8 @@
     "ArrayList",
     "HashSet",
     "Queue"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "JavaScript's strict equality operator is:",
@@ -577,7 +640,8 @@
     "==",
     "=",
     "!="
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which company owns Java today?",
@@ -586,7 +650,8 @@
     "Sun Microsystems",
     "IBM",
     "Google"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which language is the typed superset of JavaScript from Microsoft?",
@@ -595,7 +660,8 @@
     "CoffeeScript",
     "Dart",
     "Kotlin"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which language is Google's preferred language for Android development since 2019?",
@@ -604,7 +670,8 @@
     "Swift",
     "Dart",
     "Scala"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which language is used for Apple's iOS development created by Apple in 2014?",
@@ -613,7 +680,8 @@
     "Kotlin",
     "Objective-C",
     "Dart"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which language is used with the Flutter framework?",
@@ -622,7 +690,8 @@
     "Go",
     "Rust",
     "Swift"
-   ]
+   ],
+   "d": "E"
   }
  ],
  "cards": [

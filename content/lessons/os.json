@@ -10,7 +10,8 @@
     "Adds more physical memory",
     "Allocates CPU time only",
     "Compiles user programs"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Dividing a resource among users by giving each one a part of it (e.g., memory) is called:",
@@ -19,7 +20,8 @@
     "Time multiplexing",
     "Spooling",
     "Swapping"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Sharing a CPU by letting processes take turns is called:",
@@ -28,7 +30,8 @@
     "Space multiplexing",
     "Paging",
     "Segmentation"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In which mode does the operating system run with full access to the hardware?",
@@ -37,7 +40,8 @@
     "User mode",
     "Safe mode",
     "Virtual mode"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A program requests a kernel service through a:",
@@ -46,7 +50,8 @@
     "Shell script",
     "Subroutine library only",
     "Device driver"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The shell of an operating system is:",
@@ -55,7 +60,8 @@
     "The core of the kernel",
     "A device driver",
     "A file system"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Batch systems and punched cards belong to which OS generation?",
@@ -64,7 +70,8 @@
     "First (vacuum tubes)",
     "Third (ICs)",
     "Fourth (PCs)"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Multiprogramming, spooling and timesharing appeared in the:",
@@ -73,7 +80,8 @@
     "First generation",
     "Second generation",
     "Fourth generation"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "SPOOL stands for:",
@@ -82,7 +90,8 @@
     "System Peripheral Output On Line",
     "Serial Process Operations On Load",
     "Simple Printing Operation On Line"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which early timesharing system was developed at MIT?",
@@ -91,7 +100,8 @@
     "OS/360",
     "MS-DOS",
     "MINIX"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "UNIX is descended from which earlier OS project?",
@@ -100,7 +110,8 @@
     "CP/M",
     "MINIX",
     "OS/360"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Who wrote the CP/M operating system?",
@@ -109,7 +120,8 @@
     "Bill Gates",
     "Tim Paterson",
     "Dennis Ritchie"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "MS-DOS originated from QDOS, written by Tim Paterson at:",
@@ -118,7 +130,8 @@
     "Digital Research",
     "Apple",
     "Xerox"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who created the Linux kernel?",
@@ -127,7 +140,8 @@
     "Andrew Tanenbaum",
     "Richard Stallman",
     "Ken Thompson"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "MINIX was written in 1987 by:",
@@ -136,7 +150,8 @@
     "Linus Torvalds",
     "Dennis Ritchie",
     "Gary Kildall"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The graphical user interface was commercialized first by Xerox PARC ideas and then by Apple's:",
@@ -145,7 +160,8 @@
     "Altair and Apple I",
     "IBM PC and PCjr",
     "Amiga and Atari"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which OS type must meet strict deadlines, such as in pacemakers and airbags?",
@@ -154,7 +170,8 @@
     "Soft real-time OS",
     "Batch OS",
     "Mainframe OS"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which of these is a real-time operating system?",
@@ -163,7 +180,8 @@
     "MS-DOS",
     "Ubuntu Desktop",
     "Windows 98"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The six-layer OS designed by Dijkstra in 1968 is called:",
@@ -172,7 +190,8 @@
     "MULTICS",
     "MINIX",
     "VM/370"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which OS structure runs minimal code in the kernel and most services as user-mode servers?",
@@ -181,7 +200,8 @@
     "Monolithic",
     "Layered",
     "Exokernel"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which OS structure puts all procedures in one big program where any procedure can call any other?",
@@ -190,7 +210,8 @@
     "Microkernel",
     "Layered",
     "Virtual machine"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "IBM's VM/370 is an example of which structure?",
@@ -199,7 +220,8 @@
     "Microkernel",
     "Exokernel",
     "Layered"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A Type 1 hypervisor runs:",
@@ -208,7 +230,8 @@
     "On top of a host OS",
     "Inside a container",
     "Only on mobile devices"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which of these is a Type 2 (hosted) hypervisor?",
@@ -217,7 +240,8 @@
     "VMware ESXi",
     "Xen",
     "Hyper-V"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A process is best described as:",
@@ -226,7 +250,8 @@
     "A file on disk",
     "A set of source code lines",
     "A hardware component"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which UNIX call creates a new process?",
@@ -235,7 +260,8 @@
     "exec()",
     "wait()",
     "pipe()"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which call replaces a process's program with another?",
@@ -244,7 +270,8 @@
     "fork()",
     "wait()",
     "exit()"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which is NOT a standard process state?",
@@ -253,7 +280,8 @@
     "Ready",
     "Running",
     "Blocked"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A process moves from Running to Ready when:",
@@ -262,7 +290,8 @@
     "It waits for I/O",
     "It finishes",
     "It is created"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A process moves from Running to Blocked when:",
@@ -271,7 +300,8 @@
     "Its quantum expires",
     "It is preempted by a higher priority",
     "It is admitted"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The data structure holding a process's information (PID, registers, state) is the:",
@@ -280,7 +310,8 @@
     "Page table",
     "Inode",
     "Boot sector"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A terminated process whose parent has not yet collected its exit status is a:",
@@ -289,7 +320,8 @@
     "Orphan",
     "Daemon",
     "Thread"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Threads of the same process share:",
@@ -298,7 +330,8 @@
     "Stack",
     "Program counter",
     "CPU registers"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Each thread has its own:",
@@ -307,7 +340,8 @@
     "Heap",
     "Global variables",
     "Open file table"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A situation in which the outcome depends on the timing of processes is a:",
@@ -316,7 +350,8 @@
     "Deadlock",
     "Livelock",
     "Starvation"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who invented semaphores (P and V operations)?",
@@ -325,7 +360,8 @@
     "Tony Hoare",
     "Andrew Tanenbaum",
     "Leslie Lamport"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which scheduling algorithm is non-preemptive and processes jobs in arrival order?",
@@ -334,7 +370,8 @@
     "Round Robin",
     "SRTN",
     "Priority with preemption"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which algorithm is provably optimal for average waiting time when all jobs arrive together?",
@@ -343,7 +380,8 @@
     "FCFS",
     "Round Robin",
     "Lottery"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Preemptive Shortest Job First is called:",
@@ -352,7 +390,8 @@
     "FCFS",
     "Round Robin",
     "Multilevel queue"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Round Robin scheduling gives each process a fixed:",
@@ -361,7 +400,8 @@
     "Priority",
     "Memory partition",
     "Page"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "If the Round Robin quantum is extremely large, it behaves like:",
@@ -370,7 +410,8 @@
     "SJF",
     "Priority scheduling",
     "Lottery scheduling"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Starvation in priority scheduling is solved by:",
@@ -379,7 +420,8 @@
     "Compaction",
     "Spooling",
     "Swapping"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Waiting time is computed as:",
@@ -388,7 +430,8 @@
     "Completion time minus arrival time",
     "Burst time minus arrival time",
     "Response time plus burst time"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Turnaround time is computed as:",
@@ -397,7 +440,8 @@
     "Waiting time minus burst time",
     "Burst time plus arrival time",
     "First response minus arrival"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "FCFS example: P1 (24), P2 (3), P3 (3) arrive in that order. The average waiting time is:",
@@ -406,7 +450,8 @@
     "3",
     "13",
     "27"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which is NOT one of the four Coffman conditions for deadlock?",
@@ -415,7 +460,8 @@
     "Mutual exclusion",
     "Hold and wait",
     "Circular wait"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Banker's algorithm is used for deadlock:",
@@ -424,7 +470,8 @@
     "Detection only",
     "Ignoring",
     "Recovery"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The \"ostrich algorithm\" for deadlocks means:",
@@ -433,7 +480,8 @@
     "Killing all processes",
     "Preventing circular wait",
     "Using more memory"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Imposing a numbering order on resources prevents which deadlock condition?",
@@ -442,7 +490,8 @@
     "Mutual exclusion",
     "Hold and wait",
     "No preemption"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which registers solve relocation and protection in simple multiprogramming?",
@@ -451,7 +500,8 @@
     "Program counter and stack pointer",
     "Index and accumulator",
     "Instruction and data registers"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which memory allocation algorithm picks the smallest hole that is big enough?",
@@ -460,7 +510,8 @@
     "First fit",
     "Worst fit",
     "Next fit"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Fragmentation that occurs inside an allocated block is:",
@@ -469,7 +520,8 @@
     "External fragmentation",
     "Checkerboarding",
     "Thrashing"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Segmentation mainly suffers from which problem?",
@@ -478,7 +530,8 @@
     "Internal fragmentation only",
     "Belady's anomaly",
     "Lack of sharing"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In paging, physical memory is divided into fixed-size blocks called:",
@@ -487,7 +540,8 @@
     "Segments",
     "Sectors",
     "Partitions"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A virtual address in a paging system consists of:",
@@ -496,7 +550,8 @@
     "Segment and limit",
     "Base and bound",
     "Cylinder and head"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The hardware cache that stores recent page-table entries is the:",
@@ -505,7 +560,8 @@
     "MMU",
     "DMA",
     "BIOS"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A page fault occurs when:",
@@ -514,7 +570,8 @@
     "Memory is full of frames",
     "A process terminates",
     "A disk crashes"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which page replacement algorithm is theoretically the best but cannot be implemented in practice?",
@@ -523,7 +580,8 @@
     "LRU",
     "FIFO",
     "Clock"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Belady's anomaly can occur with which page replacement algorithm?",
@@ -532,7 +590,8 @@
     "LRU",
     "Optimal",
     "Stack-based algorithms"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Excessive paging that makes the CPU idle is called:",
@@ -541,7 +600,8 @@
     "Spooling",
     "Compaction",
     "Aging"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "With 4 KB pages, virtual address 8196 maps to which page and offset?",
@@ -550,7 +610,8 @@
     "Page 1, offset 4",
     "Page 2, offset 8196",
     "Page 3, offset 0"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which technique lets a device transfer data to memory without CPU involvement?",
@@ -559,7 +620,8 @@
     "Polling",
     "Interrupt-driven I/O",
     "Spooling"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Busy waiting on a device status register is known as:",
@@ -568,7 +630,8 @@
     "DMA",
     "Interrupt-driven I/O",
     "Memory-mapped I/O"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which of these is a block device?",
@@ -577,7 +640,8 @@
     "Keyboard",
     "Mouse",
     "Serial port"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Disk access time equals:",
@@ -586,7 +650,8 @@
     "Seek time + transfer time only",
     "Latency × transfer time",
     "Seek time − latency"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which disk scheduling algorithm services the request with the least seek distance first?",
@@ -595,7 +660,8 @@
     "FCFS",
     "SCAN",
     "C-SCAN"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The \"elevator algorithm\" for disk scheduling is:",
@@ -604,7 +670,8 @@
     "SSTF",
     "FCFS",
     "Random"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which RAID level is mirroring?",
@@ -613,7 +680,8 @@
     "RAID 0",
     "RAID 5",
     "RAID 6"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which RAID level uses striping without redundancy?",
@@ -622,7 +690,8 @@
     "RAID 1",
     "RAID 5",
     "RAID 10"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The UNIX data structure listing a file's attributes and disk block addresses is the:",
@@ -631,7 +700,8 @@
     "FAT",
     "Superblock",
     "MBR"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In the FAT file system, FAT stands for:",
@@ -640,7 +710,8 @@
     "Fast Access Table",
     "File Attribute Table",
     "Fixed Allocation Tree"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which is the default file system of modern Windows?",
@@ -649,7 +720,8 @@
     "ext4",
     "APFS",
     "ISO 9660"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which Linux command lists running processes?",
@@ -658,7 +730,8 @@
     "ls",
     "chmod",
     "df"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which command changes file permissions on Linux?",
@@ -667,7 +740,8 @@
     "chown",
     "grep",
     "pwd"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "What does chmod 755 represent?",
@@ -676,7 +750,8 @@
     "rw-r--r--",
     "rwxrwxrwx",
     "r-xr-xr-x"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which Windows command shows IP configuration?",
@@ -685,7 +760,8 @@
     "ifconfig",
     "netstat only",
     "tasklist"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which Linux command prints the current working directory?",
@@ -694,7 +770,8 @@
     "cd",
     "ls",
     "dir"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which sector of a disk holds the Master Boot Record?",
@@ -703,7 +780,8 @@
     "Sector 1",
     "The last sector",
     "The superblock"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which 3-2-1 backup rule is correct?",
@@ -712,7 +790,8 @@
     "3 disks, 2 servers, 1 tape",
     "3 days, 2 weeks, 1 month",
     "3 users, 2 admins, 1 owner"
-   ]
+   ],
+   "d": "A"
   }
  ],
  "cards": [

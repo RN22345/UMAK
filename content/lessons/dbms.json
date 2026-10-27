@@ -10,7 +10,8 @@
     "A single table of data",
     "A programming language only",
     "A network protocol"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Data about data is called:",
@@ -19,7 +20,8 @@
     "Big data",
     "Raw data",
     "Master data"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The data dictionary (system catalog) stores:",
@@ -28,7 +30,8 @@
     "User passwords only",
     "Backups",
     "Application source code"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who proposed the relational model in 1970 at IBM?",
@@ -37,7 +40,8 @@
     "Peter Chen",
     "Charles Bachman",
     "Michael Stonebraker"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Who proposed the Entity-Relationship model in 1976?",
@@ -46,7 +50,8 @@
     "Edgar Codd",
     "Chris Date",
     "Larry Ellison"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In a relational table, a row is also called a:",
@@ -55,7 +60,8 @@
     "Attribute",
     "Domain",
     "Schema"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In a relational table, a column is also called a:",
@@ -64,7 +70,8 @@
     "Tuple",
     "Relation",
     "Cardinality"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "The number of columns in a relation is its:",
@@ -73,7 +80,8 @@
     "Cardinality",
     "Domain",
     "Schema"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The number of rows in a relation is its:",
@@ -82,7 +90,8 @@
     "Degree",
     "Domain",
     "Key"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The three levels of the ANSI/SPARC architecture are:",
@@ -91,7 +100,8 @@
     "Physical, Logical, Virtual",
     "Client, Server, Storage",
     "View, Model, Controller"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which key is a minimal set of attributes that uniquely identifies a row?",
@@ -100,7 +110,8 @@
     "Super key",
     "Foreign key",
     "Composite key"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which key uniquely identifies each row and cannot be NULL?",
@@ -109,7 +120,8 @@
     "Foreign key",
     "Alternate key",
     "Unique key"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which key references the primary key of another table?",
@@ -118,7 +130,8 @@
     "Candidate key",
     "Surrogate key",
     "Super key"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A key made of two or more columns is a:",
@@ -127,7 +140,8 @@
     "Surrogate key",
     "Alternate key",
     "Natural key"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "A system-generated key such as an auto-increment ID is a:",
@@ -136,7 +150,8 @@
     "Natural key",
     "Composite key",
     "Foreign key"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Entity integrity requires that:",
@@ -145,7 +160,8 @@
     "Foreign keys match primary keys",
     "All columns have defaults",
     "Tables have indexes"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Referential integrity requires that:",
@@ -154,7 +170,8 @@
     "Primary keys are unique",
     "Columns are atomic",
     "Tables are normalized"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In an ER diagram, a diamond represents a:",
@@ -163,7 +180,8 @@
     "Entity",
     "Attribute",
     "Key"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In an ER diagram, a rectangle represents an:",
@@ -172,7 +190,8 @@
     "Relationship",
     "Attribute",
     "Cardinality"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In ER diagrams, a derived attribute (such as Age from BirthDate) is shown with:",
@@ -181,7 +200,8 @@
     "A double ellipse",
     "An underlined name",
     "A diamond"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "A many-to-many relationship is implemented in the relational model with:",
@@ -190,7 +210,8 @@
     "A single foreign key",
     "A view",
     "A trigger"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "First Normal Form (1NF) requires:",
@@ -199,7 +220,8 @@
     "No partial dependencies",
     "No transitive dependencies",
     "Every determinant is a super key"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Second Normal Form (2NF) removes:",
@@ -208,7 +230,8 @@
     "Transitive dependencies",
     "Multivalued dependencies",
     "Join dependencies"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Third Normal Form (3NF) removes:",
@@ -217,7 +240,8 @@
     "Partial dependencies",
     "Repeating groups",
     "Candidate keys"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Boyce-Codd Normal Form requires that for every functional dependency X to Y:",
@@ -226,7 +250,8 @@
     "Y is a super key",
     "X is atomic",
     "Y is a foreign key"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which are the three kinds of anomalies normalization prevents?",
@@ -235,7 +260,8 @@
     "Select, update, delete",
     "Read, write, execute",
     "Lost, dirty, phantom"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Deliberately adding redundancy to improve read performance is:",
@@ -244,7 +270,8 @@
     "Normalization",
     "Fragmentation",
     "Indexing"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which SQL command group does CREATE, ALTER and DROP belong to?",
@@ -253,7 +280,8 @@
     "DML",
     "DCL",
     "TCL"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which SQL command group does INSERT, UPDATE and DELETE belong to?",
@@ -262,7 +290,8 @@
     "DDL",
     "DCL",
     "TCL"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which SQL command group does GRANT and REVOKE belong to?",
@@ -271,7 +300,8 @@
     "DDL",
     "DML",
     "TCL"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which SQL command group does COMMIT and ROLLBACK belong to?",
@@ -280,7 +310,8 @@
     "DDL",
     "DCL",
     "DQL"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which SQL statement retrieves data?",
@@ -289,7 +320,8 @@
     "GET",
     "FETCH ONLY",
     "EXTRACT"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which clause filters rows before grouping?",
@@ -298,7 +330,8 @@
     "HAVING",
     "GROUP BY",
     "ORDER BY"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which clause filters groups after aggregation?",
@@ -307,7 +340,8 @@
     "WHERE",
     "LIMIT",
     "DISTINCT"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which clause sorts results?",
@@ -316,7 +350,8 @@
     "GROUP BY",
     "SORT BY",
     "ARRANGE"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which operator matches a pattern in SQL?",
@@ -325,7 +360,8 @@
     "MATCH",
     "SIMILAR",
     "IN"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In SQL LIKE, which wildcard represents any number of characters?",
@@ -334,7 +370,8 @@
     "_",
     "*",
     "?"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In SQL LIKE, which wildcard represents exactly one character?",
@@ -343,7 +380,8 @@
     "%",
     "*",
     "#"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "How do you test for NULL values correctly?",
@@ -352,7 +390,8 @@
     "= NULL",
     "== NULL",
     "EQUALS NULL"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which aggregate function counts all rows including those with NULLs?",
@@ -361,7 +400,8 @@
     "COUNT(column)",
     "SUM(*)",
     "TOTAL()"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Aggregate functions like AVG ignore:",
@@ -370,7 +410,8 @@
     "Zero values",
     "Duplicates",
     "Negative values"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Employees salaries: 30000, 40000, 50000, 70000 and NULL. What does AVG(salary) return?",
@@ -379,7 +420,8 @@
     "38000",
     "48000",
     "190000"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which JOIN returns only rows with matching values in both tables?",
@@ -388,7 +430,8 @@
     "LEFT JOIN",
     "FULL OUTER JOIN",
     "CROSS JOIN"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which JOIN returns all rows from the left table and matching rows from the right?",
@@ -397,7 +440,8 @@
     "INNER JOIN",
     "RIGHT JOIN",
     "CROSS JOIN"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Table A has 4 rows and table B has 3 rows. A CROSS JOIN B yields:",
@@ -406,7 +450,8 @@
     "7 rows",
     "4 rows",
     "3 rows"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which set operator removes duplicates from combined results?",
@@ -415,7 +460,8 @@
     "UNION ALL",
     "INTERSECT ALL",
     "JOIN"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which set operator keeps duplicates?",
@@ -424,7 +470,8 @@
     "UNION",
     "INTERSECT",
     "EXCEPT"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which command removes all rows from a table quickly and resets identity, without logging each row?",
@@ -433,7 +480,8 @@
     "DELETE",
     "DROP",
     "REMOVE"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Which command removes the table structure itself?",
@@ -442,7 +490,8 @@
     "DELETE",
     "TRUNCATE",
     "CLEAR"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which constraint ensures all values in a column are different?",
@@ -451,7 +500,8 @@
     "NOT NULL",
     "CHECK",
     "DEFAULT"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which data type stores fixed-length strings?",
@@ -460,7 +510,8 @@
     "VARCHAR",
     "TEXT",
     "BLOB"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "An index primarily:",
@@ -469,7 +520,8 @@
     "Speeds up writes only",
     "Encrypts data",
     "Backs up data"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "A virtual table based on a SELECT query is a:",
@@ -478,7 +530,8 @@
     "Trigger",
     "Index",
     "Cursor"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Code that runs automatically upon INSERT, UPDATE or DELETE is a:",
@@ -487,7 +540,8 @@
     "View",
     "Procedure",
     "Index"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In ACID, the \"A\" stands for:",
@@ -496,7 +550,8 @@
     "Availability",
     "Authorization",
     "Accuracy"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In ACID, \"Isolation\" means:",
@@ -505,7 +560,8 @@
     "Data survives crashes",
     "All or nothing",
     "Data is valid"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "In ACID, \"Durability\" means:",
@@ -514,7 +570,8 @@
     "Transactions are all-or-nothing",
     "Data is encrypted",
     "Transactions run in parallel"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Reading uncommitted data from another transaction is a:",
@@ -523,7 +580,8 @@
     "Phantom read",
     "Lost update",
     "Deadlock"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which is the strongest transaction isolation level?",
@@ -532,7 +590,8 @@
     "READ COMMITTED",
     "REPEATABLE READ",
     "READ UNCOMMITTED"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The CAP theorem says a distributed system can guarantee at most two of:",
@@ -541,7 +600,8 @@
     "Concurrency, Atomicity, Persistence",
     "Cache, Access, Partition",
     "Consistency, Atomicity, Performance"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which type of database is MongoDB?",
@@ -550,7 +610,8 @@
     "Key-value",
     "Graph",
     "Wide-column"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which database is an in-memory key-value store used for caching?",
@@ -559,7 +620,8 @@
     "MongoDB",
     "Neo4j",
     "Cassandra"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which database is a graph database?",
@@ -568,7 +630,8 @@
     "Redis",
     "Cassandra",
     "MySQL"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which database is a wide-column store?",
@@ -577,7 +640,8 @@
     "Redis",
     "Neo4j",
     "MongoDB"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which database is embedded, serverless and file-based?",
@@ -586,7 +650,8 @@
     "MySQL",
     "Oracle",
     "PostgreSQL"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "MariaDB is a fork of:",
@@ -595,7 +660,8 @@
     "PostgreSQL",
     "Oracle",
     "SQLite"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which database system is known for T-SQL?",
@@ -604,7 +670,8 @@
     "MySQL",
     "Oracle",
     "PostgreSQL"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which database system is known for PL/SQL?",
@@ -613,7 +680,8 @@
     "PostgreSQL",
     "MySQL",
     "SQLite"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "OLTP stands for:",
@@ -622,7 +690,8 @@
     "Online Transfer Protocol",
     "Offline Transaction Processing",
     "Online Table Processing"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "OLAP is primarily used for:",
@@ -631,7 +700,8 @@
     "Day-to-day transactions",
     "File storage",
     "Network routing"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "In a star schema, the central table is the:",
@@ -640,7 +710,8 @@
     "Dimension table",
     "Junction table",
     "Index table"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "ETL stands for:",
@@ -649,7 +720,8 @@
     "Evaluate, Test, Launch",
     "Encrypt, Transfer, Log",
     "Export, Table, Load"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which Philippine law governs personal data in databases?",
@@ -658,7 +730,8 @@
     "Cybercrime Prevention Act (RA 10175)",
     "E-Commerce Act (RA 8792)",
     "Anti-Wiretapping Act"
-   ]
+   ],
+   "d": "D"
   },
   {
    "q": "Who is considered the father of the data warehouse?",
@@ -667,7 +740,8 @@
     "Ralph Kimball",
     "Edgar Codd",
     "Jim Gray"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "The fact table in a star schema contains:",
@@ -676,7 +750,8 @@
     "Only descriptive text",
     "Only primary keys",
     "User credentials"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "Which command in SQL adds a new column to an existing table?",
@@ -685,7 +760,8 @@
     "UPDATE TABLE",
     "MODIFY DATA",
     "INSERT COLUMN"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which SQL statement correctly selects names starting with A?",
@@ -694,7 +770,8 @@
     "SELECT name FROM t WHERE name = 'A*'",
     "SELECT name FROM t WHERE name STARTS 'A'",
     "SELECT name FROM t HAVING name LIKE 'A%'"
-   ]
+   ],
+   "d": "A"
   },
   {
    "q": "SQL SELECT DISTINCT is used to:",
@@ -703,7 +780,8 @@
     "Sort the result",
     "Count rows",
     "Join tables"
-   ]
+   ],
+   "d": "E"
   },
   {
    "q": "Which function returns the number of rows in a table?",
@@ -712,7 +790,8 @@
     "SUM(*)",
     "ROWS()",
     "LEN(*)"
-   ]
+   ],
+   "d": "E"
   }
  ],
  "cards": [
