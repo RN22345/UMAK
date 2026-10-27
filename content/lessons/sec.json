@@ -1824,7 +1824,11 @@
    "q": "Which HTTP response header defends against clickjacking?",
    "a": "X-Frame-Options",
    "alt": [
-    "X Frame Options"
+    "X Frame Options",
+    "Content-Security-Policy",
+    "CSP",
+    "frame-ancestors",
+    "Content-Security-Policy frame-ancestors"
    ]
   },
   {

@@ -1260,7 +1260,7 @@
    "a": "55 meters",
    "w": [
     "100 meters",
-    "37 meters",
+    "70 meters",
     "30 meters"
    ],
    "d": "D",
@@ -1878,7 +1878,6 @@
    "q": "Who created the Nmap port scanner, known by the handle Fyodor?",
    "a": "Gordon Lyon",
    "alt": [
-    "Fyodor",
     "Gordon Fyodor Lyon"
    ]
   },

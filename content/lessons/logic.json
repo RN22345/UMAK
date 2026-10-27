@@ -1266,7 +1266,6 @@
    "q": "What is the maximum number of nodes at level L of a binary tree (root at level 0)?",
    "a": "2^L",
    "alt": [
-    "2L",
     "2 to the L",
     "2^l"
    ]

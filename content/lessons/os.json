@@ -841,12 +841,12 @@
    "q": "Priority scheduling (lowest number = highest priority) with all jobs at time 0: P1 (burst 10, pri 3), P2 (1, pri 1), P3 (2, pri 3), P4 (1, pri 4), P5 (5, pri 2). What is the average waiting time, with ties broken by order P1 before P3?",
    "a": "8.2",
    "w": [
-    "9.8",
+    "9.6",
     "7.4",
     "6.2"
    ],
    "d": "D",
-   "e": "Order P2, P5, P1, P3, P4 gives waits 0, 1, 6, 16, 18 = 41/5 = 8.2. Plain FCFS order P1 to P5 would give 9.8."
+   "e": "Order P2, P5, P1, P3, P4 gives waits 0, 1, 6, 16, 18 = 41/5 = 8.2. Plain FCFS order P1 to P5 would give waits 0, 10, 11, 13, 14 = 48/5 = 9.6."
   },
   {
    "q": "Under Round Robin with 5 processes and a quantum of 10 ms, what is the longest any ready process must wait for its next turn?",
