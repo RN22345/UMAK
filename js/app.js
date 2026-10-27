@@ -152,13 +152,14 @@ function allQuestionPool(selIds,diffs){
   return out;
 }
 function buildQuizItem(p){
-  const opts=shuffle([p.m.a,...p.m.w]);
-  return {id:p.id,l:p.l,q:p.m.q,ch:opts,c:opts.indexOf(p.m.a),e:p.m.e||'',d:p.m.d};
+  const m=p.m, x=m.x||[];
+  const opts=shuffle([{t:m.a,x:m.e||''},...m.w.map((t,i)=>({t,x:x[i]||''}))]);
+  return {id:p.id,l:p.l,q:m.q,ch:opts.map(o=>o.t),c:opts.findIndex(o=>o.t===m.a),cx:opts.map(o=>o.x),e:m.e||'',d:m.d};
 }
 
 function viewQuiz(root){
   const saved=store.get('session.quiz',null);
-  const def={sel:LESSONS.map(l=>l.id),n:50,mode:'exam',smart:false,balanced:true,timer:true,diffs:['E','A','D']};
+  const def={sel:LESSONS.map(l=>l.id),n:50,mode:'exam',smart:false,balanced:true,timer:true,diffs:['E','A','D'],qt:0,qauto:false};
   const S=Object.assign(def,store.get('quizSetup',{}));
   const diffs=()=>new Set(S.diffs);
   const sel=new Set((S.sel||[]).filter(id=>LBY[id]));
@@ -200,7 +201,9 @@ function viewQuiz(root){
         h('div',{class:'row'},seg('mode',[['exam','Exam: results at the end'],['practice','Practice: instant feedback']]),
           S.mode==='exam'?sw('timer','Time limit'):null),
         h('div',{class:'row'},sw('balanced','Balance across lessons'),sw('smart','Favor questions I missed or have not seen')),
-        h('p',{class:'label'},'Difficulty'),dSeg),
+        h('p',{class:'label'},'Difficulty'),dSeg,
+        h('p',{class:'label'},'Time per question'),
+        h('div',{class:'row'},seg('qt',[[0,'Off'],[20,'20 s'],[30,'30 s'],[45,'45 s'],[60,'60 s']]),S.qt?sw('qauto','Auto-skip when time is up'):null)),
       sumEl, h('div',null,startBtn));
     refreshSummary();
   }
@@ -208,7 +211,7 @@ function viewQuiz(root){
     const pool=allQuestionPool(sel,diffs()); const n=eff(); if(!n) return;
     const picked=pickItems(pool,n,S,'q');
     const s={type:'quiz',mode:S.mode,t0:Date.now(),limit:(S.mode==='exam'&&S.timer)?Math.max(1,Math.round(n*0.6))*60:0,
-      items:picked.map(buildQuizItem),ans:new Array(n).fill(null),flag:new Array(n).fill(false),idx:0,elapsed:0,lessons:[...sel]};
+      qt:S.qt,qauto:S.qauto,items:picked.map(buildQuizItem),ans:new Array(n).fill(null),flag:new Array(n).fill(false),idx:0,elapsed:0,lessons:[...sel]};
     store.set('session.quiz',s); runQuiz(root,s);
   }
   draw();
@@ -228,13 +231,24 @@ function runQuiz(root,s){
     if(s.limit){ const r=s.limit-e; timerEl.textContent=fmtTime(r); timerEl.classList.toggle('low',r<=300); if(r<=0){ finish(true); } }
     else timerEl.textContent=fmtTime(e);
   }
-  tick=setInterval(updTimer,1000); updTimer();
+  const qEl=h('div',{class:'timer qt','aria-label':'Time for this question'});
+  let qStart=Date.now(), qIdx=-1, qFired=false;
+  function updQ(){
+    if(!s.qt) return;
+    if(s.ans[s.idx]!=null){ qEl.classList.remove('low','over'); return; }
+    const r=s.qt-(Date.now()-qStart)/1000;
+    qEl.textContent=r>=0?fmtTime(r):'+'+fmtTime(-r);
+    qEl.classList.toggle('low',r<=5&&r>=0); qEl.classList.toggle('over',r<0);
+    if(r<=0&&s.qauto&&!qFired&&s.idx<N-1){ qFired=true; move(1); }
+  }
+  const tickAll=()=>{ updTimer(); updQ(); };
+  tick=setInterval(tickAll,1000); updTimer();
   onCleanup(()=>{ clearInterval(tick); s.elapsed=elapsed(); if(!s.done) store.set('session.quiz',s); document.removeEventListener('keydown',onKey); });
 
   const prog=h('i'); const posEl=h('span',{class:'pos'}); const body=h('div'); const pal=h('div',{class:'pal'}); const palWrap=h('details',{class:'pals'},h('summary',null,'Question map'),pal);
   const notice=h('div');
   screen.append(
-    h('div',{class:'runbar'},posEl,h('div',{class:'row'},timerEl,h('button',{class:'btn small',onclick:()=>{ s.elapsed=elapsed(); store.set('session.quiz',s); go('quiz'); }},'Save & exit'))),
+    h('div',{class:'runbar'},posEl,h('div',{class:'row'},s.qt?qEl:null,timerEl,h('button',{class:'btn small',onclick:()=>{ s.elapsed=elapsed(); store.set('session.quiz',s); go('quiz'); }},'Save & exit'))),
     h('div',{class:'progress'},prog), body, notice, palWrap);
 
   function answered(){ return s.ans.filter(x=>x!=null).length; }
@@ -247,19 +261,21 @@ function runQuiz(root,s){
   }
   function draw(){
     const it=s.items[s.idx]; const a=s.ans[s.idx]; const locked=practice&&a!=null;
+    if(qIdx!==s.idx){ qIdx=s.idx; qStart=Date.now(); qFired=false; }
+    const hasCx=!!(it.cx&&it.cx.some((t,k)=>k!==it.c&&t));
     posEl.textContent='Q '+(s.idx+1)+' / '+N+'  ·  answered '+answered();
     prog.style.width=pct(answered(),N)+'%';
     const ch=it.ch.map((t,i)=>{
       let cls='choice'; if(locked){ if(i===it.c) cls+=' right'; else if(i===a) cls+=' wrong'; }
       return h('button',{class:cls,'aria-pressed':(!locked&&a===i)?'true':'false',disabled:locked,onclick:()=>choose(i)},
-        h('span',{class:'bub'},LET[i]),h('span',{class:'tx'},t));
+        h('span',{class:'bub'},LET[i]),h('span',{class:'tx'},t,locked&&hasCx&&it.cx[i]?h('small',{class:'cx'},it.cx[i]):null));
     });
     const last=s.idx===N-1;
     body.replaceChildren(h('div',{class:'card qcard'},
       h('div',{class:'qmeta'},lessonTag(it.l),h('span',{class:'tag'},LBY[it.l].title),it.d?h('span',{class:'tag '+it.d},DIFF[it.d]):null,s.flag[s.idx]?h('span',{class:'tag',style:'color:var(--flag);border-color:var(--gold)'},'flagged'):null),
       h('p',{class:'qtext'},it.q), h('div',{class:'choices'},ch),
       locked?h('div',{class:'feedback '+(a===it.c?'ok':'no')}, a===it.c?'Correct.':'Incorrect. Correct answer: '+LET[it.c]+'. '+it.ch[it.c]):null,
-      locked&&it.e?h('p',{class:'expl'},it.e):null,
+      locked&&it.e&&!hasCx?h('p',{class:'expl'},it.e):null,
       h('div',{class:'nav'},
         h('button',{class:'btn',disabled:s.idx===0,onclick:()=>move(-1)},'Previous'),
         h('div',{class:'row'},
@@ -271,7 +287,7 @@ function runQuiz(root,s){
       notice.replaceChildren(h('div',{class:'notice'},h('span',null,un+' question'+(un===1?'':'s')+' still unanswered. Submit anyway?'),
         h('div',{class:'row'},h('button',{class:'btn small gold',onclick:()=>finish(true)},'Submit now'),h('button',{class:'btn small',onclick:()=>{confirmSubmit=false;draw();}},'Keep working'))));
     } else notice.replaceChildren();
-    drawPal();
+    drawPal(); updQ();
   }
   function move(d){ s.idx=Math.min(N-1,Math.max(0,s.idx+d)); confirmSubmit=false; save(); draw(); window.scrollTo({top:0}); }
   function choose(i){ if(practice&&s.ans[s.idx]!=null) return; s.ans[s.idx]=i; save(); draw(); }
@@ -309,8 +325,8 @@ function runQuiz(root,s){
         return h('div',{class:'review-item'+(ok?'':' bad')},
           h('div',{class:'qmeta'},h('span',{class:'tag'},'Q'+(i+1)),lessonTag(it.l),h('span',{class:'tag',style:ok?'color:var(--good);border-color:var(--good)':'color:var(--bad);border-color:var(--bad)'},a==null?'skipped':ok?'correct':'wrong')),
           h('p',null,h('b',null,it.q)),
-          it.ch.map((t,k)=>h('div',{class:'rline '+(k===it.c?'c':(k===a?'x':''))},h('b',null,LET[k]+(k===it.c?' ✓':(k===a?' ✗':'  '))),h('span',null,t))),
-          it.e?h('p',{class:'expl'},it.e):null);
+          it.ch.map((t,k)=>h('div',{class:'rline '+(k===it.c?'c':(k===a?'x':''))},h('b',null,LET[k]+(k===it.c?' ✓':(k===a?' ✗':'  '))),h('span',null,t,it.cx&&it.cx[k]?h('small',{class:'cx'},it.cx[k]):null))),
+          it.e&&!(it.cx&&it.cx.some((x,k)=>k!==it.c&&x))?h('p',{class:'expl'},it.e):null);
       })(r)));
     }
     const f=(k,t)=>h('button',{class:'btn small','aria-pressed':'false',onclick:e=>{filter=k;drawList();}},t);
@@ -322,8 +338,8 @@ function runQuiz(root,s){
         h('p',{class:'muted'},pct(correct,N)+'% · '+fmtTime(s.elapsed)+(s.limit?' of '+fmtTime(s.limit):'')+' · '+(practice?'practice':'exam')),
         h('div',{class:'row',style:'justify-content:center;margin-top:10px'},
           wrongIdx.length?h('button',{class:'btn primary',onclick:()=>{
-              const items=wrongIdx.map(i=>{const it=s.items[i]; const opts=shuffle(it.ch.map((t,k)=>({t,k}))); return {id:it.id,l:it.l,q:it.q,ch:opts.map(o=>o.t),c:opts.findIndex(o=>o.k===it.c),e:it.e,d:it.d};});
-              const ns={type:'quiz',mode:s.mode,t0:Date.now(),limit:0,items,ans:new Array(items.length).fill(null),flag:new Array(items.length).fill(false),idx:0,elapsed:0,lessons:s.lessons};
+              const items=wrongIdx.map(i=>{const it=s.items[i]; const opts=shuffle(it.ch.map((t,k)=>({t,k}))); return {id:it.id,l:it.l,q:it.q,ch:opts.map(o=>o.t),c:opts.findIndex(o=>o.k===it.c),cx:opts.map(o=>it.cx&&it.cx[o.k]),e:it.e,d:it.d};});
+              const ns={type:'quiz',mode:s.mode,t0:Date.now(),limit:0,qt:s.qt,qauto:s.qauto,items,ans:new Array(items.length).fill(null),flag:new Array(items.length).fill(false),idx:0,elapsed:0,lessons:s.lessons};
               store.set('session.quiz',ns); runQuiz(root,ns); window.scrollTo(0,0);
             }},'Retry the '+wrongIdx.length+' missed'):null,
           h('button',{class:'btn',onclick:()=>go('quiz')},'New quiz'),

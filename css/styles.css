@@ -87,6 +87,7 @@ input[type=number]{width:96px}
 .runbar .pos{font-family:var(--f-mono);font-weight:700}
 .timer{font-family:var(--f-mono);font-weight:700;border:2px solid var(--ink);border-radius:8px;padding:3px 10px;min-width:84px;text-align:center}
 .timer.low{border-color:var(--bad);color:var(--bad)}
+.timer.qt{min-width:64px;border-color:var(--brand);color:var(--brand)} .timer.qt.low,.timer.qt.over{border-color:var(--bad);color:var(--bad)} .timer.qt.over{background:var(--bad-bg)}
 .progress{height:8px;background:var(--soft);border-radius:99px;overflow:hidden;margin-bottom:16px}
 .progress i{display:block;height:100%;background:var(--brand);transition:width .2s}
 .qcard{padding:clamp(16px,3vw,28px)}
@@ -98,6 +99,9 @@ input[type=number]{width:96px}
 .choice:hover:not([disabled]){border-color:var(--ink)}
 .choice .bub{width:30px;height:30px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;font-family:var(--f-mono);font-weight:700;font-size:.85rem;flex:none}
 .choice .tx{flex:1;min-width:0;overflow-wrap:anywhere;padding-top:3px}
+.cx{display:block;margin-top:4px;font-size:.85rem;font-weight:400;line-height:1.4;color:var(--ink2)}
+.choice.right .cx{color:var(--good)} .choice.wrong .cx{color:var(--bad)}
+.rline .cx{font-size:.85rem;color:var(--ink2)}
 .choice[aria-pressed="true"]{border-color:var(--ink);background:var(--soft)}
 .choice[aria-pressed="true"] .bub{background:var(--gold);border-color:var(--gold);color:var(--on-gold)}
 .choice.right{border-color:var(--good);background:var(--good-bg)}

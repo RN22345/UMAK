@@ -27,6 +27,7 @@ for l in lessons:
         assert q['a'] not in q['w'], f"{l['id']} mcq #{n}: correct answer repeated among wrong ones"
         assert len({q['a'], *q['w']}) == 4, f"{l['id']} mcq #{n}: duplicate options"
         assert q.get('d') in ('E', 'A', 'D'), f"{l['id']} mcq #{n}: difficulty d must be E, A or D"
+        assert 'x' not in q or (isinstance(q['x'], list) and len(q['x']) == 3 and all(q['x'])), f"{l['id']} mcq #{n}: x must be 3 non-empty strings (one per wrong answer)"
     for n, c in enumerate(l['cards']):
         assert c['d'] in 'EAD', f"{l['id']} card #{n}: difficulty must be E, A or D"
         assert c['q'] and c['a'], f"{l['id']} card #{n}: empty q/a"
