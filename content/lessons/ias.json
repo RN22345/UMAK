@@ -418,7 +418,7 @@
    ]
   },
   {
-   "q": "Which malware in the slides's table is a macro virus?",
+   "q": "Which malware in the slides' table is a macro virus?",
    "a": "Melissa",
    "w": [
     "Code Red",
@@ -630,7 +630,7 @@
    "w": [
     "DMCA",
     "Convention on Cybercrime",
-    "Berne Convention"
+    "Wassenaar Arrangement"
    ]
   },
   {
@@ -765,7 +765,7 @@
    "w": [
     "EISP",
     "ISSP",
-    "DRP"
+    "SETA program"
    ]
   },
   {
@@ -1003,7 +1003,7 @@
    ]
   },
   {
-   "q": "Which classification scheme is used for data in the slides?",
+   "q": "Which three-level data classification scheme is used in the slides?",
    "a": "Confidential, internal, public",
    "w": [
     "Red, yellow, green",
@@ -1183,7 +1183,7 @@
    ]
   },
   {
-   "q": "The four steps of the NIST Risk Management Framework are:",
+   "q": "The four steps of the NIST risk management process (SP 800-39) are:",
    "a": "Frame, assess, respond, monitor",
    "w": [
     "Plan, do, check, act",
@@ -1323,7 +1323,7 @@
    "w": [
     "Biba",
     "Clark-Wilson",
-    "Graham-Denning"
+    "Common Criteria"
    ]
   },
   {
@@ -1548,7 +1548,7 @@
    "w": [
     "False negative",
     "True positive",
-    "Noise"
+    "Tuning"
    ]
   },
   {
@@ -1696,7 +1696,7 @@
    ]
   },
   {
-   "q": "The \"art of secret writing\" that hides information within images is:",
+   "q": "The practice of hiding information within images or audio files is:",
    "a": "Steganography",
    "w": [
     "Cryptanalysis",
@@ -1915,7 +1915,7 @@
    "q": "When an authorized individual opens a door and others also enter, this is:",
    "a": "Tailgating",
    "w": [
-    "Piggybacking only",
+    "Pretexting",
     "Shoulder surfing",
     "Social engineering"
    ]
@@ -1978,7 +1978,7 @@
    "q": "Which fire suppression agent removes the oxygen supply?",
    "a": "Carbon dioxide",
    "w": [
-    "Halon only",
+    "Halon",
     "Soda acid",
     "Water mist"
    ]
@@ -2487,7 +2487,7 @@
   },
   {
    "d": "A",
-   "q": "What are the four steps of the NIST risk management framework?",
+   "q": "What are the four steps of the NIST risk management process (SP 800-39)?",
    "a": "Frame, assess, respond, monitor",
    "alt": []
   },
@@ -2702,7 +2702,7 @@
   },
   {
    "d": "A",
-   "q": "Which TEMPEST program addresses what threat?",
+   "q": "What threat does the TEMPEST program address?",
    "a": "Electromagnetic radiation monitoring",
    "alt": [
     "electromagnetic interception",

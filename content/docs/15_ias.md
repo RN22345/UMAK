@@ -124,10 +124,10 @@
 | **Sarbanes-Oxley Act, 2002** | reliable financial reporting for public companies |
 | **Freedom of Information Act (FOIA), 1966** | access to federal agency records (not state/local, not private) |
 | **PCI DSS** | payment card standard — **6 areas**: secure networks, protect cardholder data, vulnerability management, strong access control, monitor/test networks, maintain security policy |
-| **DMCA** | prohibits circumventing copyright protections; response to **EU Directive 95/46/EC** |
+| **DMCA** | prohibits circumventing copyright protections; slide says it is the response to **EU Directive 95/46/EC** *(verify — that directive is the EU data-protection directive; the DMCA is usually described as implementing the 1996 WIPO treaties. Answer with the slide's wording.)* |
 
 - **UK:** **Computer Misuse Act 1990** (3 offenses: unauthorized access; unauthorized access with intent to commit further offenses; unauthorized acts to impair operation) · Privacy & Electronic Communications Regs 2003 · Police and Justice Act 2006.
-- **International:** **Council of Europe Convention on Cybercrime** (lacks enforcement provisions) · **WTO TRIPS** agreement (first significant international effort to protect IP).
+- **International:** **Council of Europe Convention on Cybercrime** (lacks enforcement provisions) · **WTO TRIPS** agreement (slide wording: first significant international effort to protect IP *(verify — older treaties such as the Berne Convention also protect IP)*).
 - **Ten Commandments of Computer Ethics** (Computer Ethics Institute): don't use a computer to **harm** people · **interfere** with others' work · **snoop** in files · **steal** · **bear false witness** · copy unpaid proprietary software · use others' resources without authorization · appropriate others' intellectual output · think about **social consequences** · use computers with **consideration and respect**.
 - **Deterrence** works only with: **fear of penalty, probability of being apprehended, probability of penalty being applied.** Causes of unethical acts: **ignorance, accident, intent.**
 - **Professional organizations:** **ACM** (est. **1947**, first educational/scientific computing society) · **(ISC)²** (CISSP, SSCP; **4 mandatory canons**) · **SANS** (GIAC certifications) · **ISACA** (audit, control; CISA/CISM) · **ISSA** (nonprofit society of InfoSec professionals).
@@ -191,7 +191,7 @@
 - **Quantitative** (actual values) vs **qualitative** (scales, non-numerical).
 - **Benchmarking** (study other organizations' practices; metrics-based vs process-based) · **standard of due care** · **best business practices** · **baselining** (compare past activity vs future performance). Biggest problem with benchmarking: **organizations don't talk to each other.**
 - **Feasibility studies:** organizational · operational · technical · political (+ economic = CBA).
-- **NIST Risk Management Framework:** **frame → assess → respond → monitor.** SP 800-39 uses 3 tiers (organization, mission/business process, information system).
+- **NIST Risk Management Framework:** **frame → assess → respond → monitor.** SP 800-39 uses 3 tiers (organization, mission/business process, information system). *Not to be confused with the SP 800-37 RMF steps (Rev. 1: categorize, select, implement, assess, authorize, monitor; Rev. 2 adds Prepare) — the slides' 4-step list is the SP 800-39 one.*
 
 ---
 
@@ -238,7 +238,7 @@
 - **Bit stream** = bit-by-bit; **block cipher** = fixed-size blocks (8/16-bit etc.).
 - **Substitution** (monoalphabetic vs polyalphabetic; **Vigenère** = 26 alphabets) · **Transposition** (rearrange within a block; uses block padding) · **XOR** (same bits → 0, different → 1; simple and easy to break) · **Vernam cipher** (Bell Labs; one-time pad; subtract 26 if sum exceeds 26) · **Book ciphers** (book cipher, running key, template).
 - **Hash functions:** public algorithms producing a hash value to confirm message identity/integrity; no key required (a **MAC** may be attached); used in password verification.
-- **Symmetric** (same secret key; private-key; fast; key distribution problem): **DES** (64-bit block, **56-bit key**, NIST **1976**) · **3DES** · **AES** (replaces DES/3DES).
+- **Symmetric** (same secret key; private-key; fast; key distribution problem): **DES** (64-bit block, **56-bit key**, NIST **1976** *(verify — DES was selected in 1976 and published as a federal standard in 1977; use the slide's 1976)*) · **3DES** · **AES** (replaces DES/3DES).
 - **Asymmetric** (two related keys, public + private): **RSA** = first public-key algorithm published for commercial use. Security rests on the **key**, not on keeping the algorithm secret.
 - **PKI** provides **authentication, integrity, privacy, authorization, nonrepudiation**; components: **CA (certificate authority), RA (registration authority)**, certificate directories, management protocols, policies. **Digital signature** → **nonrepudiation** (DSS standard). **Digital certificate** = file with key + identity info signed by CA; **distinguished name (DN)**.
 - **Hybrid systems:** **Diffie-Hellman** key exchange (most common; foundation of public-key developments).
