@@ -16,7 +16,7 @@ build.py              content/ -> js/data.js (with sanity checks)
 
 ## Editing content
 1. Edit a lesson in `content/lessons/<id>.json` or a doc in `content/docs/`.
-   - MCQ: `{"q": "...", "a": "correct", "w": ["wrong1", "wrong2", "wrong3"]}`
+   - MCQ: `{"q": "...", "a": "correct", "w": ["wrong1", "wrong2", "wrong3"], "d": "E|A|D", "e": "one-sentence explanation"}` (`d` is required; `e` is optional and shown after answering)
    - Card: `{"d": "E|A|D", "q": "...", "a": "answer", "alt": ["other accepted answers"]}` (E/A/D = easy/average/difficult)
 2. Run `python build.py` (fails loudly on a malformed question).
 3. Commit `js/data.js` together with the content change.
