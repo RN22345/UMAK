@@ -1,0 +1,1142 @@
+{
+ "id": "ds",
+ "no": "8B",
+ "title": "Data Science & Analytics",
+ "mcq": [
+  {
+   "q": "Which type of analytics answers \"What happened?\"",
+   "a": "Descriptive",
+   "w": [
+    "Diagnostic",
+    "Predictive",
+    "Prescriptive"
+   ]
+  },
+  {
+   "q": "Which type of analytics answers \"Why did it happen?\"",
+   "a": "Diagnostic",
+   "w": [
+    "Descriptive",
+    "Predictive",
+    "Prescriptive"
+   ]
+  },
+  {
+   "q": "Which type of analytics answers \"What will happen?\"",
+   "a": "Predictive",
+   "w": [
+    "Descriptive",
+    "Diagnostic",
+    "Prescriptive"
+   ]
+  },
+  {
+   "q": "Which type of analytics answers \"What should we do?\"",
+   "a": "Prescriptive",
+   "w": [
+    "Predictive",
+    "Descriptive",
+    "Diagnostic"
+   ]
+  },
+  {
+   "q": "The DIKW pyramid stands for:",
+   "a": "Data, Information, Knowledge, Wisdom",
+   "w": [
+    "Database, Information, Knowledge, Web",
+    "Data, Insight, Knowledge, Wisdom",
+    "Documents, Information, Knowledge, Wisdom"
+   ]
+  },
+  {
+   "q": "The first phase of CRISP-DM is:",
+   "a": "Business understanding",
+   "w": [
+    "Data preparation",
+    "Modeling",
+    "Evaluation"
+   ]
+  },
+  {
+   "q": "Which is the last phase of CRISP-DM?",
+   "a": "Deployment",
+   "w": [
+    "Evaluation",
+    "Modeling",
+    "Data understanding"
+   ]
+  },
+  {
+   "q": "The 5 Vs of big data are:",
+   "a": "Volume, Velocity, Variety, Veracity, Value",
+   "w": [
+    "Volume, Velocity, Variety, Validity, Visibility",
+    "Volume, Variety, Vision, Veracity, Value",
+    "Value, Version, Velocity, Variety, Volume"
+   ]
+  },
+  {
+   "q": "Which Hadoop component provides distributed storage?",
+   "a": "HDFS",
+   "w": [
+    "MapReduce",
+    "YARN",
+    "Hive"
+   ]
+  },
+  {
+   "q": "Which in-memory engine is commonly used for fast big-data processing?",
+   "a": "Apache Spark",
+   "w": [
+    "Apache Hive",
+    "HBase",
+    "Pig"
+   ]
+  },
+  {
+   "q": "Which tool is commonly used for real-time streaming data pipelines?",
+   "a": "Apache Kafka",
+   "w": [
+    "Apache Hive",
+    "MySQL",
+    "phpMyAdmin"
+   ]
+  },
+  {
+   "q": "Which of these is unstructured data?",
+   "a": "Images and videos",
+   "w": [
+    "SQL tables",
+    "Excel tables",
+    "CSV files"
+   ]
+  },
+  {
+   "q": "JSON data is classified as:",
+   "a": "Semi-structured",
+   "w": [
+    "Structured",
+    "Unstructured",
+    "Binary"
+   ]
+  },
+  {
+   "q": "The NOIR scales of measurement are:",
+   "a": "Nominal, Ordinal, Interval, Ratio",
+   "w": [
+    "Numeric, Ordinal, Interval, Ratio",
+    "Nominal, Ordinal, Integer, Real",
+    "Name, Order, Interval, Rank"
+   ]
+  },
+  {
+   "q": "Which scale has a true zero?",
+   "a": "Ratio",
+   "w": [
+    "Interval",
+    "Ordinal",
+    "Nominal"
+   ]
+  },
+  {
+   "q": "A survey rating from 1 to 5 (Poor to Excellent) is:",
+   "a": "Ordinal",
+   "w": [
+    "Nominal",
+    "Ratio",
+    "Continuous interval"
+   ]
+  },
+  {
+   "q": "Eye color is an example of:",
+   "a": "Nominal data",
+   "w": [
+    "Ordinal data",
+    "Ratio data",
+    "Interval data"
+   ]
+  },
+  {
+   "q": "The number of students in a class is:",
+   "a": "Discrete data",
+   "w": [
+    "Continuous data",
+    "Nominal data",
+    "Ordinal data"
+   ]
+  },
+  {
+   "q": "Which technique replaces missing values with a statistical value?",
+   "a": "Imputation",
+   "w": [
+    "Normalization",
+    "Encoding",
+    "Binning"
+   ]
+  },
+  {
+   "q": "The IQR rule flags values outside:",
+   "a": "Q1 - 1.5 x IQR and Q3 + 1.5 x IQR",
+   "w": [
+    "Q1 and Q3",
+    "Mean +/- 1 SD",
+    "Median +/- IQR"
+   ]
+  },
+  {
+   "q": "Min-max normalization scales values to the range:",
+   "a": "0 to 1",
+   "w": [
+    "-1 to 1",
+    "0 to 100",
+    "Mean 0, SD 1"
+   ]
+  },
+  {
+   "q": "Standardization (z-score) results in:",
+   "a": "Mean 0 and standard deviation 1",
+   "w": [
+    "Range 0 to 1",
+    "Median 0",
+    "Variance 0"
+   ]
+  },
+  {
+   "q": "Which encoding creates a binary column for each category?",
+   "a": "One-hot encoding",
+   "w": [
+    "Label encoding",
+    "Ordinal encoding",
+    "Hash encoding"
+   ]
+  },
+  {
+   "q": "Which is the middle value of a sorted dataset?",
+   "a": "Median",
+   "w": [
+    "Mean",
+    "Mode",
+    "Range"
+   ]
+  },
+  {
+   "q": "Which measure is most affected by outliers?",
+   "a": "Mean",
+   "w": [
+    "Median",
+    "Mode",
+    "IQR"
+   ]
+  },
+  {
+   "q": "Which is the most frequent value?",
+   "a": "Mode",
+   "w": [
+    "Mean",
+    "Median",
+    "Range"
+   ]
+  },
+  {
+   "q": "For the dataset {2, 3, 3, 5, 7, 9, 100}, the median is:",
+   "a": "5",
+   "w": [
+    "3",
+    "18.4",
+    "7"
+   ]
+  },
+  {
+   "q": "The square root of variance is the:",
+   "a": "Standard deviation",
+   "w": [
+    "Range",
+    "Mean",
+    "IQR"
+   ]
+  },
+  {
+   "q": "IQR is computed as:",
+   "a": "Q3 - Q1",
+   "w": [
+    "Q1 - Q3",
+    "Max - Min",
+    "Median - Q1"
+   ]
+  },
+  {
+   "q": "A Pearson correlation of -1 means:",
+   "a": "Perfect negative linear relationship",
+   "w": [
+    "No relationship",
+    "Perfect positive relationship",
+    "Causation"
+   ]
+  },
+  {
+   "q": "Correlation does not imply:",
+   "a": "Causation",
+   "w": [
+    "Association",
+    "Relationship",
+    "Covariance"
+   ]
+  },
+  {
+   "q": "In a normal distribution, about what percent of data lies within 1 standard deviation of the mean?",
+   "a": "68%",
+   "w": [
+    "95%",
+    "99.7%",
+    "50%"
+   ]
+  },
+  {
+   "q": "In a normal distribution, about what percent lies within 2 standard deviations?",
+   "a": "95%",
+   "w": [
+    "68%",
+    "99.7%",
+    "90%"
+   ]
+  },
+  {
+   "q": "In a normal distribution, about what percent lies within 3 standard deviations?",
+   "a": "99.7%",
+   "w": [
+    "95%",
+    "68%",
+    "100%"
+   ]
+  },
+  {
+   "q": "The Central Limit Theorem states that:",
+   "a": "Sample means tend to be normally distributed as sample size grows",
+   "w": [
+    "All data is normal",
+    "The mean equals the median",
+    "Variance is constant"
+   ]
+  },
+  {
+   "q": "In hypothesis testing, a p-value below alpha (0.05) leads you to:",
+   "a": "Reject the null hypothesis",
+   "w": [
+    "Accept the null hypothesis",
+    "Increase the sample",
+    "Ignore the test"
+   ]
+  },
+  {
+   "q": "A Type I error is:",
+   "a": "Rejecting a true null hypothesis (false positive)",
+   "w": [
+    "Failing to reject a false null hypothesis",
+    "Accepting the alternative",
+    "A computation error"
+   ]
+  },
+  {
+   "q": "A Type II error is:",
+   "a": "Failing to reject a false null hypothesis (false negative)",
+   "w": [
+    "Rejecting a true null hypothesis",
+    "A sampling error",
+    "A measurement error"
+   ]
+  },
+  {
+   "q": "Which statistical test compares the means of three or more groups?",
+   "a": "ANOVA",
+   "w": [
+    "t-test",
+    "Chi-square",
+    "z-test"
+   ]
+  },
+  {
+   "q": "Which test is used to examine association between categorical variables?",
+   "a": "Chi-square",
+   "w": [
+    "t-test",
+    "ANOVA",
+    "Linear regression"
+   ]
+  },
+  {
+   "q": "Machine learning was defined in 1959 by:",
+   "a": "Arthur Samuel",
+   "w": [
+    "Alan Turing",
+    "John McCarthy",
+    "Geoffrey Hinton"
+   ]
+  },
+  {
+   "q": "Which learning type uses labeled data?",
+   "a": "Supervised learning",
+   "w": [
+    "Unsupervised learning",
+    "Reinforcement learning",
+    "Clustering"
+   ]
+  },
+  {
+   "q": "Predicting a continuous value like house price is:",
+   "a": "Regression",
+   "w": [
+    "Classification",
+    "Clustering",
+    "Association"
+   ]
+  },
+  {
+   "q": "Predicting a discrete label such as spam or not spam is:",
+   "a": "Classification",
+   "w": [
+    "Regression",
+    "Clustering",
+    "Dimensionality reduction"
+   ]
+  },
+  {
+   "q": "Grouping unlabeled data into similar groups is:",
+   "a": "Clustering",
+   "w": [
+    "Classification",
+    "Regression",
+    "Reinforcement"
+   ]
+  },
+  {
+   "q": "Which algorithm uses centroids to cluster data?",
+   "a": "k-Means",
+   "w": [
+    "k-NN",
+    "SVM",
+    "Naive Bayes"
+   ]
+  },
+  {
+   "q": "Which algorithm classifies by looking at the nearest neighbors?",
+   "a": "k-NN",
+   "w": [
+    "k-Means",
+    "DBSCAN",
+    "PCA"
+   ]
+  },
+  {
+   "q": "Which ensemble method builds many decision trees and combines their votes?",
+   "a": "Random Forest",
+   "w": [
+    "SVM",
+    "Linear regression",
+    "Naive Bayes"
+   ]
+  },
+  {
+   "q": "Which technique reduces the number of features while preserving variance?",
+   "a": "PCA",
+   "w": [
+    "SMOTE",
+    "One-hot encoding",
+    "k-Means"
+   ]
+  },
+  {
+   "q": "Reinforcement learning uses:",
+   "a": "Agent, environment and rewards",
+   "w": [
+    "Labeled pairs only",
+    "Clusters",
+    "Decision trees only"
+   ]
+  },
+  {
+   "q": "A model that performs well on training data but poorly on new data is:",
+   "a": "Overfitting",
+   "w": [
+    "Underfitting",
+    "Well-fitted",
+    "Normalized"
+   ]
+  },
+  {
+   "q": "A model too simple to capture patterns is:",
+   "a": "Underfitting",
+   "w": [
+    "Overfitting",
+    "Regularized",
+    "Ensemble"
+   ]
+  },
+  {
+   "q": "Which technique evaluates a model by splitting data into k parts?",
+   "a": "k-fold cross-validation",
+   "w": [
+    "Bootstrapping only",
+    "Gradient descent",
+    "Dropout"
+   ]
+  },
+  {
+   "q": "In a confusion matrix, TP stands for:",
+   "a": "True Positive",
+   "w": [
+    "Total Predicted",
+    "Test Prediction",
+    "Target Positive"
+   ]
+  },
+  {
+   "q": "Precision is calculated as:",
+   "a": "TP / (TP + FP)",
+   "w": [
+    "TP / (TP + FN)",
+    "(TP + TN) / total",
+    "TN / (TN + FP)"
+   ]
+  },
+  {
+   "q": "Recall is calculated as:",
+   "a": "TP / (TP + FN)",
+   "w": [
+    "TP / (TP + FP)",
+    "TN / (TN + FP)",
+    "(TP + TN) / total"
+   ]
+  },
+  {
+   "q": "Accuracy is calculated as:",
+   "a": "(TP + TN) / (TP + TN + FP + FN)",
+   "w": [
+    "TP / (TP + FP)",
+    "TP / (TP + FN)",
+    "FP / (FP + TN)"
+   ]
+  },
+  {
+   "q": "The F1 score is the:",
+   "a": "Harmonic mean of precision and recall",
+   "w": [
+    "Arithmetic mean of precision and recall",
+    "Product of precision and recall",
+    "Difference of precision and recall"
+   ]
+  },
+  {
+   "q": "With TP=40, FP=10, FN=20, TN=30, the precision is:",
+   "a": "0.80",
+   "w": [
+    "0.67",
+    "0.70",
+    "0.50"
+   ]
+  },
+  {
+   "q": "With TP=40, FP=10, FN=20, TN=30, the accuracy is:",
+   "a": "0.70",
+   "w": [
+    "0.80",
+    "0.67",
+    "0.60"
+   ]
+  },
+  {
+   "q": "An AUC of 0.5 means the classifier:",
+   "a": "Performs no better than random",
+   "w": [
+    "Is perfect",
+    "Is always wrong",
+    "Has 50% precision"
+   ]
+  },
+  {
+   "q": "Which library is Google's deep learning framework?",
+   "a": "TensorFlow",
+   "w": [
+    "PyTorch",
+    "scikit-learn",
+    "Keras only"
+   ]
+  },
+  {
+   "q": "Which deep learning framework was developed by Meta?",
+   "a": "PyTorch",
+   "w": [
+    "TensorFlow",
+    "MXNet",
+    "Theano"
+   ]
+  },
+  {
+   "q": "Which Python library is used for data manipulation with DataFrames?",
+   "a": "pandas",
+   "w": [
+    "NumPy",
+    "Matplotlib",
+    "Seaborn"
+   ]
+  },
+  {
+   "q": "Which Python library is mainly used for numerical arrays?",
+   "a": "NumPy",
+   "w": [
+    "pandas",
+    "Seaborn",
+    "Requests"
+   ]
+  },
+  {
+   "q": "Which neural network architecture is the basis of GPT, BERT and Claude?",
+   "a": "Transformer",
+   "w": [
+    "CNN",
+    "RNN",
+    "GAN"
+   ]
+  },
+  {
+   "q": "The paper that introduced the Transformer (2017) is titled:",
+   "a": "Attention Is All You Need",
+   "w": [
+    "Deep Residual Learning",
+    "Generative Adversarial Nets",
+    "Language Models are Few-Shot Learners"
+   ]
+  },
+  {
+   "q": "Which architecture is best suited to image tasks?",
+   "a": "CNN",
+   "w": [
+    "RNN",
+    "Transformer only",
+    "Autoencoder only"
+   ]
+  },
+  {
+   "q": "Who invented GANs in 2014?",
+   "a": "Ian Goodfellow",
+   "w": [
+    "Geoffrey Hinton",
+    "Yann LeCun",
+    "Yoshua Bengio"
+   ]
+  },
+  {
+   "q": "RAG stands for:",
+   "a": "Retrieval-Augmented Generation",
+   "w": [
+    "Rapid Artificial Generation",
+    "Random Access Graph",
+    "Recursive Attention Gate"
+   ]
+  },
+  {
+   "q": "RLHF stands for:",
+   "a": "Reinforcement Learning from Human Feedback",
+   "w": [
+    "Recursive Learning with Hidden Features",
+    "Reward Learning for Hidden Functions",
+    "Reinforced Language Heuristic Framework"
+   ]
+  },
+  {
+   "q": "Which chart type best shows a trend over time?",
+   "a": "Line chart",
+   "w": [
+    "Pie chart",
+    "Scatter plot",
+    "Treemap"
+   ]
+  },
+  {
+   "q": "Which chart type best shows the distribution of a numeric variable?",
+   "a": "Histogram",
+   "w": [
+    "Line chart",
+    "Pie chart",
+    "Gauge"
+   ]
+  },
+  {
+   "q": "Which chart type shows the relationship between two numeric variables?",
+   "a": "Scatter plot",
+   "w": [
+    "Pie chart",
+    "Histogram",
+    "Bar chart"
+   ]
+  },
+  {
+   "q": "Which chart shows median, quartiles and outliers?",
+   "a": "Box plot",
+   "w": [
+    "Histogram",
+    "Pie chart",
+    "Heatmap"
+   ]
+  },
+  {
+   "q": "Which tool is Microsoft's business intelligence platform?",
+   "a": "Power BI",
+   "w": [
+    "Tableau",
+    "Looker",
+    "Qlik"
+   ]
+  },
+  {
+   "q": "Tableau is owned by:",
+   "a": "Salesforce",
+   "w": [
+    "Microsoft",
+    "Google",
+    "Oracle"
+   ]
+  },
+  {
+   "q": "Who is known for the data-ink ratio concept in data visualization?",
+   "a": "Edward Tufte",
+   "w": [
+    "Hans Rosling",
+    "Nate Silver",
+    "Florence Nightingale"
+   ]
+  },
+  {
+   "q": "Who shared the 2024 Nobel Prize in Physics for foundational neural network work?",
+   "a": "John Hopfield and Geoffrey Hinton",
+   "w": [
+    "Yann LeCun and Yoshua Bengio",
+    "Demis Hassabis and John Jumper",
+    "Fei-Fei Li and Andrew Ng"
+   ]
+  },
+  {
+   "q": "The 2024 Nobel Prize in Chemistry honored work on:",
+   "a": "Protein structure prediction and design (AlphaFold)",
+   "w": [
+    "Quantum computing",
+    "Graphene",
+    "CRISPR"
+   ]
+  },
+  {
+   "q": "Which AI system beat Garry Kasparov in 1997?",
+   "a": "IBM Deep Blue",
+   "w": [
+    "IBM Watson",
+    "AlphaGo",
+    "AlphaZero"
+   ]
+  },
+  {
+   "q": "Which AI system won Jeopardy! in 2011?",
+   "a": "IBM Watson",
+   "w": [
+    "Deep Blue",
+    "AlphaGo",
+    "ChatGPT"
+   ]
+  },
+  {
+   "q": "Which AI system beat Lee Sedol at Go in 2016?",
+   "a": "AlphaGo",
+   "w": [
+    "Deep Blue",
+    "Watson",
+    "Stockfish"
+   ]
+  },
+  {
+   "q": "ChatGPT was launched on:",
+   "a": "30 November 2022",
+   "w": [
+    "14 March 2023",
+    "1 January 2022",
+    "1 May 2023"
+   ]
+  },
+  {
+   "q": "Who popularized the term \"data scientist\" and wrote about the \"sexiest job of the 21st century\"?",
+   "a": "DJ Patil and Thomas Davenport",
+   "w": [
+    "Hal Varian and Jim Gray",
+    "Peter Norvig and Andrew Ng",
+    "Alan Turing and John Tukey"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "d": "E",
+   "q": "What type of analytics answers \"What happened?\"",
+   "a": "Descriptive",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What type of analytics answers \"What will happen?\"",
+   "a": "Predictive",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What type of analytics answers \"What should we do?\"",
+   "a": "Prescriptive",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What type of analytics answers \"Why did it happen?\"",
+   "a": "Diagnostic",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What do the 5 Vs of big data stand for?",
+   "a": "Volume, Velocity, Variety, Veracity, Value",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the middle value of a sorted dataset?",
+   "a": "Median",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the most frequent value in a dataset?",
+   "a": "Mode",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does ML stand for?",
+   "a": "Machine Learning",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does AI stand for?",
+   "a": "Artificial Intelligence",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What chart best shows a trend over time?",
+   "a": "Line chart",
+   "alt": [
+    "Line"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What chart best shows the distribution of a variable?",
+   "a": "Histogram",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which Python library is used for DataFrames?",
+   "a": "pandas",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the first phase of CRISP-DM?",
+   "a": "Business understanding",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the last phase of CRISP-DM?",
+   "a": "Deployment",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does NOIR stand for in measurement scales?",
+   "a": "Nominal, Ordinal, Interval, Ratio",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the rule for outliers using IQR?",
+   "a": "1.5 x IQR",
+   "alt": [
+    "1.5 times IQR"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What scales data to a 0 to 1 range?",
+   "a": "Min-max normalization",
+   "alt": [
+    "Normalization"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What gives a mean of 0 and standard deviation of 1?",
+   "a": "Standardization",
+   "alt": [
+    "Z-score"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the range of the Pearson correlation coefficient?",
+   "a": "-1 to 1",
+   "alt": [
+    "-1 to +1"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What are the percentages in the empirical rule?",
+   "a": "68-95-99.7",
+   "alt": [
+    "68, 95, 99.7"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What do you reject when p < 0.05?",
+   "a": "The null hypothesis",
+   "alt": [
+    "Null hypothesis",
+    "H0"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is a false positive called in hypothesis testing?",
+   "a": "Type I error",
+   "alt": [
+    "Type 1 error"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is a false negative called in hypothesis testing?",
+   "a": "Type II error",
+   "alt": [
+    "Type 2 error"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the supervised task of predicting discrete labels?",
+   "a": "Classification",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the supervised task of predicting continuous values?",
+   "a": "Regression",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What clustering algorithm uses centroids?",
+   "a": "k-Means",
+   "alt": [
+    "K-means",
+    "kmeans"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What ensemble of decision trees is commonly used?",
+   "a": "Random Forest",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What do you call a model that memorizes training data?",
+   "a": "Overfitting",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the harmonic mean of precision and recall?",
+   "a": "F1 score",
+   "alt": [
+    "F1"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does the Transformer's famous 2017 paper title say?",
+   "a": "Attention Is All You Need",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does RAG stand for?",
+   "a": "Retrieval-Augmented Generation",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the formula for precision?",
+   "a": "TP/(TP+FP)",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the formula for recall?",
+   "a": "TP/(TP+FN)",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the formula for accuracy?",
+   "a": "(TP+TN)/(TP+TN+FP+FN)",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the formula for F1?",
+   "a": "2PR/(P+R)",
+   "alt": [
+    "2*P*R/(P+R)"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What does an AUC of 0.5 mean?",
+   "a": "Random guessing",
+   "alt": [
+    "No better than random"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the formula for z-score?",
+   "a": "(x - mean)/standard deviation",
+   "alt": [
+    "(x-μ)/σ"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the formula for IQR?",
+   "a": "Q3 - Q1",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Who defined machine learning in 1959?",
+   "a": "Arthur Samuel",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Who invented GANs in 2014?",
+   "a": "Ian Goodfellow",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Who invented the perceptron in 1958?",
+   "a": "Frank Rosenblatt",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Who shared the 2024 Nobel Prize in Physics for neural networks?",
+   "a": "John Hopfield and Geoffrey Hinton",
+   "alt": [
+    "Hopfield and Hinton"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which AI model system's creators won the 2024 Nobel Prize in Chemistry?",
+   "a": "AlphaFold",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Who is known for the data-ink ratio in visualization?",
+   "a": "Edward Tufte",
+   "alt": [
+    "Tufte"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Hadoop component stores data in a distributed way?",
+   "a": "HDFS",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which tool is used for real-time streaming pipelines and was created at LinkedIn?",
+   "a": "Apache Kafka",
+   "alt": [
+    "Kafka"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What does RLHF stand for?",
+   "a": "Reinforcement Learning from Human Feedback",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the name for deliberately mixing test info into training?",
+   "a": "Data leakage",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which technique reduces dimensions while preserving variance?",
+   "a": "PCA",
+   "alt": [
+    "Principal Component Analysis"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the name for encoding each category as a binary column?",
+   "a": "One-hot encoding",
+   "alt": [
+    "One hot encoding"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What does BI stand for?",
+   "a": "Business Intelligence",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What AI system beat Kasparov in 1997?",
+   "a": "Deep Blue",
+   "alt": [
+    "IBM Deep Blue"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What AI system beat Lee Sedol in 2016?",
+   "a": "AlphaGo",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the date ChatGPT launched?",
+   "a": "30 November 2022",
+   "alt": [
+    "November 30, 2022"
+   ]
+  }
+ ]
+}

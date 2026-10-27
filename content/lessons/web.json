@@ -1,0 +1,1406 @@
+{
+ "id": "web",
+ "no": "9",
+ "title": "E-commerce & Web Design",
+ "mcq": [
+  {
+   "q": "Who invented the World Wide Web?",
+   "a": "Tim Berners-Lee",
+   "w": [
+    "Vint Cerf",
+    "Marc Andreessen",
+    "Brendan Eich"
+   ]
+  },
+  {
+   "q": "Which organization, founded by Tim Berners-Lee in 1994, develops web standards?",
+   "a": "W3C",
+   "w": [
+    "IETF",
+    "ICANN",
+    "IEEE"
+   ]
+  },
+  {
+   "q": "Which web browser engine is used by Chrome and Edge?",
+   "a": "Blink",
+   "w": [
+    "WebKit",
+    "Gecko",
+    "Trident"
+   ]
+  },
+  {
+   "q": "Which browser engine does Firefox use?",
+   "a": "Gecko",
+   "w": [
+    "Blink",
+    "WebKit",
+    "Chromium"
+   ]
+  },
+  {
+   "q": "HTML stands for:",
+   "a": "HyperText Markup Language",
+   "w": [
+    "HighText Machine Language",
+    "Hyperlinks and Text Markup Language",
+    "Home Tool Markup Language"
+   ]
+  },
+  {
+   "q": "Which tag defines the largest heading in HTML?",
+   "a": "<h1>",
+   "w": [
+    "<h6>",
+    "<head>",
+    "<header>"
+   ]
+  },
+  {
+   "q": "Which HTML tag creates a hyperlink?",
+   "a": "<a>",
+   "w": [
+    "<link>",
+    "<href>",
+    "<url>"
+   ]
+  },
+  {
+   "q": "Which attribute of <img> provides alternative text?",
+   "a": "alt",
+   "w": [
+    "title",
+    "src",
+    "name"
+   ]
+  },
+  {
+   "q": "Which of these is a void (empty) element in HTML?",
+   "a": "<br>",
+   "w": [
+    "<p>",
+    "<div>",
+    "<span>"
+   ]
+  },
+  {
+   "q": "Which element should hold the main navigation links semantically?",
+   "a": "<nav>",
+   "w": [
+    "<menu>",
+    "<aside>",
+    "<section>"
+   ]
+  },
+  {
+   "q": "Which of these is a semantic HTML5 element?",
+   "a": "<article>",
+   "w": [
+    "<div>",
+    "<span>",
+    "<b>"
+   ]
+  },
+  {
+   "q": "Which HTML tag creates an ordered list?",
+   "a": "<ol>",
+   "w": [
+    "<ul>",
+    "<li>",
+    "<dl>"
+   ]
+  },
+  {
+   "q": "Which tag creates an unordered (bulleted) list?",
+   "a": "<ul>",
+   "w": [
+    "<ol>",
+    "<li>",
+    "<list>"
+   ]
+  },
+  {
+   "q": "Which tag defines a table row?",
+   "a": "<tr>",
+   "w": [
+    "<td>",
+    "<th>",
+    "<row>"
+   ]
+  },
+  {
+   "q": "Which tag defines a table header cell?",
+   "a": "<th>",
+   "w": [
+    "<td>",
+    "<tr>",
+    "<thead> only"
+   ]
+  },
+  {
+   "q": "Which attribute opens a link in a new tab?",
+   "a": "target=\"_blank\"",
+   "w": [
+    "href=\"_new\"",
+    "open=\"new\"",
+    "rel=\"newtab\""
+   ]
+  },
+  {
+   "q": "Which HTTP method sends form data in the URL and is bookmarkable?",
+   "a": "GET",
+   "w": [
+    "POST",
+    "PUT",
+    "DELETE"
+   ]
+  },
+  {
+   "q": "Which form method sends data in the request body?",
+   "a": "POST",
+   "w": [
+    "GET",
+    "HEAD",
+    "TRACE"
+   ]
+  },
+  {
+   "q": "Which input type hides the characters being typed?",
+   "a": "password",
+   "w": [
+    "hidden",
+    "secret",
+    "text"
+   ]
+  },
+  {
+   "q": "Which input type provides a color picker?",
+   "a": "color",
+   "w": [
+    "palette",
+    "range",
+    "picker"
+   ]
+  },
+  {
+   "q": "CSS stands for:",
+   "a": "Cascading Style Sheets",
+   "w": [
+    "Creative Style Sheets",
+    "Computer Style Sheets",
+    "Colorful Style Sheets"
+   ]
+  },
+  {
+   "q": "Who proposed CSS in 1994?",
+   "a": "Hakon Wium Lie",
+   "w": [
+    "Tim Berners-Lee",
+    "Brendan Eich",
+    "Ethan Marcotte"
+   ]
+  },
+  {
+   "q": "Which is the best practice for adding CSS to many pages?",
+   "a": "External stylesheet",
+   "w": [
+    "Inline styles",
+    "Internal <style> block",
+    "JavaScript only"
+   ]
+  },
+  {
+   "q": "In the CSS box model, the order from inside to outside is:",
+   "a": "Content, padding, border, margin",
+   "w": [
+    "Content, margin, border, padding",
+    "Margin, border, padding, content",
+    "Padding, content, border, margin"
+   ]
+  },
+  {
+   "q": "What does the CSS rule \"margin: 10px 20px\" set?",
+   "a": "10px top/bottom and 20px left/right",
+   "w": [
+    "10px left/right and 20px top/bottom",
+    "10px top only",
+    "20px on all sides"
+   ]
+  },
+  {
+   "q": "Which CSS selector selects elements by class?",
+   "a": ".name",
+   "w": [
+    "#name",
+    "name",
+    "*name"
+   ]
+  },
+  {
+   "q": "Which CSS selector selects an element by id?",
+   "a": "#name",
+   "w": [
+    ".name",
+    "name",
+    "@name"
+   ]
+  },
+  {
+   "q": "Which has the highest CSS specificity?",
+   "a": "Inline style",
+   "w": [
+    "ID selector",
+    "Class selector",
+    "Element selector"
+   ]
+  },
+  {
+   "q": "Which CSS property controls text color?",
+   "a": "color",
+   "w": [
+    "font-color",
+    "text-color",
+    "foreground"
+   ]
+  },
+  {
+   "q": "Which CSS display value makes a one-dimensional flexible layout?",
+   "a": "flex",
+   "w": [
+    "grid",
+    "block",
+    "table"
+   ]
+  },
+  {
+   "q": "Which CSS display value creates a two-dimensional layout?",
+   "a": "grid",
+   "w": [
+    "flex",
+    "inline",
+    "block"
+   ]
+  },
+  {
+   "q": "Which CSS position is relative to the browser window and does not scroll?",
+   "a": "fixed",
+   "w": [
+    "absolute",
+    "relative",
+    "static"
+   ]
+  },
+  {
+   "q": "Which CSS feature applies styles based on screen width?",
+   "a": "Media queries",
+   "w": [
+    "Pseudo-elements",
+    "Keyframes",
+    "Variables"
+   ]
+  },
+  {
+   "q": "Who coined the term \"responsive web design\" in 2010?",
+   "a": "Ethan Marcotte",
+   "w": [
+    "Jakob Nielsen",
+    "Luke Wroblewski",
+    "Steve Krug"
+   ]
+  },
+  {
+   "q": "Which CSS framework was originally developed at Twitter?",
+   "a": "Bootstrap",
+   "w": [
+    "Tailwind",
+    "Bulma",
+    "Foundation"
+   ]
+  },
+  {
+   "q": "Which CSS framework is utility-first?",
+   "a": "Tailwind CSS",
+   "w": [
+    "Bootstrap",
+    "Bulma",
+    "Materialize"
+   ]
+  },
+  {
+   "q": "What is the HEX code for white?",
+   "a": "#FFFFFF",
+   "w": [
+    "#000000",
+    "#FF0000",
+    "#00FF00"
+   ]
+  },
+  {
+   "q": "What is the HEX code for black?",
+   "a": "#000000",
+   "w": [
+    "#FFFFFF",
+    "#FF0000",
+    "#0000FF"
+   ]
+  },
+  {
+   "q": "Who created JavaScript?",
+   "a": "Brendan Eich",
+   "w": [
+    "James Gosling",
+    "Tim Berners-Lee",
+    "Rasmus Lerdorf"
+   ]
+  },
+  {
+   "q": "DOM stands for:",
+   "a": "Document Object Model",
+   "w": [
+    "Data Object Model",
+    "Document Order Model",
+    "Digital Object Map"
+   ]
+  },
+  {
+   "q": "Which JavaScript keyword declares a block-scoped variable?",
+   "a": "let",
+   "w": [
+    "var",
+    "def",
+    "dim"
+   ]
+  },
+  {
+   "q": "Which operator checks equality without type conversion in JavaScript?",
+   "a": "===",
+   "w": [
+    "==",
+    "=",
+    "!=="
+   ]
+  },
+  {
+   "q": "Which browser storage persists even after the browser is closed (and is not sent to the server)?",
+   "a": "localStorage",
+   "w": [
+    "sessionStorage",
+    "Cookies sent per request",
+    "RAM cache"
+   ]
+  },
+  {
+   "q": "Which JavaScript library created by Meta uses a virtual DOM and JSX?",
+   "a": "React",
+   "w": [
+    "Angular",
+    "Vue",
+    "jQuery"
+   ]
+  },
+  {
+   "q": "Which JavaScript framework was created by Google and uses TypeScript?",
+   "a": "Angular",
+   "w": [
+    "React",
+    "Vue",
+    "Svelte"
+   ]
+  },
+  {
+   "q": "Who created Vue.js?",
+   "a": "Evan You",
+   "w": [
+    "Jordan Walke",
+    "Misko Hevery",
+    "Ryan Dahl"
+   ]
+  },
+  {
+   "q": "Which runtime lets JavaScript run on the server using the V8 engine?",
+   "a": "Node.js",
+   "w": [
+    "Deno only",
+    "JVM",
+    ".NET"
+   ]
+  },
+  {
+   "q": "UI design focuses on:",
+   "a": "Look and interface elements",
+   "w": [
+    "The entire customer journey only",
+    "Server performance",
+    "Database design"
+   ]
+  },
+  {
+   "q": "Which low-fidelity design is a basic layout sketch of a page?",
+   "a": "Wireframe",
+   "w": [
+    "Prototype",
+    "Mockup",
+    "Style guide"
+   ]
+  },
+  {
+   "q": "Which design tool is browser-based and widely used for UI collaboration?",
+   "a": "Figma",
+   "w": [
+    "Notepad",
+    "Excel",
+    "MySQL Workbench"
+   ]
+  },
+  {
+   "q": "Which color model is additive and used for screens?",
+   "a": "RGB",
+   "w": [
+    "CMYK",
+    "Pantone",
+    "RYB"
+   ]
+  },
+  {
+   "q": "Which color model is subtractive and used for printing?",
+   "a": "CMYK",
+   "w": [
+    "RGB",
+    "HSL",
+    "HEX"
+   ]
+  },
+  {
+   "q": "Colors opposite each other on the color wheel are:",
+   "a": "Complementary",
+   "w": [
+    "Analogous",
+    "Triadic",
+    "Monochromatic"
+   ]
+  },
+  {
+   "q": "Colors next to each other on the color wheel are:",
+   "a": "Analogous",
+   "w": [
+    "Complementary",
+    "Triadic",
+    "Tetradic"
+   ]
+  },
+  {
+   "q": "Fitts's Law says that the time to reach a target depends on:",
+   "a": "Its distance and size",
+   "w": [
+    "The number of choices",
+    "The color",
+    "The font"
+   ]
+  },
+  {
+   "q": "Hick's Law says that decision time increases with:",
+   "a": "The number of choices",
+   "w": [
+    "The size of the target",
+    "The screen resolution",
+    "The font size"
+   ]
+  },
+  {
+   "q": "How many usability heuristics did Jakob Nielsen define?",
+   "a": "10",
+   "w": [
+    "7",
+    "5",
+    "12"
+   ]
+  },
+  {
+   "q": "WCAG stands for:",
+   "a": "Web Content Accessibility Guidelines",
+   "w": [
+    "Web Content Access Group",
+    "World Content Accessibility Guide",
+    "Web Coding Accessibility Guide"
+   ]
+  },
+  {
+   "q": "The WCAG POUR principles are:",
+   "a": "Perceivable, Operable, Understandable, Robust",
+   "w": [
+    "Perceivable, Open, Usable, Reliable",
+    "Portable, Operable, Universal, Robust",
+    "Purposeful, Operable, Understandable, Responsive"
+   ]
+  },
+  {
+   "q": "The minimum WCAG AA contrast ratio for normal text is:",
+   "a": "4.5:1",
+   "w": [
+    "3:1",
+    "7:1",
+    "2:1"
+   ]
+  },
+  {
+   "q": "Which is NOT one of the Core Web Vitals?",
+   "a": "TTFB",
+   "w": [
+    "LCP",
+    "INP",
+    "CLS"
+   ]
+  },
+  {
+   "q": "LCP in Core Web Vitals measures:",
+   "a": "Loading performance",
+   "w": [
+    "Interactivity",
+    "Layout stability",
+    "Server speed"
+   ]
+  },
+  {
+   "q": "CLS measures:",
+   "a": "Visual stability (layout shift)",
+   "w": [
+    "Loading speed",
+    "Interactivity",
+    "Bandwidth"
+   ]
+  },
+  {
+   "q": "Which file tells search engine crawlers which pages not to crawl?",
+   "a": "robots.txt",
+   "w": [
+    "sitemap.xml",
+    ".htaccess",
+    "index.html"
+   ]
+  },
+  {
+   "q": "Which file lists a site's pages to help search engines index it?",
+   "a": "sitemap.xml",
+   "w": [
+    "robots.txt",
+    "manifest.json",
+    "package.json"
+   ]
+  },
+  {
+   "q": "SEO stands for:",
+   "a": "Search Engine Optimization",
+   "w": [
+    "Site Engine Operation",
+    "Search Engagement Output",
+    "Secure Engine Optimization"
+   ]
+  },
+  {
+   "q": "Backlinks from other sites are part of which SEO category?",
+   "a": "Off-page SEO",
+   "w": [
+    "On-page SEO",
+    "Technical SEO",
+    "Local SEO only"
+   ]
+  },
+  {
+   "q": "Who developed PageRank?",
+   "a": "Larry Page and Sergey Brin",
+   "w": [
+    "Jeff Bezos",
+    "Mark Zuckerberg",
+    "Tim Berners-Lee"
+   ]
+  },
+  {
+   "q": "E-commerce is best defined as:",
+   "a": "Buying and selling goods and services over electronic networks",
+   "w": [
+    "Only selling on Facebook",
+    "Delivering goods by drones",
+    "Running a physical store with computers"
+   ]
+  },
+  {
+   "q": "M-commerce refers to commerce conducted through:",
+   "a": "Mobile devices",
+   "w": [
+    "Mainframes",
+    "Mailing lists",
+    "Metaverse only"
+   ]
+  },
+  {
+   "q": "Amazon, Lazada and Shopee are examples of:",
+   "a": "B2C",
+   "w": [
+    "B2B",
+    "C2C",
+    "B2G"
+   ]
+  },
+  {
+   "q": "eBay and Carousell are examples of:",
+   "a": "C2C",
+   "w": [
+    "B2C",
+    "B2B",
+    "G2C"
+   ]
+  },
+  {
+   "q": "Alibaba.com is an example of:",
+   "a": "B2B",
+   "w": [
+    "B2C",
+    "C2C",
+    "C2B"
+   ]
+  },
+  {
+   "q": "PhilGEPS is an example of:",
+   "a": "B2G",
+   "w": [
+    "B2C",
+    "C2C",
+    "G2C"
+   ]
+  },
+  {
+   "q": "Upwork and Fiverr, where individuals sell services to businesses, are examples of:",
+   "a": "C2B",
+   "w": [
+    "B2C",
+    "B2B",
+    "G2B"
+   ]
+  },
+  {
+   "q": "Selling products without holding inventory, with the supplier shipping directly, is:",
+   "a": "Dropshipping",
+   "w": [
+    "Wholesaling",
+    "Consignment",
+    "Franchising"
+   ]
+  },
+  {
+   "q": "The strategy that combines online and physical channels seamlessly is:",
+   "a": "Omnichannel",
+   "w": [
+    "Pure-play",
+    "Brick-and-mortar",
+    "Drop shipping"
+   ]
+  },
+  {
+   "q": "Who founded Amazon?",
+   "a": "Jeff Bezos",
+   "w": [
+    "Jack Ma",
+    "Pierre Omidyar",
+    "Elon Musk"
+   ]
+  },
+  {
+   "q": "Who founded Alibaba?",
+   "a": "Jack Ma",
+   "w": [
+    "Jeff Bezos",
+    "Pony Ma",
+    "Robin Li"
+   ]
+  },
+  {
+   "q": "Who founded eBay?",
+   "a": "Pierre Omidyar",
+   "w": [
+    "Jeff Bezos",
+    "Peter Thiel",
+    "Jack Ma"
+   ]
+  },
+  {
+   "q": "Who invented online shopping (teleshopping) in 1979?",
+   "a": "Michael Aldrich",
+   "w": [
+    "Jeff Bezos",
+    "Tim Berners-Lee",
+    "Pierre Omidyar"
+   ]
+  },
+  {
+   "q": "EDI stands for:",
+   "a": "Electronic Data Interchange",
+   "w": [
+    "Electronic Digital Information",
+    "Enterprise Data Integration",
+    "Electronic Direct Interface"
+   ]
+  },
+  {
+   "q": "Which is the Philippine real-time interbank electronic fund transfer service with a per-transaction limit of PHP 50,000?",
+   "a": "InstaPay",
+   "w": [
+    "PESONet",
+    "GCash Send",
+    "Swift"
+   ]
+  },
+  {
+   "q": "Which BSP-standard QR code allows interoperable payments in the Philippines?",
+   "a": "QR Ph",
+   "w": [
+    "QR Pay",
+    "PhilQR",
+    "BSP Code"
+   ]
+  },
+  {
+   "q": "PESONet is a:",
+   "a": "Batch-based electronic fund transfer service",
+   "w": [
+    "Real-time payment rail",
+    "Cryptocurrency network",
+    "Credit card scheme"
+   ]
+  },
+  {
+   "q": "Which Philippine central bank regulates payment systems?",
+   "a": "BSP",
+   "w": [
+    "SEC",
+    "DTI",
+    "BIR"
+   ]
+  },
+  {
+   "q": "Which are major Philippine e-wallets?",
+   "a": "GCash and Maya",
+   "w": [
+    "PayPal and Venmo",
+    "Alipay and Paytm",
+    "Zelle and Cash App"
+   ]
+  },
+  {
+   "q": "The security standard for organizations that handle card data is:",
+   "a": "PCI DSS",
+   "w": [
+    "HIPAA",
+    "ISO 9001",
+    "SOX"
+   ]
+  },
+  {
+   "q": "3-D Secure authentication typically adds:",
+   "a": "An OTP or extra verification step for card payments",
+   "w": [
+    "A hardware token only",
+    "A paper receipt",
+    "A fingerprint scan only"
+   ]
+  },
+  {
+   "q": "What does a payment gateway do?",
+   "a": "Securely authorizes and transmits payment transaction data",
+   "w": [
+    "Stores products",
+    "Delivers parcels",
+    "Designs websites"
+   ]
+  },
+  {
+   "q": "Which is a payment gateway/provider used in the Philippines?",
+   "a": "PayMongo",
+   "w": [
+    "Zelle",
+    "Venmo",
+    "Klarna"
+   ]
+  },
+  {
+   "q": "Conversion rate is computed as:",
+   "a": "Orders divided by visitors",
+   "w": [
+    "Visitors divided by orders",
+    "Revenue divided by visitors",
+    "Clicks divided by impressions"
+   ]
+  },
+  {
+   "q": "10,000 visitors and 250 orders gives a conversion rate of:",
+   "a": "2.5%",
+   "w": [
+    "25%",
+    "0.25%",
+    "4%"
+   ]
+  },
+  {
+   "q": "AOV stands for:",
+   "a": "Average Order Value",
+   "w": [
+    "Annual Online Volume",
+    "Average Online Visits",
+    "Authorized Order Value"
+   ]
+  },
+  {
+   "q": "CTR is computed as:",
+   "a": "Clicks divided by impressions",
+   "w": [
+    "Impressions divided by clicks",
+    "Orders divided by clicks",
+    "Clicks divided by orders"
+   ]
+  },
+  {
+   "q": "CAC stands for:",
+   "a": "Customer Acquisition Cost",
+   "w": [
+    "Customer Account Code",
+    "Cost of Annual Contracts",
+    "Cart Abandonment Count"
+   ]
+  },
+  {
+   "q": "AIDA stands for:",
+   "a": "Attention, Interest, Desire, Action",
+   "w": [
+    "Awareness, Intent, Decision, Action",
+    "Attract, Inform, Decide, Act",
+    "Audience, Interest, Demand, Approval"
+   ]
+  },
+  {
+   "q": "The 4Ps of the marketing mix are:",
+   "a": "Product, Price, Place, Promotion",
+   "w": [
+    "People, Process, Product, Price",
+    "Plan, Pilot, Produce, Promote",
+    "Product, Profit, Place, Package"
+   ]
+  },
+  {
+   "q": "Which Philippine law is the E-Commerce Act?",
+   "a": "RA 8792",
+   "w": [
+    "RA 10173",
+    "RA 10175",
+    "RA 11967"
+   ]
+  },
+  {
+   "q": "Which Philippine law is the Internet Transactions Act of 2023?",
+   "a": "RA 11967",
+   "w": [
+    "RA 8792",
+    "RA 10173",
+    "RA 11934"
+   ]
+  },
+  {
+   "q": "Which Philippine law is the Data Privacy Act?",
+   "a": "RA 10173",
+   "w": [
+    "RA 10175",
+    "RA 8792",
+    "RA 7394"
+   ]
+  },
+  {
+   "q": "Which Philippine law is the Cybercrime Prevention Act?",
+   "a": "RA 10175",
+   "w": [
+    "RA 10173",
+    "RA 8792",
+    "RA 11934"
+   ]
+  },
+  {
+   "q": "Which Philippine law is the SIM Registration Act?",
+   "a": "RA 11934",
+   "w": [
+    "RA 11967",
+    "RA 10173",
+    "RA 12010"
+   ]
+  },
+  {
+   "q": "Which Philippine law is the Consumer Act?",
+   "a": "RA 7394",
+   "w": [
+    "RA 8792",
+    "RA 10173",
+    "RA 11765"
+   ]
+  },
+  {
+   "q": "The Internet Transactions Act created which bureau under DTI?",
+   "a": "E-Commerce Bureau",
+   "w": [
+    "Cyber Bureau",
+    "Digital Commerce Authority",
+    "Online Trade Office"
+   ]
+  },
+  {
+   "q": "Which Philippine agency oversees data privacy?",
+   "a": "National Privacy Commission",
+   "w": [
+    "DTI",
+    "DICT",
+    "NTC"
+   ]
+  },
+  {
+   "q": "The ACP (Agentic Commerce Protocol) was introduced by:",
+   "a": "OpenAI and Stripe",
+   "w": [
+    "Google and PayPal",
+    "Amazon and Visa",
+    "Meta and Shopify"
+   ]
+  },
+  {
+   "q": "Which protocol did Google introduce for AI agent payments?",
+   "a": "AP2 (Agent Payments Protocol)",
+   "w": [
+    "ACP",
+    "MCP",
+    "A2A"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "d": "E",
+   "q": "What does HTML stand for?",
+   "a": "HyperText Markup Language",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does CSS stand for?",
+   "a": "Cascading Style Sheets",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does URL stand for?",
+   "a": "Uniform Resource Locator",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does HTTP stand for?",
+   "a": "HyperText Transfer Protocol",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does SEO stand for?",
+   "a": "Search Engine Optimization",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does UI stand for?",
+   "a": "User Interface",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does UX stand for?",
+   "a": "User Experience",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which language structures a web page?",
+   "a": "HTML",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which language styles a web page?",
+   "a": "CSS",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which language adds behavior to web pages?",
+   "a": "JavaScript",
+   "alt": [
+    "JS"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who invented the World Wide Web?",
+   "a": "Tim Berners-Lee",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which HTML tag creates a hyperlink?",
+   "a": "a",
+   "alt": [
+    "<a>"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What does B2C stand for?",
+   "a": "Business-to-Consumer",
+   "alt": [
+    "Business to Consumer"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What does B2B stand for?",
+   "a": "Business-to-Business",
+   "alt": [
+    "Business to Business"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What does C2C stand for?",
+   "a": "Consumer-to-Consumer",
+   "alt": [
+    "Consumer to Consumer"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What does COD stand for?",
+   "a": "Cash on Delivery",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Name a Philippine e-wallet.",
+   "a": "GCash",
+   "alt": [
+    "Maya",
+    "PayMaya"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who created JavaScript?",
+   "a": "Brendan Eich",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Who proposed CSS?",
+   "a": "Hakon Wium Lie",
+   "alt": [
+    "Håkon Wium Lie"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does DOM stand for?",
+   "a": "Document Object Model",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does WCAG stand for?",
+   "a": "Web Content Accessibility Guidelines",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the four principles of WCAG?",
+   "a": "Perceivable, Operable, Understandable, Robust",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the order of the CSS box model from inside to outside?",
+   "a": "Content, padding, border, margin",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which CSS layout module is one-dimensional?",
+   "a": "Flexbox",
+   "alt": [
+    "Flex"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which CSS layout module is two-dimensional?",
+   "a": "Grid",
+   "alt": [
+    "CSS Grid"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which CSS feature applies styles at different screen sizes?",
+   "a": "Media queries",
+   "alt": [
+    "Media query"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the HEX code for white?",
+   "a": "#FFFFFF",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What color model is used for screens?",
+   "a": "RGB",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What color model is used for printing?",
+   "a": "CMYK",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which file tells crawlers what not to crawl?",
+   "a": "robots.txt",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which file lists the pages of a site for search engines?",
+   "a": "sitemap.xml",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the Philippine real-time interbank transfer service?",
+   "a": "InstaPay",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the BSP-standard QR code for interoperable payments?",
+   "a": "QR Ph",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the card data security standard?",
+   "a": "PCI DSS",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which PH law is the E-Commerce Act?",
+   "a": "RA 8792",
+   "alt": [
+    "Republic Act 8792"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which PH law is the Data Privacy Act?",
+   "a": "RA 10173",
+   "alt": [
+    "Republic Act 10173"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which PH law is the Internet Transactions Act?",
+   "a": "RA 11967",
+   "alt": [
+    "Republic Act 11967"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What are the three Core Web Vitals?",
+   "a": "LCP, INP, CLS",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does LCP stand for?",
+   "a": "Largest Contentful Paint",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does CLS stand for?",
+   "a": "Cumulative Layout Shift",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What metric replaced FID in Core Web Vitals in March 2024?",
+   "a": "INP",
+   "alt": [
+    "Interaction to Next Paint"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which law says that more choices increase decision time?",
+   "a": "Hick's Law",
+   "alt": [
+    "Hick's"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which law says that larger and closer targets are faster to hit?",
+   "a": "Fitts's Law",
+   "alt": [
+    "Fitts's"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "How many usability heuristics did Nielsen define?",
+   "a": "10",
+   "alt": [
+    "Ten"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the minimum WCAG AA contrast ratio for normal text?",
+   "a": "4.5:1",
+   "alt": [
+    "4.5"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the specificity order of CSS selectors (highest to lowest)?",
+   "a": "Inline, ID, class, element",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Who coined responsive web design in 2010?",
+   "a": "Ethan Marcotte",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which CSS framework was created at Twitter?",
+   "a": "Bootstrap",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which framework did Meta create for building UIs with JSX?",
+   "a": "React",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Who created Vue.js?",
+   "a": "Evan You",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which Philippine agency is the regulator for e-money and payments?",
+   "a": "BSP",
+   "alt": [
+    "Bangko Sentral ng Pilipinas"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Philippine government e-procurement system serves B2G?",
+   "a": "PhilGEPS",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does CAC stand for?",
+   "a": "Customer Acquisition Cost",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does AOV stand for?",
+   "a": "Average Order Value",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does CTR stand for?",
+   "a": "Click-Through Rate",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does AIDA stand for?",
+   "a": "Attention, Interest, Desire, Action",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the formula for conversion rate?",
+   "a": "Orders / visitors",
+   "alt": [
+    "orders divided by visitors"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the name of the fulfillment model where the seller does not hold stock?",
+   "a": "Dropshipping",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Who founded eBay as AuctionWeb?",
+   "a": "Pierre Omidyar",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which protocol by OpenAI and Stripe powers Instant Checkout in ChatGPT?",
+   "a": "ACP",
+   "alt": [
+    "Agentic Commerce Protocol"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Google protocol is used for agent payments?",
+   "a": "AP2",
+   "alt": [
+    "Agent Payments Protocol"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Philippine law is the Cybercrime Prevention Act?",
+   "a": "RA 10175",
+   "alt": [
+    "Republic Act 10175"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Philippine law is the SIM Registration Act?",
+   "a": "RA 11934",
+   "alt": []
+  }
+ ]
+}

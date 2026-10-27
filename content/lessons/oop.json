@@ -1,0 +1,971 @@
+{
+ "id": "oop",
+ "no": "5",
+ "title": "Object-Oriented Programming",
+ "mcq": [
+  {
+   "q": "Which of the following is NOT one of the four pillars of OOP?",
+   "a": "Compilation",
+   "w": [
+    "Encapsulation",
+    "Inheritance",
+    "Polymorphism"
+   ]
+  },
+  {
+   "q": "A blueprint or template from which objects are created is a:",
+   "a": "Class",
+   "w": [
+    "Object",
+    "Method",
+    "Package"
+   ]
+  },
+  {
+   "q": "An instance of a class is called a:",
+   "a": "Object",
+   "w": [
+    "Interface",
+    "Constructor",
+    "Module"
+   ]
+  },
+  {
+   "q": "Bundling data and methods and hiding internal state is:",
+   "a": "Encapsulation",
+   "w": [
+    "Abstraction",
+    "Inheritance",
+    "Polymorphism"
+   ]
+  },
+  {
+   "q": "Exposing only essential features while hiding implementation details is:",
+   "a": "Abstraction",
+   "w": [
+    "Encapsulation",
+    "Overloading",
+    "Cohesion"
+   ]
+  },
+  {
+   "q": "Creating a new class from an existing class to reuse its members is:",
+   "a": "Inheritance",
+   "w": [
+    "Polymorphism",
+    "Encapsulation",
+    "Instantiation"
+   ]
+  },
+  {
+   "q": "Private variables with public getters and setters illustrate:",
+   "a": "Encapsulation",
+   "w": [
+    "Inheritance",
+    "Polymorphism",
+    "Overloading"
+   ]
+  },
+  {
+   "q": "Which concept allows the same method call to behave differently depending on the object?",
+   "a": "Polymorphism",
+   "w": [
+    "Encapsulation",
+    "Composition",
+    "Aggregation"
+   ]
+  },
+  {
+   "q": "Method overloading is an example of:",
+   "a": "Compile-time polymorphism",
+   "w": [
+    "Run-time polymorphism",
+    "Inheritance",
+    "Encapsulation"
+   ]
+  },
+  {
+   "q": "Method overriding is an example of:",
+   "a": "Run-time polymorphism",
+   "w": [
+    "Compile-time polymorphism",
+    "Static binding",
+    "Abstraction"
+   ]
+  },
+  {
+   "q": "Method overloading requires methods with the same name but different:",
+   "a": "Parameter lists",
+   "w": [
+    "Return types only",
+    "Access modifiers only",
+    "Class names"
+   ]
+  },
+  {
+   "q": "A special method called when an object is created is a:",
+   "a": "Constructor",
+   "w": [
+    "Destructor",
+    "Getter",
+    "Static method"
+   ]
+  },
+  {
+   "q": "Which statement is true about a Java constructor?",
+   "a": "It has the same name as the class and no return type",
+   "w": [
+    "It must return void",
+    "It is inherited by subclasses",
+    "It can be declared final"
+   ]
+  },
+  {
+   "q": "In Python, the constructor method is named:",
+   "a": "__init__",
+   "w": [
+    "__new_obj__",
+    "constructor",
+    "__start__"
+   ]
+  },
+  {
+   "q": "The keyword that refers to the current object in Java is:",
+   "a": "this",
+   "w": [
+    "self",
+    "super",
+    "current"
+   ]
+  },
+  {
+   "q": "The keyword that refers to the parent class in Java is:",
+   "a": "super",
+   "w": [
+    "this",
+    "parent",
+    "base"
+   ]
+  },
+  {
+   "q": "In Python, the first parameter of an instance method that refers to the object is conventionally:",
+   "a": "self",
+   "w": [
+    "this",
+    "me",
+    "obj"
+   ]
+  },
+  {
+   "q": "Members declared static belong to:",
+   "a": "The class, shared by all objects",
+   "w": [
+    "Each object separately",
+    "Only subclasses",
+    "The JVM only"
+   ]
+  },
+  {
+   "q": "In Java, which keyword prevents a class from being inherited?",
+   "a": "final",
+   "w": [
+    "static",
+    "abstract",
+    "sealed (Java 8)"
+   ]
+  },
+  {
+   "q": "Which Java keyword is used by a class to inherit another class?",
+   "a": "extends",
+   "w": [
+    "implements",
+    "inherits",
+    "super"
+   ]
+  },
+  {
+   "q": "Which Java keyword is used by a class to adopt an interface?",
+   "a": "implements",
+   "w": [
+    "extends",
+    "using",
+    "interface"
+   ]
+  },
+  {
+   "q": "A class that cannot be instantiated and may contain abstract methods is:",
+   "a": "An abstract class",
+   "w": [
+    "A final class",
+    "A static class",
+    "A wrapper class"
+   ]
+  },
+  {
+   "q": "Which can a class implement more than one of in Java?",
+   "a": "Interfaces",
+   "w": [
+    "Abstract classes via extends",
+    "Final classes",
+    "Enums"
+   ]
+  },
+  {
+   "q": "Which access modifier allows access only within the same class?",
+   "a": "private",
+   "w": [
+    "protected",
+    "public",
+    "default"
+   ]
+  },
+  {
+   "q": "Which access modifier allows access from subclasses and the same package, but not the world?",
+   "a": "protected",
+   "w": [
+    "private",
+    "public",
+    "default"
+   ]
+  },
+  {
+   "q": "Multiple inheritance of classes is NOT supported in:",
+   "a": "Java",
+   "w": [
+    "C++",
+    "Python",
+    "Lisp"
+   ]
+  },
+  {
+   "q": "The ambiguity problem with multiple inheritance is called the:",
+   "a": "Diamond problem",
+   "w": [
+    "Pigeonhole problem",
+    "Halting problem",
+    "Knapsack problem"
+   ]
+  },
+  {
+   "q": "\"A Car has an Engine\" is an example of:",
+   "a": "Composition/aggregation (has-a)",
+   "w": [
+    "Inheritance (is-a)",
+    "Polymorphism",
+    "Overloading"
+   ]
+  },
+  {
+   "q": "\"A Dog is an Animal\" is an example of:",
+   "a": "Inheritance (is-a)",
+   "w": [
+    "Composition",
+    "Aggregation",
+    "Association"
+   ]
+  },
+  {
+   "q": "Java source code is compiled to:",
+   "a": "Bytecode",
+   "w": [
+    "Machine code for each OS",
+    "Assembly",
+    "Source maps"
+   ]
+  },
+  {
+   "q": "Bytecode is executed by the:",
+   "a": "JVM",
+   "w": [
+    "JDK",
+    "IDE",
+    "JIT only"
+   ]
+  },
+  {
+   "q": "\"Write Once, Run Anywhere\" is associated with:",
+   "a": "Java",
+   "w": [
+    "C++",
+    "Python",
+    "C"
+   ]
+  },
+  {
+   "q": "Which includes the compiler and development tools for Java?",
+   "a": "JDK",
+   "w": [
+    "JRE",
+    "JVM",
+    "JIT"
+   ]
+  },
+  {
+   "q": "Who created Java?",
+   "a": "James Gosling",
+   "w": [
+    "Bjarne Stroustrup",
+    "Guido van Rossum",
+    "Anders Hejlsberg"
+   ]
+  },
+  {
+   "q": "Who created C++?",
+   "a": "Bjarne Stroustrup",
+   "w": [
+    "Dennis Ritchie",
+    "James Gosling",
+    "Ken Thompson"
+   ]
+  },
+  {
+   "q": "Who created Python?",
+   "a": "Guido van Rossum",
+   "w": [
+    "Brendan Eich",
+    "Rasmus Lerdorf",
+    "Larry Wall"
+   ]
+  },
+  {
+   "q": "Who created JavaScript at Netscape in 1995?",
+   "a": "Brendan Eich",
+   "w": [
+    "Ryan Dahl",
+    "Tim Berners-Lee",
+    "Marc Andreessen"
+   ]
+  },
+  {
+   "q": "Who created C#?",
+   "a": "Anders Hejlsberg",
+   "w": [
+    "James Gosling",
+    "Bjarne Stroustrup",
+    "Rasmus Lerdorf"
+   ]
+  },
+  {
+   "q": "Who created PHP?",
+   "a": "Rasmus Lerdorf",
+   "w": [
+    "Larry Wall",
+    "Yukihiro Matsumoto",
+    "Guido van Rossum"
+   ]
+  },
+  {
+   "q": "The first object-oriented programming language was:",
+   "a": "Simula",
+   "w": [
+    "Smalltalk",
+    "C++",
+    "Java"
+   ]
+  },
+  {
+   "q": "Which language is credited with popularizing OOP, created by Alan Kay's team at Xerox PARC?",
+   "a": "Smalltalk",
+   "w": [
+    "Simula",
+    "Ada",
+    "Pascal"
+   ]
+  },
+  {
+   "q": "Which Java block always executes, whether or not an exception occurs?",
+   "a": "finally",
+   "w": [
+    "catch",
+    "try only",
+    "throws"
+   ]
+  },
+  {
+   "q": "The Java keyword used to raise an exception is:",
+   "a": "throw",
+   "w": [
+    "throws",
+    "raise",
+    "catch"
+   ]
+  },
+  {
+   "q": "Which of these is an unchecked exception in Java?",
+   "a": "NullPointerException",
+   "w": [
+    "IOException",
+    "SQLException",
+    "FileNotFoundException"
+   ]
+  },
+  {
+   "q": "Java is always:",
+   "a": "Pass-by-value",
+   "w": [
+    "Pass-by-reference",
+    "Pass-by-name",
+    "Pass-by-pointer"
+   ]
+  },
+  {
+   "q": "In Java, == on two object references compares:",
+   "a": "References (memory addresses)",
+   "w": [
+    "Contents",
+    "Hash codes only",
+    "Types"
+   ]
+  },
+  {
+   "q": "Which method compares the contents of two Java Strings?",
+   "a": "equals()",
+   "w": [
+    "==",
+    "compare() only",
+    "same()"
+   ]
+  },
+  {
+   "q": "Strings in Java are:",
+   "a": "Immutable",
+   "w": [
+    "Mutable",
+    "Primitive",
+    "Char arrays only"
+   ]
+  },
+  {
+   "q": "Which Python collection is immutable?",
+   "a": "tuple",
+   "w": [
+    "list",
+    "dict",
+    "set"
+   ]
+  },
+  {
+   "q": "In C++, a pure virtual function is declared by appending:",
+   "a": "= 0",
+   "w": [
+    "= null",
+    "= void",
+    "= abstract"
+   ]
+  },
+  {
+   "q": "In C++, the default access in a struct is:",
+   "a": "public",
+   "w": [
+    "private",
+    "protected",
+    "package"
+   ]
+  },
+  {
+   "q": "In C++, the default access in a class is:",
+   "a": "private",
+   "w": [
+    "public",
+    "protected",
+    "internal"
+   ]
+  },
+  {
+   "q": "Which C++ feature lets you use the same operator for user-defined types?",
+   "a": "Operator overloading",
+   "w": [
+    "Templates",
+    "Friend functions",
+    "Namespaces"
+   ]
+  },
+  {
+   "q": "What is the output? Animal a = new Dog(); a.speak(); where Dog overrides speak() to print \"Woof\"",
+   "a": "Woof",
+   "w": [
+    "Animal",
+    "Compile error",
+    "Nothing"
+   ]
+  },
+  {
+   "q": "What does a static counter incremented in the constructor print after three objects are created?",
+   "a": "3",
+   "w": [
+    "1",
+    "0",
+    "2"
+   ]
+  },
+  {
+   "q": "In Java: try { print A; 5/0; print B } catch(ArithmeticException) { print C } finally { print D }. Output?",
+   "a": "ACD",
+   "w": [
+    "ABCD",
+    "AD",
+    "ACBD"
+   ]
+  },
+  {
+   "q": "In Python, what is the output of: class A: __init__ sets x=1; class B(A): __init__ calls super().__init__() then y = x+1; print(B().y)?",
+   "a": "2",
+   "w": [
+    "1",
+    "0",
+    "Error"
+   ]
+  },
+  {
+   "q": "Which naming convention uses capital letters for each word including the first, commonly for class names?",
+   "a": "PascalCase",
+   "w": [
+    "camelCase",
+    "snake_case",
+    "kebab-case"
+   ]
+  },
+  {
+   "q": "Which naming convention is typically used for Python variables and functions?",
+   "a": "snake_case",
+   "w": [
+    "PascalCase",
+    "SCREAMING_CASE",
+    "kebab-case"
+   ]
+  },
+  {
+   "q": "Java's automatic memory reclamation is called:",
+   "a": "Garbage collection",
+   "w": [
+    "Manual deallocation",
+    "Reference counting only",
+    "RAII"
+   ]
+  },
+  {
+   "q": "Which describes high-quality OO design?",
+   "a": "High cohesion and low coupling",
+   "w": [
+    "Low cohesion and high coupling",
+    "High coupling and high cohesion",
+    "Low cohesion and low coupling"
+   ]
+  },
+  {
+   "q": "Which Java collection stores unique elements without duplicates?",
+   "a": "HashSet",
+   "w": [
+    "ArrayList",
+    "LinkedList",
+    "Vector"
+   ]
+  },
+  {
+   "q": "Which Java collection stores key-value pairs?",
+   "a": "HashMap",
+   "w": [
+    "ArrayList",
+    "HashSet",
+    "Queue"
+   ]
+  },
+  {
+   "q": "JavaScript's strict equality operator is:",
+   "a": "===",
+   "w": [
+    "==",
+    "=",
+    "!="
+   ]
+  },
+  {
+   "q": "Which company owns Java today?",
+   "a": "Oracle",
+   "w": [
+    "Sun Microsystems",
+    "IBM",
+    "Google"
+   ]
+  },
+  {
+   "q": "Which language is the typed superset of JavaScript from Microsoft?",
+   "a": "TypeScript",
+   "w": [
+    "CoffeeScript",
+    "Dart",
+    "Kotlin"
+   ]
+  },
+  {
+   "q": "Which language is Google's preferred language for Android development since 2019?",
+   "a": "Kotlin",
+   "w": [
+    "Swift",
+    "Dart",
+    "Scala"
+   ]
+  },
+  {
+   "q": "Which language is used for Apple's iOS development created by Apple in 2014?",
+   "a": "Swift",
+   "w": [
+    "Kotlin",
+    "Objective-C",
+    "Dart"
+   ]
+  },
+  {
+   "q": "Which language is used with the Flutter framework?",
+   "a": "Dart",
+   "w": [
+    "Go",
+    "Rust",
+    "Swift"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "d": "E",
+   "q": "What do you call a blueprint for creating objects?",
+   "a": "Class",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What do you call an instance of a class?",
+   "a": "Object",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What are the four pillars of OOP?",
+   "a": "Encapsulation, Abstraction, Inheritance, Polymorphism",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which OOP pillar hides internal state using private fields?",
+   "a": "Encapsulation",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which OOP pillar lets a class acquire members of another class?",
+   "a": "Inheritance",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which OOP pillar means \"many forms\"?",
+   "a": "Polymorphism",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What special method initializes an object when it is created?",
+   "a": "Constructor",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the Python constructor method name?",
+   "a": "__init__",
+   "alt": [
+    "init"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which keyword refers to the current object in Java?",
+   "a": "this",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which keyword refers to the current object in Python?",
+   "a": "self",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which Java keyword prevents inheritance or overriding?",
+   "a": "final",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Who created Java?",
+   "a": "James Gosling",
+   "alt": [
+    "Gosling"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who created Python?",
+   "a": "Guido van Rossum",
+   "alt": [
+    "van Rossum"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who created C++?",
+   "a": "Bjarne Stroustrup",
+   "alt": [
+    "Stroustrup"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who created C#?",
+   "a": "Anders Hejlsberg",
+   "alt": [
+    "Hejlsberg"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who created JavaScript?",
+   "a": "Brendan Eich",
+   "alt": [
+    "Eich"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who created PHP?",
+   "a": "Rasmus Lerdorf",
+   "alt": [
+    "Lerdorf"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who created C?",
+   "a": "Dennis Ritchie",
+   "alt": [
+    "Ritchie"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What was the first OO programming language?",
+   "a": "Simula",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Who developed Smalltalk?",
+   "a": "Alan Kay",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What type of polymorphism is method overloading?",
+   "a": "Compile-time",
+   "alt": [
+    "Static",
+    "Compile time"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What type of polymorphism is method overriding?",
+   "a": "Run-time",
+   "alt": [
+    "Dynamic",
+    "Runtime"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does Java source compile into?",
+   "a": "Bytecode",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What executes Java bytecode?",
+   "a": "JVM",
+   "alt": [
+    "Java Virtual Machine"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the Java slogan abbreviated WORA?",
+   "a": "Write Once, Run Anywhere",
+   "alt": [
+    "Write once run anywhere"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which block always executes in Java exception handling?",
+   "a": "finally",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which keyword in Java declares the exceptions a method may throw?",
+   "a": "throws",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which class type cannot be instantiated?",
+   "a": "Abstract class",
+   "alt": [
+    "Abstract"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the name for ambiguity in multiple inheritance?",
+   "a": "Diamond problem",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Is Java pass-by-value or pass-by-reference?",
+   "a": "Pass-by-value",
+   "alt": [
+    "Pass by value"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What Java operator compares object references?",
+   "a": "==",
+   "alt": [
+    "double equals"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What Java method compares object contents?",
+   "a": "equals",
+   "alt": [
+    "equals()"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "In C++, what does appending \"= 0\" to a virtual function declaration create?",
+   "a": "Pure virtual function",
+   "alt": [
+    "Abstract class"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the default access for members of a C++ class?",
+   "a": "Private",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the default access for members of a C++ struct?",
+   "a": "Public",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does Python use to resolve method order in multiple inheritance?",
+   "a": "MRO",
+   "alt": [
+    "Method Resolution Order",
+    "C3 linearization"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "In JavaScript, what operator checks equality without type coercion?",
+   "a": "===",
+   "alt": [
+    "strict equality"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What does ECMAScript's ES6 correspond to in year?",
+   "a": "2015",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Who created Node.js in 2009?",
+   "a": "Ryan Dahl",
+   "alt": [
+    "Dahl"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the term for a class's dependence on other classes that should be kept low?",
+   "a": "Coupling",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the term for how focused a class is on one purpose that should be kept high?",
+   "a": "Cohesion",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What C++ feature lets a function access private members of a class?",
+   "a": "Friend function",
+   "alt": [
+    "friend"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Java feature automates memory reclamation?",
+   "a": "Garbage collection",
+   "alt": [
+    "Garbage collector"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What UML/OOP relationship is \"has-a\" with independent parts?",
+   "a": "Aggregation",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the strongest has-a relationship, where parts cannot exist without the whole?",
+   "a": "Composition",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which 2011 language by JetBrains is Google's preferred language for Android since 2019?",
+   "a": "Kotlin",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which Java collection class is a dynamic array?",
+   "a": "ArrayList",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the term for an object that cannot be changed after creation?",
+   "a": "Immutable",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does JDK stand for?",
+   "a": "Java Development Kit",
+   "alt": []
+  }
+ ]
+}

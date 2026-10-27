@@ -1,0 +1,1372 @@
+{
+ "id": "sec",
+ "no": "10",
+ "title": "IT Security",
+ "mcq": [
+  {
+   "q": "The CIA triad stands for:",
+   "a": "Confidentiality, Integrity, Availability",
+   "w": [
+    "Control, Integrity, Authentication",
+    "Confidentiality, Identity, Access",
+    "Cryptography, Integrity, Authorization"
+   ]
+  },
+  {
+   "q": "Which element of the CIA triad is protected by encryption?",
+   "a": "Confidentiality",
+   "w": [
+    "Integrity",
+    "Availability",
+    "Non-repudiation"
+   ]
+  },
+  {
+   "q": "Hashing and digital signatures primarily protect:",
+   "a": "Integrity",
+   "w": [
+    "Confidentiality",
+    "Availability",
+    "Anonymity"
+   ]
+  },
+  {
+   "q": "Redundancy, backups and DDoS protection primarily support:",
+   "a": "Availability",
+   "w": [
+    "Confidentiality",
+    "Integrity",
+    "Authenticity"
+   ]
+  },
+  {
+   "q": "AAA stands for:",
+   "a": "Authentication, Authorization, Accounting",
+   "w": [
+    "Access, Authority, Audit",
+    "Authentication, Access, Accountability",
+    "Authorization, Administration, Accounting"
+   ]
+  },
+  {
+   "q": "Which step answers \"Who are you?\"",
+   "a": "Authentication",
+   "w": [
+    "Authorization",
+    "Accounting",
+    "Auditing"
+   ]
+  },
+  {
+   "q": "Which step answers \"What are you allowed to do?\"",
+   "a": "Authorization",
+   "w": [
+    "Authentication",
+    "Accounting",
+    "Identification"
+   ]
+  },
+  {
+   "q": "A weakness in a system that can be exploited is a:",
+   "a": "Vulnerability",
+   "w": [
+    "Threat",
+    "Risk",
+    "Payload"
+   ]
+  },
+  {
+   "q": "A vulnerability unknown to the vendor and unpatched is a:",
+   "a": "Zero-day",
+   "w": [
+    "Legacy bug",
+    "Backdoor",
+    "Patch gap only"
+   ]
+  },
+  {
+   "q": "Giving users only the access they need to do their job is:",
+   "a": "Least privilege",
+   "w": [
+    "Separation of duties",
+    "Defense in depth",
+    "Need-to-know only"
+   ]
+  },
+  {
+   "q": "Using multiple layers of security controls is called:",
+   "a": "Defense in depth",
+   "w": [
+    "Least privilege",
+    "Security by obscurity",
+    "Zero trust only"
+   ]
+  },
+  {
+   "q": "\"Never trust, always verify\" describes:",
+   "a": "Zero trust",
+   "w": [
+    "Defense in depth",
+    "Least privilege",
+    "Security by obscurity"
+   ]
+  },
+  {
+   "q": "Malware that attaches to a host file and needs user action to spread is a:",
+   "a": "Virus",
+   "w": [
+    "Worm",
+    "Trojan",
+    "Rootkit"
+   ]
+  },
+  {
+   "q": "Malware that spreads by itself across networks without user action is a:",
+   "a": "Worm",
+   "w": [
+    "Virus",
+    "Trojan",
+    "Spyware"
+   ]
+  },
+  {
+   "q": "Malware disguised as legitimate software is a:",
+   "a": "Trojan horse",
+   "w": [
+    "Worm",
+    "Virus",
+    "Adware"
+   ]
+  },
+  {
+   "q": "Malware that encrypts files and demands payment is:",
+   "a": "Ransomware",
+   "w": [
+    "Spyware",
+    "Adware",
+    "Rootkit"
+   ]
+  },
+  {
+   "q": "Malware that hides deep in the OS to keep privileged access is a:",
+   "a": "Rootkit",
+   "w": [
+    "Adware",
+    "Keylogger",
+    "Worm"
+   ]
+  },
+  {
+   "q": "Software that records keystrokes is a:",
+   "a": "Keylogger",
+   "w": [
+    "Rootkit",
+    "Botnet",
+    "Adware"
+   ]
+  },
+  {
+   "q": "A network of infected computers controlled remotely is a:",
+   "a": "Botnet",
+   "w": [
+    "Honeynet",
+    "Subnet",
+    "Darknet"
+   ]
+  },
+  {
+   "q": "Malware that triggers when a certain condition or date is met is a:",
+   "a": "Logic bomb",
+   "w": [
+    "Worm",
+    "Trojan",
+    "Spyware"
+   ]
+  },
+  {
+   "q": "The WannaCry attack of 2017 was:",
+   "a": "Ransomware",
+   "w": [
+    "A DDoS",
+    "A phishing campaign",
+    "Adware"
+   ]
+  },
+  {
+   "q": "Which worm, created by a Filipino student in 2000, spread through email?",
+   "a": "ILOVEYOU",
+   "w": [
+    "Melissa",
+    "Code Red",
+    "Slammer"
+   ]
+  },
+  {
+   "q": "Who wrote the ILOVEYOU worm?",
+   "a": "Onel de Guzman",
+   "w": [
+    "Kevin Mitnick",
+    "Robert Morris",
+    "Gary McKinnon"
+   ]
+  },
+  {
+   "q": "Who created the first major Internet worm in 1988?",
+   "a": "Robert Tappan Morris",
+   "w": [
+    "Kevin Mitnick",
+    "Adrian Lamo",
+    "Onel de Guzman"
+   ]
+  },
+  {
+   "q": "Which 2010 malware targeted Iranian nuclear centrifuges?",
+   "a": "Stuxnet",
+   "w": [
+    "WannaCry",
+    "Mirai",
+    "NotPetya"
+   ]
+  },
+  {
+   "q": "Which 2016 botnet used IoT devices to launch massive DDoS attacks?",
+   "a": "Mirai",
+   "w": [
+    "Conficker",
+    "Zeus",
+    "Emotet"
+   ]
+  },
+  {
+   "q": "Phishing carried out via SMS is called:",
+   "a": "Smishing",
+   "w": [
+    "Vishing",
+    "Whaling",
+    "Pharming"
+   ]
+  },
+  {
+   "q": "Phishing carried out via voice calls is called:",
+   "a": "Vishing",
+   "w": [
+    "Smishing",
+    "Quishing",
+    "Spear phishing"
+   ]
+  },
+  {
+   "q": "Phishing aimed at senior executives is called:",
+   "a": "Whaling",
+   "w": [
+    "Spear phishing",
+    "Smishing",
+    "Pharming"
+   ]
+  },
+  {
+   "q": "Phishing that targets a specific individual or organization is called:",
+   "a": "Spear phishing",
+   "w": [
+    "Mass phishing",
+    "Vishing",
+    "Pharming"
+   ]
+  },
+  {
+   "q": "Redirecting users to a fake website by tampering with DNS is:",
+   "a": "Pharming",
+   "w": [
+    "Phishing",
+    "Smishing",
+    "Spoofing only"
+   ]
+  },
+  {
+   "q": "Phishing through QR codes is called:",
+   "a": "Quishing",
+   "w": [
+    "Smishing",
+    "Vishing",
+    "Baiting"
+   ]
+  },
+  {
+   "q": "Following an authorized person into a restricted area is:",
+   "a": "Tailgating",
+   "w": [
+    "Pretexting",
+    "Baiting",
+    "Shoulder surfing"
+   ]
+  },
+  {
+   "q": "Watching someone type a password over their shoulder is:",
+   "a": "Shoulder surfing",
+   "w": [
+    "Tailgating",
+    "Dumpster diving",
+    "Baiting"
+   ]
+  },
+  {
+   "q": "Searching trash for sensitive information is:",
+   "a": "Dumpster diving",
+   "w": [
+    "Shoulder surfing",
+    "Tailgating",
+    "Pretexting"
+   ]
+  },
+  {
+   "q": "Leaving infected USB drives for victims to find is:",
+   "a": "Baiting",
+   "w": [
+    "Pretexting",
+    "Tailgating",
+    "Quid pro quo"
+   ]
+  },
+  {
+   "q": "A DDoS attack aims to:",
+   "a": "Make a service unavailable",
+   "w": [
+    "Steal passwords",
+    "Encrypt files",
+    "Hide malware"
+   ]
+  },
+  {
+   "q": "A SYN flood exploits which protocol step?",
+   "a": "TCP three-way handshake",
+   "w": [
+    "DNS lookup",
+    "ARP request",
+    "DHCP lease"
+   ]
+  },
+  {
+   "q": "Intercepting and possibly altering communication between two parties is a:",
+   "a": "Man-in-the-middle attack",
+   "w": [
+    "Brute force attack",
+    "DDoS attack",
+    "Replay attack"
+   ]
+  },
+  {
+   "q": "Trying every possible password combination is a:",
+   "a": "Brute-force attack",
+   "w": [
+    "Dictionary attack",
+    "Rainbow table attack",
+    "Spraying attack"
+   ]
+  },
+  {
+   "q": "Trying commonly used words as passwords is a:",
+   "a": "Dictionary attack",
+   "w": [
+    "Brute-force attack",
+    "Credential stuffing",
+    "Phishing"
+   ]
+  },
+  {
+   "q": "Using leaked username-password pairs on other sites is:",
+   "a": "Credential stuffing",
+   "w": [
+    "Password spraying",
+    "Brute force",
+    "Keylogging"
+   ]
+  },
+  {
+   "q": "Adding a random value to a password before hashing is called:",
+   "a": "Salting",
+   "w": [
+    "Peppering only",
+    "Encoding",
+    "Obfuscation"
+   ]
+  },
+  {
+   "q": "Salting primarily defends against:",
+   "a": "Rainbow table attacks",
+   "w": [
+    "DDoS",
+    "Phishing",
+    "SQL injection"
+   ]
+  },
+  {
+   "q": "Inserting malicious SQL through user input is:",
+   "a": "SQL injection",
+   "w": [
+    "XSS",
+    "CSRF",
+    "Buffer overflow"
+   ]
+  },
+  {
+   "q": "The best defense against SQL injection is:",
+   "a": "Parameterized queries",
+   "w": [
+    "Longer passwords",
+    "Firewalls only",
+    "Encryption of the database"
+   ]
+  },
+  {
+   "q": "Injecting malicious scripts into pages viewed by other users is:",
+   "a": "Cross-site scripting (XSS)",
+   "w": [
+    "SQL injection",
+    "CSRF",
+    "Clickjacking"
+   ]
+  },
+  {
+   "q": "Tricking an authenticated user's browser into sending unwanted requests is:",
+   "a": "CSRF",
+   "w": [
+    "XSS",
+    "SQL injection",
+    "Session fixation"
+   ]
+  },
+  {
+   "q": "Which is #1 in the OWASP Top 10 (2021)?",
+   "a": "Broken Access Control",
+   "w": [
+    "Injection",
+    "Cryptographic Failures",
+    "Security Misconfiguration"
+   ]
+  },
+  {
+   "q": "OWASP stands for:",
+   "a": "Open Worldwide Application Security Project",
+   "w": [
+    "Online Web Application Security Protocol",
+    "Open Web Authentication Standard Project",
+    "Official Web Application Security Practice"
+   ]
+  },
+  {
+   "q": "Which type of cryptography uses the same key for encryption and decryption?",
+   "a": "Symmetric",
+   "w": [
+    "Asymmetric",
+    "Hashing",
+    "Quantum"
+   ]
+  },
+  {
+   "q": "Which of these is a symmetric encryption algorithm?",
+   "a": "AES",
+   "w": [
+    "RSA",
+    "ECC",
+    "Diffie-Hellman"
+   ]
+  },
+  {
+   "q": "Which of these is an asymmetric algorithm?",
+   "a": "RSA",
+   "w": [
+    "AES",
+    "DES",
+    "ChaCha20"
+   ]
+  },
+  {
+   "q": "Which algorithm was the US standard that replaced DES in 2001?",
+   "a": "AES",
+   "w": [
+    "3DES",
+    "Blowfish",
+    "RC4"
+   ]
+  },
+  {
+   "q": "DES uses a key length of:",
+   "a": "56 bits",
+   "w": [
+    "128 bits",
+    "192 bits",
+    "256 bits"
+   ]
+  },
+  {
+   "q": "Which of these is a hashing algorithm?",
+   "a": "SHA-256",
+   "w": [
+    "AES",
+    "RSA",
+    "Diffie-Hellman"
+   ]
+  },
+  {
+   "q": "How many bits is a SHA-256 digest?",
+   "a": "256",
+   "w": [
+    "128",
+    "160",
+    "512"
+   ]
+  },
+  {
+   "q": "MD5 produces a digest of:",
+   "a": "128 bits",
+   "w": [
+    "160 bits",
+    "256 bits",
+    "64 bits"
+   ]
+  },
+  {
+   "q": "Which algorithm is used for key exchange, developed by Diffie and Hellman?",
+   "a": "Diffie-Hellman",
+   "w": [
+    "RSA",
+    "AES",
+    "SHA"
+   ]
+  },
+  {
+   "q": "A digital signature is created using the sender's:",
+   "a": "Private key",
+   "w": [
+    "Public key",
+    "Session key",
+    "Hash only"
+   ]
+  },
+  {
+   "q": "Messages encrypted with a public key can be decrypted with:",
+   "a": "The matching private key",
+   "w": [
+    "The same public key",
+    "Any key",
+    "A hash"
+   ]
+  },
+  {
+   "q": "A digital certificate is issued by a:",
+   "a": "Certificate Authority",
+   "w": [
+    "Internet Service Provider",
+    "Domain registrar only",
+    "Firewall"
+   ]
+  },
+  {
+   "q": "The Caesar cipher with shift 3 turns HELLO into:",
+   "a": "KHOOR",
+   "w": [
+    "IFMMP",
+    "EBIIL",
+    "JGNNQ"
+   ]
+  },
+  {
+   "q": "The only theoretically unbreakable cipher when used correctly is the:",
+   "a": "One-time pad",
+   "w": [
+    "Caesar cipher",
+    "Vigenere cipher",
+    "DES"
+   ]
+  },
+  {
+   "q": "Hiding data inside images or other files is:",
+   "a": "Steganography",
+   "w": [
+    "Cryptography",
+    "Encoding",
+    "Hashing"
+   ]
+  },
+  {
+   "q": "TLS is the successor of:",
+   "a": "SSL",
+   "w": [
+    "SSH",
+    "IPsec",
+    "PGP"
+   ]
+  },
+  {
+   "q": "HTTPS uses TLS on which port by default?",
+   "a": "443",
+   "w": [
+    "80",
+    "22",
+    "8080"
+   ]
+  },
+  {
+   "q": "Which quantum algorithm threatens RSA and ECC?",
+   "a": "Shor's algorithm",
+   "w": [
+    "Grover's algorithm",
+    "Dijkstra's algorithm",
+    "Simon's algorithm only"
+   ]
+  },
+  {
+   "q": "Which NIST post-quantum standard is a key-encapsulation mechanism (Kyber)?",
+   "a": "ML-KEM",
+   "w": [
+    "ML-DSA",
+    "SLH-DSA",
+    "AES-GCM"
+   ]
+  },
+  {
+   "q": "MFA combines at least two of which factor types?",
+   "a": "Something you know, have, or are",
+   "w": [
+    "Two passwords",
+    "Two usernames",
+    "Two security questions"
+   ]
+  },
+  {
+   "q": "A fingerprint is an example of:",
+   "a": "Something you are",
+   "w": [
+    "Something you know",
+    "Something you have",
+    "Somewhere you are"
+   ]
+  },
+  {
+   "q": "A smart card or token is:",
+   "a": "Something you have",
+   "w": [
+    "Something you know",
+    "Something you are",
+    "Something you do"
+   ]
+  },
+  {
+   "q": "Which passwordless, phishing-resistant standard underlies passkeys?",
+   "a": "FIDO2/WebAuthn",
+   "w": [
+    "SAML",
+    "RADIUS",
+    "LDAP"
+   ]
+  },
+  {
+   "q": "Which access control model assigns permissions based on job roles?",
+   "a": "RBAC",
+   "w": [
+    "DAC",
+    "MAC",
+    "ABAC"
+   ]
+  },
+  {
+   "q": "In which access control model does the owner decide who has access?",
+   "a": "DAC",
+   "w": [
+    "MAC",
+    "RBAC",
+    "ABAC"
+   ]
+  },
+  {
+   "q": "Which system detects and alerts about suspicious traffic but does not block it?",
+   "a": "IDS",
+   "w": [
+    "IPS",
+    "WAF",
+    "NGFW"
+   ]
+  },
+  {
+   "q": "Which system detects and actively blocks malicious traffic?",
+   "a": "IPS",
+   "w": [
+    "IDS",
+    "SIEM",
+    "Honeypot"
+   ]
+  },
+  {
+   "q": "A network segment between the internet and the internal network hosting public servers is a:",
+   "a": "DMZ",
+   "w": [
+    "VLAN",
+    "VPN",
+    "NAT"
+   ]
+  },
+  {
+   "q": "Which device protects web applications against SQLi and XSS at Layer 7?",
+   "a": "WAF",
+   "w": [
+    "Hub",
+    "Router",
+    "Switch"
+   ]
+  },
+  {
+   "q": "A decoy system used to lure attackers is a:",
+   "a": "Honeypot",
+   "w": [
+    "Firewall",
+    "Proxy",
+    "Sandbox"
+   ]
+  },
+  {
+   "q": "SIEM stands for:",
+   "a": "Security Information and Event Management",
+   "w": [
+    "System Integration and Event Monitoring",
+    "Secure Internet Email Management",
+    "Security Intrusion and Endpoint Management"
+   ]
+  },
+  {
+   "q": "Which tool is a popular network packet analyzer?",
+   "a": "Wireshark",
+   "w": [
+    "Nmap",
+    "Metasploit",
+    "Burp Suite"
+   ]
+  },
+  {
+   "q": "Which tool is a popular network scanner?",
+   "a": "Nmap",
+   "w": [
+    "Wireshark",
+    "John the Ripper",
+    "Hydra"
+   ]
+  },
+  {
+   "q": "Which framework is widely used for exploit development and penetration testing?",
+   "a": "Metasploit",
+   "w": [
+    "Snort",
+    "Splunk",
+    "Zeek"
+   ]
+  },
+  {
+   "q": "Which Linux distribution is designed for penetration testing?",
+   "a": "Kali Linux",
+   "w": [
+    "Ubuntu",
+    "Fedora",
+    "Alpine"
+   ]
+  },
+  {
+   "q": "The first phase of a penetration test is generally:",
+   "a": "Reconnaissance",
+   "w": [
+    "Exploitation",
+    "Reporting",
+    "Covering tracks"
+   ]
+  },
+  {
+   "q": "In a pen test, a black-box tester has:",
+   "a": "No prior knowledge of the system",
+   "w": [
+    "Full knowledge",
+    "Source code only",
+    "Admin access"
+   ]
+  },
+  {
+   "q": "CVE stands for:",
+   "a": "Common Vulnerabilities and Exposures",
+   "w": [
+    "Critical Vulnerability Evaluation",
+    "Cyber Vulnerability Engine",
+    "Computer Virus Event"
+   ]
+  },
+  {
+   "q": "CVSS provides:",
+   "a": "A severity score from 0 to 10",
+   "w": [
+    "A list of malware",
+    "A password strength rating",
+    "A firewall rule set"
+   ]
+  },
+  {
+   "q": "The NIST Cybersecurity Framework core functions include:",
+   "a": "Identify, Protect, Detect, Respond, Recover",
+   "w": [
+    "Plan, Do, Check, Act",
+    "Prevent, Detect, Correct",
+    "Assess, Block, Monitor, Report"
+   ]
+  },
+  {
+   "q": "RTO stands for:",
+   "a": "Recovery Time Objective",
+   "w": [
+    "Recovery Test Operation",
+    "Real-Time Output",
+    "Risk Tolerance Objective"
+   ]
+  },
+  {
+   "q": "RPO represents:",
+   "a": "The maximum acceptable data loss measured in time",
+   "w": [
+    "The maximum downtime",
+    "The cost of recovery",
+    "The backup size"
+   ]
+  },
+  {
+   "q": "Which Philippine law is the Data Privacy Act?",
+   "a": "RA 10173",
+   "w": [
+    "RA 10175",
+    "RA 8792",
+    "RA 11934"
+   ]
+  },
+  {
+   "q": "Which Philippine law is the Cybercrime Prevention Act of 2012?",
+   "a": "RA 10175",
+   "w": [
+    "RA 10173",
+    "RA 8484",
+    "RA 9995"
+   ]
+  },
+  {
+   "q": "Which agency enforces the Data Privacy Act?",
+   "a": "National Privacy Commission",
+   "w": [
+    "DICT",
+    "NBI",
+    "CICC"
+   ]
+  },
+  {
+   "q": "How soon must a personal data breach be reported to the NPC under the Data Privacy Act rules?",
+   "a": "72 hours",
+   "w": [
+    "24 hours",
+    "7 days",
+    "30 days"
+   ]
+  },
+  {
+   "q": "Which Philippine law penalizes access device fraud, such as credit card fraud?",
+   "a": "RA 8484",
+   "w": [
+    "RA 10175",
+    "RA 9995",
+    "RA 8792"
+   ]
+  },
+  {
+   "q": "Which Philippine law prohibits photo and video voyeurism?",
+   "a": "RA 9995",
+   "w": [
+    "RA 9775",
+    "RA 10173",
+    "RA 4200"
+   ]
+  },
+  {
+   "q": "Which Philippine law is the Anti-Wiretapping Act?",
+   "a": "RA 4200",
+   "w": [
+    "RA 10175",
+    "RA 8792",
+    "RA 10844"
+   ]
+  },
+  {
+   "q": "Which Philippine law created the Department of Information and Communications Technology?",
+   "a": "RA 10844",
+   "w": [
+    "RA 10173",
+    "RA 10175",
+    "RA 11934"
+   ]
+  },
+  {
+   "q": "Which law penalizes money mules and social-engineering account scams (2024)?",
+   "a": "RA 12010 (AFASA)",
+   "w": [
+    "RA 11934",
+    "RA 10175",
+    "RA 11967"
+   ]
+  },
+  {
+   "q": "The cloud shared responsibility model means:",
+   "a": "The provider secures the cloud and the customer secures what they put in it",
+   "w": [
+    "The customer is solely responsible",
+    "The provider is solely responsible",
+    "Both share equally every control"
+   ]
+  },
+  {
+   "q": "Prompt injection is an attack against:",
+   "a": "AI/LLM applications",
+   "w": [
+    "SQL databases only",
+    "Routers",
+    "Hard disks"
+   ]
+  },
+  {
+   "q": "CrowdStrike's July 2024 global outage was caused by:",
+   "a": "A faulty software update",
+   "w": [
+    "A ransomware attack",
+    "A DDoS attack",
+    "A nation-state intrusion"
+   ]
+  },
+  {
+   "q": "The Log4Shell vulnerability affected which library?",
+   "a": "Log4j",
+   "w": [
+    "OpenSSL",
+    "Bash",
+    "Struts"
+   ]
+  },
+  {
+   "q": "The Heartbleed bug affected:",
+   "a": "OpenSSL",
+   "w": [
+    "Log4j",
+    "SMB",
+    "Flash"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "d": "E",
+   "q": "What does CIA stand for in security?",
+   "a": "Confidentiality, Integrity, Availability",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does AAA stand for?",
+   "a": "Authentication, Authorization, Accounting",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What type of malware encrypts files and demands payment?",
+   "a": "Ransomware",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What type of malware self-replicates across networks?",
+   "a": "Worm",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What type of malware is disguised as legitimate software?",
+   "a": "Trojan",
+   "alt": [
+    "Trojan horse"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What is phishing via SMS called?",
+   "a": "Smishing",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is phishing via voice calls called?",
+   "a": "Vishing",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does DDoS stand for?",
+   "a": "Distributed Denial of Service",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does MFA stand for?",
+   "a": "Multi-Factor Authentication",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does VPN stand for?",
+   "a": "Virtual Private Network",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does OTP stand for?",
+   "a": "One-Time Password",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What security device filters network traffic?",
+   "a": "Firewall",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which Filipino created the ILOVEYOU worm?",
+   "a": "Onel de Guzman",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is phishing aimed at executives called?",
+   "a": "Whaling",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What attack redirects users to fake sites via DNS?",
+   "a": "Pharming",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What attack intercepts communication between two parties?",
+   "a": "Man-in-the-middle",
+   "alt": [
+    "MITM"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What malware hides deep in the OS to keep access?",
+   "a": "Rootkit",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is a network of infected machines called?",
+   "a": "Botnet",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What defense stops SQL injection?",
+   "a": "Parameterized queries",
+   "alt": [
+    "Prepared statements"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does XSS stand for?",
+   "a": "Cross-Site Scripting",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does CSRF stand for?",
+   "a": "Cross-Site Request Forgery",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the #1 OWASP Top 10 (2021) risk?",
+   "a": "Broken Access Control",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What type of encryption uses one shared key?",
+   "a": "Symmetric",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What type of encryption uses a public and a private key?",
+   "a": "Asymmetric",
+   "alt": [
+    "Public-key"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Name a symmetric encryption algorithm.",
+   "a": "AES",
+   "alt": [
+    "DES",
+    "3DES"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Name an asymmetric encryption algorithm.",
+   "a": "RSA",
+   "alt": [
+    "ECC"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What key does a sender use to create a digital signature?",
+   "a": "Private key",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is added to a password before hashing to defeat rainbow tables?",
+   "a": "Salt",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the successor of SSL?",
+   "a": "TLS",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does IDS stand for?",
+   "a": "Intrusion Detection System",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does IPS stand for?",
+   "a": "Intrusion Prevention System",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the name of the screened subnet for public-facing servers?",
+   "a": "DMZ",
+   "alt": [
+    "Demilitarized Zone"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which tool is a packet analyzer?",
+   "a": "Wireshark",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which tool is a port scanner?",
+   "a": "Nmap",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which Linux distribution is built for penetration testing?",
+   "a": "Kali Linux",
+   "alt": [
+    "Kali"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which Philippine law is the Data Privacy Act?",
+   "a": "RA 10173",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which Philippine law is the Cybercrime Prevention Act?",
+   "a": "RA 10175",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What are the five NIST CSF core functions (original)?",
+   "a": "Identify, Protect, Detect, Respond, Recover",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What function did NIST CSF 2.0 add?",
+   "a": "Govern",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does CVE stand for?",
+   "a": "Common Vulnerabilities and Exposures",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does CVSS stand for?",
+   "a": "Common Vulnerability Scoring System",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does RTO stand for?",
+   "a": "Recovery Time Objective",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does RPO stand for?",
+   "a": "Recovery Point Objective",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does STRIDE stand for in threat modeling?",
+   "a": "Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which quantum algorithm breaks RSA?",
+   "a": "Shor's algorithm",
+   "alt": [
+    "Shor"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which NIST standard (FIPS 203) is based on Kyber?",
+   "a": "ML-KEM",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which key length does DES use in bits?",
+   "a": "56",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the digest size of SHA-256 in bits?",
+   "a": "256",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the digest size of MD5 in bits?",
+   "a": "128",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which attack tries one password across many accounts?",
+   "a": "Password spraying",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which attack reuses leaked credentials on other sites?",
+   "a": "Credential stuffing",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the term for hiding data inside images?",
+   "a": "Steganography",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the only theoretically unbreakable cipher?",
+   "a": "One-time pad",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the Caesar cipher (shift 3) result for HELLO?",
+   "a": "KHOOR",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which Lockheed Martin model has 7 steps from reconnaissance to actions on objectives?",
+   "a": "Cyber Kill Chain",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which framework by MITRE catalogs adversary tactics and techniques?",
+   "a": "ATT&CK",
+   "alt": [
+    "MITRE ATT&CK"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the deadline for reporting a data breach to the NPC?",
+   "a": "72 hours",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which Philippine law is the SIM Registration Act?",
+   "a": "RA 11934",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which Philippine law is AFASA?",
+   "a": "RA 12010",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which Philippine law created the DICT?",
+   "a": "RA 10844",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which Philippine agency handles cybercrime coordination (CICC)?",
+   "a": "Cybercrime Investigation and Coordinating Center",
+   "alt": [
+    "CICC"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which 1988 worm was created by Robert Tappan Morris?",
+   "a": "Morris worm",
+   "alt": [
+    "Morris"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which 2010 malware attacked Iranian centrifuges?",
+   "a": "Stuxnet",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which 2017 ransomware used the EternalBlue exploit?",
+   "a": "WannaCry",
+   "alt": []
+  }
+ ]
+}

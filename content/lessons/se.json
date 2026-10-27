@@ -1,0 +1,1083 @@
+{
+ "id": "se",
+ "no": "4",
+ "title": "Software Engineering",
+ "mcq": [
+  {
+   "q": "The term \"software engineering\" was popularized at which 1968 event?",
+   "a": "NATO conference",
+   "w": [
+    "ACM Turing banquet",
+    "IEEE Computer Congress",
+    "ISO summit"
+   ]
+  },
+  {
+   "q": "\"Adding people to a late software project makes it later\" is known as:",
+   "a": "Brooks's Law",
+   "w": [
+    "Conway's Law",
+    "Moore's Law",
+    "Parkinson's Law"
+   ]
+  },
+  {
+   "q": "\"System design mirrors the organization's communication structure\" is:",
+   "a": "Conway's Law",
+   "w": [
+    "Brooks's Law",
+    "Amdahl's Law",
+    "Metcalfe's Law"
+   ]
+  },
+  {
+   "q": "The coach's three sources of IT projects are:",
+   "a": "Problem, opportunity, directive",
+   "w": [
+    "Cost, time, scope",
+    "Plan, build, run",
+    "Need, want, wish"
+   ]
+  },
+  {
+   "q": "The \"iron triangle\" of project management consists of:",
+   "a": "Scope, time and cost",
+   "w": [
+    "People, process and product",
+    "Plan, risk and quality",
+    "Design, code and test"
+   ]
+  },
+  {
+   "q": "CMMI Level 5 is called:",
+   "a": "Optimizing",
+   "w": [
+    "Defined",
+    "Managed",
+    "Initial"
+   ]
+  },
+  {
+   "q": "Which is the oldest and most rigid, linear sequential SDLC model?",
+   "a": "Waterfall",
+   "w": [
+    "Spiral",
+    "Agile",
+    "RAD"
+   ]
+  },
+  {
+   "q": "Which model pairs each development phase with a corresponding testing phase?",
+   "a": "V-Model",
+   "w": [
+    "Waterfall",
+    "Spiral",
+    "Big Bang"
+   ]
+  },
+  {
+   "q": "Which model is risk-driven with phases Planning, Risk Analysis, Engineering and Evaluation?",
+   "a": "Spiral",
+   "w": [
+    "Waterfall",
+    "Incremental",
+    "Prototyping"
+   ]
+  },
+  {
+   "q": "Which model is associated with Barry Boehm and risk analysis?",
+   "a": "Spiral",
+   "w": [
+    "V-Model",
+    "RAD",
+    "Kanban"
+   ]
+  },
+  {
+   "q": "Which SDLC approach says \"fast failure\" is good and is stakeholder-driven?",
+   "a": "Agile",
+   "w": [
+    "Waterfall",
+    "Big Bang",
+    "V-Model"
+   ]
+  },
+  {
+   "q": "Which SDLC model has little or no planning and is suitable only for tiny or experimental projects?",
+   "a": "Big Bang",
+   "w": [
+    "Waterfall",
+    "Spiral",
+    "V-Model"
+   ]
+  },
+  {
+   "q": "Fixing bugs after release is which type of maintenance?",
+   "a": "Corrective",
+   "w": [
+    "Adaptive",
+    "Perfective",
+    "Preventive"
+   ]
+  },
+  {
+   "q": "Updating software to work in a new operating system is which type of maintenance?",
+   "a": "Adaptive",
+   "w": [
+    "Corrective",
+    "Perfective",
+    "Preventive"
+   ]
+  },
+  {
+   "q": "Which of the following is a value of the Agile Manifesto?",
+   "a": "Working software over comprehensive documentation",
+   "w": [
+    "Processes and tools over individuals",
+    "Contract negotiation over customer collaboration",
+    "Following a plan over responding to change"
+   ]
+  },
+  {
+   "q": "In Scrum, which role maximizes the value of the product and manages the backlog?",
+   "a": "Product Owner",
+   "w": [
+    "Scrum Master",
+    "Developer",
+    "Stakeholder"
+   ]
+  },
+  {
+   "q": "How long is the Daily Scrum?",
+   "a": "15 minutes",
+   "w": [
+    "30 minutes",
+    "1 hour",
+    "8 hours"
+   ]
+  },
+  {
+   "q": "The maximum length of a Sprint is:",
+   "a": "One month",
+   "w": [
+    "Two weeks",
+    "Six weeks",
+    "Three months"
+   ]
+  },
+  {
+   "q": "Which Scrum artifact lists everything that might be needed in the product?",
+   "a": "Product Backlog",
+   "w": [
+    "Sprint Backlog",
+    "Increment",
+    "Burndown chart"
+   ]
+  },
+  {
+   "q": "Which methodology uses a visual board with WIP limits?",
+   "a": "Kanban",
+   "w": [
+    "Scrum",
+    "Waterfall",
+    "Spiral"
+   ]
+  },
+  {
+   "q": "Which Agile method emphasizes pair programming, TDD and small releases?",
+   "a": "Extreme Programming (XP)",
+   "w": [
+    "Kanban",
+    "Scrum",
+    "RUP"
+   ]
+  },
+  {
+   "q": "Who created Git in 2005?",
+   "a": "Linus Torvalds",
+   "w": [
+    "Richard Stallman",
+    "Guido van Rossum",
+    "Ken Thompson"
+   ]
+  },
+  {
+   "q": "Which word should a requirement use to state a mandatory item?",
+   "a": "Shall",
+   "w": [
+    "May",
+    "Might",
+    "Could"
+   ]
+  },
+  {
+   "q": "A good requirement describes:",
+   "a": "What, not how",
+   "w": [
+    "How, not what",
+    "Only the technology",
+    "Only the budget"
+   ]
+  },
+  {
+   "q": "\"The system shall respond within 2 seconds\" is a:",
+   "a": "Non-functional requirement",
+   "w": [
+    "Functional requirement",
+    "User story",
+    "Constraint on the budget"
+   ]
+  },
+  {
+   "q": "\"The system shall allow users to log in\" is a:",
+   "a": "Functional requirement",
+   "w": [
+    "Non-functional requirement",
+    "Domain constraint",
+    "Quality attribute"
+   ]
+  },
+  {
+   "q": "Which technique uses a fishbone diagram for cause-and-effect analysis?",
+   "a": "Ishikawa",
+   "w": [
+    "Pareto",
+    "Gantt",
+    "PERT"
+   ]
+  },
+  {
+   "q": "MoSCoW prioritization stands for:",
+   "a": "Must, Should, Could, Won't",
+   "w": [
+    "Manage, Steer, Control, Operate, Work",
+    "Measure, Support, Check, Observe, Wrap",
+    "Mandatory, Standard, Core, Optional, Wanted"
+   ]
+  },
+  {
+   "q": "The SQuaRE series of standards is:",
+   "a": "ISO/IEC 25000",
+   "w": [
+    "ISO 9001",
+    "ISO/IEC 27001",
+    "ISO/IEC 12207"
+   ]
+  },
+  {
+   "q": "ISO/IEC 25010 (2023) has how many product quality characteristics?",
+   "a": "9",
+   "w": [
+    "8",
+    "6",
+    "10"
+   ]
+  },
+  {
+   "q": "In the 2023 revision of ISO/IEC 25010, \"Usability\" was renamed to:",
+   "a": "Interaction Capability",
+   "w": [
+    "User Experience",
+    "Operability",
+    "Accessibility"
+   ]
+  },
+  {
+   "q": "In the 2023 revision of ISO/IEC 25010, \"Portability\" was renamed to:",
+   "a": "Flexibility",
+   "w": [
+    "Adaptability",
+    "Compatibility",
+    "Transferability"
+   ]
+  },
+  {
+   "q": "Which characteristic was newly added in ISO/IEC 25010:2023?",
+   "a": "Safety",
+   "w": [
+    "Security",
+    "Reliability",
+    "Maintainability"
+   ]
+  },
+  {
+   "q": "\"Are we building the product right?\" refers to:",
+   "a": "Verification",
+   "w": [
+    "Validation",
+    "Acceptance",
+    "Certification"
+   ]
+  },
+  {
+   "q": "\"Are we building the right product?\" refers to:",
+   "a": "Validation",
+   "w": [
+    "Verification",
+    "Debugging",
+    "Refactoring"
+   ]
+  },
+  {
+   "q": "The order of testing levels is:",
+   "a": "Unit, integration, system, acceptance",
+   "w": [
+    "System, unit, integration, acceptance",
+    "Acceptance, system, unit, integration",
+    "Integration, unit, acceptance, system"
+   ]
+  },
+  {
+   "q": "Testing without knowledge of the code's internal structure is:",
+   "a": "Black-box testing",
+   "w": [
+    "White-box testing",
+    "Glass-box testing",
+    "Path testing"
+   ]
+  },
+  {
+   "q": "A stub in integration testing is a:",
+   "a": "Fake called module",
+   "w": [
+    "Fake calling module",
+    "Real database",
+    "Test report"
+   ]
+  },
+  {
+   "q": "The TDD cycle is:",
+   "a": "Red, Green, Refactor",
+   "w": [
+    "Plan, Do, Check, Act",
+    "Code, Build, Test",
+    "Given, When, Then"
+   ]
+  },
+  {
+   "q": "The PERT three-point estimate is:",
+   "a": "(O + 4M + P) / 6",
+   "w": [
+    "(O + M + P) / 3",
+    "(O + 2M + P) / 4",
+    "(4O + M + P) / 6"
+   ]
+  },
+  {
+   "q": "Which model estimates software cost and was devised by Barry Boehm?",
+   "a": "COCOMO",
+   "w": [
+    "PERT",
+    "CPM",
+    "Kanban"
+   ]
+  },
+  {
+   "q": "Which diagram shows a context diagram as Level 0?",
+   "a": "Data Flow Diagram",
+   "w": [
+    "ER Diagram",
+    "Class diagram",
+    "State diagram"
+   ]
+  },
+  {
+   "q": "A Level 0 DFD is also known as a:",
+   "a": "Context diagram",
+   "w": [
+    "Detailed diagram",
+    "Physical DFD",
+    "Structure chart"
+   ]
+  },
+  {
+   "q": "The \"Three Amigos\" who created UML are:",
+   "a": "Booch, Jacobson, Rumbaugh",
+   "w": [
+    "Gamma, Helm, Johnson",
+    "Beck, Fowler, Martin",
+    "Codd, Chen, Date"
+   ]
+  },
+  {
+   "q": "UML is standardized by which organization?",
+   "a": "Object Management Group (OMG)",
+   "w": [
+    "IEEE",
+    "W3C",
+    "ISO only"
+   ]
+  },
+  {
+   "q": "How many diagram types does UML 2.x define?",
+   "a": "14",
+   "w": [
+    "9",
+    "12",
+    "7"
+   ]
+  },
+  {
+   "q": "Which is a UML structural diagram?",
+   "a": "Class diagram",
+   "w": [
+    "Sequence diagram",
+    "Activity diagram",
+    "Use case diagram"
+   ]
+  },
+  {
+   "q": "Which is a UML behavioral diagram?",
+   "a": "Sequence diagram",
+   "w": [
+    "Component diagram",
+    "Deployment diagram",
+    "Package diagram"
+   ]
+  },
+  {
+   "q": "In a UML class diagram, which symbol marks a private member?",
+   "a": "-",
+   "w": [
+    "+",
+    "#",
+    "~"
+   ]
+  },
+  {
+   "q": "In a UML class diagram, \"#\" denotes:",
+   "a": "Protected",
+   "w": [
+    "Private",
+    "Public",
+    "Package"
+   ]
+  },
+  {
+   "q": "A filled diamond on a UML association denotes:",
+   "a": "Composition",
+   "w": [
+    "Aggregation",
+    "Generalization",
+    "Dependency"
+   ]
+  },
+  {
+   "q": "A hollow diamond on a UML association denotes:",
+   "a": "Aggregation",
+   "w": [
+    "Composition",
+    "Realization",
+    "Association class"
+   ]
+  },
+  {
+   "q": "A hollow triangle arrow with a solid line denotes:",
+   "a": "Generalization (inheritance)",
+   "w": [
+    "Realization",
+    "Dependency",
+    "Aggregation"
+   ]
+  },
+  {
+   "q": "A dashed arrow in a class diagram typically denotes:",
+   "a": "Dependency",
+   "w": [
+    "Inheritance",
+    "Composition",
+    "Association"
+   ]
+  },
+  {
+   "q": "In a use case diagram, an <<include>> relationship means the included use case is:",
+   "a": "Always required",
+   "w": [
+    "Optional",
+    "Deleted",
+    "A generalization"
+   ]
+  },
+  {
+   "q": "In a use case diagram, an <<extend>> relationship means the extension is:",
+   "a": "Optional or conditional",
+   "w": [
+    "Mandatory",
+    "A system actor",
+    "A boundary"
+   ]
+  },
+  {
+   "q": "Which diagram shows messages between lifelines along a vertical time axis?",
+   "a": "Sequence diagram",
+   "w": [
+    "Activity diagram",
+    "State diagram",
+    "Component diagram"
+   ]
+  },
+  {
+   "q": "Which diagram models a workflow with decisions, fork and join bars and swimlanes?",
+   "a": "Activity diagram",
+   "w": [
+    "Sequence diagram",
+    "Class diagram",
+    "Object diagram"
+   ]
+  },
+  {
+   "q": "Kruchten's 4+1 view model includes which views?",
+   "a": "Logical, Process, Development, Physical + Scenarios",
+   "w": [
+    "Context, Container, Component, Code + Users",
+    "Data, Process, Network, Logic + Time",
+    "Business, Application, Data, Technology + Motivation"
+   ]
+  },
+  {
+   "q": "How many design patterns are described in the Gang of Four book?",
+   "a": "23",
+   "w": [
+    "12",
+    "30",
+    "15"
+   ]
+  },
+  {
+   "q": "Which GoF pattern notifies dependent objects when an object's state changes?",
+   "a": "Observer",
+   "w": [
+    "Singleton",
+    "Adapter",
+    "Facade"
+   ]
+  },
+  {
+   "q": "Which GoF pattern provides a simplified interface to a group of related classes?",
+   "a": "Facade",
+   "w": [
+    "Adapter",
+    "Proxy",
+    "Bridge"
+   ]
+  },
+  {
+   "q": "Which GoF pattern ensures that a class has only one instance?",
+   "a": "Singleton",
+   "w": [
+    "Factory Method",
+    "Builder",
+    "Prototype"
+   ]
+  },
+  {
+   "q": "Which pattern adds responsibilities to an object dynamically at run time?",
+   "a": "Decorator",
+   "w": [
+    "Iterator",
+    "Composite",
+    "Flyweight"
+   ]
+  },
+  {
+   "q": "In SOLID, the \"S\" stands for:",
+   "a": "Single Responsibility",
+   "w": [
+    "Segregation",
+    "Substitution",
+    "Scalability"
+   ]
+  },
+  {
+   "q": "In SOLID, the \"L\" stands for:",
+   "a": "Liskov Substitution",
+   "w": [
+    "Layered Design",
+    "Late Binding",
+    "Loose Coupling"
+   ]
+  },
+  {
+   "q": "MVC stands for:",
+   "a": "Model-View-Controller",
+   "w": [
+    "Model-Variable-Control",
+    "Module-View-Class",
+    "Master-View-Controller"
+   ]
+  },
+  {
+   "q": "Which GPL-style license is \"copyleft\", requiring derivative works to be open source?",
+   "a": "GPL",
+   "w": [
+    "BSD",
+    "MIT",
+    "Apache"
+   ]
+  },
+  {
+   "q": "Which open source license is non-reciprocal (permissive)?",
+   "a": "BSD",
+   "w": [
+    "GPL",
+    "AGPL",
+    "Copyleft"
+   ]
+  },
+  {
+   "q": "Who founded the Free Software Foundation in 1985?",
+   "a": "Richard Stallman",
+   "w": [
+    "Linus Torvalds",
+    "Eric Raymond",
+    "Bruce Perens"
+   ]
+  },
+  {
+   "q": "Which integration method connects subsystems in a chain through an Enterprise Service Bus?",
+   "a": "Horizontal integration",
+   "w": [
+    "Vertical integration",
+    "Star integration",
+    "Common data format"
+   ]
+  },
+  {
+   "q": "Which integration method is called \"spaghetti integration\"?",
+   "a": "Star integration",
+   "w": [
+    "Horizontal",
+    "Vertical",
+    "Common data format"
+   ]
+  },
+  {
+   "q": "Vertical integration links systems:",
+   "a": "By functional level, from operational to management",
+   "w": [
+    "In a chain via an ESB",
+    "By one shared database only",
+    "Only across companies"
+   ]
+  },
+  {
+   "q": "Bolman and Deal's four frames are:",
+   "a": "Structural, Human Resource, Political, Symbolic",
+   "w": [
+    "Structural, Financial, Political, Cultural",
+    "People, Process, Product, Profit",
+    "Strategic, Tactical, Operational, Symbolic"
+   ]
+  },
+  {
+   "q": "Which organizational structure groups employees by both function and product team?",
+   "a": "Matrix",
+   "w": [
+    "Functional",
+    "Divisional",
+    "Project-based"
+   ]
+  },
+  {
+   "q": "Which organization structure groups people by tasks or skills, enabling quick decisions?",
+   "a": "Functional",
+   "w": [
+    "Matrix",
+    "Divisional",
+    "Network"
+   ]
+  },
+  {
+   "q": "In Blender, the process of unwrapping a 3D mesh to apply a 2D image is called:",
+   "a": "UV mapping",
+   "w": [
+    "Baking",
+    "Rigging",
+    "Sculpting"
+   ]
+  },
+  {
+   "q": "In Blender, pre-computing shaders or lighting into an image to speed up rendering is called:",
+   "a": "Baking",
+   "w": [
+    "Unwrapping",
+    "Rigging",
+    "Retopology"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "d": "E",
+   "q": "What does SDLC stand for?",
+   "a": "System Development Life Cycle",
+   "alt": [
+    "Software Development Life Cycle"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What is the oldest linear sequential SDLC model?",
+   "a": "Waterfall",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does UML stand for?",
+   "a": "Unified Modeling Language",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does MVC stand for?",
+   "a": "Model-View-Controller",
+   "alt": [
+    "Model View Controller"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What model emphasizes iterative delivery and customer collaboration, with a 2001 manifesto?",
+   "a": "Agile",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which Scrum role manages the product backlog?",
+   "a": "Product Owner",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "How many minutes is the Daily Scrum?",
+   "a": "15",
+   "alt": [
+    "15 minutes"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who created Git?",
+   "a": "Linus Torvalds",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the word used in requirements to indicate mandatory?",
+   "a": "Shall",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What type of requirement describes what the system does?",
+   "a": "Functional",
+   "alt": [
+    "Functional requirement"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What type of requirement describes qualities like performance and security?",
+   "a": "Non-functional",
+   "alt": [
+    "Non-functional requirement"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What are the three sources of IT projects according to the coach?",
+   "a": "Problem, opportunity, directive",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What model has Planning, Risk Analysis, Engineering and Evaluation quadrants?",
+   "a": "Spiral",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which model pairs each development phase with a test phase?",
+   "a": "V-Model",
+   "alt": [
+    "V model"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What type of maintenance fixes bugs?",
+   "a": "Corrective",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What type of maintenance adapts the system to a new environment?",
+   "a": "Adaptive",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the ISO/IEC standard for software product quality?",
+   "a": "ISO/IEC 25010",
+   "alt": [
+    "25010"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "In ISO/IEC 25010:2023, what was Usability renamed to?",
+   "a": "Interaction Capability",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "In ISO/IEC 25010:2023, what was Portability renamed to?",
+   "a": "Flexibility",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What new characteristic did ISO/IEC 25010:2023 add?",
+   "a": "Safety",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does \"Are we building the product right?\" describe?",
+   "a": "Verification",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does \"Are we building the right product?\" describe?",
+   "a": "Validation",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Who are the Three Amigos of UML?",
+   "a": "Booch, Jacobson, Rumbaugh",
+   "alt": [
+    "Grady Booch, Ivar Jacobson, James Rumbaugh"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does a filled diamond in UML represent?",
+   "a": "Composition",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does a hollow diamond in UML represent?",
+   "a": "Aggregation",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is another name for a Level 0 DFD?",
+   "a": "Context diagram",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the 4+1 views?",
+   "a": "Logical, Process, Development, Physical, Scenarios",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "How many design patterns does the Gang of Four book describe?",
+   "a": "23",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which design pattern notifies objects of a state change?",
+   "a": "Observer",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which design pattern provides a simplified interface to a subsystem?",
+   "a": "Facade",
+   "alt": [
+    "Façade"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which testing level comes right after unit testing?",
+   "a": "Integration testing",
+   "alt": [
+    "Integration"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is Brooks's Law?",
+   "a": "Adding people to a late project makes it later",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is Conway's Law?",
+   "a": "System design mirrors the organization's communication structure",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What are the 5 CMMI levels?",
+   "a": "Initial, Managed, Defined, Quantitatively Managed, Optimizing",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does MoSCoW stand for?",
+   "a": "Must, Should, Could, Won't",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which fishbone technique, named after a Japanese professor, shows cause-and-effect?",
+   "a": "Ishikawa",
+   "alt": [
+    "Ishikawa diagram"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the formula for PERT estimate?",
+   "a": "(O + 4M + P) / 6",
+   "alt": [
+    "(O+4M+P)/6"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which model estimates software cost and was created by Boehm?",
+   "a": "COCOMO",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the name of the UML relationship that is dashed and shows one element affecting another?",
+   "a": "Dependency",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which UML relationship uses a dashed line with a hollow triangle?",
+   "a": "Realization",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "In UML, which relationship type marks an optional extension of a use case?",
+   "a": "Extend",
+   "alt": [
+    "<<extend>>"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "In UML, which relationship type marks a required included use case?",
+   "a": "Include",
+   "alt": [
+    "<<include>>"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What do SOLID's five letters stand for?",
+   "a": "Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does DRY stand for?",
+   "a": "Don't Repeat Yourself",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does YAGNI stand for?",
+   "a": "You Aren't Gonna Need It",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which software license is reciprocal (copyleft)?",
+   "a": "GPL",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which integration method is called \"spaghetti integration\"?",
+   "a": "Star",
+   "alt": [
+    "Star integration"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which integration method uses an Enterprise Service Bus in a chain?",
+   "a": "Horizontal",
+   "alt": [
+    "Horizontal integration"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which organization structure is common in IT solution companies, forming teams by project?",
+   "a": "Project-based",
+   "alt": [
+    "Project based"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What are Bolman and Deal's four frames?",
+   "a": "Structural, Human Resource, Political, Symbolic",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What are the five steps of design thinking?",
+   "a": "Empathize, Define, Ideate, Prototype, Test",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does TDD stand for?",
+   "a": "Test-Driven Development",
+   "alt": [
+    "Test Driven Development"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is a fake calling module used in bottom-up integration testing called?",
+   "a": "Driver",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is a fake called module used in top-down integration testing called?",
+   "a": "Stub",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "In Blender, what term describes projecting a 2D image onto a 3D object?",
+   "a": "UV mapping",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "In Blender, what do you call pre-computing lighting or shaders into an image to speed up rendering?",
+   "a": "Baking",
+   "alt": []
+  }
+ ]
+}

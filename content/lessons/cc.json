@@ -1,0 +1,787 @@
+{
+ "id": "cc",
+ "no": "1",
+ "title": "Basic Computer Concepts & General IT",
+ "mcq": [
+  {
+   "q": "Which of the following correctly lists the four stages of the IPOS cycle?",
+   "a": "Input, Process, Output, Storage",
+   "w": [
+    "Input, Program, Output, Software",
+    "Instruction, Process, Operation, Storage",
+    "Input, Processing, Operating, System"
+   ]
+  },
+  {
+   "q": "Raw facts and figures are called:",
+   "a": "Data",
+   "w": [
+    "Information",
+    "Knowledge",
+    "Wisdom"
+   ]
+  },
+  {
+   "q": "Software embedded in hardware, such as the BIOS or UEFI, is called:",
+   "a": "Firmware",
+   "w": [
+    "Freeware",
+    "Middleware",
+    "Shareware"
+   ]
+  },
+  {
+   "q": "Who is called the \"Father of the Computer\" for designing the Analytical Engine?",
+   "a": "Charles Babbage",
+   "w": [
+    "Blaise Pascal",
+    "John von Neumann",
+    "Alan Turing"
+   ]
+  },
+  {
+   "q": "Who is considered the world's first programmer?",
+   "a": "Ada Lovelace",
+   "w": [
+    "Grace Hopper",
+    "Margaret Hamilton",
+    "Katherine Johnson"
+   ]
+  },
+  {
+   "q": "The Pascaline, a mechanical adding machine, was built in 1642 by:",
+   "a": "Blaise Pascal",
+   "w": [
+    "Gottfried Leibniz",
+    "John Napier",
+    "William Oughtred"
+   ]
+  },
+  {
+   "q": "Herman Hollerith's tabulating machine for the 1890 US census led to the company later known as:",
+   "a": "IBM",
+   "w": [
+    "Intel",
+    "Microsoft",
+    "Apple"
+   ]
+  },
+  {
+   "q": "Which machine is regarded as the first general-purpose electronic digital computer?",
+   "a": "ENIAC",
+   "w": [
+    "UNIVAC I",
+    "Harvard Mark I",
+    "Colossus"
+   ]
+  },
+  {
+   "q": "The stored-program concept (program and data in the same memory) is credited to:",
+   "a": "John von Neumann",
+   "w": [
+    "Alan Turing",
+    "Konrad Zuse",
+    "Howard Aiken"
+   ]
+  },
+  {
+   "q": "First-generation computers used which core technology?",
+   "a": "Vacuum tubes",
+   "w": [
+    "Transistors",
+    "Integrated circuits",
+    "Microprocessors"
+   ]
+  },
+  {
+   "q": "Second-generation computers (1956-1963) were built with:",
+   "a": "Transistors",
+   "w": [
+    "Vacuum tubes",
+    "Integrated circuits",
+    "VLSI chips"
+   ]
+  },
+  {
+   "q": "The IBM System/360 is associated with which generation?",
+   "a": "Third (integrated circuits)",
+   "w": [
+    "First (vacuum tubes)",
+    "Second (transistors)",
+    "Fourth (microprocessors)"
+   ]
+  },
+  {
+   "q": "The first commercially available microprocessor was the:",
+   "a": "Intel 4004",
+   "w": [
+    "Intel 8086",
+    "Intel 8080",
+    "Motorola 68000"
+   ]
+  },
+  {
+   "q": "\"The number of transistors on a chip doubles about every two years\" is known as:",
+   "a": "Moore's Law",
+   "w": [
+    "Amdahl's Law",
+    "Metcalfe's Law",
+    "Murphy's Law"
+   ]
+  },
+  {
+   "q": "Who proposed the World Wide Web at CERN?",
+   "a": "Tim Berners-Lee",
+   "w": [
+    "Vint Cerf",
+    "Marc Andreessen",
+    "Ray Tomlinson"
+   ]
+  },
+  {
+   "q": "Who introduced the \"@\" symbol in email addresses (1971)?",
+   "a": "Ray Tomlinson",
+   "w": [
+    "Tim Berners-Lee",
+    "Bob Kahn",
+    "Jon Postel"
+   ]
+  },
+  {
+   "q": "The Internet's \"birthday\" when ARPANET adopted TCP/IP is commonly given as:",
+   "a": "1 January 1983",
+   "w": [
+    "29 October 1969",
+    "6 August 1991",
+    "1 January 1990"
+   ]
+  },
+  {
+   "q": "Which computer type is used for weather forecasting and nuclear simulation and measured in FLOPS?",
+   "a": "Supercomputer",
+   "w": [
+    "Mainframe",
+    "Minicomputer",
+    "Microcomputer"
+   ]
+  },
+  {
+   "q": "A speedometer that shows continuously varying values is an example of an:",
+   "a": "Analog device",
+   "w": [
+    "Digital device",
+    "Hybrid device",
+    "Embedded device"
+   ]
+  },
+  {
+   "q": "The ranking of the world's fastest supercomputers is called the:",
+   "a": "TOP500",
+   "w": [
+    "Fortune 500",
+    "Green500 list only",
+    "Gartner Quadrant"
+   ]
+  },
+  {
+   "q": "Which memory is volatile?",
+   "a": "RAM",
+   "w": [
+    "ROM",
+    "Flash memory",
+    "EEPROM"
+   ]
+  },
+  {
+   "q": "Which is the fastest storage location in a computer?",
+   "a": "CPU registers",
+   "w": [
+    "L3 cache",
+    "RAM",
+    "SSD"
+   ]
+  },
+  {
+   "q": "Which input technology reads marked bubbles on exam answer sheets?",
+   "a": "OMR",
+   "w": [
+    "OCR",
+    "MICR",
+    "RFID"
+   ]
+  },
+  {
+   "q": "MICR is mainly used by banks for:",
+   "a": "Reading cheques",
+   "w": [
+    "Scanning fingerprints",
+    "Reading barcodes",
+    "Printing receipts"
+   ]
+  },
+  {
+   "q": "How many bits are in a nibble?",
+   "a": "4",
+   "w": [
+    "2",
+    "8",
+    "16"
+   ]
+  },
+  {
+   "q": "Which USB generation/standard reaches 40 Gbps?",
+   "a": "USB4",
+   "w": [
+    "USB 2.0",
+    "USB 3.0",
+    "USB 3.2 Gen 2"
+   ]
+  },
+  {
+   "q": "The 7-bit character encoding with 128 characters is:",
+   "a": "ASCII",
+   "w": [
+    "Unicode",
+    "EBCDIC",
+    "BCD"
+   ]
+  },
+  {
+   "q": "What is 11111111 in binary equal to in decimal?",
+   "a": "255",
+   "w": [
+    "256",
+    "127",
+    "128"
+   ]
+  },
+  {
+   "q": "What is the hexadecimal 0x1A in decimal?",
+   "a": "26",
+   "w": [
+    "16",
+    "21",
+    "31"
+   ]
+  },
+  {
+   "q": "What is decimal 25 in binary?",
+   "a": "11001",
+   "w": [
+    "10101",
+    "11010",
+    "10011"
+   ]
+  },
+  {
+   "q": "A translator that converts the entire source code into an executable before running is a:",
+   "a": "Compiler",
+   "w": [
+    "Interpreter",
+    "Assembler",
+    "Debugger"
+   ]
+  },
+  {
+   "q": "Assembly language belongs to which programming-language generation?",
+   "a": "2GL",
+   "w": [
+    "1GL",
+    "3GL",
+    "4GL"
+   ]
+  },
+  {
+   "q": "SQL is classified as which generation of programming language?",
+   "a": "4GL",
+   "w": [
+    "3GL",
+    "2GL",
+    "5GL"
+   ]
+  },
+  {
+   "q": "Which information system supports day-to-day operational-level transactions such as payroll and order processing?",
+   "a": "TPS",
+   "w": [
+    "MIS",
+    "DSS",
+    "EIS"
+   ]
+  },
+  {
+   "q": "Which system is aimed at senior executives for strategic, long-term decisions?",
+   "a": "EIS/ESS",
+   "w": [
+    "TPS",
+    "MIS",
+    "PCS"
+   ]
+  },
+  {
+   "q": "Gmail and Office 365 are examples of which cloud service model?",
+   "a": "SaaS",
+   "w": [
+    "IaaS",
+    "PaaS",
+    "DaaS"
+   ]
+  },
+  {
+   "q": "Which cloud model provides virtual machines and raw infrastructure (e.g., AWS EC2)?",
+   "a": "IaaS",
+   "w": [
+    "SaaS",
+    "PaaS",
+    "FaaS only"
+   ]
+  },
+  {
+   "q": "Which image format is lossless and supports transparency?",
+   "a": "PNG",
+   "w": [
+    "JPEG",
+    "GIF",
+    "BMP"
+   ]
+  },
+  {
+   "q": "Which image format is vector-based and scales without loss?",
+   "a": "SVG",
+   "w": [
+    "PNG",
+    "BMP",
+    "JPEG"
+   ]
+  },
+  {
+   "q": "In Excel, which cell reference is an absolute reference?",
+   "a": "$A$1",
+   "w": [
+    "A1",
+    "A$1:B1",
+    "#A1"
+   ]
+  },
+  {
+   "q": "Which keyboard shortcut opens Task Manager directly in Windows?",
+   "a": "Ctrl+Shift+Esc",
+   "w": [
+    "Ctrl+Alt+Esc",
+    "Alt+F4",
+    "Win+L"
+   ]
+  },
+  {
+   "q": "The Z3 (Konrad Zuse, 1941) is noted as the first:",
+   "a": "Working programmable, fully automatic digital computer",
+   "w": [
+    "Stored-program computer",
+    "Commercial computer",
+    "Microcomputer"
+   ]
+  },
+  {
+   "q": "Which person is credited with the Analytical Engine's first published algorithm for Bernoulli numbers?",
+   "a": "Ada Lovelace",
+   "w": [
+    "Charles Babbage",
+    "Grace Hopper",
+    "Joseph Jacquard"
+   ]
+  },
+  {
+   "q": "The Jacquard loom used which input medium that later inspired computing?",
+   "a": "Punched cards",
+   "w": [
+    "Magnetic tape",
+    "Paper tape",
+    "Floppy disks"
+   ]
+  },
+  {
+   "q": "The transistor was invented at Bell Labs in:",
+   "a": "1947",
+   "w": [
+    "1958",
+    "1965",
+    "1971"
+   ]
+  },
+  {
+   "q": "Which people built the first integrated circuit independently in 1958-59?",
+   "a": "Jack Kilby and Robert Noyce",
+   "w": [
+    "William Shockley and John Bardeen",
+    "Gordon Moore and Andy Grove",
+    "Steve Jobs and Steve Wozniak"
+   ]
+  },
+  {
+   "q": "UTF-8 uses how many bytes per character?",
+   "a": "1 to 4 (variable)",
+   "w": [
+    "Always 1",
+    "Always 2",
+    "Always 4"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "d": "E",
+   "q": "What do you call raw facts and figures?",
+   "a": "Data",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What do you call processed, meaningful data?",
+   "a": "Information",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Smallest unit of data in a computer?",
+   "a": "Bit",
+   "alt": [
+    "binary digit"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "How many bits make one byte?",
+   "a": "8",
+   "alt": [
+    "eight"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "How many bits make one nibble?",
+   "a": "4",
+   "alt": [
+    "four"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who is the \"Father of the Computer\"?",
+   "a": "Charles Babbage",
+   "alt": [
+    "Babbage"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who is considered the first programmer?",
+   "a": "Ada Lovelace",
+   "alt": [
+    "Lovelace"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What technology did first-generation computers use?",
+   "a": "Vacuum tubes",
+   "alt": [
+    "vacuum tube"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What technology did second-generation computers use?",
+   "a": "Transistors",
+   "alt": [
+    "transistor"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What technology did third-generation computers use?",
+   "a": "Integrated circuits",
+   "alt": [
+    "IC",
+    "ICs"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which volatile memory serves as the computer's working memory?",
+   "a": "RAM",
+   "alt": [
+    "Random Access Memory"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which non-volatile memory holds firmware such as the BIOS?",
+   "a": "ROM",
+   "alt": [
+    "Read-Only Memory"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What does CPU stand for?",
+   "a": "Central Processing Unit",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which device reads bubbled exam answer sheets?",
+   "a": "OMR",
+   "alt": [
+    "Optical Mark Recognition"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What does GUI stand for?",
+   "a": "Graphical User Interface",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the base of the binary number system?",
+   "a": "2",
+   "alt": [
+    "base 2",
+    "two"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What is the base of the hexadecimal number system?",
+   "a": "16",
+   "alt": [
+    "sixteen"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which cloud model lets you rent software such as Gmail?",
+   "a": "SaaS",
+   "alt": [
+    "Software as a Service"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who invented the World Wide Web?",
+   "a": "Tim Berners-Lee",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Who introduced the @ symbol in email?",
+   "a": "Ray Tomlinson",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the first commercially available microprocessor?",
+   "a": "Intel 4004",
+   "alt": [
+    "4004"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What law says transistor counts double about every two years?",
+   "a": "Moore's Law",
+   "alt": [
+    "Moore"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What was the first general-purpose electronic digital computer?",
+   "a": "ENIAC",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Who proposed the stored-program concept in 1945?",
+   "a": "John von Neumann",
+   "alt": [
+    "von Neumann"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What device reads magnetic ink on bank cheques?",
+   "a": "MICR",
+   "alt": [
+    "Magnetic Ink Character Recognition"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What translator converts the whole source code before execution?",
+   "a": "Compiler",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What translator executes source code line by line?",
+   "a": "Interpreter",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is 0xFF in decimal?",
+   "a": "255",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "How many characters does 7-bit ASCII define?",
+   "a": "128",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which type of information system supports operational transactions such as payroll?",
+   "a": "TPS",
+   "alt": [
+    "Transaction Processing System"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which information system supports executives' strategic decisions?",
+   "a": "EIS",
+   "alt": [
+    "ESS",
+    "Executive Information System"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the fastest memory inside the CPU?",
+   "a": "Registers",
+   "alt": [
+    "register"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the name of the biannual list ranking the fastest supercomputers?",
+   "a": "TOP500",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which company grew out of Herman Hollerith's tabulating machine company?",
+   "a": "IBM",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which Bell Labs invention of 1947 replaced vacuum tubes?",
+   "a": "Transistor",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which 1822 machine by Babbage computed polynomial tables?",
+   "a": "Difference Engine",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What was the name of the first commercially produced computer in the US (1951)?",
+   "a": "UNIVAC I",
+   "alt": [
+    "UNIVAC"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the USB4 maximum speed in Gbps?",
+   "a": "40",
+   "alt": [
+    "40 Gbps"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the two's complement method for negating a binary number?",
+   "a": "Invert the bits and add 1",
+   "alt": [
+    "invert and add one"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the range of an 8-bit signed integer?",
+   "a": "-128 to 127",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which character encoding is variable-length (1-4 bytes) and ASCII-compatible?",
+   "a": "UTF-8",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which code ensures only one bit changes between successive values?",
+   "a": "Gray code",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which IBM mainframe character code is an alternative to ASCII?",
+   "a": "EBCDIC",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which programming-language generation is assembly language?",
+   "a": "2GL",
+   "alt": [
+    "second generation"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which programming-language generation does SQL belong to?",
+   "a": "4GL",
+   "alt": [
+    "fourth generation"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Jacquard invention used punched cards to control patterns?",
+   "a": "Jacquard loom",
+   "alt": [
+    "loom"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the name of the Z3's inventor (1941)?",
+   "a": "Konrad Zuse",
+   "alt": [
+    "Zuse"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which computer, built by Howard Aiken in 1944, was an early electromechanical machine?",
+   "a": "Harvard Mark I",
+   "alt": [
+    "Mark I"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which type of memory is both fast and used for CPU cache: SRAM or DRAM?",
+   "a": "SRAM",
+   "alt": []
+  }
+ ]
+}

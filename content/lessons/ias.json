@@ -1,0 +1,2765 @@
+{
+ "id": "ias",
+ "no": "10B",
+ "title": "Information Assurance & Security (IAS)",
+ "mcq": [
+  {
+   "q": "Which RAND report is considered the paper that started the study of computer security?",
+   "a": "RAND Report R-609",
+   "w": [
+    "RAND Report R-101",
+    "TCSEC Orange Book",
+    "NIST SP 800-12"
+   ]
+  },
+  {
+   "q": "Who developed the ARPANET from its inception?",
+   "a": "Larry Roberts",
+   "w": [
+    "Dennis Ritchie",
+    "Willis Ware",
+    "Maurice Wilkes"
+   ]
+  },
+  {
+   "q": "The DEFCON conference for those interested in information security was established in:",
+   "a": "1993",
+   "w": [
+    "1979",
+    "1984",
+    "2001"
+   ]
+  },
+  {
+   "q": "The DoD Trusted Computer Security Evaluation Criteria documents are known as the:",
+   "a": "Rainbow Series",
+   "w": [
+    "Orange Series",
+    "Red Book Series",
+    "Common Criteria"
+   ]
+  },
+  {
+   "q": "The IPSec security protocols trace back to researchers working at the:",
+   "a": "Naval Research Laboratory",
+   "w": [
+    "RAND Corporation",
+    "NSA Fort Meade",
+    "MIT Lincoln Lab"
+   ]
+  },
+  {
+   "q": "The C.I.A. triad stands for:",
+   "a": "Confidentiality, Integrity, Availability",
+   "w": [
+    "Confidentiality, Identity, Authentication",
+    "Control, Integrity, Access",
+    "Confidentiality, Integrity, Accountability"
+   ]
+  },
+  {
+   "q": "Which is NOT one of the seven critical characteristics of information in the slides?",
+   "a": "Non-repudiation",
+   "w": [
+    "Utility",
+    "Possession",
+    "Accuracy"
+   ]
+  },
+  {
+   "q": "Which characteristic of information refers to ownership or control of information regardless of format?",
+   "a": "Possession",
+   "w": [
+    "Utility",
+    "Accuracy",
+    "Availability"
+   ]
+  },
+  {
+   "q": "The three-dimensional model of information security with characteristics, states and safeguards is the:",
+   "a": "McCumber Cube",
+   "w": [
+    "Rubik Model",
+    "Bell-LaPadula Model",
+    "Zachman Framework"
+   ]
+  },
+  {
+   "q": "Which is NOT a component of an information system?",
+   "a": "Policies",
+   "w": [
+    "Software",
+    "Hardware",
+    "Procedures"
+   ]
+  },
+  {
+   "q": "According to the slides, information security is:",
+   "a": "A process, not a goal",
+   "w": [
+    "A one-time project",
+    "A purely technical task",
+    "Achievable at 100 percent"
+   ]
+  },
+  {
+   "q": "Which approach is a grassroots effort by systems administrators and seldom works?",
+   "a": "Bottom-up approach",
+   "w": [
+    "Top-down approach",
+    "Waterfall approach",
+    "Parallel approach"
+   ]
+  },
+  {
+   "q": "Which approach is initiated by upper management that issues policy and determines accountability?",
+   "a": "Top-down approach",
+   "w": [
+    "Bottom-up approach",
+    "Pilot approach",
+    "Phased approach"
+   ]
+  },
+  {
+   "q": "Which SDLC phase is the longest and most expensive?",
+   "a": "Maintenance and change",
+   "w": [
+    "Investigation",
+    "Implementation",
+    "Analysis"
+   ]
+  },
+  {
+   "q": "Which SDLC phase includes the make-or-buy decision?",
+   "a": "Physical design",
+   "w": [
+    "Investigation",
+    "Analysis",
+    "Maintenance"
+   ]
+  },
+  {
+   "q": "Which SDLC phase asks \"What problem is the system being developed to solve?\"",
+   "a": "Investigation",
+   "w": [
+    "Logical design",
+    "Implementation",
+    "Analysis"
+   ]
+  },
+  {
+   "q": "Establishing procedures to create software that is more capable of being deployed securely is called:",
+   "a": "Software assurance",
+   "w": [
+    "Software piracy",
+    "Software reuse",
+    "Software testing"
+   ]
+  },
+  {
+   "q": "Which NIST publication covers security considerations in the system development life cycle?",
+   "a": "SP 800-64",
+   "w": [
+    "SP 800-14",
+    "SP 800-30",
+    "SP 800-12"
+   ]
+  },
+  {
+   "q": "Sanitization of media is a key security activity in which NIST SDLC phase?",
+   "a": "Disposal",
+   "w": [
+    "Initiation",
+    "Implementation/Assessment",
+    "Operations and maintenance"
+   ]
+  },
+  {
+   "q": "Which executive is usually responsible for assessment, management and implementation of information security and reports to the CIO?",
+   "a": "CISO",
+   "w": [
+    "CEO",
+    "CFO",
+    "COO"
+   ]
+  },
+  {
+   "q": "Senior management responsible for the security and use of a particular set of information are the:",
+   "a": "Data owners",
+   "w": [
+    "Data custodians",
+    "Data users",
+    "Data analysts"
+   ]
+  },
+  {
+   "q": "Those responsible for the information and systems that process, transmit and store it are the:",
+   "a": "Data custodians",
+   "w": [
+    "Data owners",
+    "Data users",
+    "Data brokers"
+   ]
+  },
+  {
+   "q": "Security that \"begins and ends with the people who interact with the system\" is viewed as:",
+   "a": "A social science",
+   "w": [
+    "An art",
+    "A pure science",
+    "A legal requirement"
+   ]
+  },
+  {
+   "q": "How many categories of threats to information security are listed in Table 2-5 of the slides?",
+   "a": "12",
+   "w": [
+    "8",
+    "10",
+    "14"
+   ]
+  },
+  {
+   "q": "Which threat category includes piracy and copyright infringement?",
+   "a": "Compromises to intellectual property",
+   "w": [
+    "Espionage or trespass",
+    "Theft",
+    "Sabotage or vandalism"
+   ]
+  },
+  {
+   "q": "Which two watchdog organizations investigate software abuse?",
+   "a": "SIIA and BSA",
+   "w": [
+    "ISACA and ISSA",
+    "ACM and IEEE",
+    "SANS and CERT"
+   ]
+  },
+  {
+   "q": "Power excess, shortage and loss are examples of:",
+   "a": "Deviations in quality of service",
+   "w": [
+    "Forces of nature",
+    "Information extortion",
+    "Technological obsolescence"
+   ]
+  },
+  {
+   "q": "Competitive intelligence is legal, whereas the illegal counterpart is:",
+   "a": "Industrial espionage",
+   "w": [
+    "Shoulder surfing",
+    "Phreaking",
+    "Pharming"
+   ]
+  },
+  {
+   "q": "An individual who hacks the public telephone system to make free calls is a:",
+   "a": "Phreaker",
+   "w": [
+    "Cracker",
+    "Hacktivist",
+    "Script kiddie"
+   ]
+  },
+  {
+   "q": "A person who removes software protection designed to prevent unauthorized duplication is a:",
+   "a": "Cracker",
+   "w": [
+    "Phreaker",
+    "White hat",
+    "Insider"
+   ]
+  },
+  {
+   "q": "Which of the following is NOT a password attack in the slides?",
+   "a": "Pharming",
+   "w": [
+    "Brute force",
+    "Dictionary",
+    "Rainbow tables"
+   ]
+  },
+  {
+   "q": "The quote \"People are the weakest link\" is attributed to:",
+   "a": "Kevin Mitnick",
+   "w": [
+    "Bruce Schneier",
+    "Kevin Poulsen",
+    "Vint Cerf"
+   ]
+  },
+  {
+   "q": "The Nigerian 4-1-9 letter is an example of:",
+   "a": "Advance-fee fraud",
+   "w": [
+    "Phishing",
+    "Pharming",
+    "Spoofing"
+   ]
+  },
+  {
+   "q": "An attacker steals information and demands compensation for its return or nondisclosure. This is:",
+   "a": "Information extortion",
+   "w": [
+    "Sabotage",
+    "Espionage",
+    "Vandalism"
+   ]
+  },
+  {
+   "q": "Website defacing is an example of:",
+   "a": "Sabotage or vandalism",
+   "w": [
+    "Theft",
+    "Human error",
+    "Forces of nature"
+   ]
+  },
+  {
+   "q": "Code segments that attach to an existing program and take control of access to the target computer are:",
+   "a": "Viruses",
+   "w": [
+    "Worms",
+    "Trojan horses",
+    "Back doors"
+   ]
+  },
+  {
+   "q": "Malware that replicates itself until it fills available memory and disk space is a:",
+   "a": "Worm",
+   "w": [
+    "Virus",
+    "Trojan horse",
+    "Hoax"
+   ]
+  },
+  {
+   "q": "Malware disguised as helpful or necessary software is a:",
+   "a": "Trojan horse",
+   "w": [
+    "Worm",
+    "Virus",
+    "Back door"
+   ]
+  },
+  {
+   "q": "Malware that actually evolves to elude detection is called:",
+   "a": "Polymorphic threat",
+   "w": [
+    "Virus hoax",
+    "Back door",
+    "Packet sniffer"
+   ]
+  },
+  {
+   "q": "Gaining access using a known or newly discovered access mechanism describes a:",
+   "a": "Back door",
+   "w": [
+    "DDoS",
+    "Spoofing",
+    "Mail bomb"
+   ]
+  },
+  {
+   "q": "A coordinated stream of requests launched from many locations simultaneously is a:",
+   "a": "DDoS",
+   "w": [
+    "DoS",
+    "Mail bomb",
+    "Spoofing"
+   ]
+  },
+  {
+   "q": "Routing large quantities of e-mail to a target to overwhelm the receiver is a:",
+   "a": "Mail bomb",
+   "w": [
+    "Phishing",
+    "Spam",
+    "Pharming"
+   ]
+  },
+  {
+   "q": "A technique in which the intruder assumes a trusted IP address is:",
+   "a": "Spoofing",
+   "w": [
+    "Pharming",
+    "Sniffing",
+    "Phishing"
+   ]
+  },
+  {
+   "q": "An attack on a browser's address bar to redirect users to an illegitimate site is:",
+   "a": "Pharming",
+   "w": [
+    "Spoofing",
+    "Phishing",
+    "Sniffing"
+   ]
+  },
+  {
+   "q": "An attacker monitors packets, modifies them and inserts them back into the network. This is:",
+   "a": "Man-in-the-middle",
+   "w": [
+    "Replay attack",
+    "Smurf attack",
+    "Teardrop attack"
+   ]
+  },
+  {
+   "q": "A tool that monitors data traveling over a network and can be used legitimately or for theft is a:",
+   "a": "Packet sniffer",
+   "w": [
+    "Port scanner",
+    "Vulnerability scanner",
+    "Honeypot"
+   ]
+  },
+  {
+   "q": "Which malware in the slides's table is a macro virus?",
+   "a": "Melissa",
+   "w": [
+    "Code Red",
+    "Sobig F",
+    "Conficker"
+   ]
+  },
+  {
+   "q": "MTBF in hardware reliability stands for:",
+   "a": "Mean time between failure",
+   "w": [
+    "Maximum time before failure",
+    "Minimum time to backup failure",
+    "Mean time to boot failure"
+   ]
+  },
+  {
+   "q": "Which organization publishes a list of top web application security risks?",
+   "a": "OWASP",
+   "w": [
+    "BSA",
+    "SIIA",
+    "CERT"
+   ]
+  },
+  {
+   "q": "Which is one of the \"deadly sins\" in software security?",
+   "a": "SQL injection",
+   "w": [
+    "Strong passwords",
+    "Code review",
+    "Change control"
+   ]
+  },
+  {
+   "q": "Antiquated or outdated technologies leading to unreliable systems are a threat called:",
+   "a": "Technological obsolescence",
+   "w": [
+    "Technical hardware failure",
+    "Theft",
+    "Sabotage"
+   ]
+  },
+  {
+   "q": "Which statement about policy versus law is correct?",
+   "a": "Ignorance of a policy is an acceptable defense",
+   "w": [
+    "Ignorance of a policy is never an acceptable defense",
+    "Policies carry the authority of the state",
+    "Laws can be ignored if unknown"
+   ]
+  },
+  {
+   "q": "Fixed moral attitudes or customs of a particular group are called:",
+   "a": "Cultural mores",
+   "w": [
+    "Laws",
+    "Policies",
+    "Codes"
+   ]
+  },
+  {
+   "q": "The legal standard requiring a prudent organization to act legally and ethically and know the consequences of its actions is:",
+   "a": "Due care",
+   "w": [
+    "Due diligence",
+    "Liability",
+    "Jurisdiction"
+   ]
+  },
+  {
+   "q": "The legal standard requiring an organization to maintain due care and ensure its actions are effective is:",
+   "a": "Due diligence",
+   "w": [
+    "Due care",
+    "Restitution",
+    "Long-arm jurisdiction"
+   ]
+  },
+  {
+   "q": "Compensating an injured party for wrongs committed is called:",
+   "a": "Restitution",
+   "w": [
+    "Jurisdiction",
+    "Mitigation",
+    "Deterrence"
+   ]
+  },
+  {
+   "q": "Application of laws to those residing outside a court's normal jurisdiction is:",
+   "a": "Long-arm jurisdiction",
+   "w": [
+    "Due care",
+    "Restitution",
+    "Liability"
+   ]
+  },
+  {
+   "q": "Which is NOT one of the five criteria for policy enforcement?",
+   "a": "Retaliation",
+   "w": [
+    "Dissemination",
+    "Comprehension",
+    "Uniform enforcement"
+   ]
+  },
+  {
+   "q": "Which U.S. law is the cornerstone of many computer-related federal laws?",
+   "a": "Computer Fraud and Abuse Act of 1986",
+   "w": [
+    "Sarbanes-Oxley Act of 2002",
+    "HIPAA of 1996",
+    "Gramm-Leach-Bliley Act of 1999"
+   ]
+  },
+  {
+   "q": "Which U.S. law is also known as the Kennedy-Kassebaum Act?",
+   "a": "HIPAA",
+   "w": [
+    "Gramm-Leach-Bliley Act",
+    "FOIA",
+    "Computer Security Act"
+   ]
+  },
+  {
+   "q": "Which law is the Financial Services Modernization Act?",
+   "a": "Gramm-Leach-Bliley Act",
+   "w": [
+    "HIPAA",
+    "Sarbanes-Oxley Act",
+    "Federal Privacy Act"
+   ]
+  },
+  {
+   "q": "Which law improves the reliability and accuracy of financial reporting of public companies?",
+   "a": "Sarbanes-Oxley Act of 2002",
+   "w": [
+    "HIPAA",
+    "Computer Security Act of 1987",
+    "Economic Espionage Act"
+   ]
+  },
+  {
+   "q": "The Freedom of Information Act (FOIA) was passed in:",
+   "a": "1966",
+   "w": [
+    "1986",
+    "1996",
+    "2002"
+   ]
+  },
+  {
+   "q": "FOIA does NOT apply to:",
+   "a": "State and local governments and private businesses",
+   "w": [
+    "Federal agencies",
+    "Federal records",
+    "Requests made in writing"
+   ]
+  },
+  {
+   "q": "Which U.S. agency oversees identity theft efforts and recommends placing a fraud alert?",
+   "a": "Federal Trade Commission",
+   "w": [
+    "FBI",
+    "Secret Service",
+    "NSA"
+   ]
+  },
+  {
+   "q": "Which law prohibits circumventing copyright protection and was a response to EU Directive 95/46/EC?",
+   "a": "DMCA",
+   "w": [
+    "TRIPS",
+    "PATRIOT Act",
+    "CFA Act"
+   ]
+  },
+  {
+   "q": "The UK's Computer Misuse Act was enacted in:",
+   "a": "1990",
+   "w": [
+    "1986",
+    "2003",
+    "2006"
+   ]
+  },
+  {
+   "q": "How many \"computer misuse offenses\" did the UK Computer Misuse Act 1990 define?",
+   "a": "3",
+   "w": [
+    "2",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "q": "Which international convention lacks realistic provisions for enforcement?",
+   "a": "Council of Europe Convention on Cybercrime",
+   "w": [
+    "WTO TRIPS",
+    "Geneva Convention",
+    "Hague Convention"
+   ]
+  },
+  {
+   "q": "Which agreement was the first significant international effort to protect intellectual property rights?",
+   "a": "WTO TRIPS Agreement",
+   "w": [
+    "DMCA",
+    "Convention on Cybercrime",
+    "Berne Convention"
+   ]
+  },
+  {
+   "q": "The Ten Commandments of Computer Ethics were produced by the:",
+   "a": "Computer Ethics Institute",
+   "w": [
+    "ACM",
+    "ISC2",
+    "SANS Institute"
+   ]
+  },
+  {
+   "q": "The deterrence of illegal behavior requires all EXCEPT:",
+   "a": "Low cost of enforcement",
+   "w": [
+    "Fear of penalty",
+    "Probability of being caught",
+    "Probability of penalty being applied"
+   ]
+  },
+  {
+   "q": "Which is NOT one of the three general causes of unethical and illegal behavior?",
+   "a": "Poverty",
+   "w": [
+    "Ignorance",
+    "Accident",
+    "Intent"
+   ]
+  },
+  {
+   "q": "The ACM was established in:",
+   "a": "1947",
+   "w": [
+    "1969",
+    "1985",
+    "1993"
+   ]
+  },
+  {
+   "q": "Which organization offers the GIAC certifications?",
+   "a": "SANS",
+   "w": [
+    "ISACA",
+    "ISSA",
+    "ACM"
+   ]
+  },
+  {
+   "q": "Which organization offers CISSP and SSCP certifications?",
+   "a": "(ISC)²",
+   "w": [
+    "ISACA",
+    "SANS",
+    "ACM"
+   ]
+  },
+  {
+   "q": "The FBI program that maintains an intrusion alert network and secure website is:",
+   "a": "InfraGard",
+   "w": [
+    "US-CERT",
+    "TEMPEST",
+    "NIACAP"
+   ]
+  },
+  {
+   "q": "Which U.S. agency's Information Assurance Directorate protects systems of high national value?",
+   "a": "NSA",
+   "w": [
+    "FBI",
+    "Secret Service",
+    "DHS"
+   ]
+  },
+  {
+   "q": "Which U.S. agency's team (US-CERT) provides mechanisms for reporting phishing and malware?",
+   "a": "DHS",
+   "w": [
+    "FBI",
+    "NSA",
+    "FTC"
+   ]
+  },
+  {
+   "q": "How many outcomes does information security governance have?",
+   "a": "5",
+   "w": [
+    "3",
+    "4",
+    "7"
+   ]
+  },
+  {
+   "q": "Which is NOT a governance outcome?",
+   "a": "Cost cutting",
+   "w": [
+    "Strategic alignment",
+    "Risk management",
+    "Value delivery"
+   ]
+  },
+  {
+   "q": "Which are the least expensive controls to execute but the most difficult to implement properly?",
+   "a": "Security policies",
+   "w": [
+    "Firewalls",
+    "Biometrics",
+    "Encryption tools"
+   ]
+  },
+  {
+   "q": "Which policy sets the strategic direction, scope and tone for all security efforts and is drafted by or with the CIO?",
+   "a": "EISP",
+   "w": [
+    "ISSP",
+    "SysSP",
+    "SETA"
+   ]
+  },
+  {
+   "q": "Which policy addresses specific areas of technology and requires frequent updates?",
+   "a": "ISSP",
+   "w": [
+    "EISP",
+    "SysSP",
+    "BIA"
+   ]
+  },
+  {
+   "q": "Which policy often functions as standards or procedures used to configure or maintain systems?",
+   "a": "SysSP",
+   "w": [
+    "EISP",
+    "ISSP",
+    "DRP"
+   ]
+  },
+  {
+   "q": "Which is NOT one of the three common approaches to creating ISSPs?",
+   "a": "Hierarchical document",
+   "w": [
+    "Independent documents",
+    "Single comprehensive document",
+    "Modular document"
+   ]
+  },
+  {
+   "q": "ISO/IEC 27001 deals with:",
+   "a": "Information security management systems",
+   "w": [
+    "Risk management",
+    "Cloud services",
+    "Digital evidence"
+   ]
+  },
+  {
+   "q": "ISO/IEC 27005 deals with:",
+   "a": "Information security risk management",
+   "w": [
+    "Governance",
+    "Network security",
+    "Incident management"
+   ]
+  },
+  {
+   "q": "ISO/IEC 27035 deals with:",
+   "a": "Information security incident management",
+   "w": [
+    "Cybersecurity guidelines",
+    "Digital evidence collection",
+    "Health informatics"
+   ]
+  },
+  {
+   "q": "ISO/IEC 27037 covers:",
+   "a": "Collection and preservation of digital evidence",
+   "w": [
+    "Cloud security",
+    "Governance",
+    "Telecommunications"
+   ]
+  },
+  {
+   "q": "Which NIST special publication sets out 33 principles for securing systems?",
+   "a": "SP 800-14",
+   "w": [
+    "SP 800-12",
+    "SP 800-30",
+    "SP 800-64"
+   ]
+  },
+  {
+   "q": "The NIST Cybersecurity Framework consists of:",
+   "a": "Core, tiers and profile",
+   "w": [
+    "Identify, protect, detect",
+    "Plan, do, check",
+    "People, process, technology"
+   ]
+  },
+  {
+   "q": "Which level of controls addresses personnel and physical security?",
+   "a": "Operational controls",
+   "w": [
+    "Management controls",
+    "Technical controls",
+    "Legal controls"
+   ]
+  },
+  {
+   "q": "A security perimeter does NOT protect against:",
+   "a": "Internal attacks by employees",
+   "w": [
+    "External hackers",
+    "Port scans",
+    "Spoofed packets"
+   ]
+  },
+  {
+   "q": "SETA stands for:",
+   "a": "Security Education, Training, and Awareness",
+   "w": [
+    "Systems Engineering and Technical Assessment",
+    "Security Evaluation and Threat Analysis",
+    "Secure Enterprise Technology Architecture"
+   ]
+  },
+  {
+   "q": "In SETA, which element answers \"why\" and has a long-term impact?",
+   "a": "Education",
+   "w": [
+    "Training",
+    "Awareness",
+    "Compliance"
+   ]
+  },
+  {
+   "q": "In SETA, which element is delivered through videos, newsletters and posters?",
+   "a": "Awareness",
+   "w": [
+    "Training",
+    "Education",
+    "Certification"
+   ]
+  },
+  {
+   "q": "Which plan focuses on the immediate response to an attack?",
+   "a": "Incident response plan",
+   "w": [
+    "Disaster recovery plan",
+    "Business continuity plan",
+    "Security policy"
+   ]
+  },
+  {
+   "q": "Which plan reestablishes operations at the primary site after a disaster?",
+   "a": "Disaster recovery plan",
+   "w": [
+    "Business continuity plan",
+    "Incident response plan",
+    "Acquisition plan"
+   ]
+  },
+  {
+   "q": "Which plan prepares the organization to reestablish or relocate critical business operations?",
+   "a": "Business continuity plan",
+   "w": [
+    "Disaster recovery plan",
+    "Incident response plan",
+    "Risk management plan"
+   ]
+  },
+  {
+   "q": "What is the first step in the contingency planning process?",
+   "a": "Develop the CP policy statement",
+   "w": [
+    "Conduct the BIA",
+    "Identify preventive controls",
+    "Create contingency strategies"
+   ]
+  },
+  {
+   "q": "The investigation and assessment of adverse events assuming controls have failed is the:",
+   "a": "Business impact analysis",
+   "w": [
+    "Risk assessment",
+    "Threat assessment",
+    "Vulnerability scan"
+   ]
+  },
+  {
+   "q": "Which is NOT a BIA stage?",
+   "a": "Test the disaster plan",
+   "w": [
+    "Determine mission/business processes and recovery criticality",
+    "Identify recovery priorities for system resources",
+    "Identify resource requirements"
+   ]
+  },
+  {
+   "q": "Which is the FIRST priority in incident reaction?",
+   "a": "Containment of the incident",
+   "w": [
+    "Prosecution",
+    "Public announcement",
+    "Software upgrade"
+   ]
+  },
+  {
+   "q": "Which is NOT an exclusive-use site option in business continuity?",
+   "a": "Time-share",
+   "w": [
+    "Hot site",
+    "Warm site",
+    "Cold site"
+   ]
+  },
+  {
+   "q": "Which is a shared-use continuity option?",
+   "a": "Mutual agreement",
+   "w": [
+    "Hot site",
+    "Warm site",
+    "Cold site"
+   ]
+  },
+  {
+   "q": "Electronic vaulting, remote journaling and database shadowing are options for:",
+   "a": "Off-site disaster data storage",
+   "w": [
+    "Intrusion detection",
+    "Network access control",
+    "Data classification"
+   ]
+  },
+  {
+   "q": "Which is a disadvantage of involving law enforcement?",
+   "a": "The organization loses control of the chain of events",
+   "w": [
+    "Better evidence processing",
+    "Warrants are handled",
+    "Witness statements are obtained"
+   ]
+  },
+  {
+   "q": "Knowing yourself and knowing the enemy refers to understanding:",
+   "a": "Assets and threats",
+   "w": [
+    "Policies and procedures",
+    "Hackers and insiders only",
+    "Budget and schedule"
+   ]
+  },
+  {
+   "q": "The quantity and nature of risk that an organization is willing to accept is the:",
+   "a": "Risk appetite",
+   "w": [
+    "Residual risk",
+    "Risk transfer",
+    "Risk exposure"
+   ]
+  },
+  {
+   "q": "The risk remaining after current controls have been applied is:",
+   "a": "Residual risk",
+   "w": [
+    "Inherent risk",
+    "Total risk",
+    "Accepted risk"
+   ]
+  },
+  {
+   "q": "Which classification scheme is used for data in the slides?",
+   "a": "Confidential, internal, public",
+   "w": [
+    "Red, yellow, green",
+    "Low, medium, high",
+    "Open, closed, hybrid"
+   ]
+  },
+  {
+   "q": "A policy that requires removing sensitive documents from desks is a:",
+   "a": "Clean desk policy",
+   "w": [
+    "Open door policy",
+    "Zero trust policy",
+    "Retention policy"
+   ]
+  },
+  {
+   "q": "Searching through trash for sensitive information is:",
+   "a": "Dumpster diving",
+   "w": [
+    "Shoulder surfing",
+    "Tailgating",
+    "Baiting"
+   ]
+  },
+  {
+   "q": "Ranking assets using criteria weights that total 100 is:",
+   "a": "Weighted factor analysis",
+   "w": [
+    "Cost-benefit analysis",
+    "Baselining",
+    "Benchmarking"
+   ]
+  },
+  {
+   "q": "A TVA worksheet combines:",
+   "a": "Threats, vulnerabilities and assets",
+   "w": [
+    "Technology, value and access",
+    "Time, volume and availability",
+    "Training, verification and audit"
+   ]
+  },
+  {
+   "q": "In relative risk assessment, risk equals:",
+   "a": "Loss frequency times loss magnitude, minus mitigation, plus uncertainty",
+   "w": [
+    "Threat plus vulnerability",
+    "Asset value divided by exposure",
+    "Loss magnitude only"
+   ]
+  },
+  {
+   "q": "Which risk control strategy is the preferred approach and attempts to prevent exploitation of vulnerabilities?",
+   "a": "Defense",
+   "w": [
+    "Transference",
+    "Acceptance",
+    "Termination"
+   ]
+  },
+  {
+   "q": "Shifting risk to another organization, such as outsourcing or insurance, is:",
+   "a": "Transference",
+   "w": [
+    "Mitigation",
+    "Acceptance",
+    "Termination"
+   ]
+  },
+  {
+   "q": "Reducing the impact of an attack (IR, DR, BC plans) rather than preventing it is:",
+   "a": "Mitigation",
+   "w": [
+    "Defense",
+    "Acceptance",
+    "Transference"
+   ]
+  },
+  {
+   "q": "Doing nothing to protect a vulnerability and accepting the outcome is:",
+   "a": "Acceptance",
+   "w": [
+    "Termination",
+    "Mitigation",
+    "Defense"
+   ]
+  },
+  {
+   "q": "Avoiding business activities that introduce uncontrollable risks is:",
+   "a": "Termination",
+   "w": [
+    "Acceptance",
+    "Transference",
+    "Defense"
+   ]
+  },
+  {
+   "q": "What is the most common mitigation procedure?",
+   "a": "Disaster recovery plan",
+   "w": [
+    "Incident response plan",
+    "Business continuity plan",
+    "Security policy"
+   ]
+  },
+  {
+   "q": "SLE is computed as:",
+   "a": "Asset value × exposure factor",
+   "w": [
+    "ALE × ARO",
+    "Asset value ÷ ARO",
+    "Threat × vulnerability"
+   ]
+  },
+  {
+   "q": "ALE is computed as:",
+   "a": "SLE × ARO",
+   "w": [
+    "Asset value × EF",
+    "SLE ÷ ARO",
+    "ACS × EF"
+   ]
+  },
+  {
+   "q": "The cost-benefit analysis formula is:",
+   "a": "ALE(prior) − ALE(post) − ACS",
+   "w": [
+    "ALE(post) − ALE(prior) + ACS",
+    "SLE × ARO − ACS",
+    "Asset value − EF"
+   ]
+  },
+  {
+   "q": "ARO stands for:",
+   "a": "Annualized rate of occurrence",
+   "w": [
+    "Annual risk objective",
+    "Asset recovery option",
+    "Average rate of overload"
+   ]
+  },
+  {
+   "q": "Assessment using nonnumerical scales rather than actual values is:",
+   "a": "Qualitative assessment",
+   "w": [
+    "Quantitative assessment",
+    "Baselining",
+    "Benchmarking"
+   ]
+  },
+  {
+   "q": "The biggest problem with benchmarking is that:",
+   "a": "Organizations don't talk to each other",
+   "w": [
+    "It is too cheap",
+    "It uses numbers only",
+    "It ignores security"
+   ]
+  },
+  {
+   "q": "Comparison of past security activities against future performance is:",
+   "a": "Baselining",
+   "w": [
+    "Benchmarking",
+    "Termination",
+    "Mitigation"
+   ]
+  },
+  {
+   "q": "Which is NOT a feasibility study type in the slides?",
+   "a": "Legal feasibility",
+   "w": [
+    "Organizational feasibility",
+    "Operational feasibility",
+    "Political feasibility"
+   ]
+  },
+  {
+   "q": "The four steps of the NIST Risk Management Framework are:",
+   "a": "Frame, assess, respond, monitor",
+   "w": [
+    "Plan, do, check, act",
+    "Identify, protect, detect, respond",
+    "Prepare, categorize, select, implement"
+   ]
+  },
+  {
+   "q": "Which type of access control is implemented at the discretion of the data user?",
+   "a": "DAC",
+   "w": [
+    "MAC",
+    "Nondiscretionary",
+    "RBAC"
+   ]
+  },
+  {
+   "q": "Which access control uses a structured data classification scheme rating both information and users?",
+   "a": "MAC",
+   "w": [
+    "DAC",
+    "Nondiscretionary",
+    "ACL"
+   ]
+  },
+  {
+   "q": "Which is NOT one of the four fundamental functions of access control?",
+   "a": "Encryption",
+   "w": [
+    "Identification",
+    "Authorization",
+    "Accountability"
+   ]
+  },
+  {
+   "q": "\"I am a user of the system\" describes:",
+   "a": "Identification",
+   "w": [
+    "Authentication",
+    "Authorization",
+    "Accountability"
+   ]
+  },
+  {
+   "q": "\"I can prove I'm a user of the system\" describes:",
+   "a": "Authentication",
+   "w": [
+    "Identification",
+    "Authorization",
+    "Accountability"
+   ]
+  },
+  {
+   "q": "\"You can track and monitor my use of the system\" describes:",
+   "a": "Accountability",
+   "w": [
+    "Identification",
+    "Authentication",
+    "Authorization"
+   ]
+  },
+  {
+   "q": "A password is an example of which authentication factor?",
+   "a": "Something you know",
+   "w": [
+    "Something you have",
+    "Something you are",
+    "Somewhere you are"
+   ]
+  },
+  {
+   "q": "A smart card is an example of:",
+   "a": "Something you have",
+   "w": [
+    "Something you know",
+    "Something you are",
+    "Something you do"
+   ]
+  },
+  {
+   "q": "A fingerprint is an example of:",
+   "a": "Something you are",
+   "w": [
+    "Something you know",
+    "Something you have",
+    "Something you wear"
+   ]
+  },
+  {
+   "q": "A series of characters longer than a password, from which a virtual password is derived, is a:",
+   "a": "Passphrase",
+   "w": [
+    "PIN",
+    "Token",
+    "Salt"
+   ]
+  },
+  {
+   "q": "Which biometric characteristics are considered truly unique in the slides?",
+   "a": "Fingerprints, retina, iris and DNA",
+   "w": [
+    "Voice, signature and gait",
+    "Face and keystroke only",
+    "Hand geometry and odor"
+   ]
+  },
+  {
+   "q": "The point where false reject rate equals false accept rate is the:",
+   "a": "Crossover error rate",
+   "w": [
+    "Failure rate",
+    "Match rate",
+    "Equal acceptance rate"
+   ]
+  },
+  {
+   "q": "The Bell-LaPadula model's principle is:",
+   "a": "No read up, no write down",
+   "w": [
+    "No write up, no read down",
+    "Read only",
+    "Need to know"
+   ]
+  },
+  {
+   "q": "The Biba model's principle is:",
+   "a": "No write up, no read down",
+   "w": [
+    "No read up, no write down",
+    "Least privilege",
+    "Separation of duties"
+   ]
+  },
+  {
+   "q": "Which model is a confidentiality model?",
+   "a": "Bell-LaPadula",
+   "w": [
+    "Biba",
+    "Clark-Wilson",
+    "Graham-Denning"
+   ]
+  },
+  {
+   "q": "Which model is the successor to both TCSEC and ITSEC?",
+   "a": "Common Criteria",
+   "w": [
+    "Clark-Wilson",
+    "Graham-Denning",
+    "Bell-LaPadula"
+   ]
+  },
+  {
+   "q": "Covert channels in the trusted computing base include:",
+   "a": "Storage and timing channels",
+   "w": [
+    "Network and host channels",
+    "Wired and wireless channels",
+    "Public and private channels"
+   ]
+  },
+  {
+   "q": "Which firewall type examines packet headers such as source/destination IP and ports?",
+   "a": "Packet-filtering firewall",
+   "w": [
+    "Application proxy",
+    "Honeypot",
+    "Content filter"
+   ]
+  },
+  {
+   "q": "Which packet-filtering firewall tracks connections using a state table?",
+   "a": "Stateful packet inspection",
+   "w": [
+    "Static filtering",
+    "Dynamic filtering",
+    "MAC layer firewall"
+   ]
+  },
+  {
+   "q": "Which firewall makes decisions based on a host's MAC address and ACL?",
+   "a": "MAC layer firewall",
+   "w": [
+    "Application proxy",
+    "Stateful inspection",
+    "NGFW"
+   ]
+  },
+  {
+   "q": "NGFW and UTM devices are examples of:",
+   "a": "Hybrid firewalls",
+   "w": [
+    "Static filters",
+    "MAC layer firewalls",
+    "Packet sniffers"
+   ]
+  },
+  {
+   "q": "A single bastion host is also known as a:",
+   "a": "Sacrificial host",
+   "w": [
+    "Screened subnet",
+    "Trusted host",
+    "Honeypot"
+   ]
+  },
+  {
+   "q": "Which firewall architecture is dominant today?",
+   "a": "Screened subnet with DMZ",
+   "w": [
+    "Single bastion host",
+    "Screened host",
+    "Dual-homed host"
+   ]
+  },
+  {
+   "q": "A screened host architecture combines:",
+   "a": "A packet-filtering router and a dedicated firewall such as a proxy server",
+   "w": [
+    "Two IDPS sensors",
+    "A honeypot and a router",
+    "A VPN and a proxy"
+   ]
+  },
+  {
+   "q": "Which firewall best practice is correct?",
+   "a": "ICMP data are denied",
+   "w": [
+    "Telnet to internal servers is allowed",
+    "The firewall is accessed from the public network",
+    "All traffic from the outside is allowed in"
+   ]
+  },
+  {
+   "q": "Which port number does Telnet use?",
+   "a": "23",
+   "w": [
+    "21",
+    "25",
+    "80"
+   ]
+  },
+  {
+   "q": "Which port number does SMTP use?",
+   "a": "25",
+   "w": [
+    "110",
+    "53",
+    "161"
+   ]
+  },
+  {
+   "q": "Which port number does POP3 use?",
+   "a": "110",
+   "w": [
+    "25",
+    "80",
+    "161"
+   ]
+  },
+  {
+   "q": "Which port number does SNMP use?",
+   "a": "161",
+   "w": [
+    "53",
+    "23",
+    "21"
+   ]
+  },
+  {
+   "q": "Software or hardware that restricts users' access to non-business websites is a:",
+   "a": "Content filter",
+   "w": [
+    "Honeypot",
+    "Proxy cache",
+    "Packet sniffer"
+   ]
+  },
+  {
+   "q": "A program that dials every number in a range and records numbers where a modem answers is a:",
+   "a": "War dialer",
+   "w": [
+    "Packet sniffer",
+    "Port scanner",
+    "Honeypot"
+   ]
+  },
+  {
+   "q": "Which system centralizes responsibility for dial-up user authentication in a central server?",
+   "a": "RADIUS",
+   "w": [
+    "SESAME",
+    "SSL",
+    "IPSec"
+   ]
+  },
+  {
+   "q": "Which three services make up Kerberos?",
+   "a": "AS, KDC and TGS",
+   "w": [
+    "CA, RA and CRL",
+    "AAA, NAS and RAS",
+    "SSL, TLS and SSH"
+   ]
+  },
+  {
+   "q": "Kerberos uses which type of encryption?",
+   "a": "Symmetric key",
+   "w": [
+    "Asymmetric key",
+    "Hash only",
+    "Steganography"
+   ]
+  },
+  {
+   "q": "Which authentication system is similar to Kerberos but uses public-key encryption and a privilege attribute server?",
+   "a": "SESAME",
+   "w": [
+    "RADIUS",
+    "TACACS",
+    "CHAP"
+   ]
+  },
+  {
+   "q": "In which VPN mode is only the data of the IP packet encrypted and the header is not?",
+   "a": "Transport mode",
+   "w": [
+    "Tunnel mode",
+    "Hybrid mode",
+    "Trusted mode"
+   ]
+  },
+  {
+   "q": "In which VPN mode is the entire client packet encrypted and hidden between two tunnel servers?",
+   "a": "Tunnel mode",
+   "w": [
+    "Transport mode",
+    "Trusted mode",
+    "Ad hoc mode"
+   ]
+  },
+  {
+   "q": "A VPN must accomplish all EXCEPT:",
+   "a": "Intrusion detection",
+   "w": [
+    "Encapsulation",
+    "Encryption",
+    "Authentication"
+   ]
+  },
+  {
+   "q": "Which IDPS function consists of activities that deter an intrusion?",
+   "a": "Intrusion prevention",
+   "w": [
+    "Intrusion detection",
+    "Intrusion reaction",
+    "Intrusion correction"
+   ]
+  },
+  {
+   "q": "An alarm that is triggered by legitimate activity is a:",
+   "a": "False positive",
+   "w": [
+    "False negative",
+    "True positive",
+    "Noise"
+   ]
+  },
+  {
+   "q": "A real attack that the IDPS fails to detect is a:",
+   "a": "False negative",
+   "w": [
+    "False positive",
+    "True negative",
+    "Evasion"
+   ]
+  },
+  {
+   "q": "Which IDPS type monitors traffic on a network segment?",
+   "a": "Network-based IDPS",
+   "w": [
+    "Host-based IDPS",
+    "Log file monitor",
+    "Honeypot"
+   ]
+  },
+  {
+   "q": "Which IDPS cannot analyze encrypted packets?",
+   "a": "Network-based IDPS",
+   "w": [
+    "Host-based IDPS",
+    "Stateful analyzer",
+    "Application IDPS"
+   ]
+  },
+  {
+   "q": "Which IDPS type works on the principle of configuration or change management?",
+   "a": "Host-based IDPS",
+   "w": [
+    "Network-based IDPS",
+    "Wireless IDPS",
+    "NBA"
+   ]
+  },
+  {
+   "q": "Which detection method examines traffic for patterns matching known attacks?",
+   "a": "Signature-based detection",
+   "w": [
+    "Anomaly-based detection",
+    "Stateful protocol analysis",
+    "Statistical sampling"
+   ]
+  },
+  {
+   "q": "Which detection method uses a baseline and clipping level and can detect new attacks but produces more false positives?",
+   "a": "Anomaly-based detection",
+   "w": [
+    "Signature-based detection",
+    "Log file monitoring",
+    "Packet filtering"
+   ]
+  },
+  {
+   "q": "Another name for stateful protocol analysis is:",
+   "a": "Deep packet inspection",
+   "w": [
+    "Packet filtering",
+    "Signature matching",
+    "Log correlation"
+   ]
+  },
+  {
+   "q": "A decoy system designed to lure attackers away from critical systems is a:",
+   "a": "Honeypot",
+   "w": [
+    "Bastion host",
+    "Proxy",
+    "Sniffer"
+   ]
+  },
+  {
+   "q": "Several honeypots connected on a network segment form a:",
+   "a": "Honeynet",
+   "w": [
+    "Padded cell",
+    "DMZ",
+    "Extranet"
+   ]
+  },
+  {
+   "q": "A protected honeypot that attackers are seamlessly transferred to after the IDPS detects them is a:",
+   "a": "Padded cell",
+   "w": [
+    "Honeynet",
+    "Bastion",
+    "Sandbox"
+   ]
+  },
+  {
+   "q": "In trap-and-trace, which is legal and ethical?",
+   "a": "Enticement",
+   "w": [
+    "Entrapment",
+    "Both",
+    "Neither"
+   ]
+  },
+  {
+   "q": "Collecting publicly available information about a target is:",
+   "a": "Footprinting",
+   "w": [
+    "Fingerprinting",
+    "Spoofing",
+    "Sniffing"
+   ]
+  },
+  {
+   "q": "A systematic survey of a target's addresses to identify the network services offered is:",
+   "a": "Fingerprinting",
+   "w": [
+    "Footprinting",
+    "Phishing",
+    "Cracking"
+   ]
+  },
+  {
+   "q": "Which vulnerability scanner listens in on the network and can find client-side vulnerabilities?",
+   "a": "Passive vulnerability scanner",
+   "w": [
+    "Active vulnerability scanner",
+    "Port scanner",
+    "Firewall analyzer"
+   ]
+  },
+  {
+   "q": "The science of encryption, including cryptography and cryptanalysis, is:",
+   "a": "Cryptology",
+   "w": [
+    "Steganography",
+    "Cryptography only",
+    "Cryptanalysis only"
+   ]
+  },
+  {
+   "q": "Cracking or breaking encrypted messages back to plaintext is:",
+   "a": "Cryptanalysis",
+   "w": [
+    "Cryptography",
+    "Steganography",
+    "Hashing"
+   ]
+  },
+  {
+   "q": "The \"art of secret writing\" that hides information within images is:",
+   "a": "Steganography",
+   "w": [
+    "Cryptanalysis",
+    "Hashing",
+    "Transposition"
+   ]
+  },
+  {
+   "q": "A cipher that exchanges one value for another is a:",
+   "a": "Substitution cipher",
+   "w": [
+    "Transposition cipher",
+    "XOR cipher",
+    "Hash"
+   ]
+  },
+  {
+   "q": "A cipher that rearranges values within a block is a:",
+   "a": "Transposition cipher",
+   "w": [
+    "Substitution cipher",
+    "Vernam cipher",
+    "Hash"
+   ]
+  },
+  {
+   "q": "The Vigenère cipher is a:",
+   "a": "Polyalphabetic substitution cipher",
+   "w": [
+    "Monoalphabetic cipher",
+    "Transposition cipher",
+    "Book cipher"
+   ]
+  },
+  {
+   "q": "In XOR, if two bits are identical the result is:",
+   "a": "0",
+   "w": [
+    "1",
+    "Undefined",
+    "Same as input"
+   ]
+  },
+  {
+   "q": "The Vernam cipher was developed at:",
+   "a": "AT&T Bell Labs",
+   "w": [
+    "IBM",
+    "Xerox PARC",
+    "MIT"
+   ]
+  },
+  {
+   "q": "Hash functions:",
+   "a": "Confirm message identity and integrity without needing keys",
+   "w": [
+    "Always require a secret key",
+    "Encrypt messages for confidentiality",
+    "Exchange public keys"
+   ]
+  },
+  {
+   "q": "The DES key length is:",
+   "a": "56 bits",
+   "w": [
+    "64 bits",
+    "128 bits",
+    "256 bits"
+   ]
+  },
+  {
+   "q": "The DES block size is:",
+   "a": "64 bits",
+   "w": [
+    "56 bits",
+    "128 bits",
+    "192 bits"
+   ]
+  },
+  {
+   "q": "DES was adopted by NIST in:",
+   "a": "1976",
+   "w": [
+    "1991",
+    "1997",
+    "2001"
+   ]
+  },
+  {
+   "q": "Which algorithm was developed to replace both DES and 3DES?",
+   "a": "AES",
+   "w": [
+    "RSA",
+    "PGP",
+    "MD5"
+   ]
+  },
+  {
+   "q": "Which encryption uses the same secret key to encipher and decipher?",
+   "a": "Symmetric encryption",
+   "w": [
+    "Asymmetric encryption",
+    "Hashing",
+    "Steganography"
+   ]
+  },
+  {
+   "q": "Which was the first public-key algorithm published for commercial use?",
+   "a": "RSA",
+   "w": [
+    "DES",
+    "AES",
+    "PGP"
+   ]
+  },
+  {
+   "q": "Which cryptographic tool provides nonrepudiation?",
+   "a": "Digital signature",
+   "w": [
+    "Hash only",
+    "XOR",
+    "Transposition"
+   ]
+  },
+  {
+   "q": "In PKI, which entity issues digital certificates?",
+   "a": "Certificate authority",
+   "w": [
+    "Registration authority",
+    "Key distribution center",
+    "Ticket granting service"
+   ]
+  },
+  {
+   "q": "The method that uniquely identifies a certificate's entity is the:",
+   "a": "Distinguished name",
+   "w": [
+    "Public key",
+    "Session key",
+    "Cipher key"
+   ]
+  },
+  {
+   "q": "The most common hybrid system for key exchange is:",
+   "a": "Diffie-Hellman",
+   "w": [
+    "Vernam",
+    "Vigenère",
+    "SET"
+   ]
+  },
+  {
+   "q": "Who designed PGP in 1991?",
+   "a": "Phil Zimmermann",
+   "w": [
+    "Whitfield Diffie",
+    "Ron Rivest",
+    "Larry Roberts"
+   ]
+  },
+  {
+   "q": "SET was developed in 1997 by:",
+   "a": "MasterCard and VISA",
+   "w": [
+    "Microsoft and Intel",
+    "Netscape and IBM",
+    "Apple and Google"
+   ]
+  },
+  {
+   "q": "Which protocol is an early attempt to secure 802.11 wireless networks?",
+   "a": "WEP",
+   "w": [
+    "WPA2",
+    "RSN",
+    "SET"
+   ]
+  },
+  {
+   "q": "Which protocol is the open-source framework for TCP/IP security using Diffie-Hellman and bulk encryption?",
+   "a": "IPSec",
+   "w": [
+    "SSL",
+    "PGP",
+    "S/MIME"
+   ]
+  },
+  {
+   "q": "Which protocol builds on MIME and uses digital signatures based on public-key cryptosystems?",
+   "a": "S/MIME",
+   "w": [
+    "PEM",
+    "PGP",
+    "SET"
+   ]
+  },
+  {
+   "q": "Bluetooth can be exploited by anyone within approximately:",
+   "a": "30 feet",
+   "w": [
+    "3 feet",
+    "300 feet",
+    "1 mile"
+   ]
+  },
+  {
+   "q": "How many sources of physical loss are listed?",
+   "a": "7",
+   "w": [
+    "5",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "q": "When an authorized individual opens a door and others also enter, this is:",
+   "a": "Tailgating",
+   "w": [
+    "Piggybacking only",
+    "Shoulder surfing",
+    "Social engineering"
+   ]
+  },
+  {
+   "q": "A small enclosure with an entry point and a different exit point is a:",
+   "a": "Mantrap",
+   "w": [
+    "Turnstile",
+    "Bastion",
+    "Padded cell"
+   ]
+  },
+  {
+   "q": "A lock that stays locked when power fails is:",
+   "a": "Fail-secure",
+   "w": [
+    "Fail-safe",
+    "Fail-open",
+    "Fail-soft"
+   ]
+  },
+  {
+   "q": "A lock that unlocks when power fails so people can exit is:",
+   "a": "Fail-safe",
+   "w": [
+    "Fail-secure",
+    "Fail-closed",
+    "Fail-hard"
+   ]
+  },
+  {
+   "q": "Which people often have the greatest degree of unsupervised access to offices?",
+   "a": "Custodial staff",
+   "w": [
+    "Executives",
+    "Guards",
+    "Auditors"
+   ]
+  },
+  {
+   "q": "Which fire extinguisher classes exist in the slides?",
+   "a": "A, B, C, D, K",
+   "w": [
+    "A, B, C, E, F",
+    "1, 2, 3, 4, 5",
+    "X, Y, Z"
+   ]
+  },
+  {
+   "q": "Which gas-based fire suppressant is ozone-depleting and prohibited in new installations?",
+   "a": "Halon",
+   "w": [
+    "Carbon dioxide",
+    "Argon",
+    "Nitrogen"
+   ]
+  },
+  {
+   "q": "Which fire suppression agent removes the oxygen supply?",
+   "a": "Carbon dioxide",
+   "w": [
+    "Halon only",
+    "Soda acid",
+    "Water mist"
+   ]
+  },
+  {
+   "q": "GFCI is capable of:",
+   "a": "Quickly identifying and interrupting a ground fault",
+   "w": [
+    "Boosting voltage",
+    "Cooling server rooms",
+    "Detecting smoke"
+   ]
+  },
+  {
+   "q": "Which program was created to reduce the risk of electromagnetic radiation monitoring?",
+   "a": "TEMPEST",
+   "w": [
+    "NIACAP",
+    "FOIA",
+    "InfraGard"
+   ]
+  },
+  {
+   "q": "Which software is stored on laptops and reports to a central monitoring center?",
+   "a": "CompuTrace",
+   "w": [
+    "TEMPEST",
+    "LaBrea",
+    "Kerberos"
+   ]
+  },
+  {
+   "q": "A tool used to create a project plan with tasks, resources, dates and dependencies is the:",
+   "a": "Work breakdown structure",
+   "w": [
+    "Bull's-eye model",
+    "Ranked risk worksheet",
+    "SWOT matrix"
+   ]
+  },
+  {
+   "q": "The four conversion strategies are:",
+   "a": "Direct, phased, pilot and parallel",
+   "w": [
+    "Fast, slow, hybrid and manual",
+    "Hot, warm, cold and mirror",
+    "Cut, copy, paste and merge"
+   ]
+  },
+  {
+   "q": "The bull's-eye model addresses layers in which order?",
+   "a": "Policies, networks, systems, applications",
+   "w": [
+    "Applications, systems, networks, policies",
+    "Networks, policies, applications, systems",
+    "Systems, policies, applications, networks"
+   ]
+  },
+  {
+   "q": "Lewin's change model has which steps?",
+   "a": "Unfreezing, moving, refreezing",
+   "w": [
+    "Plan, do, check",
+    "Define, measure, analyze",
+    "Initiate, execute, close"
+   ]
+  },
+  {
+   "q": "Which three steps help managers reduce resistance to change?",
+   "a": "Communicate, educate, involve",
+   "w": [
+    "Order, command, enforce",
+    "Plan, fund, build",
+    "Notify, delay, ignore"
+   ]
+  },
+  {
+   "q": "Authorization of an IT system to process, store or transmit information is:",
+   "a": "Accreditation",
+   "w": [
+    "Certification",
+    "Validation",
+    "Verification"
+   ]
+  },
+  {
+   "q": "Evaluation of technical and nontechnical security controls to show design meets requirements is:",
+   "a": "Certification",
+   "w": [
+    "Accreditation",
+    "Authorization",
+    "Registration"
+   ]
+  },
+  {
+   "q": "How many phases does NIACAP have?",
+   "a": "4",
+   "w": [
+    "3",
+    "5",
+    "6"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "d": "E",
+   "q": "What does CIA stand for in the triad?",
+   "a": "Confidentiality, Integrity, Availability",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Name the seven critical characteristics of information.",
+   "a": "Availability, accuracy, authenticity, confidentiality, integrity, utility, possession",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What 3-dimensional security model is a cube?",
+   "a": "McCumber Cube",
+   "alt": [
+    "mccumber"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What report started the study of computer security?",
+   "a": "RAND Report R-609",
+   "alt": [
+    "R-609",
+    "rand r-609"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who led the development of the ARPANET?",
+   "a": "Larry Roberts",
+   "alt": [
+    "roberts"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "In what year was DEFCON established?",
+   "a": "1993",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the six components of an information system?",
+   "a": "Software, hardware, data, people, procedures, networks",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What do you call the SDLC phase that is the longest and most expensive?",
+   "a": "Maintenance and change",
+   "alt": [
+    "maintenance"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What are the phases of the SDLC in the slides?",
+   "a": "Investigation, analysis, logical design, physical design, implementation, maintenance and change",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does CISO stand for?",
+   "a": "Chief Information Security Officer",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Who are responsible for the security and use of a set of information: data owners, custodians or users?",
+   "a": "Data owners",
+   "alt": [
+    "owners"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "How many categories of threats appear in Table 2-5?",
+   "a": "12",
+   "alt": [
+    "twelve"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which two organizations investigate software piracy?",
+   "a": "SIIA and BSA",
+   "alt": [
+    "Software & Information Industry Association and Business Software Alliance"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What do you call a hacker of the public telephone system?",
+   "a": "Phreaker",
+   "alt": [
+    "phreak"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What do you call someone who removes software copy protection?",
+   "a": "Cracker",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What do you call a DoS attack launched from many locations?",
+   "a": "DDoS",
+   "alt": [
+    "distributed denial of service"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What do you call malware disguised as helpful software?",
+   "a": "Trojan horse",
+   "alt": [
+    "trojan"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What do you call an attack where the intruder assumes a trusted IP address?",
+   "a": "IP spoofing",
+   "alt": [
+    "spoofing"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What do you call an attack that redirects a browser's address bar to a fake site?",
+   "a": "Pharming",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What do you call an attack where packets are monitored, modified and reinserted?",
+   "a": "Man-in-the-middle",
+   "alt": [
+    "mitm",
+    "man in the middle"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does OWASP stand for?",
+   "a": "Open Web Application Security Project",
+   "alt": [
+    "Open Worldwide Application Security Project"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does MTBF stand for?",
+   "a": "Mean time between failure",
+   "alt": [
+    "mean time between failures"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What is the legal standard of acting legally and ethically while knowing the consequences?",
+   "a": "Due care",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the legal standard of maintaining due care and making sure actions are effective?",
+   "a": "Due diligence",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What do you call compensating an injured party?",
+   "a": "Restitution",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the five criteria for policy enforcement?",
+   "a": "Dissemination, review, comprehension, compliance, uniform enforcement",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which U.S. law of 1986 is the cornerstone of computer crime law?",
+   "a": "Computer Fraud and Abuse Act",
+   "alt": [
+    "CFA Act",
+    "cfaa"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "HIPAA is also known as what Act?",
+   "a": "Kennedy-Kassebaum Act",
+   "alt": [
+    "kennedy kassebaum"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the Gramm-Leach-Bliley Act also called?",
+   "a": "Financial Services Modernization Act",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "In what year was the Freedom of Information Act passed?",
+   "a": "1966",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "How many offenses are in the UK Computer Misuse Act 1990?",
+   "a": "3",
+   "alt": [
+    "three"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which WTO agreement was the first major international IP effort?",
+   "a": "TRIPS",
+   "alt": [
+    "Agreement on Trade-Related Aspects of Intellectual Property Rights"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What group wrote the Ten Commandments of Computer Ethics?",
+   "a": "Computer Ethics Institute",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What three conditions must be present for laws and policies to deter?",
+   "a": "Fear of penalty, probability of being caught, probability of penalty being applied",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "In what year was the ACM founded?",
+   "a": "1947",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does SANS' certification set called GIAC stand for?",
+   "a": "Global Information Assurance Certification",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the FBI's program with an intrusion alert network?",
+   "a": "InfraGard",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the five governance outcomes?",
+   "a": "Strategic alignment, risk management, resource management, performance measurement, value delivery",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does EISP stand for?",
+   "a": "Enterprise Information Security Policy",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does ISSP stand for?",
+   "a": "Issue-Specific Security Policy",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does SysSP stand for?",
+   "a": "Systems-Specific Security Policy",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the three levels of controls in security architecture?",
+   "a": "Management, operational, technical",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What do you call implementing security in layers?",
+   "a": "Defense in depth",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does SETA stand for?",
+   "a": "Security Education, Training, and Awareness",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which SETA element answers \"why\"?",
+   "a": "Education",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which SETA element answers \"how\"?",
+   "a": "Training",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which SETA element answers \"what\"?",
+   "a": "Awareness",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does BIA stand for?",
+   "a": "Business impact analysis",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What three plans form contingency planning?",
+   "a": "IRP, DRP and BCP",
+   "alt": [
+    "incident response, disaster recovery, business continuity"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What are the three exclusive site options for business continuity?",
+   "a": "Hot, warm, cold sites",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the three shared continuity options?",
+   "a": "Time-share, service bureaus, mutual agreements",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the three off-site data storage options?",
+   "a": "Electronic vaulting, remote journaling, database shadowing",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the risk remaining after controls are applied called?",
+   "a": "Residual risk",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What do you call the amount of risk an organization is willing to accept?",
+   "a": "Risk appetite",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does TVA stand for in a risk worksheet?",
+   "a": "Threats, vulnerabilities, assets",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the five risk control strategies?",
+   "a": "Defense, transference, mitigation, acceptance, termination",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the formula for single loss expectancy?",
+   "a": "Asset value × exposure factor",
+   "alt": [
+    "SLE = AV x EF"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the formula for annualized loss expectancy?",
+   "a": "SLE × ARO",
+   "alt": [
+    "ALE = SLE x ARO"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the cost-benefit analysis formula?",
+   "a": "ALE(prior) − ALE(post) − ACS",
+   "alt": [
+    "ALE prior - ALE post - ACS"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What are the four steps of the NIST risk management framework?",
+   "a": "Frame, assess, respond, monitor",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the four functions of access control?",
+   "a": "Identification, authentication, authorization, accountability",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the three common authentication factors?",
+   "a": "Something you know, something you have, something you are",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the Bell-LaPadula principle?",
+   "a": "No read up, no write down",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the Biba principle?",
+   "a": "No write up, no read down",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which model is the successor to TCSEC and ITSEC?",
+   "a": "Common Criteria",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the three firewall architectures?",
+   "a": "Single bastion host, screened host, screened subnet",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which firewall architecture is dominant today?",
+   "a": "Screened subnet (with DMZ)",
+   "alt": [
+    "screened subnet",
+    "dmz"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What are the four firewall processing modes?",
+   "a": "Packet filtering, application layer proxy, MAC layer, hybrid",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What port does Telnet use?",
+   "a": "23",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What port does SMTP use?",
+   "a": "25",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What port does DNS use?",
+   "a": "53",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What port does POP3 use?",
+   "a": "110",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What port does SNMP use?",
+   "a": "161",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the three services of Kerberos?",
+   "a": "AS, KDC and TGS",
+   "alt": [
+    "authentication server, key distribution center, ticket granting service"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does RADIUS stand for?",
+   "a": "Remote Authentication Dial-In User Service",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does SESAME stand for?",
+   "a": "Secure European System for Applications in a Multivendor Environment",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the two VPN modes?",
+   "a": "Transport mode and tunnel mode",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the four IDPS detection methods?",
+   "a": "Signature-based, anomaly-based, stateful protocol analysis, log file monitoring",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is a decoy system to lure attackers called?",
+   "a": "Honeypot",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is a protected honeypot that attackers are transferred to called?",
+   "a": "Padded cell",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which is legal: enticement or entrapment?",
+   "a": "Enticement",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What do you call collecting publicly available information on a target?",
+   "a": "Footprinting",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What do you call surveying a target's addresses to identify services?",
+   "a": "Fingerprinting",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What science combines cryptography and cryptanalysis?",
+   "a": "Cryptology",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the DES block size and key length?",
+   "a": "64-bit block, 56-bit key",
+   "alt": [
+    "64 and 56"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "In what year was DES adopted by NIST?",
+   "a": "1976",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which algorithm replaced DES and 3DES?",
+   "a": "AES",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which was the first commercial public-key algorithm?",
+   "a": "RSA",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does PKI stand for?",
+   "a": "Public-Key Infrastructure",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does a digital signature provide?",
+   "a": "Nonrepudiation",
+   "alt": [
+    "non-repudiation"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which hybrid key exchange method is most common?",
+   "a": "Diffie-Hellman",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Who designed PGP and in what year?",
+   "a": "Phil Zimmermann, 1991",
+   "alt": [
+    "zimmermann"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does SET stand for?",
+   "a": "Secure Electronic Transactions",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which TEMPEST program addresses what threat?",
+   "a": "Electromagnetic radiation monitoring",
+   "alt": [
+    "electromagnetic interception",
+    "emr"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "How many sources of physical loss are listed?",
+   "a": "7",
+   "alt": [
+    "seven"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What do you call a small enclosure with different entry and exit points?",
+   "a": "Mantrap",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the five fire extinguisher classes?",
+   "a": "A, B, C, D, K",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What do you call the tool that breaks a project into tasks?",
+   "a": "Work breakdown structure",
+   "alt": [
+    "wbs"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What are the four conversion strategies?",
+   "a": "Direct changeover, phased, pilot, parallel operations",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the layers of the bull's-eye model?",
+   "a": "Policies, networks, systems, applications",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the three steps of the Lewin change model?",
+   "a": "Unfreezing, moving, refreezing",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the four NIACAP phases?",
+   "a": "Definition, verification, validation, post accreditation",
+   "alt": []
+  }
+ ]
+}

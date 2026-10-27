@@ -1,0 +1,139 @@
+{
+ "lessons": [
+  "cc",
+  "logic",
+  "os",
+  "se",
+  "oop",
+  "net",
+  "arch",
+  "dbms",
+  "ds",
+  "web",
+  "sec",
+  "ias",
+  "techno",
+  "ai"
+ ],
+ "docs": [
+  {
+   "id": "readme",
+   "group": "Start",
+   "title": "Start here",
+   "lesson": null,
+   "file": "00_readme.md"
+  },
+  {
+   "id": "strategy",
+   "group": "Start",
+   "title": "Competition setup & strategy",
+   "lesson": null,
+   "file": "01_strategy.md"
+  },
+  {
+   "id": "cc",
+   "group": "Lessons",
+   "title": "1. Basic Computer Concepts & General IT",
+   "lesson": "cc",
+   "file": "02_cc.md"
+  },
+  {
+   "id": "logic",
+   "group": "Lessons",
+   "title": "2. Logic Formulation",
+   "lesson": "logic",
+   "file": "03_logic.md"
+  },
+  {
+   "id": "os",
+   "group": "Lessons",
+   "title": "3. Operating Systems",
+   "lesson": "os",
+   "file": "04_os.md"
+  },
+  {
+   "id": "se",
+   "group": "Lessons",
+   "title": "4. Software Engineering",
+   "lesson": "se",
+   "file": "05_se.md"
+  },
+  {
+   "id": "oop",
+   "group": "Lessons",
+   "title": "5. Object-Oriented Programming",
+   "lesson": "oop",
+   "file": "06_oop.md"
+  },
+  {
+   "id": "net",
+   "group": "Lessons",
+   "title": "6. Networks & Telecommunication",
+   "lesson": "net",
+   "file": "07_net.md"
+  },
+  {
+   "id": "arch",
+   "group": "Lessons",
+   "title": "7. Computer Architecture",
+   "lesson": "arch",
+   "file": "08_arch.md"
+  },
+  {
+   "id": "dbms",
+   "group": "Lessons",
+   "title": "8A. Database Management Systems",
+   "lesson": "dbms",
+   "file": "09_dbms.md"
+  },
+  {
+   "id": "ds",
+   "group": "Lessons",
+   "title": "8B. Data Science & Analytics",
+   "lesson": "ds",
+   "file": "10_ds.md"
+  },
+  {
+   "id": "web",
+   "group": "Lessons",
+   "title": "9. E-commerce & Web Design",
+   "lesson": "web",
+   "file": "11_web.md"
+  },
+  {
+   "id": "sec",
+   "group": "Lessons",
+   "title": "10. IT Security",
+   "lesson": "sec",
+   "file": "12_sec.md"
+  },
+  {
+   "id": "ias",
+   "group": "Lessons",
+   "title": "10B. Information Assurance & Security (IAS)",
+   "lesson": "ias",
+   "file": "15_ias.md"
+  },
+  {
+   "id": "techno",
+   "group": "Lessons",
+   "title": "11. Technopreneurship",
+   "lesson": "techno",
+   "file": "16_techno.md"
+  },
+  {
+   "id": "ai",
+   "group": "Extras",
+   "title": "AI & Tech Trivia",
+   "lesson": "ai",
+   "file": "13_ai.md"
+  },
+  {
+   "id": "cram",
+   "group": "Extras",
+   "title": "Cram sheet",
+   "lesson": null,
+   "file": "14_cram.md"
+  }
+ ]
+}

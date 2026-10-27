@@ -1,0 +1,1091 @@
+{
+ "id": "os",
+ "no": "3",
+ "title": "Operating Systems",
+ "mcq": [
+  {
+   "q": "The OS acting as an \"extended machine\" means it:",
+   "a": "Hides hardware complexity behind simpler abstractions such as system calls",
+   "w": [
+    "Adds more physical memory",
+    "Allocates CPU time only",
+    "Compiles user programs"
+   ]
+  },
+  {
+   "q": "Dividing a resource among users by giving each one a part of it (e.g., memory) is called:",
+   "a": "Space multiplexing",
+   "w": [
+    "Time multiplexing",
+    "Spooling",
+    "Swapping"
+   ]
+  },
+  {
+   "q": "Sharing a CPU by letting processes take turns is called:",
+   "a": "Time multiplexing",
+   "w": [
+    "Space multiplexing",
+    "Paging",
+    "Segmentation"
+   ]
+  },
+  {
+   "q": "In which mode does the operating system run with full access to the hardware?",
+   "a": "Kernel (supervisor) mode",
+   "w": [
+    "User mode",
+    "Safe mode",
+    "Virtual mode"
+   ]
+  },
+  {
+   "q": "A program requests a kernel service through a:",
+   "a": "System call",
+   "w": [
+    "Shell script",
+    "Subroutine library only",
+    "Device driver"
+   ]
+  },
+  {
+   "q": "The shell of an operating system is:",
+   "a": "A command interpreter that is not part of the kernel",
+   "w": [
+    "The core of the kernel",
+    "A device driver",
+    "A file system"
+   ]
+  },
+  {
+   "q": "Batch systems and punched cards belong to which OS generation?",
+   "a": "Second (transistors)",
+   "w": [
+    "First (vacuum tubes)",
+    "Third (ICs)",
+    "Fourth (PCs)"
+   ]
+  },
+  {
+   "q": "Multiprogramming, spooling and timesharing appeared in the:",
+   "a": "Third generation (ICs)",
+   "w": [
+    "First generation",
+    "Second generation",
+    "Fourth generation"
+   ]
+  },
+  {
+   "q": "SPOOL stands for:",
+   "a": "Simultaneous Peripheral Operations On-Line",
+   "w": [
+    "System Peripheral Output On Line",
+    "Serial Process Operations On Load",
+    "Simple Printing Operation On Line"
+   ]
+  },
+  {
+   "q": "Which early timesharing system was developed at MIT?",
+   "a": "CTSS",
+   "w": [
+    "OS/360",
+    "MS-DOS",
+    "MINIX"
+   ]
+  },
+  {
+   "q": "UNIX is descended from which earlier OS project?",
+   "a": "MULTICS",
+   "w": [
+    "CP/M",
+    "MINIX",
+    "OS/360"
+   ]
+  },
+  {
+   "q": "Who wrote the CP/M operating system?",
+   "a": "Gary Kildall",
+   "w": [
+    "Bill Gates",
+    "Tim Paterson",
+    "Dennis Ritchie"
+   ]
+  },
+  {
+   "q": "MS-DOS originated from QDOS, written by Tim Paterson at:",
+   "a": "Seattle Computer Products",
+   "w": [
+    "Digital Research",
+    "Apple",
+    "Xerox"
+   ]
+  },
+  {
+   "q": "Who created the Linux kernel?",
+   "a": "Linus Torvalds",
+   "w": [
+    "Andrew Tanenbaum",
+    "Richard Stallman",
+    "Ken Thompson"
+   ]
+  },
+  {
+   "q": "MINIX was written in 1987 by:",
+   "a": "Andrew Tanenbaum",
+   "w": [
+    "Linus Torvalds",
+    "Dennis Ritchie",
+    "Gary Kildall"
+   ]
+  },
+  {
+   "q": "The graphical user interface was commercialized first by Xerox PARC ideas and then by Apple's:",
+   "a": "Lisa and Macintosh",
+   "w": [
+    "Altair and Apple I",
+    "IBM PC and PCjr",
+    "Amiga and Atari"
+   ]
+  },
+  {
+   "q": "Which OS type must meet strict deadlines, such as in pacemakers and airbags?",
+   "a": "Hard real-time OS",
+   "w": [
+    "Soft real-time OS",
+    "Batch OS",
+    "Mainframe OS"
+   ]
+  },
+  {
+   "q": "Which of these is a real-time operating system?",
+   "a": "VxWorks",
+   "w": [
+    "MS-DOS",
+    "Ubuntu Desktop",
+    "Windows 98"
+   ]
+  },
+  {
+   "q": "The six-layer OS designed by Dijkstra in 1968 is called:",
+   "a": "THE system",
+   "w": [
+    "MULTICS",
+    "MINIX",
+    "VM/370"
+   ]
+  },
+  {
+   "q": "Which OS structure runs minimal code in the kernel and most services as user-mode servers?",
+   "a": "Microkernel",
+   "w": [
+    "Monolithic",
+    "Layered",
+    "Exokernel"
+   ]
+  },
+  {
+   "q": "Which OS structure puts all procedures in one big program where any procedure can call any other?",
+   "a": "Monolithic",
+   "w": [
+    "Microkernel",
+    "Layered",
+    "Virtual machine"
+   ]
+  },
+  {
+   "q": "IBM's VM/370 is an example of which structure?",
+   "a": "Virtual machine",
+   "w": [
+    "Microkernel",
+    "Exokernel",
+    "Layered"
+   ]
+  },
+  {
+   "q": "A Type 1 hypervisor runs:",
+   "a": "Directly on bare hardware",
+   "w": [
+    "On top of a host OS",
+    "Inside a container",
+    "Only on mobile devices"
+   ]
+  },
+  {
+   "q": "Which of these is a Type 2 (hosted) hypervisor?",
+   "a": "VirtualBox",
+   "w": [
+    "VMware ESXi",
+    "Xen",
+    "Hyper-V"
+   ]
+  },
+  {
+   "q": "A process is best described as:",
+   "a": "A program in execution",
+   "w": [
+    "A file on disk",
+    "A set of source code lines",
+    "A hardware component"
+   ]
+  },
+  {
+   "q": "Which UNIX call creates a new process?",
+   "a": "fork()",
+   "w": [
+    "exec()",
+    "wait()",
+    "pipe()"
+   ]
+  },
+  {
+   "q": "Which call replaces a process's program with another?",
+   "a": "exec()",
+   "w": [
+    "fork()",
+    "wait()",
+    "exit()"
+   ]
+  },
+  {
+   "q": "Which is NOT a standard process state?",
+   "a": "Compiled",
+   "w": [
+    "Ready",
+    "Running",
+    "Blocked"
+   ]
+  },
+  {
+   "q": "A process moves from Running to Ready when:",
+   "a": "Its time slice expires",
+   "w": [
+    "It waits for I/O",
+    "It finishes",
+    "It is created"
+   ]
+  },
+  {
+   "q": "A process moves from Running to Blocked when:",
+   "a": "It waits for an I/O event",
+   "w": [
+    "Its quantum expires",
+    "It is preempted by a higher priority",
+    "It is admitted"
+   ]
+  },
+  {
+   "q": "The data structure holding a process's information (PID, registers, state) is the:",
+   "a": "Process Control Block",
+   "w": [
+    "Page table",
+    "Inode",
+    "Boot sector"
+   ]
+  },
+  {
+   "q": "A terminated process whose parent has not yet collected its exit status is a:",
+   "a": "Zombie",
+   "w": [
+    "Orphan",
+    "Daemon",
+    "Thread"
+   ]
+  },
+  {
+   "q": "Threads of the same process share:",
+   "a": "Address space and open files",
+   "w": [
+    "Stack",
+    "Program counter",
+    "CPU registers"
+   ]
+  },
+  {
+   "q": "Each thread has its own:",
+   "a": "Stack and program counter",
+   "w": [
+    "Heap",
+    "Global variables",
+    "Open file table"
+   ]
+  },
+  {
+   "q": "A situation in which the outcome depends on the timing of processes is a:",
+   "a": "Race condition",
+   "w": [
+    "Deadlock",
+    "Livelock",
+    "Starvation"
+   ]
+  },
+  {
+   "q": "Who invented semaphores (P and V operations)?",
+   "a": "Edsger Dijkstra",
+   "w": [
+    "Tony Hoare",
+    "Andrew Tanenbaum",
+    "Leslie Lamport"
+   ]
+  },
+  {
+   "q": "Which scheduling algorithm is non-preemptive and processes jobs in arrival order?",
+   "a": "FCFS",
+   "w": [
+    "Round Robin",
+    "SRTN",
+    "Priority with preemption"
+   ]
+  },
+  {
+   "q": "Which algorithm is provably optimal for average waiting time when all jobs arrive together?",
+   "a": "SJF",
+   "w": [
+    "FCFS",
+    "Round Robin",
+    "Lottery"
+   ]
+  },
+  {
+   "q": "Preemptive Shortest Job First is called:",
+   "a": "SRTN (Shortest Remaining Time Next)",
+   "w": [
+    "FCFS",
+    "Round Robin",
+    "Multilevel queue"
+   ]
+  },
+  {
+   "q": "Round Robin scheduling gives each process a fixed:",
+   "a": "Time quantum",
+   "w": [
+    "Priority",
+    "Memory partition",
+    "Page"
+   ]
+  },
+  {
+   "q": "If the Round Robin quantum is extremely large, it behaves like:",
+   "a": "FCFS",
+   "w": [
+    "SJF",
+    "Priority scheduling",
+    "Lottery scheduling"
+   ]
+  },
+  {
+   "q": "Starvation in priority scheduling is solved by:",
+   "a": "Aging",
+   "w": [
+    "Compaction",
+    "Spooling",
+    "Swapping"
+   ]
+  },
+  {
+   "q": "Waiting time is computed as:",
+   "a": "Turnaround time minus burst time",
+   "w": [
+    "Completion time minus arrival time",
+    "Burst time minus arrival time",
+    "Response time plus burst time"
+   ]
+  },
+  {
+   "q": "Turnaround time is computed as:",
+   "a": "Completion time minus arrival time",
+   "w": [
+    "Waiting time minus burst time",
+    "Burst time plus arrival time",
+    "First response minus arrival"
+   ]
+  },
+  {
+   "q": "FCFS example: P1 (24), P2 (3), P3 (3) arrive in that order. The average waiting time is:",
+   "a": "17",
+   "w": [
+    "3",
+    "13",
+    "27"
+   ]
+  },
+  {
+   "q": "Which is NOT one of the four Coffman conditions for deadlock?",
+   "a": "Preemption",
+   "w": [
+    "Mutual exclusion",
+    "Hold and wait",
+    "Circular wait"
+   ]
+  },
+  {
+   "q": "Banker's algorithm is used for deadlock:",
+   "a": "Avoidance",
+   "w": [
+    "Detection only",
+    "Ignoring",
+    "Recovery"
+   ]
+  },
+  {
+   "q": "The \"ostrich algorithm\" for deadlocks means:",
+   "a": "Ignoring the problem",
+   "w": [
+    "Killing all processes",
+    "Preventing circular wait",
+    "Using more memory"
+   ]
+  },
+  {
+   "q": "Imposing a numbering order on resources prevents which deadlock condition?",
+   "a": "Circular wait",
+   "w": [
+    "Mutual exclusion",
+    "Hold and wait",
+    "No preemption"
+   ]
+  },
+  {
+   "q": "Which registers solve relocation and protection in simple multiprogramming?",
+   "a": "Base and limit registers",
+   "w": [
+    "Program counter and stack pointer",
+    "Index and accumulator",
+    "Instruction and data registers"
+   ]
+  },
+  {
+   "q": "Which memory allocation algorithm picks the smallest hole that is big enough?",
+   "a": "Best fit",
+   "w": [
+    "First fit",
+    "Worst fit",
+    "Next fit"
+   ]
+  },
+  {
+   "q": "Fragmentation that occurs inside an allocated block is:",
+   "a": "Internal fragmentation",
+   "w": [
+    "External fragmentation",
+    "Checkerboarding",
+    "Thrashing"
+   ]
+  },
+  {
+   "q": "Segmentation mainly suffers from which problem?",
+   "a": "External fragmentation",
+   "w": [
+    "Internal fragmentation only",
+    "Belady's anomaly",
+    "Lack of sharing"
+   ]
+  },
+  {
+   "q": "In paging, physical memory is divided into fixed-size blocks called:",
+   "a": "Page frames",
+   "w": [
+    "Segments",
+    "Sectors",
+    "Partitions"
+   ]
+  },
+  {
+   "q": "A virtual address in a paging system consists of:",
+   "a": "Page number and offset",
+   "w": [
+    "Segment and limit",
+    "Base and bound",
+    "Cylinder and head"
+   ]
+  },
+  {
+   "q": "The hardware cache that stores recent page-table entries is the:",
+   "a": "TLB",
+   "w": [
+    "MMU",
+    "DMA",
+    "BIOS"
+   ]
+  },
+  {
+   "q": "A page fault occurs when:",
+   "a": "The referenced page is not in main memory",
+   "w": [
+    "Memory is full of frames",
+    "A process terminates",
+    "A disk crashes"
+   ]
+  },
+  {
+   "q": "Which page replacement algorithm is theoretically the best but cannot be implemented in practice?",
+   "a": "Optimal",
+   "w": [
+    "LRU",
+    "FIFO",
+    "Clock"
+   ]
+  },
+  {
+   "q": "Belady's anomaly can occur with which page replacement algorithm?",
+   "a": "FIFO",
+   "w": [
+    "LRU",
+    "Optimal",
+    "Stack-based algorithms"
+   ]
+  },
+  {
+   "q": "Excessive paging that makes the CPU idle is called:",
+   "a": "Thrashing",
+   "w": [
+    "Spooling",
+    "Compaction",
+    "Aging"
+   ]
+  },
+  {
+   "q": "With 4 KB pages, virtual address 8196 maps to which page and offset?",
+   "a": "Page 2, offset 4",
+   "w": [
+    "Page 1, offset 4",
+    "Page 2, offset 8196",
+    "Page 3, offset 0"
+   ]
+  },
+  {
+   "q": "Which technique lets a device transfer data to memory without CPU involvement?",
+   "a": "DMA",
+   "w": [
+    "Polling",
+    "Interrupt-driven I/O",
+    "Spooling"
+   ]
+  },
+  {
+   "q": "Busy waiting on a device status register is known as:",
+   "a": "Programmed I/O (polling)",
+   "w": [
+    "DMA",
+    "Interrupt-driven I/O",
+    "Memory-mapped I/O"
+   ]
+  },
+  {
+   "q": "Which of these is a block device?",
+   "a": "Hard disk",
+   "w": [
+    "Keyboard",
+    "Mouse",
+    "Serial port"
+   ]
+  },
+  {
+   "q": "Disk access time equals:",
+   "a": "Seek time + rotational latency + transfer time",
+   "w": [
+    "Seek time + transfer time only",
+    "Latency × transfer time",
+    "Seek time − latency"
+   ]
+  },
+  {
+   "q": "Which disk scheduling algorithm services the request with the least seek distance first?",
+   "a": "SSTF",
+   "w": [
+    "FCFS",
+    "SCAN",
+    "C-SCAN"
+   ]
+  },
+  {
+   "q": "The \"elevator algorithm\" for disk scheduling is:",
+   "a": "SCAN",
+   "w": [
+    "SSTF",
+    "FCFS",
+    "Random"
+   ]
+  },
+  {
+   "q": "Which RAID level is mirroring?",
+   "a": "RAID 1",
+   "w": [
+    "RAID 0",
+    "RAID 5",
+    "RAID 6"
+   ]
+  },
+  {
+   "q": "Which RAID level uses striping without redundancy?",
+   "a": "RAID 0",
+   "w": [
+    "RAID 1",
+    "RAID 5",
+    "RAID 10"
+   ]
+  },
+  {
+   "q": "The UNIX data structure listing a file's attributes and disk block addresses is the:",
+   "a": "i-node",
+   "w": [
+    "FAT",
+    "Superblock",
+    "MBR"
+   ]
+  },
+  {
+   "q": "In the FAT file system, FAT stands for:",
+   "a": "File Allocation Table",
+   "w": [
+    "Fast Access Table",
+    "File Attribute Table",
+    "Fixed Allocation Tree"
+   ]
+  },
+  {
+   "q": "Which is the default file system of modern Windows?",
+   "a": "NTFS",
+   "w": [
+    "ext4",
+    "APFS",
+    "ISO 9660"
+   ]
+  },
+  {
+   "q": "Which Linux command lists running processes?",
+   "a": "ps",
+   "w": [
+    "ls",
+    "chmod",
+    "df"
+   ]
+  },
+  {
+   "q": "Which command changes file permissions on Linux?",
+   "a": "chmod",
+   "w": [
+    "chown",
+    "grep",
+    "pwd"
+   ]
+  },
+  {
+   "q": "What does chmod 755 represent?",
+   "a": "rwxr-xr-x",
+   "w": [
+    "rw-r--r--",
+    "rwxrwxrwx",
+    "r-xr-xr-x"
+   ]
+  },
+  {
+   "q": "Which Windows command shows IP configuration?",
+   "a": "ipconfig",
+   "w": [
+    "ifconfig",
+    "netstat only",
+    "tasklist"
+   ]
+  },
+  {
+   "q": "Which Linux command prints the current working directory?",
+   "a": "pwd",
+   "w": [
+    "cd",
+    "ls",
+    "dir"
+   ]
+  },
+  {
+   "q": "Which sector of a disk holds the Master Boot Record?",
+   "a": "Sector 0",
+   "w": [
+    "Sector 1",
+    "The last sector",
+    "The superblock"
+   ]
+  },
+  {
+   "q": "Which 3-2-1 backup rule is correct?",
+   "a": "3 copies, 2 media types, 1 offsite",
+   "w": [
+    "3 disks, 2 servers, 1 tape",
+    "3 days, 2 weeks, 1 month",
+    "3 users, 2 admins, 1 owner"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "d": "E",
+   "q": "What is a program in execution called?",
+   "a": "Process",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the core of an operating system called?",
+   "a": "Kernel",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the command interpreter of an OS called?",
+   "a": "Shell",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the interface that lets programs request kernel services?",
+   "a": "System call",
+   "alt": [
+    "syscall"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who created Linux?",
+   "a": "Linus Torvalds",
+   "alt": [
+    "Torvalds"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which OS did Andrew Tanenbaum write in 1987?",
+   "a": "MINIX",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which scheduling algorithm gives each process a time quantum?",
+   "a": "Round Robin",
+   "alt": [
+    "RR"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What does FCFS stand for?",
+   "a": "First-Come, First-Served",
+   "alt": [
+    "First Come First Served"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What do you call a lightweight process within a process?",
+   "a": "Thread",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the default file system of Windows?",
+   "a": "NTFS",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the Linux command to list files?",
+   "a": "ls",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the Linux command to change permissions?",
+   "a": "chmod",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the Windows command to show IP configuration?",
+   "a": "ipconfig",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does the BIOS/UEFI run first when a computer powers on?",
+   "a": "POST",
+   "alt": [
+    "Power-On Self-Test"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which generation of OS introduced batch systems?",
+   "a": "Second",
+   "alt": [
+    "2nd generation"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which generation of OS introduced multiprogramming and timesharing?",
+   "a": "Third",
+   "alt": [
+    "3rd generation"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What MIT timesharing system came before MULTICS?",
+   "a": "CTSS",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What OS did Gary Kildall create?",
+   "a": "CP/M",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the name of the six-layer OS designed by Dijkstra?",
+   "a": "THE",
+   "alt": [
+    "THE system"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What OS structure has a minimal kernel and user-mode servers?",
+   "a": "Microkernel",
+   "alt": [
+    "Client-server"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What system call creates a new process in UNIX?",
+   "a": "fork",
+   "alt": [
+    "fork()"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What do you call a finished process that its parent hasn't reaped?",
+   "a": "Zombie",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the four Coffman conditions for deadlock?",
+   "a": "Mutual exclusion, hold and wait, no preemption, circular wait",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What algorithm, by Dijkstra, is used for deadlock avoidance?",
+   "a": "Banker's algorithm",
+   "alt": [
+    "Bankers algorithm"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What do you call excessive paging that idles the CPU?",
+   "a": "Thrashing",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What hardware cache stores recent page-table entries?",
+   "a": "TLB",
+   "alt": [
+    "Translation Lookaside Buffer"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What happens when a process references a page not in memory?",
+   "a": "Page fault",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which hardware lets devices access memory without the CPU?",
+   "a": "DMA",
+   "alt": [
+    "Direct Memory Access"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which memory allocation algorithm uses the smallest hole that fits?",
+   "a": "Best fit",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What file structure in UNIX holds file attributes and block addresses?",
+   "a": "i-node",
+   "alt": [
+    "inode"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is sector 0 of a disk called?",
+   "a": "MBR",
+   "alt": [
+    "Master Boot Record"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What technique solves priority-scheduling starvation?",
+   "a": "Aging",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the formula for waiting time?",
+   "a": "Turnaround time minus burst time",
+   "alt": [
+    "Turnaround - Burst"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the formula for turnaround time?",
+   "a": "Completion time minus arrival time",
+   "alt": [
+    "Completion - Arrival"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the average waiting time for FCFS with P1=24, P2=3, P3=3 arriving in that order?",
+   "a": "17",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the name of preemptive SJF?",
+   "a": "SRTN",
+   "alt": [
+    "SRTF",
+    "Shortest Remaining Time Next"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which problem results from many short jobs waiting behind one long job in FCFS?",
+   "a": "Convoy effect",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which page replacement algorithm can show Belady's anomaly?",
+   "a": "FIFO",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which fragmentation type affects segmentation, requiring compaction?",
+   "a": "External fragmentation",
+   "alt": [
+    "External"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which fragmentation type affects fixed partitions?",
+   "a": "Internal fragmentation",
+   "alt": [
+    "Internal"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What does SCAN disk scheduling also get called?",
+   "a": "Elevator algorithm",
+   "alt": [
+    "Elevator"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which RAID level uses striping with distributed parity?",
+   "a": "RAID 5",
+   "alt": [
+    "5"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which RAID level is pure mirroring?",
+   "a": "RAID 1",
+   "alt": [
+    "1"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which type of hypervisor runs on bare metal?",
+   "a": "Type 1",
+   "alt": [
+    "Type-1",
+    "Bare-metal"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which OS structure gives each VM a subset of real resources, e.g., disk blocks 0-1023?",
+   "a": "Exokernel",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does spooling stand for?",
+   "a": "Simultaneous Peripheral Operations On-Line",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which Linux creator also created Git?",
+   "a": "Linus Torvalds",
+   "alt": [
+    "Torvalds"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "With 4 KB pages, what is the page number and offset of address 8196?",
+   "a": "Page 2, offset 4",
+   "alt": [
+    "page 2 offset 4"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the name of the fourth Coffman condition \"processes form a cycle waiting on each other\"?",
+   "a": "Circular wait",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Windows 10 end of support date was in which month and year?",
+   "a": "October 2025",
+   "alt": [
+    "Oct 2025"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which MS-DOS predecessor was written by Tim Paterson?",
+   "a": "QDOS",
+   "alt": [
+    "86-DOS",
+    "Quick and Dirty Operating System"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the name of the Linux scheduler used from 2007 until kernel 6.6, abbreviated CFS?",
+   "a": "Completely Fair Scheduler",
+   "alt": []
+  }
+ ]
+}

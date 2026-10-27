@@ -1,0 +1,1362 @@
+{
+ "id": "net",
+ "no": "6",
+ "title": "Networks & Telecommunication",
+ "mcq": [
+  {
+   "q": "How many layers does the OSI model have?",
+   "a": "7",
+   "w": [
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "q": "Which OSI layer is responsible for logical addressing and routing?",
+   "a": "Network",
+   "w": [
+    "Data Link",
+    "Transport",
+    "Session"
+   ]
+  },
+  {
+   "q": "Which OSI layer uses MAC addresses and frames?",
+   "a": "Data Link",
+   "w": [
+    "Network",
+    "Physical",
+    "Transport"
+   ]
+  },
+  {
+   "q": "Which OSI layer handles end-to-end delivery, ports and reliability?",
+   "a": "Transport",
+   "w": [
+    "Network",
+    "Session",
+    "Application"
+   ]
+  },
+  {
+   "q": "Which OSI layer deals with encryption, compression and data formats?",
+   "a": "Presentation",
+   "w": [
+    "Session",
+    "Application",
+    "Transport"
+   ]
+  },
+  {
+   "q": "Which OSI layer establishes, maintains and terminates sessions?",
+   "a": "Session",
+   "w": [
+    "Presentation",
+    "Transport",
+    "Data Link"
+   ]
+  },
+  {
+   "q": "Which OSI layer transmits raw bits over cables and signals?",
+   "a": "Physical",
+   "w": [
+    "Data Link",
+    "Network",
+    "Session"
+   ]
+  },
+  {
+   "q": "The PDU at the Transport layer for TCP is called a:",
+   "a": "Segment",
+   "w": [
+    "Packet",
+    "Frame",
+    "Bit"
+   ]
+  },
+  {
+   "q": "The PDU at the Network layer is called a:",
+   "a": "Packet",
+   "w": [
+    "Frame",
+    "Segment",
+    "Datagram only for UDP"
+   ]
+  },
+  {
+   "q": "The PDU at the Data Link layer is called a:",
+   "a": "Frame",
+   "w": [
+    "Packet",
+    "Segment",
+    "Bit"
+   ]
+  },
+  {
+   "q": "A switch primarily operates at which OSI layer?",
+   "a": "Layer 2",
+   "w": [
+    "Layer 1",
+    "Layer 3",
+    "Layer 4"
+   ]
+  },
+  {
+   "q": "A router primarily operates at which OSI layer?",
+   "a": "Layer 3",
+   "w": [
+    "Layer 2",
+    "Layer 1",
+    "Layer 4"
+   ]
+  },
+  {
+   "q": "A hub operates at which OSI layer?",
+   "a": "Layer 1",
+   "w": [
+    "Layer 2",
+    "Layer 3",
+    "Layer 7"
+   ]
+  },
+  {
+   "q": "How many layers does the TCP/IP model have?",
+   "a": "4",
+   "w": [
+    "7",
+    "5",
+    "3"
+   ]
+  },
+  {
+   "q": "Which topology connects every node to a central device and is the most common in LANs?",
+   "a": "Star",
+   "w": [
+    "Bus",
+    "Ring",
+    "Mesh"
+   ]
+  },
+  {
+   "q": "In which topology does a single cable break bring down the network?",
+   "a": "Bus",
+   "w": [
+    "Star",
+    "Mesh",
+    "Hybrid"
+   ]
+  },
+  {
+   "q": "How many links does a full mesh of 5 nodes require?",
+   "a": "10",
+   "w": [
+    "5",
+    "20",
+    "25"
+   ]
+  },
+  {
+   "q": "Communication in both directions, but not simultaneously, is:",
+   "a": "Half-duplex",
+   "w": [
+    "Full-duplex",
+    "Simplex",
+    "Multiplex"
+   ]
+  },
+  {
+   "q": "Communication in only one direction, such as keyboard to computer or broadcast TV, is:",
+   "a": "Simplex",
+   "w": [
+    "Half-duplex",
+    "Full-duplex",
+    "Duplex"
+   ]
+  },
+  {
+   "q": "Which network type spans a city?",
+   "a": "MAN",
+   "w": [
+    "LAN",
+    "PAN",
+    "WAN"
+   ]
+  },
+  {
+   "q": "Bluetooth between a phone and earbuds forms a:",
+   "a": "PAN",
+   "w": [
+    "LAN",
+    "MAN",
+    "WAN"
+   ]
+  },
+  {
+   "q": "How long is a MAC address?",
+   "a": "48 bits",
+   "w": [
+    "32 bits",
+    "64 bits",
+    "128 bits"
+   ]
+  },
+  {
+   "q": "How long is an IPv4 address?",
+   "a": "32 bits",
+   "w": [
+    "48 bits",
+    "64 bits",
+    "128 bits"
+   ]
+  },
+  {
+   "q": "How long is an IPv6 address?",
+   "a": "128 bits",
+   "w": [
+    "64 bits",
+    "32 bits",
+    "256 bits"
+   ]
+  },
+  {
+   "q": "Which IPv4 class has first octets from 192 to 223?",
+   "a": "Class C",
+   "w": [
+    "Class A",
+    "Class B",
+    "Class D"
+   ]
+  },
+  {
+   "q": "Which IPv4 class is reserved for multicast?",
+   "a": "Class D",
+   "w": [
+    "Class C",
+    "Class E",
+    "Class B"
+   ]
+  },
+  {
+   "q": "Which address is the IPv4 loopback?",
+   "a": "127.0.0.1",
+   "w": [
+    "10.0.0.1",
+    "192.168.0.1",
+    "169.254.0.1"
+   ]
+  },
+  {
+   "q": "Which of these is a private IPv4 address?",
+   "a": "172.16.5.4",
+   "w": [
+    "172.32.5.4",
+    "11.0.0.1",
+    "192.169.1.1"
+   ]
+  },
+  {
+   "q": "Which address range is APIPA used when DHCP fails?",
+   "a": "169.254.0.0/16",
+   "w": [
+    "192.168.0.0/16",
+    "10.0.0.0/8",
+    "127.0.0.0/8"
+   ]
+  },
+  {
+   "q": "How many usable hosts are on a /24 network?",
+   "a": "254",
+   "w": [
+    "256",
+    "255",
+    "252"
+   ]
+  },
+  {
+   "q": "How many usable hosts are on a /27 network?",
+   "a": "30",
+   "w": [
+    "32",
+    "62",
+    "14"
+   ]
+  },
+  {
+   "q": "How many usable hosts are on a /30 network?",
+   "a": "2",
+   "w": [
+    "4",
+    "6",
+    "1"
+   ]
+  },
+  {
+   "q": "What is the subnet mask for /26?",
+   "a": "255.255.255.192",
+   "w": [
+    "255.255.255.128",
+    "255.255.255.224",
+    "255.255.255.0"
+   ]
+  },
+  {
+   "q": "For 192.168.10.77/26, what is the network address?",
+   "a": "192.168.10.64",
+   "w": [
+    "192.168.10.0",
+    "192.168.10.32",
+    "192.168.10.76"
+   ]
+  },
+  {
+   "q": "For 192.168.10.77/26, what is the broadcast address?",
+   "a": "192.168.10.127",
+   "w": [
+    "192.168.10.255",
+    "192.168.10.78",
+    "192.168.10.95"
+   ]
+  },
+  {
+   "q": "The usable-host formula for a subnet with h host bits is:",
+   "a": "2^h - 2",
+   "w": [
+    "2^h",
+    "2^h + 2",
+    "h^2 - 2"
+   ]
+  },
+  {
+   "q": "Which protocol resolves an IP address to a MAC address?",
+   "a": "ARP",
+   "w": [
+    "DNS",
+    "DHCP",
+    "ICMP"
+   ]
+  },
+  {
+   "q": "Which protocol automatically assigns IP addresses?",
+   "a": "DHCP",
+   "w": [
+    "DNS",
+    "ARP",
+    "NAT"
+   ]
+  },
+  {
+   "q": "The four DHCP steps (DORA) are:",
+   "a": "Discover, Offer, Request, Acknowledge",
+   "w": [
+    "Detect, Offer, Receive, Accept",
+    "Discover, Open, Route, Assign",
+    "Declare, Offer, Request, Allocate"
+   ]
+  },
+  {
+   "q": "Which protocol translates domain names to IP addresses?",
+   "a": "DNS",
+   "w": [
+    "DHCP",
+    "ARP",
+    "SNMP"
+   ]
+  },
+  {
+   "q": "Which DNS record maps a name to an IPv4 address?",
+   "a": "A",
+   "w": [
+    "AAAA",
+    "MX",
+    "CNAME"
+   ]
+  },
+  {
+   "q": "Which DNS record maps a name to an IPv6 address?",
+   "a": "AAAA",
+   "w": [
+    "A",
+    "NS",
+    "PTR"
+   ]
+  },
+  {
+   "q": "Which DNS record identifies the mail server for a domain?",
+   "a": "MX",
+   "w": [
+    "NS",
+    "TXT",
+    "SOA"
+   ]
+  },
+  {
+   "q": "Which protocol does the ping command use?",
+   "a": "ICMP",
+   "w": [
+    "TCP",
+    "UDP",
+    "ARP"
+   ]
+  },
+  {
+   "q": "What does NAT do?",
+   "a": "Translates private addresses to public addresses",
+   "w": [
+    "Encrypts packets",
+    "Assigns MAC addresses",
+    "Resolves domain names"
+   ]
+  },
+  {
+   "q": "Which transport protocol is connection-oriented and reliable?",
+   "a": "TCP",
+   "w": [
+    "UDP",
+    "ICMP",
+    "IP"
+   ]
+  },
+  {
+   "q": "Which transport protocol is connectionless and faster with less overhead?",
+   "a": "UDP",
+   "w": [
+    "TCP",
+    "SCTP",
+    "ARP"
+   ]
+  },
+  {
+   "q": "The TCP three-way handshake consists of:",
+   "a": "SYN, SYN-ACK, ACK",
+   "w": [
+    "SYN, ACK, FIN",
+    "ACK, SYN, SYN-ACK",
+    "SYN, FIN, ACK"
+   ]
+  },
+  {
+   "q": "What is the default port of HTTP?",
+   "a": "80",
+   "w": [
+    "8080",
+    "443",
+    "21"
+   ]
+  },
+  {
+   "q": "What is the default port of HTTPS?",
+   "a": "443",
+   "w": [
+    "80",
+    "8443",
+    "22"
+   ]
+  },
+  {
+   "q": "What is the default port of DNS?",
+   "a": "53",
+   "w": [
+    "67",
+    "25",
+    "110"
+   ]
+  },
+  {
+   "q": "What is the default port of SSH?",
+   "a": "22",
+   "w": [
+    "23",
+    "21",
+    "25"
+   ]
+  },
+  {
+   "q": "What is the default port of Telnet?",
+   "a": "23",
+   "w": [
+    "22",
+    "25",
+    "21"
+   ]
+  },
+  {
+   "q": "What is the default port of FTP control?",
+   "a": "21",
+   "w": [
+    "20",
+    "22",
+    "69"
+   ]
+  },
+  {
+   "q": "What is the default port of SMTP?",
+   "a": "25",
+   "w": [
+    "110",
+    "143",
+    "587 only"
+   ]
+  },
+  {
+   "q": "What is the default port of POP3?",
+   "a": "110",
+   "w": [
+    "143",
+    "25",
+    "995 only"
+   ]
+  },
+  {
+   "q": "What is the default port of IMAP?",
+   "a": "143",
+   "w": [
+    "110",
+    "993 only",
+    "25"
+   ]
+  },
+  {
+   "q": "What is the default port of RDP?",
+   "a": "3389",
+   "w": [
+    "3306",
+    "5432",
+    "1433"
+   ]
+  },
+  {
+   "q": "Which port does MySQL use by default?",
+   "a": "3306",
+   "w": [
+    "5432",
+    "1433",
+    "1521"
+   ]
+  },
+  {
+   "q": "The well-known port range is:",
+   "a": "0-1023",
+   "w": [
+    "1024-49151",
+    "49152-65535",
+    "1-255"
+   ]
+  },
+  {
+   "q": "Which email protocol downloads messages and often removes them from the server?",
+   "a": "POP3",
+   "w": [
+    "IMAP",
+    "SMTP",
+    "MIME"
+   ]
+  },
+  {
+   "q": "Which email protocol keeps messages synchronized on the server across devices?",
+   "a": "IMAP",
+   "w": [
+    "POP3",
+    "SMTP",
+    "SNMP"
+   ]
+  },
+  {
+   "q": "Which email protocol is used to send mail?",
+   "a": "SMTP",
+   "w": [
+    "IMAP",
+    "POP3",
+    "FTP"
+   ]
+  },
+  {
+   "q": "What does HTTP status code 404 mean?",
+   "a": "Not Found",
+   "w": [
+    "Forbidden",
+    "Server Error",
+    "Unauthorized"
+   ]
+  },
+  {
+   "q": "What does HTTP status code 500 mean?",
+   "a": "Internal Server Error",
+   "w": [
+    "Not Found",
+    "Bad Request",
+    "Gateway Timeout"
+   ]
+  },
+  {
+   "q": "What does HTTP status code 403 mean?",
+   "a": "Forbidden",
+   "w": [
+    "Unauthorized",
+    "Not Found",
+    "Method Not Allowed"
+   ]
+  },
+  {
+   "q": "What does HTTP status code 200 mean?",
+   "a": "OK",
+   "w": [
+    "Created",
+    "Moved Permanently",
+    "No Content"
+   ]
+  },
+  {
+   "q": "HTTP status codes in the 3xx range indicate:",
+   "a": "Redirection",
+   "w": [
+    "Success",
+    "Client error",
+    "Server error"
+   ]
+  },
+  {
+   "q": "HTTP/3 runs over which protocol?",
+   "a": "QUIC (UDP)",
+   "w": [
+    "TCP",
+    "SCTP",
+    "ICMP"
+   ]
+  },
+  {
+   "q": "Which routing protocol is link-state and uses Dijkstra's algorithm?",
+   "a": "OSPF",
+   "w": [
+    "RIP",
+    "BGP",
+    "EIGRP"
+   ]
+  },
+  {
+   "q": "Which routing protocol uses hop count with a maximum of 15?",
+   "a": "RIP",
+   "w": [
+    "OSPF",
+    "BGP",
+    "IS-IS"
+   ]
+  },
+  {
+   "q": "Which protocol routes traffic between Autonomous Systems on the Internet?",
+   "a": "BGP",
+   "w": [
+    "OSPF",
+    "RIP",
+    "EIGRP"
+   ]
+  },
+  {
+   "q": "Which protocol prevents switching loops in Ethernet networks?",
+   "a": "STP",
+   "w": [
+    "VLAN",
+    "DHCP",
+    "OSPF"
+   ]
+  },
+  {
+   "q": "Which IEEE standard defines VLAN tagging?",
+   "a": "802.1Q",
+   "w": [
+    "802.3",
+    "802.11",
+    "802.15"
+   ]
+  },
+  {
+   "q": "Which IEEE standard defines Ethernet?",
+   "a": "802.3",
+   "w": [
+    "802.11",
+    "802.15.1",
+    "802.5"
+   ]
+  },
+  {
+   "q": "Which IEEE standard defines Wi-Fi?",
+   "a": "802.11",
+   "w": [
+    "802.3",
+    "802.15",
+    "802.16"
+   ]
+  },
+  {
+   "q": "Which IEEE standard is Wi-Fi 6?",
+   "a": "802.11ax",
+   "w": [
+    "802.11ac",
+    "802.11n",
+    "802.11be"
+   ]
+  },
+  {
+   "q": "Which IEEE standard is Wi-Fi 7?",
+   "a": "802.11be",
+   "w": [
+    "802.11ax",
+    "802.11ac",
+    "802.11bn"
+   ]
+  },
+  {
+   "q": "Which IEEE standard is Wi-Fi 5?",
+   "a": "802.11ac",
+   "w": [
+    "802.11n",
+    "802.11ax",
+    "802.11g"
+   ]
+  },
+  {
+   "q": "Which IEEE standard defines Bluetooth?",
+   "a": "802.15.1",
+   "w": [
+    "802.11",
+    "802.3",
+    "802.16"
+   ]
+  },
+  {
+   "q": "Which are the non-overlapping 2.4 GHz Wi-Fi channels?",
+   "a": "1, 6, 11",
+   "w": [
+    "1, 5, 9",
+    "2, 7, 12",
+    "3, 6, 9"
+   ]
+  },
+  {
+   "q": "Which Wi-Fi security protocol is the most secure of these?",
+   "a": "WPA3",
+   "w": [
+    "WPA2",
+    "WPA",
+    "WEP"
+   ]
+  },
+  {
+   "q": "What is the maximum length of an Ethernet twisted-pair segment?",
+   "a": "100 meters",
+   "w": [
+    "55 meters",
+    "185 meters",
+    "500 meters"
+   ]
+  },
+  {
+   "q": "Which connector is used for Ethernet twisted-pair cables?",
+   "a": "RJ-45",
+   "w": [
+    "RJ-11",
+    "BNC",
+    "SC"
+   ]
+  },
+  {
+   "q": "Which connector is used for traditional telephone lines?",
+   "a": "RJ-11",
+   "w": [
+    "RJ-45",
+    "SC",
+    "LC"
+   ]
+  },
+  {
+   "q": "Which cable type uses light pulses and is immune to EMI?",
+   "a": "Fiber optic",
+   "w": [
+    "Coaxial",
+    "UTP",
+    "STP"
+   ]
+  },
+  {
+   "q": "Which cable type is used for long distances with a laser and a 9-micron core?",
+   "a": "Single-mode fiber",
+   "w": [
+    "Multimode fiber",
+    "Coaxial",
+    "Cat6"
+   ]
+  },
+  {
+   "q": "Which method sends data using different wavelengths of light on a fiber?",
+   "a": "WDM",
+   "w": [
+    "TDM",
+    "FDM",
+    "CDMA"
+   ]
+  },
+  {
+   "q": "Who designed Ethernet at Xerox PARC?",
+   "a": "Robert Metcalfe",
+   "w": [
+    "Vint Cerf",
+    "Tim Berners-Lee",
+    "Bob Kahn"
+   ]
+  },
+  {
+   "q": "Who are called the \"Fathers of the Internet\" for TCP/IP?",
+   "a": "Vint Cerf and Bob Kahn",
+   "w": [
+    "Tim Berners-Lee and Marc Andreessen",
+    "Metcalfe and Boggs",
+    "Postel and Mockapetris"
+   ]
+  },
+  {
+   "q": "Who created the DNS in 1983?",
+   "a": "Paul Mockapetris",
+   "w": [
+    "Jon Postel",
+    "Vint Cerf",
+    "Ray Tomlinson"
+   ]
+  },
+  {
+   "q": "Which mobile generation introduced SMS and digital voice with GSM?",
+   "a": "2G",
+   "w": [
+    "1G",
+    "3G",
+    "4G"
+   ]
+  },
+  {
+   "q": "Which mobile generation is based on LTE?",
+   "a": "4G",
+   "w": [
+    "3G",
+    "5G",
+    "2G"
+   ]
+  },
+  {
+   "q": "Which mobile generation introduced network slicing?",
+   "a": "5G",
+   "w": [
+    "4G",
+    "3G",
+    "6G"
+   ]
+  },
+  {
+   "q": "Which Philippine agency regulates telecommunications?",
+   "a": "NTC",
+   "w": [
+    "NPC",
+    "DTI",
+    "CICC"
+   ]
+  },
+  {
+   "q": "Which is the third major Philippine telco that launched in 2021?",
+   "a": "DITO Telecommunity",
+   "w": [
+    "Converge",
+    "Sun Cellular",
+    "Cherry Mobile"
+   ]
+  },
+  {
+   "q": "Which command shows the path packets take to a destination on Windows?",
+   "a": "tracert",
+   "w": [
+    "traceroute",
+    "pathfind",
+    "route"
+   ]
+  },
+  {
+   "q": "Which command displays IP configuration on Windows?",
+   "a": "ipconfig",
+   "w": [
+    "ifconfig",
+    "netstat",
+    "nslookup"
+   ]
+  },
+  {
+   "q": "Which command queries DNS records?",
+   "a": "nslookup",
+   "w": [
+    "netstat",
+    "ping",
+    "arp"
+   ]
+  },
+  {
+   "q": "Which tool captures and analyzes network packets?",
+   "a": "Wireshark",
+   "w": [
+    "Nmap",
+    "PuTTY",
+    "Notepad++"
+   ]
+  },
+  {
+   "q": "Which tool is a popular port scanner?",
+   "a": "Nmap",
+   "w": [
+    "Wireshark",
+    "Wireshark Lite",
+    "Zabbix"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "d": "E",
+   "q": "How many layers are in the OSI model?",
+   "a": "7",
+   "alt": [
+    "Seven"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "How many layers are in the TCP/IP model?",
+   "a": "4",
+   "alt": [
+    "Four"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which OSI layer routes packets?",
+   "a": "Network",
+   "alt": [
+    "Network layer",
+    "Layer 3"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which OSI layer uses MAC addresses?",
+   "a": "Data Link",
+   "alt": [
+    "Data Link layer",
+    "Layer 2"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which device connects different networks using IP addresses?",
+   "a": "Router",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which device forwards frames using MAC addresses?",
+   "a": "Switch",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "How many bits is an IPv4 address?",
+   "a": "32",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "How many bits is an IPv6 address?",
+   "a": "128",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "How many bits is a MAC address?",
+   "a": "48",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What protocol translates domain names to IP addresses?",
+   "a": "DNS",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What protocol assigns IP addresses automatically?",
+   "a": "DHCP",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the default port of HTTP?",
+   "a": "80",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the default port of HTTPS?",
+   "a": "443",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is the maximum Ethernet cable segment length in meters?",
+   "a": "100",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What connector is used on Ethernet cables?",
+   "a": "RJ-45",
+   "alt": [
+    "RJ45"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What does HTTP status code 404 mean?",
+   "a": "Not Found",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the PDU at the Transport layer for TCP?",
+   "a": "Segment",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the PDU at the Network layer?",
+   "a": "Packet",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the PDU at the Data Link layer?",
+   "a": "Frame",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What protocol resolves an IP address to a MAC address?",
+   "a": "ARP",
+   "alt": [
+    "Address Resolution Protocol"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What protocol does the ping command use?",
+   "a": "ICMP",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What are the four DHCP steps?",
+   "a": "Discover, Offer, Request, Acknowledge",
+   "alt": [
+    "DORA"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is the three-way handshake of TCP?",
+   "a": "SYN, SYN-ACK, ACK",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the default port of DNS?",
+   "a": "53",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the default port of SSH?",
+   "a": "22",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the default port of SMTP?",
+   "a": "25",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the default port of POP3?",
+   "a": "110",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the default port of IMAP?",
+   "a": "143",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the default port of RDP?",
+   "a": "3389",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the default port of FTP control connection?",
+   "a": "21",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the default port of Telnet?",
+   "a": "23",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "How many usable hosts are in a /24 network?",
+   "a": "254",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "How many usable hosts are in a /27 network?",
+   "a": "30",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "How many usable hosts are in a /30 network?",
+   "a": "2",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the IPv4 loopback address?",
+   "a": "127.0.0.1",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the IEEE standard number for Ethernet?",
+   "a": "802.3",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the IEEE standard number for Wi-Fi?",
+   "a": "802.11",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the IEEE standard for Wi-Fi 6?",
+   "a": "802.11ax",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the IEEE standard for Wi-Fi 7?",
+   "a": "802.11be",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the safest Wi-Fi security protocol today?",
+   "a": "WPA3",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What protocol prevents switching loops?",
+   "a": "STP",
+   "alt": [
+    "Spanning Tree Protocol"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which routing protocol is link-state?",
+   "a": "OSPF",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which routing protocol is path-vector and routes between Autonomous Systems?",
+   "a": "BGP",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the maximum hop count of RIP?",
+   "a": "15",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the first octet range of Class B?",
+   "a": "128-191",
+   "alt": [
+    "128 to 191"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the first octet range of Class C?",
+   "a": "192-223",
+   "alt": [
+    "192 to 223"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What address range does APIPA use?",
+   "a": "169.254.0.0/16",
+   "alt": [
+    "169.254.x.x"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What are the private IPv4 ranges (RFC 1918)?",
+   "a": "10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What IEEE standard defines VLAN tagging?",
+   "a": "802.1Q",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What IEEE standard defines Bluetooth (PAN)?",
+   "a": "802.15.1",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which non-overlapping 2.4 GHz Wi-Fi channels exist?",
+   "a": "1, 6, 11",
+   "alt": [
+    "1 6 11"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What does CSMA/CA stand for?",
+   "a": "Carrier Sense Multiple Access with Collision Avoidance",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What does CSMA/CD stand for?",
+   "a": "Carrier Sense Multiple Access with Collision Detection",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the standard MTU of Ethernet in bytes?",
+   "a": "1500",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is the name of the field that decrements at each hop to prevent loops?",
+   "a": "TTL",
+   "alt": [
+    "Time to Live"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which DNS record maps a name to an IPv6 address?",
+   "a": "AAAA",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which DNS record specifies mail servers?",
+   "a": "MX",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which fiber type uses a laser and goes long distances?",
+   "a": "Single-mode",
+   "alt": [
+    "Single mode"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which Cat cable supports 10 Gbps at 100 m?",
+   "a": "Cat6a",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What is Shannon's formula for channel capacity?",
+   "a": "C = B log2(1 + S/N)",
+   "alt": [
+    "C=B*log2(1+S/N)"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who designed Ethernet at Xerox PARC in 1973?",
+   "a": "Robert Metcalfe",
+   "alt": [
+    "Metcalfe"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who created DNS in 1983?",
+   "a": "Paul Mockapetris",
+   "alt": [
+    "Mockapetris"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What is the name of the third major Philippine telco launched in 2021?",
+   "a": "DITO",
+   "alt": [
+    "DITO Telecommunity"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which regulator oversees telecommunications in the Philippines?",
+   "a": "NTC",
+   "alt": [
+    "National Telecommunications Commission"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which multiplexing method uses different wavelengths on a fiber?",
+   "a": "WDM",
+   "alt": [
+    "Wavelength Division Multiplexing"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What DNS public resolver address is operated by Google?",
+   "a": "8.8.8.8",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "What DNS public resolver address is operated by Cloudflare?",
+   "a": "1.1.1.1",
+   "alt": []
+  }
+ ]
+}
