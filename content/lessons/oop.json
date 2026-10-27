@@ -11,7 +11,13 @@
     "Inheritance",
     "Polymorphism"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Encapsulation is bundling data with methods and restricting direct access to internal state. It is one of the four pillars, so it does not fit a NOT question.",
+    "Inheritance is letting a class reuse and extend another class's members. It is one of the four pillars, so it does not fit a NOT question.",
+    "Polymorphism is one interface behaving in different forms depending on the object. It is one of the four pillars, so it does not fit a NOT question."
+   ],
+   "e": "Compilation is a build step that translates source code into an executable form, not a design pillar. The four pillars are abstraction, encapsulation, inheritance and polymorphism."
   },
   {
    "q": "A blueprint or template from which objects are created is a:",
@@ -21,7 +27,13 @@
     "Method",
     "Package"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The object is an instance created from a class, not the blueprint itself. Objects are the things made from a class template.",
+    "A method is a function defined inside a class to perform an action. It is not a template for creating objects.",
+    "A package is a namespace that groups related classes and interfaces. It organizes code but does not create objects."
+   ],
+   "e": "A class is the blueprint that defines the fields and methods an object will have. Objects are created from it, for example with the new keyword in Java."
   },
   {
    "q": "An instance of a class is called a:",
@@ -31,7 +43,13 @@
     "Constructor",
     "Module"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "An interface is a contract listing method signatures a class must implement. It describes behavior but is not an instance of a class.",
+    "A constructor is a special method that initializes a new object. It is used when creating an instance, not the instance itself.",
+    "A module is a unit of code organization, such as a file or library. It groups code and is not an instance of a class."
+   ],
+   "e": "An object is a concrete instance created from a class, holding its own state. Each object has its own values for the fields defined by its class."
   },
   {
    "q": "Bundling data and methods and hiding internal state is:",
@@ -41,7 +59,13 @@
     "Inheritance",
     "Polymorphism"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Abstraction is hiding complexity by exposing only essential features. It is related, but it describes what is exposed rather than bundling data with hidden internal state.",
+    "Inheritance is a class reusing and extending another class's members. It concerns sharing code between classes, not bundling and hiding data.",
+    "Polymorphism is one interface taking many forms at run time or compile time. It concerns behavior variation, not hiding internal state."
+   ],
+   "e": "Encapsulation groups data and the methods that operate on it in one class, and restricts direct access to the internal state. Private fields with public methods are a common example."
   },
   {
    "q": "Exposing only essential features while hiding implementation details is:",
@@ -51,7 +75,13 @@
     "Overloading",
     "Cohesion"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Encapsulation is bundling data with methods and restricting direct access to internal state. It hides details, but its focus is protecting state rather than exposing essential features.",
+    "Overloading is defining methods with the same name but different parameter lists. It is about method naming, not exposing essential features.",
+    "Cohesion is how strongly the responsibilities inside one module are related. It is a design quality measure, not an OOP feature for hiding implementation."
+   ],
+   "e": "Abstraction shows only the essential features of an object and hides how they are implemented. Interfaces and abstract classes are common ways to express it."
   },
   {
    "q": "Creating a new class from an existing class to reuse its members is:",
@@ -61,7 +91,13 @@
     "Encapsulation",
     "Instantiation"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Polymorphism is one interface or method call behaving differently across objects. It concerns behavior variation, not reusing members from a parent class.",
+    "Encapsulation is bundling data with methods and restricting direct access. It concerns protecting state, not creating a class from an existing one.",
+    "Instantiation is creating an object from a class. It creates instances, not new classes built from existing ones."
+   ],
+   "e": "Inheritance lets a subclass take on the fields and methods of a parent class, and extend or override them. It models an is-a relationship."
   },
   {
    "q": "Private variables with public getters and setters illustrate:",
@@ -71,7 +107,13 @@
     "Polymorphism",
     "Overloading"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Inheritance is a class reusing and extending another class's members. It concerns sharing code between classes, not restricting access to fields.",
+    "Polymorphism is one interface taking many forms depending on the object. It concerns method behavior, not controlling access through getters and setters.",
+    "Overloading is defining methods with the same name but different parameter lists. It concerns method signatures, not hiding fields behind getters and setters."
+   ],
+   "e": "Encapsulation keeps fields private and exposes controlled access through getters and setters. This protects the internal state and allows validation when it changes."
   },
   {
    "q": "Which concept allows the same method call to behave differently depending on the object?",
@@ -81,7 +123,13 @@
     "Composition",
     "Aggregation"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Encapsulation is bundling data with methods and hiding internal state. It protects state but does not make one call behave differently across objects.",
+    "Composition is building a class from objects of other classes as parts. It is a has-a design choice, not a way for one call to behave differently.",
+    "Aggregation is a has-a relationship where parts can exist independently of the whole. It describes ownership, not varying behavior of a method call."
+   ],
+   "e": "Polymorphism lets one method call produce different behavior depending on the actual object. Overriding and interface implementations are typical examples."
   },
   {
    "q": "Method overloading is an example of:",
@@ -91,7 +139,13 @@
     "Inheritance",
     "Encapsulation"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Run-time polymorphism is method overriding, where the call is resolved while the program runs. Overloading is decided at compile time, so this does not fit.",
+    "Inheritance is a class reusing members from a parent class. It is a separate pillar and does not describe choosing among overloaded methods.",
+    "Encapsulation is restricting direct access to internal state. It does not describe multiple methods sharing one name."
+   ],
+   "e": "Method overloading is resolved at compile time, based on the parameter list of the call. The compiler picks the matching version before the program runs."
   },
   {
    "q": "Method overriding is an example of:",
@@ -101,7 +155,13 @@
     "Static binding",
     "Abstraction"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Compile-time polymorphism is method overloading, resolved by the compiler from the parameter list. Overriding is resolved at run time, so this does not fit.",
+    "Static binding is linking a method call at compile time. Overriding uses dynamic binding, so this is the wrong term.",
+    "Abstraction is hiding implementation details and exposing essential features. It is a separate pillar and does not describe a subclass replacing a parent method."
+   ],
+   "e": "Method overriding lets a subclass provide its own version of an inherited method. Java picks the version by the actual object type while the program runs."
   },
   {
    "q": "Method overloading requires methods with the same name but different:",
@@ -111,7 +171,13 @@
     "Access modifiers only",
     "Class names"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Return types alone cannot distinguish overloads in Java, since the call would be ambiguous. Overloads must differ in their parameter list.",
+    "Access modifiers do not affect overload resolution. Changing only the access level does not create a valid overload.",
+    "The class name is the same for all methods in one class, so it cannot distinguish overloads. Methods are told apart by their parameters."
+   ],
+   "e": "Overloading uses methods with the same name in one class but different parameter lists, such as different numbers or types of parameters. The compiler chooses the match at compile time."
   },
   {
    "q": "A special method called when an object is created is a:",
@@ -121,7 +187,13 @@
     "Getter",
     "Static method"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A destructor is a method that cleans up when an object is destroyed. It runs at the end of an object's life, not when it is created.",
+    "A getter is a method that returns the value of a field. It reads state and is not called automatically when an object is created.",
+    "A static method belongs to the class rather than an object and is called without an instance. It is not automatically run when an object is created."
+   ],
+   "e": "A constructor is a special method that runs when an object is created, typically to initialize its fields. In Java it has the same name as the class."
   },
   {
    "q": "Which statement is true about a Java constructor?",
@@ -131,7 +203,13 @@
     "It is inherited by subclasses",
     "It can be declared final"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A constructor has no return type, so it does not return void. Declaring a return type of void would make it an ordinary method.",
+    "Constructors are not inherited by subclasses. A subclass calls its parent's constructor through super instead.",
+    "Constructors cannot be final, abstract or static. Declaring one as final is not allowed."
+   ],
+   "e": "A Java constructor has the same name as its class and no return type. It runs when an object is created with the new keyword."
   },
   {
    "q": "In Python, the constructor method is named:",
@@ -141,7 +219,13 @@
     "constructor",
     "__start__"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "__new_obj__ is not a Python special method name. Python uses __new__ to create instances and __init__ to initialize them.",
+    "The word constructor is not a Python method name. Python does not use a method named constructor.",
+    "__start__ is not a Python special method for object creation. It has no meaning to Python's object model."
+   ],
+   "e": "In Python, __init__ is the special method that initializes a newly created object. It receives self as its first parameter."
   },
   {
    "q": "The keyword that refers to the current object in Java is:",
@@ -151,7 +235,13 @@
     "super",
     "current"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "self is the conventional name for the first parameter of a Python method, not a Java keyword. Java uses this.",
+    "super refers to the parent class, not the current object. It is used to call parent constructors or methods.",
+    "current is not a Java keyword. Java refers to the current object with this."
+   ],
+   "e": "The Java keyword this refers to the current object. It is used to access fields or call other constructors of the same class."
   },
   {
    "q": "The keyword that refers to the parent class in Java is:",
@@ -161,7 +251,13 @@
     "parent",
     "base"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "this refers to the current object, not the parent class. It accesses the object's own members.",
+    "parent is not a Java keyword. Java uses super for the parent class.",
+    "base is the keyword for the parent class in C#, not Java. Java uses super."
+   ],
+   "e": "The Java keyword super refers to the parent class. It is used to call the parent's constructor or an overridden method."
   },
   {
    "q": "In Python, the first parameter of an instance method that refers to the object is conventionally:",
@@ -171,7 +267,13 @@
     "me",
     "obj"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "this is the Java and C++ keyword for the current object, not the Python convention. Python methods name the first parameter self.",
+    "me is legal as a parameter name in Python, but it is not the convention. Python style uses self.",
+    "obj is a generic variable name, not the conventional first parameter name. Python style uses self for the instance."
+   ],
+   "e": "In Python, the first parameter of an instance method is conventionally named self. It refers to the object the method was called on."
   },
   {
    "q": "Members declared static belong to:",
@@ -181,7 +283,13 @@
     "Only subclasses",
     "The JVM only"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Each object separately describes instance members, which each object owns. Static members are shared by all objects of the class instead.",
+    "Only subclasses is not what static means. Static members belong to the class itself and are accessible regardless of subclassing.",
+    "The JVM only is not the meaning of static. The JVM runs bytecode, while static is a language feature of the class."
+   ],
+   "e": "A static member belongs to the class itself, so one copy is shared by all objects. It can be accessed through the class name without creating an object."
   },
   {
    "q": "In Java, which keyword prevents a class from being inherited?",
@@ -191,7 +299,13 @@
     "abstract",
     "sealed (Java 8)"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "static means a member belongs to the class rather than an object. It does not stop a class from being extended.",
+    "abstract means a class cannot be instantiated and must be subclassed. It requires inheritance, so it does not prevent it.",
+    "sealed restricts which classes may extend a class and was finalized in Java 17, not Java 8. It is not a Java 8 keyword."
+   ],
+   "e": "The final keyword on a class prevents any other class from extending it. For example, the String class in the Java library is declared final."
   },
   {
    "q": "Which Java keyword is used by a class to inherit another class?",
@@ -201,7 +315,13 @@
     "inherits",
     "super"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "implements is used by a class to adopt an interface, not to inherit from another class. Java uses extends for classes.",
+    "inherits is not a Java keyword. Java uses extends to declare inheritance.",
+    "super refers to the parent class and calls its members. It does not declare the inheritance relationship."
+   ],
+   "e": "The keyword extends declares that a class inherits from another class. A Java class can extend only one class."
   },
   {
    "q": "Which Java keyword is used by a class to adopt an interface?",
@@ -211,7 +331,13 @@
     "using",
     "interface"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "extends is used between classes or between interfaces, not for a class adopting an interface. Adopting an interface uses implements.",
+    "using is not a Java keyword. Java has no using statement for adopting interfaces.",
+    "interface declares a new interface type. It does not state that an existing class adopts one."
+   ],
+   "e": "The keyword implements is used by a class to adopt an interface and provide bodies for its methods. A class can implement several interfaces."
   },
   {
    "q": "A class that cannot be instantiated and may contain abstract methods is:",
@@ -221,7 +347,13 @@
     "A static class",
     "A wrapper class"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A final class cannot be extended. It is the opposite of an abstract class, which must be subclassed.",
+    "A static class is a nested class that belongs to an outer class. Top-level Java classes cannot be declared static, and this is not an abstract type.",
+    "A wrapper class such as Integer wraps a primitive value in an object. It is not a class that can contain abstract methods."
+   ],
+   "e": "An abstract class is declared with the abstract keyword and cannot be instantiated directly. It may contain abstract methods that subclasses must implement."
   },
   {
    "q": "Which can a class implement more than one of in Java?",
@@ -231,7 +363,13 @@
     "Final classes",
     "Enums"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Abstract classes cannot be combined this way, since Java supports only single class inheritance. A class extends only one class.",
+    "Final classes cannot be extended at all, so a class cannot extend or implement them. Final is a restriction on inheritance, not a multiple-inheritance mechanism.",
+    "Enums are special class types declared with the enum keyword. A class does not implement an enum, and enums cannot be extended."
+   ],
+   "e": "A Java class can extend only one class but implement many interfaces. Interfaces are how Java gives a class multiple types without multiple class inheritance."
   },
   {
    "q": "Which access modifier allows access only within the same class?",
@@ -241,7 +379,13 @@
     "public",
     "default"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "protected allows access from subclasses and the same package, which is wider than the same class. It does not restrict access to the class alone.",
+    "public allows access from any class anywhere. It is the widest access level.",
+    "default, or package-private, allows access from the same package. It is not limited to the same class."
+   ],
+   "e": "The private modifier restricts access to members within the same class. Other classes, including subclasses, cannot access them directly."
   },
   {
    "q": "Which access modifier allows access from subclasses and the same package, but not the world?",
@@ -251,7 +395,13 @@
     "public",
     "default"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "private restricts access to the same class only. Subclasses in other packages cannot access private members.",
+    "public allows access from anywhere, including the world. It is wider than the question allows.",
+    "default, or package-private, allows only the same package. It does not give subclasses outside the package access."
+   ],
+   "e": "The protected modifier allows access from the same package and from subclasses, even those in other packages. It is hidden from the rest of the world."
   },
   {
    "q": "Multiple inheritance of classes is NOT supported in:",
@@ -261,7 +411,13 @@
     "Python",
     "Lisp"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "C++ supports multiple inheritance of classes, with explicit rules for resolving conflicts. It is not a language that lacks it.",
+    "Python supports multiple inheritance of classes, using its method resolution order. It is not a language that lacks it.",
+    "Lisp, with CLOS, supports multiple inheritance of classes. It is not a language that lacks it."
+   ],
+   "e": "Java allows a class to extend only one class, though it can implement multiple interfaces. This avoids the diamond problem but limits class-based reuse."
   },
   {
    "q": "The ambiguity problem with multiple inheritance is called the:",
@@ -271,7 +427,13 @@
     "Halting problem",
     "Knapsack problem"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The pigeonhole principle is a combinatorics idea about placing items into boxes. It is a math principle, not an inheritance ambiguity.",
+    "The halting problem asks whether a program will finish running and is undecidable. It is a computability question, not an inheritance ambiguity.",
+    "The knapsack problem is an optimization problem about packing items under a capacity. It is not an inheritance ambiguity."
+   ],
+   "e": "The diamond problem occurs when a class inherits from two classes that share a common base, making which inherited method to use ambiguous. C++ and Python handle it differently."
   },
   {
    "q": "\"A Car has an Engine\" is an example of:",
@@ -281,7 +443,13 @@
     "Polymorphism",
     "Overloading"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Inheritance is an is-a relationship, such as a Dog being an Animal. Here the Car has a part, so it is not inheritance.",
+    "Polymorphism is one interface behaving differently depending on the object. It does not describe one object containing another as a part.",
+    "Overloading is defining methods with the same name and different parameters. It does not describe objects containing other objects."
+   ],
+   "e": "This is a has-a relationship: the Car holds an Engine as a part. It is modeled with a field referencing the Engine object rather than with inheritance."
   },
   {
    "q": "\"A Dog is an Animal\" is an example of:",
@@ -291,7 +459,13 @@
     "Aggregation",
     "Association"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Composition is a has-a relationship where one object contains another as a part. A Dog is not a part of an Animal.",
+    "Aggregation is a has-a relationship where parts can exist independently. It is not an is-a relationship.",
+    "Association is a general link between objects that use each other. It does not express that one class is a kind of another."
+   ],
+   "e": "This is inheritance, an is-a relationship where the subclass Dog is a more specific kind of the parent class Animal. Dog inherits the members of Animal."
   },
   {
    "q": "Java source code is compiled to:",
@@ -301,7 +475,13 @@
     "Assembly",
     "Source maps"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Machine code for each OS is native code, which Java does not produce directly. Java compiles to bytecode that the JVM translates for each platform.",
+    "Assembly is a low-level human-readable form of machine instructions. Java does not compile to assembly.",
+    "Source maps map compiled code back to the original source for debugging. They are not the output of compiling Java."
+   ],
+   "e": "The Java compiler, javac, translates source code into bytecode, a platform-independent instruction format. The JVM then runs that bytecode on each platform."
   },
   {
    "q": "Bytecode is executed by the:",
@@ -311,7 +491,13 @@
     "IDE",
     "JIT only"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The JDK is the development kit that includes the compiler and tools, and it contains a JVM. It is not the component that executes bytecode alone.",
+    "An IDE is an editor or development environment for writing code. It does not execute bytecode.",
+    "The JIT compiler is a component inside the JVM that compiles frequently run bytecode to native code. It does not run bytecode as a whole runtime."
+   ],
+   "e": "The Java Virtual Machine runs bytecode, interpreting it and using a JIT compiler to convert frequently executed code to native machine code. This is what makes Java portable."
   },
   {
    "q": "\"Write Once, Run Anywhere\" is associated with:",
@@ -321,7 +507,13 @@
     "Python",
     "C"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "C++ is compiled to native machine code for each platform, so it is not the language behind this slogan. It is not a bytecode language.",
+    "Python is an interpreted language and is not the language this bytecode slogan refers to. Its portability comes from its interpreter.",
+    "C is compiled to native machine code for each target, so it is not the language behind this slogan. Porting C code needs recompiling."
+   ],
+   "e": "Write Once, Run Anywhere is Java's slogan, reflecting that compiled bytecode can run on any system with a JVM. It is the core promise of the Java platform."
   },
   {
    "q": "Which includes the compiler and development tools for Java?",
@@ -331,7 +523,13 @@
     "JVM",
     "JIT"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The JRE is the runtime environment that runs Java programs, but it lacks the compiler. It is for running programs, not developing them.",
+    "The JVM executes bytecode and is not a development kit. It does not include the compiler.",
+    "The JIT is a compiler inside the JVM that speeds up execution. It is not the full development kit."
+   ],
+   "e": "The Java Development Kit, JDK, includes the javac compiler, the JRE and other development tools. It is needed to write and compile Java code."
   },
   {
    "q": "Who created Java?",
@@ -341,7 +539,13 @@
     "Guido van Rossum",
     "Anders Hejlsberg"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Bjarne Stroustrup created C++, not Java. Java was developed by James Gosling and his team at Sun Microsystems.",
+    "Guido van Rossum created Python, not Java. He is known as the creator of Python.",
+    "Anders Hejlsberg created C# and TypeScript, not Java. He also worked on Turbo Pascal and Delphi."
+   ],
+   "e": "James Gosling led the team at Sun Microsystems that created Java, released in 1995. He is often called the father of Java."
   },
   {
    "q": "Who created C++?",
@@ -351,7 +555,13 @@
     "James Gosling",
     "Ken Thompson"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Dennis Ritchie created the C language, not C++. C++ was created by Bjarne Stroustrup.",
+    "James Gosling created Java, not C++. Java was built later and is a different language.",
+    "Ken Thompson co-created Unix and the B language, not C++. He did not create C++."
+   ],
+   "e": "Bjarne Stroustrup created C++ at Bell Labs in the early 1980s as an extension of C with classes. It added object-oriented features to C."
   },
   {
    "q": "Who created Python?",
@@ -361,7 +571,13 @@
     "Rasmus Lerdorf",
     "Larry Wall"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Brendan Eich created JavaScript, not Python. He developed it at Netscape.",
+    "Rasmus Lerdorf created PHP, not Python. PHP is mainly a web server language.",
+    "Larry Wall created Perl, not Python. Perl is a text-processing language."
+   ],
+   "e": "Guido van Rossum created Python and released its first version in 1991. He led its development as benevolent dictator for life for many years."
   },
   {
    "q": "Who created JavaScript at Netscape in 1995?",
@@ -371,7 +587,13 @@
     "Tim Berners-Lee",
     "Marc Andreessen"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Ryan Dahl created Node.js, which runs JavaScript on servers. He did not create JavaScript itself.",
+    "Tim Berners-Lee invented the World Wide Web and HTML. He did not create JavaScript.",
+    "Marc Andreessen co-founded Netscape, where JavaScript was developed, but did not create the language."
+   ],
+   "e": "Brendan Eich developed JavaScript at Netscape in 1995, first under the names Mocha and LiveScript. It was later standardized as ECMAScript."
   },
   {
    "q": "Who created C#?",
@@ -381,7 +603,13 @@
     "Bjarne Stroustrup",
     "Rasmus Lerdorf"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "James Gosling created Java, not C#. Java predates C# and is a different language.",
+    "Bjarne Stroustrup created C++, not C#. C# was designed later by Microsoft.",
+    "Rasmus Lerdorf created PHP, not C#. PHP is a web scripting language."
+   ],
+   "e": "Anders Hejlsberg led the design of C# at Microsoft, first released in 2000. He also designed TypeScript and earlier worked on Turbo Pascal and Delphi."
   },
   {
    "q": "Who created PHP?",
@@ -391,7 +619,13 @@
     "Yukihiro Matsumoto",
     "Guido van Rossum"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Larry Wall created Perl, not PHP. Perl is a separate scripting language.",
+    "Yukihiro Matsumoto created Ruby, not PHP. Ruby is known for its developer-friendly syntax.",
+    "Guido van Rossum created Python, not PHP. Python is a separate general-purpose language."
+   ],
+   "e": "Rasmus Lerdorf created PHP in the mid-1990s, starting as a set of tools for personal web pages. It later became a widely used server-side language."
   },
   {
    "q": "The first object-oriented programming language was:",
@@ -401,7 +635,13 @@
     "C++",
     "Java"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Smalltalk is an early object-oriented language from Xerox PARC, developed after Simula. It popularized OOP but was not the first.",
+    "C++ was created in the 1980s by Bjarne Stroustrup, long after Simula. It is not the first OOP language.",
+    "Java was released in 1995, decades after Simula. It is not the first OOP language."
+   ],
+   "e": "Simula, developed in Norway in the 1960s, introduced classes, objects and inheritance. It is widely regarded as the first object-oriented programming language."
   },
   {
    "q": "Which language is credited with popularizing OOP, created by Alan Kay's team at Xerox PARC?",
@@ -411,7 +651,13 @@
     "Ada",
     "Pascal"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Simula, from the 1960s, was the first OOP language, but it was not developed at Xerox PARC. It did not popularize OOP the way Smalltalk did.",
+    "Ada is a language designed for the US Department of Defense, not a language from Xerox PARC. Its OOP support came later.",
+    "Pascal is a procedural language created by Niklaus Wirth and is not associated with Xerox PARC. It is not an OOP language."
+   ],
+   "e": "Smalltalk, developed by Alan Kay's team at Xerox PARC in the 1970s, popularized object-oriented programming. It introduced many OOP ideas such as objects that exchange messages."
   },
   {
    "q": "Which Java block always executes, whether or not an exception occurs?",
@@ -421,7 +667,13 @@
     "try only",
     "throws"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "catch handles a specific exception thrown in the try block. It runs only when an exception occurs, not always.",
+    "A try block alone does not guarantee that code runs after an exception is thrown. It has no clause that always executes.",
+    "throws is a method signature clause declaring exceptions that may be raised. It does not define a block that always runs."
+   ],
+   "e": "The finally block runs after the try and catch blocks whether or not an exception occurred. This makes it suitable for cleanup such as closing resources."
   },
   {
    "q": "The Java keyword used to raise an exception is:",
@@ -431,7 +683,13 @@
     "raise",
     "catch"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "throws is a method declaration clause listing exceptions a method may raise. It does not raise an exception itself.",
+    "raise is not a Java keyword. Python uses raise, while Java uses throw.",
+    "catch handles an exception that has been thrown. It does not raise one."
+   ],
+   "e": "The Java keyword throw raises an exception object at the point where it is used. Execution transfers to the nearest matching catch block."
   },
   {
    "q": "Which of these is an unchecked exception in Java?",
@@ -441,7 +699,13 @@
     "SQLException",
     "FileNotFoundException"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "IOException is a checked exception that must be caught or declared. It is not a runtime exception.",
+    "SQLException is a checked exception for database access errors. It must be handled or declared, so it is not unchecked.",
+    "FileNotFoundException is a checked subclass of IOException. It must be handled or declared."
+   ],
+   "e": "NullPointerException extends RuntimeException, so it is unchecked and need not be declared or caught. It is thrown when code dereferences a null reference."
   },
   {
    "q": "Java is always:",
@@ -451,7 +715,13 @@
     "Pass-by-name",
     "Pass-by-pointer"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Pass-by-reference means the callee gets the variable itself. Java passes references by value, so this does not describe Java.",
+    "Pass-by-name is an old evaluation strategy used in some languages such as Algol. Java does not use it.",
+    "Pass-by-pointer is not a Java concept. Java passes references by value and does not expose pointers."
+   ],
+   "e": "Java is always pass-by-value: method parameters receive a copy of the value, and for objects that copy is of the reference. Reassigning the parameter does not affect the caller."
   },
   {
    "q": "In Java, == on two object references compares:",
@@ -461,7 +731,13 @@
     "Hash codes only",
     "Types"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Contents means the data the objects hold. Comparing contents uses equals(), not the == operator.",
+    "Hash codes are integers computed from object contents. The == operator does not compare hash codes.",
+    "Types are the classes of the objects. The == operator does not compare types in this way."
+   ],
+   "e": "For object references, == checks whether both refer to the same object in memory. To compare contents, the equals method is used."
   },
   {
    "q": "Which method compares the contents of two Java Strings?",
@@ -471,7 +747,13 @@
     "compare() only",
     "same()"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The == operator compares references, not the characters inside strings. It is the wrong check for contents.",
+    "compare() is not a String method in Java. String comparison uses equals() or compareTo().",
+    "same() is not a standard String method in Java. It does not exist for content comparison."
+   ],
+   "e": "The equals() method compares the characters of two String objects and returns true when they match. It is the correct way to test string content."
   },
   {
    "q": "Strings in Java are:",
@@ -481,7 +763,13 @@
     "Primitive",
     "Char arrays only"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Mutable means the value can change after creation. Java String objects cannot be changed once created.",
+    "Primitive is a category for types like int and char. String is an object class, not a primitive.",
+    "String is not just a char array. It is a class that provides methods and is immutable, not an array of characters."
+   ],
+   "e": "Java String objects are immutable, so any change produces a new String rather than modifying the existing one. This makes them safe to share and use as hash keys."
   },
   {
    "q": "Which Python collection is immutable?",
@@ -491,7 +779,13 @@
     "dict",
     "set"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "list is a mutable sequence whose elements can be changed or added. It does not match an immutable collection.",
+    "dict is a mutable mapping of keys to values. It can be changed after it is created.",
+    "set is a mutable collection of unique items. Its contents can change, though frozenset is the immutable version."
+   ],
+   "e": "A tuple is an ordered collection whose elements cannot be changed after creation. It is written with parentheses or commas, such as (1, 2, 3)."
   },
   {
    "q": "In C++, a pure virtual function is declared by appending:",
@@ -501,7 +795,13 @@
     "= void",
     "= abstract"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "= null is not C++ syntax for a pure virtual function. C++ uses = 0 for this.",
+    "= void is not valid for declaring a pure virtual function in C++. It does not mark a function as abstract.",
+    "= abstract is not C++ syntax. C++ uses the virtual keyword with = 0 and has no abstract keyword."
+   ],
+   "e": "In C++, appending = 0 to a virtual function declaration makes it pure virtual. A class with at least one pure virtual function is abstract and cannot be instantiated."
   },
   {
    "q": "In C++, the default access in a struct is:",
@@ -511,7 +811,13 @@
     "protected",
     "package"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "private is the default for members of a C++ class, not a struct. A struct's members are public by default.",
+    "protected is not the default access level for a struct in C++. It must be stated explicitly.",
+    "package is a Java concept with no meaning in C++. C++ has no package access level."
+   ],
+   "e": "In C++, members of a struct are public by default, while members of a class are private by default. This is the main difference between the two."
   },
   {
    "q": "In C++, the default access in a class is:",
@@ -521,7 +827,13 @@
     "protected",
     "internal"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "public is the default for members of a C++ struct. A class's default is private, so this is not the answer.",
+    "protected is not the default access for a class in C++. It must be written explicitly.",
+    "internal is a C# access modifier, not a C++ one. C++ has no internal access level."
+   ],
+   "e": "In C++, members of a class are private by default unless a public or protected label is given. Structs are the variant whose members are public by default."
   },
   {
    "q": "Which C++ feature lets you use the same operator for user-defined types?",
@@ -531,7 +843,13 @@
     "Friend functions",
     "Namespaces"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Templates let code work with any type through generic programming. They do not define operator behavior for user-defined types.",
+    "Friend functions grant a non-member function access to private members. They do not by themselves let an operator be used on user types.",
+    "Namespaces group names to avoid conflicts. They do not change how operators behave."
+   ],
+   "e": "Operator overloading lets a programmer define how operators such as plus or equals work for user-defined types like a Vector or Complex class. It is written as a special operator member or function."
   },
   {
    "q": "What is the output? Animal a = new Dog(); a.speak(); where Dog overrides speak() to print \"Woof\"",
@@ -541,7 +859,13 @@
     "Compile error",
     "Nothing"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Animal would be the result if the Animal version of speak() ran. Dog overrides speak(), so the overriding version runs at run time.",
+    "Compile error is wrong: the reference type Animal declares speak(), so the call is valid and compiles.",
+    "Nothing would be printed only if speak() had an empty body. Dog's override prints Woof."
+   ],
+   "e": "The variable type is Animal but the object is a Dog. Because speak() is overridden, Java uses dynamic dispatch to run Dog's version, which prints Woof."
   },
   {
    "q": "What does a static counter incremented in the constructor print after three objects are created?",
@@ -551,7 +875,13 @@
     "0",
     "2"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "1 would be the count if only one object was created, or if the counter reset each time. Three objects increment it three times.",
+    "0 would mean the counter was never incremented, or was a per-object field that resets. It does not match three increments on a shared static counter.",
+    "2 is off by one, as if the last object's increment was missed. Each constructor call adds exactly one."
+   ],
+   "e": "A static field is shared by all objects of the class, so each constructor call increments the same counter. After three objects are created it holds 3."
   },
   {
    "q": "In Java: try { print A; 5/0; print B } catch(ArithmeticException) { print C } finally { print D }. Output?",
@@ -561,7 +891,13 @@
     "AD",
     "ACBD"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "ABCD would mean B printed after the exception, which cannot happen because 5/0 throws and skips the rest of the try block. The catch block runs next.",
+    "AD would mean the catch block was skipped. It does run because ArithmeticException is caught.",
+    "ACBD places B after the catch. The statement B is skipped once 5/0 throws, so B never prints."
+   ],
+   "e": "A is printed, then 5/0 throws ArithmeticException, skipping B. The catch prints C, and finally always prints D, giving ACD."
   },
   {
    "q": "In Python, what is the output of: class A: __init__ sets x=1; class B(A): __init__ calls super().__init__() then y = x+1; print(B().y)?",
@@ -571,7 +907,13 @@
     "0",
     "Error"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "1 would result if y were set to x without adding 1. Here y is x plus 1, and x is 1 from A's constructor.",
+    "0 would be the value if x were never set or y were not computed correctly. A's constructor sets x to 1.",
+    "Error would occur only if super().__init__() were invalid or A had no constructor. In Python 3 the call is valid."
+   ],
+   "e": "B's constructor calls A's constructor, which sets x to 1. Then y is set to x plus 1, which is 2, so the print statement outputs 2."
   },
   {
    "q": "Which naming convention uses capital letters for each word including the first, commonly for class names?",
@@ -581,7 +923,13 @@
     "snake_case",
     "kebab-case"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "camelCase starts with a lowercase letter and capitalizes later words. Class names conventionally capitalize the first letter too.",
+    "snake_case uses lowercase words joined by underscores. It is used for variables and functions in Python, not class names.",
+    "kebab-case joins words with hyphens and is not valid in most identifiers. It is used for URLs and filenames, not class names."
+   ],
+   "e": "PascalCase capitalizes the first letter of each word, including the first, as in MyClass. It is the usual naming convention for classes in Java and C#."
   },
   {
    "q": "Which naming convention is typically used for Python variables and functions?",
@@ -591,7 +939,13 @@
     "SCREAMING_CASE",
     "kebab-case"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "PascalCase capitalizes each word and is conventionally used for class names in Python. Functions and variables use snake_case.",
+    "SCREAMING_CASE uses uppercase letters with underscores and is used for constants. It is not the convention for ordinary variables or functions.",
+    "kebab-case uses hyphens, which are not allowed in Python identifiers. It cannot name a Python variable or function."
+   ],
+   "e": "snake_case uses lowercase words separated by underscores, such as calculate_total. PEP 8, the Python style guide, recommends it for functions and variables."
   },
   {
    "q": "Java's automatic memory reclamation is called:",
@@ -601,7 +955,13 @@
     "Reference counting only",
     "RAII"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Manual deallocation means the programmer frees memory explicitly, as in C. Java frees unused objects automatically instead.",
+    "Reference counting only tracks how many references exist to each object. Java's collector is a tracing collector, not reference counting alone.",
+    "RAII is a C++ idiom that ties resource release to object lifetime. It is not Java's memory reclamation mechanism."
+   ],
+   "e": "Garbage collection is Java's automatic memory reclamation, which frees objects that are no longer reachable from the program. The programmer does not free memory explicitly."
   },
   {
    "q": "Which describes high-quality OO design?",
@@ -611,7 +971,13 @@
     "High coupling and high cohesion",
     "Low cohesion and low coupling"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Low cohesion and high coupling is the poor design the question describes as undesirable. Modules should be focused and loosely connected.",
+    "High coupling and high cohesion mixes a good trait with a bad one. Coupling should be low for good design.",
+    "Low cohesion and low coupling makes classes unfocused. Cohesion should be high for good design."
+   ],
+   "e": "High cohesion means a class has focused, related responsibilities, and low coupling means classes depend on each other minimally. Together they make code easier to change and reuse."
   },
   {
    "q": "Which Java collection stores unique elements without duplicates?",
@@ -621,7 +987,13 @@
     "LinkedList",
     "Vector"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "ArrayList is an ordered list that allows duplicate elements. It does not enforce uniqueness.",
+    "LinkedList is a list implementation that allows duplicate elements. It does not enforce uniqueness.",
+    "Vector is a synchronized dynamic array that allows duplicates. It does not store only unique elements."
+   ],
+   "e": "HashSet is a Set implementation that stores unique elements with no duplicates, using a hash table internally. Adding an existing element has no effect."
   },
   {
    "q": "Which Java collection stores key-value pairs?",
@@ -631,7 +1003,13 @@
     "HashSet",
     "Queue"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "ArrayList stores an ordered sequence of values accessed by index. It holds no keys.",
+    "HashSet stores unique values without keys. It is a set, not a map.",
+    "Queue stores elements in first-in first-out order. It holds values, not key-value pairs."
+   ],
+   "e": "HashMap stores key-value pairs and looks up values by their keys. Keys are unique within the map."
   },
   {
    "q": "JavaScript's strict equality operator is:",
@@ -641,7 +1019,13 @@
     "=",
     "!="
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "== is loose equality that converts types before comparing. Strict equality uses === without conversion.",
+    "= is the assignment operator, not a comparison. It stores a value in a variable.",
+    "!= is loose inequality, which compares with type conversion. It is the negation of ==, not strict equality."
+   ],
+   "e": "The strict equality operator === returns true only when both operands have the same type and value, with no type conversion. It is recommended for most comparisons."
   },
   {
    "q": "Which company owns Java today?",
@@ -651,7 +1035,13 @@
     "IBM",
     "Google"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Sun Microsystems originally developed Java and was acquired by Oracle in 2010. Sun no longer owns Java.",
+    "IBM is a separate company that does not own Java. It is known for other software and hardware.",
+    "Google is a separate company that developed Android and Dart. It does not own Java."
+   ],
+   "e": "Oracle acquired Sun Microsystems in 2010, which gave it ownership of Java. Oracle now maintains the Java platform and its licensing."
   },
   {
    "q": "Which language is the typed superset of JavaScript from Microsoft?",
@@ -661,7 +1051,13 @@
     "Dart",
     "Kotlin"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "CoffeeScript is a language that compiles to JavaScript, but it is not a typed superset from Microsoft. It has a different, Ruby-inspired syntax.",
+    "Dart is a language from Google, used with Flutter. It is not a typed superset of JavaScript from Microsoft.",
+    "Kotlin is a language from JetBrains that runs on the JVM. It is not a JavaScript superset from Microsoft."
+   ],
+   "e": "TypeScript, developed by Microsoft, is a typed superset of JavaScript that compiles to plain JavaScript. It adds static type annotations to the language."
   },
   {
    "q": "Which language is Google's preferred language for Android development since 2019?",
@@ -671,7 +1067,13 @@
     "Dart",
     "Scala"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Swift is Apple's language for iOS and macOS development, not Google's Android language. Google did not choose it for Android.",
+    "Dart is Google's language used with Flutter, not the preferred language for Android apps. It is for cross-platform UI.",
+    "Scala is a JVM language, not Google's preferred language for Android. It was not chosen for Android development."
+   ],
+   "e": "Google announced Kotlin as its preferred language for Android development in 2019. Kotlin, created by JetBrains, works with Java code and libraries."
   },
   {
    "q": "Which language is used for Apple's iOS development created by Apple in 2014?",
@@ -681,7 +1083,13 @@
     "Objective-C",
     "Dart"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Kotlin is a JetBrains language for the JVM and Android, not an Apple language. Apple did not create Kotlin.",
+    "Objective-C is Apple's older language, from the 1980s, and was replaced by Swift. It was not introduced in 2014.",
+    "Dart is a Google language used with Flutter. It is not Apple's language."
+   ],
+   "e": "Swift was introduced by Apple in 2014 as a modern replacement for Objective-C for iOS and macOS apps. It is now open source."
   },
   {
    "q": "Which language is used with the Flutter framework?",
@@ -691,7 +1099,13 @@
     "Rust",
     "Swift"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Go is a language from Google for systems and server software. It is not used to build Flutter apps.",
+    "Rust is a systems language focused on memory safety. It is not the language of Flutter.",
+    "Swift is Apple's language for iOS and macOS apps. It is not used with Flutter."
+   ],
+   "e": "Flutter is Google's UI toolkit for building apps from one codebase, and its apps are written in Dart. Dart is a client-optimized language developed by Google."
   },
   {
    "q": "Given int add(int a, int b) and double add(double a, double b) in one class, what does add(2, 3.0) return?",
@@ -702,7 +1116,12 @@
     "Runtime error"
    ],
    "d": "D",
-   "e": "Only add(double,double) is applicable, because the int 2 widens to double but the double 3.0 cannot narrow to int. The compiler picks it at compile time, so the result is 5.0."
+   "e": "Only add(double,double) is applicable, because the int 2 widens to double but the double 3.0 cannot narrow to int. The compiler picks it at compile time, so the result is 5.0.",
+   "x": [
+    "The int version is not applicable, because 3.0 cannot be narrowed to int, so the compiler does not choose it.",
+    "The call is not ambiguous, because only the double version is applicable. The compiler resolves it without error.",
+    "Overload resolution happens at compile time, so no runtime error arises. The call compiles and runs fine."
+   ]
   },
   {
    "q": "Which declaration is NOT a valid overload of int f(int x) in the same class?",
@@ -713,7 +1132,12 @@
     "void f(String s)"
    ],
    "d": "D",
-   "e": "Overloading needs a different parameter list; a different return type or parameter name does not count. double f(int y) has the same parameter list, so it clashes."
+   "e": "Overloading needs a different parameter list; a different return type or parameter name does not count. double f(int y) has the same parameter list, so it clashes.",
+   "x": [
+    "A different parameter count makes this a valid overload alongside f(int). The parameter list differs, so it is allowed.",
+    "A different parameter type, double instead of int, makes this a valid overload. Its parameter list differs.",
+    "A different parameter type, String, makes this a valid overload. The return type is not what matters; the parameter list differs."
+   ]
   },
   {
    "q": "Which pair of access modifiers both let a subclass in a different package access a member?",
@@ -724,7 +1148,12 @@
     "public and default"
    ],
    "d": "D",
-   "e": "Default (package-private) blocks subclasses outside the package, and private blocks everything outside the class. Only public and protected reach such a subclass."
+   "e": "Default (package-private) blocks subclasses outside the package, and private blocks everything outside the class. Only public and protected reach such a subclass.",
+   "x": [
+    "Default, or package-private, blocks subclasses outside the package. Protected lets such a subclass access the member, so this pair fails on default.",
+    "Both default and private block access from a subclass in a different package. Private blocks everything outside the class.",
+    "Default blocks a subclass in a different package, so this pair fails. Public alone would be enough."
+   ]
   },
   {
    "q": "In Java, class A has a constructor printing \"A\" and class B extends A has a constructor printing \"B\" with no explicit super call. What does new B() print?",
@@ -735,7 +1164,12 @@
     "A"
    ],
    "d": "A",
-   "e": "The compiler inserts an implicit super() as the first statement of B's constructor, so the parent constructor runs first."
+   "e": "The compiler inserts an implicit super() as the first statement of B's constructor, so the parent constructor runs first.",
+   "x": [
+    "This would mean B's constructor runs first. Java runs the parent constructor before the subclass body.",
+    "This omits A's output. The implicit super() call always runs the parent constructor.",
+    "This omits B's output. B's constructor still runs after the parent constructor finishes."
+   ]
   },
   {
    "q": "class C { static int n = 0; int id; C(){ id = n++; } } After new C(); new C(); new C();, what are the third object's id and C.n?",
@@ -746,7 +1180,12 @@
     "id 3, n 2"
    ],
    "d": "D",
-   "e": "n++ assigns the old value then increments: ids are 0, 1, 2, and the shared static n ends at 3. Pre-increment (++n) would have given ids 1, 2, 3."
+   "e": "n++ assigns the old value then increments: ids are 0, 1, 2, and the shared static n ends at 3. Pre-increment (++n) would have given ids 1, 2, 3.",
+   "x": [
+    "This matches pre-increment, ++n, which gives ids 1, 2, 3. The code uses post-increment, so the third id is 2.",
+    "This gets the id right but undercounts n. Each object increments the shared counter once, so n ends at 3.",
+    "This matches neither result: the third id should be 2, and n should be 3 after three objects."
+   ]
   },
   {
    "q": "Given String s1 = \"hi\", s2 = \"hi\", s3 = new String(\"hi\"), which expression is true?",
@@ -757,7 +1196,12 @@
     "s3 == new String(\"hi\")"
    ],
    "d": "D",
-   "e": "Literals share one object in the string pool, so s1 == s2 is true. new String creates a separate heap object, so == against it is false even though equals() would be true."
+   "e": "Literals share one object in the string pool, so s1 == s2 is true. new String creates a separate heap object, so == against it is false even though equals() would be true.",
+   "x": [
+    "s3 is a separate heap object from the literal s1, so the == comparison is false. Only equals would return true here.",
+    "s2 is a literal from the string pool, while s3 is a new heap object, so == is false.",
+    "Each new String expression creates a distinct object, so == compares two different references and is false."
+   ]
   },
   {
    "q": "Java: try { print \"A\"; return; } finally { print \"F\"; } What is printed?",
@@ -768,7 +1212,12 @@
     "FA"
    ],
    "d": "D",
-   "e": "The finally block runs even when the try block executes return, after A has been printed. So the output is A then F."
+   "e": "The finally block runs even when the try block executes return, after A has been printed. So the output is A then F.",
+   "x": [
+    "This omits the finally output. Finally still runs even when the try block executes a return.",
+    "This omits the A printed in the try block before the return. The try block runs before the finally.",
+    "This reverses the order. The finally block runs after the try block, so A comes first."
+   ]
   },
   {
    "q": "Java: try { print A; throw new RuntimeException(); } catch (Exception e) { print B; } finally { print C; } print D; What is the output?",
@@ -779,7 +1228,12 @@
     "ADBC"
    ],
    "d": "D",
-   "e": "The thrown exception is caught by catch (B), finally always runs (C), and since the exception was handled execution continues to D."
+   "e": "The thrown exception is caught by catch (B), finally always runs (C), and since the exception was handled execution continues to D.",
+   "x": [
+    "This skips B, but the exception is caught, so the catch block still runs and prints B.",
+    "This omits D. Since the exception was handled, execution continues after the try statement and prints D.",
+    "This puts D before the catch and finally. D runs only after the try, catch and finally blocks have completed."
+   ]
   },
   {
    "q": "Which of these is NOT an unchecked (runtime) exception in Java?",
@@ -790,7 +1244,12 @@
     "ArrayIndexOutOfBoundsException"
    ],
    "d": "D",
-   "e": "SQLException (like IOException) is a checked exception that must be handled or declared. The other three are runtime exceptions."
+   "e": "SQLException (like IOException) is a checked exception that must be handled or declared. The other three are runtime exceptions.",
+   "x": [
+    "ArithmeticException extends RuntimeException, so it is unchecked. The question asks for the one that is not.",
+    "NullPointerException extends RuntimeException, so it is unchecked and need not be declared.",
+    "ArrayIndexOutOfBoundsException extends RuntimeException, so it is unchecked and need not be caught."
+   ]
   },
   {
    "q": "What is the combined size in bytes of one Java int, one long and one char?",
@@ -801,7 +1260,12 @@
     "16"
    ],
    "d": "D",
-   "e": "int is 4, long is 8 and char is 2 bytes, so 4 + 8 + 2 = 14."
+   "e": "int is 4, long is 8 and char is 2 bytes, so 4 + 8 + 2 = 14.",
+   "x": [
+    "This drops the char size, so it counts only int plus long, which is 4 plus 8. A char takes 2 bytes in Java.",
+    "This assumes char takes 1 byte, as in C, which does not match Java's 2-byte char.",
+    "This assumes char takes 4 bytes. In Java, char is 2 bytes, a UTF-16 code unit."
+   ]
   },
   {
    "q": "Java: void change(int[] a){ a[0] = 9; a = new int[]{5}; } With int[] arr = {1}; change(arr); what is arr[0]?",
@@ -812,7 +1276,12 @@
     "Compile error"
    ],
    "d": "D",
-   "e": "The reference is copied (pass-by-value), so a[0] = 9 modifies the shared array. Reassigning the local copy of the reference does not affect arr."
+   "e": "The reference is copied (pass-by-value), so a[0] = 9 modifies the shared array. Reassigning the local copy of the reference does not affect arr.",
+   "x": [
+    "This would be the value if the method did not change the shared array. The line a[0] = 9 does modify it.",
+    "This confuses the local reassignment a = new int[]{5} with changing arr. Reassigning the local copy does not affect arr.",
+    "The code is valid Java and compiles. An int array can be passed to an int[] parameter and modified."
+   ]
   },
   {
    "q": "Python: class D(B, C) where both B and C extend A. What is D's method resolution order?",
@@ -823,7 +1292,12 @@
     "D, A, B, C, object"
    ],
    "d": "D",
-   "e": "C3 linearization keeps the order of the listed bases (B before C) and puts the shared parent A after both of them."
+   "e": "C3 linearization keeps the order of the listed bases (B before C) and puts the shared parent A after both of them.",
+   "x": [
+    "This puts A before C, which breaks C3 linearization. C must come before its base A.",
+    "This reverses the listed bases, putting C before B. Python keeps the order given in the class statement.",
+    "This puts A before its subclasses B and C. A class must come before its base classes."
+   ]
   },
   {
    "q": "Which pairing of language and diamond-problem solution is correct?",
@@ -834,7 +1308,12 @@
     "C#: MRO (C3 linearization); C++: sealed classes"
    ],
    "d": "D",
-   "e": "C++ uses virtual inheritance to keep a single shared base, while Python resolves the ambiguity with its MRO. Java and C# avoid it by disallowing multiple class inheritance."
+   "e": "C++ uses virtual inheritance to keep a single shared base, while Python resolves the ambiguity with its MRO. Java and C# avoid it by disallowing multiple class inheritance.",
+   "x": [
+    "This swaps the two. C++ uses virtual inheritance and Python uses MRO, so this pairing is wrong.",
+    "Java has no virtual inheritance because it does not allow multiple class inheritance. Python has no interfaces-only rule for this.",
+    "C# does not use C3 MRO for classes, and sealed classes prevent inheritance rather than resolve the diamond. This pairing is wrong."
+   ]
   },
   {
    "q": "Which statement is NOT true of a Java abstract class?",
@@ -845,7 +1324,12 @@
     "It may declare constructors"
    ],
    "d": "D",
-   "e": "Java classes have single inheritance, so a class can extend only one abstract class (but may implement many interfaces). Abstract classes can still have constructors that subclasses call via super()."
+   "e": "Java classes have single inheritance, so a class can extend only one abstract class (but may implement many interfaces). Abstract classes can still have constructors that subclasses call via super().",
+   "x": [
+    "This is true: an abstract class can have concrete methods with bodies, so it is not the false statement.",
+    "This is true: abstract classes may declare abstract methods, so it is not the false statement.",
+    "This is true: abstract classes can declare constructors that subclasses call through super, so it is not the false statement."
+   ]
   },
   {
    "q": "Since Java 8, an interface may contain:",
@@ -856,7 +1340,12 @@
     "protected members"
    ],
    "d": "D",
-   "e": "Java 8 added default and static methods to interfaces. Interfaces still have no constructors or instance state; their fields are implicitly public static final."
+   "e": "Java 8 added default and static methods to interfaces. Interfaces still have no constructors or instance state; their fields are implicitly public static final.",
+   "x": [
+    "Interfaces cannot declare constructors, since they do not create objects. This is not something an interface may contain.",
+    "Interface fields are implicitly public static final constants, so they are not mutable instance fields.",
+    "Interface members are implicitly public, so protected members are not allowed in interfaces."
+   ]
   },
   {
    "q": "In Java, marking a method final means it:",
@@ -867,7 +1356,12 @@
     "cannot access instance fields"
    ],
    "d": "A",
-   "e": "final on a method blocks overriding only; overloads with different parameters are still allowed and subclasses can still call it."
+   "e": "final on a method blocks overriding only; overloads with different parameters are still allowed and subclasses can still call it.",
+   "x": [
+    "Overloading is still allowed, since final only blocks overriding. A final method can be overloaded with different parameters.",
+    "A subclass can still call an inherited final method. Final blocks overriding, not calling.",
+    "final does not restrict access to instance fields. A final method can read and write them normally."
+   ]
   },
   {
    "q": "In C++, which call is resolved at run time through the vtable?",
@@ -878,7 +1372,12 @@
     "A call to a static member function"
    ],
    "d": "D",
-   "e": "Virtual functions use dynamic dispatch. Overloads, non-virtual and static member calls are bound at compile time."
+   "e": "Virtual functions use dynamic dispatch. Overloads, non-virtual and static member calls are bound at compile time.",
+   "x": [
+    "Overloads are chosen at compile time by the parameter types, so no vtable lookup occurs.",
+    "Non-virtual calls are bound at compile time to the function named by the static type, so no vtable is used.",
+    "Static member functions are not tied to an object and are resolved at compile time, so no vtable is used."
+   ]
   },
   {
    "q": "A House and its Rooms, where the rooms are destroyed when the house is destroyed, is best described as:",
@@ -889,7 +1388,12 @@
     "Realization"
    ],
    "d": "D",
-   "e": "Composition is the strongest has-a relationship: the parts cannot outlive the whole. Aggregation would let the parts exist independently."
+   "e": "Composition is the strongest has-a relationship: the parts cannot outlive the whole. Aggregation would let the parts exist independently.",
+   "x": [
+    "Aggregation is a has-a relationship where parts can exist independently of the whole. The question says the rooms are destroyed with the house.",
+    "Association is a general link between classes with no lifetime dependency. It does not imply that parts die with the whole.",
+    "Realization is a UML relationship where a class implements an interface. It does not describe ownership of rooms."
+   ]
   },
   {
    "q": "Which Java version is NOT an LTS release?",
@@ -900,7 +1404,12 @@
     "Java 21"
    ],
    "d": "A",
-   "e": "Java 8, 11, 17, 21 and 25 are LTS releases. Java 16 (which finalized records) was a regular six-month release."
+   "e": "Java 8, 11, 17, 21 and 25 are LTS releases. Java 16 (which finalized records) was a regular six-month release.",
+   "x": [
+    "Java 11 is an LTS release, so it is not the non-LTS version the question asks for.",
+    "Java 17 is an LTS release, so it does not match the question.",
+    "Java 21 is an LTS release, so it does not match the question."
+   ]
   },
   {
    "q": "Which of these languages was released earliest?",
@@ -911,7 +1420,12 @@
     "C# (2000)"
    ],
    "d": "A",
-   "e": "Python came in 1991, Java and JavaScript in 1995, and C# in 2000."
+   "e": "Python came in 1991, Java and JavaScript in 1995, and C# in 2000.",
+   "x": [
+    "Java came out in 1995, after Python's 1991 release. It is not the earliest.",
+    "JavaScript came out in 1995, also after Python's 1991 release. It is not the earliest.",
+    "C# came out in 2000, the latest of these languages. It is not the earliest."
+   ]
   },
   {
    "q": "Which statement about Java collections is correct?",
@@ -922,7 +1436,12 @@
     "Both give O(1) insertion at a known node without shifting"
    ],
    "d": "D",
-   "e": "ArrayList is a dynamic array: fast random access but O(n) insertion in the middle because elements shift. LinkedList reverses that trade-off."
+   "e": "ArrayList is a dynamic array: fast random access but O(n) insertion in the middle because elements shift. LinkedList reverses that trade-off.",
+   "x": [
+    "This swaps the trade-offs. ArrayList insertion in the middle needs shifting, so it is not O(1), and LinkedList has no O(1) index access.",
+    "Only ArrayList gives O(1) index access. LinkedList must walk its nodes, which is O(n).",
+    "ArrayList insertion requires shifting elements, so it is not O(1) without shifting. Only LinkedList has that property at a known node."
+   ]
   },
   {
    "q": "In Java, for int x = 5; Dog d = new Dog(); where are x and the Dog object stored?",
@@ -933,7 +1452,12 @@
     "x on the heap; the Dog object on the stack"
    ],
    "d": "D",
-   "e": "Primitives local to a method and call frames live on the stack, while objects created with new live on the heap. The reference d itself is on the stack."
+   "e": "Primitives local to a method and call frames live on the stack, while objects created with new live on the heap. The reference d itself is on the stack.",
+   "x": [
+    "Places the object on the stack too. Only primitives and references live on the stack; the object created with new is always allocated on the heap.",
+    "Puts the local primitive x on the heap. Local variables of a method, including primitives, live in the stack frame, not on the heap.",
+    "Swaps both locations. The primitive x is a local and sits on the stack, while the Dog object created with new is on the heap."
+   ]
   },
   {
    "q": "Animal a = new Dog(); a.fetch(); where fetch() is defined only in Dog. What happens?",
@@ -944,7 +1468,12 @@
     "NullPointerException"
    ],
    "d": "D",
-   "e": "The compiler checks methods against the reference type Animal, which has no fetch(). A downcast ((Dog) a).fetch() would be needed."
+   "e": "The compiler checks methods against the reference type Animal, which has no fetch(). A downcast ((Dog) a).fetch() would be needed.",
+   "x": [
+    "Assumes the runtime type decides which method is visible. Method lookup uses the static type Animal, which has no fetch(), so the code will not compile.",
+    "A cast failure happens only when an explicit downcast is attempted on an incompatible object. No cast appears here, and the problem is caught earlier at compile time.",
+    "Happens when a method is called on a null reference. Here a is assigned a new Dog object, so it is not null, and the error is a compile-time one."
+   ]
   },
   {
    "q": "Java: void f(Animal x){print \"A\"} and void f(Dog x){print \"D\"} in one class, Dog extends Animal. After Animal a = new Dog(); f(a); what is printed?",
@@ -955,7 +1484,12 @@
     "Nothing"
    ],
    "d": "D",
-   "e": "Overloads are chosen at compile time from the declared (reference) type Animal, not the actual object. Only overriding uses run-time dispatch."
+   "e": "Overloads are chosen at compile time from the declared (reference) type Animal, not the actual object. Only overriding uses run-time dispatch.",
+   "x": [
+    "Would require run-time dispatch on the Dog object. Overloaded methods are picked by the declared type Animal, so f(Animal) is selected.",
+    "The code is legal Java. Overloading with parent and child parameter types is allowed, and the call f(a) resolves to f(Animal) without error.",
+    "Would mean f is never called or prints nothing. The call f(a) does execute and prints the letter for the selected overload, which is A."
+   ]
   },
   {
    "q": "A file Shop.java contains only: public class Store { }. What happens when compiling it?",
@@ -966,7 +1500,12 @@
     "It compiles and the file name is ignored"
    ],
    "d": "D",
-   "e": "In Java a public class must be declared in a file with the same name, so Store must be in Store.java."
+   "e": "In Java a public class must be declared in a file with the same name, so Store must be in Store.java.",
+   "x": [
+    "Assumes the file name determines the class name. The file contains class Store, and the public class rule rejects a mismatched file name before any class file is produced.",
+    "Treats the mismatch as a warning. In Java, a public class in a file with the wrong name is a hard compile error, not a warning.",
+    "Says the file name does not matter. Java requires a public class to be in a file with its exact name, so javac rejects this file."
+   ]
   },
   {
    "q": "A Java class declares only the constructor Dog(String name). What does new Dog() do?",
@@ -977,7 +1516,12 @@
     "Compiles but fails at run time"
    ],
    "d": "D",
-   "e": "The compiler only provides a default constructor when the class defines no constructor at all."
+   "e": "The compiler only provides a default constructor when the class defines no constructor at all.",
+   "x": [
+    "Assumes a no-argument call quietly passes null for the String parameter. Java does not match Dog() to Dog(String), so no such object is created.",
+    "Assumes the implicit default constructor is always added. The compiler adds it only when no constructor is declared, and this class declares Dog(String).",
+    "Assumes the error is delayed until execution. The missing Dog() constructor is detected during compilation, so the program never runs."
+   ]
   },
   {
    "q": "In Python, an attribute named __x inside class Account is:",
@@ -988,7 +1532,12 @@
     "protected by a single leading underscore convention"
    ],
    "d": "D",
-   "e": "Python has no true private members; double leading underscores trigger name mangling. A single underscore (_x) is only a convention."
+   "e": "Python has no true private members; double leading underscores trigger name mangling. A single underscore (_x) is only a convention.",
+   "x": [
+    "Describes private access as in languages like Java. Python does not enforce it; the name is only mangled and can still be reached as _Account__x.",
+    "Confuses naming with storage scope. The double underscore prefix does not make an attribute class-level; static-ness is set by where it is declared.",
+    "Describes a single underscore, as in _x, not a double one. That is only a convention, while __x triggers name mangling."
+   ]
   },
   {
    "q": "Python: t = (1, [2]); t[1].append(3); print(t). What is the output?",
@@ -999,7 +1548,12 @@
     "TypeError"
    ],
    "d": "D",
-   "e": "A tuple is immutable but its elements are not: the list inside can still be mutated. Only reassigning t[1] would raise TypeError."
+   "e": "A tuple is immutable but its elements are not: the list inside can still be mutated. Only reassigning t[1] would raise TypeError.",
+   "x": [
+    "Assumes the append did not change the tuple. The tuple holds the same list object, and that list is mutated in place, so the inner list shows 3.",
+    "Would mean the list was unpacked into the tuple. append adds 3 to the inner list, so the tuple keeps two elements, not three.",
+    "Would occur only if t[1] were reassigned. Calling append on the inner list is allowed, so no error is raised."
+   ]
   },
   {
    "q": "Python: a = [1]; b = [1]; print(a == b, a is b). What is the output?",
@@ -1010,7 +1564,12 @@
     "False True"
    ],
    "d": "D",
-   "e": "== compares values (equal lists) while is compares identity; a and b are two different list objects."
+   "e": "== compares values (equal lists) while is compares identity; a and b are two different list objects.",
+   "x": [
+    "Claims a and b are the same object. Each [1] literal creates a new list, so is returns False even though == returns True.",
+    "Says the lists are not equal in value. Both contain 1, so == is True, and only the identity check is False.",
+    "Swaps the two results. == compares values and gives True, while is compares identity and gives False here."
+   ]
   },
   {
    "q": "In JavaScript, what do 5 == '5' and 5 === '5' evaluate to, in that order?",
@@ -1021,7 +1580,12 @@
     "false, false"
    ],
    "d": "D",
-   "e": "== coerces types so the string becomes the number 5; === is strict equality and requires the same type."
+   "e": "== coerces types so the string becomes the number 5; === is strict equality and requires the same type.",
+   "x": [
+    "Swaps the results of both comparisons. == coerces '5' to 5 and gives true, while === checks types and gives false.",
+    "Assumes === also coerces types. Strict equality compares types first, so a number and a string are never strictly equal.",
+    "Assumes == does not coerce the string. Loose equality converts '5' to the number 5, so the result is true."
+   ]
   }
  ],
  "cards": [

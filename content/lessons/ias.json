@@ -12,7 +12,12 @@
     "NIST SP 800-12"
    ],
    "e": "RAND Report R-609 (Willis H. Ware, 1970) is the paper that started the study of computer security and stressed management and policy. The closest confusion is the TCSEC Orange Book, a DoD document in the Rainbow Series, not a RAND report.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Not the answer here: RAND Report R-101 is not the paper the question identifies as starting the study of computer security.",
+    "The TCSEC Orange Book is a DoD criteria document in the Rainbow Series, not a RAND report.",
+    "NIST SP 800-12 is an introductory NIST computer security handbook, not a RAND report on the origins of the field."
+   ]
   },
   {
    "q": "Who developed the ARPANET from its inception?",
@@ -23,7 +28,12 @@
     "Maurice Wilkes"
    ],
    "e": "Larry Roberts developed ARPANET; Ware wrote R-609, and Ritchie and Wilkes are known for UNIX and time-sharing password security.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Dennis Ritchie co-created UNIX and the C language at Bell Labs, so he did not develop ARPANET.",
+    "Willis Ware wrote the RAND R-609 report on computer security policy, not the development of ARPANET.",
+    "Maurice Wilkes led the EDSAC project at Cambridge, an early stored-program computer, not the ARPANET effort."
+   ]
   },
   {
    "q": "The DEFCON conference for those interested in information security was established in:",
@@ -34,7 +44,12 @@
     "2001"
    ],
    "e": "DEFCON was established in 1993, per the 1990s history entry. The closest year confusion is 1979, which the notes tie to the Morris and Thompson password-security paper, not to DEFCON.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Not the answer here: 1979 is not the founding year of DEF CON, which the question places in the 1990s.",
+    "Not the answer here: 1984 is not DEF CON's founding year; the conference began in the 1990s.",
+    "Not the answer here: 2001 comes long after DEF CON was established, so it does not match the founding year asked."
+   ]
   },
   {
    "q": "The DoD Trusted Computer Security Evaluation Criteria documents are known as the:",
@@ -45,7 +60,12 @@
     "Common Criteria"
    ],
    "e": "The DoD's TCSEC documents are collectively called the Rainbow Series.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The Orange Series is not the collective name; the Orange Book is only one TCSEC document within the Rainbow Series.",
+    "The Red Book is one interpretation document inside the Rainbow Series, not the name of the whole set of TCSEC documents.",
+    "Common Criteria is an international security evaluation standard, not the collective name of the DoD TCSEC documents."
+   ]
   },
   {
    "q": "The IPSec security protocols trace back to researchers working at the:",
@@ -56,7 +76,12 @@
     "MIT Lincoln Lab"
    ],
    "e": "IETF researchers at the Naval Research Laboratory developed the SIPP security protocols that led to IPSec.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "RAND Corporation is a think tank known for report R-609, not the lab where the IPsec security protocols came from.",
+    "NSA Fort Meade is the headquarters of the National Security Agency, which did not originate the IPsec protocols.",
+    "MIT Lincoln Laboratory is an MIT research center, not the lab the notes credit for the IPsec protocol lineage."
+   ]
   },
   {
    "q": "Which is NOT one of the seven critical characteristics of information in the slides?",
@@ -67,7 +92,12 @@
     "Accuracy"
    ],
    "e": "The seven critical characteristics are availability, accuracy, authenticity, confidentiality, integrity, utility and possession, so non-repudiation is the one that is NOT on the list. Utility and possession are on the list and are the closest distractors.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Utility is one of the seven critical characteristics of information, so it is not the item that does not belong.",
+    "Possession is one of the seven critical characteristics, meaning ownership or control of information, so it is on the list.",
+    "Accuracy is one of the seven critical characteristics, meaning information is free from mistakes, so it is on the list."
+   ]
   },
   {
    "q": "Which characteristic of information refers to ownership or control of information regardless of format?",
@@ -78,7 +108,12 @@
     "Availability"
    ],
    "e": "Possession is ownership or control of information regardless of its format.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Utility describes how useful or valuable information is for a purpose, not who owns or controls it.",
+    "Accuracy describes information being free from mistakes or errors, not ownership or control of it.",
+    "Availability describes information being accessible when needed, not ownership or control regardless of format."
+   ]
   },
   {
    "q": "The three-dimensional model of information security with characteristics, states and safeguards is the:",
@@ -89,7 +124,12 @@
     "Zachman Framework"
    ],
    "e": "The McCumber Cube crosses information characteristics, information states and safeguards in three dimensions.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Not the answer here: the Rubik Model is not a recognized information security model, and the question describes the McCumber Cube.",
+    "The Bell-LaPadula model is a confidentiality-focused access control model, with no characteristics, states and safeguards cube.",
+    "The Zachman Framework is an enterprise architecture framework, not a three-dimensional security model with states and safeguards."
+   ]
   },
   {
    "q": "Which is NOT a component of an information system?",
@@ -100,7 +140,12 @@
     "Procedures"
    ],
    "e": "An information system is made of software, hardware, data, people, procedures and networks, so policies are not a component. Procedures is the closest distractor because it is on the list.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Software is one of the components of an information system, so it is on the list and is not the item that does not belong.",
+    "Hardware is the physical equipment of an information system, one of its listed components, so it is not the exception.",
+    "Procedures are one of the listed components of an information system, so they are included and are not the exception."
+   ]
   },
   {
    "q": "According to the slides, information security is:",
@@ -111,7 +156,12 @@
     "Achievable at 100 percent"
    ],
    "e": "Security is a process, not a goal, because perfect security is impossible and must be balanced against access.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Security is an ongoing process rather than a one-time project with a finish point.",
+    "Security is not purely technical, since the notes stress people, policy and procedures alongside technology.",
+    "Perfect security is impossible, so security cannot be achieved at 100 percent, as the notes state."
+   ]
   },
   {
    "q": "Which approach is a grassroots effort by systems administrators and seldom works?",
@@ -122,7 +172,12 @@
     "Parallel approach"
    ],
    "e": "Bottom-up is a grassroots effort by system administrators that seldom works because it lacks participant support and staying power.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Top-down is the opposite approach, started by upper management that issues policy, not a grassroots effort by administrators.",
+    "The waterfall model is a sequential systems development life cycle model, not a grassroots security approach by administrators.",
+    "Parallel refers to running work concurrently, not a grassroots effort by systems administrators that seldom works."
+   ]
   },
   {
    "q": "Which approach is initiated by upper management that issues policy and determines accountability?",
@@ -133,7 +188,12 @@
     "Phased approach"
    ],
    "e": "Top-down starts with upper management, which issues policy, sets goals and assigns accountability.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Bottom-up is the grassroots approach by system administrators that seldom works, not one initiated by upper management.",
+    "A pilot approach tests a change with a small group first, a rollout method rather than a policy-driven approach from upper management.",
+    "A phased approach rolls out a change in stages over time, a deployment method rather than one that issues policy and assigns accountability."
+   ]
   },
   {
    "q": "Which SDLC phase is the longest and most expensive?",
@@ -144,7 +204,12 @@
     "Analysis"
    ],
    "e": "Maintenance and change is the longest and most expensive SDLC phase.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Investigation is the first SDLC phase that defines the problem, so it is neither the longest nor the most expensive phase.",
+    "Implementation is the phase where the system is built and installed, which is shorter than the ongoing maintenance and change phase.",
+    "Analysis studies the problem and requirements early in the life cycle, so it is not the longest or most expensive phase."
+   ]
   },
   {
    "q": "Which SDLC phase includes the make-or-buy decision?",
@@ -155,7 +220,12 @@
     "Maintenance"
    ],
    "e": "Make-or-buy is decided in the physical design phase, where specific technologies are selected. Logical design, the phase before it, selects applications and data support, so it is the closest phase confusion.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Investigation defines the problem the system solves, which comes before any technology selection, so it is not the make-or-buy phase.",
+    "Analysis studies requirements and feasibility before design, so it does not include the technology selection of make-or-buy.",
+    "Maintenance and change is the final ongoing phase, after the system is built, so the make-or-buy decision does not happen there."
+   ]
   },
   {
    "q": "Which SDLC phase asks \"What problem is the system being developed to solve?\"",
@@ -166,7 +236,12 @@
     "Analysis"
    ],
    "e": "Investigation asks what problem the system is being developed to solve.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Logical design specifies what the system will do and which applications and data support it, not the problem being solved.",
+    "Implementation is the phase where the designed system is built and installed, which comes after the problem is defined.",
+    "Analysis studies the requirements and feasibility after investigation has defined the problem, so it does not ask this question first."
+   ]
   },
   {
    "q": "Establishing procedures to create software that is more capable of being deployed securely is called:",
@@ -177,7 +252,12 @@
     "Software testing"
    ],
    "e": "Software assurance is secure-development planning within the SDLC so software can be deployed securely.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Software piracy is the illegal copying or use of software, not planning for secure development and deployment.",
+    "Software reuse means using existing components again, which does not describe procedures for secure deployment.",
+    "Software testing checks software for defects, a part of assurance, but not the broader secure-development procedures the question describes."
+   ]
   },
   {
    "q": "Which NIST publication covers security considerations in the system development life cycle?",
@@ -188,7 +268,12 @@
     "SP 800-12"
    ],
    "e": "NIST SP 800-64 covers security considerations in the system development life cycle. SP 800-14 (33 principles) and SP 800-30 (risk) are the closest NIST publication confusions.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "NIST SP 800-14 lists generally accepted principles for securing IT systems, not the SDLC security publication.",
+    "NIST SP 800-30 is the guide for conducting risk assessments, not the publication on SDLC security considerations.",
+    "NIST SP 800-12 is an introductory computer security handbook, not the publication covering SDLC security."
+   ]
   },
   {
    "q": "Sanitization of media is a key security activity in which NIST SDLC phase?",
@@ -199,7 +284,12 @@
     "Operations and maintenance"
    ],
    "e": "Disposal is the last phase of the NIST SDLC and includes archiving information and sanitizing media.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Initiation is the first NIST SDLC phase for planning, which comes long before media is sanitized at the end of the life cycle.",
+    "Implementation and Assessment is the phase where the system is tested and authorized, before the system is retired and its media sanitized.",
+    "Operations and maintenance is the phase where the system runs and is maintained, before it is retired and its media is sanitized."
+   ]
   },
   {
    "q": "Which executive is usually responsible for assessment, management and implementation of information security and reports to the CIO?",
@@ -210,7 +300,12 @@
     "COO"
    ],
    "e": "The CISO is primarily responsible for assessing, managing and implementing information security and usually reports to the CIO.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The CEO is the chief executive, a top role that does not usually handle day-to-day security management reporting to the CIO.",
+    "The CFO is the chief financial officer, responsible for finance rather than information security management.",
+    "The COO is the chief operating officer, responsible for operations rather than the security role that reports to the CIO."
+   ]
   },
   {
    "q": "Senior management responsible for the security and use of a particular set of information are the:",
@@ -221,7 +316,12 @@
     "Data analysts"
    ],
    "e": "Data owners are the senior managers responsible for the security and use of a set of information.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Data custodians handle the systems that store and process data, not the senior responsibility for its security and use.",
+    "Data users are the people who work with information in their jobs, without the senior responsibility for its security.",
+    "Not the answer here: data analysts examine data for insight, not senior management responsibility for the security and use of information."
+   ]
   },
   {
    "q": "Those responsible for the information and systems that process, transmit and store it are the:",
@@ -232,7 +332,12 @@
     "Data brokers"
    ],
    "e": "Data custodians are responsible for the information and the systems that process, transmit and store it.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Data owners are the senior managers accountable for the security and use of information, not the systems that handle it.",
+    "Data users are the people who work with the information, not those responsible for the systems that process it.",
+    "Not the answer here: data brokers trade or sell data commercially, which is not the custodial role the question describes."
+   ]
   },
   {
    "q": "Security that \"begins and ends with the people who interact with the system\" is viewed as:",
@@ -243,7 +348,12 @@
     "A legal requirement"
    ],
    "e": "Security begins and ends with the people who interact with the system, which makes it a social science.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Art refers to creative skill, but the notes classify security centered on people as a social science rather than an art.",
+    "A pure science rests on exact laws and measurement, while security that begins and ends with people is a social science.",
+    "A legal requirement is a compliance obligation, not the discipline the question describes, which is classified as social science."
+   ]
   },
   {
    "q": "How many categories of threats to information security are listed in Table 2-5 of the slides?",
@@ -254,7 +364,12 @@
     "14"
    ],
    "e": "Table 2-5 lists 12 threat categories (IP, quality of service, espionage, forces of nature, human error, extortion, sabotage, software attacks, hardware failures, software failures, obsolescence, theft), so 8, 10 and 14 are not the count.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Does not match the twelve threat categories counted in Table 2-5 of the slides.",
+    "Does not match the twelve threat categories counted in Table 2-5 of the slides.",
+    "Does not match the twelve threat categories counted in Table 2-5 of the slides."
+   ]
   },
   {
    "q": "Which threat category includes piracy and copyright infringement?",
@@ -265,7 +380,12 @@
     "Sabotage or vandalism"
    ],
    "e": "Piracy and copyright infringement fall under compromises to intellectual property.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Espionage or trespass covers unauthorized access to or spying on information, not copyright and piracy violations.",
+    "Theft is the taking of assets, which is not the category the notes use for piracy and copyright infringement.",
+    "Sabotage or vandalism is deliberate destruction or defacement, not copyright infringement."
+   ]
   },
   {
    "q": "Which two watchdog organizations investigate software abuse?",
@@ -276,7 +396,12 @@
     "SANS and CERT"
    ],
    "e": "SIIA (Software & Information Industry Association) and BSA (Business Software Alliance) are the software-industry watchdogs that investigate software abuse. ISACA and ISSA are professional security organizations, the closest confusion, but they are not the software-piracy watchdogs.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "ISACA and ISSA are professional security and audit associations, not the software-industry watchdogs for software abuse.",
+    "ACM and IEEE are computing professional societies, not organizations that investigate software piracy.",
+    "SANS and CERT are security training and incident-response organizations, not the software-industry watchdogs."
+   ]
   },
   {
    "q": "Power excess, shortage and loss are examples of:",
@@ -287,7 +412,12 @@
     "Technological obsolescence"
    ],
    "e": "Power excesses, shortages and losses are power irregularities, which count as deviations in quality of service.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Forces of nature are natural events such as floods or fires, not the power irregularities the question describes.",
+    "Information extortion is an attacker demanding payment for stolen information, not power excess, shortage or loss.",
+    "Technological obsolescence is a threat from antiquated technology, a separate category from power irregularities."
+   ]
   },
   {
    "q": "Competitive intelligence is legal, whereas the illegal counterpart is:",
@@ -298,7 +428,12 @@
     "Pharming"
    ],
    "e": "Competitive intelligence is legal; industrial espionage is its illegal counterpart.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Shoulder surfing is observing someone's screen or input, a social tactic rather than the illegal counterpart of competitive intelligence.",
+    "Phreaking is hacking telephone systems, not the corporate information gathering the question describes.",
+    "Pharming redirects users to fake sites through DNS or host file tampering, not the illegal counterpart of competitive intelligence."
+   ]
   },
   {
    "q": "An individual who hacks the public telephone system to make free calls is a:",
@@ -309,7 +444,12 @@
     "Script kiddie"
    ],
    "e": "A phreaker hacks the public telephone system. The closest confusion is the cracker, who removes software copy protection.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "A cracker breaks software or system security, which is not the same as hacking the public telephone system.",
+    "A hacktivist attacks targets for political or social causes, not to make free phone calls.",
+    "A script kiddie uses existing tools without deep skill, which does not define someone who hacks telephone systems."
+   ]
   },
   {
    "q": "A person who removes software protection designed to prevent unauthorized duplication is a:",
@@ -320,7 +460,12 @@
     "Insider"
    ],
    "e": "A cracker removes software protection designed to prevent unauthorized duplication. The closest confusion is the phreaker, who targets the phone system.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "A phreaker hacks the public telephone system, not software copy protection.",
+    "A white hat is an ethical security tester, not someone who removes software copy protection.",
+    "An insider is a person within an organization who misuses access, which is not defined by removing software protection."
+   ]
   },
   {
    "q": "Which of the following is NOT a password attack in the slides?",
@@ -331,7 +476,12 @@
     "Rainbow tables"
    ],
    "e": "Pharming redirects users to a fake site through the browser address bar, so it is not a password attack, while brute force, dictionary and rainbow tables are. Pharming is the one NOT listed among the password attacks in the notes.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Brute force tries every possible password, so it is a password attack and not the item that does not belong.",
+    "Dictionary attacks try words from a list as passwords, so they are a password attack and are included.",
+    "Rainbow tables are precomputed hash tables used to crack passwords, so they are a password attack and not the exception."
+   ]
   },
   {
    "q": "The quote \"People are the weakest link\" is attributed to:",
@@ -342,7 +492,12 @@
     "Vint Cerf"
    ],
    "e": "The notes attribute the quote that people are the weakest link to Kevin Mitnick. Bruce Schneier is the closest name confusion, a security figure who is not the attribution in the notes.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Bruce Schneier is a security cryptographer and author, not the source of this quote in the notes.",
+    "Kevin Poulsen is a hacker known for telephone system exploits, not the attribution of this quote.",
+    "Vint Cerf is a co-designer of the TCP/IP protocols, not the person quoted here."
+   ]
   },
   {
    "q": "The Nigerian 4-1-9 letter is an example of:",
@@ -353,7 +508,12 @@
     "Spoofing"
    ],
    "e": "The Nigerian 4-1-9 letter is advance-fee fraud, a form of social engineering.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Phishing uses fraudulent messages or sites to steal credentials, not to collect upfront fees.",
+    "Pharming redirects users to fake sites through the address bar or name lookup, not an upfront fee scheme.",
+    "Spoofing impersonates a trusted identity or address, not a scheme asking victims to pay fees in advance."
+   ]
   },
   {
    "q": "An attacker steals information and demands compensation for its return or nondisclosure. This is:",
@@ -364,7 +524,12 @@
     "Vandalism"
    ],
    "e": "Information extortion is stealing information and demanding payment for its return or nondisclosure.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Sabotage is deliberate disruption or destruction of systems, not demanding payment for stolen information.",
+    "Espionage is secret gathering of information, without the demand for compensation the question describes.",
+    "Vandalism is deliberate damage to property, not extortion for stolen information."
+   ]
   },
   {
    "q": "Website defacing is an example of:",
@@ -375,7 +540,12 @@
     "Forces of nature"
    ],
    "e": "Defacing a website is sabotage or vandalism.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Theft is the unlawful taking of assets, not the defacing or damaging of a website.",
+    "Human error is an accidental mistake, not intentional defacement of a website.",
+    "Forces of nature are natural events, not an attacker's deliberate act of defacing a site."
+   ]
   },
   {
    "q": "Code segments that attach to an existing program and take control of access to the target computer are:",
@@ -386,7 +556,12 @@
     "Back doors"
    ],
    "e": "A virus attaches to an existing program and takes control of access to the target computer.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Worms are self-replicating programs that spread on their own rather than attaching to an existing program.",
+    "Trojan horses are malware disguised as legitimate software, not code that attaches to existing programs.",
+    "Back doors are hidden access paths into a system, not code segments that attach to a program."
+   ]
   },
   {
    "q": "Malware that replicates itself until it fills available memory and disk space is a:",
@@ -397,7 +572,12 @@
     "Hoax"
    ],
    "e": "A worm replicates itself until it fills available memory and disk space.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A virus attaches to a host program and needs it to spread, so it does not replicate itself independently.",
+    "A Trojan horse is malware disguised as legitimate software and does not replicate itself.",
+    "A hoax is a false warning message rather than malware code that replicates itself."
+   ]
   },
   {
    "q": "Malware disguised as helpful or necessary software is a:",
@@ -408,7 +588,12 @@
     "Back door"
    ],
    "e": "A Trojan horse is malware disguised as helpful or necessary software.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A worm spreads independently by replicating itself, rather than being disguised as helpful software.",
+    "A virus attaches to an existing program, rather than being disguised as helpful or necessary software.",
+    "A back door is a hidden access route into a system, not malware disguised as helpful software."
+   ]
   },
   {
    "q": "Malware that actually evolves to elude detection is called:",
@@ -419,7 +604,12 @@
     "Packet sniffer"
    ],
    "e": "A polymorphic threat changes over time to evade detection.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A virus hoax is a false warning about a virus, not malware that changes itself to evade detection.",
+    "A back door is a hidden access route, not code that evolves to elude detection.",
+    "A packet sniffer is a tool that captures network traffic, not malware that evolves to evade detection."
+   ]
   },
   {
    "q": "Gaining access using a known or newly discovered access mechanism describes a:",
@@ -430,7 +620,12 @@
     "Mail bomb"
    ],
    "e": "A back door is access through a known or newly discovered mechanism that bypasses normal controls.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "DDoS is a coordinated flood of traffic that denies service, not access gained through a known mechanism.",
+    "Spoofing is impersonating a trusted address or identity, not gaining access through a known mechanism.",
+    "A mail bomb floods an inbox with messages, not access gained through a known or discovered mechanism."
+   ]
   },
   {
    "q": "A coordinated stream of requests launched from many locations simultaneously is a:",
@@ -441,7 +636,12 @@
     "Spoofing"
    ],
    "e": "A DDoS is a coordinated denial-of-service attack launched from many locations at once.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A DoS attack comes from a single source, while the question describes requests launched from many locations at once.",
+    "A mail bomb floods a target with e-mail, not a coordinated stream from many locations.",
+    "Spoofing impersonates a trusted address, not a coordinated stream of requests from many locations."
+   ]
   },
   {
    "q": "Routing large quantities of e-mail to a target to overwhelm the receiver is a:",
@@ -452,7 +652,12 @@
     "Pharming"
    ],
    "e": "A mail bomb routes a huge volume of e-mail to a target to overwhelm it, which is a form of DoS.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Phishing uses deceptive messages to steal credentials, not to overwhelm a receiver with volume.",
+    "Spam is unsolicited bulk e-mail, not a deliberate targeted overload of one receiver.",
+    "Pharming redirects users to fake sites, not a flood of e-mail to overwhelm a target."
+   ]
   },
   {
    "q": "A technique in which the intruder assumes a trusted IP address is:",
@@ -463,7 +668,12 @@
     "Phishing"
    ],
    "e": "Spoofing is when an intruder assumes a trusted IP address.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Pharming redirects users to fake sites through the browser or name lookup, not assuming a trusted IP address.",
+    "Sniffing captures traffic on a network, not assuming a trusted IP address.",
+    "Phishing is a social-engineering attack that tricks users into giving up credentials, not assuming a trusted IP address."
+   ]
   },
   {
    "q": "An attack on a browser's address bar to redirect users to an illegitimate site is:",
@@ -474,7 +684,12 @@
     "Sniffing"
    ],
    "e": "Pharming attacks the browser address bar or name lookup to send users to a fake site. Phishing is the closest confusion; it is a social-engineering attack, listed separately in the notes.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Spoofing impersonates a trusted identity or address, rather than redirecting users through the browser address bar.",
+    "Phishing is a social-engineering message that tricks users, not an attack on the browser address bar.",
+    "Sniffing captures network traffic, not redirection of users to an illegitimate site."
+   ]
   },
   {
    "q": "An attacker monitors packets, modifies them and inserts them back into the network. This is:",
@@ -485,7 +700,12 @@
     "Teardrop attack"
    ],
    "e": "In a man-in-the-middle attack the attacker monitors, modifies and re-inserts packets.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A replay attack resends captured valid messages later, rather than monitoring, modifying and reinserting packets in real time.",
+    "A Smurf attack is an amplified ICMP flood that denies service, not monitoring and modifying packets.",
+    "A teardrop attack exploits overlapping IP fragments to crash a system, not monitoring and modifying packets."
+   ]
   },
   {
    "q": "A tool that monitors data traveling over a network and can be used legitimately or for theft is a:",
@@ -496,7 +716,12 @@
     "Honeypot"
    ],
    "e": "A packet sniffer monitors data on a network and can be legitimate or used for theft.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A port scanner probes a host for open ports rather than monitoring data traveling over the network.",
+    "A vulnerability scanner looks for weaknesses in systems, not for monitoring data traveling over the network.",
+    "A honeypot is a decoy system meant to attract attackers, not a tool that monitors network data."
+   ]
   },
   {
    "q": "Which malware in the slides' table is a macro virus?",
@@ -507,7 +732,12 @@
     "Conficker"
    ],
    "e": "Melissa (1999) is the macro virus in the malware table. Code Red, Sobig F and Conficker are worms, the closest confusion, so they are not the answer.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Code Red is a worm that exploits IIS servers, not a macro virus.",
+    "Sobig F is a mass-mailing worm, not the macro virus in the slides' table.",
+    "Conficker is a worm that exploits Windows service flaws, not a macro virus."
+   ]
   },
   {
    "q": "MTBF in hardware reliability stands for:",
@@ -518,7 +748,12 @@
     "Mean time to boot failure"
    ],
    "e": "MTBF is mean time between failure, a hardware reliability measure.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Maximum time before failure is not the standard hardware reliability measure MTBF stands for.",
+    "Minimum time to backup failure is not a standard hardware reliability term, so it does not match MTBF.",
+    "Mean time to boot failure is not the standard hardware reliability term, so it does not match MTBF."
+   ]
   },
   {
    "q": "Which organization publishes a list of top web application security risks?",
@@ -529,7 +764,12 @@
     "CERT"
    ],
    "e": "OWASP publishes lists of the top web application security risks.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "BSA is a software-industry watchdog that investigates software piracy, not the publisher of web application security risk lists.",
+    "SIIA is the Software and Information Industry Association, a software-industry group, not the publisher of web security risk lists.",
+    "CERT is a security incident-response coordination center, not the publisher of the OWASP top web application risks."
+   ]
   },
   {
    "q": "Which is one of the \"deadly sins\" in software security?",
@@ -540,7 +780,12 @@
     "Change control"
    ],
    "e": "SQL injection is one of the deadly sins of software security. Neglecting change control is also a sin in the notes, so it is the closest confusion with the practices in the options.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Strong passwords are a recommended security practice, not one of the deadly sins of software security.",
+    "Code review is a recommended security practice, not a deadly sin of software security.",
+    "Change control is a management process, and the notes list neglecting it as a sin, so it is a close call, though SQL injection is the answer given."
+   ]
   },
   {
    "q": "Antiquated or outdated technologies leading to unreliable systems are a threat called:",
@@ -551,7 +796,12 @@
     "Sabotage"
    ],
    "e": "Technological obsolescence is a threat from antiquated technology; good managerial planning should prevent it.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Technical hardware failure is a sudden equipment breakdown, not a threat from antiquated or outdated technology.",
+    "Theft is the unlawful taking of assets, not a threat from outdated technology.",
+    "Sabotage is deliberate damage or disruption, not a threat from antiquated technology."
+   ]
   },
   {
    "q": "Which statement about policy versus law is correct?",
@@ -562,7 +812,12 @@
     "Laws can be ignored if unknown"
    ],
    "e": "Per the notes, ignorance of a policy is an acceptable defense, unlike ignorance of the law. The reversed statement that it is never acceptable is the closest trap.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Ignorance of a policy is not always unacceptable; the notes say it is an acceptable defense, unlike ignorance of the law.",
+    "Policies are organizational rules and do not carry the authority of the state, which belongs to laws.",
+    "Laws cannot be ignored on the ground that they are unknown, so this statement is false."
+   ]
   },
   {
    "q": "Fixed moral attitudes or customs of a particular group are called:",
@@ -573,7 +828,12 @@
     "Codes"
    ],
    "e": "Cultural mores are the fixed moral attitudes or customs of a particular group.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Laws are rules enforced by government, not informal moral attitudes or customs of a group.",
+    "Policies are organizational rules, not the fixed moral attitudes or customs of a particular group.",
+    "Codes are formal conduct or ethics guidelines, not the fixed moral attitudes or customs of a group."
+   ]
   },
   {
    "q": "The legal standard requiring a prudent organization to act legally and ethically and know the consequences of its actions is:",
@@ -584,7 +844,12 @@
     "Jurisdiction"
    ],
    "e": "Due care means acting legally and ethically and knowing the consequences of one's actions. Due diligence is the closest confusion, since it adds maintaining that standard and making sure actions are effective.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Due diligence adds maintaining due care and making sure actions are effective, so it does not match the standard described.",
+    "Liability is legal responsibility for harm caused, not the standard of acting legally and ethically.",
+    "Jurisdiction is a court's authority to hear a case, not a standard of organizational conduct."
+   ]
   },
   {
    "q": "The legal standard requiring an organization to maintain due care and ensure its actions are effective is:",
@@ -595,7 +860,12 @@
     "Long-arm jurisdiction"
    ],
    "e": "Due diligence means maintaining due care and making sure actions are effective. Due care is the closest confusion, since it only requires acting legally and ethically and knowing the consequences.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Due care only requires acting legally and ethically and knowing the consequences, without the requirement to ensure actions are effective.",
+    "Restitution is compensation to an injured party, not a standard of conduct for an organization.",
+    "Long-arm jurisdiction is the extension of a court's laws to outsiders, not a standard of conduct."
+   ]
   },
   {
    "q": "Compensating an injured party for wrongs committed is called:",
@@ -606,7 +876,12 @@
     "Deterrence"
    ],
    "e": "Restitution is compensating an injured party for wrongs committed.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Jurisdiction is a court's authority over a case, not compensation to an injured party.",
+    "Mitigation is reducing the severity of risk or harm, not compensating an injured party.",
+    "Deterrence discourages illegal behavior through fear of penalties, not compensating an injured party."
+   ]
   },
   {
    "q": "Application of laws to those residing outside a court's normal jurisdiction is:",
@@ -617,7 +892,12 @@
     "Liability"
    ],
    "e": "Long-arm jurisdiction applies a court's laws to those outside its normal reach.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Due care is a standard of acting legally and ethically, not the extension of a court's reach to outsiders.",
+    "Restitution is compensation for wrongs committed, not the application of laws to those outside a court's reach.",
+    "Liability is legal responsibility for harm, not the application of a court's laws to outsiders."
+   ]
   },
   {
    "q": "Which is NOT one of the five criteria for policy enforcement?",
@@ -628,7 +908,12 @@
     "Uniform enforcement"
    ],
    "e": "The five criteria are dissemination, review, comprehension, compliance and uniform enforcement, so retaliation is the one NOT on the list. Dissemination and uniform enforcement are on the list and are the closest distractors.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Dissemination is one of the five policy enforcement criteria, so it is on the list and is not the exception.",
+    "Comprehension is one of the five policy enforcement criteria, so it is on the list and is not the exception.",
+    "Uniform enforcement is one of the five policy enforcement criteria, so it is on the list and is not the exception."
+   ]
   },
   {
    "q": "Which U.S. law is the cornerstone of many computer-related federal laws?",
@@ -639,7 +924,12 @@
     "Gramm-Leach-Bliley Act of 1999"
    ],
    "e": "The Computer Fraud and Abuse Act of 1986 is the cornerstone of computer-crime law. The closest confusion is the 1996 NII Protection Act, which modified it, not the cornerstone itself.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "The Sarbanes-Oxley Act of 2002 governs financial reporting by public companies, not computer crime.",
+    "HIPAA of 1996 governs health information privacy, not the cornerstone of computer-related federal law.",
+    "The Gramm-Leach-Bliley Act of 1999 governs financial privacy and services, not the cornerstone of computer crime law."
+   ]
   },
   {
    "q": "Which U.S. law is also known as the Kennedy-Kassebaum Act?",
@@ -650,7 +940,12 @@
     "Computer Security Act"
    ],
    "e": "HIPAA (1996) is also known as the Kennedy-Kassebaum Act.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The Gramm-Leach-Bliley Act is the Financial Services Modernization Act, covering financial institutions rather than health information.",
+    "The Freedom of Information Act gives public access to federal agency records, not health information privacy.",
+    "The Computer Security Act of 1987 set federal computer security standards and is not the Kennedy-Kassebaum Act."
+   ]
   },
   {
    "q": "Which law is the Financial Services Modernization Act?",
@@ -661,7 +956,12 @@
     "Federal Privacy Act"
    ],
    "e": "The Gramm-Leach-Bliley Act (1999) is the Financial Services Modernization Act.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "HIPAA is the Kennedy-Kassebaum Act on health information privacy, not the financial services modernization law.",
+    "The Sarbanes-Oxley Act governs reliable financial reporting by public companies, not financial services modernization.",
+    "The Federal Privacy Act governs personal records held by federal agencies, not financial services modernization."
+   ]
   },
   {
    "q": "Which law improves the reliability and accuracy of financial reporting of public companies?",
@@ -672,7 +972,12 @@
     "Economic Espionage Act"
    ],
    "e": "The Sarbanes-Oxley Act of 2002 aims at reliable financial reporting by public companies.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "HIPAA governs health information privacy, not the reliability of public company financial reporting.",
+    "The Computer Security Act of 1987 set security standards for federal computer systems, not financial reporting reliability.",
+    "The Economic Espionage Act criminalizes economic espionage and trade secret theft, not financial reporting reliability."
+   ]
   },
   {
    "q": "The Freedom of Information Act (FOIA) was passed in:",
@@ -683,7 +988,12 @@
     "2002"
    ],
    "e": "The Freedom of Information Act was passed in 1966. The closest confusion is 1986, the year of the CFA Act and the Electronic Communications Privacy Act in the notes.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "1986 is the year of the US Computer Fraud and Abuse Act, not the year FOIA was passed.",
+    "1996 is not the year FOIA was originally passed, so it does not match the question.",
+    "2002 is the year of the Sarbanes-Oxley Act, not the year FOIA was passed."
+   ]
   },
   {
    "q": "FOIA does NOT apply to:",
@@ -694,7 +1004,12 @@
     "Requests made in writing"
    ],
    "e": "FOIA covers access to federal agency records only, not state, local or private entities, so those are what it does NOT apply to. Federal agencies is the closest distractor because FOIA does apply to them.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Federal agencies are exactly where FOIA applies, so they are not the exception the question asks for.",
+    "Federal records are the materials FOIA gives access to, so FOIA does apply to them.",
+    "Requests made in writing are the normal way to make a FOIA request, so this does not describe an exception."
+   ]
   },
   {
    "q": "Which U.S. agency oversees identity theft efforts and recommends placing a fraud alert?",
@@ -705,7 +1020,12 @@
     "NSA"
    ],
    "e": "The FTC coordinates identity-theft efforts, starting with an initial fraud alert.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The FBI investigates federal crimes, but it does not coordinate identity-theft efforts and recommend fraud alerts.",
+    "The Secret Service protects officials and investigates financial crimes, not identity-theft recovery coordination.",
+    "The NSA handles foreign signals intelligence and information assurance, not consumer identity-theft efforts."
+   ]
   },
   {
    "q": "Which law prohibits circumventing copyright protection and was a response to EU Directive 95/46/EC?",
@@ -716,7 +1036,12 @@
     "CFA Act"
    ],
    "e": "The DMCA prohibits circumventing copyright protections, and the slides give EU Directive 95/46/EC as its response, a point the notes flag to verify. The closest confusion is TRIPS, an international IP agreement.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "TRIPS is an international intellectual property agreement, not a US law prohibiting circumvention of copyright protection.",
+    "The PATRIOT Act is an anti-terrorism law expanding surveillance powers, not a copyright circumvention law.",
+    "The Computer Fraud and Abuse Act is a computer crime law, not the copyright circumvention prohibition."
+   ]
   },
   {
    "q": "The UK's Computer Misuse Act was enacted in:",
@@ -727,7 +1052,12 @@
     "2006"
    ],
    "e": "The UK Computer Misuse Act was enacted in 1990. The closest confusion is 1986, the year of the US CFA Act.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "1986 is the year of the US Computer Fraud and Abuse Act, not the UK Computer Misuse Act.",
+    "2003 is not the year the UK Computer Misuse Act was enacted, which was 1990.",
+    "2006 is not the year the UK Computer Misuse Act was enacted, which was 1990."
+   ]
   },
   {
    "q": "How many \"computer misuse offenses\" did the UK Computer Misuse Act 1990 define?",
@@ -738,7 +1068,12 @@
     "5"
    ],
    "e": "The UK Computer Misuse Act 1990 defines three offenses: unauthorized access, unauthorized access with intent to commit further offenses, and unauthorized acts that impair operation. The closest numeric confusion is the count of 2 or 4.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Does not match the three offenses defined by the UK Computer Misuse Act 1990.",
+    "Does not match the three offenses defined by the UK Computer Misuse Act 1990.",
+    "Does not match the three offenses defined by the UK Computer Misuse Act 1990."
+   ]
   },
   {
    "q": "Which international convention lacks realistic provisions for enforcement?",
@@ -749,7 +1084,12 @@
     "Hague Convention"
    ],
    "e": "The Council of Europe Convention on Cybercrime lacks realistic enforcement provisions.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "WTO TRIPS is a trade-based intellectual property agreement, not a cybercrime convention.",
+    "The Geneva Conventions set humanitarian law for armed conflict, not cybercrime enforcement.",
+    "The Hague Conventions cover armed conflict and international legal matters, not cybercrime, so they do not fit."
+   ]
   },
   {
    "q": "Which agreement was the first significant international effort to protect intellectual property rights?",
@@ -760,7 +1100,12 @@
     "Wassenaar Arrangement"
    ],
    "e": "The slides call the WTO TRIPS agreement the first significant international effort to protect IP, a point the notes flag to verify. The Council of Europe Convention on Cybercrime is the closest international distractor, and it lacks enforcement provisions.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "The DMCA is a US law, not the first significant international effort to protect intellectual property rights.",
+    "The Convention on Cybercrime is a Council of Europe treaty on cybercrime, not an intellectual property agreement.",
+    "The Wassenaar Arrangement controls exports of dual-use technologies, not intellectual property rights."
+   ]
   },
   {
    "q": "The Ten Commandments of Computer Ethics were produced by the:",
@@ -771,7 +1116,12 @@
     "SANS Institute"
    ],
    "e": "The Ten Commandments of Computer Ethics come from the Computer Ethics Institute.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "ACM is a computing society with its own code of ethics, not the producer of the Ten Commandments of Computer Ethics.",
+    "ISC2 is a certifying body for security professionals, not the producer of the Ten Commandments of Computer Ethics.",
+    "The SANS Institute is a security training organization, not the producer of the Ten Commandments of Computer Ethics."
+   ]
   },
   {
    "q": "The deterrence of illegal behavior requires all EXCEPT:",
@@ -782,7 +1132,12 @@
     "Probability of penalty being applied"
    ],
    "e": "Deterrence needs fear of penalty, probability of being apprehended and probability that the penalty is applied. Low cost of enforcement is not one of these, so it is the EXCEPT answer.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Fear of penalty is an element of deterrence, so it is not the exception the question asks for.",
+    "Probability of being caught is an element of deterrence, so it is included and is not the exception.",
+    "Probability of the penalty being applied is an element of deterrence, so it is included and is not the exception."
+   ]
   },
   {
    "q": "Which is NOT one of the three general causes of unethical and illegal behavior?",
@@ -793,7 +1148,12 @@
     "Intent"
    ],
    "e": "The three causes are ignorance, accident and intent; poverty is not one.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Ignorance is one of the three general causes of unethical and illegal behavior, so it is not the exception.",
+    "Accident is one of the three general causes of unethical and illegal behavior, so it is not the exception.",
+    "Intent is one of the three general causes of unethical and illegal behavior, so it is not the exception."
+   ]
   },
   {
    "q": "The ACM was established in:",
@@ -804,7 +1164,12 @@
     "1993"
    ],
    "e": "The ACM, the first educational and scientific computing society, was established in 1947. The closest confusion is 1993, which the notes give as the DEFCON year, not the ACM's.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Not the answer here: 1969 does not match the founding year of the ACM, which the notes place in 1947.",
+    "Not the answer here: 1985 does not match the founding year of the ACM, which the notes place in 1947.",
+    "1993 is the year the notes give for DEF CON, not the founding year of the ACM."
+   ]
   },
   {
    "q": "Which organization offers the GIAC certifications?",
@@ -815,7 +1180,12 @@
     "ACM"
    ],
    "e": "SANS offers the GIAC certifications.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "ISACA offers the CISA and CISM certifications, not the GIAC certifications.",
+    "ISSA is a professional association for security practitioners, not the provider of GIAC certifications.",
+    "ACM is a computing society, not the provider of GIAC certifications."
+   ]
   },
   {
    "q": "Which organization offers CISSP and SSCP certifications?",
@@ -826,7 +1196,12 @@
     "ACM"
    ],
    "e": "(ISC)² offers the CISSP and SSCP certifications.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "ISACA offers the CISA and CISM certifications, not the CISSP and SSCP certifications.",
+    "SANS offers the GIAC certifications, not the CISSP and SSCP certifications.",
+    "ACM is a computing society, not the certifying body for CISSP and SSCP."
+   ]
   },
   {
    "q": "The FBI program that maintains an intrusion alert network and secure website is:",
@@ -837,7 +1212,12 @@
     "NIACAP"
    ],
    "e": "The FBI's InfraGard program maintains an intrusion alert network and a secure website.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "US-CERT is a DHS team for reporting incidents, not an FBI program maintaining an intrusion alert network.",
+    "TEMPEST covers standards for limiting electromagnetic emanations, not an intrusion alert network and secure website.",
+    "NIACAP is a DoD certification and accreditation process, not an FBI intrusion alert program."
+   ]
   },
   {
    "q": "Which U.S. agency's Information Assurance Directorate protects systems of high national value?",
@@ -848,7 +1228,12 @@
     "DHS"
    ],
    "e": "The NSA's Information Assurance Directorate protects systems of high national value.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The FBI is federal law enforcement, not the agency whose Information Assurance Directorate protects systems of high national value.",
+    "The Secret Service protects officials and investigates financial crimes, not national-value systems protection.",
+    "DHS is the Department of Homeland Security, which runs US-CERT, not the Information Assurance Directorate."
+   ]
   },
   {
    "q": "Which U.S. agency's team (US-CERT) provides mechanisms for reporting phishing and malware?",
@@ -859,7 +1244,12 @@
     "FTC"
    ],
    "e": "DHS's US-CERT provides mechanisms to report phishing and malware.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The FBI investigates crimes, but it does not run the US-CERT reporting team.",
+    "The NSA runs the Information Assurance Directorate, not the US-CERT reporting team.",
+    "The FTC is a consumer protection agency, not the team that runs US-CERT."
+   ]
   },
   {
    "q": "How many outcomes does information security governance have?",
@@ -870,7 +1260,12 @@
     "7"
    ],
    "e": "Governance has five outcomes: strategic alignment, risk management, resource management, performance measurement and value delivery. The closest numeric distractors are 3, 4 and 7.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Does not match the five governance outcomes: strategic alignment, risk management, resource management, performance measurement and value delivery.",
+    "Does not match the five governance outcomes listed in the notes.",
+    "Does not match the five governance outcomes listed in the notes."
+   ]
   },
   {
    "q": "Which is NOT a governance outcome?",
@@ -881,7 +1276,12 @@
     "Value delivery"
    ],
    "e": "Of the five governance outcomes (strategic alignment, risk management, resource management, performance measurement, value delivery), cost cutting is not one. Risk management and value delivery are on the list and are the closest distractors.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Strategic alignment is one of the five governance outcomes, so it is not the item that does not belong.",
+    "Risk management is one of the five governance outcomes, so it is not the item that does not belong.",
+    "Value delivery is one of the five governance outcomes, so it is not the item that does not belong."
+   ]
   },
   {
    "q": "Which are the least expensive controls to execute but the most difficult to implement properly?",
@@ -892,7 +1292,12 @@
     "Encryption tools"
    ],
    "e": "Policies are the least expensive controls to execute but the most difficult to implement properly.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Firewalls are technical controls that are more costly to run than policies, so they are not the least expensive controls.",
+    "Biometrics are technical controls that cost more to execute than policies, so they are not the least expensive controls.",
+    "Encryption tools are technical controls with execution costs above those of policies, so they do not match the question."
+   ]
   },
   {
    "q": "Which policy sets the strategic direction, scope and tone for all security efforts and is drafted by or with the CIO?",
@@ -903,7 +1308,12 @@
     "SETA"
    ],
    "e": "The EISP sets strategic direction, scope and tone, and is drafted by or with the CIO.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The ISSP covers specific areas of technology, not the overall strategic direction, scope and tone of security efforts.",
+    "The SysSP holds standards and procedures for configuring systems, not the strategic direction of all security efforts.",
+    "The SETA program is a security education, training and awareness program, not the strategic policy for security efforts."
+   ]
   },
   {
    "q": "Which policy addresses specific areas of technology and requires frequent updates?",
@@ -914,7 +1324,12 @@
     "BIA"
    ],
    "e": "The ISSP covers specific technology areas and needs frequent updates.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The EISP sets the overall strategic direction and does not change frequently for specific technologies.",
+    "The SysSP covers standards and procedures for configuring systems, not specific technology areas that need frequent updates.",
+    "BIA is business impact analysis, a risk process rather than a policy type covering specific technology areas."
+   ]
   },
   {
    "q": "Which policy often functions as standards or procedures used to configure or maintain systems?",
@@ -925,7 +1340,12 @@
     "SETA program"
    ],
    "e": "The SysSP holds standards and procedures for configuring or maintaining systems.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The EISP is the enterprise-wide strategic policy, not the standards used to configure or maintain systems.",
+    "The ISSP addresses specific technology areas in policy form, not configuration standards and procedures for systems.",
+    "The SETA program is an education, training and awareness effort, not the procedures used to configure or maintain systems."
+   ]
   },
   {
    "q": "Which is NOT one of the three common approaches to creating ISSPs?",
@@ -936,7 +1356,12 @@
     "Modular document"
    ],
    "e": "The three approaches to creating ISSPs are independent documents, a single comprehensive document and a modular document. Hierarchical document is the closest-sounding distractor and is not on the notes' list.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Independent documents is one of the three common approaches to creating ISSPs, so it is on the list and is not the exception.",
+    "A single comprehensive document is one of the three common approaches to creating ISSPs, so it is on the list and is not the exception.",
+    "A modular document is one of the three common approaches to creating ISSPs, so it is on the list and is not the exception."
+   ]
   },
   {
    "q": "ISO/IEC 27001 deals with:",
@@ -947,7 +1372,12 @@
     "Digital evidence"
    ],
    "e": "ISO/IEC 27001 specifies requirements for an information security management system (ISMS). ISO/IEC 27005, which covers risk management, is the closest confusion.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Risk management is the subject of ISO/IEC 27005, not ISO/IEC 27001, which specifies the ISMS requirements.",
+    "Cloud services are covered by ISO/IEC 27017 for cloud security controls, not by the ISMS standard in ISO/IEC 27001.",
+    "Digital evidence is covered by ISO/IEC 27037, not by the ISMS requirements in ISO/IEC 27001."
+   ]
   },
   {
    "q": "ISO/IEC 27005 deals with:",
@@ -958,7 +1388,12 @@
     "Incident management"
    ],
    "e": "ISO/IEC 27005 covers information security risk management. ISO/IEC 27001, the ISMS requirements standard, is the closest confusion among the 27000-series numbers.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Governance of information security is covered by a different standard, ISO/IEC 27014, not by ISO/IEC 27005.",
+    "Network security is covered by ISO/IEC 27033, not by the risk management standard ISO/IEC 27005.",
+    "Incident management is covered by ISO/IEC 27035, not by the risk management standard ISO/IEC 27005."
+   ]
   },
   {
    "q": "ISO/IEC 27035 deals with:",
@@ -969,7 +1404,12 @@
     "Health informatics"
    ],
    "e": "ISO/IEC 27035 covers information security incident management. ISO/IEC 27037, which covers digital evidence, is the closest confusion because it is the adjacent number in the series.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Cybersecurity guidelines are covered by ISO/IEC 27032, not by the incident management standard ISO/IEC 27035.",
+    "Digital evidence collection is covered by ISO/IEC 27037, the adjacent standard, not by ISO/IEC 27035.",
+    "Health informatics is a separate ISO series, ISO 27799, and does not cover incident management."
+   ]
   },
   {
    "q": "ISO/IEC 27037 covers:",
@@ -980,7 +1420,12 @@
     "Telecommunications"
    ],
    "e": "ISO/IEC 27037 covers identification, collection and preservation of digital evidence. ISO/IEC 27035, which covers incident management, is the closest confusion because it is the adjacent number in the series.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Cloud security is covered by ISO/IEC 27017 and 27018, not by the digital evidence standard ISO/IEC 27037.",
+    "Governance is covered by ISO/IEC 27014, not by the digital evidence standard ISO/IEC 27037.",
+    "Telecommunications security is covered by ISO/IEC 27011, not by the digital evidence standard ISO/IEC 27037."
+   ]
   },
   {
    "q": "Which NIST special publication sets out 33 principles for securing systems?",
@@ -991,7 +1436,12 @@
     "SP 800-64"
    ],
    "e": "NIST SP 800-14 lists 33 principles for securing systems. SP 800-12 is the closest confusion; the notes list it among the NIST models without the 33 principles.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "SP 800-12 is an introductory computer security handbook, not the publication listing 33 principles for securing systems.",
+    "SP 800-30 is the guide for conducting risk assessments, not the publication listing 33 principles.",
+    "SP 800-64 covers security considerations in the system development life cycle, not the 33 principles."
+   ]
   },
   {
    "q": "The NIST Cybersecurity Framework consists of:",
@@ -1002,7 +1452,12 @@
     "People, process, technology"
    ],
    "e": "The NIST Cybersecurity Framework has three components: framework core, tiers and profile.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Identify, protect and detect are three of the five core functions inside the framework core, not the three top-level components the question asks for.",
+    "Plan, do, check is the generic Plan-Do-Check-Act improvement cycle, not a component of the NIST Cybersecurity Framework.",
+    "People, process and technology is a general way to group security concerns, not the NIST framework components, which are core, tiers and profile."
+   ]
   },
   {
    "q": "Which level of controls addresses personnel and physical security?",
@@ -1013,7 +1468,12 @@
     "Legal controls"
    ],
    "e": "Operational controls address personnel and physical security.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Management controls are administrative controls such as policy, planning and risk management, not personnel and physical security controls.",
+    "Technical controls are logical controls built into systems, such as access control, encryption and firewalls, not personnel or physical security.",
+    "Legal controls are not one of the three control levels (management, operational and technical), so they do not fit this classification."
+   ]
   },
   {
    "q": "A security perimeter does NOT protect against:",
@@ -1024,7 +1484,12 @@
     "Spoofed packets"
    ],
    "e": "A security perimeter protects from outside attack but not from attacks by insiders.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "External hackers are exactly what a security perimeter is designed to block, so the perimeter does protect against them.",
+    "Port scans from outside are detected or filtered at the perimeter by firewalls and monitoring, so the perimeter does guard against them.",
+    "Spoofed packets are commonly dropped at the perimeter by filtering routers and firewalls, so the perimeter does protect against them."
+   ]
   },
   {
    "q": "SETA stands for:",
@@ -1035,7 +1500,12 @@
     "Secure Enterprise Technology Architecture"
    ],
    "e": "SETA is Security Education, Training and Awareness.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Systems Engineering and Technical Assessment is not what SETA stands for; SETA is Security Education, Training and Awareness.",
+    "Security Evaluation and Threat Analysis is not what SETA stands for; it names a risk activity, not the security education program.",
+    "Secure Enterprise Technology Architecture is not what SETA stands for; it describes an architecture, not the security education program."
+   ]
   },
   {
    "q": "In SETA, which element answers \"why\" and has a long-term impact?",
@@ -1046,7 +1516,12 @@
     "Compliance"
    ],
    "e": "Education answers \"why\", is theoretical, and has the longest-term impact.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Training teaches specific skills and how to perform tasks, so it answers how rather than why and has a shorter-term impact.",
+    "Awareness raises attention to security issues through media, so it is short term and does not explain why.",
+    "Compliance is not one of the three SETA elements; it is a regulatory obligation, so it is not the answer here."
+   ]
   },
   {
    "q": "In SETA, which element is delivered through videos, newsletters and posters?",
@@ -1057,7 +1532,12 @@
     "Certification"
    ],
    "e": "Awareness uses media such as videos, newsletters and posters and has short-term impact.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Training teaches specific skills through hands-on instruction, not through videos, newsletters and posters.",
+    "Education is theoretical and long term, delivered through in-depth learning rather than posters or newsletters.",
+    "Certification is a formal credential, not one of the three SETA elements, so it does not match this question."
+   ]
   },
   {
    "q": "Which plan focuses on the immediate response to an attack?",
@@ -1068,7 +1548,12 @@
     "Security policy"
    ],
    "e": "The incident response plan covers the immediate response to an attack.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Disaster recovery plan restores systems and operations at the primary site after a major disaster, not the immediate response to an attack.",
+    "Business continuity plan keeps critical business functions running and relocates operations, not the immediate response to an attack.",
+    "Security policy is a high-level statement of rules and management intent, not an operational plan for responding to an attack."
+   ]
   },
   {
    "q": "Which plan reestablishes operations at the primary site after a disaster?",
@@ -1079,7 +1564,12 @@
     "Acquisition plan"
    ],
    "e": "The disaster recovery plan restores operations at the primary site after a disaster.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Business continuity plan keeps or relocates critical business functions, but it does not focus on reestablishing operations at the primary site.",
+    "Incident response plan handles the immediate response to an attack, not the recovery of operations at the primary site after a disaster.",
+    "Acquisition plan covers procurement of resources, not disaster recovery, so it does not fit a question about restoring the primary site."
+   ]
   },
   {
    "q": "Which plan prepares the organization to reestablish or relocate critical business operations?",
@@ -1090,7 +1580,12 @@
     "Risk management plan"
    ],
    "e": "The business continuity plan reestablishes or relocates critical operations during a disaster. The disaster recovery plan is the closest confusion, since it restores systems and reestablishes operations at the primary site.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Disaster recovery plan restores systems and reestablishes operations at the primary site, the closest confusion, but it does not relocate critical operations as this question asks.",
+    "Incident response plan handles the immediate response to an attack, not the reestablishment or relocation of critical business operations.",
+    "Risk management plan identifies and manages risks in general, not the reestablishment or relocation of critical operations after a disaster."
+   ]
   },
   {
    "q": "What is the first step in the contingency planning process?",
@@ -1101,7 +1596,12 @@
     "Create contingency strategies"
    ],
    "e": "The first step of the CP process is developing the CP policy statement, and conducting the BIA comes second. Conduct the BIA is the closest distractor because it is the second step.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Conduct the BIA is the second step, after developing the CP policy statement, so it is not the first step.",
+    "Identify preventive controls comes after the business impact analysis in the CP process, so it is not the first step.",
+    "Create contingency strategies is a later step, after the BIA and controls are identified, so it is not the first step."
+   ]
   },
   {
    "q": "The investigation and assessment of adverse events assuming controls have failed is the:",
@@ -1112,7 +1612,12 @@
     "Vulnerability scan"
    ],
    "e": "The BIA investigates the impact of adverse events as if controls had failed, to prioritize recovery.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Risk assessment identifies and evaluates risks with current controls in place, not the impact of events assuming controls have failed.",
+    "Threat assessment identifies sources of threats and their likelihood, not the impact analysis of adverse events with failed controls.",
+    "Vulnerability scan is an automated check for weaknesses in systems, not an analysis of the impact of adverse events."
+   ]
   },
   {
    "q": "Which is NOT a BIA stage?",
@@ -1123,7 +1628,12 @@
     "Identify resource requirements"
    ],
    "e": "The three BIA stages are determining mission/business processes and recovery criticality, identifying recovery priorities for system resources, and identifying resource requirements. Testing the disaster plan belongs to a separate contingency step, so it is the NOT answer.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Determine mission/business processes and recovery criticality is one of the three BIA stages, so it is not the excluded stage.",
+    "Identify recovery priorities for system resources is one of the three BIA stages, so it is not the excluded stage.",
+    "Identify resource requirements is one of the three BIA stages, so it is not the excluded stage."
+   ]
   },
   {
    "q": "Which is the FIRST priority in incident reaction?",
@@ -1134,7 +1644,12 @@
     "Software upgrade"
    ],
    "e": "Containment is the first priority in incident reaction.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Prosecution is legal action that follows the incident and is not the first priority during incident reaction.",
+    "Public announcement is a communication step handled after containment, so it is not the first priority.",
+    "Software upgrade is a recovery or eradication action that comes after containment, so it is not the first priority."
+   ]
   },
   {
    "q": "Which is NOT an exclusive-use site option in business continuity?",
@@ -1145,7 +1660,12 @@
     "Cold site"
    ],
    "e": "Time-share is a shared option; exclusive-use sites are hot, warm and cold.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Hot site is an exclusive-use site fully equipped and ready to run quickly, so it is an exclusive option rather than a shared one.",
+    "Warm site is an exclusive-use facility with partial equipment, so it is an exclusive option and not the one the question excludes.",
+    "Cold site is an exclusive-use facility with power and space but no equipment, so it is an exclusive option and does not fit the NOT question."
+   ]
   },
   {
    "q": "Which is a shared-use continuity option?",
@@ -1156,7 +1676,12 @@
     "Cold site"
    ],
    "e": "Mutual agreements are a shared option; hot, warm and cold sites are exclusive.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Hot site is an exclusive-use facility dedicated to one organization, so it is not a shared-use option.",
+    "Warm site is an exclusive-use facility with partial equipment, so it is not a shared-use option.",
+    "Cold site is an empty exclusive-use facility that needs equipment installed, so it is not a shared-use option."
+   ]
   },
   {
    "q": "Electronic vaulting, remote journaling and database shadowing are options for:",
@@ -1167,7 +1692,12 @@
     "Data classification"
    ],
    "e": "Electronic vaulting, remote journaling and database shadowing are off-site data storage options.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Intrusion detection monitors systems for attacks, not off-site storage of copies of data.",
+    "Network access control decides who and what can connect to a network, not how data copies are stored off site.",
+    "Data classification labels information by sensitivity, not a method of storing backups off site."
+   ]
   },
   {
    "q": "Which is a disadvantage of involving law enforcement?",
@@ -1178,7 +1708,12 @@
     "Witness statements are obtained"
    ],
    "e": "A disadvantage of law enforcement is that the organization loses control of the chain of events. The other options (better evidence handling, warrants, witness statements) are advantages, which is the trap.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "This is an advantage of involving law enforcement, since they handle evidence with trained procedures, not a disadvantage.",
+    "Warrants being handled is an advantage of involving law enforcement, since they manage legal process, not a disadvantage.",
+    "Witness statements being obtained is an advantage of involving law enforcement, not a disadvantage."
+   ]
   },
   {
    "q": "Knowing yourself and knowing the enemy refers to understanding:",
@@ -1189,7 +1724,12 @@
     "Budget and schedule"
    ],
    "e": "\"Know yourself\" means know your assets; \"know the enemy\" means know your threats.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Policies and procedures are governance documents, not the assets and threats that the know yourself and know the enemy phrase refers to.",
+    "Hackers and insiders only narrows threats to two sources, but the principle covers all assets and all types of threats.",
+    "Budget and schedule are project management concerns, not the assets and threats the phrase refers to."
+   ]
   },
   {
    "q": "The quantity and nature of risk that an organization is willing to accept is the:",
@@ -1200,7 +1740,12 @@
     "Risk exposure"
    ],
    "e": "Risk appetite is the quantity and nature of risk the organization will accept. Residual risk is the closest confusion; it is the risk remaining after controls are applied, not the amount accepted.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Residual risk is the risk remaining after controls, not the amount of risk the organization is willing to accept.",
+    "Risk transfer shifts risk to a third party such as an insurer, not the amount of risk the organization accepts.",
+    "Risk exposure is the potential loss or harm from a risk, not the quantity and nature of risk the organization accepts."
+   ]
   },
   {
    "q": "The risk remaining after current controls have been applied is:",
@@ -1211,7 +1756,12 @@
     "Accepted risk"
    ],
    "e": "Residual risk is the risk remaining after current controls are applied, and the goal is to bring it in line with risk appetite. Risk appetite is the closest confusion, since it is the amount of risk accepted rather than what remains.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Inherent risk is the risk before any controls are applied, not the risk remaining after current controls.",
+    "Total risk is not the standard term for the risk remaining after current controls; that is residual risk.",
+    "Accepted risk is the risk management decides to live with after evaluation, not the risk remaining after controls are applied."
+   ]
   },
   {
    "q": "Which three-level data classification scheme is used in the slides?",
@@ -1222,7 +1772,12 @@
     "Open, closed, hybrid"
    ],
    "e": "The slides classify data as confidential, internal or public.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Red, yellow and green is a traffic-light style scheme, not the three-level data classification used in the slides.",
+    "Low, medium and high is an impact rating scale, not the confidential, internal and public classification in the slides.",
+    "Open, closed and hybrid describe access or system models, not the three-level data classification in the slides."
+   ]
   },
   {
    "q": "A policy that requires removing sensitive documents from desks is a:",
@@ -1233,7 +1788,12 @@
     "Retention policy"
    ],
    "e": "A clean desk policy requires sensitive documents to be put away when not in use.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Open door policy is a management practice of making managers accessible to employees, not a rule about where sensitive documents are kept.",
+    "Zero trust policy assumes no implicit trust and verifies each access request, not how sensitive documents are handled on desks.",
+    "Retention policy sets how long records are kept, not whether sensitive documents are left out on desks."
+   ]
   },
   {
    "q": "Searching through trash for sensitive information is:",
@@ -1244,7 +1804,12 @@
     "Baiting"
    ],
    "e": "Dumpster diving is searching trash for sensitive information.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Shoulder surfing is watching someone enter or read sensitive information over their shoulder, not searching through trash.",
+    "Tailgating is following an authorized person through a secured door without credentials, not searching through trash.",
+    "Baiting is leaving a lure, such as an infected device, to trick someone, not searching through trash."
+   ]
   },
   {
    "q": "Ranking assets using criteria weights that total 100 is:",
@@ -1255,7 +1820,12 @@
     "Benchmarking"
    ],
    "e": "Weighted factor analysis scores assets against criteria whose weights total 100.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Cost-benefit analysis compares the cost of a safeguard with the loss it prevents, not a weighted score of assets against criteria.",
+    "Baselining compares current security settings against a standard over time, not a weighted ranking of assets.",
+    "Benchmarking compares practices with other organizations or standards, not a weighted ranking of assets."
+   ]
   },
   {
    "q": "A TVA worksheet combines:",
@@ -1266,7 +1836,12 @@
     "Training, verification and audit"
    ],
    "e": "A TVA worksheet pairs threats, vulnerabilities and assets.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Technology, value and access does not match the TVA worksheet, which pairs threats, vulnerabilities and assets.",
+    "Time, volume and availability does not match the TVA worksheet, which pairs threats, vulnerabilities and assets.",
+    "Training, verification and audit does not match the TVA worksheet, which pairs threats, vulnerabilities and assets."
+   ]
   },
   {
    "q": "In relative risk assessment, risk equals:",
@@ -1277,7 +1852,12 @@
     "Loss magnitude only"
    ],
    "e": "Relative risk is loss frequency times loss magnitude, minus the percentage mitigated by current controls, plus uncertainty. Threat plus vulnerability is the closest distractor, but it is a different pairing from the notes.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Threat plus vulnerability is a simplified pairing, not the relative risk formula given in the notes, which uses frequency, magnitude, mitigation and uncertainty.",
+    "Asset value divided by exposure is not the relative risk formula; asset value times exposure factor gives single loss expectancy.",
+    "Loss magnitude only ignores loss frequency, mitigation and uncertainty, so it is not the relative risk formula."
+   ]
   },
   {
    "q": "Which risk control strategy is the preferred approach and attempts to prevent exploitation of vulnerabilities?",
@@ -1288,7 +1868,12 @@
     "Termination"
    ],
    "e": "Defense, the preferred strategy, uses policy, education and technology to prevent exploitation.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Transference shifts risk to another party such as an insurer, so it does not prevent exploitation of the vulnerability.",
+    "Acceptance leaves the vulnerability unaddressed and accepts the outcome, so it does not prevent exploitation.",
+    "Termination ends the risky business activity entirely, which is used when risk cannot be controlled, not the preferred prevention approach."
+   ]
   },
   {
    "q": "Shifting risk to another organization, such as outsourcing or insurance, is:",
@@ -1299,7 +1884,12 @@
     "Termination"
    ],
    "e": "Transference shifts risk to another organization, for example through outsourcing or insurance.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Mitigation reduces the impact of an attack through plans and controls while the organization keeps the risk, so it does not shift risk.",
+    "Acceptance takes no action on the risk, so it does not shift risk to another organization.",
+    "Termination ends the risky activity rather than shifting the risk to another organization."
+   ]
   },
   {
    "q": "Reducing the impact of an attack (IR, DR, BC plans) rather than preventing it is:",
@@ -1310,7 +1900,12 @@
     "Transference"
    ],
    "e": "Mitigation reduces the impact of an attack through IR, DR and BC plans.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Defense aims to prevent exploitation of vulnerabilities, not to reduce the impact of an attack after it happens.",
+    "Acceptance takes no action on the risk, so it does not reduce impact through plans.",
+    "Transference shifts risk to another organization, not a way to reduce its impact through IR, DR and BC plans."
+   ]
   },
   {
    "q": "Doing nothing to protect a vulnerability and accepting the outcome is:",
@@ -1321,7 +1916,12 @@
     "Defense"
    ],
    "e": "Acceptance means doing nothing about the vulnerability and accepting the outcome, valid only when the asset does not justify the cost of protection.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Termination avoids the business activity that creates the risk, so it is not doing nothing about the vulnerability.",
+    "Mitigation takes active steps such as IR, DR and BC plans to reduce impact, not doing nothing.",
+    "Defense takes active prevention steps through policy, education and technology, not doing nothing about the vulnerability."
+   ]
   },
   {
    "q": "Avoiding business activities that introduce uncontrollable risks is:",
@@ -1332,7 +1932,12 @@
     "Defense"
    ],
    "e": "Termination avoids the business activity that introduces uncontrollable risk.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Acceptance means doing nothing about the risk and living with the outcome, not avoiding the risky activity.",
+    "Transference shifts the risk to another party rather than avoiding the business activity that creates it.",
+    "Defense prevents exploitation of vulnerabilities while keeping the activity, not avoiding the activity altogether."
+   ]
   },
   {
    "q": "What is the most common mitigation procedure?",
@@ -1343,7 +1948,12 @@
     "Security policy"
    ],
    "e": "The disaster recovery plan is the most common mitigation procedure. Incident response and business continuity are the closest distractors, since they are the other mitigation plans.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Incident response plan is also a mitigation plan, but it handles immediate attack response, and the notes name the disaster recovery plan as the most common.",
+    "Business continuity plan is another mitigation plan, but it is not the most common procedure named in the notes.",
+    "Security policy is a governance document of rules, not a mitigation procedure for reducing the impact of an attack."
+   ]
   },
   {
    "q": "SLE is computed as:",
@@ -1354,7 +1964,12 @@
     "Threat × vulnerability"
    ],
    "e": "Single loss expectancy is asset value times exposure factor (SLE = AV × EF).",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "ALE times ARO is the annualized loss formula, which uses SLE as an input, so it does not compute SLE itself.",
+    "Asset value divided by ARO does not compute single loss expectancy; SLE is asset value times exposure factor.",
+    "Threat times vulnerability is a qualitative pairing, not the formula for single loss expectancy."
+   ]
   },
   {
    "q": "ALE is computed as:",
@@ -1365,7 +1980,12 @@
     "ACS × EF"
    ],
    "e": "Annualized loss expectancy is SLE times the annualized rate of occurrence (ALE = SLE × ARO).",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Asset value times exposure factor gives single loss expectancy, which is per event, not the annualized loss.",
+    "SLE divided by ARO divides instead of multiplying by the annual rate, so it does not give ALE.",
+    "ACS times exposure factor does not match the ALE formula; ACS is the annual cost of a safeguard, not a loss input."
+   ]
   },
   {
    "q": "The cost-benefit analysis formula is:",
@@ -1376,7 +1996,12 @@
     "Asset value − EF"
    ],
    "e": "Cost-benefit analysis is ALE(prior) minus ALE(post) minus ACS, the annualized loss reduction minus the annualized cost of the safeguard. The sign-flipped ALE(post) minus ALE(prior) plus ACS is the closest confusion.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "ALE(post) minus ALE(prior) plus ACS is the sign-flipped version, which measures the wrong direction of loss reduction.",
+    "SLE times ARO minus ACS uses only the loss before the safeguard, so it does not measure the reduction after the safeguard.",
+    "Asset value minus EF does not compute cost-benefit; EF is a fraction and is not subtracted from asset value."
+   ]
   },
   {
    "q": "ARO stands for:",
@@ -1387,7 +2012,12 @@
     "Average rate of overload"
    ],
    "e": "ARO is the annualized rate of occurrence, how often the loss event is expected per year.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Annual risk objective is not the standard meaning of ARO in loss expectancy calculations.",
+    "Asset recovery option is not the meaning of ARO here; ARO is the annualized rate of occurrence.",
+    "Average rate of overload is not the ARO term; ARO is the annualized rate of occurrence of a loss event."
+   ]
   },
   {
    "q": "Assessment using nonnumerical scales rather than actual values is:",
@@ -1398,7 +2028,12 @@
     "Benchmarking"
    ],
    "e": "Qualitative assessment uses scales rather than actual numeric values; quantitative assessment uses actual values.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Quantitative assessment uses actual numeric values rather than nonnumerical scales, so it is the opposite approach.",
+    "Baselining compares current security against past or standard performance, not a scale-based assessment method.",
+    "Benchmarking compares practices with other organizations, not a method that uses nonnumerical scales."
+   ]
   },
   {
    "q": "The biggest problem with benchmarking is that:",
@@ -1409,7 +2044,12 @@
     "It ignores security"
    ],
    "e": "The slides say the biggest problem with benchmarking is that organizations do not talk to each other.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "It is too cheap is not the stated biggest problem with benchmarking in the slides.",
+    "It uses numbers only is not the stated problem; benchmarking does not depend on numbers alone.",
+    "It ignores security is not the stated problem; benchmarking is itself a security comparison method."
+   ]
   },
   {
    "q": "Comparison of past security activities against future performance is:",
@@ -1420,7 +2060,12 @@
     "Mitigation"
    ],
    "e": "Baselining compares past security activities and performance with future performance.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Benchmarking compares security against other organizations or standards, not against the organization's own past performance.",
+    "Termination avoids a risky business activity, not a comparison of past and future security performance.",
+    "Mitigation reduces the impact of an attack, not a comparison of past and future security performance."
+   ]
   },
   {
    "q": "Which is NOT a feasibility study type in the slides?",
@@ -1431,7 +2076,12 @@
     "Political feasibility"
    ],
    "e": "The slide feasibility studies are organizational, operational, technical and political, plus economic via CBA. Legal is the one NOT listed, and organizational and political are the closest listed types.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Organizational feasibility is one of the feasibility study types listed in the slides, so it is not the excluded one.",
+    "Operational feasibility is one of the feasibility study types listed in the slides, so it is not the excluded one.",
+    "Political feasibility is one of the feasibility study types listed in the slides, so it is not the excluded one."
+   ]
   },
   {
    "q": "The four steps of the NIST risk management process (SP 800-39) are:",
@@ -1442,7 +2092,12 @@
     "Prepare, categorize, select, implement"
    ],
    "e": "The NIST SP 800-39 risk management process is frame, assess, respond, monitor. The SP 800-37 RMF steps (categorize, select, implement, assess, authorize, monitor) are the closest confusion, and the notes warn against mixing them.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Plan, do, check, act is the PDCA improvement cycle, not the NIST SP 800-39 risk management process.",
+    "Identify, protect, detect, respond are NIST CSF core functions, not the four SP 800-39 steps.",
+    "Prepare, categorize, select, implement are early steps of the SP 800-37 RMF, not the four SP 800-39 steps."
+   ]
   },
   {
    "q": "Which type of access control is implemented at the discretion of the data user?",
@@ -1453,7 +2108,12 @@
     "RBAC"
    ],
    "e": "DAC is implemented at the discretion of the data user.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "MAC is system-enforced access based on classification labels, not access decided at the discretion of the data user.",
+    "Nondiscretionary access is set by central rules rather than the data user's discretion, so it is not the answer.",
+    "RBAC grants access based on job roles assigned by the organization, not at the data user's discretion."
+   ]
   },
   {
    "q": "Which access control uses a structured data classification scheme rating both information and users?",
@@ -1464,7 +2124,12 @@
     "ACL"
    ],
    "e": "MAC uses a structured data classification scheme that rates both collections of information and users.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "DAC lets data owners decide access without a classification scheme, so it does not rate both information and users.",
+    "Nondiscretionary control is a broader category set by central rules, not the structured classification scheme rating information and users.",
+    "ACL is a list of permissions attached to a resource, not a structured classification scheme rating information and users."
+   ]
   },
   {
    "q": "Which is NOT one of the four fundamental functions of access control?",
@@ -1475,7 +2140,12 @@
     "Accountability"
    ],
    "e": "The four functions are identification, authentication, authorization and accountability; encryption is not one.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Identification is one of the four fundamental functions, where a user claims an identity, so it is not the excluded one.",
+    "Authorization is one of the four fundamental functions, which grants permitted actions, so it is not the excluded one.",
+    "Accountability is one of the four fundamental functions, which tracks user actions, so it is not the excluded one."
+   ]
   },
   {
    "q": "\"I am a user of the system\" describes:",
@@ -1486,7 +2156,12 @@
     "Accountability"
    ],
    "e": "Identification is the claim \"I am a user of the system\".",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Authentication is proving the claimed identity, not making the claim itself.",
+    "Authorization decides what an authenticated user may do, not the act of claiming identity.",
+    "Accountability tracks and records user actions, not the act of claiming identity."
+   ]
   },
   {
    "q": "\"I can prove I'm a user of the system\" describes:",
@@ -1497,7 +2172,12 @@
     "Accountability"
    ],
    "e": "Authentication is proving you are who you claim to be.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Identification is the claim of who you are, not the proof that the claim is true.",
+    "Authorization decides what an authenticated user may access, not the proof of identity.",
+    "Accountability records and tracks actions through logs, not the proof of identity."
+   ]
   },
   {
    "q": "\"You can track and monitor my use of the system\" describes:",
@@ -1508,7 +2188,12 @@
     "Authorization"
    ],
    "e": "Accountability means use of the system can be tracked and audited through logs and journals.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Identification is stating who you are, not tracking use of the system.",
+    "Authentication verifies that a claimed identity is valid, not tracking use of the system.",
+    "Authorization decides what a user may access, not tracking and monitoring of use."
+   ]
   },
   {
    "q": "A password is an example of which authentication factor?",
@@ -1519,7 +2204,12 @@
     "Somewhere you are"
    ],
    "e": "A password is something you know.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Something you have is a physical item such as a token or card, not a secret the user knows.",
+    "Something you are is a biometric trait such as a fingerprint, not a secret the user knows.",
+    "Somewhere you are is a location-based factor, not a secret the user knows."
+   ]
   },
   {
    "q": "A smart card is an example of:",
@@ -1530,7 +2220,12 @@
     "Something you do"
    ],
    "e": "A smart card (chip card) is something you have.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Something you know is a secret such as a password or PIN, not a physical item like a smart card.",
+    "Something you are is a biometric trait such as a fingerprint, not a physical item carried by the user.",
+    "Something you do is a behavioral trait such as typing rhythm, not a physical item like a smart card."
+   ]
   },
   {
    "q": "A series of characters longer than a password, from which a virtual password is derived, is a:",
@@ -1541,7 +2236,12 @@
     "Salt"
    ],
    "e": "A passphrase is a longer string of characters from which a virtual password is derived.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "PIN is a short numeric code, not a longer character string from which a virtual password is derived.",
+    "Token is a device or software that generates codes, not a character string from which a password is derived.",
+    "Salt is random data added before hashing, not a character string from which a virtual password is derived."
+   ]
   },
   {
    "q": "Which biometric characteristics are considered truly unique in the slides?",
@@ -1552,7 +2252,12 @@
     "Hand geometry and odor"
    ],
    "e": "Only fingerprints, retina, iris and DNA are considered truly unique. Voice, signature and gait are the closest distractors, since they are biometric traits but not on the slides' unique list.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Voice, signature and gait are behavioral or variable traits, not on the slides' truly unique list.",
+    "Face and keystroke only is not the truly unique set; face is not on the unique list and keystroke dynamics is behavioral.",
+    "Hand geometry and odor are not on the slides' truly unique list, so they do not fit this question."
+   ]
   },
   {
    "q": "The point where false reject rate equals false accept rate is the:",
@@ -1563,7 +2268,12 @@
     "Equal acceptance rate"
    ],
    "e": "The crossover error rate is where the false reject rate equals the false accept rate.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Failure rate is a general measure of failed attempts, not the point where the false reject rate and false accept rate are equal.",
+    "Match rate is not the standard term for this point; it does not describe where FRR equals FAR.",
+    "Equal acceptance rate is not the standard term; the point where FRR equals FAR is the crossover error rate."
+   ]
   },
   {
    "q": "The Bell-LaPadula model's principle is:",
@@ -1574,7 +2284,12 @@
     "Need to know"
    ],
    "e": "Bell-LaPadula is the confidentiality model: no read up, no write down. Biba's no write up, no read down is the reversed closest confusion, and it belongs to integrity.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "No write up, no read down is the Biba integrity rule, the reverse of the Bell-LaPadula confidentiality rule.",
+    "Read only is a simple access mode, not the Bell-LaPadula principle about reading and writing across levels.",
+    "Need to know is a compartment access principle, not the Bell-LaPadula no read up, no write down rule."
+   ]
   },
   {
    "q": "The Biba model's principle is:",
@@ -1585,7 +2300,12 @@
     "Separation of duties"
    ],
    "e": "Biba is the integrity model: no write up, no read down. Bell-LaPadula's no read up, no write down is the reversed closest confusion, and it belongs to confidentiality.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "No read up, no write down is the Bell-LaPadula confidentiality rule, not the Biba integrity rule.",
+    "Least privilege is a general principle of granting minimum access, not the Biba rule.",
+    "Separation of duties is a control principle that splits critical tasks, not the Biba rule."
+   ]
   },
   {
    "q": "Which model is a confidentiality model?",
@@ -1596,7 +2316,12 @@
     "Common Criteria"
    ],
    "e": "Bell-LaPadula is the confidentiality model; Biba and Clark-Wilson address integrity.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Biba is an integrity model, not a confidentiality model.",
+    "Clark-Wilson is an integrity model using well-formed transactions, not a confidentiality model.",
+    "Common Criteria is an evaluation standard for security products, not an access control model."
+   ]
   },
   {
    "q": "Which model is the successor to both TCSEC and ITSEC?",
@@ -1607,7 +2332,12 @@
     "Bell-LaPadula"
    ],
    "e": "The Common Criteria succeeded TCSEC and ITSEC.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Clark-Wilson is an integrity model, not the successor to TCSEC and ITSEC.",
+    "Graham-Denning is an access control model, not the successor to TCSEC and ITSEC.",
+    "Bell-LaPadula is a confidentiality model, not the successor to TCSEC and ITSEC."
+   ]
   },
   {
    "q": "Covert channels in the trusted computing base include:",
@@ -1618,7 +2348,12 @@
     "Public and private channels"
    ],
    "e": "Covert channels in the trusted computing base are storage channels and timing channels.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Network and host channels are not the covert channel types the notes give for the trusted computing base.",
+    "Wired and wireless channels are media distinctions, not the covert channel types for the trusted computing base.",
+    "Public and private channels are not the covert channel types for the trusted computing base."
+   ]
   },
   {
    "q": "Which firewall type examines packet headers such as source/destination IP and ports?",
@@ -1629,7 +2364,12 @@
     "Content filter"
    ],
    "e": "Packet-filtering firewalls examine header fields such as source and destination IP address, direction and TCP/UDP port.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Application proxy works at the application layer and inspects content, not only packet headers.",
+    "Honeypot is a decoy system for luring attackers, not a firewall that examines packet headers.",
+    "Content filter restricts content categories rather than examining packet header fields."
+   ]
   },
   {
    "q": "Which packet-filtering firewall tracks connections using a state table?",
@@ -1640,7 +2380,12 @@
     "MAC layer firewall"
    ],
    "e": "Stateful packet inspection tracks connections with a state table. Dynamic filtering is the closest confusion, since the notes list static, dynamic and SPI as packet-filtering types and only SPI uses a state table.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Static filtering checks each packet independently against rules and does not track connections in a state table.",
+    "Dynamic filtering adjusts rules as needed, but the notes tie the state table to stateful packet inspection instead.",
+    "MAC layer firewall filters on MAC addresses, not on connection state tracked in a state table."
+   ]
   },
   {
    "q": "Which firewall makes decisions based on a host's MAC address and ACL?",
@@ -1651,7 +2396,12 @@
     "NGFW"
    ],
    "e": "MAC-layer firewalls filter on a host's MAC address together with an ACL.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Application proxy works at the application layer, not on MAC addresses and ACLs.",
+    "Stateful inspection tracks connection state, not MAC addresses and ACLs.",
+    "NGFW combines filtering with application awareness and intrusion prevention, not MAC-based filtering."
+   ]
   },
   {
    "q": "NGFW and UTM devices are examples of:",
@@ -1662,7 +2412,12 @@
     "Packet sniffers"
    ],
    "e": "Hybrid firewalls combine processing modes; NGFW and UTM devices are examples.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Static filters are a single packet-filtering type, not a device that combines processing modes.",
+    "MAC layer firewalls filter on one basis, MAC addresses, not a combination of processing modes.",
+    "Packet sniffers capture traffic for analysis and are not firewalls at all."
+   ]
   },
   {
    "q": "A single bastion host is also known as a:",
@@ -1673,7 +2428,12 @@
     "Honeypot"
    ],
    "e": "A single bastion host is a sacrificial host that sits exposed between the networks.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Screened subnet is a multi-network architecture with a DMZ between two filters, not a single exposed host.",
+    "Trusted host is a host given special trust, not the term for a single exposed bastion host.",
+    "Honeypot is a decoy system built to lure attackers, not an exposed gateway host."
+   ]
   },
   {
    "q": "Which firewall architecture is dominant today?",
@@ -1684,7 +2444,12 @@
     "Dual-homed host"
    ],
    "e": "The screened subnet with DMZ is the dominant firewall architecture today.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Single bastion host is a single exposed host, not the dominant architecture today.",
+    "Screened host uses a router and a firewall, not the architecture the notes call dominant today.",
+    "Dual-homed host has two network interfaces separating networks, not the dominant architecture today."
+   ]
   },
   {
    "q": "A screened host architecture combines:",
@@ -1695,7 +2460,12 @@
     "A VPN and a proxy"
    ],
    "e": "A screened host pairs a packet-filtering router with a dedicated firewall, so an attacker must compromise two systems.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Two IDPS sensors are detection devices, not the components of a screened host architecture.",
+    "A honeypot and a router do not form a screened host; a honeypot is a decoy, not a firewall component.",
+    "A VPN and a proxy are not the screened host components, which are a packet-filtering router and a dedicated firewall."
+   ]
   },
   {
    "q": "Which firewall best practice is correct?",
@@ -1706,7 +2476,12 @@
     "All traffic from the outside is allowed in"
    ],
    "e": "Best practice is to deny ICMP and block Telnet to internal servers, and never expose the firewall to direct public access.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Telnet to internal servers is allowed is insecure, since Telnet sends data in cleartext, so it is not best practice.",
+    "The firewall accessed from the public network exposes the firewall to direct attack, so it is not best practice.",
+    "All traffic from the outside allowed in violates least privilege and exposes internal systems, so it is not best practice."
+   ]
   },
   {
    "q": "Which port number does Telnet use?",
@@ -1717,7 +2492,12 @@
     "80"
    ],
    "e": "Telnet uses port 23.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Port 21 is used by FTP, not Telnet.",
+    "Port 25 is used by SMTP, not Telnet.",
+    "Port 80 is used by HTTP, not Telnet."
+   ]
   },
   {
    "q": "Which port number does SMTP use?",
@@ -1728,7 +2508,12 @@
     "161"
    ],
    "e": "SMTP uses port 25.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Port 110 is used by POP3, not SMTP.",
+    "Port 53 is used by DNS, not SMTP.",
+    "Port 161 is used by SNMP, not SMTP."
+   ]
   },
   {
    "q": "Which port number does POP3 use?",
@@ -1739,7 +2524,12 @@
     "161"
    ],
    "e": "POP3 uses port 110.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Port 25 is used by SMTP for sending mail, not POP3 retrieval.",
+    "Port 80 is used by HTTP web traffic, not POP3.",
+    "Port 161 is used by SNMP management, not POP3."
+   ]
   },
   {
    "q": "Which port number does SNMP use?",
@@ -1750,7 +2540,12 @@
     "21"
    ],
    "e": "SNMP uses port 161. Port 53 (DNS) and port 23 (Telnet) are the closest well-known port numbers in the notes.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Port 53 is used by DNS name resolution, not SNMP.",
+    "Port 23 is used by Telnet, not SNMP.",
+    "Port 21 is used by FTP, not SNMP."
+   ]
   },
   {
    "q": "Software or hardware that restricts users' access to non-business websites is a:",
@@ -1761,7 +2556,12 @@
     "Packet sniffer"
    ],
    "e": "A content filter restricts what content enters or leaves a network, such as non-business sites and spam.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Honeypot is a decoy system for luring attackers, not a tool that restricts website access.",
+    "Proxy cache stores web content to speed access, not to restrict non-business sites.",
+    "Packet sniffer captures network traffic for analysis, not to restrict website access."
+   ]
   },
   {
    "q": "A program that dials every number in a range and records numbers where a modem answers is a:",
@@ -1772,7 +2572,12 @@
     "Honeypot"
    ],
    "e": "A war dialer automatically dials a range of numbers to find modems.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Packet sniffer captures and analyzes network traffic, not phone numbers.",
+    "Port scanner probes hosts for open network ports, not phone lines.",
+    "Honeypot is a decoy system, not a tool that dials a range of numbers."
+   ]
   },
   {
    "q": "Which system centralizes responsibility for dial-up user authentication in a central server?",
@@ -1783,7 +2588,12 @@
     "IPSec"
    ],
    "e": "RADIUS centralizes dial-up user authentication in one server.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "SESAME is a Kerberos-like system using public-key encryption, not a central dial-up authentication server.",
+    "SSL is a transport encryption protocol, not a central dial-up authentication system.",
+    "IPSec is a network layer security protocol, not a central dial-up authentication system."
+   ]
   },
   {
    "q": "Which three services make up Kerberos?",
@@ -1794,7 +2604,12 @@
     "SSL, TLS and SSH"
    ],
    "e": "Kerberos has an Authentication Server, a Key Distribution Center and a Ticket Granting Service.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "CA, RA and CRL are public key infrastructure components, not Kerberos services.",
+    "AAA, NAS and RAS are an access framework and access servers, not the Kerberos services.",
+    "SSL, TLS and SSH are secure communication protocols, not the Kerberos services."
+   ]
   },
   {
    "q": "Kerberos uses which type of encryption?",
@@ -1805,7 +2620,12 @@
     "Steganography"
    ],
    "e": "Kerberos uses symmetric-key encryption.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Asymmetric key uses public and private key pairs, not the symmetric encryption Kerberos uses.",
+    "Hash only is one-way processing with no reversible encryption, so it does not match Kerberos.",
+    "Steganography hides data inside other data and is not Kerberos encryption."
+   ]
   },
   {
    "q": "Which authentication system is similar to Kerberos but uses public-key encryption and a privilege attribute server?",
@@ -1816,7 +2636,12 @@
     "CHAP"
    ],
    "e": "SESAME is like Kerberos but uses public-key encryption with a privilege attribute server and certificate.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "RADIUS is a central dial-up authentication protocol, not a Kerberos-like system with public-key encryption.",
+    "TACACS is an AAA protocol for network device access, not a Kerberos-like system with public-key encryption.",
+    "CHAP is a challenge handshake method for PPP, not a Kerberos-like system with a privilege attribute server."
+   ]
   },
   {
    "q": "In which VPN mode is only the data of the IP packet encrypted and the header is not?",
@@ -1827,7 +2652,12 @@
     "Trusted mode"
    ],
    "e": "Transport mode encrypts only the IP data and leaves the header readable. Tunnel mode is the closest confusion, since it encrypts the entire packet.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Tunnel mode encrypts the entire packet, including the header, so it is not the mode that encrypts only the data.",
+    "Hybrid mode is not the VPN mode that encrypts only the data and leaves the header readable.",
+    "Trusted mode is not the mode that encrypts only the IP data in this question."
+   ]
   },
   {
    "q": "In which VPN mode is the entire client packet encrypted and hidden between two tunnel servers?",
@@ -1838,7 +2668,12 @@
     "Ad hoc mode"
    ],
    "e": "Tunnel mode encrypts the entire packet and encapsulates it between two tunnel servers, hiding the true destination. Transport mode is the closest confusion, since it encrypts only the data.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Transport mode encrypts only the data and leaves the header, so it does not hide the entire client packet.",
+    "Trusted mode is not the mode that encapsulates and encrypts the entire packet between tunnel servers.",
+    "Ad hoc mode is a wireless network type, not a VPN mode."
+   ]
   },
   {
    "q": "A VPN must accomplish all EXCEPT:",
@@ -1849,7 +2684,12 @@
     "Authentication"
    ],
    "e": "A VPN must provide encapsulation, encryption and authentication; intrusion detection is not one of its requirements.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Encapsulation is a VPN requirement, so it is one of the things a VPN must accomplish.",
+    "Encryption is a VPN requirement, so it is one of the things a VPN must accomplish.",
+    "Authentication is a VPN requirement, so it is one of the things a VPN must accomplish."
+   ]
   },
   {
    "q": "Which IDPS function consists of activities that deter an intrusion?",
@@ -1860,7 +2700,12 @@
     "Intrusion correction"
    ],
    "e": "Intrusion prevention consists of activities that deter an intrusion.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Intrusion detection identifies and alerts on intrusions, not activities that deter them.",
+    "Intrusion reaction is the response after an intrusion is detected, not activity that deters it.",
+    "Intrusion correction is not the standard IDPS term for deterring intrusions; the deterrence function is prevention."
+   ]
   },
   {
    "q": "An alarm that is triggered by legitimate activity is a:",
@@ -1871,7 +2716,12 @@
     "Tuning"
    ],
    "e": "A false positive is an alarm triggered by legitimate activity when no real attack occurred. The closest confusion is the false negative, a real attack that the IDPS misses.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "False negative is a real attack that goes undetected, not an alarm from legitimate activity.",
+    "True positive is an alarm correctly raised for a real attack, not one raised by legitimate activity.",
+    "Tuning adjusts detection settings to reduce false alarms, not an alarm itself."
+   ]
   },
   {
    "q": "A real attack that the IDPS fails to detect is a:",
@@ -1882,7 +2732,12 @@
     "Evasion"
    ],
    "e": "A false negative is a real attack that the IDPS fails to detect. The closest confusion is the false positive, an alarm raised by legitimate activity.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "False positive is an alarm raised by legitimate activity, not a real attack that goes undetected.",
+    "True negative is correctly ignoring legitimate activity, not missing a real attack.",
+    "Evasion is an attacker technique to avoid detection, not the detection outcome described here."
+   ]
   },
   {
    "q": "Which IDPS type monitors traffic on a network segment?",
@@ -1893,7 +2748,12 @@
     "Honeypot"
    ],
    "e": "A network-based IDPS monitors traffic on a network segment.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Host-based IDPS monitors activity on a single host rather than traffic on a network segment.",
+    "Log file monitor reviews log records, not traffic on a network segment.",
+    "Honeypot is a decoy system, not a monitor of network segment traffic."
+   ]
   },
   {
    "q": "Which IDPS cannot analyze encrypted packets?",
@@ -1904,7 +2764,12 @@
     "Application IDPS"
    ],
    "e": "A network-based IDPS cannot analyze encrypted packets, while a host-based one can see decrypted data.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Host-based IDPS can see decrypted data on the host, so encryption does not block it the same way.",
+    "Stateful protocol analysis is a detection method, not an IDPS sensor type that is blocked by encryption.",
+    "Application IDPS monitors application activity, often after decryption, so it is not the type encryption blocks."
+   ]
   },
   {
    "q": "Which IDPS type works on the principle of configuration or change management?",
@@ -1915,7 +2780,12 @@
     "NBA"
    ],
    "e": "A host-based IDPS works on configuration or change management of key system files.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Network-based IDPS monitors traffic on network segments, not configuration or change management of key system files.",
+    "Wireless IDPS monitors wireless traffic, not configuration or change management of key system files.",
+    "NBA is network behavior analysis based on traffic patterns, not configuration or change management."
+   ]
   },
   {
    "q": "Which detection method examines traffic for patterns matching known attacks?",
@@ -1926,7 +2796,12 @@
     "Statistical sampling"
    ],
    "e": "Signature-based detection matches traffic against known attack patterns and needs constant updates.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Anomaly-based detection compares activity against a baseline of normal behavior, not known attack patterns.",
+    "Stateful protocol analysis compares traffic against vendor profiles of protocol behavior, not known attack patterns.",
+    "Statistical sampling is not the named IDPS method for matching known attack patterns."
+   ]
   },
   {
    "q": "Which detection method uses a baseline and clipping level and can detect new attacks but produces more false positives?",
@@ -1937,7 +2812,12 @@
     "Packet filtering"
    ],
    "e": "Anomaly-based detection uses a baseline and clipping level; it catches new attacks but yields more false positives.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Signature-based detection matches known attack patterns and misses new attacks, and it does not use a baseline and clipping level.",
+    "Log file monitoring reviews log records and does not use a baseline and clipping level.",
+    "Packet filtering is header-based access control, not an IDPS method that uses a baseline and clipping level."
+   ]
   },
   {
    "q": "Another name for stateful protocol analysis is:",
@@ -1948,7 +2828,12 @@
     "Log correlation"
    ],
    "e": "Stateful protocol analysis is also called deep packet inspection.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Packet filtering examines packet headers, not full protocol state as in stateful protocol analysis.",
+    "Signature matching compares traffic against known patterns, not protocol state.",
+    "Log correlation links events from logs, not network traffic protocol analysis."
+   ]
   },
   {
    "q": "A decoy system designed to lure attackers away from critical systems is a:",
@@ -1959,7 +2844,12 @@
     "Sniffer"
    ],
    "e": "A honeypot is a decoy system that lures attackers away from critical systems.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Bastion host is a hardened host that is exposed to attacks, not a decoy designed to lure attackers.",
+    "Proxy is an intermediary that handles requests, not a decoy designed to lure attackers.",
+    "Sniffer captures network traffic, not a decoy designed to lure attackers."
+   ]
   },
   {
    "q": "Several honeypots connected on a network segment form a:",
@@ -1970,7 +2860,12 @@
     "Extranet"
    ],
    "e": "A honeynet is several honeypots on a network segment.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Padded cell is a single protected honeypot to which attackers are transferred, not several honeypots on a segment.",
+    "DMZ is a network segment between internal and external networks, not a set of honeypots.",
+    "Extranet is a network shared with trusted partners, not a set of honeypots."
+   ]
   },
   {
    "q": "A protected honeypot that attackers are seamlessly transferred to after the IDPS detects them is a:",
@@ -1981,7 +2876,12 @@
     "Sandbox"
    ],
    "e": "A padded cell is a protected honeypot to which the IDPS seamlessly transfers detected attackers. Honeynet is the closest confusion; it is several honeypots on a segment, not a transfer target.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Honeynet is several honeypots on a segment, not a protected honeypot that the IDPS transfers attackers into.",
+    "Bastion is a hardened host for exposed services, not the protected honeypot that attackers are moved into.",
+    "Sandbox is an isolated environment for running untrusted code, not the honeypot the IDPS transfers attackers into."
+   ]
   },
   {
    "q": "In trap-and-trace, which is legal and ethical?",
@@ -1992,7 +2892,12 @@
     "Neither"
    ],
    "e": "Enticement is legal and ethical; entrapment is not.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Inducing a person to commit a crime they were not already inclined to commit. This is illegal and unethical, unlike enticement.",
+    "Not the answer here: entrapment is illegal and unethical, so saying both are legal and ethical is wrong.",
+    "Not the answer here: enticement is legal and ethical, so at least one option qualifies."
+   ]
   },
   {
    "q": "Collecting publicly available information about a target is:",
@@ -2003,7 +2908,12 @@
     "Sniffing"
    ],
    "e": "Footprinting collects publicly available information about a target.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Identifying the operating system or software version of a target from its responses. It identifies systems rather than collecting general public information.",
+    "Forging a false identity, such as an IP or MAC address, to impersonate another source. It is an attack technique, not information gathering.",
+    "Capturing and examining network traffic as it passes. It requires access to the network, not collection of public information."
+   ]
   },
   {
    "q": "A systematic survey of a target's addresses to identify the network services offered is:",
@@ -2014,7 +2924,12 @@
     "Cracking"
    ],
    "e": "Fingerprinting systematically surveys a target's discovered addresses and services.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The broad collection of publicly available information about a target. It is the initial reconnaissance step, not the systematic survey of services described.",
+    "Tricking users into revealing credentials or data through deceptive messages. It targets people rather than surveying network services.",
+    "Breaking passwords, keys or protections to gain access. It follows reconnaissance and does not survey addresses for services."
+   ]
   },
   {
    "q": "Which vulnerability scanner listens in on the network and can find client-side vulnerabilities?",
@@ -2025,7 +2940,12 @@
     "Firewall analyzer"
    ],
    "e": "A passive vulnerability scanner listens on the network and can find client-side vulnerabilities.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Sends probes to targets to test for vulnerabilities. It does not listen passively on the network, so it does not fit the description.",
+    "Checks which ports are open on a host. It does not listen on the network or find client-side vulnerabilities.",
+    "Reviews firewall rules and configuration. It does not monitor network traffic to find client-side vulnerabilities."
+   ]
   },
   {
    "q": "The science of encryption, including cryptography and cryptanalysis, is:",
@@ -2036,7 +2956,12 @@
     "Cryptanalysis only"
    ],
    "e": "Cryptology covers both cryptography (making codes) and cryptanalysis (breaking them).",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Hiding the existence of a message inside another file or medium. It is a hiding technique, not the broader science of encryption.",
+    "Making codes and ciphers to protect data. It covers only one half of the field and omits cryptanalysis.",
+    "Breaking encrypted messages back to plaintext. It covers only the attacking half and omits cryptography."
+   ]
   },
   {
    "q": "Cracking or breaking encrypted messages back to plaintext is:",
@@ -2047,7 +2972,12 @@
     "Hashing"
    ],
    "e": "Cryptanalysis is breaking encrypted messages back into plaintext.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Designing ciphers to encrypt and protect messages. It is the making side of the field, not the breaking of encrypted messages.",
+    "Concealing that a message exists inside another medium. It does not involve recovering plaintext from encrypted messages.",
+    "A one-way digest of data used for integrity checks. It is not a method for recovering plaintext from ciphertext."
+   ]
   },
   {
    "q": "The practice of hiding information within images or audio files is:",
@@ -2058,7 +2988,12 @@
     "Transposition"
    ],
    "e": "Steganography hides information, such as in .bmp, .wav or .mp3 files.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Breaking encrypted messages to recover plaintext. It does not hide information inside other files.",
+    "A one-way digest of data used for integrity checks. It does not conceal information inside image or audio files.",
+    "A cipher that rearranges characters within a message. It scrambles the text rather than hiding it inside media files."
+   ]
   },
   {
    "q": "A cipher that exchanges one value for another is a:",
@@ -2069,7 +3004,12 @@
     "Hash"
    ],
    "e": "A substitution cipher exchanges one value for another.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A cipher that rearranges values within a block without changing them. It moves characters rather than exchanging one value for another.",
+    "A bitwise operation that combines data with a key. The question defines the cipher by exchanging values, which describes a substitution cipher.",
+    "A one-way function that produces a fixed-size digest and is not reversible. It is not a cipher that exchanges values."
+   ]
   },
   {
    "q": "A cipher that rearranges values within a block is a:",
@@ -2080,7 +3020,12 @@
     "Hash"
    ],
    "e": "A transposition cipher rearranges values within a block.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A cipher that exchanges one value for another. It replaces values instead of rearranging them within the block.",
+    "A one-time pad that combines plaintext with a random key using XOR. It combines values with a key rather than rearranging them.",
+    "A one-way digest function that is not a cipher. It cannot be reversed to recover the rearranged block."
+   ]
   },
   {
    "q": "The Vigenère cipher is a:",
@@ -2091,7 +3036,12 @@
     "Book cipher"
    ],
    "e": "The Vigenère cipher is polyalphabetic, using 26 alphabets.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Uses a single substitution alphabet throughout the message. The Vigenere cipher uses multiple alphabets, so this does not fit.",
+    "Rearranges letter positions without substituting them. The Vigenere cipher substitutes letters, so it is not a transposition cipher.",
+    "Uses words or positions in a shared book as the key. The Vigenere cipher uses a repeating keyword, not a book."
+   ]
   },
   {
    "q": "In XOR, if two bits are identical the result is:",
@@ -2102,7 +3052,12 @@
     "Same as input"
    ],
    "e": "XOR gives 0 when the two bits are the same and 1 when they differ.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The result when the two bits differ, not when they are identical. XOR outputs 1 only for differing bits.",
+    "Not the answer here: XOR is defined for every pair of bits, so no undefined result occurs.",
+    "Describes copying an input bit. XOR gives 0 for identical bits, which is not one of the inputs in general."
+   ]
   },
   {
    "q": "The Vernam cipher was developed at:",
@@ -2113,7 +3068,12 @@
     "MIT"
    ],
    "e": "The Vernam cipher, a one-time pad, was developed at AT&T Bell Labs. IBM, Xerox PARC and MIT are the closest distractors, since they are other research organizations, and the notes do not link them to Vernam.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Not the answer here: the notes do not link IBM to the Vernam cipher, which was developed at AT&T Bell Labs.",
+    "Not the answer here: the notes do not link Xerox PARC to the Vernam cipher, which was developed at AT&T Bell Labs.",
+    "Not the answer here: the notes do not link MIT to the Vernam cipher, which was developed at AT&T Bell Labs."
+   ]
   },
   {
    "q": "Hash functions:",
@@ -2124,7 +3084,12 @@
     "Exchange public keys"
    ],
    "e": "Hash functions are public algorithms that confirm message identity and integrity without needing a key.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Describes a keyed primitive such as a MAC. Hash functions are public algorithms and need no secret key.",
+    "Describes encryption, which hides message content. Hash functions do not provide confidentiality.",
+    "Describes key exchange or PKI operations. Hash functions do not exchange public keys."
+   ]
   },
   {
    "q": "The DES key length is:",
@@ -2135,7 +3100,12 @@
     "256 bits"
    ],
    "e": "DES uses a 56-bit key. The closest confusion is 64 bits, which is the DES block size, not the key length.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "The DES block size, not its key length. The 64-bit figure includes 8 parity bits, so the effective DES key is 56 bits.",
+    "A key length used by other algorithms such as AES-128, not DES. DES keys are 56 bits.",
+    "The largest AES key length, not a DES key length. DES uses a 56-bit key."
+   ]
   },
   {
    "q": "The DES block size is:",
@@ -2146,7 +3116,12 @@
     "192 bits"
    ],
    "e": "DES uses 64-bit blocks. The closest confusion is 56 bits, which is the DES key length, not the block size.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "The DES key length, not its block size. DES encrypts 64-bit blocks.",
+    "The block size of AES, not DES. DES uses 64-bit blocks.",
+    "Not the answer here: 192 is an AES or 3DES key length, not the DES block size, which is 64 bits."
+   ]
   },
   {
    "q": "DES was adopted by NIST in:",
@@ -2157,7 +3132,12 @@
     "2001"
    ],
    "e": "The notes give 1976 for DES adoption by NIST, flagged to verify, since the notes also mention 1977 for publication as a federal standard. The later years in the options (1991, 1997, 2001) are not DES dates in the notes.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Not the answer here: the notes give 1976 as the DES adoption year and do not place DES adoption in 1991.",
+    "Not the answer here: 1997 is not a DES adoption date in the notes; DES dates from the 1970s.",
+    "Not the answer here: 2001 is not a DES adoption date in the notes; it is much later than the 1976 date."
+   ]
   },
   {
    "q": "Which algorithm was developed to replace both DES and 3DES?",
@@ -2168,7 +3148,12 @@
     "MD5"
    ],
    "e": "AES replaced DES and 3DES.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A public-key algorithm used for encryption and signatures. It is not a symmetric block cipher that replaces DES.",
+    "An e-mail security system built on other algorithms. It is not a block cipher standard meant to replace DES.",
+    "A hash function, not an encryption algorithm. It cannot replace DES as a cipher."
+   ]
   },
   {
    "q": "Which encryption uses the same secret key to encipher and decipher?",
@@ -2179,7 +3164,12 @@
     "Steganography"
    ],
    "e": "Symmetric encryption uses the same secret key to encipher and decipher.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Uses a public and private key pair rather than one shared secret key for both operations.",
+    "A one-way digest with no key, so it cannot encipher or decipher messages.",
+    "Hides the existence of a message inside another medium. It is not a method that enciphers and deciphers with a key."
+   ]
   },
   {
    "q": "Which was the first public-key algorithm published for commercial use?",
@@ -2190,7 +3180,12 @@
     "PGP"
    ],
    "e": "RSA was the first public-key algorithm published for commercial use.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A symmetric block cipher, not a public-key algorithm.",
+    "A symmetric block cipher standardized much later, not a public-key algorithm.",
+    "A security package that uses public-key methods built on existing algorithms, not the public-key algorithm first published for commercial use."
+   ]
   },
   {
    "q": "Which cryptographic tool provides nonrepudiation?",
@@ -2201,7 +3196,12 @@
     "Transposition"
    ],
    "e": "A digital signature provides nonrepudiation.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A hash alone does not bind a sender's identity to the message. Signing with a private key provides nonrepudiation.",
+    "A bitwise operation with no nonrepudiation property on its own.",
+    "A cipher that rearranges characters. It provides no proof of origin or nonrepudiation."
+   ]
   },
   {
    "q": "In PKI, which entity issues digital certificates?",
@@ -2212,7 +3212,12 @@
     "Ticket granting service"
    ],
    "e": "A certificate authority (CA) issues digital certificates, and the registration authority only handles registration.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Handles registration and identity verification but does not issue certificates.",
+    "Distributes keys in Kerberos-style systems. It is not a PKI certificate issuer.",
+    "Issues service tickets in Kerberos. It is not the entity that issues digital certificates in PKI."
+   ]
   },
   {
    "q": "The method that uniquely identifies a certificate's entity is the:",
@@ -2223,7 +3228,12 @@
     "Cipher key"
    ],
    "e": "A distinguished name (DN) uniquely identifies the entity in a certificate.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A key that is part of the certificate for encryption or verification. It is not the name that identifies the entity.",
+    "A temporary key for one communication session. It is not an identifier in a certificate.",
+    "A key used by a cipher to encrypt data. It is not an identifier for the entity in a certificate."
+   ]
   },
   {
    "q": "The most common hybrid system for key exchange is:",
@@ -2234,7 +3244,12 @@
     "SET"
    ],
    "e": "Diffie-Hellman is the most common hybrid key-exchange method.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A one-time pad cipher that needs a shared key as long as the message. It is not a key-exchange method.",
+    "A classical polyalphabetic cipher. It is not a key-exchange protocol.",
+    "A payment card protocol for secure transactions. It is not a key-exchange method."
+   ]
   },
   {
    "q": "Who designed PGP in 1991?",
@@ -2245,7 +3260,12 @@
     "Larry Roberts"
    ],
    "e": "Phil Zimmermann created PGP in 1991.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Co-invented public-key cryptography and Diffie-Hellman, but did not design PGP.",
+    "Co-developed RSA and other algorithms, but did not design PGP.",
+    "Known for ARPANET work, not for designing PGP."
+   ]
   },
   {
    "q": "SET was developed in 1997 by:",
@@ -2256,7 +3276,12 @@
     "Apple and Google"
    ],
    "e": "SET was developed in 1997 by MasterCard and VISA.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Not the answer here: SET was developed by MasterCard and VISA, not Microsoft and Intel.",
+    "Not the answer here: SET was developed by MasterCard and VISA, not Netscape and IBM.",
+    "Not the answer here: SET was developed by MasterCard and VISA, not Apple and Google."
+   ]
   },
   {
    "q": "Which protocol is an early attempt to secure 802.11 wireless networks?",
@@ -2267,7 +3292,12 @@
     "SET"
    ],
    "e": "WEP was the early 802.11 security protocol, later replaced by WPA and WPA2.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A later Wi-Fi security standard that replaced WEP. It is not the early 802.11 protocol.",
+    "The Robust Security Network framework behind WPA2, not the early 802.11 protocol.",
+    "A payment transaction protocol from 1997, not a wireless security protocol."
+   ]
   },
   {
    "q": "Which protocol is the open-source framework for TCP/IP security using Diffie-Hellman and bulk encryption?",
@@ -2278,7 +3308,12 @@
     "S/MIME"
    ],
    "e": "IPSec is the open framework for TCP/IP security, using Diffie-Hellman, signatures and bulk encryption.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Secures a connection at the transport layer, not the TCP/IP-level framework described.",
+    "An e-mail encryption and signing system, not a TCP/IP security framework.",
+    "An e-mail security standard built on MIME, not a TCP/IP-level framework."
+   ]
   },
   {
    "q": "Which protocol builds on MIME and uses digital signatures based on public-key cryptosystems?",
@@ -2289,7 +3324,12 @@
     "SET"
    ],
    "e": "S/MIME builds on MIME and adds public-key digital signatures. PEM and PGP are the closest confusion, since they are also e-mail security protocols, and PGP is the one from Phil Zimmermann in 1991.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "An earlier e-mail security standard. It is not the MIME-based protocol with public-key signatures described.",
+    "An e-mail security program from Phil Zimmermann. It is not a MIME-based standard.",
+    "A payment card protocol, not an e-mail security protocol."
+   ]
   },
   {
    "q": "Bluetooth can be exploited by anyone within approximately:",
@@ -2300,7 +3340,12 @@
     "1 mile"
    ],
    "e": "Bluetooth can be exploited by anyone within about 30 feet. The closest numeric confusions are 3 feet and 300 feet, which the notes do not give.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Too short. The notes give about 30 feet as the range within which Bluetooth can be exploited.",
+    "Not the figure in the notes; the notes give about 30 feet.",
+    "Far beyond the approximately 30-foot range given in the notes."
+   ]
   },
   {
    "q": "How many sources of physical loss are listed?",
@@ -2311,7 +3356,12 @@
     "10"
    ],
    "e": "The slides list seven sources of physical loss: extreme temperature, gases, liquids, living organisms, projectiles, movement and energy anomalies. The closest counts are 5 and 9, which are not the list.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Not the answer here: the slides list seven sources of physical loss, not five.",
+    "Not the answer here: the slides list seven sources of physical loss, not nine.",
+    "Not the answer here: the slides list seven sources of physical loss, not ten."
+   ]
   },
   {
    "q": "When an authorized individual opens a door and others also enter, this is:",
@@ -2322,7 +3372,12 @@
     "Social engineering"
    ],
    "e": "Tailgating is following an authorized person through a door; shoulder surfing and social engineering are different attacks.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Inventing a false scenario to obtain information from a person. It does not involve following someone through a door.",
+    "Watching someone enter data or credentials. It is not following an authorized person through an entry point.",
+    "A broad term for manipulating people. Tailgating is one specific physical technique within it."
+   ]
   },
   {
    "q": "A small enclosure with an entry point and a different exit point is a:",
@@ -2333,7 +3388,12 @@
     "Padded cell"
    ],
    "e": "A mantrap is a small enclosure with a different entry and exit point.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A gate that lets one person through at a time. It is not an enclosure with separate entry and exit points.",
+    "A hardened host or defended system in network security. It is not a physical enclosure.",
+    "Not the answer here: a padded cell is an isolation environment for a suspicious system, not a physical entry enclosure with a different exit."
+   ]
   },
   {
    "q": "A lock that stays locked when power fails is:",
@@ -2344,7 +3404,12 @@
     "Fail-soft"
    ],
    "e": "A fail-secure lock stays locked when power fails. Fail-safe is the closest confusion, since a fail-safe lock unlocks so people can get out.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Unlocks when power fails so people can get out. This is the opposite behavior.",
+    "Unlocks on failure, so it does not stay locked when power fails.",
+    "Not the answer here: the question asks for the term for a lock that stays locked, and fail-soft is not the notes' term for that."
+   ]
   },
   {
    "q": "A lock that unlocks when power fails so people can exit is:",
@@ -2355,7 +3420,12 @@
     "Fail-hard"
    ],
    "e": "A fail-safe lock unlocks when power fails so people can get out. Fail-secure is the closest confusion, since a fail-secure lock stays locked.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Stays locked when power fails. This is the opposite of unlocking for exit.",
+    "Usually means the device stays closed on failure, which matches fail-secure rather than the exit-unlocking fail-safe.",
+    "Not the answer here: fail-hard is not a door lock behavior term in the notes and does not describe unlocking for exit."
+   ]
   },
   {
    "q": "Which people often have the greatest degree of unsupervised access to offices?",
@@ -2366,7 +3436,12 @@
     "Auditors"
    ],
    "e": "Custodial staff often have the most unsupervised access to offices.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Usually hold authority and visibility, but do not typically have the most unsupervised access to offices.",
+    "Usually work at a set post under supervision, so they do not have the most unsupervised office access.",
+    "Not the answer here: auditors have scheduled, observed access to records rather than the most unsupervised office access."
+   ]
   },
   {
    "q": "Which fire extinguisher classes exist in the slides?",
@@ -2377,7 +3452,12 @@
     "X, Y, Z"
    ],
    "e": "The extinguisher classes listed are A, B, C, D and K. A, B, C, E, F is the closest confusion because it shares the first three letters but not D and K.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Not the answer here: E and F are not the extinguisher classes listed; D and K are.",
+    "Not the answer here: extinguisher classes are letter codes, not numbers.",
+    "Not the answer here: X, Y and Z are not extinguisher classes."
+   ]
   },
   {
    "q": "Which gas-based fire suppressant is ozone-depleting and prohibited in new installations?",
@@ -2388,7 +3468,12 @@
     "Nitrogen"
    ],
    "e": "Halon is clean but ozone-depleting, so new installations are prohibited.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Suffocates a fire by removing oxygen. It is not the ozone-depleting gas prohibited in new installations.",
+    "An inert gas agent that is not ozone-depleting. It is not the prohibited halon.",
+    "An inert gas agent that is not ozone-depleting. It is not the prohibited halon."
+   ]
   },
   {
    "q": "Which fire suppression agent removes the oxygen supply?",
@@ -2399,7 +3484,12 @@
     "Water mist"
    ],
    "e": "Carbon dioxide suppresses fire by removing oxygen.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Interrupts the chemical reaction of fire rather than removing the oxygen supply as its main action.",
+    "A water-based extinguisher that cools the fire. It does not remove oxygen.",
+    "Works mainly by cooling the fire with fine water droplets, not by removing the oxygen supply."
+   ]
   },
   {
    "q": "GFCI is capable of:",
@@ -2410,7 +3500,12 @@
     "Detecting smoke"
    ],
    "e": "A GFCI quickly detects and interrupts a ground fault.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Raises or changes voltage. A GFCI cuts power on a fault and does not boost voltage.",
+    "Not a cooling device. A GFCI is an electrical safety device.",
+    "Smoke detectors detect fire. A GFCI detects current leakage to ground."
+   ]
   },
   {
    "q": "Which program was created to reduce the risk of electromagnetic radiation monitoring?",
@@ -2421,7 +3516,12 @@
     "InfraGard"
    ],
    "e": "TEMPEST addresses electromagnetic radiation monitoring (electromagnetic interception).",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A certification and accreditation process for systems. It is not a program for electromagnetic emanation control.",
+    "A law giving public access to government records. It is not a radiation countermeasure program.",
+    "A public-private partnership for information sharing. It is not an electromagnetic protection program."
+   ]
   },
   {
    "q": "Which software is stored on laptops and reports to a central monitoring center?",
@@ -2432,7 +3532,12 @@
     "Kerberos"
    ],
    "e": "CompuTrace is software on laptops that reports to a central monitoring center.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Addresses electromagnetic emanations. It is not tracking software on laptops.",
+    "A tarpit tool that slows attacks. It is not laptop tracking software.",
+    "A network authentication protocol using tickets. It is not laptop tracking software."
+   ]
   },
   {
    "q": "A tool used to create a project plan with tasks, resources, dates and dependencies is the:",
@@ -2443,7 +3548,12 @@
     "SWOT matrix"
    ],
    "e": "A work breakdown structure lists tasks with people, dates, effort, expenses and dependencies.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A model for layering security controls from policies to applications. It is not a project planning tool.",
+    "Ranks risks by impact and likelihood. It does not list tasks, resources, dates and dependencies.",
+    "Analyzes strengths, weaknesses, opportunities and threats. It does not plan tasks, dates and dependencies."
+   ]
   },
   {
    "q": "The four conversion strategies are:",
@@ -2454,7 +3564,12 @@
     "Cut, copy, paste and merge"
    ],
    "e": "The four conversion strategies are direct changeover, phased, pilot and parallel operations.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Descriptive words, not the named conversion strategies.",
+    "Describe types of backup or recovery sites, not system conversion strategies.",
+    "Editing operations, not system conversion strategies."
+   ]
   },
   {
    "q": "The bull's-eye model addresses layers in which order?",
@@ -2465,7 +3580,12 @@
     "Systems, policies, applications, networks"
    ],
    "e": "The bull's-eye model works from general to specific: policies, networks, systems, applications. Reversed or reshuffled orders are the closest confusion.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Reverses the general-to-specific order, starting from the most specific layer.",
+    "Places networks before policies, breaking the general-to-specific order.",
+    "Mixes the layers. Policies should come first as the most general layer."
+   ]
   },
   {
    "q": "Lewin's change model has which steps?",
@@ -2476,7 +3596,12 @@
     "Initiate, execute, close"
    ],
    "e": "Lewin's change model is unfreezing, moving, refreezing.",
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The Plan-Do-Check-Act cycle from quality management, not Lewin's change model.",
+    "A Six Sigma DMAIC sequence, not Lewin's change model.",
+    "Project management process phases, not Lewin's change steps."
+   ]
   },
   {
    "q": "Which three steps help managers reduce resistance to change?",
@@ -2487,7 +3612,12 @@
     "Notify, delay, ignore"
    ],
    "e": "Managers reduce resistance by communicating, educating and involving people.",
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A coercive approach that increases resistance rather than reducing it.",
+    "Project delivery steps, not methods for reducing resistance to change.",
+    "Ignoring and delaying concerns would increase resistance rather than reduce it."
+   ]
   },
   {
    "q": "Authorization of an IT system to process, store or transmit information is:",
@@ -2498,7 +3628,12 @@
     "Verification"
    ],
    "e": "Accreditation is the formal authorization to process, store or transmit information. Certification is the closest confusion; it evaluates controls against requirements but does not authorize the system.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Evaluates controls against requirements but does not formally authorize the system.",
+    "Confirms that a system meets user needs. It is not the formal authorization to operate.",
+    "Confirms that a system meets specifications. It is not the formal authorization decision."
+   ]
   },
   {
    "q": "Evaluation of technical and nontechnical security controls to show design meets requirements is:",
@@ -2509,7 +3644,12 @@
     "Registration"
    ],
    "e": "Certification is the evaluation of technical and nontechnical controls to show the design meets requirements. Accreditation is the closest confusion; it is the formal authorization to process information.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "The formal authorization decision based on certification results, not the evaluation itself.",
+    "Not the answer here: the question asks for the evaluation step, and authorization is the decision that follows it.",
+    "Not the answer here: registration is not the evaluation of technical and nontechnical controls."
+   ]
   },
   {
    "q": "How many phases does NIACAP have?",
@@ -2520,7 +3660,12 @@
     "6"
    ],
    "e": "NIACAP has four phases: definition, verification, validation and post-accreditation. The closest numeric distractors are 3, 5 and 6.",
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Not the answer here: the notes list four NIACAP phases.",
+    "Not the answer here: the notes list four NIACAP phases, not five.",
+    "Not the answer here: the notes list four NIACAP phases, not six."
+   ]
   },
   {
    "q": "Which is NOT a phase of NIACAP?",
@@ -2531,7 +3676,12 @@
     "Validation"
    ],
    "d": "A",
-   "e": "NIACAP has four phases: definition, verification, validation and post-accreditation. Initiation is a phase name from the NIST SP 800-64 SDLC list, not NIACAP."
+   "e": "NIACAP has four phases: definition, verification, validation and post-accreditation. Initiation is a phase name from the NIST SP 800-64 SDLC list, not NIACAP.",
+   "x": [
+    "A NIACAP phase, so it does not fit the NOT question.",
+    "A NIACAP phase, so it does not fit the NOT question.",
+    "A NIACAP phase, so it does not fit the NOT question."
+   ]
   },
   {
    "q": "In NIACAP, which phase comes immediately after verification?",
@@ -2542,7 +3692,12 @@
     "Certification"
    ],
    "d": "A",
-   "e": "The NIACAP order is definition, verification, validation, post-accreditation. Certification is an evaluation concept, not a NIACAP phase."
+   "e": "The NIACAP order is definition, verification, validation, post-accreditation. Certification is an evaluation concept, not a NIACAP phase.",
+   "x": [
+    "Comes first in NIACAP, before verification rather than after it.",
+    "Comes after validation, not directly after verification.",
+    "An evaluation concept, not a NIACAP phase in this order."
+   ]
   },
   {
    "q": "Which is NOT one of the 12 threat categories in Table 2-5?",
@@ -2553,7 +3708,12 @@
     "Forces of nature"
    ],
    "d": "D",
-   "e": "Social engineering is discussed under human error or failure, not as its own category. The other three are among the 12 categories."
+   "e": "Social engineering is discussed under human error or failure, not as its own category. The other three are among the 12 categories.",
+   "x": [
+    "One of the 12 threat categories in Table 2-5, so it does not fit the NOT question.",
+    "One of the 12 threat categories, so it does not fit the NOT question.",
+    "One of the 12 threat categories, so it does not fit the NOT question."
+   ]
   },
   {
    "q": "An Intel Pentium CPU flaw is an example of which threat category?",
@@ -2564,7 +3724,12 @@
     "Deviations in quality of service"
    ],
    "d": "A",
-   "e": "Equipment failure, such as a defective CPU, is a technical hardware failure. Technical software failures cover bugs, code problems and unknown loopholes."
+   "e": "Equipment failure, such as a defective CPU, is a technical hardware failure. Technical software failures cover bugs, code problems and unknown loopholes.",
+   "x": [
+    "Covers bugs, code problems and unknown loopholes, not a defective CPU.",
+    "Covers outdated technology that is no longer supported, not a hardware defect.",
+    "Covers service provider failures such as outages, not a defective CPU."
+   ]
   },
   {
    "q": "Illegal confiscation of equipment or information falls under which threat category?",
@@ -2575,7 +3740,12 @@
     "Information extortion"
    ],
    "d": "A",
-   "e": "Theft is the illegal confiscation of equipment or information. Espionage or trespass is unauthorized access and data collection, and extortion is blackmail or disclosure threats."
+   "e": "Theft is the illegal confiscation of equipment or information. Espionage or trespass is unauthorized access and data collection, and extortion is blackmail or disclosure threats.",
+   "x": [
+    "Unauthorized access and data collection, not taking equipment or information.",
+    "Destroying or altering systems or data, not taking them.",
+    "Demanding payment through threats to disclose or harm information, not confiscation."
+   ]
   },
   {
    "q": "Which characteristic of information is the quality of having value for some purpose or end?",
@@ -2586,7 +3756,12 @@
     "Possession"
    ],
    "d": "D",
-   "e": "Utility means information is useful for a purpose. Accuracy is freedom from error, authenticity is being genuine, and possession is ownership or control."
+   "e": "Utility means information is useful for a purpose. Accuracy is freedom from error, authenticity is being genuine, and possession is ownership or control.",
+   "x": [
+    "Freedom from error. It concerns correctness, not usefulness for a purpose.",
+    "Genuineness of origin. It concerns being real, not being useful.",
+    "Ownership or control of information. It does not describe its value for a purpose."
+   ]
   },
   {
    "q": "Which characteristic is the quality of being genuine or original rather than a reproduction or fabrication?",
@@ -2597,7 +3772,12 @@
     "Possession"
    ],
    "d": "D",
-   "e": "Authenticity concerns genuineness of origin. Accuracy means free from mistakes or errors."
+   "e": "Authenticity concerns genuineness of origin. Accuracy means free from mistakes or errors.",
+   "x": [
+    "Freedom from mistakes or errors. It does not describe genuineness of origin.",
+    "Usefulness for a purpose. It does not describe being genuine or original.",
+    "Ownership or control of information. It does not describe being genuine."
+   ]
   },
   {
    "q": "In NIST SP 800-64 Rev. 2, which phase directly follows Implementation/Assessment?",
@@ -2608,7 +3788,12 @@
     "Development/Acquisition"
    ],
    "d": "D",
-   "e": "The order is Initiation, Development/Acquisition, Implementation/Assessment, Operations and Maintenance, Disposal."
+   "e": "The order is Initiation, Development/Acquisition, Implementation/Assessment, Operations and Maintenance, Disposal.",
+   "x": [
+    "Comes after Operations and Maintenance, not directly after implementation and assessment.",
+    "The first phase of the lifecycle, before the development and implementation steps.",
+    "Comes before implementation and assessment in the lifecycle, not after."
+   ]
   },
   {
    "q": "In the NIST Cybersecurity Framework 7-step implementation, which step comes right after creating a current profile?",
@@ -2619,7 +3804,12 @@
     "Implement action plan"
    ],
    "d": "D",
-   "e": "The steps are prioritize and scope, orient, create current profile, conduct risk assessment, create target profile, determine/analyze/prioritize gaps, implement action plan."
+   "e": "The steps are prioritize and scope, orient, create current profile, conduct risk assessment, create target profile, determine/analyze/prioritize gaps, implement action plan.",
+   "x": [
+    "Comes earlier, as step 2, before the current profile is created.",
+    "Comes later, as step 5, after the risk assessment.",
+    "The final step, which comes after gaps are analyzed."
+   ]
   },
   {
    "q": "In the NIST CSF 7-step implementation, which step comes immediately before implementing the action plan?",
@@ -2630,7 +3820,12 @@
     "Orient"
    ],
    "d": "D",
-   "e": "Gap analysis (step 6) feeds the action plan (step 7). Creating the target profile is step 5."
+   "e": "Gap analysis (step 6) feeds the action plan (step 7). Creating the target profile is step 5.",
+   "x": [
+    "Step 5, which comes after the gap analysis rather than before the action plan.",
+    "Step 4, which comes before the target profile and the gap analysis.",
+    "Step 2, far earlier in the sequence."
+   ]
   },
   {
    "q": "What is the second stage of the business impact analysis?",
@@ -2641,7 +3836,12 @@
     "Develop the contingency plan"
    ],
    "d": "D",
-   "e": "BIA stages are: determine processes and criticality, identify recovery priorities for system resources, then identify resource requirements."
+   "e": "BIA stages are: determine processes and criticality, identify recovery priorities for system resources, then identify resource requirements.",
+   "x": [
+    "The first BIA stage, not the second.",
+    "The third BIA stage, which comes after recovery priorities are identified.",
+    "A later planning step, not a BIA stage."
+   ]
   },
   {
    "q": "In the 7-step contingency planning process, which step immediately follows conducting the BIA?",
@@ -2652,7 +3852,12 @@
     "Develop the CP policy statement"
    ],
    "d": "D",
-   "e": "The order is policy statement, BIA, preventive controls, contingency strategies, plan development, testing/training/exercises, plan maintenance."
+   "e": "The order is policy statement, BIA, preventive controls, contingency strategies, plan development, testing/training/exercises, plan maintenance.",
+   "x": [
+    "Comes after preventive controls in the process, not immediately after the BIA.",
+    "Comes later, after contingency strategies are created.",
+    "The policy statement is the first step, before the BIA."
+   ]
   },
   {
    "q": "In the 7-step contingency planning process, which step comes immediately before ensuring plan maintenance?",
@@ -2663,7 +3868,12 @@
     "Identify preventive controls"
    ],
    "d": "D",
-   "e": "Testing, training and exercises is step 6 and plan maintenance is step 7."
+   "e": "Testing, training and exercises is step 6 and plan maintenance is step 7.",
+   "x": [
+    "Step 5, which comes before testing, training and exercises.",
+    "Step 4, which comes earlier in the process.",
+    "Step 3, which comes earlier in the process."
+   ]
   },
   {
    "q": "Which is the third offense defined by the UK Computer Misuse Act 1990?",
@@ -2674,7 +3884,12 @@
     "Unauthorized interception of electronic communications"
    ],
    "d": "D",
-   "e": "The three offenses are unauthorized access, unauthorized access with intent to commit further offenses, and unauthorized acts to impair operation. Interception is not one of them."
+   "e": "The three offenses are unauthorized access, unauthorized access with intent to commit further offenses, and unauthorized acts to impair operation. Interception is not one of them.",
+   "x": [
+    "The first offense in the Act, not the third.",
+    "The second offense in the Act, not the third.",
+    "Not one of the three offenses in the Act, so it is not the third offense."
+   ]
   },
   {
    "q": "Which is NOT one of the six PCI DSS areas?",
@@ -2685,7 +3900,12 @@
     "Regularly monitor and test networks"
    ],
    "d": "D",
-   "e": "PCI DSS areas: secure networks, protect cardholder data, vulnerability management, strong access control, monitor/test networks, maintain a security policy. Biometrics is not required."
+   "e": "PCI DSS areas: secure networks, protect cardholder data, vulnerability management, strong access control, monitor/test networks, maintain a security policy. Biometrics is not required.",
+   "x": [
+    "A listed PCI DSS area, so it does not fit the NOT question.",
+    "A listed PCI DSS area, so it does not fit the NOT question.",
+    "A listed PCI DSS area, so it does not fit the NOT question."
+   ]
   },
   {
    "q": "Which 1987 law was one of the first attempts to protect federal computer systems by setting minimum security practices?",
@@ -2696,7 +3916,12 @@
     "Economic Espionage Act"
    ],
    "d": "D",
-   "e": "The Computer Security Act of 1987 set minimum practices for federal systems. The CFA Act is 1986, the Privacy Act 1974 and the Economic Espionage Act 1996."
+   "e": "The Computer Security Act of 1987 set minimum practices for federal systems. The CFA Act is 1986, the Privacy Act 1974 and the Economic Espionage Act 1996.",
+   "x": [
+    "Enacted in 1986, not 1987, and aimed at computer crime rather than federal minimum security practices.",
+    "Enacted in 1974, and it governs federal handling of personal records, not federal computer security minimums.",
+    "Enacted in 1996 and addresses economic espionage, not the 1987 minimum practices."
+   ]
   },
   {
    "q": "The National Information Infrastructure Protection Act of 1996 modified which law?",
@@ -2707,7 +3932,12 @@
     "Economic Espionage Act"
    ],
    "d": "D",
-   "e": "The NIIPA amended the CFA Act, adding higher penalties based on value and purpose (commercial advantage, private gain, furthering a crime)."
+   "e": "The NIIPA amended the CFA Act, adding higher penalties based on value and purpose (commercial advantage, private gain, furthering a crime).",
+   "x": [
+    "Set minimum security practices for federal systems in 1987. It was not the law amended by the 1996 act.",
+    "Governs interception and access to electronic communications. It is not the law amended by the 1996 act.",
+    "Addresses economic espionage. It is a separate law, not the one amended by the 1996 act."
+   ]
   },
   {
    "q": "Which of these privacy laws was enacted earliest?",
@@ -2718,7 +3948,12 @@
     "Gramm-Leach-Bliley Act"
    ],
    "d": "D",
-   "e": "Federal Privacy Act 1974, then ECPA 1986, HIPAA 1996, Gramm-Leach-Bliley 1999."
+   "e": "Federal Privacy Act 1974, then ECPA 1986, HIPAA 1996, Gramm-Leach-Bliley 1999.",
+   "x": [
+    "Enacted in 1986, later than the 1974 Federal Privacy Act.",
+    "Enacted in 1996, later than the 1974 Federal Privacy Act.",
+    "Enacted in 1999, the latest of the four and later than the 1974 act."
+   ]
   },
   {
    "q": "Which law and year are correctly paired?",
@@ -2729,7 +3964,12 @@
     "Economic Espionage Act - 1999"
    ],
    "d": "D",
-   "e": "Gramm-Leach-Bliley is 1999. HIPAA is 1996, Sarbanes-Oxley 2002 and the Economic Espionage Act 1996."
+   "e": "Gramm-Leach-Bliley is 1999. HIPAA is 1996, Sarbanes-Oxley 2002 and the Economic Espionage Act 1996.",
+   "x": [
+    "Not the answer here: HIPAA was enacted in 1996, not 1999.",
+    "Not the answer here: Sarbanes-Oxley was enacted in 2002, not 2001.",
+    "Not the answer here: the Economic Espionage Act was enacted in 1996, not 1999."
+   ]
   },
   {
    "q": "In the identity-theft steps coordinated by the FTC, what comes immediately after ordering your credit reports?",
@@ -2740,7 +3980,12 @@
     "Notify the Secret Service"
    ],
    "d": "D",
-   "e": "The sequence is initial fraud alert, order credit reports, identity theft report, then monitor."
+   "e": "The sequence is initial fraud alert, order credit reports, identity theft report, then monitor.",
+   "x": [
+    "Comes earlier, before ordering credit reports.",
+    "Comes after the identity theft report, as a later step.",
+    "Not the answer here: the sequence in the notes does not place this step after ordering credit reports."
+   ]
   },
   {
    "q": "A firm follows legally and ethically prudent security practices and knows the consequences, but never checks whether its controls work. It is meeting:",
@@ -2751,7 +3996,12 @@
     "Neither due care nor due diligence"
    ],
    "d": "D",
-   "e": "Due care is acting prudently and knowing the consequences. Due diligence additionally requires maintaining that standard and ensuring actions are effective."
+   "e": "Due care is acting prudently and knowing the consequences. Due diligence additionally requires maintaining that standard and ensuring actions are effective.",
+   "x": [
+    "Requires maintaining the standard and checking that actions are effective, which this firm does not do.",
+    "The firm does not check its controls, so it does not meet due diligence.",
+    "The firm does follow prudent practices and knows the consequences, so it does meet due care."
+   ]
   },
   {
    "q": "A designated authority formally authorizes a system to process, store and transmit information after reviewing its security evaluation. This is:",
@@ -2762,7 +4012,12 @@
     "Verification"
    ],
    "d": "A",
-   "e": "Accreditation is the formal authorization to operate. Certification is the evaluation of technical and nontechnical controls that precedes it."
+   "e": "Accreditation is the formal authorization to operate. Certification is the evaluation of technical and nontechnical controls that precedes it.",
+   "x": [
+    "The evaluation that precedes authorization, not the formal authorization decision.",
+    "Confirms that a system meets user needs. It is not the formal authorization.",
+    "Confirms that specifications are met. It is not the formal authorization decision."
+   ]
   },
   {
    "q": "An asset is worth $80,000 and an incident would destroy 40% of its value. What is the SLE?",
@@ -2773,7 +4028,12 @@
     "$3,200"
    ],
    "d": "A",
-   "e": "SLE = asset value x exposure factor = 80,000 x 0.40 = 32,000."
+   "e": "SLE = asset value x exposure factor = 80,000 x 0.40 = 32,000.",
+   "x": [
+    "Applies a 60 percent exposure factor instead of the 40 percent given.",
+    "Takes 50 percent of the asset value, not the 40 percent exposure factor.",
+    "Takes 4 percent of the asset value, a decimal shift of the 40 percent exposure factor."
+   ]
   },
   {
    "q": "The SLE of an incident is $30,000 and it is expected once every 5 years (ARO 0.2). What is the ALE?",
@@ -2784,7 +4044,12 @@
     "$30,200"
    ],
    "d": "D",
-   "e": "ALE = SLE x ARO = 30,000 x 0.2 = 6,000."
+   "e": "ALE = SLE x ARO = 30,000 x 0.2 = 6,000.",
+   "x": [
+    "Equals SLE times 5, which inverts the annual rate ARO of 0.2 into a multiplier of years.",
+    "Equals SLE times 0.8, not SLE times the ARO of 0.2.",
+    "Does not match the correct calculation. ALE multiplies SLE by ARO rather than adding to it."
+   ]
   },
   {
    "q": "A safeguard cuts ALE from $50,000 to $10,000 and costs $15,000 per year (ACS). What is the CBA result?",
@@ -2795,7 +4060,12 @@
     "$75,000"
    ],
    "d": "D",
-   "e": "CBA = ALE(prior) - ALE(post) - ACS = 50,000 - 10,000 - 15,000 = 25,000."
+   "e": "CBA = ALE(prior) - ALE(post) - ACS = 50,000 - 10,000 - 15,000 = 25,000.",
+   "x": [
+    "Equals the ALE reduction of 40,000, omitting the 15,000 annual safeguard cost.",
+    "Equals the ALE reduction plus the safeguard cost, adding the cost instead of subtracting it.",
+    "Adds the prior ALE, post-safeguard ALE and safeguard cost instead of subtracting the cost and post-safeguard ALE from the prior ALE."
+   ]
   },
   {
    "q": "ALE before a safeguard is $20,000, ALE after is $8,000, and ACS is $15,000. What is the CBA result?",
@@ -2806,7 +4076,12 @@
     "-$12,000, so the safeguard is not cost-justified"
    ],
    "d": "D",
-   "e": "20,000 - 8,000 - 15,000 = -3,000. A negative CBA means the safeguard costs more than it saves."
+   "e": "20,000 - 8,000 - 15,000 = -3,000. A negative CBA means the safeguard costs more than it saves.",
+   "x": [
+    "Reverses the sign of the correct result, so the safeguard appears to pay for itself.",
+    "Equals the ALE reduction of 12,000, omitting the 15,000 safeguard cost.",
+    "Reverses the ALE reduction and omits the safeguard cost, giving negative 12,000."
+   ]
   },
   {
    "q": "A server worth $150,000 would lose 30% of its value in a flood expected once every 5 years. What is the ALE?",
@@ -2817,7 +4092,12 @@
     "$13,500"
    ],
    "d": "D",
-   "e": "SLE = 150,000 x 0.30 = 45,000; ARO = 1/5 = 0.2; ALE = 45,000 x 0.2 = 9,000."
+   "e": "SLE = 150,000 x 0.30 = 45,000; ARO = 1/5 = 0.2; ALE = 45,000 x 0.2 = 9,000.",
+   "x": [
+    "Equals the SLE alone, omitting the annual rate of 0.2.",
+    "Equals the asset value times the annual rate, skipping the 30 percent exposure factor.",
+    "Applies the 30 percent exposure factor twice, giving 13,500 instead of 9,000."
+   ]
   },
   {
    "q": "An attack with SLE $60,000 is expected once every 4 years. What is the ALE?",
@@ -2828,7 +4108,12 @@
     "$1,500"
    ],
    "d": "A",
-   "e": "ARO = 1/4 = 0.25, so ALE = 60,000 x 0.25 = 15,000."
+   "e": "ARO = 1/4 = 0.25, so ALE = 60,000 x 0.25 = 15,000.",
+   "x": [
+    "Equals SLE divided by ARO, the inverse of the correct multiplication.",
+    "Equals the SLE alone, omitting the annual rate of 0.25.",
+    "Equals SLE times 0.025, shifting the decimal place of the ARO of 0.25."
+   ]
   },
   {
    "q": "Which is NOT a component of an ISSP?",
@@ -2839,7 +4124,12 @@
     "Limitations of liability"
    ],
    "d": "D",
-   "e": "An ISSP has a statement of policy, not a statement of purpose, which is an EISP component. Prohibited use, violations and limitations of liability are ISSP components."
+   "e": "An ISSP has a statement of policy, not a statement of purpose, which is an EISP component. Prohibited use, violations and limitations of liability are ISSP components.",
+   "x": [
+    "An ISSP component, so it does not fit the NOT question.",
+    "An ISSP component, so it does not fit the NOT question.",
+    "An ISSP component, so it does not fit the NOT question."
+   ]
   },
   {
    "q": "Which component belongs to the EISP rather than the ISSP?",
@@ -2850,7 +4140,12 @@
     "Limitations of liability"
    ],
    "d": "D",
-   "e": "EISP components: purpose, information security elements, responsibilities and roles, and references to other standards. The others are ISSP components."
+   "e": "EISP components: purpose, information security elements, responsibilities and roles, and references to other standards. The others are ISSP components.",
+   "x": [
+    "An ISSP component, not an EISP component.",
+    "An ISSP component, not an EISP component.",
+    "An ISSP component, not an EISP component."
+   ]
   },
   {
    "q": "ISO/IEC 27002 is best described as:",
@@ -2861,7 +4156,12 @@
     "Overview and vocabulary"
    ],
    "d": "A",
-   "e": "27002 is the code of practice. 27001 gives ISMS requirements, 27005 risk management and 27000 the overview and vocabulary."
+   "e": "27002 is the code of practice. 27001 gives ISMS requirements, 27005 risk management and 27000 the overview and vocabulary.",
+   "x": [
+    "Gives ISMS requirements. That is ISO/IEC 27001, not 27002.",
+    "Covers information security risk management. That is ISO/IEC 27005, not 27002.",
+    "Gives the overview and vocabulary. That is ISO/IEC 27000, not 27002."
+   ]
   },
   {
    "q": "Which ISO/IEC 27000-series number covers governance of information security?",
@@ -2872,7 +4172,12 @@
     "ISO/IEC 27033"
    ],
    "d": "D",
-   "e": "27014 is governance. 27004 is measurement, 27006 audit/certification bodies and 27033 network security."
+   "e": "27014 is governance. 27004 is measurement, 27006 audit/certification bodies and 27033 network security.",
+   "x": [
+    "Covers information security measurement. It is not governance.",
+    "Covers audit and certification bodies. It is not governance.",
+    "Covers network security. It is not governance."
+   ]
   },
   {
    "q": "The basis for the design, selection and implementation of policies, training programs and technical controls is the:",
@@ -2883,7 +4188,12 @@
     "Baseline"
    ],
    "d": "D",
-   "e": "A blueprint is the basis for design and implementation. A framework is only an outline of the overall strategy."
+   "e": "A blueprint is the basis for design and implementation. A framework is only an outline of the overall strategy.",
+   "x": [
+    "An outline of the overall strategy. It is not the basis for design and implementation.",
+    "The boundary separating trusted and untrusted networks. It is not the design basis.",
+    "A minimum standard level of security. It is not the basis for design and implementation."
+   ]
   },
   {
    "q": "Which is NOT a firewall best practice from the slides?",
@@ -2894,7 +4204,12 @@
     "SMTP data are allowed through"
    ],
    "d": "A",
-   "e": "Telnet to internal servers should be blocked. The other three are listed best practices."
+   "e": "Telnet to internal servers should be blocked. The other three are listed best practices.",
+   "x": [
+    "Telnet to internal servers should be blocked, so permitting it from the public network is the NOT best practice.",
+    "A listed firewall best practice, so it does not fit the NOT question.",
+    "A listed firewall best practice, so it does not fit the NOT question."
+   ]
   },
   {
    "q": "Which authentication system emerged as an alternative to RADIUS?",
@@ -2905,7 +4220,12 @@
     "SESAME"
    ],
    "d": "D",
-   "e": "Diameter is the emerging alternative from RADIUS. TACACS is a separate centralized client/server validation system."
+   "e": "Diameter is the emerging alternative from RADIUS. TACACS is a separate centralized client/server validation system.",
+   "x": [
+    "A centralized client/server validation system. It is not the emerging RADIUS alternative.",
+    "A ticket-based authentication system. It is not the emerging RADIUS alternative.",
+    "A distributed authentication system that extends Kerberos. It is not the emerging RADIUS alternative."
+   ]
   },
   {
    "q": "In Kerberos, which service issues the ticket-granting ticket (TGT)?",
@@ -2916,7 +4236,12 @@
     "Registration authority"
    ],
    "d": "A",
-   "e": "The AS issues the TGT, which the TGS then exchanges for service tickets. The privilege attribute server belongs to SESAME."
+   "e": "The AS issues the TGT, which the TGS then exchanges for service tickets. The privilege attribute server belongs to SESAME.",
+   "x": [
+    "Issues service tickets using a TGT. It does not issue the TGT itself.",
+    "A SESAME component that issues privilege attributes, not a Kerberos ticket-granting ticket issuer.",
+    "A PKI component that handles registration, not a Kerberos ticket issuer."
+   ]
   },
   {
    "q": "Which is NOT one of NIST's four recommended NIDPS sensor locations?",
@@ -2927,7 +4252,12 @@
     "On major network backbones"
    ],
    "d": "D",
-   "e": "The four locations are behind external firewalls in the DMZ, outside an external firewall, on major backbones and on critical subnets. Per-host monitoring is HIDPS."
+   "e": "The four locations are behind external firewalls in the DMZ, outside an external firewall, on major backbones and on critical subnets. Per-host monitoring is HIDPS.",
+   "x": [
+    "A NIST-recommended location for NIDPS sensors.",
+    "A NIST-recommended location for NIDPS sensors.",
+    "A NIST-recommended location for NIDPS sensors."
+   ]
   },
   {
    "q": "An attacker changes the format or timing of an attack so the IDPS fails to recognize it. This IDPS term is:",
@@ -2938,7 +4268,12 @@
     "Tuning"
    ],
    "d": "D",
-   "e": "Evasion is deliberately altering an attack to avoid detection. Tuning is adjusting the IDPS to improve its detection."
+   "e": "Evasion is deliberately altering an attack to avoid detection. Tuning is adjusting the IDPS to improve its detection.",
+   "x": [
+    "Benign or irrelevant events that create false alerts. It is not an attacker altering an attack.",
+    "Benign events that deliberately trigger alarms. It is not an attacker changing an attack to avoid detection.",
+    "Adjusting the IDPS to improve its accuracy. It is not an attacker's method for avoiding detection."
+   ]
   },
   {
    "q": "A Confidential-cleared user is blocked from reading a Secret document. Which rule enforces this?",
@@ -2949,7 +4284,12 @@
     "Biba no read down"
    ],
    "d": "D",
-   "e": "Bell-LaPadula protects confidentiality: no read up and no write down. Biba rules concern integrity."
+   "e": "Bell-LaPadula protects confidentiality: no read up and no write down. Biba rules concern integrity.",
+   "x": [
+    "Also a Bell-LaPadula rule, but it prevents writing higher data to lower levels rather than reading up.",
+    "An integrity rule from Biba, not the confidentiality rule that blocks reading up.",
+    "An integrity rule about reading lower-integrity data, not the confidentiality rule against reading up."
+   ]
   },
   {
    "q": "Which is NOT one of the six PGP services?",
@@ -2960,7 +4300,12 @@
     "Key management"
    ],
    "d": "D",
-   "e": "PGP services: digital-signature authentication, message encryption, compression, e-mail compatibility, segmentation and key management."
+   "e": "PGP services: digital-signature authentication, message encryption, compression, e-mail compatibility, segmentation and key management.",
+   "x": [
+    "A listed PGP service, so it does not fit the NOT question.",
+    "A listed PGP service, so it does not fit the NOT question.",
+    "A listed PGP service, so it does not fit the NOT question."
+   ]
   },
   {
    "q": "Which is NOT one of the seven sources of physical loss?",
@@ -2971,7 +4316,12 @@
     "Gases"
    ],
    "d": "D",
-   "e": "The seven are extreme temperature, gases, liquids, living organisms, projectiles, movement and energy anomalies."
+   "e": "The seven are extreme temperature, gases, liquids, living organisms, projectiles, movement and energy anomalies.",
+   "x": [
+    "A listed source of physical loss, so it does not fit the NOT question.",
+    "A listed source of physical loss, so it does not fit the NOT question.",
+    "A listed source of physical loss, so it does not fit the NOT question."
+   ]
   },
   {
    "q": "Class C fire extinguishers are intended for fires involving:",
@@ -2982,7 +4332,12 @@
     "Combustible metals"
    ],
    "d": "A",
-   "e": "Class C is electrical. A is ordinary combustibles, B flammable liquids, D combustible metals, and K cooking oils."
+   "e": "Class C is electrical. A is ordinary combustibles, B flammable liquids, D combustible metals, and K cooking oils.",
+   "x": [
+    "Ordinary combustibles are Class A fires, such as wood, paper and cloth. The question asks about energized electrical equipment, which is a Class C fire.",
+    "Flammable liquids, such as gasoline, oil and paint thinner, are Class B fires. They are not electrical, so this extinguisher class does not match the question.",
+    "Combustible metals, such as magnesium and sodium, are Class D fires. They need specialized dry powder agents and are not electrical fires."
+   ]
   },
   {
    "q": "Which conversion strategy runs the old and new systems side by side until the new one proves reliable?",
@@ -2993,7 +4348,12 @@
     "Direct changeover"
    ],
    "d": "A",
-   "e": "Parallel operations run both systems together. Pilot implements the whole system in one location first and phased rolls out one component at a time."
+   "e": "Parallel operations run both systems together. Pilot implements the whole system in one location first and phased rolls out one component at a time.",
+   "x": [
+    "Pilot implementation tries the new system in one location or group first. It does not run the old and new systems side by side across the organization.",
+    "Phased implementation rolls out the new system one component or module at a time. It does not run the old and new systems together for the whole operation.",
+    "Direct changeover stops the old system and switches fully to the new one at once. It does not keep both systems running in parallel."
+   ]
   },
   {
    "q": "Which is NOT one of the eight project planning considerations?",
@@ -3004,7 +4364,12 @@
     "Organizational feasibility"
    ],
    "d": "D",
-   "e": "The eight are financial, priority, time and scheduling, staffing, procurement, organizational feasibility, training and indoctrination, and scope."
+   "e": "The eight are financial, priority, time and scheduling, staffing, procurement, organizational feasibility, training and indoctrination, and scope.",
+   "x": [
+    "Procurement is one of the eight planning considerations, covering acquiring resources and materials. It is on the list, so it is not the answer to NOT.",
+    "Training and indoctrination is one of the eight planning considerations, covering preparing staff for the project. It is on the list, so it is not the answer to NOT.",
+    "Organizational feasibility is one of the eight planning considerations, assessing whether the project fits the organization. It is on the list, so it is not the answer to NOT."
+   ]
   },
   {
    "q": "In BIA recovery metrics, RTO plus WRT must not exceed the:",
@@ -3015,7 +4380,12 @@
     "Annualized rate of occurrence (ARO)"
    ],
    "d": "D",
-   "e": "MTD is the total downtime an organization can tolerate and is made up of the recovery time (RTO) plus work recovery time (WRT)."
+   "e": "MTD is the total downtime an organization can tolerate and is made up of the recovery time (RTO) plus work recovery time (WRT).",
+   "x": [
+    "Recovery point objective (RPO) is the maximum tolerable data loss, measured in time. It limits data loss, not the total downtime that RTO plus WRT must fit within.",
+    "Mean time between failures (MTBF) is the average operating time between system failures. It is a reliability measure, not a recovery time limit.",
+    "Annualized rate of occurrence (ARO) is the expected number of times a threat occurs per year. It is a risk analysis figure, not a downtime limit."
+   ]
   }
  ],
  "cards": [

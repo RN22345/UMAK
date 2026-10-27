@@ -11,7 +11,13 @@
     "Allocates CPU time only",
     "Compiles user programs"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Adding physical memory is a hardware upgrade, not what the OS does as an extended machine. The OS abstracts existing hardware rather than adding to it.",
+    "Allocating CPU time is one OS job, but it is not what makes the OS an extended machine. That idea is about hiding hardware complexity.",
+    "Compiling user programs is done by a compiler or toolchain, not by the operating system's abstraction role."
+   ],
+   "e": "The OS presents a simpler, more convenient view of the hardware through abstractions such as files and system calls, so programmers do not handle device details directly."
   },
   {
    "q": "Dividing a resource among users by giving each one a part of it (e.g., memory) is called:",
@@ -21,7 +27,13 @@
     "Spooling",
     "Swapping"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Time multiplexing shares a resource by giving each user it in turns, as with the CPU. Here the resource is divided into parts, so it is space multiplexing.",
+    "Spooling queues device input or output in a buffer, usually on disk, so jobs run later. It does not divide a resource into parts for each user.",
+    "Swapping moves whole processes between main memory and disk. It is not the act of giving each user a part of a resource."
+   ],
+   "e": "Space multiplexing gives each user a fixed portion of a resource, such as a region of memory or disk blocks, which is what the question describes."
   },
   {
    "q": "Sharing a CPU by letting processes take turns is called:",
@@ -31,7 +43,13 @@
     "Paging",
     "Segmentation"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Space multiplexing gives each user a fixed portion of a resource. The question is about taking turns on the CPU, which is time multiplexing.",
+    "Paging divides memory into fixed-size pages for address translation. It is a memory management method, not a way for processes to take turns on the CPU.",
+    "Segmentation divides a program's address space into logical segments. It does not describe processes taking turns on a processor."
+   ],
+   "e": "Time multiplexing lets each process use the CPU for a short interval, then switches to another, so many processes share one processor."
   },
   {
    "q": "In which mode does the operating system run with full access to the hardware?",
@@ -41,7 +59,13 @@
     "Safe mode",
     "Virtual mode"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "User mode is the restricted mode where application programs run. Programs in user mode cannot directly execute privileged hardware instructions.",
+    "Safe mode is a diagnostic boot option in some systems, not a CPU privilege level that grants full hardware access.",
+    "Not the answer here: virtual mode does not name the OS privilege level in this question. The privileged level with full hardware access is kernel mode."
+   ],
+   "e": "Kernel mode, also called supervisor mode, lets the OS execute all instructions and access all hardware. User programs run in restricted user mode."
   },
   {
    "q": "A program requests a kernel service through a:",
@@ -51,7 +75,13 @@
     "Subroutine library only",
     "Device driver"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A shell script is a file of commands run by a shell interpreter. It runs as a user program and is not the kernel service request mechanism.",
+    "A subroutine library only runs in user space. Library calls may wrap system calls, but the kernel service request itself is a system call.",
+    "A device driver is kernel code that controls a specific hardware device. It is not the interface a program uses to request general kernel services."
+   ],
+   "e": "A program asks the kernel for a service, such as opening a file or creating a process, by making a system call, which switches the CPU into kernel mode."
   },
   {
    "q": "The shell of an operating system is:",
@@ -61,7 +91,13 @@
     "A device driver",
     "A file system"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The core of the kernel is the part that manages processes, memory and hardware. The shell is a user-level program that sits outside the kernel.",
+    "A device driver controls one hardware device. The shell only accepts commands from the user and passes them on to the OS.",
+    "A file system organizes data on storage. The shell is a command interpreter, which is a separate user program rather than a storage structure."
+   ],
+   "e": "The shell reads user commands and starts programs or system services on the user's behalf. It runs outside the kernel as an ordinary user program."
   },
   {
    "q": "Batch systems and punched cards belong to which OS generation?",
@@ -71,7 +107,13 @@
     "Third (ICs)",
     "Fourth (PCs)"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "First generation machines used vacuum tubes, which came before transistors. Batch systems and punched cards belong to the later transistor era.",
+    "Third generation used integrated circuits, which came after the transistor era. Batch systems were the hallmark of the earlier second generation.",
+    "Fourth generation is the era of personal computers and GUIs. Batch systems and punched cards predate it by decades."
+   ],
+   "e": "Second-generation computers used transistors, and batch processing with punched cards was typical of that era, which the question describes."
   },
   {
    "q": "Multiprogramming, spooling and timesharing appeared in the:",
@@ -81,7 +123,13 @@
     "Second generation",
     "Fourth generation"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "First generation machines used vacuum tubes and had no multiprogramming or spooling. These features came later with more advanced hardware.",
+    "Second generation used transistors with batch processing. Multiprogramming and timesharing appeared after that, with integrated circuits.",
+    "Fourth generation focused on personal computers, networks and GUIs. Multiprogramming, spooling and timesharing were already established by then."
+   ],
+   "e": "Third-generation systems used integrated circuits and introduced multiprogramming, spooling and timesharing to improve CPU use and interactive access."
   },
   {
    "q": "SPOOL stands for:",
@@ -91,7 +139,13 @@
     "Serial Process Operations On Load",
     "Simple Printing Operation On Line"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Not the answer here: System Peripheral Output On Line is not SPOOL's standard expansion. SPOOL means Simultaneous Peripheral Operations On-Line.",
+    "Not the answer here: Serial Process Operations On Load does not match SPOOL. The correct phrase is Simultaneous Peripheral Operations On-Line.",
+    "Not the answer here: Simple Printing Operation On Line is not SPOOL's name. Spooling overlaps I/O with computation, so the correct phrase is Simultaneous Peripheral Operations On-Line."
+   ],
+   "e": "SPOOL stands for Simultaneous Peripheral Operations On-Line. It buffers I/O, such as print jobs on disk, so the CPU and slow devices work at the same time."
   },
   {
    "q": "Which early timesharing system was developed at MIT?",
@@ -101,7 +155,13 @@
     "MS-DOS",
     "MINIX"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "OS/360 is IBM's mainframe operating system family from the 1960s. It was not the MIT timesharing system.",
+    "MS-DOS is a single-user disk operating system from Microsoft for PCs. It did not come from MIT's timesharing work.",
+    "MINIX is a small Unix-like teaching OS by Andrew Tanenbaum, developed at Vrije Universiteit in Amsterdam, not at MIT."
+   ],
+   "e": "CTSS, the Compatible Time-Sharing System, was developed at MIT in the early 1960s and is an early example of timesharing."
   },
   {
    "q": "UNIX is descended from which earlier OS project?",
@@ -111,7 +171,13 @@
     "MINIX",
     "OS/360"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "CP/M is a 1970s disk operating system for microcomputers. It was not the ancestor of UNIX.",
+    "MINIX is a Unix-like teaching system written by Tanenbaum. It was inspired by UNIX rather than being its ancestor.",
+    "OS/360 is IBM's mainframe operating system. UNIX did not descend from it."
+   ],
+   "e": "UNIX was developed at Bell Labs by people who had worked on MULTICS, a timesharing project involving MIT, Bell Labs and GE. UNIX simplified many of its ideas."
   },
   {
    "q": "Who wrote the CP/M operating system?",
@@ -121,7 +187,13 @@
     "Tim Paterson",
     "Dennis Ritchie"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Bill Gates co-founded Microsoft and is associated with MS-DOS, not CP/M. CP/M was created by Kildall.",
+    "Tim Paterson wrote QDOS, which became MS-DOS. He did not write CP/M.",
+    "Dennis Ritchie co-created the C language and UNIX at Bell Labs. He did not write CP/M."
+   ],
+   "e": "Gary Kildall of Digital Research wrote CP/M, a widely used operating system for Intel 8080 and Z80 based microcomputers in the late 1970s."
   },
   {
    "q": "MS-DOS originated from QDOS, written by Tim Paterson at:",
@@ -131,7 +203,13 @@
     "Apple",
     "Xerox"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Digital Research was Kildall's company, which sold CP/M. QDOS was not written there.",
+    "Apple made the Macintosh and Apple II. QDOS was not developed there.",
+    "Xerox PARC developed early GUI and Ethernet ideas. It was not where QDOS was written."
+   ],
+   "e": "Tim Paterson wrote QDOS, the Quick and Dirty Operating System, at Seattle Computer Products, and Microsoft later bought it and sold it as MS-DOS."
   },
   {
    "q": "Who created the Linux kernel?",
@@ -141,7 +219,13 @@
     "Richard Stallman",
     "Ken Thompson"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Andrew Tanenbaum created MINIX, which inspired Linux, but he did not write the Linux kernel.",
+    "Richard Stallman founded the GNU project and the Free Software Foundation. GNU tools were combined with Linux, but he did not create the kernel.",
+    "Ken Thompson co-created UNIX at Bell Labs. He did not write the Linux kernel."
+   ],
+   "e": "Linus Torvalds began the Linux kernel in 1991 as a student in Finland. It is a Unix-like kernel."
   },
   {
    "q": "MINIX was written in 1987 by:",
@@ -151,7 +235,13 @@
     "Dennis Ritchie",
     "Gary Kildall"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Linus Torvalds wrote Linux, which was inspired by MINIX. He did not write MINIX.",
+    "Dennis Ritchie created the C language and co-developed UNIX. MINIX was a separate system by another author.",
+    "Gary Kildall wrote CP/M, not MINIX."
+   ],
+   "e": "Andrew Tanenbaum wrote MINIX, a small Unix-like OS for teaching, and described its design in his operating systems textbook."
   },
   {
    "q": "The graphical user interface was commercialized first by Xerox PARC ideas and then by Apple's:",
@@ -161,7 +251,13 @@
     "IBM PC and PCjr",
     "Amiga and Atari"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Altair was an early hobbyist computer from MITS, and Apple I was Apple's first board. Neither was Apple's commercial GUI machine.",
+    "IBM PC and PCjr were IBM machines. They were not Apple products.",
+    "Amiga and Atari were other companies' machines. Neither is Apple's commercial GUI line."
+   ],
+   "e": "Apple's Lisa in 1983 and Macintosh in 1984 brought a commercial graphical interface with windows, icons and a mouse, using ideas first developed at Xerox PARC."
   },
   {
    "q": "Which OS type must meet strict deadlines, such as in pacemakers and airbags?",
@@ -171,7 +267,13 @@
     "Batch OS",
     "Mainframe OS"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Soft real-time systems prefer deadlines but tolerate occasional misses, such as in multimedia playback. Pacemakers and airbags need hard guarantees.",
+    "A batch OS runs jobs in groups without timing guarantees. It does not meet strict deadlines.",
+    "A mainframe OS is built for large-scale business workloads. It is not defined by hard deadlines."
+   ],
+   "e": "Hard real-time systems must always meet deadlines, because a late response could cause harm. Pacemakers and airbag controllers are examples."
   },
   {
    "q": "Which of these is a real-time operating system?",
@@ -181,7 +283,13 @@
     "Ubuntu Desktop",
     "Windows 98"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "MS-DOS is a single-user general-purpose OS for PCs. It is not designed as a real-time OS.",
+    "Ubuntu Desktop is a general-purpose Linux distribution aimed at desktops, without hard real-time guarantees.",
+    "Windows 98 is a consumer desktop OS. It is not a real-time system."
+   ],
+   "e": "VxWorks is a commercial real-time operating system from Wind River, used in embedded systems such as aerospace and industrial controllers."
   },
   {
    "q": "The six-layer OS designed by Dijkstra in 1968 is called:",
@@ -191,7 +299,13 @@
     "MINIX",
     "VM/370"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "MULTICS was a timesharing system from MIT, Bell Labs and GE, not Dijkstra's six-layer design.",
+    "MINIX is Tanenbaum's teaching OS, a later system. It is not the 1968 design.",
+    "VM/370 is IBM's virtual machine system from the 1970s. It does not match the six-layer design."
+   ],
+   "e": "The THE system, built by Dijkstra in 1968, was organized into six layers, with each layer using only the layers beneath it."
   },
   {
    "q": "Which OS structure runs minimal code in the kernel and most services as user-mode servers?",
@@ -201,7 +315,13 @@
     "Layered",
     "Exokernel"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A monolithic kernel puts most OS services inside the kernel. The question describes a minimal kernel with services in user space.",
+    "A layered OS organizes the system into levels of functionality. Its defining feature is not minimal kernel code with user-mode servers.",
+    "An exokernel gives applications direct access to hardware resources with minimal abstraction. It is not the minimal kernel with user-mode servers design."
+   ],
+   "e": "A microkernel keeps only essential functions such as IPC and basic scheduling in kernel mode, and runs file systems and drivers as user-mode servers."
   },
   {
    "q": "Which OS structure puts all procedures in one big program where any procedure can call any other?",
@@ -211,7 +331,13 @@
     "Layered",
     "Virtual machine"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A microkernel keeps the kernel small and moves services to user-mode servers. Here all procedures are in one big program.",
+    "A layered design separates functions into levels that call only downward. The question describes unrestricted calls between procedures.",
+    "A virtual machine structure presents each user with a simulated machine. It does not describe one big program of procedures."
+   ],
+   "e": "A monolithic kernel is one large program in which all procedures run in kernel mode and can call one another directly, which is fast but harder to maintain."
   },
   {
    "q": "IBM's VM/370 is an example of which structure?",
@@ -221,7 +347,13 @@
     "Exokernel",
     "Layered"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A microkernel keeps minimal services in the kernel. VM/370 instead gives each user a simulated copy of the hardware.",
+    "An exokernel exports raw hardware to library OSes. VM/370 is not defined by that approach.",
+    "A layered design stacks functions in levels. VM/370 is known for simulating full machines for its users."
+   ],
+   "e": "VM/370 is IBM's system that runs multiple virtual machines, each appearing to have its own complete copy of the hardware and an OS."
   },
   {
    "q": "A Type 1 hypervisor runs:",
@@ -231,7 +363,13 @@
     "Inside a container",
     "Only on mobile devices"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A Type 2 hypervisor runs on top of a host OS, such as VirtualBox on Windows. That is the hosted case, not Type 1.",
+    "A container shares the host kernel and is not a hypervisor running on bare metal. Type 1 runs directly on hardware.",
+    "Mobile devices are not the defining platform for hypervisors. Type 1 hypervisors run directly on hardware on servers as well."
+   ],
+   "e": "A Type 1 (bare-metal) hypervisor, such as VMware ESXi or Xen, runs directly on hardware and manages the guest virtual machines itself."
   },
   {
    "q": "Which of these is a Type 2 (hosted) hypervisor?",
@@ -241,7 +379,13 @@
     "Xen",
     "Hyper-V"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "VMware ESXi is a Type 1 hypervisor that runs directly on hardware, not on a host OS.",
+    "Xen is a Type 1 hypervisor that runs directly on hardware. It is not a hosted hypervisor.",
+    "Hyper-V is generally classed as a Type 1 hypervisor, with the host OS running as a privileged partition. It is not a hosted product like VirtualBox."
+   ],
+   "e": "VirtualBox is a hosted hypervisor from Oracle that runs as an application on a host OS such as Windows, Linux or macOS."
   },
   {
    "q": "A process is best described as:",
@@ -251,7 +395,13 @@
     "A set of source code lines",
     "A hardware component"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A file on disk is a stored program, not a running instance. A process exists only while the program executes.",
+    "Source code lines are text written by a programmer. They become a process only when executed.",
+    "A hardware component such as a CPU or disk is physical equipment. A process is a software abstraction."
+   ],
+   "e": "A process is a running instance of a program, with its own address space, registers, and resources managed by the OS."
   },
   {
    "q": "Which UNIX call creates a new process?",
@@ -261,7 +411,13 @@
     "wait()",
     "pipe()"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "exec() replaces the current process image with a new program. It does not create a new process.",
+    "wait() makes a parent wait for a child to finish. It does not create a process.",
+    "pipe() creates a communication channel between processes. It does not create a new process."
+   ],
+   "e": "fork() creates a new child process that is a copy of the calling process. It returns 0 to the child and the child's PID to the parent."
   },
   {
    "q": "Which call replaces a process's program with another?",
@@ -271,7 +427,13 @@
     "wait()",
     "exit()"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "fork() creates a new process. It does not replace the program in the current process.",
+    "wait() blocks the parent until a child terminates. It does not load a new program.",
+    "exit() terminates the calling process. It does not replace the program with another."
+   ],
+   "e": "exec() loads a new program into the current process, replacing its code, data and stack, while keeping the same process ID."
   },
   {
    "q": "Which is NOT a standard process state?",
@@ -281,7 +443,13 @@
     "Running",
     "Blocked"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Ready is a standard process state, meaning the process waits only for the CPU. It is valid, so it is not the one that does not belong.",
+    "Running is a standard state, where the process is executing on the CPU. It is valid, so it is not the answer.",
+    "Blocked is a standard state, where the process waits for an event such as I/O completion. It is valid, so it is not the answer."
+   ],
+   "e": "Compiled is not a process state, because compiling happens before a program becomes a process. The standard states are new, ready, running, blocked and terminated."
   },
   {
    "q": "A process moves from Running to Ready when:",
@@ -291,7 +459,13 @@
     "It finishes",
     "It is created"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Waiting for I/O moves a process from Running to Blocked, not to Ready. It is a different transition.",
+    "A finished process moves to Terminated, not Ready.",
+    "A newly created process is admitted to Ready from New. Creation is not a move from Running."
+   ],
+   "e": "When the time slice (quantum) expires, a timer interrupt preempts the running process, which returns to the ready queue."
   },
   {
    "q": "A process moves from Running to Blocked when:",
@@ -301,7 +475,13 @@
     "It is preempted by a higher priority",
     "It is admitted"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Quantum expiry moves a running process to Ready, not Blocked, because the process could still run.",
+    "Preemption by a higher-priority process moves the preempted process to Ready, since it is still able to run.",
+    "Admission moves a process from New to Ready. It does not block a running process."
+   ],
+   "e": "A process that requests I/O cannot continue until the device finishes, so it blocks and waits for an I/O event rather than remaining ready."
   },
   {
    "q": "The data structure holding a process's information (PID, registers, state) is the:",
@@ -311,7 +491,13 @@
     "Inode",
     "Boot sector"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A page table maps virtual pages to physical frames for one process. It does not hold the PID and scheduling state.",
+    "An inode stores file attributes and disk block addresses. It is not a process record.",
+    "A boot sector holds the startup code of a disk. It is unrelated to process data."
+   ],
+   "e": "The Process Control Block stores the PID, register values, program counter, state, and other information the OS needs to resume a process."
   },
   {
    "q": "A terminated process whose parent has not yet collected its exit status is a:",
@@ -321,7 +507,13 @@
     "Daemon",
     "Thread"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "An orphan is a child whose parent has terminated, and it is still running. It is not an exited process awaiting collection.",
+    "A daemon is a background process that runs continuously. It is not a terminated process waiting for collection.",
+    "A thread is a unit of execution within a process. It is not an exited process awaiting its parent's wait."
+   ],
+   "e": "A zombie has exited but still has an entry in the process table until its parent calls wait() to collect the exit status."
   },
   {
    "q": "Threads of the same process share:",
@@ -331,7 +523,13 @@
     "Program counter",
     "CPU registers"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Each thread has its own stack, so stacks are not shared. Threads of a process share the address space instead.",
+    "Each thread has its own program counter, so it is not shared among threads.",
+    "Each thread has its own set of CPU registers, which are saved and restored when switching threads."
+   ],
+   "e": "Threads in one process share the address space (code, global data, heap) and open files, but each has its own stack, program counter and registers."
   },
   {
    "q": "Each thread has its own:",
@@ -341,7 +539,13 @@
     "Global variables",
     "Open file table"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The heap is memory shared by all threads of a process, so it is not private to one thread.",
+    "Global variables live in the shared data area and are visible to all threads of the process.",
+    "The open file table belongs to the process and is shared among its threads."
+   ],
+   "e": "Each thread has its own stack and program counter (and registers), which lets it run its own path of code while sharing the rest of the process."
   },
   {
    "q": "A situation in which the outcome depends on the timing of processes is a:",
@@ -351,7 +555,13 @@
     "Livelock",
     "Starvation"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Deadlock is a state where processes wait forever for resources held by each other. It is not timing-dependent outcome behavior.",
+    "Livelock is when processes keep changing state in response to each other without making progress. It is not the timing-dependent outcome described.",
+    "Starvation is when a process is repeatedly denied resources. It describes unfair waiting, not results that depend on timing."
+   ],
+   "e": "A race condition occurs when processes access shared data concurrently and the result depends on which one runs first, often fixed with mutual exclusion."
   },
   {
    "q": "Who invented semaphores (P and V operations)?",
@@ -361,7 +571,13 @@
     "Andrew Tanenbaum",
     "Leslie Lamport"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Tony Hoare is known for monitors and Hoare logic, not for semaphores. Semaphores are credited to Dijkstra.",
+    "Andrew Tanenbaum wrote MINIX and OS textbooks, not the semaphore.",
+    "Leslie Lamport is known for logical clocks and Paxos, not for semaphores."
+   ],
+   "e": "Edsger Dijkstra introduced semaphores with the P (wait) and V (signal) operations as a synchronization tool for concurrent processes."
   },
   {
    "q": "Which scheduling algorithm is non-preemptive and processes jobs in arrival order?",
@@ -371,7 +587,13 @@
     "SRTN",
     "Priority with preemption"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Round Robin is preemptive and gives each process a time quantum. It does not run jobs strictly in arrival order to completion.",
+    "SRTN is preemptive and picks the job with the shortest remaining time. It is not arrival-order scheduling.",
+    "Priority with preemption can interrupt a running job for a higher-priority one. It is not non-preemptive arrival-order scheduling."
+   ],
+   "e": "First-come, first-served runs processes in arrival order and never preempts a running process, which makes it simple but can cause long waits."
   },
   {
    "q": "Which algorithm is provably optimal for average waiting time when all jobs arrive together?",
@@ -381,7 +603,13 @@
     "Round Robin",
     "Lottery"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "FCFS runs jobs in arrival order and is not optimal for average waiting time when jobs arrive together.",
+    "Round Robin gives equal time slices and does not minimize average waiting time.",
+    "Lottery scheduling picks processes by random tickets. It is not provably optimal for average waiting time."
+   ],
+   "e": "Shortest Job First minimizes average waiting time for non-preemptive jobs that all arrive together, by running the shortest job first."
   },
   {
    "q": "Preemptive Shortest Job First is called:",
@@ -391,7 +619,13 @@
     "Round Robin",
     "Multilevel queue"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "FCFS is non-preemptive and runs jobs in arrival order. It does not preempt for shorter jobs.",
+    "Round Robin uses fixed time slices, not the shortest remaining time.",
+    "Multilevel queue separates processes into queues by type or priority. It is not preemptive SJF."
+   ],
+   "e": "Shortest Remaining Time Next is preemptive SJF: whenever a new job arrives with less remaining time than the running one, the CPU switches to it."
   },
   {
    "q": "Round Robin scheduling gives each process a fixed:",
@@ -401,7 +635,13 @@
     "Memory partition",
     "Page"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Priority is a ranking of processes, not the fixed time share given in Round Robin.",
+    "A memory partition is a region of memory, not a CPU time share.",
+    "A page is a fixed-size block of memory used in paging, unrelated to CPU time slices."
+   ],
+   "e": "Round Robin gives each process a fixed time quantum, and when it expires the running process goes to the back of the ready queue."
   },
   {
    "q": "If the Round Robin quantum is extremely large, it behaves like:",
@@ -411,7 +651,13 @@
     "Priority scheduling",
     "Lottery scheduling"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "SJF picks the shortest job next, which is different from Round Robin with a very large quantum.",
+    "Priority scheduling picks by rank, not by arrival order, so it does not match Round Robin with a huge quantum.",
+    "Lottery scheduling is random, so it does not behave like Round Robin with a very large quantum."
+   ],
+   "e": "With a very large quantum, no process is preempted before it finishes, so processes run to completion in arrival order, which is FCFS."
   },
   {
    "q": "Starvation in priority scheduling is solved by:",
@@ -421,7 +667,13 @@
     "Spooling",
     "Swapping"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Compaction moves memory contents to merge free holes. It does not raise the priority of waiting processes.",
+    "Spooling buffers I/O through a queue. It does not address starvation in scheduling.",
+    "Swapping moves whole processes between memory and disk. It does not gradually raise priorities."
+   ],
+   "e": "Aging gradually increases the priority of processes that wait a long time, so low-priority processes eventually get the CPU and do not starve."
   },
   {
    "q": "Waiting time is computed as:",
@@ -431,7 +683,13 @@
     "Burst time minus arrival time",
     "Response time plus burst time"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Completion minus arrival is turnaround time, not waiting time.",
+    "Burst minus arrival mixes the CPU burst with the arrival time, which has no standard meaning here.",
+    "Response time plus burst does not define waiting time. Waiting time is the time spent in the ready queue."
+   ],
+   "e": "Waiting time is the total time a process spends in the ready queue. It equals turnaround time minus burst time, since turnaround includes waiting and execution."
   },
   {
    "q": "Turnaround time is computed as:",
@@ -441,7 +699,13 @@
     "Burst time plus arrival time",
     "First response minus arrival"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Waiting minus burst reverses the relation. Turnaround time is waiting time plus burst time.",
+    "Burst plus arrival adds two unrelated values and gives no turnaround time.",
+    "First response minus arrival is response time, the delay until the first run, not turnaround time."
+   ],
+   "e": "Turnaround time is the total time from arrival to completion, covering waiting and execution."
   },
   {
    "q": "FCFS example: P1 (24), P2 (3), P3 (3) arrive in that order. The average waiting time is:",
@@ -451,7 +715,13 @@
     "13",
     "27"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "3 is the burst time of P2 or P3, not an average waiting time. Both wait behind the 24-unit P1.",
+    "13 does not match the FCFS waits of 0, 24 and 27. Those waits are not reached by any order of these jobs that matches FCFS.",
+    "27 is only P3's waiting time, the last process in the queue. The average also counts P1 and P2."
+   ],
+   "e": "Under FCFS, P1 waits 0, P2 waits 24 and P3 waits 27, so the average is 51 divided by 3, which is 17."
   },
   {
    "q": "Which is NOT one of the four Coffman conditions for deadlock?",
@@ -461,7 +731,13 @@
     "Hold and wait",
     "Circular wait"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Mutual exclusion is one of the four Coffman conditions, where a resource can be held by only one process at a time.",
+    "Hold and wait is a Coffman condition, where a process holds resources while requesting others.",
+    "Circular wait is a Coffman condition, where processes form a cycle of waits."
+   ],
+   "e": "The four Coffman conditions are mutual exclusion, hold and wait, no preemption, and circular wait. The condition is no preemption, not preemption itself."
   },
   {
    "q": "Banker's algorithm is used for deadlock:",
@@ -471,7 +747,13 @@
     "Ignoring",
     "Recovery"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Detection only lets deadlocks occur and then finds them. Banker's algorithm checks each request before granting it.",
+    "Ignoring deadlocks is the ostrich approach, not a method the Banker's algorithm uses.",
+    "Recovery breaks a deadlock after it occurs, such as by killing processes. Banker's algorithm avoids the unsafe state beforehand."
+   ],
+   "e": "Banker's algorithm is a deadlock avoidance method that grants a request only if the system remains in a safe state afterward."
   },
   {
    "q": "The \"ostrich algorithm\" for deadlocks means:",
@@ -481,7 +763,13 @@
     "Preventing circular wait",
     "Using more memory"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Killing all processes is a recovery approach, not ignoring the problem.",
+    "Preventing circular wait is a prevention strategy, which the ostrich approach does not use.",
+    "Using more memory has no role in the ostrich approach to deadlock."
+   ],
+   "e": "The ostrich algorithm pretends deadlocks do not occur, which is acceptable when they are rare and handling them would cost more than they do."
   },
   {
    "q": "Imposing a numbering order on resources prevents which deadlock condition?",
@@ -491,7 +779,13 @@
     "Hold and wait",
     "No preemption"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Mutual exclusion requires exclusive resource use. Numbering resources does not remove it.",
+    "Hold and wait is removed by requesting all resources at once. Ordering resources does not address it.",
+    "No preemption is removed by allowing resources to be taken away. Ordering resources does not do that."
+   ],
+   "e": "Requiring processes to request resources in increasing numerical order means no cycle of waits can form, which breaks circular wait."
   },
   {
    "q": "Which registers solve relocation and protection in simple multiprogramming?",
@@ -501,7 +795,13 @@
     "Index and accumulator",
     "Instruction and data registers"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The program counter and stack pointer track execution and the stack, not memory relocation and protection.",
+    "Index and accumulator registers are general CPU registers for computation, not relocation or protection.",
+    "Instruction and data registers hold current values in the CPU, not the limits of a process's memory region."
+   ],
+   "e": "Base and limit registers give a process a relocated memory region starting at base, with the limit checked so it cannot access memory outside its range."
   },
   {
    "q": "Which memory allocation algorithm picks the smallest hole that is big enough?",
@@ -511,7 +811,13 @@
     "Worst fit",
     "Next fit"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "First fit takes the first hole big enough, not the smallest one that fits.",
+    "Worst fit takes the largest hole, the opposite of best fit.",
+    "Next fit continues searching from the last allocation point, not from the smallest suitable hole."
+   ],
+   "e": "Best fit searches the free list and selects the smallest hole that is large enough, leaving the smallest leftover fragment."
   },
   {
    "q": "Fragmentation that occurs inside an allocated block is:",
@@ -521,7 +827,13 @@
     "Checkerboarding",
     "Thrashing"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "External fragmentation is free memory split into scattered holes between allocated blocks, not waste inside a block.",
+    "Checkerboarding is free and used memory scattered in small pieces, a form of external fragmentation, so it is not waste inside a block.",
+    "Thrashing is excessive paging that stalls the CPU, a performance problem rather than wasted space inside a block."
+   ],
+   "e": "Internal fragmentation is unused space inside an allocated block, such as a partition larger than the process it holds, or a page not fully used."
   },
   {
    "q": "Segmentation mainly suffers from which problem?",
@@ -531,7 +843,13 @@
     "Belady's anomaly",
     "Lack of sharing"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Segmentation does not mainly suffer from internal fragmentation. Its variable-sized segments leave gaps between them.",
+    "Belady's anomaly is when more frames cause more page faults under FIFO. It is a paging issue, not segmentation's main problem.",
+    "Lack of sharing is not the main problem. Segments can be shared, which is an advantage of segmentation."
+   ],
+   "e": "Segments are variable-sized, so memory becomes scattered into holes that are too small to use, which is external fragmentation."
   },
   {
    "q": "In paging, physical memory is divided into fixed-size blocks called:",
@@ -541,7 +859,13 @@
     "Sectors",
     "Partitions"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Segments are variable-sized logical units of a program, not fixed-size physical blocks of memory.",
+    "Sectors are fixed-size units on a disk, not blocks of main memory.",
+    "Partitions are regions of memory, often variable-sized, not the fixed blocks used in paging."
+   ],
+   "e": "In paging, physical memory is divided into fixed-size frames, and the virtual address space is divided into pages of the same size."
   },
   {
    "q": "A virtual address in a paging system consists of:",
@@ -551,7 +875,13 @@
     "Base and bound",
     "Cylinder and head"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Segment and limit describe segmentation addressing, not paging's page-and-offset split.",
+    "Base and bound is a simple relocation scheme, not a paged address.",
+    "Cylinder and head are disk geometry terms used to locate a sector, not a memory address."
+   ],
+   "e": "A paged virtual address has a page number, which indexes the page table, and an offset, which gives the byte position within the page."
   },
   {
    "q": "The hardware cache that stores recent page-table entries is the:",
@@ -561,7 +891,13 @@
     "DMA",
     "BIOS"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The MMU is the hardware that performs address translation. The TLB is a cache inside it, so the MMU is not the cache itself.",
+    "DMA lets devices transfer data to memory without the CPU. It has nothing to do with caching page-table entries.",
+    "BIOS is firmware that initializes hardware at boot. It is not a translation cache."
+   ],
+   "e": "The Translation Lookaside Buffer caches recent virtual-to-physical page translations so that most memory accesses avoid a slower page-table lookup."
   },
   {
    "q": "A page fault occurs when:",
@@ -571,7 +907,13 @@
     "A process terminates",
     "A disk crashes"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Memory full of frames may mean a replacement is needed, but a fault happens only when the referenced page is absent.",
+    "A process terminating frees its memory and does not cause a page fault.",
+    "A disk crash is a hardware failure. A page fault is a normal event when the referenced page is not resident."
+   ],
+   "e": "A page fault is a trap that occurs when a process references a page that is not currently in a frame in main memory, so the OS must load it."
   },
   {
    "q": "Which page replacement algorithm is theoretically the best but cannot be implemented in practice?",
@@ -581,7 +923,13 @@
     "FIFO",
     "Clock"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "LRU evicts the least recently used page. It is implementable and approximates Optimal, but it is not optimal.",
+    "FIFO evicts the oldest-loaded page without looking at future use. It is not optimal and can suffer Belady's anomaly.",
+    "Clock approximates LRU using a use bit. It is practical, not theoretically best."
+   ],
+   "e": "Optimal replacement evicts the page that will not be used for the longest time in the future, giving the fewest faults, but it needs future knowledge."
   },
   {
    "q": "Belady's anomaly can occur with which page replacement algorithm?",
@@ -591,7 +939,13 @@
     "Optimal",
     "Stack-based algorithms"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "LRU is a stack algorithm, so it does not suffer Belady's anomaly.",
+    "Optimal is a stack algorithm and cannot exhibit Belady's anomaly.",
+    "Stack-based algorithms have the stack property that avoids Belady's anomaly, so they are not the answer."
+   ],
+   "e": "Belady's anomaly, where more frames cause more faults, occurs with FIFO. FIFO is not a stack algorithm, so it lacks the stack property."
   },
   {
    "q": "Excessive paging that makes the CPU idle is called:",
@@ -601,7 +955,13 @@
     "Compaction",
     "Aging"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Spooling buffers device I/O in a queue and is not excessive paging.",
+    "Compaction moves memory contents to combine free space. It is not a paging problem.",
+    "Aging raises priorities over time to prevent starvation. It is unrelated to paging."
+   ],
+   "e": "Thrashing happens when a system spends most of its time swapping pages in and out because processes lack enough frames, so the CPU does little useful work."
   },
   {
    "q": "With 4 KB pages, virtual address 8196 maps to which page and offset?",
@@ -611,7 +971,13 @@
     "Page 2, offset 8196",
     "Page 3, offset 0"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Page 1, offset 4 corresponds to address 4100, not 8196. Pages are 4096 bytes, so 8196 falls in page 2.",
+    "Page 2, offset 8196 is not valid, since offsets run from 0 to 4095. Does not match the correct calculation.",
+    "Page 3, offset 0 starts at address 12288, which is too high. Does not match the correct calculation."
+   ],
+   "e": "With 4 KB (4096-byte) pages, 8196 divided by 4096 gives quotient 2 and remainder 4, so the address is on page 2 at offset 4."
   },
   {
    "q": "Which technique lets a device transfer data to memory without CPU involvement?",
@@ -621,7 +987,13 @@
     "Interrupt-driven I/O",
     "Spooling"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Polling makes the CPU repeatedly check device status, so the CPU stays involved in every transfer.",
+    "Interrupt-driven I/O lets the device signal the CPU when done, but the CPU still moves each data word. DMA moves the data itself.",
+    "Spooling buffers jobs in a queue, usually on disk. It does not transfer data without CPU involvement."
+   ],
+   "e": "Direct Memory Access uses a DMA controller to move blocks of data between a device and memory, interrupting the CPU only when the transfer is complete."
   },
   {
    "q": "Busy waiting on a device status register is known as:",
@@ -631,7 +1003,13 @@
     "Interrupt-driven I/O",
     "Memory-mapped I/O"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "DMA lets a controller move data without the CPU polling, so it is not busy waiting.",
+    "Interrupt-driven I/O does not busy-wait, because the device signals the CPU when ready.",
+    "Memory-mapped I/O is an addressing method for device registers, not a busy-waiting technique."
+   ],
+   "e": "Programmed I/O has the CPU repeatedly poll a device's status register until it is ready, which is busy waiting and wastes CPU time."
   },
   {
    "q": "Which of these is a block device?",
@@ -641,7 +1019,13 @@
     "Mouse",
     "Serial port"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A keyboard is a character device, delivering input one key at a time rather than in fixed-size blocks.",
+    "A mouse is a character device that sends movement events, not blocks.",
+    "A serial port is a character device that transfers a stream of bytes, not fixed-size blocks."
+   ],
+   "e": "A hard disk is a block device, which reads and writes data in fixed-size blocks, so it can be accessed at random by block number."
   },
   {
    "q": "Disk access time equals:",
@@ -651,7 +1035,13 @@
     "Latency × transfer time",
     "Seek time − latency"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Seek time plus transfer only omits rotational latency, which is the wait for the sector to rotate under the head.",
+    "Latency times transfer multiplies two time values, which has no meaning for total access time.",
+    "Seek minus latency subtracts a time component, which does not give total access time."
+   ],
+   "e": "Disk access time is the sum of seek time to reach the track, rotational latency to reach the sector, and transfer time to read the data."
   },
   {
    "q": "Which disk scheduling algorithm services the request with the least seek distance first?",
@@ -661,7 +1051,13 @@
     "SCAN",
     "C-SCAN"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "FCFS services requests in arrival order and does not minimize seek distance.",
+    "SCAN sweeps back and forth across the disk, not choosing the nearest request each time.",
+    "C-SCAN sweeps in one direction and then returns, which is not nearest-request-first."
+   ],
+   "e": "Shortest Seek Time First services the pending request closest to the current head position, minimizing each seek, though it can starve distant requests."
   },
   {
    "q": "The \"elevator algorithm\" for disk scheduling is:",
@@ -671,7 +1067,13 @@
     "FCFS",
     "Random"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "SSTF picks the nearest request each time, not a sweep across the disk like an elevator.",
+    "FCFS serves requests in arrival order, not in a sweeping direction.",
+    "Random is not a disk scheduling algorithm."
+   ],
+   "e": "The elevator algorithm, SCAN, moves the head in one direction servicing requests along the way, then reverses at the end, like an elevator."
   },
   {
    "q": "Which RAID level is mirroring?",
@@ -681,7 +1083,13 @@
     "RAID 5",
     "RAID 6"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "RAID 0 stripes data without redundancy, so there is no mirror.",
+    "RAID 5 uses distributed parity, not mirroring.",
+    "RAID 6 uses double parity, not mirroring."
+   ],
+   "e": "RAID 1 mirrors data across two or more disks, so a copy survives if one disk fails."
   },
   {
    "q": "Which RAID level uses striping without redundancy?",
@@ -691,7 +1099,13 @@
     "RAID 5",
     "RAID 10"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "RAID 1 mirrors data for redundancy, not striping without redundancy.",
+    "RAID 5 stripes with parity, so it has redundancy, which the question excludes.",
+    "RAID 10 combines mirroring and striping, so it has redundancy."
+   ],
+   "e": "RAID 0 stripes data across disks for speed and capacity, but has no redundancy, so one disk failure loses all data."
   },
   {
    "q": "The UNIX data structure listing a file's attributes and disk block addresses is the:",
@@ -701,7 +1115,13 @@
     "Superblock",
     "MBR"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "FAT is a file allocation table used by FAT file systems, not the UNIX per-file structure.",
+    "The superblock holds file system-wide information, not per-file attributes and block addresses.",
+    "The MBR holds boot code and the partition table for a disk, not file attributes."
+   ],
+   "e": "An i-node stores a file's attributes such as owner, size and permissions, plus pointers to its disk blocks. The file name is kept in a directory."
   },
   {
    "q": "In the FAT file system, FAT stands for:",
@@ -711,7 +1131,13 @@
     "File Attribute Table",
     "Fixed Allocation Tree"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Not the answer here: Fast Access Table is not the name of the FAT file system. The name is File Allocation Table.",
+    "Not the answer here: File Attribute Table is not FAT's expansion. FAT's table records which clusters belong to each file.",
+    "Not the answer here: Fixed Allocation Tree does not match the FAT acronym."
+   ],
+   "e": "FAT stands for File Allocation Table, a table that records which clusters belong to each file in the FAT file system."
   },
   {
    "q": "Which is the default file system of modern Windows?",
@@ -721,7 +1147,13 @@
     "APFS",
     "ISO 9660"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "ext4 is the default file system of many Linux distributions, not Windows.",
+    "APFS is Apple's file system for macOS and iOS, not Windows.",
+    "ISO 9660 is a file system standard for optical discs, not the default for Windows."
+   ],
+   "e": "NTFS is the default file system for modern Windows versions, supporting permissions, journaling and large volumes."
   },
   {
    "q": "Which Linux command lists running processes?",
@@ -731,7 +1163,13 @@
     "chmod",
     "df"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "ls lists directory contents, not running processes.",
+    "chmod changes file permissions, not process listings.",
+    "df reports disk space usage, not running processes."
+   ],
+   "e": "The ps command displays information about currently running processes, such as their PIDs and states."
   },
   {
    "q": "Which command changes file permissions on Linux?",
@@ -741,7 +1179,13 @@
     "grep",
     "pwd"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "chown changes file ownership, not permissions.",
+    "grep searches text for patterns, not file permissions.",
+    "pwd prints the current working directory, not permissions."
+   ],
+   "e": "chmod changes file mode bits, the read, write and execute permissions for owner, group and others."
   },
   {
    "q": "What does chmod 755 represent?",
@@ -751,7 +1195,13 @@
     "rwxrwxrwx",
     "r-xr-xr-x"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "rw-r--r-- is octal 644, which gives the owner read and write, and others read only.",
+    "rwxrwxrwx is octal 777, giving everyone full permissions.",
+    "r-xr-xr-x is octal 555, which removes the owner's write permission."
+   ],
+   "e": "Octal 7 is rwx for the owner, 5 is r-x for group and others, so chmod 755 gives rwxr-xr-x."
   },
   {
    "q": "Which Windows command shows IP configuration?",
@@ -761,7 +1211,13 @@
     "netstat only",
     "tasklist"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "ifconfig is the Unix or Linux command for interface configuration, not the Windows command.",
+    "netstat shows connections and listening ports, not IP configuration.",
+    "tasklist lists running processes on Windows, not network configuration."
+   ],
+   "e": "ipconfig is the Windows command that displays IP configuration for network adapters, such as IP address, subnet mask and default gateway."
   },
   {
    "q": "Which Linux command prints the current working directory?",
@@ -771,7 +1227,13 @@
     "ls",
     "dir"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "cd changes the current directory and does not print it.",
+    "ls lists files in a directory, not the current path.",
+    "dir lists directory contents on Windows, not the current working directory path."
+   ],
+   "e": "pwd, print working directory, outputs the absolute path of the current working directory."
   },
   {
    "q": "Which sector of a disk holds the Master Boot Record?",
@@ -781,7 +1243,13 @@
     "The last sector",
     "The superblock"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Sector 1 is not where the MBR is located on a standard disk. The MBR is in sector 0.",
+    "The last sector is not the MBR location. The MBR is at the start of the disk.",
+    "The superblock is a file system structure, not the MBR's location."
+   ],
+   "e": "The Master Boot Record is in the first sector of the disk, sector 0, and holds boot code and the partition table."
   },
   {
    "q": "Which 3-2-1 backup rule is correct?",
@@ -791,7 +1259,13 @@
     "3 days, 2 weeks, 1 month",
     "3 users, 2 admins, 1 owner"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "3 disks, 2 servers, 1 tape does not describe the 3-2-1 rule, which concerns copies, media types and location.",
+    "3 days, 2 weeks, 1 month mixes time periods and is not a backup rule.",
+    "3 users, 2 admins, 1 owner has no relation to backup copies."
+   ],
+   "e": "The 3-2-1 rule keeps three copies of data on two different media types, with one copy stored offsite to protect against local disasters."
   },
   {
    "q": "Four jobs with burst times 5, 2, 4 and 1 all arrive at time 0. What is the average waiting time under SJF?",
@@ -802,7 +1276,12 @@
     "3.5"
    ],
    "d": "D",
-   "e": "SJF order is 1, 2, 4, 5 giving waits 0, 1, 3, 7 = 11/4 = 2.75. The 5.75 figure is the SJF average turnaround time (or the FCFS average waiting time), a common mix-up."
+   "e": "SJF order is 1, 2, 4, 5 giving waits 0, 1, 3, 7 = 11/4 = 2.75. The 5.75 figure is the SJF average turnaround time (or the FCFS average waiting time), a common mix-up.",
+   "x": [
+    "5.75 is a common mix-up, such as the SJF average turnaround time or the FCFS average waiting time, not the SJF average waiting time.",
+    "8.75 is not a correct average for these jobs. The SJF waits are 0, 1, 3 and 7, totaling 11.",
+    "3.5 would need a total wait of 14, but the correct SJF waits total 11, giving 2.75."
+   ]
   },
   {
    "q": "P1 (arrival 0, burst 7), P2 (2, 4), P3 (4, 1), P4 (5, 5) run under non-preemptive SJF. What is P2's waiting time?",
@@ -813,7 +1292,12 @@
     "8"
    ],
    "d": "D",
-   "e": "P1 runs 0-7, then P3 7-8, then P2 8-12, so P2 waits 8 - 2 = 6. A waiting time of 1 is what P2 gets under preemptive SRTN."
+   "e": "P1 runs 0-7, then P3 7-8, then P2 8-12, so P2 waits 8 - 2 = 6. A waiting time of 1 is what P2 gets under preemptive SRTN.",
+   "x": [
+    "A waiting time of 1 is what P2 gets under preemptive SRTN, not under non-preemptive SJF, where P1 runs to completion first.",
+    "4 is not P2's waiting time. P2 arrives at time 2 and starts at 8, so it waits 6.",
+    "8 is the time P2 starts running, not its waiting time, which is measured from its arrival at time 2."
+   ]
   },
   {
    "q": "For P1 (arrival 0, burst 7), P2 (2, 4), P3 (4, 1), P4 (5, 5), what is the average waiting time under SRTN (preemptive SJF)?",
@@ -824,7 +1308,12 @@
     "2.75"
    ],
    "d": "D",
-   "e": "Waits are P1 = 10 or 5 plus P4 = 2 or 7 (the tie order does not change the sum), P2 = 1, P3 = 0, total 13/4 = 3.25. Non-preemptive SJF on the same jobs gives 4."
+   "e": "Waits are P1 = 10 or 5 plus P4 = 2 or 7 (the tie order does not change the sum), P2 = 1, P3 = 0, total 13/4 = 3.25. Non-preemptive SJF on the same jobs gives 4.",
+   "x": [
+    "4 is the average waiting time under non-preemptive SJF on the same jobs, not under preemptive SRTN.",
+    "3.75 does not match the SRTN waits, which total 13. Thirteen divided by 4 is 3.25.",
+    "2.75 would need a total wait of 11, but the correct total of waits is 13."
+   ]
   },
   {
    "q": "Round Robin with quantum 20 runs P1 = 53, P2 = 17, P3 = 68, P4 = 24, all arriving at time 0. What is the average waiting time?",
@@ -835,7 +1324,12 @@
     "68"
    ],
    "d": "D",
-   "e": "Completions are P2 = 37, P4 = 121, P1 = 134, P3 = 162, so waits (completion - burst) are 20, 97, 81, 94 and the average is 292/4 = 73. 81 is only P1's wait and 97 only P4's."
+   "e": "Completions are P2 = 37, P4 = 121, P1 = 134, P3 = 162, so waits (completion - burst) are 20, 97, 81, 94 and the average is 292/4 = 73. 81 is only P1's wait and 97 only P4's.",
+   "x": [
+    "81 is only P1's waiting time, not the average across all four processes.",
+    "97 is only P4's waiting time, not the average.",
+    "68 is P3's burst time, not an average waiting time."
+   ]
   },
   {
    "q": "Priority scheduling (lowest number = highest priority) with all jobs at time 0: P1 (burst 10, pri 3), P2 (1, pri 1), P3 (2, pri 3), P4 (1, pri 4), P5 (5, pri 2). What is the average waiting time, with ties broken by order P1 before P3?",
@@ -846,7 +1340,12 @@
     "6.2"
    ],
    "d": "D",
-   "e": "Order P2, P5, P1, P3, P4 gives waits 0, 1, 6, 16, 18 = 41/5 = 8.2. Plain FCFS order P1 to P5 would give waits 0, 10, 11, 13, 14 = 48/5 = 9.6."
+   "e": "Order P2, P5, P1, P3, P4 gives waits 0, 1, 6, 16, 18 = 41/5 = 8.2. Plain FCFS order P1 to P5 would give waits 0, 10, 11, 13, 14 = 48/5 = 9.6.",
+   "x": [
+    "9.6 is the average under plain FCFS order P1 to P5, not under priority order.",
+    "7.4 does not match the priority-order waits 0, 1, 6, 16, 18, which total 41 and average 8.2.",
+    "6.2 would need a total wait of 31, which does not match the priority-order waits totaling 41."
+   ]
   },
   {
    "q": "Under Round Robin with 5 processes and a quantum of 10 ms, what is the longest any ready process must wait for its next turn?",
@@ -857,7 +1356,12 @@
     "60 ms"
    ],
    "d": "A",
-   "e": "No process waits more than (n - 1) x q = 4 x 10 = 40 ms, because the other n - 1 processes each use at most one quantum."
+   "e": "No process waits more than (n - 1) x q = 4 x 10 = 40 ms, because the other n - 1 processes each use at most one quantum.",
+   "x": [
+    "50 ms would need five quantum slots of waiting, but with 5 processes each other process takes one turn, so at most 4 quanta are waited.",
+    "10 ms is only the quantum itself. A process waits for the other processes' turns too.",
+    "60 ms would require six quanta of waiting, which does not match 5 processes and a quantum of 10 ms."
+   ]
   },
   {
    "q": "How many page faults occur with FIFO replacement and 3 frames on the reference string 1, 2, 3, 1, 4, 2?",
@@ -868,7 +1372,12 @@
     "6"
    ],
    "d": "D",
-   "e": "Faults on 1, 2, 3 and 4 (which evicts page 1); the final reference to 2 is still resident, so it is a hit. LRU would evict 2 for page 4 and so fault 5 times."
+   "e": "Faults on 1, 2, 3 and 4 (which evicts page 1); the final reference to 2 is still resident, so it is a hit. LRU would evict 2 for page 4 and so fault 5 times.",
+   "x": [
+    "3 counts only the initial loads of pages 1, 2 and 3, and misses the fault for page 4.",
+    "5 would come from LRU, which evicts page 2 for page 4 and then faults again on page 2.",
+    "6 overcounts. The final reference to 2 is a hit under FIFO because page 2 is still resident."
+   ]
   },
   {
    "q": "On the string 7,0,1,2,0,3,0,4,2,3,0,3,2,1,2,0,1,7,0,1 with 3 frames, the page-fault counts for FIFO, LRU and Optimal are respectively:",
@@ -879,7 +1388,12 @@
     "15, 13, 10"
    ],
    "d": "D",
-   "e": "This classic trace gives FIFO 15, LRU 12 and Optimal 9; Optimal is always the minimum and LRU usually beats FIFO."
+   "e": "This classic trace gives FIFO 15, LRU 12 and Optimal 9; Optimal is always the minimum and LRU usually beats FIFO.",
+   "x": [
+    "16, 12, 8 gives the wrong FIFO count of 15 and an Optimal count below the true minimum of 9.",
+    "14, 11, 9 undercounts FIFO and LRU for this reference string.",
+    "15, 13, 10 gives LRU and Optimal counts that are higher than the classic values of 12 and 9."
+   ]
   },
   {
    "q": "For the string 1,2,3,4,1,2,5,1,2,3,4,5 under FIFO, the page faults with 3 frames and with 4 frames are respectively:",
@@ -890,7 +1404,12 @@
     "9 and 9"
    ],
    "d": "D",
-   "e": "More frames produced more faults (9 then 10), which is Belady's anomaly. LRU and Optimal never behave this way."
+   "e": "More frames produced more faults (9 then 10), which is Belady's anomaly. LRU and Optimal never behave this way.",
+   "x": [
+    "10 and 9 reverses the pattern. It would show fewer faults with 4 frames, which is not what FIFO does on this string.",
+    "9 and 8 would show fewer faults with 4 frames, which is expected from LRU but not from FIFO on this string.",
+    "9 and 9 shows no change in faults, but FIFO faults 10 times with 4 frames on this string."
+   ]
   },
   {
    "q": "A system has 12 tape drives. P0 holds 5 and may need 10 in total, P1 holds 2 and may need 4, P2 holds 2 and may need 9. Using the Banker's algorithm, which process can safely be satisfied and finish first?",
@@ -901,7 +1420,12 @@
     "None; the state is unsafe"
    ],
    "d": "D",
-   "e": "3 drives are free; P1 needs 2 more, P0 needs 5 and P2 needs 7. After P1 finishes, 5 are free so P0 can finish, then P2, giving the safe sequence P1, P0, P2."
+   "e": "3 drives are free; P1 needs 2 more, P0 needs 5 and P2 needs 7. After P1 finishes, 5 are free so P0 can finish, then P2, giving the safe sequence P1, P0, P2.",
+   "x": [
+    "P0 cannot finish first, because it needs 5 more drives and only 3 are free at the start.",
+    "P2 needs 7 more drives, more than the 3 free, so it cannot finish first.",
+    "None is wrong, because the state is safe. P1 can finish first, then P0 and P2 follow."
+   ]
   },
   {
    "q": "Four processes each need up to 3 units of the same resource. What is the minimum number of units that guarantees deadlock cannot occur?",
@@ -912,7 +1436,12 @@
     "12"
    ],
    "d": "D",
-   "e": "The worst case is each process holding 2 (4 x 2 = 8 units) with none free; one extra unit (9) lets someone finish. 8 units could deadlock."
+   "e": "The worst case is each process holding 2 (4 x 2 = 8 units) with none free; one extra unit (9) lets someone finish. 8 units could deadlock.",
+   "x": [
+    "8 is the worst-case total where each of four processes holds 2 units with none free, which can deadlock.",
+    "10 is more than needed. The minimum that guarantees no deadlock is 9, so 10 is not the minimum.",
+    "12 is the total of all maximum demands (4 times 3). That is more than needed, not the minimum."
+   ]
   },
   {
    "q": "With 4 KB pages, virtual address 20500 corresponds to which page number and offset?",
@@ -923,7 +1452,12 @@
     "Page 6, offset 20"
    ],
    "d": "D",
-   "e": "20500 = 5 x 4096 + 20, so the page is 5 and the offset is 20."
+   "e": "20500 = 5 x 4096 + 20, so the page is 5 and the offset is 20.",
+   "x": [
+    "Page 4 with offset 4116 is invalid, since offsets in 4 KB pages run only from 0 to 4095. Page 4 also ends before address 20500.",
+    "Offset 4 is a miscalculated remainder: 20500 minus 5 x 4096 leaves 20, not 4. Page 5 is right, but the offset is wrong.",
+    "Page 6 would start at address 24576, which is above 20500, so it is not the right page. Offset 20 is correct, but the page number is wrong."
+   ]
   },
   {
    "q": "A 32-bit virtual address with 4 KB pages uses how many bits for the page number?",
@@ -934,7 +1468,12 @@
     "16"
    ],
    "d": "A",
-   "e": "4 KB = 2^12 gives a 12-bit offset, leaving 32 - 12 = 20 bits (about 1 million pages). 12 is the offset width."
+   "e": "4 KB = 2^12 gives a 12-bit offset, leaving 32 - 12 = 20 bits (about 1 million pages). 12 is the offset width.",
+   "x": [
+    "12 is the offset width for 4 KB pages (2^12 = 4096), not the page number width. It sets how many bits address bytes within a page.",
+    "A 22-bit page number would leave only 10 offset bits, which describes 1 KB pages, not 4 KB pages.",
+    "A 16-bit page number would leave 16 offset bits, which describes 64 KB pages, not 4 KB pages."
+   ]
   },
   {
    "q": "A bitmap tracks 32 MB of memory using one bit per 4 KB allocation unit. How large is the bitmap?",
@@ -945,7 +1484,12 @@
     "4 KB"
    ],
    "d": "D",
-   "e": "32 MB / 4 KB = 8192 units, so 8192 bits = 1024 bytes = 1 KB."
+   "e": "32 MB / 4 KB = 8192 units, so 8192 bits = 1024 bytes = 1 KB.",
+   "x": [
+    "Using one byte per bit gives 8192 bytes, or 8 KB, which is eight times too large. The bitmap needs one bit per allocation unit.",
+    "128 bytes is 1024 bits, which would cover only 4 MB at 4 KB per unit, not 32 MB.",
+    "4 KB is 32768 bits, four times the 8192 bits needed, so it does not match 32 MB divided into 4 KB units."
+   ]
   },
   {
    "q": "Free holes in list order are 10, 4, 18, 20, 7, 9, 12 and 15 KB. A 12 KB request is served by worst fit. How large is the leftover hole?",
@@ -956,7 +1500,12 @@
     "3 KB"
    ],
    "d": "D",
-   "e": "Worst fit takes the largest hole (20 KB), leaving 8 KB. Best fit would use the exact 12 KB hole (0 left) and first fit the 18 KB hole (6 left)."
+   "e": "Worst fit takes the largest hole (20 KB), leaving 8 KB. Best fit would use the exact 12 KB hole (0 left) and first fit the 18 KB hole (6 left).",
+   "x": [
+    "Best fit, not worst fit: it uses the exact 12 KB hole, leaving 0 KB. That is the tightest fit, not the largest hole.",
+    "First fit's choice: the 18 KB hole is the first one large enough, leaving 6 KB. First fit does not look for the largest hole.",
+    "Taking the 15 KB hole leaves 3 KB, but 15 KB is not the largest hole; the 20 KB hole is."
+   ]
   },
   {
    "q": "A process of 72,766 bytes is placed in 2048-byte pages. How much internal fragmentation occurs in its last page?",
@@ -967,7 +1516,12 @@
     "1024 bytes"
    ],
    "d": "D",
-   "e": "It needs 36 pages (73,728 bytes); the last page holds 72,766 - 35 x 2048 = 1086 bytes, wasting 2048 - 1086 = 962. 1086 is the used part."
+   "e": "It needs 36 pages (73,728 bytes); the last page holds 72,766 - 35 x 2048 = 1086 bytes, wasting 2048 - 1086 = 962. 1086 is the used part.",
+   "x": [
+    "The 1086 bytes is the amount actually used in the last page, not the wasted space. Internal fragmentation is the unused part, 962 bytes.",
+    "A full 2048-byte page of waste would mean the last page holds nothing, but 72,766 bytes fill 35 full pages plus 1086 bytes.",
+    "Half a page does not match the remainder; the unused space in the last page is 962 bytes, not 1024."
+   ]
   },
   {
    "q": "A disk spins at 6000 RPM with an average seek of 8 ms and a transfer time of 1 ms. What is the average access time?",
@@ -978,7 +1532,12 @@
     "10 ms"
    ],
    "d": "D",
-   "e": "One rotation takes 10 ms, so average rotational latency is half, 5 ms; 8 + 5 + 1 = 14 ms. Using a full rotation (19 ms) is the usual error."
+   "e": "One rotation takes 10 ms, so average rotational latency is half, 5 ms; 8 + 5 + 1 = 14 ms. Using a full rotation (19 ms) is the usual error.",
+   "x": [
+    "Using a full 10 ms rotation instead of the 5 ms average latency gives 8 + 10 + 1 = 19 ms. Average latency is half a rotation.",
+    "This counts only the seek and transfer times, leaving out the 5 ms average rotational latency.",
+    "Ten ms is one full rotation alone, ignoring the 8 ms seek and 1 ms transfer. Average latency is half a rotation, 5 ms."
+   ]
   },
   {
    "q": "Head at cylinder 53, request queue 98, 183, 37, 122, 14, 124, 65, 67. What is the total head movement under FCFS?",
@@ -989,7 +1548,12 @@
     "559 cylinders"
    ],
    "d": "D",
-   "e": "FCFS moves 45 + 85 + 146 + 85 + 108 + 110 + 59 + 2 = 640. SSTF on the same queue needs only 236."
+   "e": "FCFS moves 45 + 85 + 146 + 85 + 108 + 110 + 59 + 2 = 640. SSTF on the same queue needs only 236.",
+   "x": [
+    "Would be the total if SSTF were used, which always moves to the nearest pending request. It is not the FCFS total.",
+    "208 is the LOOK total from the next question, which uses a different sweep direction and service order, not FCFS.",
+    "Does not match the correct calculation: FCFS sums each jump in request order from 53, which totals 640."
+   ]
   },
   {
    "q": "Head at 53 moving toward cylinder 0 first, same queue 98, 183, 37, 122, 14, 124, 65, 67. What is the total head movement under LOOK?",
@@ -1000,7 +1564,12 @@
     "640 cylinders"
    ],
    "d": "D",
-   "e": "LOOK reverses at the last request: 53 to 14 is 39, then 14 to 183 is 169, total 208. SCAN goes all the way to cylinder 0 first, giving 53 + 183 = 236."
+   "e": "LOOK reverses at the last request: 53 to 14 is 39, then 14 to 183 is 169, total 208. SCAN goes all the way to cylinder 0 first, giving 53 + 183 = 236.",
+   "x": [
+    "Going all the way to cylinder 0 is SCAN, not LOOK. LOOK reverses at the last request in that direction, cylinder 14.",
+    "Counts only the 14 to 183 leg, leaving out the first move from 53 to 14, which is 39 cylinders.",
+    "This is the FCFS total for the arrival order, which ignores the sweep direction and the LOOK reversal."
+   ]
   },
   {
    "q": "Four 2 TB disks are used in RAID 5. What is the usable capacity?",
@@ -1011,7 +1580,12 @@
     "2 TB"
    ],
    "d": "D",
-   "e": "RAID 5 gives up one disk's worth of space to distributed parity, so (n - 1) x 2 TB = 6 TB. 4 TB would be RAID 6 or RAID 10 with these disks."
+   "e": "RAID 5 gives up one disk's worth of space to distributed parity, so (n - 1) x 2 TB = 6 TB. 4 TB would be RAID 6 or RAID 10 with these disks.",
+   "x": [
+    "Total raw capacity with no parity, so it ignores the space RAID 5 uses for distributed parity.",
+    "Matches RAID 6 or RAID 10 with four disks, which give up two disks' worth or half the capacity, not one.",
+    "A single disk's capacity. RAID 5 with four disks stores data across three disks, not one."
+   ]
   },
   {
    "q": "In Dijkstra's THE system, which layer handles I/O buffering?",
@@ -1022,7 +1596,12 @@
     "Layer 4"
    ],
    "d": "D",
-   "e": "The layers are 0 processor allocation, 1 memory/drum, 2 operator console communication, 3 I/O buffering, 4 user programs, 5 operator process."
+   "e": "The layers are 0 processor allocation, 1 memory/drum, 2 operator console communication, 3 I/O buffering, 4 user programs, 5 operator process.",
+   "x": [
+    "Layer 1 is memory and drum management, not I/O buffering.",
+    "Layer 2 handles communication with the operator console, not I/O buffering.",
+    "Layer 4 holds the user programs, which run above the buffering layer."
+   ]
   },
   {
    "q": "Which OS kernel is classified as a hybrid (monolithic plus microkernel ideas)?",
@@ -1033,7 +1612,12 @@
     "Classic UNIX"
    ],
    "d": "A",
-   "e": "Windows NT and macOS (XNU) are hybrids. MINIX and QNX are microkernels and classic UNIX is monolithic."
+   "e": "Windows NT and macOS (XNU) are hybrids. MINIX and QNX are microkernels and classic UNIX is monolithic.",
+   "x": [
+    "MINIX is a pure microkernel OS, not a hybrid. It keeps only minimal services in kernel mode.",
+    "QNX is also a microkernel design, not a hybrid of monolithic and microkernel ideas.",
+    "Classic UNIX is a monolithic kernel with all services in one kernel space, so it is not a hybrid."
+   ]
   },
   {
    "q": "Which process state transition is NOT possible?",
@@ -1044,7 +1628,12 @@
     "Running to Blocked"
    ],
    "d": "A",
-   "e": "A blocked process must first go Blocked to Ready when its event completes, then be dispatched by the scheduler."
+   "e": "A blocked process must first go Blocked to Ready when its event completes, then be dispatched by the scheduler.",
+   "x": [
+    "Ready to Running is normal: the scheduler dispatches a ready process onto the CPU.",
+    "Running to Ready happens on preemption, such as when a time slice expires.",
+    "Running to Blocked happens when a process waits for I/O or another event."
+   ]
   },
   {
    "q": "Requiring a process to request all the resources it needs before it starts running prevents which deadlock condition?",
@@ -1055,7 +1644,12 @@
     "Mutual exclusion"
    ],
    "d": "A",
-   "e": "If a process never holds some resources while waiting for others, hold and wait is broken. Ordering resources breaks circular wait instead."
+   "e": "If a process never holds some resources while waiting for others, hold and wait is broken. Ordering resources breaks circular wait instead.",
+   "x": [
+    "Circular wait is broken by ordering resources, not by requesting everything up front.",
+    "No preemption is broken by letting the OS take resources back from a waiting process, not by upfront requests.",
+    "Mutual exclusion cannot be removed for non-sharable resources such as printers, so it is not the condition broken here."
+   ]
   },
   {
    "q": "In a resource-allocation graph where resources have multiple instances, a cycle means:",
@@ -1066,7 +1660,12 @@
     "No process is waiting"
    ],
    "d": "D",
-   "e": "A cycle implies deadlock only when every resource has a single instance; with multiple instances it is necessary but not sufficient."
+   "e": "A cycle implies deadlock only when every resource has a single instance; with multiple instances it is necessary but not sufficient.",
+   "x": [
+    "A cycle with multiple instances is only necessary for deadlock. A free instance can still let the cycle resolve, so deadlock is not certain.",
+    "A safe state means a completion order exists, and a cycle does not prove that. A cycle signals possible deadlock, not safety.",
+    "Processes in a cycle are waiting by definition, since each holds one resource in the cycle while requesting another."
+   ]
   },
   {
    "q": "A counting semaphore starts at 3 and five processes each perform one wait (P) with no signals. How many processes are blocked?",
@@ -1077,7 +1676,12 @@
     "0"
    ],
    "d": "D",
-   "e": "The first three waits decrement the count to 0 and succeed; the remaining two block."
+   "e": "The first three waits decrement the count to 0 and succeed; the remaining two block.",
+   "x": [
+    "Three is the initial count, not the blocked count. The first three waits succeed and decrement it to zero.",
+    "Five would mean every wait blocks, but the first three succeed while the count is still positive.",
+    "Zero would mean no process blocks, but after three successful waits the count is zero, so two more must block."
+   ]
   },
   {
    "q": "If one user-level thread makes a blocking system call, what happens?",
@@ -1088,7 +1692,12 @@
     "The thread is converted into a kernel-level thread"
    ],
    "d": "D",
-   "e": "The kernel sees only one schedulable entity, so all user-level threads in the process stall. Kernel-level threads avoid this."
+   "e": "The kernel sees only one schedulable entity, so all user-level threads in the process stall. Kernel-level threads avoid this.",
+   "x": [
+    "Only the calling thread blocking is true for kernel-level threads, where the kernel can schedule the others.",
+    "The kernel cannot schedule user-level threads it does not know about. It only sees the one process.",
+    "A user-level thread is not converted into a kernel-level thread at block time; the whole process blocks instead."
+   ]
   },
   {
    "q": "The modified (dirty) bit in a page-table entry tells the OS that:",
@@ -1099,7 +1708,12 @@
     "The page is write-protected"
    ],
    "d": "D",
-   "e": "A modified page differs from its disk copy. The referenced bit (used by Clock and NRU) records recent use, and the present/absent bit records residence."
+   "e": "A modified page differs from its disk copy. The referenced bit (used by Clock and NRU) records recent use, and the present/absent bit records residence.",
+   "x": [
+    "Recently referenced describes the referenced bit, used by Clock and NRU, not the dirty bit.",
+    "Not present in memory describes the present/absent bit, which tracks whether the page is resident.",
+    "Write-protected is a protection setting, not the dirty bit. The dirty bit records that the page was modified."
+   ]
   },
   {
    "q": "Which chmod mode gives the owner read and write, the group read only, and others no access?",
@@ -1110,7 +1724,12 @@
     "460"
    ],
    "d": "A",
-   "e": "rw- = 4+2 = 6, r-- = 4, --- = 0, so 640 (rw-r-----). 750 would be rwxr-x---."
+   "e": "rw- = 4+2 = 6, r-- = 4, --- = 0, so 640 (rw-r-----). 750 would be rwxr-x---.",
+   "x": [
+    "604 gives the group no access and others read, reversing the required group and others permissions.",
+    "750 gives owner rwx, group r-x and others none, adding execute permissions that are not needed.",
+    "460 gives owner read only and group read and write, which swaps the required owner and group permissions."
+   ]
   },
   {
    "q": "Which kind of OS makes a collection of machines appear as a single uniprocessor system with location transparency?",
@@ -1121,7 +1740,12 @@
     "Real-time OS"
    ],
    "d": "A",
-   "e": "In a network OS users know about the separate machines (remote login, file copy); a distributed OS hides them."
+   "e": "In a network OS users know about the separate machines (remote login, file copy); a distributed OS hides them.",
+   "x": [
+    "A network OS lets users see and address each separate machine, such as by remote login, so it does not hide the machines.",
+    "A multiprogramming OS runs several programs on one machine by interleaving them, and does not span multiple machines.",
+    "A real-time OS guarantees responses within deadlines. It is about timing, not about combining machines into one system."
+   ]
   }
  ],
  "cards": [

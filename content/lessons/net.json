@@ -11,7 +11,13 @@
     "5",
     "6"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Not the answer here: 4 is the number of layers in the TCP/IP model, not the OSI model.",
+    "Not the answer here: 5 matches the simplified five-layer teaching model, not the standard OSI model.",
+    "Not the answer here: 6 leaves out one of the seven OSI layers, so it does not match the standard model."
+   ],
+   "e": "The OSI reference model has seven layers, from Physical at the bottom to Application at the top. The question asks for this total, so 7 is correct."
   },
   {
    "q": "Which OSI layer is responsible for logical addressing and routing?",
@@ -21,7 +27,13 @@
     "Transport",
     "Session"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The Data Link layer, which handles frames and MAC addresses on one local link, not logical routing across networks.",
+    "The Transport layer, which provides end-to-end delivery between processes using ports, not logical addressing and routing.",
+    "The Session layer, which manages dialogs and sessions between applications, not addressing or routing packets."
+   ],
+   "e": "The Network layer handles logical addressing, such as IP addresses, and routing of packets between networks. That matches the question, so Network is correct."
   },
   {
    "q": "Which OSI layer uses MAC addresses and frames?",
@@ -31,7 +43,13 @@
     "Physical",
     "Transport"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The Network layer, which handles logical IP addressing and routing of packets, not MAC addresses or frames.",
+    "The Physical layer, which transmits raw bits over the medium and has no frames or MAC addresses.",
+    "The Transport layer, which handles end-to-end segments and ports, not MAC addresses or frames."
+   ],
+   "e": "The Data Link layer uses MAC addresses for node-to-node delivery on a local link and organizes data into frames. That fits the question, so Data Link is correct."
   },
   {
    "q": "Which OSI layer handles end-to-end delivery, ports and reliability?",
@@ -41,7 +59,13 @@
     "Session",
     "Application"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The Network layer, which handles logical addressing and routing between networks, not end-to-end ports and reliability.",
+    "The Session layer, which opens, manages and closes sessions between applications, not ports or reliable delivery.",
+    "The Application layer, which provides network services to user programs, not transport-level ports and reliability."
+   ],
+   "e": "The Transport layer provides end-to-end delivery between processes using port numbers, and TCP adds reliability on top of it. That fits the question, so Transport is correct."
   },
   {
    "q": "Which OSI layer deals with encryption, compression and data formats?",
@@ -51,7 +75,13 @@
     "Application",
     "Transport"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The Session layer, which manages sessions and dialogs between applications, not encryption or data format conversion.",
+    "The Application layer, which gives user programs network services, not encryption, compression or format translation.",
+    "The Transport layer, which provides end-to-end delivery between processes, not encryption, compression or data formats."
+   ],
+   "e": "The Presentation layer translates data formats and handles encryption and compression, so the data is readable by the receiving application. That matches the question, so Presentation is correct."
   },
   {
    "q": "Which OSI layer establishes, maintains and terminates sessions?",
@@ -61,7 +91,13 @@
     "Transport",
     "Data Link"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The Presentation layer, which handles encryption, compression and data formats, not establishing and ending sessions.",
+    "The Transport layer, which handles end-to-end delivery and ports, not the setup and teardown of sessions.",
+    "The Data Link layer, which handles frames and MAC addresses on a local link, not session management."
+   ],
+   "e": "The Session layer establishes, maintains and terminates sessions between applications on different hosts. That matches the question, so Session is correct."
   },
   {
    "q": "Which OSI layer transmits raw bits over cables and signals?",
@@ -71,7 +107,13 @@
     "Network",
     "Session"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The Data Link layer, which frames data and uses MAC addresses, not the transmission of raw bits on the medium.",
+    "The Network layer, which handles logical addressing and routing of packets, not raw signals on cables.",
+    "The Session layer, which manages sessions between applications, not the physical transmission of bits."
+   ],
+   "e": "The Physical layer transmits raw bits as electrical, optical or radio signals over cables or air. That matches the question, so Physical is correct."
   },
   {
    "q": "The PDU at the Transport layer for TCP is called a:",
@@ -81,7 +123,13 @@
     "Frame",
     "Bit"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The Packet is the Network layer data unit, not the Transport layer unit used by TCP.",
+    "The Frame is the Data Link layer data unit, not the Transport layer unit used by TCP.",
+    "The Bit is the unit of the Physical layer, not the Transport layer unit used by TCP."
+   ],
+   "e": "TCP organizes application data into segments at the Transport layer, each with a sequence number and header. That matches the question, so Segment is correct."
   },
   {
    "q": "The PDU at the Network layer is called a:",
@@ -91,7 +139,13 @@
     "Segment",
     "Datagram only for UDP"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The Frame is the Data Link layer data unit, not the Network layer unit.",
+    "The Segment is the Transport layer data unit, not the Network layer unit.",
+    "Datagram is a generic term for connectionless units and is used for UDP messages, but the question asks for the standard Network layer name, which is packet."
+   ],
+   "e": "At the Network layer, data units are called packets, which carry logical IP addresses and are routed between networks. That matches the question, so Packet is correct."
   },
   {
    "q": "The PDU at the Data Link layer is called a:",
@@ -101,7 +155,13 @@
     "Segment",
     "Bit"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The Packet is the Network layer data unit, not the Data Link layer unit.",
+    "The Segment is the Transport layer data unit, not the Data Link layer unit.",
+    "The Bit is the Physical layer unit of raw signals, not the Data Link layer data unit."
+   ],
+   "e": "The Data Link layer organizes data into frames that carry MAC addresses for delivery on a local link. That matches the question, so Frame is correct."
   },
   {
    "q": "A switch primarily operates at which OSI layer?",
@@ -111,7 +171,13 @@
     "Layer 3",
     "Layer 4"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Layer 1 is the Physical layer, which carries raw signals, not the frame-forwarding work a switch does.",
+    "Layer 3 is the Network layer, where routers operate on IP addresses, not where switches forward frames.",
+    "Layer 4 is the Transport layer, which handles ports and segments, not MAC-based switching."
+   ],
+   "e": "A switch forwards frames by MAC address, which is Layer 2 Data Link work. That matches the question, so Layer 2 is correct."
   },
   {
    "q": "A router primarily operates at which OSI layer?",
@@ -121,7 +187,13 @@
     "Layer 1",
     "Layer 4"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Layer 2 is the Data Link layer, which forwards frames by MAC address, not routing by IP address.",
+    "Layer 1 is the Physical layer, which only moves raw bits and does not route.",
+    "Layer 4 is the Transport layer, which handles ports and segments, not IP routing between networks."
+   ],
+   "e": "A router forwards packets based on IP addresses between networks, which is Layer 3 Network work. That matches the question, so Layer 3 is correct."
   },
   {
    "q": "A hub operates at which OSI layer?",
@@ -131,7 +203,13 @@
     "Layer 3",
     "Layer 7"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Layer 2 is the Data Link layer, which a hub does not use because a hub copies bits without reading frames.",
+    "Layer 3 is the Network layer, which uses IP addresses and routing that a hub does not perform.",
+    "Layer 7 is the Application layer, which provides user services and is far above what a hub does."
+   ],
+   "e": "A hub simply repeats electrical signals to all ports without reading addresses, which is Layer 1 Physical work. That matches the question, so Layer 1 is correct."
   },
   {
    "q": "How many layers does the TCP/IP model have?",
@@ -141,7 +219,13 @@
     "5",
     "3"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "7 is the number of layers in the OSI model, not the TCP/IP model.",
+    "5 is the count in the simplified five-layer hybrid model, not the standard TCP/IP model count.",
+    "3 is not a standard layer count for the TCP/IP model."
+   ],
+   "e": "The TCP/IP model has four layers: Network Access, Internet, Transport and Application. The question asks for this count, so 4 is correct."
   },
   {
    "q": "Which topology connects every node to a central device and is the most common in LANs?",
@@ -151,7 +235,13 @@
     "Ring",
     "Mesh"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Bus is a topology where all nodes share one cable, not a central device connecting every node.",
+    "Ring is a topology where nodes connect in a loop, not through a central device.",
+    "Mesh is a topology where nodes link to many or all others directly, not through a central device."
+   ],
+   "e": "A star topology connects every node to a central switch or hub, which is why it is the most common layout in LANs. That matches the question, so Star is correct."
   },
   {
    "q": "In which topology does a single cable break bring down the network?",
@@ -161,7 +251,13 @@
     "Mesh",
     "Hybrid"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Star is a topology where a central device fails only that link, so one cable break does not bring down the network.",
+    "Mesh has many redundant links, so one cable break does not stop the whole network.",
+    "Hybrid combines several topologies, and its failure behavior depends on the design, not on one cable break."
+   ],
+   "e": "In a bus topology all nodes share a single backbone cable, so a break or fault on that cable disables communication for the whole network. That matches the question, so Bus is correct."
   },
   {
    "q": "How many links does a full mesh of 5 nodes require?",
@@ -171,7 +267,13 @@
     "20",
     "25"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "5 is the number of nodes, not the number of links in a full mesh of 5 nodes.",
+    "20 is n times (n minus 1), which counts each link twice and does not match the calculation.",
+    "25 is n squared, which does not match the correct calculation for a full mesh."
+   ],
+   "e": "In a full mesh each pair of nodes has its own link, so the count is n times (n minus 1) divided by 2. For 5 nodes that is 10 links."
   },
   {
    "q": "Communication in both directions, but not simultaneously, is:",
@@ -181,7 +283,13 @@
     "Simplex",
     "Multiplex"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Full-duplex means both directions at the same time, not alternating turns.",
+    "Simplex means one direction only, not two-way communication.",
+    "Multiplex is a method of combining signals on one channel, not a duplex mode."
+   ],
+   "e": "Half-duplex allows two-way communication but only one direction at a time, like a walkie-talkie. That matches the question, so Half-duplex is correct."
   },
   {
    "q": "Communication in only one direction, such as keyboard to computer or broadcast TV, is:",
@@ -191,7 +299,13 @@
     "Full-duplex",
     "Duplex"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Half-duplex allows two-way communication, but only one direction at a time, not one direction only.",
+    "Full-duplex allows two-way communication at the same time, not one direction only.",
+    "Duplex is a general term for two-way communication, not the name of one-direction mode."
+   ],
+   "e": "Simplex communication flows in only one direction, such as keyboard to computer or broadcast television. That matches the question, so Simplex is correct."
   },
   {
    "q": "Which network type spans a city?",
@@ -201,7 +315,13 @@
     "PAN",
     "WAN"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "LAN covers a single building or campus, not a whole city.",
+    "PAN covers a very small personal area of a few meters, not a city.",
+    "WAN covers large geographic areas such as countries or continents, which is wider than a city."
+   ],
+   "e": "A metropolitan area network, or MAN, spans a city or a large campus area, between a LAN and a WAN in size. That matches the question, so MAN is correct."
   },
   {
    "q": "Bluetooth between a phone and earbuds forms a:",
@@ -211,7 +331,13 @@
     "MAN",
     "WAN"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "LAN covers a building or campus, not a personal area such as a phone and earbuds.",
+    "MAN covers a city, which is much larger than a phone-to-earbud link.",
+    "WAN covers wide geographic areas, which does not match a short Bluetooth connection."
+   ],
+   "e": "A personal area network, or PAN, links devices around one person over a few meters, such as Bluetooth between a phone and earbuds. That matches the question, so PAN is correct."
   },
   {
    "q": "How long is a MAC address?",
@@ -221,7 +347,13 @@
     "64 bits",
     "128 bits"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "32 bits is the length of an IPv4 address, not a MAC address.",
+    "64 bits is the length of an IPv6 interface identifier, not a MAC address.",
+    "128 bits is the length of an IPv6 address, not a MAC address."
+   ],
+   "e": "A MAC address is 48 bits long and is written as six hexadecimal byte pairs. That matches the question, so 48 bits is correct."
   },
   {
    "q": "How long is an IPv4 address?",
@@ -231,7 +363,13 @@
     "64 bits",
     "128 bits"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "48 bits is the length of a MAC address, not an IPv4 address.",
+    "64 bits is half the length of an IPv6 address, not an IPv4 address.",
+    "128 bits is the length of an IPv6 address, not an IPv4 address."
+   ],
+   "e": "An IPv4 address is 32 bits long, written as four decimal octets such as 192.168.1.10. That matches the question, so 32 bits is correct."
   },
   {
    "q": "How long is an IPv6 address?",
@@ -241,7 +379,13 @@
     "32 bits",
     "256 bits"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "64 bits is the size of the IPv6 interface identifier half, not the full IPv6 address.",
+    "32 bits is the length of an IPv4 address, not an IPv6 address.",
+    "256 bits does not match the IPv6 address length, which is fixed at 128 bits."
+   ],
+   "e": "An IPv6 address is 128 bits long, written as eight groups of hexadecimal digits. That matches the question, so 128 bits is correct."
   },
   {
    "q": "Which IPv4 class has first octets from 192 to 223?",
@@ -251,7 +395,13 @@
     "Class B",
     "Class D"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Class A covers first octets from 1 to 126, not 192 to 223.",
+    "Class B covers first octets from 128 to 191, not 192 to 223.",
+    "Class D is reserved for multicast with first octets from 224 to 239, not 192 to 223."
+   ],
+   "e": "Class C addresses have first octets from 192 to 223 and default masks of 255.255.255.0. That matches the question, so Class C is correct."
   },
   {
    "q": "Which IPv4 class is reserved for multicast?",
@@ -261,7 +411,13 @@
     "Class E",
     "Class B"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Class C covers first octets from 192 to 223 and is for unicast hosts, not multicast.",
+    "Class E covers first octets from 240 to 255 and is reserved for experimental use, not multicast.",
+    "Class B covers first octets from 128 to 191 and is for unicast hosts, not multicast."
+   ],
+   "e": "Class D covers first octets from 224 to 239 and is reserved for multicast groups. That matches the question, so Class D is correct."
   },
   {
    "q": "Which address is the IPv4 loopback?",
@@ -271,7 +427,13 @@
     "192.168.0.1",
     "169.254.0.1"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "10.0.0.1 is a private Class A address used on internal networks, not the loopback address.",
+    "192.168.0.1 is a private Class C address commonly used by home routers, not the loopback address.",
+    "169.254.0.1 is a link-local address used when DHCP fails, not the loopback address."
+   ],
+   "e": "127.0.0.1 is the IPv4 loopback address, which lets a host send packets to itself for testing. That matches the question, so 127.0.0.1 is correct."
   },
   {
    "q": "Which of these is a private IPv4 address?",
@@ -281,7 +443,13 @@
     "11.0.0.1",
     "192.169.1.1"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "172.32.5.4 is outside the private Class B range, which ends at 172.31.255.255, so it is public.",
+    "11.0.0.1 is a public address, not part of any private IPv4 range.",
+    "192.169.1.1 is outside the private 192.168.0.0/16 range, so it is public."
+   ],
+   "e": "172.16.5.4 falls in the private 172.16.0.0/12 range, which is reserved for internal use and not routed on the Internet. That matches the question, so 172.16.5.4 is correct."
   },
   {
    "q": "Which address range is APIPA used when DHCP fails?",
@@ -291,7 +459,13 @@
     "10.0.0.0/8",
     "127.0.0.0/8"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "192.168.0.0/16 is a private range used by home and office networks, not the APIPA range.",
+    "10.0.0.0/8 is a private range for large internal networks, not the APIPA range.",
+    "127.0.0.0/8 is the loopback range, not the APIPA range."
+   ],
+   "e": "APIPA gives a host a link-local address from 169.254.0.0/16 when no DHCP server responds. That matches the question, so 169.254.0.0/16 is correct."
   },
   {
    "q": "How many usable hosts are on a /24 network?",
@@ -301,7 +475,13 @@
     "255",
     "252"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Does not match the correct calculation: 256 is the total address count, and it forgets to remove the network and broadcast addresses.",
+    "Does not match the correct calculation: 255 is off by one from the usable count, since two addresses are reserved.",
+    "Does not match the correct calculation: 252 subtracts the wrong number of reserved addresses from the block size."
+   ],
+   "e": "A /24 leaves 8 host bits, so 2 to the power 8 minus 2 gives 254 usable hosts after removing the network and broadcast addresses. That matches the question, so 254 is correct."
   },
   {
    "q": "How many usable hosts are on a /27 network?",
@@ -311,7 +491,13 @@
     "62",
     "14"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "32 is the total address count of a /27, and it forgets to remove the network and broadcast addresses.",
+    "62 is the usable host count of a /26, which has 6 host bits, not a /27.",
+    "14 is the usable host count of a /28, which has 4 host bits, not a /27."
+   ],
+   "e": "A /27 leaves 5 host bits, so 2 to the power 5 minus 2 gives 30 usable hosts. That matches the question, so 30 is correct."
   },
   {
    "q": "How many usable hosts are on a /30 network?",
@@ -321,7 +507,13 @@
     "6",
     "1"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "4 is the total address count of a /30, and it forgets to remove the network and broadcast addresses.",
+    "6 is the usable host count of a /29, which has 3 host bits, not a /30.",
+    "1 does not match the correct calculation, since a /30 has 2 host bits and 2 to the power 2 minus 2 gives 2."
+   ],
+   "e": "A /30 leaves 2 host bits, so 2 to the power 2 minus 2 gives 2 usable hosts, a common size for point-to-point links. That matches the question, so 2 is correct."
   },
   {
    "q": "What is the subnet mask for /26?",
@@ -331,7 +523,13 @@
     "255.255.255.224",
     "255.255.255.0"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "255.255.255.128 is the mask for a /25, which has one fewer network bit than /26.",
+    "255.255.255.224 is the mask for a /27, which has one more network bit than /26.",
+    "255.255.255.0 is the mask for a /24, not a /26."
+   ],
+   "e": "A /26 has 26 network bits, so the last octet has two network bits set: 11000000 in binary, which is 192. That matches the question, so 255.255.255.192 is correct."
   },
   {
    "q": "For 192.168.10.77/26, what is the network address?",
@@ -341,7 +539,13 @@
     "192.168.10.32",
     "192.168.10.76"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "192.168.10.0 is the network address of the first /26 block, not the block containing host .77.",
+    "192.168.10.32 is not a /26 block boundary, since /26 blocks start at .0, .64, .128 and .192.",
+    "192.168.10.76 is a host address inside the block, not the network address."
+   ],
+   "e": "With a /26 mask, blocks are 64 addresses wide, so .77 falls in the block starting at .64. That block's network address is 192.168.10.64. That matches the question, so .64 is correct."
   },
   {
    "q": "For 192.168.10.77/26, what is the broadcast address?",
@@ -351,7 +555,13 @@
     "192.168.10.78",
     "192.168.10.95"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "192.168.10.255 is the broadcast address of a /24 network, not of this /26 block.",
+    "192.168.10.78 is a usable host address in this block, not its broadcast address.",
+    "192.168.10.95 is the end of the 64 to 95 block, which is not the block containing .77."
+   ],
+   "e": "The /26 block containing .77 runs from .64 to .127, so its broadcast address is the last address, 192.168.10.127. That matches the question, so .127 is correct."
   },
   {
    "q": "The usable-host formula for a subnet with h host bits is:",
@@ -361,7 +571,13 @@
     "2^h + 2",
     "h^2 - 2"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "2^h is the total number of addresses, and it forgets to remove the network and broadcast addresses.",
+    "2^h + 2 adds two addresses instead of removing the two reserved ones, which does not match the calculation.",
+    "h^2 minus 2 is not the power-of-two formula, so it does not match the calculation."
+   ],
+   "e": "With h host bits there are 2 to the power h addresses, and two of them are reserved for the network and broadcast, so 2^h minus 2 usable hosts remain. That matches the question, so 2^h - 2 is correct."
   },
   {
    "q": "Which protocol resolves an IP address to a MAC address?",
@@ -371,7 +587,13 @@
     "DHCP",
     "ICMP"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "DNS translates domain names to IP addresses, not IP addresses to MAC addresses.",
+    "DHCP assigns IP configuration to hosts, not MAC resolution.",
+    "ICMP sends error and diagnostic messages such as ping, not address resolution."
+   ],
+   "e": "ARP broadcasts a request on the local network to find the MAC address that belongs to a known IP address. That matches the question, so ARP is correct."
   },
   {
    "q": "Which protocol automatically assigns IP addresses?",
@@ -381,7 +603,13 @@
     "ARP",
     "NAT"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "DNS translates domain names to IP addresses, and does not assign addresses to hosts.",
+    "ARP maps an IP address to a MAC address on the local network, and does not assign addresses.",
+    "NAT translates addresses at a router, and does not assign addresses to hosts."
+   ],
+   "e": "DHCP automatically gives hosts an IP address, subnet mask, default gateway and DNS server using the Discover, Offer, Request, Acknowledge exchange. That matches the question, so DHCP is correct."
   },
   {
    "q": "The four DHCP steps (DORA) are:",
@@ -391,7 +619,13 @@
     "Discover, Open, Route, Assign",
     "Declare, Offer, Request, Allocate"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Detect, Offer, Receive, Accept is not the DHCP message sequence; the real messages are Discover, Offer, Request and Acknowledge.",
+    "Discover, Open, Route, Assign is not the DHCP message sequence; Open and Route are not DHCP message names.",
+    "Declare, Offer, Request, Allocate is not the DHCP message sequence; Declare and Allocate are not DHCP message names."
+   ],
+   "e": "The four DHCP steps are Discover, Offer, Request and Acknowledge, abbreviated DORA. The client broadcasts Discover and the server replies with an address offer. That matches the question, so this option is correct."
   },
   {
    "q": "Which protocol translates domain names to IP addresses?",
@@ -401,7 +635,13 @@
     "ARP",
     "SNMP"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "DHCP assigns IP addresses to hosts, and does not translate domain names.",
+    "ARP maps an IP address to a MAC address on the local network, and does not translate domain names.",
+    "SNMP monitors and manages network devices, and does not translate domain names."
+   ],
+   "e": "DNS resolves domain names such as example.com into IP addresses using a hierarchy of name servers. That matches the question, so DNS is correct."
   },
   {
    "q": "Which DNS record maps a name to an IPv4 address?",
@@ -411,7 +651,13 @@
     "MX",
     "CNAME"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "AAAA maps a name to an IPv6 address, not an IPv4 address.",
+    "MX identifies the mail server for a domain, not an address record.",
+    "CNAME makes one name an alias of another name, and does not map to an IP address."
+   ],
+   "e": "An A record maps a domain name to an IPv4 address. That matches the question, so A is correct."
   },
   {
    "q": "Which DNS record maps a name to an IPv6 address?",
@@ -421,7 +667,13 @@
     "NS",
     "PTR"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A record maps a name to an IPv4 address, not an IPv6 address.",
+    "NS lists the authoritative name servers for a zone, not an address record.",
+    "PTR maps an IP address back to a name, which is the reverse of what the question asks."
+   ],
+   "e": "An AAAA record maps a domain name to an IPv6 address, which is 128 bits long. That matches the question, so AAAA is correct."
   },
   {
    "q": "Which DNS record identifies the mail server for a domain?",
@@ -431,7 +683,13 @@
     "TXT",
     "SOA"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "NS lists the authoritative name servers for a domain, not the mail server.",
+    "TXT stores arbitrary text such as SPF or verification data, not the mail server address.",
+    "SOA holds zone administration data such as the primary server and serial number, not the mail server."
+   ],
+   "e": "An MX record names the mail exchange servers that accept email for a domain, and it includes a priority value. That matches the question, so MX is correct."
   },
   {
    "q": "Which protocol does the ping command use?",
@@ -441,7 +699,13 @@
     "UDP",
     "ARP"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "TCP is a connection-oriented transport protocol, and ping does not use it.",
+    "UDP is a connectionless transport protocol, and ping does not use it.",
+    "ARP resolves IP addresses to MAC addresses, and it is not the protocol that ping uses."
+   ],
+   "e": "Ping sends ICMP echo request messages and waits for ICMP echo replies to test reachability. That matches the question, so ICMP is correct."
   },
   {
    "q": "What does NAT do?",
@@ -451,7 +715,13 @@
     "Assigns MAC addresses",
     "Resolves domain names"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Encryption is done by protocols such as TLS or IPsec, not by NAT.",
+    "Assigning MAC addresses is done by hardware manufacturers, not by NAT.",
+    "Resolving domain names is done by DNS, not by NAT."
+   ],
+   "e": "NAT rewrites the private source address of outgoing packets to a public address, and reverses this for replies. That matches the question, so this option is correct."
   },
   {
    "q": "Which transport protocol is connection-oriented and reliable?",
@@ -461,7 +731,13 @@
     "ICMP",
     "IP"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "UDP is connectionless and does not guarantee delivery, so it is not reliable.",
+    "ICMP carries network control and error messages, not reliable application data.",
+    "IP is the network-layer delivery protocol and does not provide reliable connections."
+   ],
+   "e": "TCP establishes a connection before sending data and retransmits lost segments, so it is connection-oriented and reliable. That matches the question, so TCP is correct."
   },
   {
    "q": "Which transport protocol is connectionless and faster with less overhead?",
@@ -471,7 +747,13 @@
     "SCTP",
     "ARP"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "TCP is connection-oriented and reliable, with more overhead, so it is not the connectionless option.",
+    "SCTP is a message-oriented transport protocol with its own connection setup, so it does not match connectionless UDP.",
+    "ARP is an address resolution protocol, not a transport protocol."
+   ],
+   "e": "UDP sends datagrams without a handshake or acknowledgments, which keeps overhead low and suits DNS queries and streaming. That matches the question, so UDP is correct."
   },
   {
    "q": "The TCP three-way handshake consists of:",
@@ -481,7 +763,13 @@
     "ACK, SYN, SYN-ACK",
     "SYN, FIN, ACK"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "SYN, ACK, FIN is not the handshake order; FIN is used to end a connection, not to open one.",
+    "ACK, SYN, SYN-ACK is not the handshake order, since a connection starts with SYN from the client.",
+    "SYN, FIN, ACK is not the handshake order, since FIN closes a connection and is not part of opening."
+   ],
+   "e": "The TCP three-way handshake is SYN from the client, SYN-ACK from the server, and ACK from the client. That matches the question, so this option is correct."
   },
   {
    "q": "What is the default port of HTTP?",
@@ -491,7 +779,13 @@
     "443",
     "21"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "8080 is a common alternate HTTP port, not the default.",
+    "443 is the default port for HTTPS, not HTTP.",
+    "21 is the default port for FTP control, not HTTP."
+   ],
+   "e": "HTTP uses TCP port 80 by default for unencrypted web traffic. That matches the question, so 80 is correct."
   },
   {
    "q": "What is the default port of HTTPS?",
@@ -501,7 +795,13 @@
     "8443",
     "22"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "80 is the default port for HTTP, not HTTPS.",
+    "8443 is a common alternate HTTPS port used by some services, not the default.",
+    "22 is the default port for SSH, not HTTPS."
+   ],
+   "e": "HTTPS uses TCP port 443 by default for encrypted web traffic. That matches the question, so 443 is correct."
   },
   {
    "q": "What is the default port of DNS?",
@@ -511,7 +811,13 @@
     "25",
     "110"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "67 is the port used by DHCP servers, not DNS.",
+    "25 is the default port for SMTP mail transfer, not DNS.",
+    "110 is the default port for POP3 mail retrieval, not DNS."
+   ],
+   "e": "DNS uses port 53 for queries, over UDP normally and over TCP for large responses and zone transfers. That matches the question, so 53 is correct."
   },
   {
    "q": "What is the default port of SSH?",
@@ -521,7 +827,13 @@
     "21",
     "25"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "23 is the default port for Telnet, not SSH.",
+    "21 is the default port for FTP control, not SSH.",
+    "25 is the default port for SMTP, not SSH."
+   ],
+   "e": "SSH uses TCP port 22 by default to provide encrypted remote login and command access. That matches the question, so 22 is correct."
   },
   {
    "q": "What is the default port of Telnet?",
@@ -531,7 +843,13 @@
     "25",
     "21"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "22 is the default port for SSH, which encrypts sessions, not Telnet.",
+    "25 is the default port for SMTP, not Telnet.",
+    "21 is the default port for FTP control, not Telnet."
+   ],
+   "e": "Telnet uses TCP port 23 by default and sends its session data without encryption. That matches the question, so 23 is correct."
   },
   {
    "q": "What is the default port of FTP control?",
@@ -541,7 +859,13 @@
     "22",
     "69"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "20 is the port used for FTP data transfer, not the control connection.",
+    "22 is the default port for SSH, not FTP.",
+    "69 is the default port for TFTP, not FTP control."
+   ],
+   "e": "FTP control uses TCP port 21 to send commands, while data moves on a separate connection. That matches the question, so 21 is correct."
   },
   {
    "q": "What is the default port of SMTP?",
@@ -551,7 +875,13 @@
     "143",
     "587 only"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "110 is the default port for POP3, which retrieves mail, not SMTP.",
+    "143 is the default port for IMAP, which retrieves mail, not SMTP.",
+    "587 is the submission port used by mail clients to send mail, not the classic SMTP default."
+   ],
+   "e": "SMTP uses TCP port 25 by default to transfer mail between servers. That matches the question, so 25 is correct."
   },
   {
    "q": "What is the default port of POP3?",
@@ -561,7 +891,13 @@
     "25",
     "995 only"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "143 is the default port for IMAP, not POP3.",
+    "25 is the default port for SMTP, which sends mail, not POP3.",
+    "995 is the default port for POP3 over SSL or TLS, not the plain default."
+   ],
+   "e": "POP3 uses TCP port 110 by default to download mail from the server. That matches the question, so 110 is correct."
   },
   {
    "q": "What is the default port of IMAP?",
@@ -571,7 +907,13 @@
     "993 only",
     "25"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "110 is the default port for POP3, not IMAP.",
+    "993 is the default port for IMAP over SSL or TLS, not the plain default.",
+    "25 is the default port for SMTP, which sends mail, not IMAP."
+   ],
+   "e": "IMAP uses TCP port 143 by default to access and sync mail stored on the server. That matches the question, so 143 is correct."
   },
   {
    "q": "What is the default port of RDP?",
@@ -581,7 +923,13 @@
     "5432",
     "1433"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "3306 is the default port for MySQL, not RDP.",
+    "5432 is the default port for PostgreSQL, not RDP.",
+    "1433 is the default port for Microsoft SQL Server, not RDP."
+   ],
+   "e": "RDP, the Remote Desktop Protocol, uses TCP port 3389 by default for graphical remote access to Windows. That matches the question, so 3389 is correct."
   },
   {
    "q": "Which port does MySQL use by default?",
@@ -591,7 +939,13 @@
     "1433",
     "1521"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "5432 is the default port for PostgreSQL, not MySQL.",
+    "1433 is the default port for Microsoft SQL Server, not MySQL.",
+    "1521 is the default port for Oracle Database, not MySQL."
+   ],
+   "e": "MySQL listens on TCP port 3306 by default for client database connections. That matches the question, so 3306 is correct."
   },
   {
    "q": "The well-known port range is:",
@@ -601,7 +955,13 @@
     "49152-65535",
     "1-255"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "1024 to 49151 is the registered port range, not the well-known range.",
+    "49152 to 65535 is the dynamic or private port range, not the well-known range.",
+    "1 to 255 is a subset of the well-known range and not the full range."
+   ],
+   "e": "Well-known ports are numbered 0 to 1023 and are reserved for standard services such as HTTP and SSH. That matches the question, so 0-1023 is correct."
   },
   {
    "q": "Which email protocol downloads messages and often removes them from the server?",
@@ -611,7 +971,13 @@
     "SMTP",
     "MIME"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "IMAP keeps messages on the server and syncs them across devices, so it does not download and remove them.",
+    "SMTP sends mail between servers and does not retrieve it.",
+    "MIME defines the format of email content and attachments, not a retrieval protocol."
+   ],
+   "e": "POP3 downloads messages to one device and, by default in many clients, deletes them from the server. That matches the question, so POP3 is correct."
   },
   {
    "q": "Which email protocol keeps messages synchronized on the server across devices?",
@@ -621,7 +987,13 @@
     "SMTP",
     "SNMP"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "POP3 downloads messages and often removes them from the server, so it does not keep them synchronized.",
+    "SMTP is used to send mail and does not manage stored messages.",
+    "SNMP is a network management protocol and does not handle mailboxes."
+   ],
+   "e": "IMAP keeps mail on the server, so folders and read status stay synchronized across devices. That matches the question, so IMAP is correct."
   },
   {
    "q": "Which email protocol is used to send mail?",
@@ -631,7 +1003,13 @@
     "POP3",
     "FTP"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "IMAP is used to retrieve and manage mail on the server, not to send it.",
+    "POP3 is used to download mail to a client, not to send it.",
+    "FTP is a file transfer protocol and is not used for email."
+   ],
+   "e": "SMTP is the protocol for sending email from clients to servers and between mail servers. That matches the question, so SMTP is correct."
   },
   {
    "q": "What does HTTP status code 404 mean?",
@@ -641,7 +1019,13 @@
     "Server Error",
     "Unauthorized"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Forbidden is the meaning of 403, where the server refuses access even if the resource exists.",
+    "Server Error describes 5xx codes, which indicate a problem on the server side.",
+    "Unauthorized is the meaning of 401, which means authentication is missing or failed."
+   ],
+   "e": "Status 404 means the server cannot find the requested resource at that URL. That matches the question, so Not Found is correct."
   },
   {
    "q": "What does HTTP status code 500 mean?",
@@ -651,7 +1035,13 @@
     "Bad Request",
     "Gateway Timeout"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Not Found is the meaning of 404, where the requested resource does not exist.",
+    "Bad Request is the meaning of 400, where the request is malformed.",
+    "Gateway Timeout is the meaning of 504, where an upstream server did not respond in time."
+   ],
+   "e": "Status 500 means the server hit an unexpected condition and could not complete the request. That matches the question, so Internal Server Error is correct."
   },
   {
    "q": "What does HTTP status code 403 mean?",
@@ -661,7 +1051,13 @@
     "Not Found",
     "Method Not Allowed"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Unauthorized is the meaning of 401, which means authentication is missing or failed, not that access is refused.",
+    "Not Found is the meaning of 404, where the resource does not exist.",
+    "Method Not Allowed is the meaning of 405, where the HTTP method is not supported for the resource."
+   ],
+   "e": "Status 403 means the server understood the request but refuses to authorize it, even if the user is logged in. That matches the question, so Forbidden is correct."
   },
   {
    "q": "What does HTTP status code 200 mean?",
@@ -671,7 +1067,13 @@
     "Moved Permanently",
     "No Content"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Created is the meaning of 201, which means a new resource was made.",
+    "Moved Permanently is the meaning of 301, which is a redirect.",
+    "No Content is the meaning of 204, which means success with no body."
+   ],
+   "e": "Status 200 means the request succeeded and the response contains the requested content. That matches the question, so OK is correct."
   },
   {
    "q": "HTTP status codes in the 3xx range indicate:",
@@ -681,7 +1083,13 @@
     "Client error",
     "Server error"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Success describes the 2xx range, not the 3xx range.",
+    "Client error describes the 4xx range, which means the request was faulty.",
+    "Server error describes the 5xx range, which means the server failed."
+   ],
+   "e": "The 3xx status codes indicate redirection, meaning the client must go to another location or use a cached copy. That matches the question, so Redirection is correct."
   },
   {
    "q": "HTTP/3 runs over which protocol?",
@@ -691,7 +1099,13 @@
     "SCTP",
     "ICMP"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "TCP is the transport used by HTTP/1.1 and HTTP/2, not HTTP/3.",
+    "SCTP is a message-oriented transport protocol that HTTP/3 does not use.",
+    "ICMP carries control and error messages, not web traffic."
+   ],
+   "e": "HTTP/3 runs over QUIC, which is built on UDP and adds encryption and reliability in user space. That matches the question, so QUIC over UDP is correct."
   },
   {
    "q": "Which routing protocol is link-state and uses Dijkstra's algorithm?",
@@ -701,7 +1115,13 @@
     "BGP",
     "EIGRP"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "RIP is a distance-vector protocol that uses hop count, not Dijkstra's link-state algorithm.",
+    "BGP is a path-vector protocol used between Autonomous Systems, not a link-state protocol.",
+    "EIGRP is an advanced distance-vector protocol from Cisco, not a link-state protocol."
+   ],
+   "e": "OSPF is a link-state interior routing protocol that floods link information and computes shortest paths with Dijkstra's algorithm. That matches the question, so OSPF is correct."
   },
   {
    "q": "Which routing protocol uses hop count with a maximum of 15?",
@@ -711,7 +1131,13 @@
     "BGP",
     "IS-IS"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "OSPF is a link-state protocol that uses cost, not a hop count limit of 15.",
+    "BGP is a path-vector protocol between Autonomous Systems, not a hop count protocol.",
+    "IS-IS is a link-state protocol, not a hop count protocol with a limit of 15."
+   ],
+   "e": "RIP is a distance-vector protocol that uses hop count as its metric, and it treats 16 hops as unreachable, so the maximum usable count is 15. That matches the question, so RIP is correct."
   },
   {
    "q": "Which protocol routes traffic between Autonomous Systems on the Internet?",
@@ -721,7 +1147,13 @@
     "RIP",
     "EIGRP"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "OSPF is an interior gateway protocol used within one Autonomous System, not between them.",
+    "RIP is an interior gateway protocol for small networks, not for routing between Autonomous Systems.",
+    "EIGRP is an interior gateway protocol, not the protocol for routing between Autonomous Systems."
+   ],
+   "e": "BGP is the exterior gateway protocol that exchanges routes between Autonomous Systems on the Internet. That matches the question, so BGP is correct."
   },
   {
    "q": "Which protocol prevents switching loops in Ethernet networks?",
@@ -731,7 +1163,13 @@
     "DHCP",
     "OSPF"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "VLAN divides a switch into separate broadcast domains and does not prevent loops.",
+    "DHCP assigns IP addresses to hosts and does not prevent switching loops.",
+    "OSPF is an IP routing protocol and does not prevent loops in Ethernet switches."
+   ],
+   "e": "STP, the Spanning Tree Protocol, blocks redundant switch ports so that frames do not loop endlessly through the network. That matches the question, so STP is correct."
   },
   {
    "q": "Which IEEE standard defines VLAN tagging?",
@@ -741,7 +1179,13 @@
     "802.11",
     "802.15"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "802.3 defines Ethernet, not VLAN tagging.",
+    "802.11 defines Wi-Fi wireless LANs, not VLAN tagging.",
+    "802.15 defines wireless personal area networks, not VLAN tagging."
+   ],
+   "e": "IEEE 802.1Q defines the VLAN tag inserted into Ethernet frames so that switches can identify each VLAN. That matches the question, so 802.1Q is correct."
   },
   {
    "q": "Which IEEE standard defines Ethernet?",
@@ -751,7 +1195,13 @@
     "802.15.1",
     "802.5"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "802.11 defines Wi-Fi, not Ethernet.",
+    "802.15.1 defines Bluetooth, not Ethernet.",
+    "802.5 defines Token Ring, not Ethernet."
+   ],
+   "e": "IEEE 802.3 is the standard family that defines Ethernet. That matches the question, so 802.3 is correct."
   },
   {
    "q": "Which IEEE standard defines Wi-Fi?",
@@ -761,7 +1211,13 @@
     "802.15",
     "802.16"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "802.3 defines Ethernet, not wireless LANs.",
+    "802.15 defines wireless personal area networks such as Bluetooth, not Wi-Fi.",
+    "802.16 defines WiMAX broadband wireless access, not Wi-Fi."
+   ],
+   "e": "IEEE 802.11 is the standard family that defines Wi-Fi wireless local area networks. That matches the question, so 802.11 is correct."
   },
   {
    "q": "Which IEEE standard is Wi-Fi 6?",
@@ -771,7 +1227,13 @@
     "802.11n",
     "802.11be"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "802.11ac is the standard for Wi-Fi 5, not Wi-Fi 6.",
+    "802.11n is the standard for Wi-Fi 4, not Wi-Fi 6.",
+    "802.11be is the standard for Wi-Fi 7, not Wi-Fi 6."
+   ],
+   "e": "Wi-Fi 6 is standardized as IEEE 802.11ax, which adds OFDMA and improved performance in crowded networks. That matches the question, so 802.11ax is correct."
   },
   {
    "q": "Which IEEE standard is Wi-Fi 7?",
@@ -781,7 +1243,13 @@
     "802.11ac",
     "802.11bn"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "802.11ax is the standard for Wi-Fi 6, not Wi-Fi 7.",
+    "802.11ac is the standard for Wi-Fi 5, not Wi-Fi 7.",
+    "802.11bn is a later IEEE project after Wi-Fi 7, not the Wi-Fi 7 standard."
+   ],
+   "e": "Wi-Fi 7 is standardized as IEEE 802.11be, known as Extremely High Throughput. That matches the question, so 802.11be is correct."
   },
   {
    "q": "Which IEEE standard is Wi-Fi 5?",
@@ -791,7 +1259,13 @@
     "802.11ax",
     "802.11g"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "802.11n is the standard for Wi-Fi 4, not Wi-Fi 5.",
+    "802.11ax is the standard for Wi-Fi 6, not Wi-Fi 5.",
+    "802.11g is an older 2.4 GHz standard, not the Wi-Fi 5 standard."
+   ],
+   "e": "Wi-Fi 5 is standardized as IEEE 802.11ac, which operates mainly in the 5 GHz band. That matches the question, so 802.11ac is correct."
   },
   {
    "q": "Which IEEE standard defines Bluetooth?",
@@ -801,7 +1275,13 @@
     "802.3",
     "802.16"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "802.11 defines Wi-Fi, not Bluetooth.",
+    "802.3 defines Ethernet, not Bluetooth.",
+    "802.16 defines WiMAX, not Bluetooth."
+   ],
+   "e": "IEEE 802.15.1 is the standard for Bluetooth wireless personal area networks. That matches the question, so 802.15.1 is correct."
   },
   {
    "q": "Which are the non-overlapping 2.4 GHz Wi-Fi channels?",
@@ -811,7 +1291,13 @@
     "2, 7, 12",
     "3, 6, 9"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "1, 5 and 9 are spaced too closely in the 2.4 GHz band, so their channels overlap.",
+    "2, 7 and 12 are spaced too closely in the 2.4 GHz band, so their channels overlap.",
+    "3, 6 and 9 are spaced too closely in the 2.4 GHz band, so their channels overlap."
+   ],
+   "e": "In the 2.4 GHz band, channels 1, 6 and 11 are spaced five channels apart, so they do not overlap. That matches the question, so 1, 6, 11 is correct."
   },
   {
    "q": "Which Wi-Fi security protocol is the most secure of these?",
@@ -821,7 +1307,13 @@
     "WPA",
     "WEP"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "WPA2 is secure but older than WPA3, and it lacks WPA3's protection against offline guessing.",
+    "WPA is an older standard with weaker encryption than WPA3.",
+    "WEP is an obsolete, broken protocol and is much less secure than WPA3."
+   ],
+   "e": "WPA3 is the newest of these and adds stronger authentication through SAE and protection against offline password guessing. That matches the question, so WPA3 is correct."
   },
   {
    "q": "What is the maximum length of an Ethernet twisted-pair segment?",
@@ -831,7 +1323,13 @@
     "185 meters",
     "500 meters"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Not the answer here: 55 meters is not the standard twisted-pair Ethernet segment limit.",
+    "Not the answer here: 185 meters is not the standard twisted-pair Ethernet segment limit.",
+    "Not the answer here: 500 meters is not the standard twisted-pair Ethernet segment limit."
+   ],
+   "e": "The maximum length of a twisted-pair Ethernet segment is 100 meters, which is the standard limit for Cat5e, Cat6 and similar cables. That matches the question, so 100 meters is correct."
   },
   {
    "q": "Which connector is used for Ethernet twisted-pair cables?",
@@ -841,7 +1339,13 @@
     "BNC",
     "SC"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "RJ-11 is the connector used for telephone lines, not Ethernet cables.",
+    "BNC is a coaxial cable connector, not the twisted-pair Ethernet connector.",
+    "SC is a fiber optic connector, not the twisted-pair Ethernet connector."
+   ],
+   "e": "RJ-45 is the 8-pin connector used on twisted-pair Ethernet cables. That matches the question, so RJ-45 is correct."
   },
   {
    "q": "Which connector is used for traditional telephone lines?",
@@ -851,7 +1355,13 @@
     "SC",
     "LC"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "RJ-45 is the 8-pin connector used for Ethernet, not telephone lines.",
+    "SC is a fiber optic connector, not a telephone connector.",
+    "LC is a small fiber optic connector, not a telephone connector."
+   ],
+   "e": "RJ-11 is the smaller connector commonly used for traditional telephone lines. That matches the question, so RJ-11 is correct."
   },
   {
    "q": "Which cable type uses light pulses and is immune to EMI?",
@@ -861,7 +1371,13 @@
     "UTP",
     "STP"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Coaxial cable carries signals as electrical current on copper, so it is not immune to EMI in the same way.",
+    "UTP is copper twisted pair that carries electrical signals and is affected by EMI.",
+    "STP is shielded copper twisted pair, which carries electrical signals, not light pulses."
+   ],
+   "e": "Fiber optic cable carries data as light pulses through glass or plastic, so electromagnetic interference does not affect the signal. That matches the question, so fiber optic is correct."
   },
   {
    "q": "Which cable type is used for long distances with a laser and a 9-micron core?",
@@ -871,7 +1387,13 @@
     "Coaxial",
     "Cat6"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Multimode fiber uses a larger core and suits shorter distances, not long-distance laser links with a 9-micron core.",
+    "Coaxial cable is copper that carries electrical signals, not light.",
+    "Cat6 is copper twisted-pair cable, not fiber."
+   ],
+   "e": "Single-mode fiber has a very small core of about 9 microns and uses laser light, which allows very long distances. That matches the question, so single-mode fiber is correct."
   },
   {
    "q": "Which method sends data using different wavelengths of light on a fiber?",
@@ -881,7 +1403,13 @@
     "FDM",
     "CDMA"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "TDM divides a channel into time slots, not wavelengths of light.",
+    "FDM divides a channel into frequency bands, not wavelengths on one fiber as a named technique.",
+    "CDMA is a code-based multiple access method used in radio, not a wavelength technique."
+   ],
+   "e": "Wavelength Division Multiplexing, WDM, sends several light signals of different wavelengths over one fiber, multiplying its capacity. That matches the question, so WDM is correct."
   },
   {
    "q": "Who designed Ethernet at Xerox PARC?",
@@ -891,7 +1419,13 @@
     "Tim Berners-Lee",
     "Bob Kahn"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Vint Cerf is a co-designer of TCP/IP, not the designer of Ethernet.",
+    "Tim Berners-Lee invented the World Wide Web, not Ethernet.",
+    "Bob Kahn is a co-designer of TCP/IP, not the designer of Ethernet."
+   ],
+   "e": "Robert Metcalfe, working with David Boggs at Xerox PARC, designed Ethernet in the 1970s. That matches the question, so Robert Metcalfe is correct."
   },
   {
    "q": "Who are called the \"Fathers of the Internet\" for TCP/IP?",
@@ -901,7 +1435,13 @@
     "Metcalfe and Boggs",
     "Postel and Mockapetris"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Tim Berners-Lee and Marc Andreessen are linked to the World Wide Web and browsers, not to the creation of TCP/IP.",
+    "Metcalfe and Boggs are linked to Ethernet, not to TCP/IP.",
+    "Postel and Mockapetris are linked to Internet protocols and DNS, not usually called the fathers of TCP/IP."
+   ],
+   "e": "Vint Cerf and Bob Kahn designed the TCP/IP protocol suite in the 1970s and are widely called the fathers of the Internet. That matches the question, so this option is correct."
   },
   {
    "q": "Who created the DNS in 1983?",
@@ -911,7 +1451,13 @@
     "Vint Cerf",
     "Ray Tomlinson"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Jon Postel was an early Internet pioneer who managed IANA and edited the RFCs, but he is not the creator of DNS.",
+    "Vint Cerf co-designed TCP/IP and is called a father of the Internet, but he did not create DNS.",
+    "Ray Tomlinson invented email and the @ address format, not the Domain Name System."
+   ],
+   "e": "Paul Mockapetris designed the Domain Name System and specified it in 1983 (RFC 882 and 883). DNS maps human-readable domain names to IP addresses."
   },
   {
    "q": "Which mobile generation introduced SMS and digital voice with GSM?",
@@ -921,7 +1467,13 @@
     "3G",
     "4G"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "1G was the first, analog-only cellular generation with voice calls and no digital SMS or GSM.",
+    "3G brought mobile broadband data speeds such as UMTS, but GSM with SMS and digital voice came earlier with 2G.",
+    "4G is an all-IP broadband generation built on LTE, which came long after GSM introduced SMS."
+   ],
+   "e": "2G, built on GSM, was the first digital cellular generation. It brought digital voice and SMS text messaging, replacing analog 1G systems."
   },
   {
    "q": "Which mobile generation is based on LTE?",
@@ -931,7 +1483,13 @@
     "5G",
     "2G"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "3G is based on UMTS and CDMA2000 standards that predate LTE, so it is not LTE.",
+    "5G is the successor to LTE, built on the New Radio standard rather than LTE.",
+    "2G is the GSM-era digital generation for voice and SMS, long before LTE was defined."
+   ],
+   "e": "4G is based on LTE (Long Term Evolution), an all-IP standard for high-speed mobile broadband data."
   },
   {
    "q": "Which mobile generation introduced network slicing?",
@@ -941,7 +1499,13 @@
     "3G",
     "6G"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "4G is the LTE-era generation without native network slicing, which is a core feature of 5G.",
+    "3G is an early mobile data generation that predates network slicing and does not include it.",
+    "6G is still under research and standardization, so it is not the generation that introduced slicing."
+   ],
+   "e": "5G introduced network slicing, which divides one physical network into virtual networks with different performance for different services."
   },
   {
    "q": "Which Philippine agency regulates telecommunications?",
@@ -951,7 +1515,13 @@
     "DTI",
     "CICC"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The National Privacy Commission enforces the Data Privacy Act, not telecom regulation.",
+    "The Department of Trade and Industry handles trade and business policy rather than telecom regulation.",
+    "The Cybercrime Investigation and Coordinating Center handles cybercrime policy, not telecom licensing."
+   ],
+   "e": "The National Telecommunications Commission (NTC) is the Philippine agency that regulates telecommunications services and issues licenses to providers."
   },
   {
    "q": "Which is the third major Philippine telco that launched in 2021?",
@@ -961,7 +1531,13 @@
     "Sun Cellular",
     "Cherry Mobile"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Converge is primarily a fixed broadband and fiber internet provider, not a 2021 third mobile network.",
+    "Sun Cellular is a budget mobile brand that was already operating before 2021, so it is not the new entrant.",
+    "Cherry Mobile makes smartphones and devices, so it is a device brand rather than a telco."
+   ],
+   "e": "DITO Telecommunity is the third major Philippine mobile network, launched in 2021 alongside the established operators Globe and Smart."
   },
   {
    "q": "Which command shows the path packets take to a destination on Windows?",
@@ -971,7 +1547,13 @@
     "pathfind",
     "route"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "traceroute is the Linux, Unix and macOS version of this command, not the Windows command name.",
+    "pathfind is not a standard built-in Windows networking command for tracing routes.",
+    "route displays and edits the local routing table, not the path packets take to a destination."
+   ],
+   "e": "tracert is the Windows command that traces the path packets take to a destination, listing each router hop and its response time."
   },
   {
    "q": "Which command displays IP configuration on Windows?",
@@ -981,7 +1563,13 @@
     "netstat",
     "nslookup"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "ifconfig is the Linux and Unix command for interface settings, not the Windows command.",
+    "netstat shows active connections, listening ports and routing statistics, not IP configuration.",
+    "nslookup queries DNS servers for records such as name-to-IP mappings, not local IP settings."
+   ],
+   "e": "ipconfig is the Windows command that displays the IP address, subnet mask, default gateway and other adapter settings."
   },
   {
    "q": "Which command queries DNS records?",
@@ -991,7 +1579,13 @@
     "ping",
     "arp"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "netstat shows active connections and listening ports, not DNS records.",
+    "ping tests reachability with ICMP echo requests and does not query DNS record types.",
+    "arp displays and manages the IP-to-MAC address cache on the local network, not DNS."
+   ],
+   "e": "nslookup sends queries to DNS servers so you can look up records such as A, MX and NS for a domain name."
   },
   {
    "q": "Which tool captures and analyzes network packets?",
@@ -1001,7 +1595,13 @@
     "PuTTY",
     "Notepad++"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Nmap is a network scanner that finds hosts and open ports, not a tool that captures packet contents.",
+    "PuTTY is a terminal client for SSH, Telnet and serial connections, not a packet analyzer.",
+    "Notepad++ is a text and code editor and has no network traffic capture function."
+   ],
+   "e": "Wireshark is a packet analyzer that captures live network traffic and decodes the protocol fields in each frame for inspection."
   },
   {
    "q": "Which tool is a popular port scanner?",
@@ -1011,7 +1611,13 @@
     "Wireshark Lite",
     "Zabbix"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Wireshark is a packet capture and analysis tool, not a port scanner.",
+    "Not the answer here: this is not a known port scanner, and the Wireshark family analyzes captured packets rather than scanning ports.",
+    "Zabbix is an open-source monitoring platform for servers and network devices, not a port scanner."
+   ],
+   "e": "Nmap (Network Mapper) is a widely used open-source port scanner that discovers open ports and the services running on hosts."
   },
   {
    "q": "What is the broadcast address of 172.16.40.9/20?",
@@ -1022,7 +1628,12 @@
     "172.16.48.255"
    ],
    "d": "D",
-   "e": "/20 gives a block size of 16 in the third octet; 40 lies in the 32-47 block, so the broadcast is 172.16.47.255. 172.16.32.0 is the network address of that block."
+   "e": "/20 gives a block size of 16 in the third octet; 40 lies in the 32-47 block, so the broadcast is 172.16.47.255. 172.16.32.0 is the network address of that block.",
+   "x": [
+    "172.16.40.255 is the broadcast of a /24, which ignores the /20 host bits in the third octet.",
+    "172.16.32.255 is a usable host in the 172.16.32.0 to 172.16.47.255 block, not its broadcast address.",
+    "172.16.48.255 is a host in the next /20 block, which starts at 172.16.48.0, so it is outside this network."
+   ]
   },
   {
    "q": "How many usable host addresses does a /22 network provide?",
@@ -1033,7 +1644,12 @@
     "2046"
    ],
    "d": "D",
-   "e": "A /22 leaves 10 host bits, so 2^10 - 2 = 1022. 1024 forgets the network and broadcast addresses, and 510 is a /23."
+   "e": "A /22 leaves 10 host bits, so 2^10 - 2 = 1022. 1024 forgets the network and broadcast addresses, and 510 is a /23.",
+   "x": [
+    "1024 counts all addresses in the block and forgets the network and broadcast addresses, so it is not the usable count.",
+    "510 is 2 to the 9th minus 2, the usable count for a /23, not a /22.",
+    "2046 is 2 to the 11th minus 2, the usable count for a /21, not a /22."
+   ]
   },
   {
    "q": "What is the broadcast address of 10.20.30.200/27?",
@@ -1044,7 +1660,12 @@
     "10.20.30.224"
    ],
    "d": "D",
-   "e": "A /27 has a block size of 32; 200 falls in the 192-223 block, so the network is .192 and the broadcast is .223. .224 is the next network."
+   "e": "A /27 has a block size of 32; 200 falls in the 192-223 block, so the network is .192 and the broadcast is .223. .224 is the next network.",
+   "x": [
+    "10.20.30.255 is the broadcast of a /24, which ignores the /27 host bits in the last octet.",
+    "10.20.30.207 is a usable host inside the .192 to .223 block, not the broadcast address.",
+    "10.20.30.224 is the network address of the next /27 block, so it is outside this network."
+   ]
   },
   {
    "q": "How many /28 subnets can be carved out of one /24 network?",
@@ -1055,7 +1676,12 @@
     "32"
    ],
    "d": "A",
-   "e": "Borrowing 4 bits gives 2^4 = 16 subnets (block size 16). 14 is the usable hosts per /28, not the number of subnets."
+   "e": "Borrowing 4 bits gives 2^4 = 16 subnets (block size 16). 14 is the usable hosts per /28, not the number of subnets.",
+   "x": [
+    "8 subnets come from borrowing 3 bits, which gives a /27, not the /28 requested.",
+    "14 is the number of usable hosts in one /28 subnet, not the number of subnets.",
+    "32 subnets come from borrowing 5 bits, which gives /29 subnets, not /28."
+   ]
   },
   {
    "q": "Which prefix length does RFC 3021 allow on point-to-point links so that both addresses are usable hosts?",
@@ -1066,7 +1692,12 @@
     "/32"
    ],
    "d": "D",
-   "e": "A /31 has 2 addresses and RFC 3021 lets both be used with no network or broadcast address. A /30 wastes 2 of its 4 addresses, and a /32 is a single host."
+   "e": "A /31 has 2 addresses and RFC 3021 lets both be used with no network or broadcast address. A /30 wastes 2 of its 4 addresses, and a /32 is a single host.",
+   "x": [
+    "/30 gives four addresses per link, with network and broadcast addresses that cannot be used as hosts.",
+    "/29 gives eight addresses per link, far more than a two-ended point-to-point link needs.",
+    "/32 is a single address, so it cannot connect two devices on a point-to-point link."
+   ]
   },
   {
    "q": "What is the wildcard mask that matches a /26 subnet mask?",
@@ -1077,7 +1708,12 @@
     "0.0.0.192"
    ],
    "d": "D",
-   "e": "The wildcard is the inverse of 255.255.255.192, which is 0.0.0.63. 0.0.0.64 is the block size, and 0.0.0.31 is the wildcard of a /27."
+   "e": "The wildcard is the inverse of 255.255.255.192, which is 0.0.0.63. 0.0.0.64 is the block size, and 0.0.0.31 is the wildcard of a /27.",
+   "x": [
+    "0.0.0.64 is the block size of a /26, the step between subnets, not the wildcard mask.",
+    "0.0.0.31 is the wildcard mask for a /27, which has a different host range.",
+    "0.0.0.192 is the last octet of the subnet mask itself, not its inverse."
+   ]
   },
   {
    "q": "Why does the Class A first-octet range end at 126 instead of 127?",
@@ -1088,7 +1724,12 @@
     "127.x.x.x is the broadcast block"
    ],
    "d": "D",
-   "e": "The 127.0.0.0/8 block is loopback (127.0.0.1 is localhost). Multicast is Class D (224-239) and APIPA is 169.254.0.0/16."
+   "e": "The 127.0.0.0/8 block is loopback (127.0.0.1 is localhost). Multicast is Class D (224-239) and APIPA is 169.254.0.0/16.",
+   "x": [
+    "127.x.x.x is not multicast; multicast is Class D, the 224.0.0.0 to 239.255.255.255 range.",
+    "169.254.0.0/16 is the APIPA self-assigned address block, not the 127 range.",
+    "Broadcast is an address within a subnet, such as the all-ones address, not a block that ends the Class A range."
+   ]
   },
   {
    "q": "Which address belongs to the private block 172.16.0.0/12?",
@@ -1099,7 +1740,12 @@
     "172.160.0.1"
    ],
    "d": "A",
-   "e": "The /12 block covers 172.16.0.0 through 172.31.255.255. 172.15.x.x and 172.32.x.x fall just outside it and are public."
+   "e": "The /12 block covers 172.16.0.0 through 172.31.255.255. 172.15.x.x and 172.32.x.x fall just outside it and are public.",
+   "x": [
+    "172.32.0.1 is just above the /12 range, which ends at 172.31.255.255, so it is a public address.",
+    "172.15.0.1 is just below the /12 range, which starts at 172.16.0.0, so it is public.",
+    "172.160.0.1 has a second octet of 160, outside the 16 to 31 range, so it is public."
+   ]
   },
   {
    "q": "In the TCP/IP model, which OSI layers are merged into the Application layer?",
@@ -1110,7 +1756,12 @@
     "Transport through Application"
    ],
    "d": "A",
-   "e": "TCP/IP's Application layer covers OSI layers 5 to 7. OSI Transport (4) stays its own TCP/IP layer."
+   "e": "TCP/IP's Application layer covers OSI layers 5 to 7. OSI Transport (4) stays its own TCP/IP layer.",
+   "x": [
+    "Presentation and Application only leaves out the Session layer, which TCP/IP merges into its Application layer.",
+    "Transport, Session and Presentation wrongly includes Transport, which stays a separate TCP/IP layer.",
+    "Transport through Application wrongly includes Transport, which TCP/IP keeps as its own layer."
+   ]
   },
   {
    "q": "Which device splits broadcast domains by default?",
@@ -1121,7 +1772,12 @@
     "Bridge"
    ],
    "d": "A",
-   "e": "Each router interface is its own broadcast domain. Switches split collision domains but forward broadcasts unless VLANs are used; hubs and bridges do not split broadcast domains either."
+   "e": "Each router interface is its own broadcast domain. Switches split collision domains but forward broadcasts unless VLANs are used; hubs and bridges do not split broadcast domains either.",
+   "x": [
+    "A switch splits collision domains per port but forwards broadcasts to all ports unless VLANs are configured.",
+    "A hub is a single collision and broadcast domain that repeats every signal to all ports.",
+    "A bridge joins two network segments at layer 2 and forwards broadcasts, so it does not split broadcast domains."
+   ]
   },
   {
    "q": "How many collision domains does an 8-port switch create when one device is on every port?",
@@ -1132,7 +1788,12 @@
     "7"
    ],
    "d": "D",
-   "e": "Each switch port is its own collision domain, so 8. A hub with 8 ports would be a single collision domain."
+   "e": "Each switch port is its own collision domain, so 8. A hub with 8 ports would be a single collision domain.",
+   "x": [
+    "1 would be the result for a hub, which shares one collision domain across all its ports.",
+    "2 does not match the rule that each switch port is its own collision domain.",
+    "7 is one less than the port count, which does not match the one-per-port rule."
+   ]
   },
   {
    "q": "How many bytes larger is the minimum TCP header than the UDP header?",
@@ -1143,7 +1804,12 @@
     "28"
    ],
    "d": "D",
-   "e": "The TCP header is at least 20 bytes and the UDP header is fixed at 8 bytes, a difference of 12. 28 would be their sum."
+   "e": "The TCP header is at least 20 bytes and the UDP header is fixed at 8 bytes, a difference of 12. 28 would be their sum.",
+   "x": [
+    "8 is the size of the UDP header, not the difference between the two headers.",
+    "20 is the minimum TCP header size alone, not the difference.",
+    "28 is the sum of the minimum TCP (20) and UDP (8) headers, not the difference."
+   ]
   },
   {
    "q": "A DHCP client listens for server replies on which UDP port?",
@@ -1154,7 +1820,12 @@
     "53"
    ],
    "d": "D",
-   "e": "DHCP uses UDP 67 on the server and 68 on the client. UDP 69 is TFTP and 53 is DNS."
+   "e": "DHCP uses UDP 67 on the server and 68 on the client. UDP 69 is TFTP and 53 is DNS.",
+   "x": [
+    "67 is the DHCP server port that receives client requests, not the port clients listen on.",
+    "69 is TFTP, a separate file transfer protocol, not DHCP.",
+    "53 is DNS, a name resolution service, not DHCP."
+   ]
   },
   {
    "q": "On which port are SNMP traps normally received by the manager?",
@@ -1165,7 +1836,12 @@
     "514"
    ],
    "d": "D",
-   "e": "SNMP uses 161 for polling the agent and 162 for traps. 179 is BGP and 514 is Syslog."
+   "e": "SNMP uses 161 for polling the agent and 162 for traps. 179 is BGP and 514 is Syslog.",
+   "x": [
+    "161 is the SNMP agent port used for polling by the manager, not the trap port.",
+    "179 is the BGP routing protocol port, not SNMP.",
+    "514 is the Syslog port used for log messages, not SNMP traps."
+   ]
   },
   {
    "q": "Which port does POP3 over TLS (POP3S) use?",
@@ -1176,7 +1852,12 @@
     "587"
    ],
    "d": "D",
-   "e": "POP3S is 995. IMAPS is 993, SMTPS is 465 and SMTP submission is 587."
+   "e": "POP3S is 995. IMAPS is 993, SMTPS is 465 and SMTP submission is 587.",
+   "x": [
+    "993 is IMAPS, the secure port for retrieving mail with IMAP, not POP3.",
+    "465 is SMTPS, the secure port for sending mail, not POP3.",
+    "587 is the SMTP submission port used by clients to send mail, not POP3."
+   ]
   },
   {
    "q": "Which HTTP status code tells the client that its cached copy is still valid?",
@@ -1187,7 +1868,12 @@
     "302 Found"
    ],
    "d": "D",
-   "e": "304 is a redirection-class response meaning use the cached copy. 301 and 302 redirect to another URL, while 204 is a success with no body."
+   "e": "304 is a redirection-class response meaning use the cached copy. 301 and 302 redirect to another URL, while 204 is a success with no body.",
+   "x": [
+    "301 Moved Permanently tells the client the resource has a new permanent URL, not that a cached copy is valid.",
+    "204 No Content is a success with no body, which says nothing about cache validity.",
+    "302 Found is a temporary redirect to another URL, not a cache validation response."
+   ]
   },
   {
    "q": "A gateway or proxy that gets no timely response from the upstream server returns which status code?",
@@ -1198,7 +1884,12 @@
     "408"
    ],
    "d": "D",
-   "e": "504 is Gateway Timeout. 502 is Bad Gateway (invalid upstream response), 503 is Service Unavailable, and 408 is a client request timeout."
+   "e": "504 is Gateway Timeout. 502 is Bad Gateway (invalid upstream response), 503 is Service Unavailable, and 408 is a client request timeout.",
+   "x": [
+    "502 Bad Gateway means the upstream returned an invalid or failed response, not that it timed out.",
+    "503 Service Unavailable means the server is overloaded or down for maintenance, not that the upstream did not respond in time.",
+    "408 Request Timeout means the client took too long to send its request, not the upstream server."
+   ]
   },
   {
    "q": "Which is the correct compressed form of 2001:0db8:0000:0000:0000:ff00:0042:8329?",
@@ -1209,7 +1900,12 @@
     "2001:db8::ff:42:8329"
    ],
    "d": "D",
-   "e": "Drop leading zeros and replace one run of zero groups with ::. Using :: twice is invalid, and removing zero groups without :: leaves too few groups."
+   "e": "Drop leading zeros and replace one run of zero groups with ::. Using :: twice is invalid, and removing zero groups without :: leaves too few groups.",
+   "x": [
+    "2001:db8::ff00::42:8329 uses :: twice, which is invalid because it is ambiguous.",
+    "2001:db8:ff00:42:8329 has only five groups and drops zero groups without using ::, so it is a different address.",
+    "2001:db8::ff:42:8329 changes the group ff00 to ff, which is a different address."
+   ]
   },
   {
    "q": "Which IPv6 prefix is reserved for link-local addresses?",
@@ -1220,7 +1916,12 @@
     "::1/128"
    ],
    "d": "D",
-   "e": "Link-local is fe80::/10. fc00::/7 is unique local, 2000::/3 is global unicast, and ::1 is loopback."
+   "e": "Link-local is fe80::/10. fc00::/7 is unique local, 2000::/3 is global unicast, and ::1 is loopback.",
+   "x": [
+    "fc00::/7 is the unique local range for private addresses, not link-local.",
+    "2000::/3 is the global unicast range, which is routable on the Internet.",
+    "::1/128 is the IPv6 loopback address for the local host, not a link-local range."
+   ]
   },
   {
    "q": "What is the administrative distance of OSPF?",
@@ -1231,7 +1932,12 @@
     "1"
    ],
    "d": "D",
-   "e": "OSPF is 110. EIGRP is 90, RIP is 120 and a static route is 1."
+   "e": "OSPF is 110. EIGRP is 90, RIP is 120 and a static route is 1.",
+   "x": [
+    "90 is the administrative distance of EIGRP, not OSPF.",
+    "120 is the administrative distance of RIP, not OSPF.",
+    "1 is the default administrative distance of a static route, not OSPF."
+   ]
   },
   {
    "q": "In RIP, what does a hop count of 16 mean?",
@@ -1242,7 +1948,12 @@
     "The route is a default route"
    ],
    "d": "A",
-   "e": "RIP allows at most 15 hops; 16 is treated as infinity, meaning unreachable."
+   "e": "RIP allows at most 15 hops; 16 is treated as infinity, meaning unreachable.",
+   "x": [
+    "The maximum valid distance is 15 hops, so 16 is beyond the limit and not a valid route length.",
+    "A directly connected route has zero hops and is not signaled by a hop count of 16.",
+    "A default route is identified by 0.0.0.0/0, not by a hop count value."
+   ]
   },
   {
    "q": "Which IEEE standard defines Rapid Spanning Tree Protocol (RSTP)?",
@@ -1253,7 +1964,12 @@
     "802.3ad"
    ],
    "d": "D",
-   "e": "RSTP is 802.1w. Classic STP is 802.1D, VLAN tagging is 802.1Q and LACP link aggregation is 802.3ad."
+   "e": "RSTP is 802.1w. Classic STP is 802.1D, VLAN tagging is 802.1Q and LACP link aggregation is 802.3ad.",
+   "x": [
+    "802.1D is the original classic Spanning Tree Protocol, which converges more slowly than RSTP.",
+    "802.1Q is the standard for VLAN tagging, not spanning tree.",
+    "802.3ad is the standard for link aggregation (LACP), not spanning tree."
+   ]
   },
   {
    "q": "What is the maximum distance at which Cat6 cable supports 10 Gbps?",
@@ -1264,7 +1980,12 @@
     "30 meters"
    ],
    "d": "D",
-   "e": "Cat6 carries 10 Gbps only up to about 55 m, while Cat6a reaches the full 100 m. Cat6 at 1 Gbps still reaches 100 m."
+   "e": "Cat6 carries 10 Gbps only up to about 55 m, while Cat6a reaches the full 100 m. Cat6 at 1 Gbps still reaches 100 m.",
+   "x": [
+    "100 m is the Cat6 reach at 1 Gbps; at 10 Gbps Cat6 is limited to about 55 m.",
+    "70 m does not match the Cat6 10 Gbps limit, which is about 55 m.",
+    "30 m is shorter than the reach Cat6 supports at 10 Gbps, so it understates the limit."
+   ]
   },
   {
    "q": "Which of these is NOT a fiber optic connector?",
@@ -1275,7 +1996,12 @@
     "MPO"
    ],
    "d": "A",
-   "e": "BNC is a coaxial connector. LC, SC, ST and MPO are all fiber connectors."
+   "e": "BNC is a coaxial connector. LC, SC, ST and MPO are all fiber connectors.",
+   "x": [
+    "LC is a small form factor fiber connector, so it does not fit the question.",
+    "SC is a push-pull square fiber connector, so it does not fit the question.",
+    "MPO is a multi-fiber connector that holds 12 or 24 fibers in one ferrule, so it does not fit the question."
+   ]
   },
   {
    "q": "What is the allowed size range of the data field in an Ethernet frame?",
@@ -1286,7 +2012,12 @@
     "46-1518 bytes"
    ],
    "d": "D",
-   "e": "The payload is 46 to 1500 bytes (1500 is the MTU). 64-1518 is the range of the whole frame including headers and FCS."
+   "e": "The payload is 46 to 1500 bytes (1500 is the MTU). 64-1518 is the range of the whole frame including headers and FCS.",
+   "x": [
+    "64-1518 bytes is the total frame size including headers and FCS, not the data field.",
+    "0-1500 bytes is wrong because the data field has a 46-byte minimum, and shorter payloads are padded to 46.",
+    "46-1518 bytes wrongly counts the headers and FCS in the upper limit; the data field maximum is 1500."
+   ]
   },
   {
    "q": "Which mechanism replaces the PSK handshake in WPA3-Personal and resists offline dictionary attacks?",
@@ -1297,7 +2028,12 @@
     "WPS PIN"
    ],
    "d": "D",
-   "e": "WPA3 uses Simultaneous Authentication of Equals (SAE). TKIP belongs to WPA, and AES-CCMP is the WPA2 cipher."
+   "e": "WPA3 uses Simultaneous Authentication of Equals (SAE). TKIP belongs to WPA, and AES-CCMP is the WPA2 cipher.",
+   "x": [
+    "TKIP is the WPA-era encryption protocol, not the WPA3 authentication method.",
+    "AES-CCMP is the WPA2 encryption cipher, not the handshake that replaces the PSK.",
+    "WPS PIN is a Wi-Fi Protected Setup method and is not the WPA3 handshake."
+   ]
   },
   {
    "q": "By Shannon's formula, what is the maximum capacity of a 3000 Hz channel with S/N = 1023?",
@@ -1308,7 +2044,12 @@
     "300,000 bps"
    ],
    "d": "D",
-   "e": "C = 3000 x log2(1 + 1023) = 3000 x log2(1024) = 3000 x 10 = 30,000 bps."
+   "e": "C = 3000 x log2(1 + 1023) = 3000 x log2(1024) = 3000 x 10 = 30,000 bps.",
+   "x": [
+    "3,069,000 bps is 3000 x 1023, which multiplies by S/N instead of taking log2 of 1 + S/N.",
+    "15,000 bps is 3000 x 5, which would need log2 of 32 rather than log2 of 1024.",
+    "300,000 bps does not match the correct calculation, which is 3000 x 10."
+   ]
   },
   {
    "q": "At full throughput, how long does a 250 MB file take to cross a 100 Mbps link?",
@@ -1319,7 +2060,12 @@
     "200 seconds"
    ],
    "d": "A",
-   "e": "250 MB x 8 = 2000 Mb, divided by 100 Mbps = 20 s. Dividing 250 by 100 without converting bytes to bits gives the 2.5 s trap."
+   "e": "250 MB x 8 = 2000 Mb, divided by 100 Mbps = 20 s. Dividing 250 by 100 without converting bytes to bits gives the 2.5 s trap.",
+   "x": [
+    "2.5 seconds comes from dividing 250 by 100 without converting bytes to bits, the MB and Mb trap.",
+    "25 seconds does not match the correct calculation, which is 2000 Mb divided by 100 Mbps.",
+    "200 seconds does not match the correct calculation, which is 2000 Mb divided by 100 Mbps."
+   ]
   },
   {
    "q": "In a fiber-to-the-home network, which device terminates the fiber at the customer's premises?",
@@ -1330,7 +2076,12 @@
     "CMTS"
    ],
    "d": "D",
-   "e": "The Optical Network Terminal sits at the customer end. The OLT is at the ISP's central office; DSLAM and CMTS serve DSL and cable broadband."
+   "e": "The Optical Network Terminal sits at the customer end. The OLT is at the ISP's central office; DSLAM and CMTS serve DSL and cable broadband.",
+   "x": [
+    "OLT is the Optical Line Terminal at the provider's central office, not at the customer's premises.",
+    "DSLAM is the DSL access multiplexer for copper DSL lines, not fiber-to-the-home.",
+    "CMTS is the cable modem termination system for cable broadband, not fiber-to-the-home."
+   ]
   }
  ],
  "cards": [

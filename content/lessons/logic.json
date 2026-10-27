@@ -11,7 +11,13 @@
     "Definiteness",
     "Effectiveness"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Finiteness is a required property: an algorithm must always end after a finite number of steps, so it is not the NOT answer.",
+    "Definiteness is a required property: every step must be precisely and unambiguously defined, so it is not the NOT answer.",
+    "Effectiveness is a required property: every step must be basic enough to be carried out in practice, so it is not the NOT answer."
+   ],
+   "e": "Graphical output is not required. An algorithm needs finiteness, definiteness and effectiveness, and it produces output, but that output can be a number or text rather than a picture."
   },
   {
    "q": "The word \"algorithm\" is derived from the name of:",
@@ -21,7 +27,13 @@
     "Pythagoras",
     "Fibonacci"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Euclid was a Greek mathematician known for the Elements and an early GCD method, but the word algorithm does not come from his name.",
+    "Pythagoras was a Greek mathematician known for the Pythagorean theorem, not the source of the word algorithm.",
+    "Fibonacci was an Italian mathematician who introduced Hindu-Arabic numerals to Europe, not the source of the word algorithm."
+   ],
+   "e": "Algorithm comes from the Latinized form of the name of the 9th-century Persian mathematician Muhammad ibn Musa al-Khwarizmi, whose works on arithmetic and algebra spread his methods."
   },
   {
    "q": "An error where the program runs but produces wrong results is a:",
@@ -31,7 +43,13 @@
     "Runtime error",
     "Compile error"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Syntax error: the code breaks the grammar of the language, so it is caught before the program runs, not a wrong result.",
+    "Runtime error: the program crashes or stops while running, such as dividing by zero, so it is not a silent wrong result.",
+    "Compile error: the code cannot be translated, so the program never runs at all, which does not match a program that runs but gives wrong results."
+   ],
+   "e": "A logic error is a mistake in the algorithm or the code's reasoning. The program runs without crashing but produces wrong output, such as using the wrong formula."
   },
   {
    "q": "Dividing by zero while the program is running is an example of a:",
@@ -41,7 +59,13 @@
     "Logic error",
     "Semantic warning"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Syntax error: a grammar violation such as a missing bracket, reported before the program runs, not a crash during execution.",
+    "Logic error: the program runs to completion without crashing but gives wrong results, not a crash from dividing by zero.",
+    "Not the answer here: a semantic warning is a compiler or analyzer message about suspicious meaning, and it does not describe a crash during execution."
+   ],
+   "e": "A runtime error happens while the program is running and interrupts it. Dividing by zero is a classic example, because the operation cannot be completed."
   },
   {
    "q": "Which flowchart symbol represents a decision?",
@@ -51,7 +75,13 @@
     "Parallelogram",
     "Oval"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The rectangle is the process symbol for an action or calculation, not a yes or no decision.",
+    "The parallelogram is the input or output symbol for reading data or displaying results, not a decision.",
+    "The oval is the terminator symbol marking the start or end of the flowchart, not a decision."
+   ],
+   "e": "The diamond is the decision symbol. It holds a question with usually two labeled exits, such as yes and no, and the flow branches based on the answer."
   },
   {
    "q": "Which flowchart symbol represents input/output?",
@@ -61,7 +91,13 @@
     "Diamond",
     "Hexagon"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The rectangle is the process symbol for a computation or assignment, not input or output.",
+    "The diamond is the decision symbol for a yes or no question, not input or output.",
+    "The hexagon is used for loop limits or preparation steps in some conventions, not for input or output."
+   ],
+   "e": "The parallelogram represents input and output, such as reading a value from the user or displaying a result. It slants to distinguish it from the process rectangle."
   },
   {
    "q": "The oval (terminator) in a flowchart represents:",
@@ -71,7 +107,13 @@
     "Decision",
     "Connector"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The rectangle is the process symbol for an action or calculation, not the start or end.",
+    "The diamond is the decision symbol that branches on a condition, not the start or end point.",
+    "The connector is a small circle that joins parts of a flowchart across a page or section, not a start or end."
+   ],
+   "e": "The oval, or terminator, marks where the flowchart begins or ends. Each flowchart has one start point and at least one end point."
   },
   {
    "q": "Which loop is guaranteed to run at least once?",
@@ -81,7 +123,13 @@
     "for",
     "foreach over an empty list"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The while loop checks its condition before each pass, so it may run zero times, not at least once.",
+    "The for loop checks its condition before each pass, so it may run zero times, not at least once.",
+    "A foreach over an empty list runs zero times because there are no items to process."
+   ],
+   "e": "A do-while loop checks its condition after the body, so the body always runs at least once, even if the condition is false at the start."
   },
   {
    "q": "A while loop whose condition is false at the start will run:",
@@ -91,7 +139,13 @@
     "Infinitely",
     "Twice"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Once would require the condition to be true at the start, but here it is false, so the body is skipped.",
+    "Infinitely would need the condition to stay true forever, but here it is false from the start, so the loop exits immediately.",
+    "Twice would need two passes through the body, but a false starting condition means the body never runs."
+   ],
+   "e": "A while loop checks its condition before running the body. If the condition is false at the start, the body never executes."
   },
   {
    "q": "In most languages, which statement skips to the next iteration of a loop?",
@@ -101,7 +155,13 @@
     "return",
     "exit"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "break exits the whole loop immediately rather than skipping to the next iteration.",
+    "return leaves the entire function, so it ends the function rather than just the current iteration.",
+    "exit ends the whole program or process, which is far more than skipping one iteration of a loop."
+   ],
+   "e": "continue skips the rest of the current iteration and moves on to the next pass, so the loop keeps running."
   },
   {
    "q": "What is the value of 2 + 3 * 4?",
@@ -111,7 +171,13 @@
     "24",
     "10"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Adds 2 and 3 first, ignoring that multiplication comes before addition, which gives (2 + 3) * 4 = 20.",
+    "Multiplies all three numbers together, ignoring the precedence rules, which computes 2 * 3 * 4 = 24.",
+    "Does not match the correct calculation."
+   ],
+   "e": "Multiplication has higher precedence than addition, so 3 * 4 = 12 is computed first, and then 2 + 12 = 14."
   },
   {
    "q": "What is 17 % 5 + 17 / 5 using integer arithmetic?",
@@ -121,7 +187,13 @@
     "3",
     "2"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Does not match the correct calculation.",
+    "Takes only the integer quotient 17 / 5 = 3 and drops the remainder 2 from 17 % 5.",
+    "Takes only the remainder 17 % 5 = 2 and drops the integer quotient 17 / 5 = 3."
+   ],
+   "e": "With integer arithmetic, 17 / 5 truncates to 3 and 17 % 5 is the remainder 2, so the sum is 3 + 2 = 5."
   },
   {
    "q": "In Python 3, what does 7 // 2 return?",
@@ -131,7 +203,13 @@
     "4",
     "1"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "3.5 is the true division result 7 / 2 in Python 3, not floor division.",
+    "4 comes from rounding up, but // always rounds down toward negative infinity, so it is not the floor.",
+    "1 is the remainder 7 % 2, not the quotient."
+   ],
+   "e": "The // operator is floor division. It returns the integer quotient 3 of 7 divided by 2, and the leftover 1 is what the modulus operator % would return."
   },
   {
    "q": "After i = 5; j = i++; what are the values of i and j?",
@@ -141,7 +219,13 @@
     "i = 6, j = 6",
     "i = 5, j = 5"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Assigns j the incremented value 6 and leaves i at 5, which reverses what post-increment does.",
+    "Gives j the incremented value 6, but post-increment assigns the old value 5 to j.",
+    "Never increments i, which should become 6 after the post-increment."
+   ],
+   "e": "Post-increment uses the old value first. j is assigned 5 from i, and then i is incremented to 6, so j = 5 and i = 6."
   },
   {
    "q": "Which pair of gates is universal?",
@@ -151,7 +235,13 @@
     "XOR and XNOR",
     "NOT and AND"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "AND and OR cannot build NOT, so they are not a universal pair for every Boolean function.",
+    "XOR and XNOR are linear over parity and cannot build AND, so they do not form a universal pair.",
+    "NOT and AND together are also functionally complete, so this option is not a clean wrong answer, though the keyed answer NAND and NOR is the standard universal pair."
+   ],
+   "e": "NAND and NOR are each universal gates, since NOT, AND and OR can all be built from NAND gates alone or from NOR gates alone."
   },
   {
    "q": "Which gate outputs 1 only when its inputs differ?",
@@ -161,7 +251,13 @@
     "NAND",
     "NOR"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "XNOR is the complement of XOR, outputting 1 when the inputs are the same, not when they differ.",
+    "NAND outputs 0 only when both inputs are 1, so it does not single out the case where inputs differ.",
+    "NOR outputs 1 only when both inputs are 0, so it does not indicate that the inputs differ."
+   ],
+   "e": "XOR outputs 1 when exactly one input is 1, which is the same as the two inputs differing."
   },
   {
    "q": "What is the output of a NOR gate when both inputs are 0?",
@@ -171,7 +267,13 @@
     "Undefined",
     "Floating"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "NOR outputs 0 whenever any input is 1, but here both inputs are 0, so the output is not 0.",
+    "Digital logic gates give a defined 0 or 1 for valid inputs, so the output is not undefined.",
+    "Floating is a hardware state of an unconnected input, not an output value of a NOR gate."
+   ],
+   "e": "NOR outputs 1 only when all its inputs are 0. With both inputs 0, the OR part is 0, and the NOR inverts it to 1."
   },
   {
    "q": "By De Morgan's law, (A + B)' equals:",
@@ -181,7 +283,13 @@
     "AB",
     "A + B'"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A' + B' is the De Morgan form of (AB)', the NAND result, not the complement of A + B.",
+    "AB is the AND of the variables without complement, so it drops the negation entirely.",
+    "A + B' complements only B and leaves A uncomplemented, which breaks De Morgan's law."
+   ],
+   "e": "De Morgan's law: the complement of an OR equals the AND of the complements, so (A + B)' = A'B'."
   },
   {
    "q": "By the absorption law, A + AB equals:",
@@ -191,7 +299,13 @@
     "AB",
     "A + B"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "B would result only if A were removed entirely, but absorption keeps A.",
+    "AB is the second term alone, which is absorbed into A and does not remain as the result.",
+    "A + B is what A + A'B simplifies to, not what A + AB simplifies to."
+   ],
+   "e": "Absorption: A + AB = A(1 + B) = A(1) = A, because the AB term is already covered by A."
   },
   {
    "q": "What does A·B + A·B' simplify to?",
@@ -201,7 +315,13 @@
     "A + B",
     "1"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Does not match the correct calculation: the common factor is A, not B.",
+    "Combines the two terms with OR instead of factoring, which does not match the expression.",
+    "B + B' equals 1, but the expression is A(B + B'), so the result is A, not 1."
+   ],
+   "e": "Factor out A to get A(B + B'). Since B + B' = 1, the expression simplifies to A."
   },
   {
    "q": "The sum output of a half adder is:",
@@ -211,7 +331,13 @@
     "A OR B",
     "A NAND B"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A AND B is the carry output of a half adder, not the sum bit.",
+    "A OR B gives 1 for 1 plus 1, which should be 0 in the sum bit, so it does not match binary addition.",
+    "A NAND B is the complement of AND, so it does not produce the sum of two bits."
+   ],
+   "e": "Sum bit: 0+0=0, 0+1=1, 1+0=1, 1+1=10 in binary. The sum is 1 only when exactly one input is 1, which is XOR; the carry is A AND B."
   },
   {
    "q": "A full adder can be built from:",
@@ -221,7 +347,13 @@
     "Three AND gates",
     "One half adder and a NOT gate"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Two XOR gates can make the sum bit, but they cannot produce the carry output, which needs AND logic.",
+    "AND gates alone cannot produce the XOR function needed for the sum bit.",
+    "A NOT gate cannot combine a third input into the sum, so one half adder plus NOT is not enough."
+   ],
+   "e": "A full adder adds A, B and carry-in. Two half adders handle A plus B and then the carry-in, and an OR gate combines their two carries."
   },
   {
    "q": "How many rows are in the truth table of a 4-variable function?",
@@ -231,7 +363,13 @@
     "4",
     "32"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "8 is 2^3, the row count for three variables, one fewer than needed.",
+    "4 is the number of variables, not the number of truth table rows.",
+    "32 is 2^5, which would be the row count for five variables."
+   ],
+   "e": "Each added variable doubles the number of rows. With 4 variables the table has 2^4 = 16 rows."
   },
   {
    "q": "How many select lines does a 4:1 multiplexer need?",
@@ -241,7 +379,13 @@
     "3",
     "4"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A single select line can distinguish only two inputs, so it is not enough for four inputs.",
+    "3 select lines would address eight inputs, which is more than a 4:1 multiplexer needs.",
+    "4 is the number of data inputs, not the number of select lines."
+   ],
+   "e": "A 4:1 mux has 4 data inputs. Two select lines give 2^2 = 4 combinations, one for each data input."
   },
   {
    "q": "Which of these is a sequential (memory-based) circuit element?",
@@ -251,7 +395,13 @@
     "Decoder",
     "Multiplexer"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A half adder is combinational, since its outputs depend only on its current inputs, not on stored state.",
+    "A decoder is combinational, so its outputs depend only on the present inputs.",
+    "A multiplexer is combinational, selecting one input based on select lines with no memory."
+   ],
+   "e": "A flip-flop stores one bit and holds it between clock pulses. Its output depends on stored state, which makes it a sequential element."
   },
   {
    "q": "The implication p → q is false only when:",
@@ -261,7 +411,13 @@
     "both are false",
     "both are true"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "When p is false, the implication is true regardless of q, so this case is not the falsifying one.",
+    "When p is false the implication is true, so both false is not a falsifying case.",
+    "When q is true the implication is true, so both true is not a falsifying case."
+   ],
+   "e": "p implies q is false only when p is true and q is false. Every other combination of truth values makes it true."
   },
   {
    "q": "The contrapositive of p → q is:",
@@ -271,7 +427,13 @@
     "¬p → ¬q",
     "¬p → q"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The converse of p implies q, which is not logically equivalent to the original statement.",
+    "The inverse of p implies q, which is also not equivalent to the original statement.",
+    "Not a valid rewriting: it does not match the contrapositive pattern and is not equivalent to p implies q."
+   ],
+   "e": "The contrapositive of p implies q is (not q) implies (not p). It is logically equivalent to the original, so it always has the same truth value."
   },
   {
    "q": "Which inference rule is: p → q, p, therefore q?",
@@ -281,7 +443,13 @@
     "Hypothetical syllogism",
     "Disjunctive syllogism"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Modus tollens uses p implies q and not q to conclude not p, which is a different pattern.",
+    "Hypothetical syllogism chains two implications, p implies q and q implies r, to get p implies r.",
+    "Disjunctive syllogism uses p or q and not p to conclude q, not an implication with its premise."
+   ],
+   "e": "Modus ponens: from p implies q and p, conclude q. It affirms the antecedent, which is a valid inference."
   },
   {
    "q": "Which inference rule is: p → q, ¬q, therefore ¬p?",
@@ -291,7 +459,13 @@
     "Addition",
     "Resolution"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Modus ponens affirms the antecedent: p implies q and p give q, not not p.",
+    "Addition derives p or q from p alone; it does not use an implication and a negation.",
+    "Resolution combines two disjunctions with complementary literals, which is a different pattern."
+   ],
+   "e": "Modus tollens: if p implies q and q is false, then p must be false. It denies the consequent to conclude the negation of the antecedent."
   },
   {
    "q": "A statement that is always true regardless of truth values is a:",
@@ -301,7 +475,13 @@
     "Contingency",
     "Paradox"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A contradiction is always false, the opposite of a tautology.",
+    "A contingency is sometimes true and sometimes false, depending on the truth values.",
+    "Paradox is an informal term for a puzzling self-contradictory claim, not the formal category for always true statements."
+   ],
+   "e": "A tautology is a compound statement that is true under every assignment of truth values, such as p or not p."
   },
   {
    "q": "The negation of \"for all x, P(x)\" is:",
@@ -311,7 +491,13 @@
     "There exists x such that P(x)",
     "Not there exists x"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "This is the negation of a there-exists statement, not of a for-all statement, so the quantifier is wrong.",
+    "It removes the negation entirely and only keeps the quantifier, so it does not negate the original statement.",
+    "Negates a there-exists claim rather than the for-all claim, and does not give the required there-exists-not form."
+   ],
+   "e": "The negation of for all x P(x) is there exists x such that not P(x). The quantifier flips and the predicate is negated."
   },
   {
    "q": "Which data structure follows LIFO?",
@@ -321,7 +507,13 @@
     "Array",
     "Heap"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A queue is FIFO, removing items in the order they were added, the opposite of stack behavior.",
+    "An array stores items at indexed positions with no insertion order rule, so it is not LIFO.",
+    "A heap removes the highest or lowest priority item, not the most recently added."
+   ],
+   "e": "A stack is last-in, first-out: the most recently pushed item is the first one popped."
   },
   {
    "q": "Which data structure follows FIFO?",
@@ -331,7 +523,13 @@
     "Tree",
     "Hash table"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A stack is LIFO, removing the most recently added item first.",
+    "A tree is a hierarchical structure, not a structure with a first-in, first-out removal order.",
+    "A hash table provides key-based lookup and has no insertion-order removal rule."
+   ],
+   "e": "A queue removes items in the order they were added, the first-in, first-out order, as in a line of people."
   },
   {
    "q": "The inorder traversal of a binary search tree yields the values in:",
@@ -341,7 +539,13 @@
     "Level order",
     "Random order"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Reverse insertion order does not match in-order traversal, which returns values sorted, not in the order they were inserted.",
+    "Level order visits nodes row by row from the root, which is not the in-order sequence.",
+    "Random order is wrong because in-order traversal of a BST is deterministic and sorted."
+   ],
+   "e": "In a binary search tree, in-order traversal visits left subtree, node, right subtree, so the values come out in ascending sorted order."
   },
   {
    "q": "For a binary tree with root A, left child B (children D, E) and right child C, the preorder traversal is:",
@@ -351,7 +555,13 @@
     "D E B C A",
     "A B C D E"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "D B E A C is the in-order traversal (left, node, right), not preorder, which visits the root first.",
+    "D E B C A is the postorder traversal (left, right, node), which visits the root last.",
+    "A B C D E is level-order (breadth-first) traversal, visiting nodes row by row, not depth-first preorder."
+   ],
+   "e": "Preorder visits the node first, then its left subtree, then its right subtree, giving A, then B, D, E, then C."
   },
   {
    "q": "What is the postfix form of the infix expression A + B * C?",
@@ -361,7 +571,13 @@
     "+ A * B C",
     "A + B C *"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A B + C * is the postfix form of (A + B) * C, which evaluates a different expression.",
+    "+ A * B C is prefix notation, with operators placed before their operands, not postfix.",
+    "A + B C * keeps the infix operator order and is not a valid postfix form; the plus must come last."
+   ],
+   "e": "Multiplication has higher precedence, so B * C is evaluated first. In postfix, operands come first and the operators follow: A B C * +."
   },
   {
    "q": "Evaluating the postfix expression 5 3 + 2 * gives:",
@@ -371,7 +587,13 @@
     "13",
     "10"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Computes 5 + (3 * 2), applying the second operator to 3 and 2 first, which does not follow postfix order.",
+    "Computes (5 * 2) + 3, applying the multiply to 5 and 2 first, which does not follow the postfix order.",
+    "Ignores the 3 and simply multiplies 5 by 2, dropping one operand."
+   ],
+   "e": "Postfix is evaluated left to right with a stack: 5 3 + gives 8, and then 8 2 * gives 16."
   },
   {
    "q": "Which sorting algorithm has a worst case of O(n²) but average O(n log n)?",
@@ -381,7 +603,13 @@
     "Heap sort",
     "Radix sort"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Merge sort is O(n log n) in the worst case, so it does not have the O(n^2) worst case.",
+    "Heap sort is O(n log n) in the worst case too, so it does not show this trade-off.",
+    "Radix sort is not a comparison sort and runs in time based on digit count, not this n squared worst case."
+   ],
+   "e": "Quick sort can degrade to O(n^2) with consistently bad pivot choices, but on average it runs in O(n log n) for typical inputs."
   },
   {
    "q": "Which sorting algorithm is O(n log n) in all cases and needs O(n) extra space?",
@@ -391,7 +619,13 @@
     "Bubble sort",
     "Selection sort"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Quick sort has an O(n^2) worst case and typically sorts in place, so it is not guaranteed O(n log n) with O(n) extra space.",
+    "Bubble sort is O(n^2) in typical and worst cases, so it does not fit.",
+    "Selection sort is always O(n^2), with no O(n log n) guarantee."
+   ],
+   "e": "Merge sort splits the data in half recursively and merges sorted halves, giving O(n log n) in every case, using O(n) extra space for merging."
   },
   {
    "q": "Binary search requires the data to be:",
@@ -401,7 +635,13 @@
     "Numeric",
     "Stored in a linked list"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Duplicates are allowed in sorted data and binary search still works, so uniqueness is not required.",
+    "Binary search needs an ordering, which can apply to strings and other types, so numeric data is not required.",
+    "Binary search needs fast access to the middle element, which arrays provide; a linked list does not."
+   ],
+   "e": "Binary search compares the target with the middle element and halves the range, which works only when the data is in sorted order."
   },
   {
    "q": "Approximately how many comparisons does binary search need for 1,000 sorted items?",
@@ -411,7 +651,13 @@
     "About 500",
     "About 1,000"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "About 100 is far too many, since binary search needs only about log2 of n comparisons.",
+    "About 500 is about the average linear search cost, not binary search.",
+    "About 1,000 is the linear search worst case, which binary search avoids."
+   ],
+   "e": "Each comparison halves the range, so about log2(1000), roughly 10, comparisons are enough."
   },
   {
    "q": "Which of the following grows fastest?",
@@ -421,7 +667,13 @@
     "O(n^2)",
     "O(n log n)"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "O(2^n) is exponential, which grows much slower than factorial growth for large n.",
+    "O(n^2) is polynomial and grows far slower than O(n!) as n increases.",
+    "O(n log n) grows very slowly compared with factorial growth."
+   ],
+   "e": "Factorial growth outpaces exponential and polynomial growth for large n, so O(n!) grows fastest of these functions."
   },
   {
    "q": "How many moves does the Tower of Hanoi need for 4 disks?",
@@ -431,7 +683,13 @@
     "8",
     "31"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "16 is 2^4, one more than the 15 moves needed, since the formula is 2^n minus 1.",
+    "8 is 2^3, which corresponds to three disks, not four.",
+    "31 is 2^5 minus 1, which corresponds to five disks."
+   ],
+   "e": "Tower of Hanoi needs 2^n - 1 moves for n disks. For 4 disks that is 16 - 1 = 15."
   },
   {
    "q": "What is gcd(48, 18)?",
@@ -441,7 +699,13 @@
     "3",
     "9"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "12 divides 48 but not 18, so it is not a common divisor of both numbers.",
+    "3 divides both numbers, but it is smaller than the greatest common divisor 6.",
+    "9 divides 18 but not 48, so it cannot be a common divisor."
+   ],
+   "e": "The gcd is the largest number dividing both: 48 = 6 x 8 and 18 = 6 x 3, and no larger number divides both."
   },
   {
    "q": "What is the sum of integers from 1 to 100?",
@@ -451,7 +715,13 @@
     "5100",
     "4950"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Does not match the correct calculation.",
+    "Does not match the correct calculation.",
+    "This is n(n-1)/2 = 4950, which sums 1 to 99 rather than 1 to 100."
+   ],
+   "e": "Gauss formula: the sum of 1 to n is n(n+1)/2, so 100 x 101 / 2 = 5050."
   },
   {
    "q": "What is F(7) in the Fibonacci sequence with F0 = 0, F1 = 1?",
@@ -461,7 +731,13 @@
     "21",
     "11"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "8 is F6 in the sequence 0, 1, 1, 2, 3, 5, 8, so it is one position too early.",
+    "21 is F8, one position too far in the sequence.",
+    "Does not match the correct calculation."
+   ],
+   "e": "Starting from F0 = 0 and F1 = 1, the terms are 0, 1, 1, 2, 3, 5, 8, 13, so F7 = 13."
   },
   {
    "q": "What is C(5,2)?",
@@ -471,7 +747,13 @@
     "5",
     "25"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "20 is P(5,2), the count of ordered pairs, not unordered combinations.",
+    "5 is C(5,1), the number of single items, not pairs.",
+    "25 is 5 squared, which counts ordered pairs with repetition, not combinations."
+   ],
+   "e": "C(5,2) = 5! / (2! 3!) = 10, the number of ways to choose 2 of 5 items when order does not matter."
   },
   {
    "q": "In how many distinct ways can the 5 distinct letters of \"LOGIC\" be arranged?",
@@ -481,7 +763,13 @@
     "25",
     "24"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "60 is half of 120, which is not how distinct arrangements are counted.",
+    "25 is 5 squared, which does not count arrangements of distinct letters.",
+    "24 is 4!, which counts arrangements of only four letters."
+   ],
+   "e": "Arrangements of 5 distinct letters follow 5! = 5 x 4 x 3 x 2 x 1 = 120."
   },
   {
    "q": "After the code x = 5; y = 3; x = x + y; y = x - y; x = x - y, what are x and y?",
@@ -491,7 +779,13 @@
     "x = 8, y = 5",
     "x = 2, y = 3"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Keeps the original values, as if the swap never happened, which does not match the steps.",
+    "Stops after the y update and never reassigns x, so x should be 3 at the end.",
+    "Does not match the correct calculation."
+   ],
+   "e": "x becomes 8, then y becomes 8 - 3 = 5, then x becomes 8 - 5 = 3. The result is that x and y are swapped."
   },
   {
    "q": "A loop: n = 10; while (n > 0) { n -= 3; } ends with n equal to:",
@@ -501,7 +795,13 @@
     "1",
     "-3"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "10 is not a multiple of 3, so n never reaches exactly 0.",
+    "1 is the value before the last subtraction, but the loop runs again since 1 is greater than 0.",
+    "The sequence is 10, 7, 4, 1, -2, so -3 is never reached."
+   ],
+   "e": "The values are 10, 7, 4, 1, then -2. The loop stops when n is -2, because -2 is not greater than 0."
   },
   {
    "q": "Python: what does \"HELLO\"[1:4] return?",
@@ -511,7 +811,13 @@
     "ELLO",
     "LLO"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "HEL is the slice from index 0 up to index 2, which ignores the start value 1.",
+    "ELLO is the slice from 1 to 5, which includes the final O, but the stop value 4 excludes index 4.",
+    "LLO starts at index 2, one position too far, instead of index 1."
+   ],
+   "e": "Python slices start at the first index and stop before the second, so [1:4] takes characters at indices 1, 2 and 3: E, L, L."
   },
   {
    "q": "Which graph traversal uses a queue?",
@@ -521,7 +827,13 @@
     "Both use only stacks",
     "Dijkstra only"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Depth-first search uses a stack or recursion, going deep before backtracking, not a queue.",
+    "Both use only stacks is false, since breadth-first search uses a queue.",
+    "Dijkstra finds shortest paths, not a general traversal order, so it is not the traversal that uses a queue."
+   ],
+   "e": "Breadth-first search explores nodes level by level. A FIFO queue holds the frontier so nodes are visited in discovery order."
   },
   {
    "q": "Which algorithm finds shortest paths with non-negative edge weights?",
@@ -531,7 +843,13 @@
     "Prim",
     "Bellman-Ford only"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Kruskal builds a minimum spanning tree, not shortest paths.",
+    "Prim also builds a minimum spanning tree, not shortest paths.",
+    "Bellman-Ford also finds shortest paths but is not restricted to non-negative weights, so it is not the one singled out here."
+   ],
+   "e": "Dijkstra always picks the closest unvisited vertex next, which is only guaranteed correct when no edge weight is negative."
   },
   {
    "q": "Kruskal's and Prim's algorithms are used to find a:",
@@ -541,7 +859,13 @@
     "Maximum flow",
     "Topological order"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Shortest path algorithms like Dijkstra find paths between vertices, not a spanning tree.",
+    "Maximum flow is computed by algorithms such as Ford-Fulkerson, and it is not a spanning tree.",
+    "Topological order is a linear ordering of a directed acyclic graph, not a tree of minimum total weight."
+   ],
+   "e": "Kruskal and Prim both build a minimum spanning tree: edges that connect all vertices with the smallest total weight and no cycles."
   },
   {
    "q": "In C/Java with integers, 5 + 8 / 2 * 3 - 1 evaluates to:",
@@ -552,7 +876,12 @@
     "12"
    ],
    "d": "D",
-   "e": "/ and * share precedence and go left to right: 8/2=4, 4*3=12, then 5+12-1=16. 5 results only if you wrongly group 8/(2*3)."
+   "e": "/ and * share precedence and go left to right: 8/2=4, 4*3=12, then 5+12-1=16. 5 results only if you wrongly group 8/(2*3).",
+   "x": [
+    "Groups 8 / (2 * 3) incorrectly; with integer division that gives 5 + 1 - 1 = 5.",
+    "Adds 5 + 8 before dividing, so it computes ((5 + 8) / 2) * 3 - 1 = 17 instead.",
+    "Keeps only 8 / 2 * 3 = 12 and drops the 5 and the minus 1."
+   ]
   },
   {
    "q": "Because exponentiation is right-associative in mathematics, 2^3^2 equals:",
@@ -563,7 +892,12 @@
     "36"
    ],
    "d": "D",
-   "e": "2^3^2 = 2^(3^2) = 2^9 = 512. Evaluating left to right, (2^3)^2, would give 64."
+   "e": "2^3^2 = 2^(3^2) = 2^9 = 512. Evaluating left to right, (2^3)^2, would give 64.",
+   "x": [
+    "This is (2^3)^2 = 8^2 = 64, which evaluates exponents left to right instead of right to left.",
+    "Does not match the correct calculation.",
+    "Does not match the correct calculation."
+   ]
   },
   {
    "q": "After i = 5; j = i++; k = ++i; what is i + j + k?",
@@ -574,7 +908,12 @@
     "20"
    ],
    "d": "D",
-   "e": "j = 5 (post-increment uses the old value, i becomes 6); k = 7 (pre-increment, i becomes 7). So 7 + 5 + 7 = 19."
+   "e": "j = 5 (post-increment uses the old value, i becomes 6); k = 7 (pre-increment, i becomes 7). So 7 + 5 + 7 = 19.",
+   "x": [
+    "Forgets that pre-increment also changes i, so the final i stays at 6 in the sum.",
+    "Leaves i at 5 as if neither increment changed it, so the sum is 5 + 5 + 7.",
+    "Does not match the correct calculation."
+   ]
   },
   {
    "q": "What is the final value of sum? sum = 0; for i = 1 to 5 { for j = 1 to i { sum = sum + 1 } }",
@@ -585,7 +924,12 @@
     "20"
    ],
    "d": "D",
-   "e": "The inner loop runs i times, so the total is 1+2+3+4+5 = 15. 25 would be a full 5 x 5 nested loop."
+   "e": "The inner loop runs i times, so the total is 1+2+3+4+5 = 15. 25 would be a full 5 x 5 nested loop.",
+   "x": [
+    "A full 5 by 5 loop would add 25 ones, but the inner loop runs only i times for each i.",
+    "Stops at i = 4 and sums 1 + 2 + 3 + 4, missing the final pass with i = 5.",
+    "Does not match the correct calculation."
+   ]
   },
   {
    "q": "What is the largest unsigned integer that fits in 16 bits?",
@@ -596,7 +940,12 @@
     "32,768"
    ],
    "d": "A",
-   "e": "Largest unsigned n-bit value is 2^n - 1, so 2^16 - 1 = 65,535. 65,536 is the number of distinct values; 32,767 is the largest signed 16-bit value."
+   "e": "Largest unsigned n-bit value is 2^n - 1, so 2^16 - 1 = 65,535. 65,536 is the number of distinct values; 32,767 is the largest signed 16-bit value.",
+   "x": [
+    "65,536 is 2^16, the count of distinct 16-bit values, not the largest value, which is one less.",
+    "32,767 is the largest signed 16-bit value, 2^15 minus 1, not the largest unsigned value.",
+    "32,768 is 2^15, the value with only the top bit set, which is not the largest unsigned value."
+   ]
   },
   {
    "q": "What is 255 (decimal) in octal?",
@@ -607,7 +956,12 @@
     "337"
    ],
    "d": "A",
-   "e": "255 = 11 111 111 in binary, and grouping by 3 bits gives 3 7 7. 400 octal is 256."
+   "e": "255 = 11 111 111 in binary, and grouping by 3 bits gives 3 7 7. 400 octal is 256.",
+   "x": [
+    "Octal 777 equals decimal 511, which is larger than 255.",
+    "Octal 400 equals decimal 256, one more than 255.",
+    "Octal 337 equals decimal 223, which does not match the bit grouping of 255."
+   ]
   },
   {
    "q": "For a non-negative integer x, the bitwise expression x << 3 is equivalent to:",
@@ -618,7 +972,12 @@
     "adding 3 to x"
    ],
    "d": "A",
-   "e": "Each left shift multiplies by 2, so three shifts multiply by 2^3 = 8. Right shift (>>) is the one that divides."
+   "e": "Each left shift multiplies by 2, so three shifts multiply by 2^3 = 8. Right shift (>>) is the one that divides.",
+   "x": [
+    "Multiplying by 6 is not what a shift does; a left shift by 3 multiplies by 8.",
+    "Dividing by 8 is a right shift (x >> 3), the opposite direction.",
+    "A shift multiplies by a power of two, not by adding 3."
+   ]
   },
   {
    "q": "Which of these is NOT a valid group size when simplifying on a Karnaugh map?",
@@ -629,7 +988,12 @@
     "8"
    ],
    "d": "D",
-   "e": "K-map groups must contain a power-of-two number of 1s (1, 2, 4, 8, 16...). A group of 6 is not allowed."
+   "e": "K-map groups must contain a power-of-two number of 1s (1, 2, 4, 8, 16...). A group of 6 is not allowed.",
+   "x": [
+    "2 is a power of two, so a group of two ones is valid on a K-map.",
+    "4 is a power of two, so a group of four ones is valid on a K-map.",
+    "8 is a power of two, so a group of eight ones is valid on a K-map."
+   ]
   },
   {
    "q": "By the consensus theorem, AB + A'C + BC simplifies to:",
@@ -640,7 +1004,12 @@
     "AB + A'C + B'C"
    ],
    "d": "D",
-   "e": "The term BC is redundant (the consensus of AB and A'C), so it is dropped. The other options are not equivalent to the original function."
+   "e": "The term BC is redundant (the consensus of AB and A'C), so it is dropped. The other options are not equivalent to the original function.",
+   "x": [
+    "Drops the A'C term, which is not redundant, so the function changes.",
+    "Drops the AB term, which is needed, so the result is not equivalent.",
+    "Adds a B'C term not in the original, so the result is not equivalent."
+   ]
   },
   {
    "q": "Which expression equals A + A'B?",
@@ -651,7 +1020,12 @@
     "AB"
    ],
    "d": "D",
-   "e": "A + A'B = (A + A')(A + B) = A + B by the distributive law. It is not A, because A=0, B=1 makes A + A'B = 1."
+   "e": "A + A'B = (A + A')(A + B) = A + B by the distributive law. It is not A, because A=0, B=1 makes A + A'B = 1.",
+   "x": [
+    "A drops the B term, so it is wrong when A is 0 and B is 1, where the original gives 1.",
+    "A'B alone drops the A term, so it is wrong when A is 1 and B is 0, where the original gives 1.",
+    "AB requires both inputs to be 1, so it is wrong when A is 1 and B is 0, where the original gives 1."
+   ]
   },
   {
    "q": "A full adder receives A = 1, B = 1, Cin = 1. What are its outputs?",
@@ -662,7 +1036,12 @@
     "Sum = 0, Cout = 0"
    ],
    "d": "D",
-   "e": "1+1+1 = 3 = binary 11, so Sum = A xor B xor Cin = 1 and Cout = AB + Cin(A xor B) = 1 + 0 = 1."
+   "e": "1+1+1 = 3 = binary 11, so Sum = A xor B xor Cin = 1 and Cout = AB + Cin(A xor B) = 1 + 0 = 1.",
+   "x": [
+    "Sum is 0 here, but the sum bit is A XOR B XOR Cin, which is 1 for three 1s.",
+    "Carry out is 0 here, but the carry is 1 since the total 3 is binary 11.",
+    "Both outputs 0 would represent a total of 0, but three 1s add to 3."
+   ]
   },
   {
    "q": "A three-input XOR gate (A xor B xor C) outputs 1 when:",
@@ -673,7 +1052,12 @@
     "all inputs are the same"
    ],
    "d": "D",
-   "e": "XOR is a parity function: the output is 1 for an odd count of 1s, so inputs 1,1,1 also give 1. 'Exactly one' misses that case."
+   "e": "XOR is a parity function: the output is 1 for an odd count of 1s, so inputs 1,1,1 also give 1. 'Exactly one' misses that case.",
+   "x": [
+    "An even count of ones gives 0 for a three-input XOR, the opposite of the parity rule.",
+    "Exactly one 1 is only one odd case, and it misses inputs like 1, 1, 1 that also give 1.",
+    "All inputs the same includes 0, 0, 0, which gives 0, so it does not match the parity rule."
+   ]
   },
   {
    "q": "Which of the following is NOT a combinational circuit?",
@@ -684,7 +1068,12 @@
     "Full adder"
    ],
    "d": "D",
-   "e": "A register stores state (built from flip-flops), so it is sequential. Comparators, encoders and adders depend only on their current inputs."
+   "e": "A register stores state (built from flip-flops), so it is sequential. Comparators, encoders and adders depend only on their current inputs.",
+   "x": [
+    "A comparator is combinational, since its output depends only on its current inputs.",
+    "An encoder is combinational, mapping active inputs to a code with no stored state.",
+    "A full adder is combinational, computing sum and carry from current inputs only."
+   ]
   },
   {
    "q": "Which statement is logically equivalent to the converse of p → q?",
@@ -695,7 +1084,12 @@
     "¬p ∨ q"
    ],
    "d": "D",
-   "e": "The converse is q → p, and it is equivalent to the inverse ¬p → ¬q. ¬q → ¬p (contrapositive) and ¬p ∨ q are equivalent to the original p → q."
+   "e": "The converse is q → p, and it is equivalent to the inverse ¬p → ¬q. ¬q → ¬p (contrapositive) and ¬p ∨ q are equivalent to the original p → q.",
+   "x": [
+    "This is the contrapositive, which is equivalent to the original, not to the converse.",
+    "This is the original implication itself, not its converse.",
+    "Not p or q is equivalent to the original p implies q, not to the converse."
+   ]
   },
   {
    "q": "The argument form p → q, q → r, therefore p → r is called:",
@@ -706,7 +1100,12 @@
     "Resolution"
    ],
    "d": "A",
-   "e": "Chaining two implications is the hypothetical syllogism. Disjunctive syllogism uses p ∨ q and ¬p to conclude q."
+   "e": "Chaining two implications is the hypothetical syllogism. Disjunctive syllogism uses p ∨ q and ¬p to conclude q.",
+   "x": [
+    "Modus ponens takes one implication and its premise to get the consequent, not a chain of two implications.",
+    "Disjunctive syllogism uses p or q and not p to get q, not two chained implications.",
+    "Resolution combines two disjunctions with complementary literals, not two implications."
+   ]
   },
   {
    "q": "Which argument form is invalid?",
@@ -717,7 +1116,12 @@
     "If p then q; if q then r; therefore if p then r"
    ],
    "d": "D",
-   "e": "Denying the antecedent is a fallacy. The other options are modus tollens, disjunctive syllogism and hypothetical syllogism, all valid."
+   "e": "Denying the antecedent is a fallacy. The other options are modus tollens, disjunctive syllogism and hypothetical syllogism, all valid.",
+   "x": [
+    "This is modus tollens, which is valid, so it is not the invalid form.",
+    "This is disjunctive syllogism, which is valid.",
+    "This is hypothetical syllogism, which is valid."
+   ]
   },
   {
    "q": "The negation of ∃x P(x) is equivalent to:",
@@ -728,7 +1132,12 @@
     "¬∀x ¬P(x)"
    ],
    "d": "A",
-   "e": "Negating an existential flips it to a universal with the predicate negated. ∃x ¬P(x) is the negation of ∀x P(x) instead."
+   "e": "Negating an existential flips it to a universal with the predicate negated. ∃x ¬P(x) is the negation of ∀x P(x) instead.",
+   "x": [
+    "This is the negation of for all x P(x), not of there exists x P(x).",
+    "This drops the negation, so it is the original universal statement, not its negation.",
+    "Not for all x, not P(x) is equivalent to there exists x P(x), the original statement, not its negation."
+   ]
   },
   {
    "q": "What is P(6,3), the number of permutations of 3 items chosen from 6?",
@@ -739,7 +1148,12 @@
     "720"
    ],
    "d": "D",
-   "e": "P(6,3) = 6!/3! = 6 x 5 x 4 = 120. 20 is C(6,3), the combinations, where order does not matter."
+   "e": "P(6,3) = 6!/3! = 6 x 5 x 4 = 120. 20 is C(6,3), the combinations, where order does not matter.",
+   "x": [
+    "20 is C(6,3), the count of combinations where order does not matter.",
+    "216 is 6 cubed, which allows repetition and is not the count without repetition.",
+    "720 is 6!, the arrangements of all six items, not three."
+   ]
   },
   {
    "q": "By the pigeonhole principle, how many people guarantee that at least two share the same birth month?",
@@ -750,7 +1164,12 @@
     "25"
    ],
    "d": "A",
-   "e": "There are 12 months (pigeonholes), so 13 people force at least one repeat. 12 people could all differ."
+   "e": "There are 12 months (pigeonholes), so 13 people force at least one repeat. 12 people could all differ.",
+   "x": [
+    "12 is the number of months, and 12 people could all have different birth months, so no guarantee.",
+    "24 is more than needed, since 13 people already guarantee a shared month.",
+    "25 is also more than needed, since 13 people already guarantee the repeat."
+   ]
   },
   {
    "q": "How many edges does the complete graph K7 have?",
@@ -761,7 +1180,12 @@
     "14"
    ],
    "d": "D",
-   "e": "Edges = n(n-1)/2 = 7 x 6 / 2 = 21. 42 forgets to divide by 2, which counts each edge twice."
+   "e": "Edges = n(n-1)/2 = 7 x 6 / 2 = 21. 42 forgets to divide by 2, which counts each edge twice.",
+   "x": [
+    "42 is 7 times 6, which counts each edge twice because it does not divide by 2.",
+    "28 is C(8,2), which does not match n(n-1)/2 for n = 7.",
+    "14 is 2n, which does not match the edge count formula for complete graphs."
+   ]
   },
   {
    "q": "A queue is empty. Enqueue 1, enqueue 2, enqueue 3, dequeue, enqueue 4, dequeue. What does it hold, front to rear?",
@@ -772,7 +1196,12 @@
     "2, 3, 4"
    ],
    "d": "D",
-   "e": "Dequeue removes the oldest item: 1 first, then 2, leaving 3, 4. The result 1, 2 is what a stack would hold with the same pushes and pops."
+   "e": "Dequeue removes the oldest item: 1 first, then 2, leaving 3, 4. The result 1, 2 is what a stack would hold with the same pushes and pops.",
+   "x": [
+    "1, 2 is what a stack would hold after the same pushes and pops, since a stack removes the newest item.",
+    "4, 3 reverses the front to rear order, which a queue never does.",
+    "2, 3, 4 ignores the second dequeue, which removes 2 from the front."
+   ]
   },
   {
    "q": "Which of these sorting algorithms is NOT stable?",
@@ -783,7 +1212,12 @@
     "Merge sort"
    ],
    "d": "D",
-   "e": "Selection sort swaps distant elements and can reorder equal keys. Bubble, insertion and merge sort are all stable."
+   "e": "Selection sort swaps distant elements and can reorder equal keys. Bubble, insertion and merge sort are all stable.",
+   "x": [
+    "Bubble sort is stable because it swaps only adjacent out of order elements, so equal keys keep their order.",
+    "Insertion sort is stable because it moves each element past only strictly larger ones.",
+    "Merge sort is stable when merging takes from the left run on ties."
+   ]
   },
   {
    "q": "Which sorting algorithm runs in O(n) time on an already sorted input?",
@@ -794,7 +1228,12 @@
     "Heap sort"
    ],
    "d": "D",
-   "e": "Insertion sort does one comparison per element when the data is sorted, so O(n). Selection sort is always O(n^2); merge and heap sort stay O(n log n)."
+   "e": "Insertion sort does one comparison per element when the data is sorted, so O(n). Selection sort is always O(n^2); merge and heap sort stay O(n log n).",
+   "x": [
+    "Selection sort scans all remaining elements every pass, so it is O(n^2) even on sorted input.",
+    "Merge sort is O(n log n) on every input, sorted or not.",
+    "Heap sort is O(n log n) on every input, sorted or not."
+   ]
   },
   {
    "q": "A BST is built by inserting 50, 30, 70, 20, 40, 60, 80 in that order. What is its postorder traversal?",
@@ -805,7 +1244,12 @@
     "50 30 20 40 70 60 80"
    ],
    "d": "D",
-   "e": "Postorder is left, right, node. The alternatives are the inorder (sorted), level-order and preorder results of the same tree."
+   "e": "Postorder is left, right, node. The alternatives are the inorder (sorted), level-order and preorder results of the same tree.",
+   "x": [
+    "This is the in-order traversal, which gives sorted values, not the postorder.",
+    "This is the level-order traversal, row by row, not postorder.",
+    "This is the preorder traversal, visiting the root first, not postorder."
+   ]
   },
   {
    "q": "What is the value of the postfix expression 6 2 3 + * 4 - ?",
@@ -816,7 +1260,12 @@
     "22"
    ],
    "d": "D",
-   "e": "2 3 + = 5; 6 5 * = 30; 30 4 - = 26. Stopping before the final subtraction would give 30."
+   "e": "2 3 + = 5; 6 5 * = 30; 30 4 - = 26. Stopping before the final subtraction would give 30.",
+   "x": [
+    "Does not match the correct calculation.",
+    "Stops before the final subtraction of 4, leaving 6 * 5 = 30 without subtracting.",
+    "Does not match the correct calculation."
+   ]
   },
   {
    "q": "What is gcd(252, 105) using Euclid's algorithm?",
@@ -827,7 +1276,12 @@
     "63"
    ],
    "d": "D",
-   "e": "gcd(252,105) = gcd(105,42) = gcd(42,21) = gcd(21,0) = 21. 63 divides 252 but not 105."
+   "e": "gcd(252,105) = gcd(105,42) = gcd(42,21) = gcd(21,0) = 21. 63 divides 252 but not 105.",
+   "x": [
+    "42 is a divisor of 252 but not of 105, since 105 / 42 is not an integer.",
+    "7 divides both numbers but is smaller than the greatest common divisor 21.",
+    "63 divides 252 but not 105, since 105 / 63 is not an integer."
+   ]
   },
   {
    "q": "What is n after: n = 1; do { n = n * 2; } while (n < 50);",
@@ -838,7 +1292,12 @@
     "128"
    ],
    "d": "D",
-   "e": "n takes 2, 4, 8, 16, 32 (still < 50, so loop again), then 64, which fails the test. 32 would be the last value that passed it."
+   "e": "n takes 2, 4, 8, 16, 32 (still < 50, so loop again), then 64, which fails the test. 32 would be the last value that passed it.",
+   "x": [
+    "32 is the last value that passed the test and led to another loop pass, not the final value.",
+    "50 is only the loop bound, and n is never assigned that value.",
+    "128 would need one more doubling after 64, but the loop stops at 64 because 64 is not less than 50."
+   ]
   },
   {
    "q": "x = 0; if (x != 0 && 10 / x > 1) { ... } What happens?",
@@ -849,7 +1308,12 @@
     "A syntax error is reported at compile time"
    ],
    "d": "D",
-   "e": "&& short-circuits: x != 0 is false, so the right operand is skipped and no division by zero occurs."
+   "e": "&& short-circuits: x != 0 is false, so the right operand is skipped and no division by zero occurs.",
+   "x": [
+    "Division by zero never happens here, because && skips the right operand when the left one is false.",
+    "The condition is false, since x != 0 is false, so the whole && expression is false.",
+    "The code is valid syntax, so no compile time syntax error is reported."
+   ]
   }
  ],
  "cards": [

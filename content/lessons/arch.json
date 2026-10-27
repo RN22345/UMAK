@@ -11,7 +11,13 @@
     "Cooling methods",
     "Cable routing"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Memory chip voltage is a physical electrical detail of the hardware implementation, not an attribute the programmer sees in the architecture.",
+    "Cooling methods are a physical thermal design concern of the hardware, not an architectural attribute visible to the programmer.",
+    "Cable routing is a physical wiring and assembly concern inside a machine, not something the programmer sees in the architecture."
+   ],
+   "e": "The instruction set and addressing modes are the attributes visible to the programmer, defined by the architecture rather than by its physical implementation."
   },
   {
    "q": "Which architecture uses one memory for both instructions and data?",
@@ -21,7 +27,13 @@
     "Modified Harvard only",
     "Dataflow"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The Harvard architecture uses separate memories and buses for instructions and data, not one memory shared by both.",
+    "A hybrid design with separate instruction and data caches, not the classic single-memory model the question asks about.",
+    "Not the answer here: Dataflow is an execution model driven by operand availability, not a stored-program design with one memory for instructions and data."
+   ],
+   "e": "Von Neumann architecture stores instructions and data together in one memory accessed over one set of buses, which is what the question describes."
   },
   {
    "q": "The limitation of using a single bus for instructions and data is known as the:",
@@ -31,7 +43,13 @@
     "Moore wall",
     "Amdahl limit"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Not the answer here: Harvard gap is not a recognized term for this limitation; the Harvard design is the one with separate memories.",
+    "Not the answer here: the Moore wall refers to limits in transistor scaling, not to a bus shared by instructions and data.",
+    "Amdahl's Law describes speedup limited by the serial fraction of a program, not a memory bus bottleneck."
+   ],
+   "e": "The Von Neumann bottleneck is the throughput limit caused by sharing one memory and bus between instructions and data, which is the limitation named here."
   },
   {
    "q": "Which architecture has separate memories for instructions and data?",
@@ -41,7 +59,13 @@
     "Neural",
     "Hybrid"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Von Neumann uses one memory and one bus shared by instructions and data, not separate memories for each.",
+    "Neural refers to neural network or neuromorphic designs, not a memory organization with separate instruction and data memories.",
+    "Not the answer here: Hybrid is not a specific memory architecture name; separate instruction and data memories define the Harvard design."
+   ],
+   "e": "Harvard architecture uses separate memories and buses for instructions and data, so both can be accessed at the same time."
   },
   {
    "q": "Flynn's taxonomy classification of a typical GPU's vector processing is:",
@@ -51,7 +75,13 @@
     "MISD",
     "MIMD"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "SISD is a single instruction operating on a single data stream, as in a classic scalar processor, not many data elements at once.",
+    "MISD applies multiple instruction streams to one data stream, a rare class that does not describe GPU vector processing.",
+    "MIMD runs multiple independent instruction streams on multiple data streams, as in multicore CPUs, not one instruction across vector lanes."
+   ],
+   "e": "SIMD applies one instruction to many data elements at the same time, which matches the vector-style parallel processing of a GPU."
   },
   {
    "q": "Flynn's classification of a multicore processor running different programs on different data is:",
@@ -61,7 +91,13 @@
     "SIMD",
     "MISD"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "SISD has one instruction stream and one data stream, as in a single-core scalar processor, not several programs running at once.",
+    "SIMD applies one instruction to many data items in lockstep, not separate programs running independently on each core.",
+    "MISD applies multiple instruction streams to a single data stream, which does not describe independent programs working on different data."
+   ],
+   "e": "MIMD means multiple instruction streams operate on multiple data streams independently, which fits cores running different programs on different data."
   },
   {
    "q": "Which part of the CPU performs arithmetic and logic operations?",
@@ -71,7 +107,13 @@
     "Cache",
     "Bus"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The control unit directs and sequences operations by issuing control signals, not performing the arithmetic and logic itself.",
+    "Cache is a small fast memory holding recently used data, not the unit that computes arithmetic and logic results.",
+    "A bus is a set of wires carrying data, addresses and control signals between components, not a unit that computes results."
+   ],
+   "e": "The arithmetic logic unit performs arithmetic and logic operations on data, which is its defined role inside the CPU."
   },
   {
    "q": "Which part of the CPU decodes instructions and issues control signals?",
@@ -81,7 +123,13 @@
     "Register file",
     "Clock"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The ALU performs arithmetic and logic operations on data, not decoding instructions or issuing control signals.",
+    "A register file is a set of small fast storage locations for operands and results, not the unit that decodes instructions.",
+    "The clock generates timing pulses that synchronize operations, not decoding instructions or issuing control signals."
+   ],
+   "e": "The control unit fetches and decodes instructions and issues control signals that direct the other CPU components."
   },
   {
    "q": "Which register holds the address of the next instruction to execute?",
@@ -91,7 +139,13 @@
     "MAR",
     "Accumulator"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The instruction register holds the instruction currently being executed, not the address of the next one.",
+    "The memory address register holds the address for a memory read or write, not the address of the next instruction.",
+    "The accumulator holds intermediate arithmetic results in some designs, not the address of the next instruction."
+   ],
+   "e": "The program counter holds the address of the next instruction to be fetched, so it is the register the question describes."
   },
   {
    "q": "Which register holds the instruction currently being executed?",
@@ -101,7 +155,13 @@
     "MDR",
     "Stack Pointer"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The program counter holds the address of the next instruction, not the instruction currently being executed.",
+    "The memory data register holds data moving to or from memory, not the instruction being executed.",
+    "The stack pointer tracks the top of the call stack in memory, not the instruction currently being executed."
+   ],
+   "e": "The instruction register holds the instruction currently being decoded and executed, which matches the question."
   },
   {
    "q": "Which register holds the address of the memory location to be read or written?",
@@ -111,7 +171,13 @@
     "PC",
     "IR"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The memory data register holds the data read from or written to memory, not the address of that location.",
+    "The program counter holds the address of the next instruction, not the address used for a data read or write.",
+    "The instruction register holds the current instruction, not a memory address for a read or write."
+   ],
+   "e": "The memory address register holds the address used for a memory read or write, which is its role in this question."
   },
   {
    "q": "Which register holds data being transferred to or from memory?",
@@ -121,7 +187,13 @@
     "IR",
     "PC"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The memory address register holds the address of the location, not the data being transferred.",
+    "The instruction register holds the current instruction being executed, not data moving to or from memory.",
+    "The program counter holds the address of the next instruction, not data transferred to or from memory."
+   ],
+   "e": "The memory data register holds the data being moved to or from memory during a read or write operation."
   },
   {
    "q": "The correct order of the basic instruction cycle is:",
@@ -131,7 +203,13 @@
     "Fetch, Execute, Decode, Store",
     "Store, Fetch, Decode, Execute"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "An instruction must be fetched from memory before it can be decoded, so decode cannot come first.",
+    "An instruction must be decoded before its operation can be executed, so decode cannot come after execute.",
+    "Storing comes after execution, not first, and an instruction must be fetched before anything else happens."
+   ],
+   "e": "The basic instruction cycle fetches an instruction, decodes it, executes it, and then stores the results."
   },
   {
    "q": "A CPU with a 16-bit address bus can address how many memory locations?",
@@ -141,7 +219,13 @@
     "32,768",
     "1,048,576"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "16,384 is 2 to the power 14, which would match a 14-bit address bus, not a 16-bit one.",
+    "32,768 is 2 to the power 15, which would match a 15-bit address bus, not a 16-bit one.",
+    "1,048,576 is 2 to the power 20, which would match a 20-bit address bus, not a 16-bit one."
+   ],
+   "e": "A 16-bit address bus gives 2 to the power 16, or 65,536 distinct addresses, one for each memory location."
   },
   {
    "q": "A 32-bit address bus can address up to:",
@@ -151,7 +235,13 @@
     "8 GB",
     "16 GB"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "2 GB corresponds to 31 address bits, not the full 32-bit address space.",
+    "8 GB needs 33 address bits, more than a 32-bit address bus can reach.",
+    "16 GB needs 34 address bits, which a 32-bit address bus cannot address."
+   ],
+   "e": "A 32-bit address bus gives 2 to the power 32 bytes, which is 4 GB when each address names one byte."
   },
   {
    "q": "A 20-bit address bus (Intel 8086) can address:",
@@ -161,7 +251,13 @@
     "64 KB",
     "4 MB"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "640 KB is the conventional DOS memory limit, a portion of the 1 MB space, not the full range of 20 address bits.",
+    "64 KB is 2 to the power 16 bytes, which corresponds to a 16-bit address bus, not 20 bits.",
+    "4 MB needs 22 address bits, more than the 20 lines of this bus."
+   ],
+   "e": "A 20-bit address bus gives 2 to the power 20 bytes, which is 1 MB, the addressing limit of the 8086."
   },
   {
    "q": "Which bus carries read/write and clock signals?",
@@ -171,7 +267,13 @@
     "Data bus",
     "Expansion bus"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "The address bus carries the memory or device address being accessed, not read/write or clock signals.",
+    "The data bus carries the data being transferred, not the control signals that coordinate the transfer.",
+    "An expansion bus connects add-on cards or peripheral slots, not the internal read/write and clock signals."
+   ],
+   "e": "The control bus carries read and write signals and clock timing between the CPU, memory and other components."
   },
   {
    "q": "Which ISA family uses simple, fixed-length instructions and load/store architecture?",
@@ -181,7 +283,13 @@
     "VLIW",
     "EPIC"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "CISC uses complex, variable-length instructions that can access memory directly, not simple fixed-length load/store instructions.",
+    "VLIW packs several operations into one very long instruction scheduled by the compiler, not the simple RISC design described.",
+    "EPIC relies on compiler-scheduled parallelism, a design related to VLIW, rather than the simple fixed-length RISC design."
+   ],
+   "e": "RISC uses simple fixed-length instructions and a load/store architecture, which is what the question describes."
   },
   {
    "q": "x86 is an example of which type of ISA?",
@@ -191,7 +299,13 @@
     "VLIW",
     "Stack machine"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "RISC uses simple fixed-length load/store instructions, which x86 does not follow, so it is not the answer.",
+    "VLIW issues several operations per long instruction scheduled by the compiler, which is not how x86 is designed.",
+    "A stack machine keeps operands on a stack rather than in general registers, which is not the x86 design."
+   ],
+   "e": "x86 uses many complex instructions with variable lengths and memory operands, which is the CISC design."
   },
   {
    "q": "Which of these is an open-standard RISC instruction set originated at UC Berkeley?",
@@ -201,7 +315,13 @@
     "MIPS",
     "x86-64"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "ARM is a proprietary RISC instruction set licensed by Arm Ltd, not an open standard originating at UC Berkeley.",
+    "MIPS is a RISC instruction set that originated at Stanford and is commercially licensed, not the Berkeley open standard.",
+    "x86-64 is a CISC extension of x86, not a RISC instruction set, and it is not an open standard from Berkeley."
+   ],
+   "e": "RISC-V is an open-standard RISC instruction set that began at UC Berkeley, which is what the question asks for."
   },
   {
    "q": "Which ISA do Apple Silicon chips and most smartphones use?",
@@ -211,7 +331,13 @@
     "PowerPC",
     "MIPS"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "x86 is the CISC instruction set used in most PCs and servers, not the one in Apple Silicon or most phones.",
+    "PowerPC is a RISC instruction set used in older Apple systems and some servers, not in Apple Silicon or most smartphones.",
+    "MIPS is a RISC instruction set used in some routers and embedded devices, not in Apple Silicon or most smartphones."
+   ],
+   "e": "ARM is the RISC instruction set used in Apple Silicon chips and in most smartphone processors."
   },
   {
    "q": "Which company created the x86-64 (AMD64) extension?",
@@ -221,7 +347,13 @@
     "ARM",
     "IBM"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Intel designed the original x86 and later adopted AMD64, so it did not create the 64-bit extension described here.",
+    "ARM designs and licenses the ARM architecture and did not create the x86-64 extension.",
+    "IBM is known for POWER and mainframe architectures, not for the x86-64 extension."
+   ],
+   "e": "AMD created the AMD64 extension, now known as x86-64, which Intel later adopted."
   },
   {
    "q": "In IEEE 754 single precision, the number of bits is:",
@@ -231,7 +363,13 @@
     "16 (1, 5, 10)",
     "128"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "That layout is IEEE 754 double precision, which uses 64 bits, not single precision.",
+    "That layout describes IEEE 754 half precision, which uses 16 bits, not single precision.",
+    "128-bit formats such as quadruple precision exist, but they are not IEEE 754 single precision."
+   ],
+   "e": "IEEE 754 single precision uses 32 bits: 1 sign bit, 8 exponent bits and 23 mantissa bits."
   },
   {
    "q": "In IEEE 754 double precision, the number of bits is:",
@@ -241,7 +379,13 @@
     "80",
     "128"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "32 bits is the single-precision format, with 8 exponent bits and 23 mantissa bits, not double precision.",
+    "80 bits is the x87 extended precision format used in some x86 floating-point units, not IEEE 754 double precision.",
+    "128 bits is the quadruple precision format, not IEEE 754 double precision."
+   ],
+   "e": "IEEE 754 double precision uses 64 bits: 1 sign bit, 11 exponent bits and 52 mantissa bits."
   },
   {
    "q": "Which endianness stores the least significant byte at the lowest address?",
@@ -251,7 +395,13 @@
     "Middle-endian",
     "Network order"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Big-endian stores the most significant byte at the lowest address, which is the opposite of the question.",
+    "Middle-endian is a mixed byte order used in a few historical systems, not the least-significant-byte-first layout named here.",
+    "Network order is big-endian by convention, so it stores the most significant byte first, not the least significant byte."
+   ],
+   "e": "Little-endian stores the least significant byte at the lowest memory address, as the question states."
   },
   {
    "q": "Network byte order is:",
@@ -261,7 +411,13 @@
     "Mixed",
     "Random"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Little-endian is the byte order of x86 and most ARM systems in common use, not the network standard.",
+    "Mixed or middle-endian orders are historical oddities, not the standard byte order used by network protocols.",
+    "Not the answer here: random is not a byte order, since byte ordering is a fixed convention."
+   ],
+   "e": "Network byte order is big-endian, the standard used by internet protocols."
   },
   {
    "q": "CPU time is calculated as:",
@@ -271,7 +427,13 @@
     "CPI / clock rate",
     "Clock rate x instructions"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Dividing instruction count by CPI gives neither cycles nor a valid time; it does not match the correct calculation.",
+    "Dividing CPI by clock rate ignores the instruction count, so it does not match the correct calculation.",
+    "Multiplying clock rate by instruction count ignores CPI and gives no valid time; it does not match the correct calculation."
+   ],
+   "e": "CPU time equals instruction count times CPI times clock cycle time, which is the standard performance equation."
   },
   {
    "q": "A CPU with CPI 2 executes 1 billion instructions at 2 GHz. How long does it take?",
@@ -281,7 +443,13 @@
     "2 seconds",
     "4 seconds"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "0.5 seconds comes from using 1 billion cycles and ignoring CPI; it does not match the correct calculation.",
+    "2 seconds would need 4 billion cycles at 2 GHz, which does not match the correct calculation.",
+    "4 seconds would need 8 billion cycles at 2 GHz, which does not match the correct calculation."
+   ],
+   "e": "Cycles are 1 billion times CPI 2, or 2 billion, and dividing by the 2 GHz clock gives 1 second."
   },
   {
    "q": "Amdahl's Law describes:",
@@ -291,7 +459,13 @@
     "Cache hit rate",
     "Bus width scaling"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Transistor doubling describes Moore's Law, which concerns chip density growth, not speedup from enhancing part of a program.",
+    "Cache hit rate measures how often data is found in cache, not the overall speedup limit given by Amdahl's Law.",
+    "Bus width scaling concerns data transfer width in hardware, not the speedup limit from the serial part of a program."
+   ],
+   "e": "Amdahl's Law gives the overall speedup from enhancing part of a program, and the unenhanced serial fraction limits that speedup."
   },
   {
    "q": "If 80% of a program is parallelizable with a 4x speedup on that part, the overall speedup is:",
@@ -301,7 +475,13 @@
     "4x",
     "1.8x"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "3.2x does not match the correct calculation; the overall speedup is 1 divided by (0.2 + 0.8/4), which is 2.5.",
+    "4x is the speedup of the enhanced part alone, ignoring the 20 percent serial portion, so it does not match the correct calculation.",
+    "1.8x does not match the correct calculation; the serial 20 percent and the enhanced 80 percent together give 2.5x."
+   ],
+   "e": "Overall speedup is 1 divided by (0.2 + 0.8/4), which equals 1/0.4, or 2.5x."
   },
   {
    "q": "Pipelining improves:",
@@ -311,7 +491,13 @@
     "Memory capacity",
     "Clock cycle"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Pipelining does not shorten how long one instruction takes; it overlaps stages, so single-instruction latency is not what improves.",
+    "Memory capacity is the amount of storage, which pipelining does not change.",
+    "The clock cycle is not what pipelining is meant to improve; it overlaps instruction stages, which raises throughput."
+   ],
+   "e": "Pipelining increases the number of instructions completed per unit time, which is throughput, while single-instruction latency is not reduced."
   },
   {
    "q": "The classic 5-stage RISC pipeline stages are:",
@@ -321,7 +507,13 @@
     "FE, DE, EX, ST, RT",
     "LD, DC, EX, MM, ST"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "This puts write-back before memory access, which is not the standard stage order.",
+    "Not the answer here: these are not the standard names of the classic five stages.",
+    "Not the answer here: these are not the standard stage names of the classic five-stage RISC pipeline."
+   ],
+   "e": "The classic five-stage RISC pipeline is instruction fetch, instruction decode, execute, memory access and write-back."
   },
   {
    "q": "How many cycles does a 5-stage pipeline need to execute 100 instructions ideally?",
@@ -331,7 +523,13 @@
     "500",
     "105"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "100 cycles would mean one instruction finishes per cycle with no fill time, which ignores the four extra cycles to fill the pipeline.",
+    "500 cycles is the unpipelined total of 5 cycles times 100 instructions, which ignores overlap between instructions.",
+    "105 cycles adds one fill cycle too many; the formula gives 5 + 100 - 1 = 104."
+   ],
+   "e": "Ideal cycles equal stages plus instructions minus one, which is 5 + 100 - 1 = 104."
   },
   {
    "q": "Which pipeline hazard occurs due to a branch instruction?",
@@ -341,7 +539,13 @@
     "Structural hazard",
     "Memory hazard"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A data hazard happens when an instruction needs a result not yet produced by an earlier instruction, not because of a branch.",
+    "A structural hazard happens when two instructions need the same hardware resource at the same time, not because of a branch.",
+    "Not the answer here: memory hazard is not a standard pipeline hazard class; a branch causes a control hazard."
+   ],
+   "e": "A control hazard happens when a branch changes the program flow, so the following instructions are not known in time."
   },
   {
    "q": "Which pipeline hazard occurs when two instructions need the same hardware resource?",
@@ -351,7 +555,13 @@
     "Control hazard",
     "Branch hazard"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A data hazard comes from one instruction depending on the result of another, not from competition for hardware.",
+    "A control hazard comes from branches changing the flow of execution, not from competition for a hardware unit.",
+    "Not the answer here: branch hazard is not the standard term; the branch-related hazard is the control hazard."
+   ],
+   "e": "A structural hazard occurs when two instructions compete for the same hardware resource in the same cycle."
   },
   {
    "q": "Spectre and Meltdown vulnerabilities (2018) exploit:",
@@ -361,7 +571,13 @@
     "Cache write-through",
     "Virtual memory paging"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Pipeline stalls are delays caused by hazards, not the mechanism these attacks exploited.",
+    "Write-through is a cache write policy, not the speculative execution mechanism exploited in these attacks.",
+    "Virtual memory paging is an address translation mechanism; the attacks exploited speculative execution, not paging as such."
+   ],
+   "e": "Spectre and Meltdown exploit speculative execution, where the CPU runs instructions ahead of time and can leak data through side channels."
   },
   {
    "q": "Intel's implementation of simultaneous multithreading is called:",
@@ -371,7 +587,13 @@
     "SpeedStep",
     "vPro"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Turbo Boost raises clock speed dynamically when thermal and power limits allow, not simultaneous multithreading.",
+    "SpeedStep is Intel's dynamic frequency and voltage scaling for power saving, not simultaneous multithreading.",
+    "vPro is Intel's business manageability and security platform, not a multithreading technology."
+   ],
+   "e": "Hyper-Threading is Intel's implementation of simultaneous multithreading, which runs two threads on one physical core."
   },
   {
    "q": "Which memory is the fastest in a computer?",
@@ -381,7 +603,13 @@
     "RAM",
     "SSD"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "L1 cache is very fast but slower than registers, sitting in the cache hierarchy below the register level.",
+    "RAM is much slower than registers and cache, so it is not the fastest memory in the computer.",
+    "SSD is persistent storage far slower than RAM and cache, not the fastest memory."
+   ],
+   "e": "Registers are the fastest memory, located inside the CPU core and accessed in about one clock cycle."
   },
   {
    "q": "Which principle explains why caches work by reusing recently accessed data?",
@@ -391,7 +619,13 @@
     "Amdahl's principle",
     "Pareto principle"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Not the answer here: spatial parity is not a standard term; reuse of recently accessed data is called temporal locality.",
+    "Amdahl's Law concerns speedup from the serial fraction of a program, not reuse of recently accessed data.",
+    "The Pareto principle is the 80/20 observation about distribution of effects, not the locality principle behind caching."
+   ],
+   "e": "Temporal locality means recently accessed data is likely to be accessed again soon, and caches exploit this reuse."
   },
   {
    "q": "Accessing nearby memory addresses soon after one another is:",
@@ -401,7 +635,13 @@
     "Cache coherence",
     "Hit ratio"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Temporal locality is reuse of recently accessed data at the same address, not access to nearby addresses.",
+    "Cache coherence keeps copies of shared data consistent across caches, not the pattern of nearby accesses.",
+    "Hit ratio is the fraction of accesses found in the cache, a performance measure rather than an access pattern."
+   ],
+   "e": "Spatial locality means nearby addresses are likely to be accessed soon after one another, which is why caches load whole blocks."
   },
   {
    "q": "In a direct-mapped cache, each memory block maps to:",
@@ -411,7 +651,13 @@
     "A set of lines",
     "No fixed line"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "That describes a fully associative cache, where a block can go in any line, not a direct-mapped cache.",
+    "A set of lines describes a set-associative cache, where a block maps to one set and can go in any line within that set.",
+    "A direct-mapped cache gives each block a fixed line, so it does not have no fixed line."
+   ],
+   "e": "In a direct-mapped cache, each memory block can go into only one specific cache line, determined by its address."
   },
   {
    "q": "A cache that allows a block to be placed in any line is:",
@@ -421,7 +667,13 @@
     "Set-associative with 1 way",
     "Write-through"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A direct-mapped cache gives each block exactly one possible line, not any line.",
+    "A one-way set-associative cache is equivalent to direct-mapped, where each block has only one possible line.",
+    "Write-through is a write policy that updates memory on each write, not a cache placement scheme."
+   ],
+   "e": "A fully associative cache lets any memory block be placed in any cache line, which gives the most placement flexibility."
   },
   {
    "q": "Which write policy updates both cache and main memory on every write?",
@@ -431,7 +683,13 @@
     "Write-around",
     "Write-allocate"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Write-back updates only the cache and defers the memory write until eviction, so it does not update memory on every write.",
+    "Write-around sends writes straight to memory without placing them in the cache, so it does not update both on every write.",
+    "Write-allocate is a policy for loading a block into the cache on a write miss, not a rule that updates memory on every write."
+   ],
+   "e": "Write-through writes every update to both the cache and main memory immediately, which keeps memory consistent."
   },
   {
    "q": "SRAM is typically used for:",
@@ -441,7 +699,13 @@
     "Mass storage",
     "BIOS firmware"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Main memory is usually DRAM, which is denser and cheaper per bit than SRAM, so SRAM is not the typical choice there.",
+    "Mass storage uses flash or magnetic media for large capacity, not fast SRAM that is costly per bit.",
+    "BIOS firmware is stored in non-volatile ROM or flash, not in SRAM cache."
+   ],
+   "e": "SRAM is fast but costs more per bit, which makes it suitable for CPU caches."
   },
   {
    "q": "DRAM requires:",
@@ -451,7 +715,13 @@
     "Ultraviolet light to erase",
     "Mechanical parts"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "DRAM is volatile and needs continuous power, so it does not require no power; the refresh need comes from leaking charge.",
+    "Ultraviolet erasure applies to EPROM chips, not DRAM, which is not erased by ultraviolet light.",
+    "DRAM is a solid-state chip with no moving parts, so mechanical parts are not required."
+   ],
+   "e": "DRAM stores each bit as charge in a capacitor that leaks over time, so it must be refreshed periodically."
   },
   {
    "q": "Which DDR generation was introduced in 2021 with speeds of at least 4800 MT/s?",
@@ -461,7 +731,13 @@
     "DDR3",
     "DDR6"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "DDR4 appeared around 2014 with lower top speeds than DDR5, so it is not the generation introduced in 2021.",
+    "DDR3 is an older generation from around 2007, not the one introduced in 2021.",
+    "DDR6 is a later generation that followed DDR5, not the one introduced in 2021."
+   ],
+   "e": "DDR5 was introduced around 2021 with transfer speeds of at least 4800 MT/s, the generation the question describes."
   },
   {
    "q": "Which type of memory is stacked and used with AI GPUs?",
@@ -471,7 +747,13 @@
     "GDDR3",
     "EEPROM"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "SO-DIMM is a small form-factor module for laptops, not a stacked memory used with AI GPUs.",
+    "GDDR3 is a graphics DRAM with separate chips on the board, not stacked dies, and it is an older generation.",
+    "EEPROM is electrically erasable non-volatile memory used for small settings, not stacked high-bandwidth memory for GPUs."
+   ],
+   "e": "High Bandwidth Memory stacks DRAM dies and is placed beside AI GPUs to provide very high bandwidth."
   },
   {
    "q": "Which flash type is used in SSDs and USB drives?",
@@ -481,7 +763,13 @@
     "PROM",
     "Mask ROM"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "NOR flash supports random access for code execution and is used in firmware, not typically for bulk storage in SSDs and USB drives.",
+    "PROM is one-time programmable read-only memory, not reusable flash storage.",
+    "Mask ROM is fixed at manufacture, so it cannot store changing data as SSDs and USB drives must."
+   ],
+   "e": "NAND flash is the high-density non-volatile memory used in SSDs and USB drives."
   },
   {
    "q": "With a hit ratio of 0.9, cache time 2 ns and memory time 100 ns, AMAT = ?",
@@ -491,7 +779,13 @@
     "102 ns",
     "2.1 ns"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "10 ns is only the miss penalty term 0.1 x 100, without adding the 2 ns hit time.",
+    "102 ns adds the full 100 ns miss penalty to the hit time, without multiplying by the 0.1 miss rate.",
+    "2.1 ns adds 0.1 to the 2 ns hit time instead of multiplying the 0.1 miss rate by the 100 ns penalty."
+   ],
+   "e": "AMAT equals hit time plus miss rate times miss penalty, which is 2 + 0.1 x 100 = 12 ns."
   },
   {
    "q": "Which interface carries NVMe SSDs?",
@@ -501,7 +795,13 @@
     "USB 2.0",
     "PS/2"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "SATA is the older storage interface used by many drives, which is slower and uses AHCI rather than NVMe over PCIe.",
+    "USB 2.0 is a peripheral interface far too slow for NVMe drives, so it is not the one that carries them.",
+    "PS/2 is a legacy keyboard and mouse connector, not a storage interface."
+   ],
+   "e": "NVMe SSDs are carried over PCIe, which gives them far more bandwidth than SATA."
   },
   {
    "q": "Approximately how fast is SATA III?",
@@ -511,7 +811,13 @@
     "12 Gbps",
     "600 Gbps"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "3 Gbps is SATA II, the previous generation, not SATA III.",
+    "12 Gbps is a faster SAS generation, not the SATA III rate.",
+    "600 Gbps is far above any SATA version and is not a realistic interface speed for SATA III."
+   ],
+   "e": "SATA III runs at 6 Gbps, which is its interface signaling rate."
   },
   {
    "q": "Which company developed CUDA?",
@@ -521,7 +827,13 @@
     "Intel",
     "Qualcomm"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "AMD developed ROCm and HIP as its GPU computing platform, not CUDA.",
+    "Intel developed oneAPI and its own GPU computing efforts, not CUDA.",
+    "Qualcomm designs mobile SoCs and Adreno GPUs and did not create CUDA."
+   ],
+   "e": "CUDA is Nvidia's parallel computing platform and programming model for its GPUs."
   },
   {
    "q": "Who is the CEO of Nvidia?",
@@ -531,7 +843,13 @@
     "Pat Gelsinger",
     "Satya Nadella"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Lisa Su is the CEO of AMD, not Nvidia.",
+    "Pat Gelsinger was the CEO of Intel, not Nvidia.",
+    "Satya Nadella is the CEO of Microsoft, not Nvidia."
+   ],
+   "e": "Jensen Huang is the co-founder and CEO of Nvidia, which is the correct answer."
   },
   {
    "q": "Who is the CEO of AMD?",
@@ -541,7 +859,13 @@
     "Lip-Bu Tan",
     "Cristiano Amon"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Jensen Huang leads Nvidia, not AMD.",
+    "Lip-Bu Tan became Intel's CEO in March 2025, not AMD's.",
+    "Cristiano Amon is the CEO of Qualcomm, not AMD."
+   ],
+   "e": "Lisa Su is the CEO of AMD, which is the company the question asks about."
   },
   {
    "q": "Who has been CEO of Intel since March 2025?",
@@ -551,7 +875,13 @@
     "Bob Swan",
     "Brian Krzanich"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Pat Gelsinger led Intel until late 2024, so he is not the CEO since March 2025.",
+    "Bob Swan was Intel's interim CEO in 2018 and 2019, not the CEO since March 2025.",
+    "Brian Krzanich was Intel's CEO until 2018, not the one since March 2025."
+   ],
+   "e": "Lip-Bu Tan became Intel's CEO in March 2025, as the question asks."
   },
   {
    "q": "Which Nvidia GPU architecture came after Hopper?",
@@ -561,7 +891,13 @@
     "Volta",
     "Turing"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Ampere came before Hopper, as the architecture of the A100 generation, not after it.",
+    "Volta came well before Hopper, so it is not the successor to Hopper.",
+    "Turing came before Ampere and Hopper, so it is not the architecture that followed Hopper."
+   ],
+   "e": "Blackwell is Nvidia's GPU architecture that followed Hopper."
   },
   {
    "q": "Which company is the world's largest contract chipmaker?",
@@ -571,7 +907,13 @@
     "Intel Foundry",
     "GlobalFoundries"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Samsung Foundry is a major contract chipmaker but smaller than TSMC by revenue and market share.",
+    "Intel Foundry is Intel's contract manufacturing arm, which is much smaller than TSMC in foundry share.",
+    "GlobalFoundries is a significant foundry but is smaller than TSMC, so it is not the largest."
+   ],
+   "e": "TSMC is the world's largest contract chipmaker, manufacturing chips designed by other companies."
   },
   {
    "q": "Which company is the only maker of EUV lithography machines?",
@@ -581,7 +923,13 @@
     "Tokyo Electron",
     "Canon"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Applied Materials makes deposition and etch equipment, not EUV lithography machines.",
+    "Tokyo Electron makes coating, developing and etch equipment, not EUV lithography systems.",
+    "Canon makes lithography tools, but not EUV machines; its tools serve older process nodes."
+   ],
+   "e": "ASML is the sole supplier of extreme ultraviolet lithography machines used for leading-edge chips."
   },
   {
    "q": "Apple's in-house computer chips are branded as:",
@@ -591,7 +939,13 @@
     "Snapdragon",
     "Exynos"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Ryzen is AMD's consumer CPU brand, not Apple's.",
+    "Snapdragon is Qualcomm's mobile chip brand, not Apple's.",
+    "Exynos is Samsung's mobile chip brand, not Apple's."
+   ],
+   "e": "Apple's in-house chips for Macs and iPads are branded Apple Silicon, using the M-series name."
   },
   {
    "q": "Qualcomm's mobile chip brand is:",
@@ -601,7 +955,13 @@
     "Exynos",
     "Kirin"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Dimensity is MediaTek's mobile chip brand, not Qualcomm's.",
+    "Exynos is Samsung's mobile chip brand, not Qualcomm's.",
+    "Kirin is Huawei's mobile chip brand, not Qualcomm's."
+   ],
+   "e": "Snapdragon is Qualcomm's mobile system-on-chip brand used in many Android phones."
   },
   {
    "q": "AMD's server CPU line is:",
@@ -611,7 +971,13 @@
     "Xeon",
     "Threadripper only"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Ryzen is AMD's consumer and desktop CPU line, not its server line.",
+    "Xeon is Intel's server processor line, not AMD's.",
+    "Threadripper is AMD's high-end desktop and workstation line, not its server line, so it does not fit alone."
+   ],
+   "e": "EPYC is AMD's server processor line, aimed at data centers."
   },
   {
    "q": "Intel's server CPU line is:",
@@ -621,7 +987,13 @@
     "EPYC",
     "Atom"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Core Ultra is Intel's consumer and laptop processor line, not its server line.",
+    "EPYC is AMD's server line, not Intel's.",
+    "Atom is Intel's low-power line for tablets, embedded and small devices, not its server line."
+   ],
+   "e": "Xeon is Intel's server and workstation CPU line."
   },
   {
    "q": "Which quantum algorithm threatens RSA encryption?",
@@ -631,7 +1003,13 @@
     "Dijkstra's algorithm",
     "Kruskal's algorithm"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Grover's algorithm gives a quadratic speedup for unstructured search, which weakens symmetric keys more than it breaks RSA.",
+    "Dijkstra's algorithm finds shortest paths on classical computers and is not a quantum attack on encryption.",
+    "Kruskal's algorithm builds minimum spanning trees on classical computers and has no role in breaking RSA."
+   ],
+   "e": "Shor's algorithm can factor large integers efficiently on a quantum computer, which threatens the RSA encryption scheme."
   },
   {
    "q": "A quantum bit is called a:",
@@ -641,7 +1019,13 @@
     "Quint",
     "Photon bit"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Qbyte is not a standard term for a quantum unit; the quantum bit is the qubit.",
+    "Quint is not a standard quantum term; the quantum bit is called a qubit.",
+    "Photon bit is not the standard name; photons can implement qubits, but the unit itself is the qubit."
+   ],
+   "e": "A qubit is the quantum counterpart of a bit and can be in a superposition of 0 and 1."
   },
   {
    "q": "Which Google quantum chip announced in December 2024 showed below-threshold error correction?",
@@ -651,7 +1035,13 @@
     "Condor",
     "Majorana"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Sycamore is Google's earlier chip that demonstrated quantum supremacy in 2019, not the December 2024 chip.",
+    "Condor is IBM's large superconducting processor from 2023, not a Google chip.",
+    "Majorana 1 is Microsoft's topological quantum chip announced in 2025, not Google's chip from December 2024."
+   ],
+   "e": "Willow is Google's quantum chip announced in December 2024, which showed below-threshold error correction."
   },
   {
    "q": "The TOP500 ranking benchmark is:",
@@ -661,7 +1051,13 @@
     "3DMark",
     "Geekbench"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "SPEC CPU is a general-purpose CPU benchmark suite, not the benchmark used for TOP500 rankings.",
+    "3DMark is a graphics benchmark for gaming hardware, not the TOP500 supercomputer benchmark.",
+    "Geekbench is a cross-platform CPU benchmark for workstations and devices, not the TOP500 benchmark."
+   ],
+   "e": "LINPACK is the benchmark used for the TOP500 supercomputer ranking, measuring dense linear algebra performance."
   },
   {
    "q": "Which supercomputer at Lawrence Livermore National Laboratory topped the TOP500 from November 2024?",
@@ -671,7 +1067,13 @@
     "Aurora",
     "Fugaku"
    ],
-   "d": "D"
+   "d": "D",
+   "x": [
+    "Frontier at Oak Ridge National Laboratory was number one before November 2024, but not at Lawrence Livermore.",
+    "Aurora at Argonne National Laboratory is a US exascale system, not the Lawrence Livermore system that topped the list from November 2024.",
+    "Fugaku in Japan topped the list in 2020 and 2021, not the Lawrence Livermore system from November 2024."
+   ],
+   "e": "El Capitan at Lawrence Livermore National Laboratory was ranked first on the TOP500 from November 2024."
   },
   {
    "q": "FPGA stands for:",
@@ -681,7 +1083,13 @@
     "Fixed Programmable Gate Array",
     "Field Processing Graphics Adapter"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "Not the answer here: this is not the standard expansion of FPGA, which is field-programmable gate array.",
+    "Fixed is wrong, since the defining feature of an FPGA is that its logic is field-programmable, not fixed.",
+    "Not the answer here: this is not the standard expansion; FPGA is a field-programmable gate array."
+   ],
+   "e": "FPGA stands for Field-Programmable Gate Array, a chip whose logic can be reconfigured after manufacturing."
   },
   {
    "q": "Which chip is custom-designed for one specific application?",
@@ -691,7 +1099,13 @@
     "CPU",
     "GPU"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "An FPGA is reconfigurable and can be reprogrammed for many tasks, so it is not designed for one specific application.",
+    "A CPU is general-purpose and runs many programs, not a chip custom-designed for one application.",
+    "A GPU is a general-purpose parallel processor used for many workloads, not a single-application custom chip."
+   ],
+   "e": "An ASIC is an application-specific integrated circuit designed for one task, which gives it high efficiency for that task."
   },
   {
    "q": "The firmware that replaced the legacy BIOS with Secure Boot and GPT support is:",
@@ -701,7 +1115,13 @@
     "POST",
     "MBR"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "CMOS is a chip technology, and the name also refers to the small memory that stores BIOS settings, not the firmware that replaced BIOS.",
+    "POST is the Power-On Self-Test run during startup, not the firmware that replaced BIOS.",
+    "MBR is the older master boot record partition scheme, which GPT replaces, not the firmware itself."
+   ],
+   "e": "UEFI is the firmware that replaced legacy BIOS and supports Secure Boot and GPT partitions."
   },
   {
    "q": "Which battery keeps BIOS settings and the clock on a motherboard?",
@@ -711,7 +1131,13 @@
     "PSU capacitor",
     "Li-ion pack"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "A UPS battery supplies backup power to the whole system during outages, not the small battery that keeps BIOS settings.",
+    "A PSU capacitor smooths the power supply output and does not hold BIOS settings when the computer is off.",
+    "A Li-ion pack powers laptops and devices, not the coin cell that keeps BIOS settings on a motherboard."
+   ],
+   "e": "The CMOS battery is a small CR2032 coin cell that keeps the clock and BIOS settings powered when the computer is off."
   },
   {
    "q": "The converts AC to DC for computer components:",
@@ -721,7 +1147,13 @@
     "UPS",
     "Chipset"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "The motherboard connects components and is powered by the PSU, but it does not convert AC to DC.",
+    "A UPS provides battery backup power during outages and is not the internal converter for components.",
+    "A chipset is a set of motherboard chips managing data paths between the CPU and devices, not a power converter."
+   ],
+   "e": "The power supply unit converts AC mains power into the DC voltages that computer components need."
   },
   {
    "q": "80 PLUS certification rates a PSU's:",
@@ -731,7 +1163,13 @@
     "Noise",
     "Voltage regulation only"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "Wattage is the rated maximum output of a PSU, which 80 PLUS does not certify.",
+    "Noise is measured separately and is not what 80 PLUS certification rates.",
+    "Voltage regulation is one aspect of PSU quality, but 80 PLUS rates efficiency, not regulation alone."
+   ],
+   "e": "80 PLUS certification rates how efficiently a power supply converts input power into output power."
   },
   {
    "q": "A device that provides backup power during outages is a:",
@@ -741,7 +1179,13 @@
     "KVM",
     "AVR only"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "A PSU converts power inside the computer and does not supply backup power during an outage.",
+    "A KVM switch lets one keyboard, video and mouse control multiple computers, not provide backup power.",
+    "AVR, or automatic voltage regulation, corrects voltage fluctuations but does not provide battery backup on its own."
+   ],
+   "e": "A UPS, or uninterruptible power supply, provides battery backup power during outages to keep equipment running."
   },
   {
    "q": "Which memory technology holds data using a capacitor and transistor per bit?",
@@ -751,7 +1195,13 @@
     "ROM",
     "Flash"
    ],
-   "d": "A"
+   "d": "A",
+   "x": [
+    "SRAM stores each bit in a set of transistors without a capacitor that needs refreshing, not a capacitor and transistor per bit.",
+    "ROM is read-only memory that keeps its contents without power, not per-bit capacitor storage.",
+    "Flash stores charge in floating-gate transistors, not a capacitor and transistor per bit that needs refreshing."
+   ],
+   "e": "DRAM stores each bit as charge in a capacitor with a transistor, and it must be refreshed periodically."
   },
   {
    "q": "The unit measuring floating-point operations per second is:",
@@ -761,7 +1211,13 @@
     "CPI",
     "RPM"
    ],
-   "d": "E"
+   "d": "E",
+   "x": [
+    "MIPS counts millions of instructions per second, which is not specific to floating-point operations.",
+    "CPI is cycles per instruction, a ratio rather than a rate of operations per second.",
+    "RPM is revolutions per minute, used for disk spindle speed, not for computing operations."
+   ],
+   "e": "FLOPS, floating-point operations per second, measures computing performance for numerical workloads."
   },
   {
    "q": "An ideal 5-stage pipeline with no stalls executes 200 instructions in how many cycles?",
@@ -772,7 +1228,12 @@
     "1000"
    ],
    "d": "D",
-   "e": "Total cycles = k + n - 1 = 5 + 200 - 1 = 204. 205 forgets the overlap of the first stage; 1000 is the unpipelined 5 x 200."
+   "e": "Total cycles = k + n - 1 = 5 + 200 - 1 = 204. 205 forgets the overlap of the first stage; 1000 is the unpipelined 5 x 200.",
+   "x": [
+    "200 cycles would mean one instruction completes per cycle with no fill time, which ignores the four extra cycles to fill the pipeline.",
+    "205 cycles is one cycle more than the formula k + n - 1 = 204 gives, so it does not match the correct count.",
+    "1000 cycles is the unpipelined total of 5 times 200, which ignores overlap between instructions."
+   ]
   },
   {
    "q": "For 100 instructions on a 5-stage pipeline, what is the speedup over an unpipelined machine taking 5 cycles per instruction (stalls ignored)?",
@@ -783,7 +1244,12 @@
     "About 4.2x"
    ],
    "d": "D",
-   "e": "Unpipelined = 500 cycles, pipelined = 104 cycles, so 500/104 is about 4.8. The ideal speedup of 5 (number of stages) is only approached as n becomes very large."
+   "e": "Unpipelined = 500 cycles, pipelined = 104 cycles, so 500/104 is about 4.8. The ideal speedup of 5 (number of stages) is only approached as n becomes very large.",
+   "x": [
+    "Exactly 5x is the ideal limit approached only as n grows very large; with 100 instructions and fill time the speedup is 500 over 104.",
+    "About 4.0x does not match the correct calculation; 500 cycles divided by 104 cycles is about 4.8.",
+    "About 4.2x does not match the correct calculation; 500 divided by 104 is about 4.8."
+   ]
   },
   {
    "q": "A program is 90% parallelizable. What is the maximum possible speedup by Amdahl's Law, however many processors are used?",
@@ -794,7 +1260,12 @@
     "90x"
    ],
    "d": "D",
-   "e": "Maximum speedup with infinite S is 1/(1-P) = 1/0.1 = 10. The serial 10% always remains."
+   "e": "Maximum speedup with infinite S is 1/(1-P) = 1/0.1 = 10. The serial 10% always remains.",
+   "x": [
+    "9x does not match the correct limit; with 10 percent serial time the maximum is 1 over 0.1, which is 10.",
+    "11x exceeds the Amdahl limit, which cannot be exceeded because the 10 percent serial part always remains.",
+    "90x confuses the parallel fraction with the speedup; the limit is 1 over the serial fraction, 1/0.1 = 10."
+   ]
   },
   {
    "q": "By Amdahl's Law, what is the overall speedup if 50% of a program is sped up by 10x?",
@@ -805,7 +1276,12 @@
     "About 1.1x"
    ],
    "d": "D",
-   "e": "Speedup = 1/((1-0.5) + 0.5/10) = 1/0.55 = about 1.82. 2.0x is only the ceiling 1/(1-P) reached when S is infinite."
+   "e": "Speedup = 1/((1-0.5) + 0.5/10) = 1/0.55 = about 1.82. 2.0x is only the ceiling 1/(1-P) reached when S is infinite.",
+   "x": [
+    "2.0x is the ceiling 1/(1-P) reached only when the enhanced part has infinite speedup, not with a 10x speedup on half the program.",
+    "5.5x does not match the correct calculation; 1/(0.5 + 0.05) is about 1.82.",
+    "1.1x does not match the correct calculation; the unchanged half limits speedup, and a 10x speedup on half the program gives about 1.82."
+   ]
   },
   {
    "q": "A 3 GHz CPU executes 6 x 10^9 instructions with an average CPI of 1.5. How long does the program take?",
@@ -816,7 +1292,12 @@
     "6 seconds"
    ],
    "d": "D",
-   "e": "Cycles = 6e9 x 1.5 = 9e9; time = 9e9 / 3e9 Hz = 3 s. 2 s would result from ignoring CPI."
+   "e": "Cycles = 6e9 x 1.5 = 9e9; time = 9e9 / 3e9 Hz = 3 s. 2 s would result from ignoring CPI.",
+   "x": [
+    "2 seconds results from ignoring the CPI of 1.5, which gives 6e9 divided by 3e9 instead of 9e9 cycles.",
+    "4.5 seconds comes from dividing 9 billion cycles by 2 GHz, a wrong clock value; the given clock is 3 GHz.",
+    "6 seconds does not match the correct calculation; 6e9 instructions times 1.5 gives 9e9 cycles, which at 3 GHz is 3 seconds."
+   ]
   },
   {
    "q": "A cache has a hit time of 1 ns, a miss rate of 5%, and a miss penalty of 80 ns. What is the AMAT?",
@@ -827,7 +1308,12 @@
     "81 ns"
    ],
    "d": "D",
-   "e": "AMAT = hit time + miss rate x miss penalty = 1 + 0.05 x 80 = 5 ns. 4 ns is only the miss term."
+   "e": "AMAT = hit time + miss rate x miss penalty = 1 + 0.05 x 80 = 5 ns. 4 ns is only the miss term.",
+   "x": [
+    "4 ns is only the miss term 0.05 x 80, leaving out the 1 ns hit time.",
+    "41 ns results from using a 50 percent miss rate instead of 5 percent, which does not match the correct calculation.",
+    "81 ns is the hit time plus the full miss penalty, ignoring the 5 percent miss rate; it does not match the correct calculation."
+   ]
   },
   {
    "q": "A memory has 14 address lines and 16-bit words. What is its capacity?",
@@ -838,7 +1324,12 @@
     "256 KB"
    ],
    "d": "D",
-   "e": "2^14 = 16,384 words x 2 bytes = 32,768 bytes = 32 KB. 16 KB would be correct only for 8-bit words."
+   "e": "2^14 = 16,384 words x 2 bytes = 32,768 bytes = 32 KB. 16 KB would be correct only for 8-bit words.",
+   "x": [
+    "16 KB would be correct only for 8-bit words; with 16-bit words and 14 address lines the capacity is 32 KB.",
+    "64 KB would correspond to 32-bit words, not the 16-bit words stated.",
+    "256 KB does not match 14 address lines and 16-bit words, which give 2^14 x 2 bytes, or 32 KB."
+   ]
   },
   {
    "q": "How many address lines are needed to address every byte of a 2 MB memory?",
@@ -849,7 +1340,12 @@
     "19"
    ],
    "d": "A",
-   "e": "2 MB = 2^21 bytes, so 21 lines. 20 lines reach only 1 MB (the 8086 limit)."
+   "e": "2 MB = 2^21 bytes, so 21 lines. 20 lines reach only 1 MB (the 8086 limit).",
+   "x": [
+    "20 lines reach only 2 to the power 20 bytes, which is 1 MB, the 8086 limit, so they are not enough for 2 MB.",
+    "22 lines would address 4 MB, more than needed; the minimum for 2 MB is 21.",
+    "19 lines reach only 512 KB, which is too few for a 2 MB memory."
+   ]
   },
   {
    "q": "The practical (implemented) address width of 64-bit x86-64 CPUs of the era in the notes, 48 bits, gives an address space of:",
@@ -860,7 +1356,12 @@
     "16 EB"
    ],
    "d": "A",
-   "e": "2^48 bytes = 256 TB. 16 EB is the theoretical limit of a full 64-bit address (2^64)."
+   "e": "2^48 bytes = 256 TB. 16 EB is the theoretical limit of a full 64-bit address (2^64).",
+   "x": [
+    "16 TB corresponds to 44 address bits, which is not the 48-bit width in the question.",
+    "64 TB corresponds to 46 address bits, not the 48 bits stated.",
+    "16 EB corresponds to the full 64-bit address space, not the 48-bit implemented width."
+   ]
   },
   {
    "q": "Approximately what bandwidth does a PCIe Gen 4 x4 link provide (about 2 GB/s per lane)?",
@@ -871,7 +1372,12 @@
     "About 2 GB/s"
    ],
    "d": "D",
-   "e": "4 lanes x ~2 GB/s = ~8 GB/s, which is why Gen 4 NVMe SSDs peak near 7 GB/s. Bandwidth per lane doubles each generation."
+   "e": "4 lanes x ~2 GB/s = ~8 GB/s, which is why Gen 4 NVMe SSDs peak near 7 GB/s. Bandwidth per lane doubles each generation.",
+   "x": [
+    "4 GB/s corresponds to two lanes at about 2 GB/s each, not the four lanes of an x4 link.",
+    "16 GB/s corresponds to eight lanes at about 2 GB/s each, which is an x8 link, not x4.",
+    "2 GB/s is the bandwidth of a single lane, not the four-lane x4 link."
+   ]
   },
   {
    "q": "Which technique removes a RAW (read-after-write) data hazard in a pipeline without always stalling?",
@@ -882,7 +1388,12 @@
     "Adding a second memory port"
    ],
    "d": "D",
-   "e": "Forwarding passes a result straight from the EX/MEM stage to the dependent instruction. Branch prediction and delay slots address control hazards; a second memory port addresses structural hazards."
+   "e": "Forwarding passes a result straight from the EX/MEM stage to the dependent instruction. Branch prediction and delay slots address control hazards; a second memory port addresses structural hazards.",
+   "x": [
+    "Branch prediction addresses control hazards by guessing branch outcomes, not data dependences.",
+    "Delay slots are a compiler technique for control hazards, placing an instruction after a branch, not a fix for RAW dependences.",
+    "A second memory port addresses structural hazards from competing memory accesses, not RAW data dependences."
+   ]
   },
   {
    "q": "Register renaming removes which hazards?",
@@ -893,7 +1404,12 @@
     "RAW and structural hazards"
    ],
    "d": "D",
-   "e": "WAR and WAW are name dependences caused by reusing register names, which renaming eliminates. RAW is a true data dependence and cannot be renamed away."
+   "e": "WAR and WAW are name dependences caused by reusing register names, which renaming eliminates. RAW is a true data dependence and cannot be renamed away.",
+   "x": [
+    "Renaming removes name dependences, not RAW true dependences, so RAW is not what renaming eliminates.",
+    "Structural and control hazards are not removed by register renaming; those need other fixes such as extra units or branch prediction.",
+    "RAW is a true data dependence that renaming cannot remove, and structural hazards need extra hardware, so this option is incorrect."
+   ]
   },
   {
    "q": "Which is NOT one of the three classic types of cache miss?",
@@ -904,7 +1420,12 @@
     "Conflict miss"
    ],
    "d": "A",
-   "e": "The three Cs are compulsory, capacity and conflict. Associativity is a mapping scheme, not a miss type."
+   "e": "The three Cs are compulsory, capacity and conflict. Associativity is a mapping scheme, not a miss type.",
+   "x": [
+    "Compulsory miss is a real miss type, from the first access to a block, so it is one of the three Cs and not the answer.",
+    "Capacity miss is a real type, from the cache being too small for the working set, so it is one of the three Cs.",
+    "Conflict miss is a real type, from several blocks competing for the same set or line, so it is one of the three Cs."
+   ]
   },
   {
    "q": "Which cache write policy marks lines with a dirty bit and updates main memory only when the line is evicted?",
@@ -915,7 +1436,12 @@
     "Write-allocate"
    ],
    "d": "A",
-   "e": "Write-back defers the memory update using a dirty bit. Write-through updates memory on every write; write-allocate only decides whether a block is loaded into cache on a write miss."
+   "e": "Write-back defers the memory update using a dirty bit. Write-through updates memory on every write; write-allocate only decides whether a block is loaded into cache on a write miss.",
+   "x": [
+    "Write-through updates main memory on every write, not only on eviction, and does not use a dirty bit.",
+    "Write-around sends writes to memory without loading them into the cache, and does not use dirty bits to defer memory updates.",
+    "Write-allocate decides whether a block is loaded into the cache on a write miss, not when memory is updated."
+   ]
   },
   {
    "q": "How many logical processors does an 8-core CPU with 2-way SMT (Hyper-Threading) present to the OS?",
@@ -926,7 +1452,12 @@
     "32"
    ],
    "d": "D",
-   "e": "SMT runs 2 threads per core, so 8 x 2 = 16 logical processors, though not 16 times the performance."
+   "e": "SMT runs 2 threads per core, so 8 x 2 = 16 logical processors, though not 16 times the performance.",
+   "x": [
+    "Not the answer here: 8 is the physical core count. With 2-way SMT each core presents two logical processors, so the count is doubled to 16.",
+    "Not the answer here: 4 comes from dividing the cores by the SMT width. SMT adds hardware threads per core, so the count is multiplied, not divided.",
+    "Not the answer here: 32 would require 4 threads per core. The question specifies 2-way SMT, which gives 2 logical processors per core."
+   ]
   },
   {
    "q": "Which flash type is typically used for firmware code storage, while the other is used in SSDs, USB drives and SD cards?",
@@ -937,7 +1468,12 @@
     "Mask ROM"
    ],
    "d": "D",
-   "e": "NOR flash allows random-access reads suited to executing firmware code; NAND is dense and used for bulk storage. EEPROM and mask ROM are different ROM-family types."
+   "e": "NOR flash allows random-access reads suited to executing firmware code; NAND is dense and used for bulk storage. EEPROM and mask ROM are different ROM-family types.",
+   "x": [
+    "NAND is the dense flash type used for bulk storage in SSDs, USB drives and SD cards. It is the other type named in the question, not the one used for firmware code.",
+    "EEPROM is an electrically erasable ROM, usually used for small amounts of settings data. It is not one of the two flash types the question contrasts.",
+    "Mask ROM is programmed once at manufacture and cannot be changed afterward. It is not a flash type and is not used in SSDs or USB drives."
+   ]
   },
   {
    "q": "Which ROM type is erased by exposing the chip to ultraviolet light?",
@@ -948,7 +1484,12 @@
     "Mask ROM"
    ],
    "d": "A",
-   "e": "EPROM uses a UV-transparent window for erasure. EEPROM is erased electrically, PROM is one-time programmable, and mask ROM is fixed at manufacture."
+   "e": "EPROM uses a UV-transparent window for erasure. EEPROM is erased electrically, PROM is one-time programmable, and mask ROM is fixed at manufacture.",
+   "x": [
+    "EEPROM is erased electrically, byte by byte, not by exposing the chip to ultraviolet light. The question describes UV erasure, which is EPROM.",
+    "PROM is programmable only once by the user and cannot be erased at all. UV exposure has no erasing effect on it.",
+    "Mask ROM is fixed at manufacture by the mask process and cannot be erased by any method. UV light does not apply to it."
+   ]
   },
   {
    "q": "A 32-bit value 0x12345678 is stored starting at address 0x100 on a big-endian machine. What byte is at address 0x101?",
@@ -959,7 +1500,12 @@
     "0x78"
    ],
    "d": "D",
-   "e": "Big-endian puts the most significant byte first: 0x100=12, 0x101=34, 0x102=56, 0x103=78. On little-endian, 0x101 would hold 0x56."
+   "e": "Big-endian puts the most significant byte first: 0x100=12, 0x101=34, 0x102=56, 0x103=78. On little-endian, 0x101 would hold 0x56.",
+   "x": [
+    "Not the answer here: 0x12 is the most significant byte, which big-endian stores at the lowest address 0x100, not at 0x101.",
+    "Not the answer here: 0x56 is the byte at 0x101 on a little-endian machine. Big-endian stores 0x56 at address 0x102.",
+    "Not the answer here: 0x78 is the least significant byte, which big-endian stores last at address 0x103."
+   ]
   },
   {
    "q": "In IEEE 754 single precision, the stored exponent field is 130. What is the true exponent?",
@@ -970,7 +1516,12 @@
     "257"
    ],
    "d": "D",
-   "e": "The exponent bias is 127, so the true exponent = 130 - 127 = 3. (Double precision uses a bias of 1023.)"
+   "e": "The exponent bias is 127, so the true exponent = 130 - 127 = 3. (Double precision uses a bias of 1023.)",
+   "x": [
+    "Not the answer here: 2 results from subtracting 128 instead of the single-precision bias of 127. The true exponent is 130 minus 127.",
+    "Not the answer here: 4 results from subtracting 126, an off-by-one error in the bias. The single-precision bias is 127.",
+    "Not the answer here: 257 is 130 plus 127, which adds the bias instead of subtracting it to get the true exponent."
+   ]
   },
   {
    "q": "What is the range of an 8-bit two's complement integer?",
@@ -981,7 +1532,12 @@
     "0 to 255"
    ],
    "d": "A",
-   "e": "Two's complement has one extra negative value: -128 to +127. -127 to 127 is the range of sign-magnitude or one's complement; 0 to 255 is unsigned."
+   "e": "Two's complement has one extra negative value: -128 to +127. -127 to 127 is the range of sign-magnitude or one's complement; 0 to 255 is unsigned.",
+   "x": [
+    "Not the answer here: -127 to 127 is the symmetric range of sign-magnitude or one's complement. Two's complement has one extra negative value, -128.",
+    "Not the answer here: -128 to 128 includes 128, which cannot be represented in 8-bit two's complement. The maximum positive value is 127.",
+    "Not the answer here: 0 to 255 is the range of an 8-bit unsigned integer. Two's complement is a signed representation and includes negative values."
+   ]
   },
   {
    "q": "Which signed number representations each have two representations of zero (+0 and -0)?",
@@ -992,7 +1548,12 @@
     "2's complement only"
    ],
    "d": "D",
-   "e": "Sign-magnitude and 1's complement both have +0 and -0; 2's complement has a single zero, which is one reason it is used for signed integers."
+   "e": "Sign-magnitude and 1's complement both have +0 and -0; 2's complement has a single zero, which is one reason it is used for signed integers.",
+   "x": [
+    "Not the answer here: 2's complement has only one zero, so it cannot be one of the two representations that each have two zeros.",
+    "Not the answer here: 2's complement has a single zero. Only sign-magnitude and 1's complement have both +0 and -0.",
+    "Not the answer here: this names only 2's complement, which has one zero. The question asks for two representations that each have dual zeros."
+   ]
   },
   {
    "q": "Which status flag is set when an unsigned addition produces a carry out of the most significant bit?",
@@ -1003,7 +1564,12 @@
     "Sign flag"
    ],
    "d": "D",
-   "e": "The carry flag signals unsigned carry/borrow. The overflow flag signals signed two's complement overflow, which is a different condition."
+   "e": "The carry flag signals unsigned carry/borrow. The overflow flag signals signed two's complement overflow, which is a different condition.",
+   "x": [
+    "Not the answer here: the overflow flag is set when a signed two's complement result is out of range. That is a different condition from an unsigned carry out.",
+    "Not the answer here: the zero flag is set when the result is zero. It does not depend on a carry out of the most significant bit.",
+    "Not the answer here: the sign flag is set when the most significant bit of the result is 1. It indicates a negative signed value, not a carry."
+   ]
   },
   {
    "q": "During the fetch step, which sequence of register transfers is correct?",
@@ -1014,7 +1580,12 @@
     "PC to IR, IR to MAR, memory to MDR"
    ],
    "d": "D",
-   "e": "The PC supplies the address via MAR, the instruction comes back through MDR into the IR, and the PC is advanced to the next instruction."
+   "e": "The PC supplies the address via MAR, the instruction comes back through MDR into the IR, and the PC is advanced to the next instruction.",
+   "x": [
+    "Not the answer here: this loads the PC into MDR and memory into MAR, reversing the roles of the address and data registers. The PC must go to MAR, and the instruction returns through MDR.",
+    "Not the answer here: the instruction register does not supply addresses, and memory does not load the PC during fetch. Only the PC is incremented.",
+    "Not the answer here: the PC does not transfer directly into the IR, and the IR cannot feed MAR. The instruction is loaded into the IR through MDR."
+   ]
   },
   {
    "q": "Which technique relies on the compiler to pack independent operations into one long instruction word for parallel issue?",
@@ -1025,7 +1596,12 @@
     "SMT"
    ],
    "d": "D",
-   "e": "VLIW (and Intel's EPIC/Itanium) shifts parallelism detection to compile time. Superscalar, out-of-order and SMT find parallelism in hardware at run time."
+   "e": "VLIW (and Intel's EPIC/Itanium) shifts parallelism detection to compile time. Superscalar, out-of-order and SMT find parallelism in hardware at run time.",
+   "x": [
+    "Superscalar finds independent instructions at run time in hardware. It does not rely on the compiler packing them into long instruction words.",
+    "Out-of-order execution is a run-time hardware technique that reorders instructions dynamically. It does not depend on compiler packing.",
+    "SMT runs multiple threads on one core by sharing execution units. It is a thread-level hardware technique, not compiler-packed instruction words."
+   ]
   },
   {
    "q": "A system has four 2 TB drives in RAID 5. What is the usable capacity?",
@@ -1036,7 +1612,12 @@
     "2 TB"
    ],
    "d": "D",
-   "e": "RAID 5 gives up one drive's worth for parity: (4 - 1) x 2 TB = 6 TB. 4 TB would be RAID 6 or RAID 10; 8 TB would be RAID 0."
+   "e": "RAID 5 gives up one drive's worth for parity: (4 - 1) x 2 TB = 6 TB. 4 TB would be RAID 6 or RAID 10; 8 TB would be RAID 0.",
+   "x": [
+    "Not the answer here: 8 TB is the raw total of all four drives, which is RAID 0 with no parity. RAID 5 gives up one drive's worth for parity.",
+    "Not the answer here: 4 TB is the usable capacity of RAID 6 or RAID 10 with four drives. RAID 5 loses only one drive's worth to parity.",
+    "Not the answer here: 2 TB is the capacity of a single drive. It leaves out the usable space of the other three drives."
+   ]
   },
   {
    "q": "Which RAID level can guarantee survival of any two simultaneous drive failures?",
@@ -1047,7 +1628,12 @@
     "RAID 1"
    ],
    "d": "D",
-   "e": "RAID 6 uses double parity. RAID 5 tolerates one failure; RAID 10 survives two only if they hit different mirror pairs, so it is not guaranteed."
+   "e": "RAID 6 uses double parity. RAID 5 tolerates one failure; RAID 10 survives two only if they hit different mirror pairs, so it is not guaranteed.",
+   "x": [
+    "RAID 5 uses single parity and tolerates only one drive failure. It cannot guarantee survival of two simultaneous failures.",
+    "RAID 10 survives two failures only if they hit different mirror pairs. It is therefore not guaranteed.",
+    "A two-way mirror survives one drive failure. Losing both drives loses all data, so RAID 1 does not guarantee survival of two failures."
+   ]
   },
   {
    "q": "A disk has 2 surfaces, 1024 tracks per surface, 64 sectors per track and 512 bytes per sector. What is its capacity?",
@@ -1058,7 +1644,12 @@
     "16 MB"
    ],
    "d": "D",
-   "e": "2 x 1024 x 64 x 512 = 2^1 x 2^10 x 2^6 x 2^9 = 2^26 bytes = 64 MB."
+   "e": "2 x 1024 x 64 x 512 = 2^1 x 2^10 x 2^6 x 2^9 = 2^26 bytes = 64 MB.",
+   "x": [
+    "Not the answer here: 32 MB results from using one surface instead of two, which halves the correct total of 64 MB.",
+    "Not the answer here: 128 MB would result from using four surfaces instead of two, which doubles the correct total.",
+    "Does not match the correct calculation. 16 MB is 2^24 bytes, while the correct total is 2^26 bytes."
+   ]
   },
   {
    "q": "How many 16K x 4-bit chips are needed to build a 64K x 8-bit memory?",
@@ -1069,7 +1660,12 @@
     "6"
    ],
    "d": "D",
-   "e": "Depth: 64K/16K = 4 banks; width: 8/4 = 2 chips per bank; 4 x 2 = 8 chips."
+   "e": "Depth: 64K/16K = 4 banks; width: 8/4 = 2 chips per bank; 4 x 2 = 8 chips.",
+   "x": [
+    "Not the answer here: 4 counts only the depth banks, 64K divided by 16K, and ignores the two chips per bank needed for the 8-bit width.",
+    "Not the answer here: 16 would come from using four chips per bank for the width, or from doubling the bank count. Does not match the correct calculation.",
+    "Does not match the correct calculation. 6 is not the product of the 4 depth banks and 2 width chips used here."
+   ]
   },
   {
    "q": "Which Flynn class is rare and associated mainly with fault-tolerant systems?",
@@ -1080,7 +1676,12 @@
     "MIMD"
    ],
    "d": "A",
-   "e": "MISD applies multiple instruction streams to the same data and is mostly seen in redundant fault-tolerant designs. Multicore and clusters are MIMD; GPUs and vector units are SIMD."
+   "e": "MISD applies multiple instruction streams to the same data and is mostly seen in redundant fault-tolerant designs. Multicore and clusters are MIMD; GPUs and vector units are SIMD.",
+   "x": [
+    "SISD is a single instruction stream on a single data stream, the ordinary uniprocessor model. It is not the rare fault-tolerant class in the question.",
+    "SIMD applies one instruction to many data items, as in GPUs and vector units. It is common, not the rare class the question describes.",
+    "MIMD runs multiple instruction streams on multiple data streams, as in multicore and cluster systems. It is the common parallel class, not MISD."
+   ]
   },
   {
    "q": "Which NIST post-quantum standard (FIPS 203) specifies the key-encapsulation mechanism formerly known as Kyber?",
@@ -1091,7 +1692,12 @@
     "FN-DSA"
    ],
    "d": "D",
-   "e": "ML-KEM is FIPS 203 (Kyber). ML-DSA (FIPS 204, Dilithium) and SLH-DSA (FIPS 205, SPHINCS+) are digital signature standards."
+   "e": "ML-KEM is FIPS 203 (Kyber). ML-DSA (FIPS 204, Dilithium) and SLH-DSA (FIPS 205, SPHINCS+) are digital signature standards.",
+   "x": [
+    "ML-DSA is specified in FIPS 204 from the Dilithium design. It is a digital signature standard, not a key-encapsulation mechanism.",
+    "SLH-DSA is specified in FIPS 205 from the SPHINCS+ design. It is a hash-based digital signature standard, not a key-encapsulation mechanism.",
+    "FN-DSA is a signature scheme based on Falcon, drafted separately as FIPS 206. It is not the key-encapsulation standard in FIPS 203."
+   ]
   }
  ],
  "cards": [
