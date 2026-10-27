@@ -147,23 +147,24 @@ function pickItems(pool, n, {balanced,smart}, kind){
   } else chosen=weightedPick(pool,n,wfn);
   return shuffle(chosen);
 }
-function allQuestionPool(selIds){
-  const out=[]; LESSONS.forEach(l=>{ if(!selIds.has(l.id)) return; l.mcq.forEach((m,i)=>out.push({id:l.id+':m:'+i,l:l.id,m})); });
+function allQuestionPool(selIds,diffs){
+  const out=[]; LESSONS.forEach(l=>{ if(!selIds.has(l.id)) return; l.mcq.forEach((m,i)=>{ if(!diffs||diffs.has(m.d)) out.push({id:l.id+':m:'+i,l:l.id,m}); }); });
   return out;
 }
 function buildQuizItem(p){
   const opts=shuffle([p.m.a,...p.m.w]);
-  return {id:p.id,l:p.l,q:p.m.q,ch:opts,c:opts.indexOf(p.m.a),e:p.m.e||''};
+  return {id:p.id,l:p.l,q:p.m.q,ch:opts,c:opts.indexOf(p.m.a),e:p.m.e||'',d:p.m.d};
 }
 
 function viewQuiz(root){
   const saved=store.get('session.quiz',null);
-  const def={sel:LESSONS.map(l=>l.id),n:50,mode:'exam',smart:false,balanced:true,timer:true};
+  const def={sel:LESSONS.map(l=>l.id),n:50,mode:'exam',smart:false,balanced:true,timer:true,diffs:['E','A','D']};
   const S=Object.assign(def,store.get('quizSetup',{}));
+  const diffs=()=>new Set(S.diffs);
   const sel=new Set((S.sel||[]).filter(id=>LBY[id]));
   const wrap=h('div',{class:'setup'}); root.append(wrap);
   let customEl, sumEl, startBtn, limEl;
-  function avail(){ return allQuestionPool(sel).length; }
+  function avail(){ return allQuestionPool(sel,diffs()).length; }
   function eff(){ const a=avail(); return S.n==='max'?a:Math.min(+S.n||1,a); }
   function persist(){ store.set('quizSetup',Object.assign({},S,{sel:[...sel]})); }
   function refreshSummary(){
@@ -189,6 +190,7 @@ function viewQuiz(root){
     const seg=(key,opts)=>h('div',{class:'seg',role:'group'},opts.map(([v,t])=>h('button',{'aria-pressed':S[key]===v?'true':'false',onclick:()=>{S[key]=v;persist();draw();}},t)));
     const sw=(key,text)=>h('label',{class:'switch'},h('input',{type:'checkbox',id:'qs-'+key,checked:!!S[key],onchange:e=>{S[key]=e.target.checked;persist();refreshSummary();}}),text);
     const picker=lessonPicker(sel,'mcq',()=>{persist();refreshSummary();});
+    const dSeg=h('div',{class:'seg',role:'group','aria-label':'Difficulty'},['E','A','D'].map(d=>h('button',{'aria-pressed':S.diffs.includes(d)?'true':'false',onclick:()=>{ const s2=new Set(S.diffs); if(s2.has(d)){ if(s2.size>1) s2.delete(d);} else s2.add(d); S.diffs=[...s2]; persist(); draw(); }},DIFF[d])));
     wrap.replaceChildren(
       saved ? h('div',{class:'resume'},h('div',null,h('b',null,'Unfinished quiz: '),saved.ans.filter(x=>x!=null).length+' of '+saved.items.length+' answered'),
         h('div',{class:'row'},h('button',{class:'btn primary small',onclick:()=>{ runQuiz(root,saved); }},'Resume'),h('button',{class:'btn small',onclick:()=>{store.del('session.quiz');route();}},'Discard'))) : '',
@@ -197,12 +199,13 @@ function viewQuiz(root){
       h('section',{class:'stack'},h('p',{class:'label'},'3 · Options'),
         h('div',{class:'row'},seg('mode',[['exam','Exam: results at the end'],['practice','Practice: instant feedback']]),
           S.mode==='exam'?sw('timer','Time limit'):null),
-        h('div',{class:'row'},sw('balanced','Balance across lessons'),sw('smart','Favor questions I missed or have not seen'))),
+        h('div',{class:'row'},sw('balanced','Balance across lessons'),sw('smart','Favor questions I missed or have not seen')),
+        h('p',{class:'label'},'Difficulty'),dSeg),
       sumEl, h('div',null,startBtn));
     refreshSummary();
   }
   function start(){
-    const pool=allQuestionPool(sel); const n=eff(); if(!n) return;
+    const pool=allQuestionPool(sel,diffs()); const n=eff(); if(!n) return;
     const picked=pickItems(pool,n,S,'q');
     const s={type:'quiz',mode:S.mode,t0:Date.now(),limit:(S.mode==='exam'&&S.timer)?Math.max(1,Math.round(n*0.6))*60:0,
       items:picked.map(buildQuizItem),ans:new Array(n).fill(null),flag:new Array(n).fill(false),idx:0,elapsed:0,lessons:[...sel]};
@@ -253,7 +256,7 @@ function runQuiz(root,s){
     });
     const last=s.idx===N-1;
     body.replaceChildren(h('div',{class:'card qcard'},
-      h('div',{class:'qmeta'},lessonTag(it.l),h('span',{class:'tag'},LBY[it.l].title),s.flag[s.idx]?h('span',{class:'tag',style:'color:var(--flag);border-color:var(--gold)'},'flagged'):null),
+      h('div',{class:'qmeta'},lessonTag(it.l),h('span',{class:'tag'},LBY[it.l].title),it.d?h('span',{class:'tag '+it.d},DIFF[it.d]):null,s.flag[s.idx]?h('span',{class:'tag',style:'color:var(--flag);border-color:var(--gold)'},'flagged'):null),
       h('p',{class:'qtext'},it.q), h('div',{class:'choices'},ch),
       locked?h('div',{class:'feedback '+(a===it.c?'ok':'no')}, a===it.c?'Correct.':'Incorrect. Correct answer: '+LET[it.c]+'. '+it.ch[it.c]):null,
       locked&&it.e?h('p',{class:'expl'},it.e):null,
@@ -319,7 +322,7 @@ function runQuiz(root,s){
         h('p',{class:'muted'},pct(correct,N)+'% · '+fmtTime(s.elapsed)+(s.limit?' of '+fmtTime(s.limit):'')+' · '+(practice?'practice':'exam')),
         h('div',{class:'row',style:'justify-content:center;margin-top:10px'},
           wrongIdx.length?h('button',{class:'btn primary',onclick:()=>{
-              const items=wrongIdx.map(i=>{const it=s.items[i]; const opts=shuffle(it.ch.map((t,k)=>({t,k}))); return {id:it.id,l:it.l,q:it.q,ch:opts.map(o=>o.t),c:opts.findIndex(o=>o.k===it.c),e:it.e};});
+              const items=wrongIdx.map(i=>{const it=s.items[i]; const opts=shuffle(it.ch.map((t,k)=>({t,k}))); return {id:it.id,l:it.l,q:it.q,ch:opts.map(o=>o.t),c:opts.findIndex(o=>o.k===it.c),e:it.e,d:it.d};});
               const ns={type:'quiz',mode:s.mode,t0:Date.now(),limit:0,items,ans:new Array(items.length).fill(null),flag:new Array(items.length).fill(false),idx:0,elapsed:0,lessons:s.lessons};
               store.set('session.quiz',ns); runQuiz(root,ns); window.scrollTo(0,0);
             }},'Retry the '+wrongIdx.length+' missed'):null,
