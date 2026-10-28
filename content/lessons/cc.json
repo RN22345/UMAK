@@ -84,70 +84,6 @@
    "e": "Ada Lovelace wrote the first published algorithm for the Analytical Engine in 1843, which is why she is credited as the world's first programmer."
   },
   {
-   "q": "The Pascaline, a mechanical adding machine, was built in 1642 by:",
-   "a": "Blaise Pascal",
-   "w": [
-    "Gottfried Leibniz",
-    "John Napier",
-    "William Oughtred"
-   ],
-   "d": "A",
-   "x": [
-    "Gottfried Leibniz built the Stepped Reckoner, which could multiply and divide, in 1672 to 1673. He did not build the 1642 Pascaline.",
-    "John Napier invented logarithms and Napier's bones. He did not build the Pascaline.",
-    "William Oughtred developed the slide rule. He did not build the Pascaline."
-   ],
-   "e": "Blaise Pascal built the Pascaline in 1642, a mechanical adder that used gears and wheels to add numbers."
-  },
-  {
-   "q": "Herman Hollerith's tabulating machine for the 1890 US census led to the company later known as:",
-   "a": "IBM",
-   "w": [
-    "Intel",
-    "Microsoft",
-    "Apple"
-   ],
-   "d": "A",
-   "x": [
-    "Intel is a microprocessor maker founded in 1968. It did not descend from Hollerith's tabulating business.",
-    "Microsoft is a software company founded in 1975. It did not descend from Hollerith's tabulating company.",
-    "Apple is a computer maker founded in 1976. It did not descend from Hollerith's tabulating company."
-   ],
-   "e": "Hollerith's Tabulating Machine Company merged into a group that became IBM in 1924. Hollerith's census machine is the root of IBM."
-  },
-  {
-   "q": "Which machine is regarded as the first general-purpose electronic digital computer?",
-   "a": "ENIAC",
-   "w": [
-    "UNIVAC I",
-    "Harvard Mark I",
-    "Colossus"
-   ],
-   "d": "A",
-   "x": [
-    "UNIVAC I was a 1951 commercial computer, later than ENIAC, which was completed in 1945. It was not the first general-purpose electronic computer.",
-    "Harvard Mark I was an electromechanical computer built with relays, completed in 1944. It was not electronic.",
-    "Colossus was a British electronic code-breaking machine from 1943 to 1944. It was not general-purpose."
-   ],
-   "e": "ENIAC, completed in 1945, is regarded as the first general-purpose electronic digital computer. It was programmed largely by plugboards and switches."
-  },
-  {
-   "q": "The stored-program concept (program and data in the same memory) is credited to:",
-   "a": "John von Neumann",
-   "w": [
-    "Alan Turing",
-    "Konrad Zuse",
-    "Howard Aiken"
-   ],
-   "d": "A",
-   "x": [
-    "Alan Turing described a universal machine in 1936 and worked on early computers. He is not the one credited with the stored-program concept here.",
-    "Konrad Zuse built the Z-series machines in Germany. He is not credited with the stored-program concept.",
-    "Howard Aiken designed the Harvard Mark I, which used separate instruction and data paths. He is not credited with this concept."
-   ],
-   "e": "John von Neumann is credited with the stored-program concept, where instructions and data share the same memory, as described in his 1945 EDVAC report."
-  },
-  {
    "q": "First-generation computers used which core technology?",
    "a": "Vacuum tubes",
    "w": [
@@ -180,38 +116,6 @@
    "e": "Transistors were smaller, faster, and more reliable than vacuum tubes, which is why they defined the second generation of computers."
   },
   {
-   "q": "The IBM System/360 is associated with which generation?",
-   "a": "Third (integrated circuits)",
-   "w": [
-    "First (vacuum tubes)",
-    "Second (transistors)",
-    "Fourth (microprocessors)"
-   ],
-   "d": "A",
-   "x": [
-    "First generation used vacuum tubes. The System/360 was built with integrated circuits, not tubes.",
-    "Second generation used transistors. The System/360 used integrated circuits, so it is third generation.",
-    "Fourth generation is associated with microprocessors and VLSI. The System/360 of 1964 came before those."
-   ],
-   "e": "The IBM System/360, introduced in 1964, used integrated circuits, which defines the third generation of computers."
-  },
-  {
-   "q": "The first commercially available microprocessor was the:",
-   "a": "Intel 4004",
-   "w": [
-    "Intel 8086",
-    "Intel 8080",
-    "Motorola 68000"
-   ],
-   "d": "D",
-   "x": [
-    "The Intel 8086 came out in 1978, after the 4004 of 1971. It was not the first commercial microprocessor.",
-    "The Intel 8080 came out in 1974, after the 4004. It was not the first commercial microprocessor.",
-    "The Motorola 68000 came out in 1979, after the 4004. It was not the first commercial microprocessor."
-   ],
-   "e": "The Intel 4004, released in 1971, is regarded as the first commercially available microprocessor, putting a whole CPU on one chip."
-  },
-  {
    "q": "\"The number of transistors on a chip doubles about every two years\" is known as:",
    "a": "Moore's Law",
    "w": [
@@ -242,38 +146,6 @@
     "Ray Tomlinson sent the first networked email and chose the @ sign. He did not propose the Web at CERN."
    ],
    "e": "Tim Berners-Lee proposed the World Wide Web at CERN in 1989 and built the first web server and browser."
-  },
-  {
-   "q": "Who introduced the \"@\" symbol in email addresses (1971)?",
-   "a": "Ray Tomlinson",
-   "w": [
-    "Tim Berners-Lee",
-    "Bob Kahn",
-    "Jon Postel"
-   ],
-   "d": "A",
-   "x": [
-    "Tim Berners-Lee proposed the World Wide Web at CERN. He did not introduce the @ symbol in email.",
-    "Bob Kahn co-designed TCP/IP with Vint Cerf. He is not credited with the @ symbol in email.",
-    "Jon Postel was an early Internet standards editor. He is not credited with the @ symbol in email."
-   ],
-   "e": "Ray Tomlinson sent the first networked email in 1971 and chose the @ symbol to separate user name and host name."
-  },
-  {
-   "q": "The Internet's \"birthday\" when ARPANET adopted TCP/IP is commonly given as:",
-   "a": "1 January 1983",
-   "w": [
-    "29 October 1969",
-    "6 August 1991",
-    "1 January 1990"
-   ],
-   "d": "D",
-   "x": [
-    "29 October 1969 is when the first ARPANET message was sent between UCLA and SRI. TCP/IP had not been adopted yet.",
-    "6 August 1991 is when the World Wide Web was publicly announced. It is not the TCP/IP switch date.",
-    "1 January 1990 is near the year ARPANET was shut down. It does not mark the TCP/IP switch."
-   ],
-   "e": "On 1 January 1983 ARPANET switched to TCP/IP, which is commonly cited as the Internet's birthday."
   },
   {
    "q": "Which computer type is used for weather forecasting and nuclear simulation and measured in FLOPS?",
@@ -340,38 +212,6 @@
    "e": "RAM is volatile, meaning it loses its contents when power is removed, while ROM, flash and EEPROM keep data without power."
   },
   {
-   "q": "Which is the fastest storage location in a computer?",
-   "a": "CPU registers",
-   "w": [
-    "L3 cache",
-    "RAM",
-    "SSD"
-   ],
-   "d": "A",
-   "x": [
-    "L3 cache is a large, slower cache shared by cores on the CPU. Registers are faster and sit closer to the ALU.",
-    "RAM is main memory, far slower than registers and cache. It is not the fastest location.",
-    "SSD is persistent storage, much slower than RAM. It is not the fastest storage location."
-   ],
-   "e": "CPU registers sit inside the processor and are the fastest storage location, faster than cache, RAM or SSDs."
-  },
-  {
-   "q": "Which input technology reads marked bubbles on exam answer sheets?",
-   "a": "OMR",
-   "w": [
-    "OCR",
-    "MICR",
-    "RFID"
-   ],
-   "d": "A",
-   "x": [
-    "OCR reads printed or handwritten characters and text. It does not detect marked bubble positions on answer sheets.",
-    "MICR reads magnetic ink characters on cheques. It is not used for marked bubble sheets.",
-    "RFID uses radio tags to identify objects wirelessly. It does not read marked answer sheets."
-   ],
-   "e": "OMR, optical mark recognition, detects marks in set positions, which is how bubble answer sheets are read."
-  },
-  {
    "q": "MICR is mainly used by banks for:",
    "a": "Reading cheques",
    "w": [
@@ -404,22 +244,6 @@
    "e": "A nibble is 4 bits, half of a byte, and can represent values from 0 to 15 in binary."
   },
   {
-   "q": "Which USB generation/standard reaches 40 Gbps?",
-   "a": "USB4",
-   "w": [
-    "USB 2.0",
-    "USB 3.0",
-    "USB 3.2 Gen 2"
-   ],
-   "d": "D",
-   "x": [
-    "USB 2.0 tops out at 480 Mbps, far below 40 Gbps.",
-    "USB 3.0 runs at 5 Gbps, which is still below 40 Gbps.",
-    "USB 3.2 Gen 2 runs at 10 Gbps, which is still below 40 Gbps."
-   ],
-   "e": "USB4 supports speeds up to 40 Gbps, the fastest of the listed standards, far above USB 3.2 Gen 2 at 10 Gbps."
-  },
-  {
    "q": "The 7-bit character encoding with 128 characters is:",
    "a": "ASCII",
    "w": [
@@ -436,6 +260,214 @@
    "e": "ASCII is a 7-bit encoding that defines 128 characters, covering English letters, digits, punctuation and control codes."
   },
   {
+   "q": "Gmail and Office 365 are examples of which cloud service model?",
+   "a": "SaaS",
+   "w": [
+    "IaaS",
+    "PaaS",
+    "DaaS"
+   ],
+   "d": "E",
+   "x": [
+    "IaaS provides virtual machines and raw infrastructure, such as AWS EC2. Gmail is a finished application, not infrastructure.",
+    "PaaS provides a platform for developers to build and deploy apps. Gmail is a finished application delivered to users.",
+    "DaaS, desktop as a service, delivers virtual desktops. Gmail and Office 365 are delivered as applications, not desktops."
+   ],
+   "e": "SaaS delivers ready-to-use applications over the cloud, such as Gmail and Office 365, managed by the provider."
+  },
+  {
+   "q": "Which cloud model provides virtual machines and raw infrastructure (e.g., AWS EC2)?",
+   "a": "IaaS",
+   "w": [
+    "SaaS",
+    "PaaS",
+    "FaaS only"
+   ],
+   "d": "E",
+   "x": [
+    "SaaS delivers finished applications such as Gmail. It does not provide raw virtual machines.",
+    "PaaS provides a managed platform for building apps, not raw virtual machines. EC2 is raw infrastructure.",
+    "FaaS runs individual functions on demand without managing servers. It is not raw virtual machines like EC2."
+   ],
+   "e": "IaaS provides virtual machines, storage and networks as raw infrastructure that users configure, such as AWS EC2."
+  },
+  {
+   "q": "Which image format is lossless and supports transparency?",
+   "a": "PNG",
+   "w": [
+    "JPEG",
+    "GIF",
+    "BMP"
+   ],
+   "d": "E",
+   "x": [
+    "JPEG is lossy compression, so it discards detail and does not preserve transparency. It fails both requirements.",
+    "GIF is limited to a 256-color palette and only one-bit transparency. PNG supports full alpha transparency, so it is the better fit.",
+    "BMP is typically uncompressed and large, and does not commonly support transparency. It does not fit the requirements."
+   ],
+   "e": "PNG is lossless and supports full alpha transparency, making it the standard lossless image format with transparency."
+  },
+  {
+   "q": "Which image format is vector-based and scales without loss?",
+   "a": "SVG",
+   "w": [
+    "PNG",
+    "BMP",
+    "JPEG"
+   ],
+   "d": "E",
+   "x": [
+    "PNG is a raster format made of pixels, so it loses quality when enlarged.",
+    "BMP is a raster bitmap format made of pixels, not scalable vector paths.",
+    "JPEG is a lossy raster format made of pixels, so it does not scale without loss."
+   ],
+   "e": "SVG stores images as vector paths and text in XML, so it scales to any size without losing quality."
+  },
+  {
+   "q": "In Excel, which cell reference is an absolute reference?",
+   "a": "$A$1",
+   "w": [
+    "A1",
+    "A$1:B1",
+    "#A1"
+   ],
+   "d": "E",
+   "x": [
+    "A1 is a relative reference, which changes when the formula is copied to another cell.",
+    "A$1:B1 is a mixed range that locks only the row of the first cell, so it is not fully absolute.",
+    "#A1 is not a valid cell reference. The hash sign is used for error values such as #REF!."
+   ],
+   "e": "$A$1 is an absolute reference, with the dollar signs locking both column and row, so it does not change when copied."
+  },
+  {
+   "q": "The Pascaline, a mechanical adding machine, was built in 1642 by:",
+   "a": "Blaise Pascal",
+   "w": [
+    "Gottfried Leibniz",
+    "John Napier",
+    "William Oughtred"
+   ],
+   "d": "A",
+   "x": [
+    "Gottfried Leibniz built the Stepped Reckoner, which could multiply and divide, in 1672 to 1673. He did not build the 1642 Pascaline.",
+    "John Napier invented logarithms and Napier's bones. He did not build the Pascaline.",
+    "William Oughtred developed the slide rule. He did not build the Pascaline."
+   ],
+   "e": "Blaise Pascal built the Pascaline in 1642, a mechanical adder that used gears and wheels to add numbers."
+  },
+  {
+   "q": "Herman Hollerith's tabulating machine for the 1890 US census led to the company later known as:",
+   "a": "IBM",
+   "w": [
+    "Intel",
+    "Microsoft",
+    "Apple"
+   ],
+   "d": "A",
+   "x": [
+    "Intel is a microprocessor maker founded in 1968. It did not descend from Hollerith's tabulating business.",
+    "Microsoft is a software company founded in 1975. It did not descend from Hollerith's tabulating company.",
+    "Apple is a computer maker founded in 1976. It did not descend from Hollerith's tabulating company."
+   ],
+   "e": "Hollerith's Tabulating Machine Company merged into a group that became IBM in 1924. Hollerith's census machine is the root of IBM."
+  },
+  {
+   "q": "Which machine is regarded as the first general-purpose electronic digital computer?",
+   "a": "ENIAC",
+   "w": [
+    "UNIVAC I",
+    "Harvard Mark I",
+    "Colossus"
+   ],
+   "d": "A",
+   "x": [
+    "UNIVAC I was a 1951 commercial computer, later than ENIAC, which was completed in 1945. It was not the first general-purpose electronic computer.",
+    "Harvard Mark I was an electromechanical computer built with relays, completed in 1944. It was not electronic.",
+    "Colossus was a British electronic code-breaking machine from 1943 to 1944. It was not general-purpose."
+   ],
+   "e": "ENIAC, completed in 1945, is regarded as the first general-purpose electronic digital computer. It was programmed largely by plugboards and switches."
+  },
+  {
+   "q": "The stored-program concept (program and data in the same memory) is credited to:",
+   "a": "John von Neumann",
+   "w": [
+    "Alan Turing",
+    "Konrad Zuse",
+    "Howard Aiken"
+   ],
+   "d": "A",
+   "x": [
+    "Alan Turing described a universal machine in 1936 and worked on early computers. He is not the one credited with the stored-program concept here.",
+    "Konrad Zuse built the Z-series machines in Germany. He is not credited with the stored-program concept.",
+    "Howard Aiken designed the Harvard Mark I, which used separate instruction and data paths. He is not credited with this concept."
+   ],
+   "e": "John von Neumann is credited with the stored-program concept, where instructions and data share the same memory, as described in his 1945 EDVAC report."
+  },
+  {
+   "q": "The first commercially available microprocessor was the:",
+   "a": "Intel 4004",
+   "w": [
+    "Intel 8086",
+    "Intel 8080",
+    "Motorola 68000"
+   ],
+   "d": "A",
+   "x": [
+    "The Intel 8086 came out in 1978, after the 4004 of 1971. It was not the first commercial microprocessor.",
+    "The Intel 8080 came out in 1974, after the 4004. It was not the first commercial microprocessor.",
+    "The Motorola 68000 came out in 1979, after the 4004. It was not the first commercial microprocessor."
+   ],
+   "e": "The Intel 4004, released in 1971, is regarded as the first commercially available microprocessor, putting a whole CPU on one chip."
+  },
+  {
+   "q": "Who introduced the \"@\" symbol in email addresses (1971)?",
+   "a": "Ray Tomlinson",
+   "w": [
+    "Tim Berners-Lee",
+    "Bob Kahn",
+    "Jon Postel"
+   ],
+   "d": "A",
+   "x": [
+    "Tim Berners-Lee proposed the World Wide Web at CERN. He did not introduce the @ symbol in email.",
+    "Bob Kahn co-designed TCP/IP with Vint Cerf. He is not credited with the @ symbol in email.",
+    "Jon Postel was an early Internet standards editor. He is not credited with the @ symbol in email."
+   ],
+   "e": "Ray Tomlinson sent the first networked email in 1971 and chose the @ symbol to separate user name and host name."
+  },
+  {
+   "q": "Which is the fastest storage location in a computer?",
+   "a": "CPU registers",
+   "w": [
+    "L3 cache",
+    "RAM",
+    "SSD"
+   ],
+   "d": "A",
+   "x": [
+    "L3 cache is a large, slower cache shared by cores on the CPU. Registers are faster and sit closer to the ALU.",
+    "RAM is main memory, far slower than registers and cache. It is not the fastest location.",
+    "SSD is persistent storage, much slower than RAM. It is not the fastest storage location."
+   ],
+   "e": "CPU registers sit inside the processor and are the fastest storage location, faster than cache, RAM or SSDs."
+  },
+  {
+   "q": "Which input technology reads marked bubbles on exam answer sheets?",
+   "a": "OMR",
+   "w": [
+    "OCR",
+    "MICR",
+    "RFID"
+   ],
+   "d": "A",
+   "x": [
+    "OCR reads printed or handwritten characters and text. It does not detect marked bubble positions on answer sheets.",
+    "MICR reads magnetic ink characters on cheques. It is not used for marked bubble sheets.",
+    "RFID uses radio tags to identify objects wirelessly. It does not read marked answer sheets."
+   ],
+   "e": "OMR, optical mark recognition, detects marks in set positions, which is how bubble answer sheets are read."
+  },
+  {
    "q": "What is 11111111 in binary equal to in decimal?",
    "a": "255",
    "w": [
@@ -450,38 +482,6 @@
     "128 is 10000000 in binary, the 8th bit alone. Does not match the correct calculation."
    ],
    "e": "11111111 in binary equals 255 in decimal, which is 2^8 minus 1, the largest 8-bit unsigned value."
-  },
-  {
-   "q": "What is the hexadecimal 0x1A in decimal?",
-   "a": "26",
-   "w": [
-    "16",
-    "21",
-    "31"
-   ],
-   "d": "A",
-   "x": [
-    "16 is 0x10, which is only the place value of the 1 digit. Does not match the correct calculation: 1 x 16 + 10 = 26.",
-    "21 corresponds to 0x15, which reads A as 5. Does not match the correct calculation.",
-    "31 corresponds to 0x1F, which reads A as 15. Does not match the correct calculation, since A is 10."
-   ],
-   "e": "0x1A equals 1 x 16 + 10 = 26, since hexadecimal A represents 10."
-  },
-  {
-   "q": "What is decimal 25 in binary?",
-   "a": "11001",
-   "w": [
-    "10101",
-    "11010",
-    "10011"
-   ],
-   "d": "D",
-   "x": [
-    "10101 equals 21, not 25. Does not match the correct calculation: 16 + 8 + 1 = 25.",
-    "11010 equals 26, not 25. Does not match the correct calculation.",
-    "10011 equals 19, not 25. Does not match the correct calculation."
-   ],
-   "e": "25 in binary is 11001, since 16 + 8 + 1 = 25."
   },
   {
    "q": "A translator that converts the entire source code into an executable before running is a:",
@@ -564,86 +564,6 @@
    "e": "An Executive Information System or Executive Support System gives senior executives summarized data for long-term strategic decisions."
   },
   {
-   "q": "Gmail and Office 365 are examples of which cloud service model?",
-   "a": "SaaS",
-   "w": [
-    "IaaS",
-    "PaaS",
-    "DaaS"
-   ],
-   "d": "E",
-   "x": [
-    "IaaS provides virtual machines and raw infrastructure, such as AWS EC2. Gmail is a finished application, not infrastructure.",
-    "PaaS provides a platform for developers to build and deploy apps. Gmail is a finished application delivered to users.",
-    "DaaS, desktop as a service, delivers virtual desktops. Gmail and Office 365 are delivered as applications, not desktops."
-   ],
-   "e": "SaaS delivers ready-to-use applications over the cloud, such as Gmail and Office 365, managed by the provider."
-  },
-  {
-   "q": "Which cloud model provides virtual machines and raw infrastructure (e.g., AWS EC2)?",
-   "a": "IaaS",
-   "w": [
-    "SaaS",
-    "PaaS",
-    "FaaS only"
-   ],
-   "d": "E",
-   "x": [
-    "SaaS delivers finished applications such as Gmail. It does not provide raw virtual machines.",
-    "PaaS provides a managed platform for building apps, not raw virtual machines. EC2 is raw infrastructure.",
-    "FaaS runs individual functions on demand without managing servers. It is not raw virtual machines like EC2."
-   ],
-   "e": "IaaS provides virtual machines, storage and networks as raw infrastructure that users configure, such as AWS EC2."
-  },
-  {
-   "q": "Which image format is lossless and supports transparency?",
-   "a": "PNG",
-   "w": [
-    "JPEG",
-    "GIF",
-    "BMP"
-   ],
-   "d": "D",
-   "x": [
-    "JPEG is lossy compression, so it discards detail and does not preserve transparency. It fails both requirements.",
-    "GIF is limited to a 256-color palette and only one-bit transparency. PNG supports full alpha transparency, so it is the better fit.",
-    "BMP is typically uncompressed and large, and does not commonly support transparency. It does not fit the requirements."
-   ],
-   "e": "PNG is lossless and supports full alpha transparency, making it the standard lossless image format with transparency."
-  },
-  {
-   "q": "Which image format is vector-based and scales without loss?",
-   "a": "SVG",
-   "w": [
-    "PNG",
-    "BMP",
-    "JPEG"
-   ],
-   "d": "E",
-   "x": [
-    "PNG is a raster format made of pixels, so it loses quality when enlarged.",
-    "BMP is a raster bitmap format made of pixels, not scalable vector paths.",
-    "JPEG is a lossy raster format made of pixels, so it does not scale without loss."
-   ],
-   "e": "SVG stores images as vector paths and text in XML, so it scales to any size without losing quality."
-  },
-  {
-   "q": "In Excel, which cell reference is an absolute reference?",
-   "a": "$A$1",
-   "w": [
-    "A1",
-    "A$1:B1",
-    "#A1"
-   ],
-   "d": "E",
-   "x": [
-    "A1 is a relative reference, which changes when the formula is copied to another cell.",
-    "A$1:B1 is a mixed range that locks only the row of the first cell, so it is not fully absolute.",
-    "#A1 is not a valid cell reference. The hash sign is used for error values such as #REF!."
-   ],
-   "e": "$A$1 is an absolute reference, with the dollar signs locking both column and row, so it does not change when copied."
-  },
-  {
    "q": "Which keyboard shortcut opens Task Manager directly in Windows?",
    "a": "Ctrl+Shift+Esc",
    "w": [
@@ -651,157 +571,13 @@
     "Alt+F4",
     "Win+L"
    ],
-   "d": "E",
+   "d": "A",
    "x": [
     "Not the answer here: Ctrl+Alt+Esc is not the standard Windows shortcut for opening Task Manager.",
     "Alt+F4 closes the active window or app. It does not open Task Manager.",
     "Win+L locks the Windows session. It does not open Task Manager."
    ],
    "e": "Ctrl+Shift+Esc opens Windows Task Manager directly, without going through the Ctrl+Alt+Del screen."
-  },
-  {
-   "q": "The Z3 (Konrad Zuse, 1941) is noted as the first:",
-   "a": "Working programmable, fully automatic digital computer",
-   "w": [
-    "Stored-program computer",
-    "Commercial computer",
-    "Microcomputer"
-   ],
-   "d": "D",
-   "x": [
-    "Stored-program computer is credited to later designs such as EDVAC and the Manchester Baby. The Z3 read its program from punched film, not from memory.",
-    "Commercial computer describes machines such as UNIVAC I from 1951. The Z3 was a 1941 research machine, not a commercial product.",
-    "Microcomputer describes small personal machines such as the Altair 8800 from 1975. The Z3 is from 1941 and is not a microcomputer."
-   ],
-   "e": "The Z3, built by Konrad Zuse in 1941, is regarded as the first working programmable, fully automatic digital computer."
-  },
-  {
-   "q": "Which person is credited with the Analytical Engine's first published algorithm for Bernoulli numbers?",
-   "a": "Ada Lovelace",
-   "w": [
-    "Charles Babbage",
-    "Grace Hopper",
-    "Joseph Jacquard"
-   ],
-   "d": "A",
-   "x": [
-    "Charles Babbage designed the Analytical Engine but did not write its Bernoulli-numbers algorithm. Lovelace did.",
-    "Grace Hopper worked on the Harvard Mark I and compilers much later. She is not the author of the Analytical Engine's algorithm.",
-    "Joseph Jacquard invented the punched-card Jacquard loom. He did not write an algorithm for the Analytical Engine."
-   ],
-   "e": "Ada Lovelace wrote the Bernoulli-numbers algorithm for the Analytical Engine in her 1843 notes, which is why she is called the first programmer."
-  },
-  {
-   "q": "The Jacquard loom used which input medium that later inspired computing?",
-   "a": "Punched cards",
-   "w": [
-    "Magnetic tape",
-    "Paper tape",
-    "Floppy disks"
-   ],
-   "d": "A",
-   "x": [
-    "Magnetic tape stores data as magnetic signals and came later, in the 1950s. It is not the input medium the Jacquard loom used.",
-    "Paper tape is punched tape, not the chain of punched cards that Jacquard's loom used.",
-    "Floppy disks are magnetic media from the 1970s, far later than the loom. They were not used by the Jacquard loom."
-   ],
-   "e": "Jacquard's loom used chains of punched cards to control weaving patterns, an idea later adopted in early computing."
-  },
-  {
-   "q": "The transistor was invented at Bell Labs in:",
-   "a": "1947",
-   "w": [
-    "1958",
-    "1965",
-    "1971"
-   ],
-   "d": "D",
-   "x": [
-    "1958 is when Jack Kilby demonstrated the integrated circuit at Texas Instruments. It is not the transistor's invention date.",
-    "1965 is when Gordon Moore published his observation about transistor counts. It is not the transistor's invention date.",
-    "1971 is when the Intel 4004 microprocessor was released. It is not when the transistor was invented."
-   ],
-   "e": "The transistor was invented at Bell Labs in December 1947 by John Bardeen, Walter Brattain and William Shockley, which started the path to modern electronics."
-  },
-  {
-   "q": "Which people built the first integrated circuit independently in 1958-59?",
-   "a": "Jack Kilby and Robert Noyce",
-   "w": [
-    "William Shockley and John Bardeen",
-    "Gordon Moore and Andy Grove",
-    "Steve Jobs and Steve Wozniak"
-   ],
-   "d": "A",
-   "x": [
-    "William Shockley and John Bardeen co-invented the transistor at Bell Labs, not the integrated circuit.",
-    "Gordon Moore and Andy Grove are Intel founders, not the independent inventors of the 1958-59 integrated circuit.",
-    "Steve Jobs and Steve Wozniak founded Apple and built personal computers. They did not invent the integrated circuit."
-   ],
-   "e": "Jack Kilby at Texas Instruments and Robert Noyce at Fairchild independently developed the integrated circuit in 1958 and 1959, respectively."
-  },
-  {
-   "q": "UTF-8 uses how many bytes per character?",
-   "a": "1 to 4 (variable)",
-   "w": [
-    "Always 1",
-    "Always 2",
-    "Always 4"
-   ],
-   "d": "A",
-   "x": [
-    "Always 1 byte is the ASCII-only case, not UTF-8 in general. UTF-8 uses more bytes for characters outside ASCII.",
-    "Always 2 bytes does not match UTF-8, since ASCII characters use one byte.",
-    "Always 4 bytes is the maximum length for a UTF-8 character, not a fixed length. Most characters use fewer bytes."
-   ],
-   "e": "UTF-8 is a variable-length encoding that uses 1 to 4 bytes per character. ASCII characters take one byte, and 4 bytes cover the largest Unicode code points."
-  },
-  {
-   "q": "What is the maximum speed of USB 2.0?",
-   "a": "480 Mbps",
-   "w": [
-    "5 Gbps",
-    "10 Gbps",
-    "40 Gbps"
-   ],
-   "d": "A",
-   "e": "USB 2.0 tops out at 480 Mbps. 5 Gbps is USB 3.0/3.1 Gen1, 10/20 Gbps is USB 3.2, and 40 Gbps is USB4.",
-   "x": [
-    "5 Gbps is the USB 3.0 and 3.1 Gen 1 speed, not USB 2.0.",
-    "10 Gbps is the USB 3.1 Gen 2 or 3.2 tier, not USB 2.0.",
-    "40 Gbps is the USB4 top speed, not USB 2.0."
-   ]
-  },
-  {
-   "q": "USB 3.0 (also called USB 3.1 Gen1) runs at up to:",
-   "a": "5 Gbps",
-   "w": [
-    "480 Mbps",
-    "10 Gbps",
-    "40 Gbps"
-   ],
-   "d": "D",
-   "e": "USB 3.0/3.1 Gen1 is 5 Gbps. 480 Mbps is USB 2.0; 10 Gbps is the lower USB 3.2 tier.",
-   "x": [
-    "480 Mbps is the USB 2.0 top speed, not USB 3.0.",
-    "10 Gbps is the USB 3.1 Gen 2 or 3.2 tier, faster than USB 3.0 Gen 1.",
-    "40 Gbps is the USB4 maximum, far above USB 3.0."
-   ]
-  },
-  {
-   "q": "How many rows does a modern Excel worksheet (.xlsx) have?",
-   "a": "1,048,576",
-   "w": [
-    "65,536",
-    "1,000,000",
-    "16,384"
-   ],
-   "d": "D",
-   "e": "A modern sheet has 2^20 = 1,048,576 rows by 16,384 columns (A to XFD). 16,384 is the column count, not rows.",
-   "x": [
-    "65,536 is the row limit of the old .xls format, not the modern .xlsx sheet.",
-    "1,000,000 is a round number that does not match the 2^20 row limit.",
-    "16,384 is the column limit, ending at XFD, not the row count."
-   ]
   },
   {
    "q": "Colossus (UK, 1943-44) was built mainly for:",
@@ -820,326 +596,6 @@
    ]
   },
   {
-   "q": "The Manchester Baby, one of the first stored-program machines, ran in:",
-   "a": "1948",
-   "w": [
-    "1945",
-    "1949",
-    "1951"
-   ],
-   "d": "D",
-   "e": "The Manchester Baby dates from 1948. EDSAC followed in 1949, and UNIVAC I (commercial) came in 1951.",
-   "x": [
-    "1945 is the year of the EDVAC report and ENIAC's completion, not the year the Manchester Baby ran.",
-    "1949 is when EDSAC ran at Cambridge, a different stored-program machine.",
-    "1951 is when UNIVAC I, a commercial machine, came out, not the Manchester Baby."
-   ]
-  },
-  {
-   "q": "The first computer 'bug' (a moth) was found in 1947 in which machine?",
-   "a": "Harvard Mark II",
-   "w": [
-    "Harvard Mark I",
-    "ENIAC",
-    "UNIVAC I"
-   ],
-   "d": "D",
-   "e": "The moth was found in the Mark II by Grace Hopper's team. Mark I (1944, Howard Aiken) is the earlier, different machine.",
-   "x": [
-    "Harvard Mark I was an earlier relay machine. The 1947 moth was found in Mark II, a different machine.",
-    "ENIAC is a different electronic machine from 1945. The moth was found in the Harvard Mark II.",
-    "UNIVAC I was a 1951 commercial computer, after the 1947 moth. It is not the machine involved."
-   ]
-  },
-  {
-   "q": "Which Leibniz machine (1672-73) could add, subtract, multiply and divide?",
-   "a": "Stepped Reckoner",
-   "w": [
-    "Pascaline",
-    "Difference Engine",
-    "Jacquard loom"
-   ],
-   "d": "D",
-   "e": "Leibniz's Stepped Reckoner handled all four operations. Pascal's Pascaline (1642) was a mechanical adder.",
-   "x": [
-    "Pascaline was a mechanical adder from 1642 that mainly did addition and subtraction. It did not do all four operations.",
-    "Difference Engine was designed by Babbage to compute tables by the method of differences. It does not do all four operations.",
-    "Jacquard loom was a weaving machine controlled by punched cards. It is not a calculator."
-   ]
-  },
-  {
-   "q": "In the OS generations in the notes, the 2nd generation (1955-65) is characterized by:",
-   "a": "Transistors and batch processing",
-   "w": [
-    "Vacuum tubes and plugboards",
-    "ICs and multiprogramming",
-    "Personal computers"
-   ],
-   "d": "D",
-   "e": "OS generation 2 is transistors and batch systems. Vacuum tubes/plugboards is gen 1; ICs with multiprogramming/spooling/timesharing is gen 3.",
-   "x": [
-    "Vacuum tubes and plugboards describe the first generation, before transistors.",
-    "ICs and multiprogramming describe the third generation, not the second.",
-    "Personal computers emerged later, in the 1970s and after, not in 1955 to 1965."
-   ]
-  },
-  {
-   "q": "Which was the first popular microcomputer kit (1975)?",
-   "a": "Altair 8800",
-   "w": [
-    "Apple I",
-    "Apple II",
-    "IBM PC"
-   ],
-   "d": "A",
-   "e": "The Altair 8800 (1975) was the first popular microcomputer kit. Apple I came in 1976, Apple II in 1977, IBM PC in 1981.",
-   "x": [
-    "Apple I was a 1976 board-level kit, after the Altair of 1975.",
-    "Apple II was a 1977 fully assembled computer, after the Altair.",
-    "IBM PC was introduced in 1981, after the Altair."
-   ]
-  },
-  {
-   "q": "Which lists these in order from earliest to latest release?",
-   "a": "Altair 8800, Apple I, IBM PC, Macintosh",
-   "w": [
-    "Apple I, Altair 8800, IBM PC, Macintosh",
-    "Altair 8800, Apple I, Macintosh, IBM PC",
-    "Apple I, Altair 8800, Macintosh, IBM PC"
-   ],
-   "d": "D",
-   "e": "Altair 8800 (1975), Apple I (1976), IBM PC (1981), Macintosh (1984).",
-   "x": [
-    "This puts Apple I (1976) before Altair 8800 (1975), which is the wrong order.",
-    "This puts Macintosh (1984) before IBM PC (1981), which is the wrong order.",
-    "This puts Apple I before Altair and Macintosh before IBM PC, both out of release order."
-   ]
-  },
-  {
-   "q": "Who made the first handheld cell phone call (1973) while at Motorola?",
-   "a": "Martin Cooper",
-   "w": [
-    "Ray Tomlinson",
-    "Vint Cerf",
-    "Gordon Moore"
-   ],
-   "d": "A",
-   "e": "Martin Cooper of Motorola made the first handheld cellular call in 1973. Ray Tomlinson is the email @ pioneer.",
-   "x": [
-    "Ray Tomlinson sent the first networked email and chose the @ sign. He is not the handheld phone pioneer.",
-    "Vint Cerf co-designed TCP/IP. He is not the pioneer of the handheld cellular call.",
-    "Gordon Moore co-founded Intel and stated Moore's Law. He did not make the handheld cellular call."
-   ]
-  },
-  {
-   "q": "By Moore's Law (doubling every 2 years), a chip with 2,000 transistors would have about how many after 10 years?",
-   "a": "64,000",
-   "w": [
-    "20,000",
-    "32,000",
-    "128,000"
-   ],
-   "d": "D",
-   "e": "10 years is 5 doublings, so 2,000 x 2^5 = 64,000. 32,000 would be only 4 doublings.",
-   "x": [
-    "20,000 does not come from doubling 2,000 five times. Does not match the correct calculation: 2,000 x 2^5 = 64,000.",
-    "32,000 corresponds to only 4 doublings, 2,000 x 2^4. Does not match, since 10 years is 5 doublings.",
-    "128,000 corresponds to 6 doublings, 2,000 x 2^6. Does not match, since 10 years is 5 doublings."
-   ]
-  },
-  {
-   "q": "Roughly how many single-layer DVDs (4.7 GB) are needed to hold the contents of one full single-layer Blu-ray (25 GB)?",
-   "a": "6",
-   "w": [
-    "3",
-    "4",
-    "8"
-   ],
-   "d": "D",
-   "e": "25 / 4.7 is about 5.3, so 6 discs are needed (5 would only hold 23.5 GB).",
-   "x": [
-    "3 discs hold only about 14.1 GB, far less than 25 GB. Does not match the correct calculation.",
-    "4 discs hold about 18.8 GB, still short of 25 GB. Does not match the correct calculation.",
-    "8 discs hold about 37.6 GB, more than needed. Does not match the minimum count of 6."
-   ]
-  },
-  {
-   "q": "What is 10110110 (binary) in decimal?",
-   "a": "182",
-   "w": [
-    "174",
-    "186",
-    "190"
-   ],
-   "d": "D",
-   "e": "128 + 32 + 16 + 4 + 2 = 182.",
-   "x": [
-    "174 corresponds to 128 + 32 + 8 + 4 + 2, which drops a bit. Does not match the correct calculation.",
-    "186 is 182 plus 4, not the sum of the set bits. Does not match the correct calculation.",
-    "190 corresponds to 128 + 32 + 16 + 8 + 4 + 2, which adds a bit that is not set. Does not match the correct calculation."
-   ]
-  },
-  {
-   "q": "What is hexadecimal 0x2F in decimal?",
-   "a": "47",
-   "w": [
-    "37",
-    "57",
-    "63"
-   ],
-   "d": "D",
-   "e": "2 x 16 + 15 (F = 15) = 47.",
-   "x": [
-    "37 corresponds to 2 x 16 + 5, reading F as 5. Does not match the correct calculation.",
-    "57 corresponds to 3 x 16 + 9, which reads the digits wrongly. Does not match the correct calculation.",
-    "63 corresponds to 0x3F, reading the first digit as 3. Does not match the correct calculation."
-   ]
-  },
-  {
-   "q": "What is binary 11010110 in hexadecimal?",
-   "a": "D6",
-   "w": [
-    "B6",
-    "6D",
-    "D9"
-   ],
-   "d": "D",
-   "e": "Group by 4 bits: 1101 = D and 0110 = 6, so D6. 6D swaps the nibbles.",
-   "x": [
-    "B6 corresponds to 1011 0110, which has the wrong first nibble. Does not match the correct grouping, since 1101 is D.",
-    "6D swaps the two nibbles, so the order is reversed. Does not match the correct grouping.",
-    "D9 corresponds to 1101 1001, which has the wrong second nibble. Does not match, since 0110 is 6."
-   ]
-  },
-  {
-   "q": "In 8-bit two's complement, -5 is represented as:",
-   "a": "11111011",
-   "w": [
-    "11111010",
-    "10000101",
-    "11111101"
-   ],
-   "d": "D",
-   "e": "+5 = 00000101; invert to 11111010 and add 1 to get 11111011. 11111010 is only the inverted (one's complement) form and 10000101 is sign-magnitude.",
-   "x": [
-    "11111010 is only the one's complement (inverted) form of +5, without adding 1. Does not match the correct two's complement.",
-    "10000101 is the sign-magnitude form of -5, not two's complement. Does not match the correct representation.",
-    "11111101 is -3 in two's complement, a different value. Does not match the correct representation of -5."
-   ]
-  },
-  {
-   "q": "What is the range of a 16-bit signed (two's complement) integer?",
-   "a": "-32,768 to 32,767",
-   "w": [
-    "-32,767 to 32,768",
-    "0 to 65,535",
-    "-65,536 to 65,535"
-   ],
-   "d": "D",
-   "e": "The n-bit signed range is -2^(n-1) to 2^(n-1)-1, so -32,768 to 32,767. 0 to 65,535 is the unsigned range.",
-   "x": [
-    "-32,767 to 32,768 is off by one at each end and does not match the signed range.",
-    "0 to 65,535 is the unsigned 16-bit range, which has no negative values.",
-    "-65,536 to 65,535 spans 2^17 values, not the 2^16 values of a 16-bit integer."
-   ]
-  },
-  {
-   "q": "Given 'A' = 65 and 'a' = 97 in ASCII, what is the code of 'd'?",
-   "a": "100",
-   "w": [
-    "68",
-    "101",
-    "103"
-   ],
-   "d": "D",
-   "e": "'d' is 3 letters after 'a', so 97 + 3 = 100. 68 is uppercase 'D'.",
-   "x": [
-    "68 is uppercase 'D', which is 65 + 3. Does not match the lowercase letter 'd'.",
-    "101 is lowercase 'e', one letter after 'd'. Does not match the code for 'd'.",
-    "103 is lowercase 'g', three letters after 'd'. Does not match the code for 'd'."
-   ]
-  },
-  {
-   "q": "Extended ASCII uses 8 bits and so defines up to how many characters?",
-   "a": "256",
-   "w": [
-    "128",
-    "512",
-    "65,536"
-   ],
-   "d": "A",
-   "e": "2^8 = 256. Standard 7-bit ASCII defines 128.",
-   "x": [
-    "128 is the number of characters in standard 7-bit ASCII, not 8-bit extended ASCII.",
-    "512 is 2^9, one bit more than 8 bits can hold. Does not match.",
-    "65,536 is 2^16, the count for 16-bit values. Does not match 8 bits."
-   ]
-  },
-  {
-   "q": "Which of these cannot be a valid octal number?",
-   "a": "5389",
-   "w": [
-    "1750",
-    "3047",
-    "7261"
-   ],
-   "d": "D",
-   "e": "Octal digits are 0-7 only, so the digits 8 and 9 in 5389 make it invalid. The others use only 0-7.",
-   "x": [
-    "1750 uses only digits 0 to 7, so it is a valid octal number.",
-    "3047 uses only digits 0 to 7, so it is a valid octal number.",
-    "7261 uses only digits 0 to 7, so it is a valid octal number."
-   ]
-  },
-  {
-   "q": "Which of the following is NOT system software?",
-   "a": "Point-of-sale (POS) software",
-   "w": [
-    "Device driver",
-    "Antivirus utility",
-    "Firmware"
-   ],
-   "d": "D",
-   "e": "POS, like ERP and CRM, is application software. Drivers, utilities such as antivirus, and firmware are system software.",
-   "x": [
-    "A device driver is system software that controls hardware, so it is system software.",
-    "An antivirus utility is a system utility that protects the computer, so it is system software.",
-    "Firmware is software stored in hardware that controls a device, so it is system software."
-   ]
-  },
-  {
-   "q": "Prolog is classified as which programming-language generation?",
-   "a": "5GL",
-   "w": [
-    "4GL",
-    "3GL",
-    "2GL"
-   ],
-   "d": "A",
-   "e": "Prolog is constraint/AI based, a 5GL. SQL and MATLAB are 4GL; C and Java are 3GL.",
-   "x": [
-    "4GL covers non-procedural languages such as SQL, not Prolog's logic-based approach.",
-    "3GL covers procedural languages such as C and Java. Prolog is declarative, not a 3GL.",
-    "2GL is assembly language, a low-level language. Prolog is not assembly."
-   ]
-  },
-  {
-   "q": "Which information system gives senior managers 'what-if' projections for decisions?",
-   "a": "DSS",
-   "w": [
-    "MIS",
-    "TPS",
-    "PCS"
-   ],
-   "d": "D",
-   "e": "A Decision Support System supports what-if analysis. MIS gives middle managers periodic performance reports.",
-   "x": [
-    "MIS produces periodic reports for middle managers, not what-if projections.",
-    "TPS processes day-to-day operational transactions. It does not provide what-if projections.",
-    "Not the answer here: PCS is not the decision support category. The question asks about what-if projections for senior managers."
-   ]
-  },
-  {
    "q": "Which information system produces periodic performance reports (sales, inventory, budgeting) for middle managers?",
    "a": "MIS",
    "w": [
@@ -1147,28 +603,12 @@
     "TPS",
     "EDMS"
    ],
-   "d": "D",
+   "d": "A",
    "e": "MIS serves middle management with periodic reports. TPS handles operational transactions and DSS provides what-if projections.",
    "x": [
     "DSS provides what-if projections for decisions, not periodic reports for middle managers.",
     "TPS handles operational transactions, not periodic performance reports for middle managers.",
     "Not the answer here: EDMS is electronic document management. It does not produce periodic performance reports."
-   ]
-  },
-  {
-   "q": "Which is NOT one of the three sources of IT projects?",
-   "a": "Training",
-   "w": [
-    "Problem",
-    "Opportunity",
-    "Directive"
-   ],
-   "d": "D",
-   "e": "IT projects arise from a Problem, an Opportunity, or a Directive.",
-   "x": [
-    "Problem is one of the three sources of IT projects, so it does not fit the question asking which is not a source.",
-    "Opportunity is one of the three sources of IT projects, so it does not fit the question asking which is not a source.",
-    "Directive is one of the three sources of IT projects, so it does not fit the question asking which is not a source."
    ]
   },
   {
@@ -1179,7 +619,7 @@
     "JPEG",
     "BMP"
    ],
-   "d": "D",
+   "d": "A",
    "e": "GIF has a 256-color palette and animation. PNG is lossless with transparency, JPEG is lossy, and BMP is raw.",
    "x": [
     "PNG supports full color rather than a 256-color palette, and it is not the animated format asked for.",
@@ -1204,19 +644,323 @@
    ]
   },
   {
-   "q": "The TOP500 supercomputer ranking is refreshed twice a year, in:",
-   "a": "June and November",
+   "q": "The physical parts of a computer that you can touch are collectively called:",
+   "a": "Hardware",
    "w": [
-    "March and September",
-    "January and July",
-    "April and October"
+    "Software",
+    "Firmware",
+    "Peopleware"
+   ],
+   "d": "E",
+   "e": "Hardware is the tangible physical components of a computer system.",
+   "x": [
+    "Software is the set of programs, not physical parts.",
+    "Firmware is software embedded in hardware.",
+    "Peopleware refers to the users."
+   ]
+  },
+  {
+   "q": "Which of the following is an input device?",
+   "a": "Scanner",
+   "w": [
+    "Monitor",
+    "Speaker",
+    "Projector"
+   ],
+   "d": "E",
+   "e": "A scanner feeds images or documents into the computer.",
+   "x": [
+    "A monitor displays output.",
+    "A speaker produces sound output.",
+    "A projector displays output."
+   ]
+  },
+  {
+   "q": "Which of the following is an output device?",
+   "a": "Printer",
+   "w": [
+    "Keyboard",
+    "Mouse",
+    "Microphone"
+   ],
+   "d": "E",
+   "e": "A printer produces a hard copy of information from the computer.",
+   "x": [
+    "A keyboard is an input device.",
+    "A mouse is an input device.",
+    "A microphone is an input device."
+   ]
+  },
+  {
+   "q": "Which of the following is both an input and an output device?",
+   "a": "Touchscreen",
+   "w": [
+    "Keyboard",
+    "Printer",
+    "Speaker"
+   ],
+   "d": "E",
+   "e": "A touchscreen displays output and also accepts touch input.",
+   "x": [
+    "A keyboard only provides input.",
+    "A printer only provides output.",
+    "A speaker only provides output."
+   ]
+  },
+  {
+   "q": "How many bits are there in one byte?",
+   "a": "8",
+   "w": [
+    "4",
+    "10",
+    "16"
+   ],
+   "d": "E",
+   "e": "One byte is made up of 8 bits.",
+   "x": [
+    "4 bits make a nibble.",
+    "10 is not the size of a byte.",
+    "16 bits is two bytes."
+   ]
+  },
+  {
+   "q": "What is the base of the binary number system?",
+   "a": "2",
+   "w": [
+    "8",
+    "10",
+    "16"
+   ],
+   "d": "E",
+   "e": "Binary uses only two digits, 0 and 1, so its base is 2.",
+   "x": [
+    "Base 8 is octal.",
+    "Base 10 is decimal.",
+    "Base 16 is hexadecimal."
+   ]
+  },
+  {
+   "q": "Which number system uses the digits 0-9 and the letters A-F?",
+   "a": "Hexadecimal",
+   "w": [
+    "Binary",
+    "Octal",
+    "Decimal"
+   ],
+   "d": "E",
+   "e": "Hexadecimal has 16 symbols: 0-9 and A-F.",
+   "x": [
+    "Binary uses only 0 and 1.",
+    "Octal uses digits 0 to 7.",
+    "Decimal uses digits 0 to 9 only."
+   ]
+  },
+  {
+   "q": "Which type of memory is non-volatile and commonly stores the BIOS firmware?",
+   "a": "ROM",
+   "w": [
+    "Cache",
+    "Registers",
+    "DRAM"
+   ],
+   "d": "E",
+   "e": "ROM keeps its contents without power, so it holds firmware like the BIOS.",
+   "x": [
+    "Cache is volatile.",
+    "Registers are volatile.",
+    "DRAM is volatile working memory."
+   ]
+  },
+  {
+   "q": "An interpreter translates a program by:",
+   "a": "Executing the source code line by line",
+   "w": [
+    "Converting all source code into one executable first",
+    "Converting source code only into assembly code",
+    "Converting machine code back into source code"
+   ],
+   "d": "E",
+   "e": "An interpreter reads and runs source code one statement at a time.",
+   "x": [
+    "That describes a compiler.",
+    "An interpreter does not only produce assembly.",
+    "An interpreter does not reverse machine code."
+   ]
+  },
+  {
+   "q": "Which of the following is an operating system?",
+   "a": "Linux",
+   "w": [
+    "Oracle",
+    "Excel",
+    "Chrome"
+   ],
+   "d": "E",
+   "e": "Linux is a widely used operating system.",
+   "x": [
+    "Oracle is a database product.",
+    "Excel is a spreadsheet application.",
+    "Chrome is a web browser."
+   ]
+  },
+  {
+   "q": "Which of the following is system software?",
+   "a": "Device driver",
+   "w": [
+    "Web browser",
+    "Spreadsheet",
+    "Media player"
+   ],
+   "d": "E",
+   "e": "A device driver lets the operating system control hardware, so it is system software.",
+   "x": [
+    "A web browser is application software.",
+    "A spreadsheet is application software.",
+    "A media player is application software."
+   ]
+  },
+  {
+   "q": "Which file extension is used by modern Microsoft Word documents?",
+   "a": ".docx",
+   "w": [
+    ".xlsx",
+    ".pptx",
+    ".accdb"
+   ],
+   "d": "E",
+   "e": "Word saves documents as .docx files.",
+   "x": [
+    ".xlsx is Excel.",
+    ".pptx is PowerPoint.",
+    ".accdb is Access."
+   ]
+  },
+  {
+   "q": "Every Excel formula must begin with which symbol?",
+   "a": "=",
+   "w": [
+    "#",
+    "@",
+    "$"
+   ],
+   "d": "E",
+   "e": "Excel treats a cell entry as a formula when it starts with an equal sign.",
+   "x": [
+    "# is not the formula starter.",
+    "@ is not the formula starter.",
+    "$ marks an absolute reference."
+   ]
+  },
+  {
+   "q": "Which keyboard shortcut undoes the last action in most applications?",
+   "a": "Ctrl+Z",
+   "w": [
+    "Ctrl+Y",
+    "Ctrl+X",
+    "Ctrl+V"
+   ],
+   "d": "E",
+   "e": "Ctrl+Z reverses the most recent action.",
+   "x": [
+    "Ctrl+Y redoes an action.",
+    "Ctrl+X cuts.",
+    "Ctrl+V pastes."
+   ]
+  },
+  {
+   "q": "The Internet is best described as:",
+   "a": "A global network of networks",
+   "w": [
+    "A single very large computer",
+    "A private network inside one company",
+    "A type of web browser"
+   ],
+   "d": "E",
+   "e": "The Internet connects many networks worldwide.",
+   "x": [
+    "It is not one computer.",
+    "That describes an intranet.",
+    "A browser is just software used to access it."
+   ]
+  },
+  {
+   "q": "A private network used only within an organization is called an:",
+   "a": "Intranet",
+   "w": [
+    "Internet",
+    "Telnet",
+    "Usenet"
+   ],
+   "d": "E",
+   "e": "An intranet is a private network for an organization's internal use.",
+   "x": [
+    "The Internet is public and global.",
+    "Telnet is a remote login protocol.",
+    "Usenet is a public discussion system."
+   ]
+  },
+  {
+   "q": "Which cloud service model gives developers a platform for building apps, such as Heroku or Google App Engine?",
+   "a": "PaaS",
+   "w": [
+    "SaaS",
+    "IaaS",
+    "DaaS"
    ],
    "d": "A",
-   "e": "TOP500 lists are published each June and November.",
+   "e": "Platform as a Service provides a ready environment to develop and deploy apps.",
    "x": [
-    "March and September are not the TOP500 publication months.",
-    "January and July are not the TOP500 publication months.",
-    "April and October are not the TOP500 publication months."
+    "SaaS delivers finished software.",
+    "IaaS provides raw infrastructure.",
+    "DaaS is not the model for development platforms."
+   ]
+  },
+  {
+   "q": "Which type of memory is faster and is used for CPU cache?",
+   "a": "SRAM",
+   "w": [
+    "DRAM",
+    "EEPROM",
+    "NAND flash"
+   ],
+   "d": "A",
+   "e": "SRAM is faster than DRAM and is used for cache memory.",
+   "x": [
+    "DRAM is slower and used for main memory.",
+    "EEPROM is non-volatile and slow.",
+    "NAND flash is used for SSD storage."
+   ]
+  },
+  {
+   "q": "Which audio format is lossy?",
+   "a": "MP3",
+   "w": [
+    "FLAC",
+    "WAV",
+    "AIFF"
+   ],
+   "d": "A",
+   "e": "MP3 compresses audio by discarding some data.",
+   "x": [
+    "FLAC is lossless.",
+    "WAV is uncompressed.",
+    "AIFF is uncompressed."
+   ]
+  },
+  {
+   "q": "Which part of the CPU performs arithmetic and logical operations?",
+   "a": "ALU",
+   "w": [
+    "Control unit",
+    "Cache",
+    "Register"
+   ],
+   "d": "A",
+   "e": "The Arithmetic Logic Unit carries out calculations and comparisons.",
+   "x": [
+    "The control unit directs operations.",
+    "Cache stores frequently used data.",
+    "A register holds data temporarily."
    ]
   }
  ],
@@ -1492,14 +1236,6 @@
   },
   {
    "d": "D",
-   "q": "What is the USB4 maximum speed in Gbps?",
-   "a": "40",
-   "alt": [
-    "40 Gbps"
-   ]
-  },
-  {
-   "d": "D",
    "q": "What is the two's complement method for negating a binary number?",
    "a": "Invert the bits and add 1",
    "alt": [
@@ -1577,43 +1313,10 @@
    "alt": []
   },
   {
-   "d": "D",
-   "q": "How many rows does a modern Excel worksheet have?",
-   "a": "1,048,576",
-   "alt": [
-    "1048576",
-    "2^20"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "What is the label of the last column in a modern Excel worksheet (16,384th)?",
-   "a": "XFD",
-   "alt": []
-  },
-  {
    "d": "A",
    "q": "What is the name of Leibniz's calculator that could add, subtract, multiply and divide?",
    "a": "Stepped Reckoner",
    "alt": []
-  },
-  {
-   "d": "A",
-   "q": "What is the maximum speed of USB 2.0 in Mbps?",
-   "a": "480",
-   "alt": [
-    "480 Mbps"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "What is the approximate range of NFC in centimeters?",
-   "a": "4",
-   "alt": [
-    "4 cm",
-    "4cm",
-    "about 4 cm"
-   ]
   },
   {
    "d": "D",
@@ -1622,15 +1325,6 @@
    "alt": [
     "fetch decode execute store",
     "fetch-decode-execute-store"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "Add the binary numbers 1101 and 0111.",
-   "a": "10100",
-   "alt": [
-    "10100₂",
-    "010100"
    ]
   },
   {
@@ -1649,14 +1343,6 @@
   },
   {
    "d": "D",
-   "q": "In which machine (1947) was the first computer 'bug', a moth, found?",
-   "a": "Harvard Mark II",
-   "alt": [
-    "Mark II"
-   ]
-  },
-  {
-   "d": "D",
    "q": "Which programming-language generation does Prolog belong to?",
    "a": "5GL",
    "alt": [
@@ -1670,15 +1356,6 @@
    "a": "MIS",
    "alt": [
     "Management Information System"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "What are the three sources of IT projects?",
-   "a": "Problem, Opportunity, Directive",
-   "alt": [
-    "problem opportunity directive",
-    "problems, opportunities, directives"
    ]
   },
   {

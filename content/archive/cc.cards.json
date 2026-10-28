@@ -1,0 +1,82 @@
+{
+ "id": "cc",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "D",
+   "q": "What is the USB4 maximum speed in Gbps?",
+   "a": "40",
+   "alt": [
+    "40 Gbps"
+   ],
+   "why": "exact USB4 speed"
+  },
+  {
+   "d": "D",
+   "q": "How many rows does a modern Excel worksheet have?",
+   "a": "1,048,576",
+   "alt": [
+    "1048576",
+    "2^20"
+   ],
+   "why": "exact Excel row count"
+  },
+  {
+   "d": "D",
+   "q": "What is the label of the last column in a modern Excel worksheet (16,384th)?",
+   "a": "XFD",
+   "alt": [],
+   "why": "obscure Excel column label"
+  },
+  {
+   "d": "A",
+   "q": "What is the maximum speed of USB 2.0 in Mbps?",
+   "a": "480",
+   "alt": [
+    "480 Mbps"
+   ],
+   "why": "exact USB 2.0 speed"
+  },
+  {
+   "d": "D",
+   "q": "What is the approximate range of NFC in centimeters?",
+   "a": "4",
+   "alt": [
+    "4 cm",
+    "4cm",
+    "about 4 cm"
+   ],
+   "why": "obscure NFC range figure"
+  },
+  {
+   "d": "D",
+   "q": "Add the binary numbers 1101 and 0111.",
+   "a": "10100",
+   "alt": [
+    "10100₂",
+    "010100"
+   ],
+   "why": "calculation"
+  },
+  {
+   "d": "D",
+   "q": "In which machine (1947) was the first computer 'bug', a moth, found?",
+   "a": "Harvard Mark II",
+   "alt": [
+    "Mark II"
+   ],
+   "why": "obscure trivia"
+  },
+  {
+   "d": "D",
+   "q": "What are the three sources of IT projects?",
+   "a": "Problem, Opportunity, Directive",
+   "alt": [
+    "problem opportunity directive",
+    "problems, opportunities, directives"
+   ],
+   "why": "memorised list from document"
+  }
+ ]
+}

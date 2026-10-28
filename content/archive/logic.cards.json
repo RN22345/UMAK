@@ -1,0 +1,67 @@
+{
+ "id": "logic",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "D",
+   "q": "What is the maximum number of nodes in a binary tree of height h?",
+   "a": "2^(h+1) - 1",
+   "alt": [
+    "2^(h+1) − 1"
+   ],
+   "why": "obscure formula"
+  },
+  {
+   "d": "D",
+   "q": "Euler paths exist if a connected graph has exactly how many odd-degree vertices (besides 0)?",
+   "a": "2",
+   "alt": [
+    "two"
+   ],
+   "why": "obscure Euler path rule"
+  },
+  {
+   "d": "D",
+   "q": "What is the final value of n: n = 10; while (n > 0) { n -= 3; }?",
+   "a": "-2",
+   "alt": [
+    "−2"
+   ],
+   "why": "trace calculation"
+  },
+  {
+   "d": "D",
+   "q": "What does AB + A'C + BC simplify to?",
+   "a": "AB + A'C",
+   "alt": [
+    "AB+A'C",
+    "A'C + AB",
+    "A'C+AB"
+   ],
+   "why": "consensus theorem, obscure"
+  },
+  {
+   "d": "D",
+   "q": "What does -7 // 2 return in Python 3?",
+   "a": "-4",
+   "alt": [
+    "−4"
+   ],
+   "why": "language-specific gotcha"
+  },
+  {
+   "d": "D",
+   "q": "Which theorem showed that SAT is NP-complete?",
+   "a": "Cook-Levin theorem",
+   "alt": [
+    "Cook–Levin",
+    "Cook Levin",
+    "Cook-Levin",
+    "Cook's theorem",
+    "Cook Levin theorem"
+   ],
+   "why": "obscure theorem name"
+  }
+ ]
+}

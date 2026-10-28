@@ -1,0 +1,97 @@
+{
+ "id": "os",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "D",
+   "q": "What is the average waiting time for FCFS with P1=24, P2=3, P3=3 arriving in that order?",
+   "a": "17",
+   "alt": [],
+   "why": "calculation"
+  },
+  {
+   "d": "D",
+   "q": "With 4 KB pages, what is the page number and offset of address 8196?",
+   "a": "Page 2, offset 4",
+   "alt": [
+    "page 2 offset 4"
+   ],
+   "why": "calculation"
+  },
+  {
+   "d": "D",
+   "q": "Windows 10 end of support date was in which month and year?",
+   "a": "October 2025",
+   "alt": [
+    "Oct 2025"
+   ],
+   "why": "administrative date"
+  },
+  {
+   "d": "D",
+   "q": "What is the name of the Linux scheduler used from 2007 until kernel 6.6, abbreviated CFS?",
+   "a": "Completely Fair Scheduler",
+   "alt": [],
+   "why": "obscure version history"
+  },
+  {
+   "d": "D",
+   "q": "How many partitions does GPT support under the notes' figures?",
+   "a": "128",
+   "alt": [],
+   "why": "depends on notes' figures"
+  },
+  {
+   "d": "D",
+   "q": "Which Intel processor was CP/M written for?",
+   "a": "8080",
+   "alt": [
+    "Intel 8080"
+   ],
+   "why": "obscure hardware detail"
+  },
+  {
+   "d": "D",
+   "q": "Free holes in list order are 10, 4, 18, 20, 7, 9, 12, 15 KB. Which hole does first fit use for a 12 KB request?",
+   "a": "18 KB",
+   "alt": [
+    "18"
+   ],
+   "why": "calculation"
+  },
+  {
+   "d": "D",
+   "q": "Average waiting time under SJF for jobs of 5, 2, 4 and 1 time units, all arriving at 0?",
+   "a": "2.75",
+   "alt": [],
+   "why": "calculation"
+  },
+  {
+   "d": "D",
+   "q": "Head at 53, queue 98, 183, 37, 122, 14, 124, 65, 67. What is the total head movement under SSTF?",
+   "a": "236",
+   "alt": [
+    "236 cylinders"
+   ],
+   "why": "calculation"
+  },
+  {
+   "d": "D",
+   "q": "What chmod number gives rw-r-----?",
+   "a": "640",
+   "alt": [],
+   "why": "octal permission conversion, hard to type"
+  },
+  {
+   "d": "D",
+   "q": "What is the maximum file size on FAT32?",
+   "a": "4 GB",
+   "alt": [
+    "4GB",
+    "4 gigabytes"
+   ],
+   "why": "obscure figure"
+  }
+ ]
+}
