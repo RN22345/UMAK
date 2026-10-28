@@ -1,28 +1,28 @@
 # 00 · START HERE — UMAK 14th IT Olympics Quiz Bee Review Pack
 **Event:** Quiz Bee · **Date:** 4 Nov 2026 · **Written:** 25 Oct 2026 (≈10 days left)
-**Pack:** 17 Markdown files · ~34,000 words · every lesson file ends with a **✅ Flashcard seeds** section (Q → A) that will become the quiz/flashcard bank in Step 2.
+**How each lesson page is laid out:** it opens with **Basics**, the core facts the multiple-choice bank (elimination round) tests. The sections after it are the deeper detail for the finals (typed identification; sections marked **· finals** are the most specialised). Each page ends with a **✅ Quick self-check**.
 
 ---
 
-## 1. File map (your 10 lessons → files)
-| # | Coach's lesson | File |
+## 1. Lesson map
+| # | Coach's lesson | Page in the Review tab |
 |---|---|---|
-| — | Rules, format, strategy, day-of checklist | `01_Competition_Setup_and_Strategy.md` |
-| 1 | Basic Computer Concepts / General IT | `02_Basic_Computer_Concepts_and_General_IT.md` |
-| 2 | Logic Formulation | `03_Logic_Formulation.md` |
-| 3 | Operating Systems *(includes digest of the coach's PT reviewer)* | `04_Operating_Systems.md` |
-| 4 | Software Engineering *(includes digest of the coach's SIA reviewer)* | `05_Software_Engineering.md` |
-| 5 | Object-Oriented Programming | `06_Object_Oriented_Programming.md` |
-| 6 | Computer Networks & Telecommunication | `07_Networks_and_Telecommunication.md` |
-| 7 | Computer Architecture | `08_Computer_Architecture.md` |
-| 8a | Database Management Systems | `09_Database_Management_Systems.md` |
-| 8b | Data Science & Analytics | `10_Data_Science_and_Analytics.md` |
-| 9 | E-commerce & Web Design | `11_Ecommerce_and_Web_Design.md` |
-| 10 | IT Security | `12_IT_Security.md` |
-| 10B | Information Assurance & Security — digest of the coach's **IAS** slides (Whitman & Mattord, Ch 1–10) | `16_Information_Assurance_and_Security.md` |
-| 11 | Technopreneurship — digest of the coach's **TECHNO** slides (6 lessons) | `15_Technopreneurship.md` |
-| + | AI / company / CEO trivia (as of Oct 2026) | `13_AI_and_Tech_Trivia.md` |
-| + | Cram sheet: acronyms, ports, numbers, confusable pairs, formulas | `14_Cram_Sheet_Acronyms_Numbers_Confusables.md` |
+| — | Rules, format, strategy, day-of checklist | Competition setup & strategy |
+| 1 | Basic Computer Concepts / General IT | 1. Basic Computer Concepts & General IT |
+| 2 | Logic Formulation | 2. Logic Formulation |
+| 3 | Operating Systems *(includes digest of the coach's PT reviewer)* | 3. Operating Systems |
+| 4 | Software Engineering *(includes digest of the coach's SIA reviewer)* | 4. Software Engineering |
+| 5 | Object-Oriented Programming | 5. Object-Oriented Programming |
+| 6 | Computer Networks & Telecommunication | 6. Networks & Telecommunication |
+| 7 | Computer Architecture | 7. Computer Architecture |
+| 8a | Database Management Systems | 8A. Database Management Systems |
+| 8b | Data Science & Analytics | 8B. Data Science & Analytics |
+| 9 | E-commerce & Web Design | 9. E-commerce & Web Design |
+| 10 | IT Security | 10. IT Security |
+| 10B | Information Assurance & Security, digest of the coach's **IAS** slides (Whitman & Mattord, Ch 1–10) | 10B. Information Assurance & Security |
+| 11 | Technopreneurship, digest of the coach's **TECHNO** slides (6 lessons) | 11. Technopreneurship |
+| + | AI / company / CEO trivia (as of Oct 2026) | AI & Tech Trivia |
+| + | Acronyms, ports, numbers, confusable pairs, formulas | Cram sheet |
 
 ## 2. ⚠️ Things to confirm with your coach (official PDF vs. coach's reminders)
 | Topic | Official PDF | Coach's reminder |
@@ -34,45 +34,45 @@
 **Safe plan:** follow the coach (he has the latest info), but ask him to confirm paper vs. laptop and the venue. Bring black ballpens ×3, school ID, and a charged laptop *only if the coach says so*.
 
 ## 3. 10-day study plan (25 Oct → 3 Nov, rest/light review on 4 Nov morning)
-| Day | Focus | Files |
+| Day | Focus | Pages |
 |---|---|---|
-| Sun 25 Oct | Read rules + strategy; skim everything once | 01, 14 |
-| Mon 26 | Computer concepts + Logic | 02, 03 |
-| Tue 27 | Operating Systems (coach's PT reviewer — **high priority**) | 04 |
-| Tue 27 (eve) | **IAS** + **Technopreneurship** (new coach reviewers) — skim once, then do their MCQs | 16, 15 |
-| Wed 28 | Software Engineering + SIA (coach's reviewer — **high priority**) | 05 |
-| Thu 29 | OOP + Networks | 06, 07 |
-| Fri 30 | Architecture + DBMS + Data Science | 08, 09, 10 |
-| Sat 31 | E-commerce/Web + Security | 11, 12 |
-| Sun 1 Nov | AI & tech trivia (re-check news headlines that morning) | 13 |
-| Mon 2 | Flashcard seeds from all lessons; weak spots | all "✅ Flashcard seeds" |
-| Tue 3 | Cram sheet only; sleep early | 14, 01 |
-| Wed 4 | Light skim of 14 on the way; eat breakfast | — |
+| Sun 25 Oct | Read rules + strategy; skim everything once | Strategy, Cram sheet |
+| Mon 26 | Computer concepts + Logic | 1, 2 |
+| Tue 27 | Operating Systems (coach's PT reviewer — **high priority**) | 3 |
+| Tue 27 (eve) | **IAS** + **Technopreneurship** (new coach reviewers) — skim once, then do their MCQs | 10B, 11 |
+| Wed 28 | Software Engineering + SIA (coach's reviewer — **high priority**) | 4 |
+| Thu 29 | OOP + Networks | 5, 6 |
+| Fri 30 | Architecture + DBMS + Data Science | 7, 8A, 8B |
+| Sat 31 | E-commerce/Web + Security | 9, 10 |
+| Sun 1 Nov | AI & tech trivia (re-check news headlines that morning) | AI trivia |
+| Mon 2 | Quick self-checks + flashcards; weak spots from the Progress tab | all "✅ Quick self-check" |
+| Tue 3 | Cram sheet only; sleep early | Cram sheet, Strategy |
+| Wed 4 | Light skim of the cram sheet on the way; eat breakfast | — |
 
-Teammate tip: split the lessons (each studies half deeply, both skim all), then quiz each other with the flashcard seeds.
+Teammate tip: split the lessons (each studies half deeply, both skim all), then quiz each other with the quick self-checks.
 
 ## 4. Priority guide (what is most likely to score)
 1. **Coach's focus lessons (10)**, especially the four reviewers he gave you (OS, SIA, **IAS**, **TECHNO**) — he probably wrote those from the question pool's topics.
-2. **Acronyms, definitions, "which is the…" facts** — quiz bees reward recall, not derivation.
-3. **Numbers**: ports, layers, standards, generations, versions.
+2. **Elimination round = basics.** Read every lesson's **Basics** section first and drill the Multiple choice tab: definitions, acronyms, "which of these is an example of…".
+3. **Finals = depth.** Identification questions go up to Difficult, so after the basics work through the deeper sections and the Flashcards tab (numbers, ports, standards, named models).
 4. **Trivia**: who founded/leads what; which company made which product; AI models and protocols.
-5. Calculations are short: subnetting, binary/hex, truth tables, scheduling averages, Big-O, SQL results.
+5. Short calculations (subnetting, binary/hex, truth tables, scheduling averages) are finals material; they are no longer in the multiple-choice bank.
 
 ## 5. Items flagged "(verify)"
-AI-industry facts move weekly. Everything marked **(verify)** in file 13 is from a single/secondary source:
+AI-industry facts move weekly. Everything marked **(verify)** on the AI & Tech Trivia page is from a single/secondary source:
 - Demis Hassabis's current title at Alphabet/Google DeepMind
 - MCP's governance (Linux Foundation / Agentic AI Foundation)
 - Apple OS version numbering for the 2026 releases ("27")
 - Android 17
 - Some model names/versions in the model table (new releases happen often)
 
-**Before Nov 4:** spend 10 minutes on a news search ("AI news this week", "CEO steps down", "new model release") and update file 13 in your head.
+**Before Nov 4:** spend 10 minutes on a news search ("AI news this week", "CEO steps down", "new model release") and update the AI & Tech Trivia page in your head.
 
-## 6. How the Step-2 artifact will use this pack
-- **Review tab per lesson** — condensed from the lesson files.
-- **MCQ bank** — 30–50 questions per lesson; combined 100 / 200 / 300 / custom sets; random draw; shuffled questions *and* shuffled choices.
-- **Identification flashcards** — same selection options, random order, typed-answer mode for finals practice (timers 15/20/30 s).
-Nothing is built yet — **review the files first** and tell me what to add, cut, or correct.
+## 6. How the site uses this pack
+- **Review**: one page per lesson (Basics first, then deeper detail).
+- **Multiple choice**: a basic-knowledge bank (mostly Easy, some Average) for the 100-item elimination round; pick lessons, count and difficulty; questions and choices are shuffled. The previous, harder bank is archived in the repository (`content/archive/`), not deleted.
+- **Flashcards**: typed identification for the finals, Easy/Average/Difficult with 15/20/30 s timers.
+- **Progress**: per-lesson accuracy and weak spots, stored in your browser.
 
 ## 7. Sources
 Official: the contest PDF *ITSO 2026 Quiz Bee Category* and the coach's reviewers *PT-COMBINED*, *SIA-COMBINED*, *IAS-COMBINED* and *TECHNO-COMBINED* (the last two added 27 Oct 2026). General IT/CS content is standard curriculum knowledge (Philippine BSIT scope). Current-events items (Oct 2026) gathered from:
