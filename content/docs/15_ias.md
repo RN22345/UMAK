@@ -1,5 +1,5 @@
 # 16 · Information Assurance & Security (IAS)
-*(Coach's IAS-COMBINED reviewer — 589 slides from Whitman & Mattord, **Principles of Information Security**, 5th/6th ed., Chapters 1–10.)* Lesson-10 "IT Security" (file 12) is the broad survey; **this file is the textbook-slide version** — the finals follow these slides' exact lists and definitions.
+*(Coach's IAS-COMBINED reviewer — 589 slides from Whitman & Mattord, **Principles of Information Security**, 5th/6th ed., Chapters 1–10.)* Lesson-10 "IT Security" is the broad survey; **this page is the textbook-slide version** — the finals follow these slides' exact lists and definitions.
 
 > **How to use this page.** Start with **Basics**: that is what the elimination round tests. The sections after it are the deeper detail for the finals (identification, average/difficult). Tip: learn the threat/attack names, the three CIA principles, the risk strategies and the access-control vocabulary first; dates and long lists can wait.
 

@@ -103,7 +103,7 @@
   - Example: `5 + 8 / 2 * 3 − 1` = 5 + (8/2)*3 − 1 = 5 + 12 − 1 = **16**.
   - Example: `17 % 5 + 17 / 5` (ints) = 2 + 3 = **5**.
 
-## Number base quick drills (see also file 02)
+## Number base quick drills (see also Computer Concepts)
 - 1101₂ = 13; 10110₂ = 22; 0x2F = 47; 255 = 11111111₂ = 0xFF = 377₈; 64 = 1000000₂; 100₁₀ = 1100100₂ = 0x64.
 - Largest unsigned n-bit = 2ⁿ − 1 (8-bit = 255; 16-bit = 65,535; 32-bit = 4,294,967,295).
 

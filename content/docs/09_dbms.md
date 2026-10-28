@@ -1,5 +1,5 @@
 # 09 · Database Management Systems (DBMS)
-*Databases, keys, normalization, SQL, transactions and DBMS products. (Lesson 8a — pairs with `10_ds.md`.)*
+*Databases, keys, normalization, SQL, transactions and DBMS products. (Lesson 8a — pairs with *Data Science & Analytics*.)*
 
 > **How to use this page.** Start with **Basics**: that is what the elimination round tests. The sections after it
 > are the deeper detail for the finals (identification, average/difficult). Tip: SQL command groups, keys and ACID come up again and again.

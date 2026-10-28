@@ -107,4 +107,4 @@
 - **Who/what company** (CEO of Nvidia? Creator of Linux? Which company makes Claude?)
 - **Port/protocol/layer** (HTTPS port? Layer 3 device? Protocol for email retrieval?)
 - **Trace / compute** (binary → decimal, truth table, subnet size, SQL result, loop output)
-- **Latest-tech trivia** (AI models, chips, standards; see `12_AI_and_Tech_Trivia.md`)
+- **Latest-tech trivia** (AI models, chips, standards; see the *AI & Tech Trivia* page)

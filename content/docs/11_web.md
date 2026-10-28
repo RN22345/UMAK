@@ -1,11 +1,66 @@
 # 11 · E-commerce & Web Design
 *(Lesson 9.)* Two halves: **A. Web design/development** (HTML, CSS, JS, UX, SEO) and **B. E-commerce** (models, payments, marketing, laws). Many "Easy" identification items live here (tags, properties, acronyms, company names).
 
+> **How to use this page.** Start with **Basics**: that is what the elimination round tests. The sections after it
+> are the deeper detail for the finals (identification, average/difficult). Tip: know the tag/property names, the acronyms and the B2C/C2C/B2B examples cold.
+
+---
+
+## Basics
+
+### The web and browsers
+- The **World Wide Web** was invented by **Tim Berners-Lee**; he founded the **W3C** (1994), the body that develops web standards.
+- **HTTP** = **HyperText Transfer Protocol**; **URL** = **Uniform Resource Locator** (the web address of a resource).
+- Common HTTP status codes: **200** OK · **301** moved permanently · **403 Forbidden** (server understood the request but refuses to authorize it) · **404 Not Found** · **500** server error.
+- **Browser engines:** **Blink** = Chrome and Edge · **Gecko** = Firefox · **WebKit** = Safari (Apple).
+- **Node.js** runs JavaScript on the server (uses Chrome's **V8** engine).
+
+### HTML (structure)
+- **HTML** = **HyperText Markup Language**; it gives a page its structure. `<body>` holds the visible content.
+- **Headings:** `<h1>` is the largest, `<h6>` the smallest. **Link:** `<a href="">`. **Image:** `<img src="" alt="">`: **`src`** = file to show, **`alt`** = alternative text (accessibility/SEO).
+- **Lists:** `<ol>` ordered (numbers), `<ul>` unordered (bullets), `<li>` item. **Table:** `<table>`, `<tr>` = row, `<th>` header cell, `<td>` data cell.
+- **Void (empty) elements** have no end tag: `<br>`, `<hr>`, `<img>`, `<input>`.
+- **Semantic HTML5:** `<header> <nav> <main> <section> <article> <aside> <footer>`; **`<nav>`** holds the main navigation links.
+- **Forms:** **GET** puts data in the URL (bookmarkable, not for secrets); **POST** sends data in the request body. `<input type="password">` hides typed characters; `type="color"` gives a color picker.
+
+### CSS (style)
+- **CSS** = **Cascading Style Sheets**. Best practice for many pages: an **external stylesheet** (`<link rel="stylesheet">`).
+- **Selectors:** `.name` = class · `#name` = id · `p` = element. **`color`** sets text color.
+- **Media queries** (`@media`) apply styles by screen width, which is the basis of responsive design.
+- **HEX colors:** `#FFFFFF` = **white**, `#000000` = **black**, `#FF0000` = red.
+- **Box model (inside to outside):** **content, padding, border, margin**.
+- **Specificity:** **inline style** > id > class > element.
+- **Flexbox** (`display: flex`) = one-dimensional layout; **Grid** = two-dimensional.
+- **Tailwind CSS** is utility-first; **Bootstrap** is the grid/component framework from Twitter.
+
+### JavaScript (behavior)
+- **JavaScript** was created by **Brendan Eich** (Netscape, 1995).
+- **DOM** = **Document Object Model**, the tree representation of the page. Select an element by id with **`document.getElementById()`**.
+- **React** (Meta) is a library that uses a **virtual DOM** and **JSX**.
+
+### Design, UX and SEO
+- **UI** = look and interface elements (layout, color, buttons); **UX** = the overall experience. **Figma** is the browser-based tool for UI design and collaboration.
+- **RGB** is **additive** (light, screens); **CMYK** is **subtractive** (print). **Complementary** colors sit opposite each other on the color wheel.
+- **WCAG** = **Web Content Accessibility Guidelines** (W3C).
+- **Core Web Vitals:** **LCP** (Largest Contentful Paint) measures **loading** performance; INP = responsiveness; CLS = visual stability.
+- **SEO** = **Search Engine Optimization**. **robots.txt** tells crawlers which pages not to crawl; **sitemap.xml** lists pages to index.
+
+### E-commerce
+- **E-commerce** = buying and selling goods and services over electronic networks. **M-commerce** = commerce through **mobile devices**.
+- **Jeff Bezos** founded **Amazon**.
+- **B2C:** firm sells to consumers (Amazon, Lazada, Shopee). **C2C:** consumers sell to consumers via a platform (eBay, Carousell). B2B = business to business (Alibaba.com).
+- **Dropshipping:** the seller holds **no inventory**; the supplier ships directly to the customer.
+- Major PH **e-wallets:** **GCash** and **Maya**. **QR Ph** = the BSP-standard QR code for interoperable payments.
+- **Card payment parties:** the **issuer** is the customer's own bank that approves or declines the transaction.
+- **PCI DSS** = the security standard for organizations that handle card data.
+- **Conversion rate** = orders ÷ visitors. **CTR** (click-through rate) = clicks ÷ impressions.
+- **Data Privacy Act** = **RA 10173** (E-Commerce Act = RA 8792).
+
 ---
 
 # PART A — WEB DESIGN & DEVELOPMENT
 
-## 1. How the web works
+## How the web works
 - **Web** (WWW) ≠ **Internet**. Invented by **Tim Berners-Lee** at CERN (proposal 1989, first site 1991); he founded **W3C** in 1994 (standards: HTML/CSS/DOM/WCAG). **WHATWG** maintains the HTML Living Standard.
 - **Client–server**: browser (client) sends HTTP request → web server returns response (HTML/CSS/JS/JSON). **URL** = `scheme://host:port/path?query#fragment` (e.g., `https://www.umak.edu.ph/about?x=1#top`). **URI** ⊃ URL, URN.
 - **Browsers** & engines: Chrome (Google; **Blink**), Edge (Microsoft; Blink), Safari (Apple; **WebKit**), Firefox (Mozilla; **Gecko**), Opera, Brave, Samsung Internet. First browsers: WorldWideWeb (Nexus), **Mosaic** (1993), **Netscape Navigator** (1994), Internet Explorer (1995; retired June 2022).
@@ -13,7 +68,7 @@
 - **Hosting:** shared, VPS, dedicated, cloud, managed (WordPress), static hosts (GitHub Pages, Netlify, Vercel, Cloudflare Pages). **Domain name** bought from a registrar; **DNS** maps to IP; **SSL/TLS certificate** (Let's Encrypt free) for HTTPS. **CDN** caches content close to users.
 - **CMS:** WordPress (~40 %+ of all sites; PHP/MySQL), Joomla, Drupal, Wix, Squarespace, Webflow, Ghost; e-commerce: Shopify, WooCommerce, Magento (Adobe Commerce), BigCommerce, PrestaShop.
 
-## 2. HTML (HyperText Markup Language)
+## HTML
 - Markup (not programming) language for structure. **HTML5** (W3C recommendation 2014). Case-insensitive tags; elements = start tag + content + end tag; **void/empty elements**: `<br> <hr> <img> <input> <meta> <link>`.
 - Skeleton:
 ```html
@@ -32,7 +87,7 @@
 - **Block vs inline:** block elements (div, p, h1, ul, section) start new line and take full width; inline (span, a, strong, img) flow in text. **Comment:** `<!-- ... -->`. File extension `.html/.htm`. Default page `index.html`.
 - **Doctype** declares HTML5. `alt` attribute = alternative text (accessibility/SEO). Path types: absolute vs relative URL.
 
-## 3. CSS (Cascading Style Sheets)
+## CSS
 - Proposed by **Håkon Wium Lie** (1994); W3C CSS1 1996; **CSS3** modular; "Cascading" = priority rules. Adding CSS: **inline** (`style=""`), **internal** (`<style>`), **external** (`<link rel="stylesheet">` – best practice). Precedence generally inline > internal/external (by order) > browser default; `!important` overrides.
 - **Syntax:** `selector { property: value; }`. Comment `/* … */`.
 - **Selectors:** element `p`, class `.box`, id `#main`, universal `*`, group `h1, h2`, descendant `div p`, child `div > p`, adjacent sibling `h1 + p`, general sibling `h1 ~ p`, attribute `[type="text"]`, pseudo-class `:hover :focus :first-child :nth-child(2) :not()`, pseudo-element `::before ::after ::first-line`.
@@ -47,7 +102,7 @@
 - **Responsive design** (Ethan Marcotte, 2010): fluid grids, flexible images, **media queries** `@media (max-width: 768px) { … }`; **viewport meta**; **mobile-first** (min-width queries). Breakpoints ~480/768/1024/1200 px. **Transitions** (`transition: all .3s`), **transforms**, **animations** (`@keyframes`), **CSS variables** (`--main: #333; color: var(--main)`), `calc()`, `clamp()`. 
 - **Preprocessors:** Sass/SCSS, Less. **Frameworks:** **Bootstrap** (Twitter; 12-column grid, `container`, `row`, `col-md-6`), **Tailwind CSS** (utility-first), Bulma, Foundation, Material UI.
 
-## 4. JavaScript (front-end essentials)
+## JavaScript & back-end
 - Created by **Brendan Eich** (Netscape, 1995); standard = **ECMAScript** (ES6/ES2015 major update). Runs in browser; **Node.js** on server (Ryan Dahl 2009; V8 engine from Chrome).
 - Adding: `<script>` internal/external; place at end of body or `defer`. `console.log()`, `alert()`, `prompt()`, `confirm()`.
 - Variables: `var` (function-scoped), `let` (block), `const` (constant binding). Types: string, number, boolean, null, undefined, object, symbol, bigint; `typeof`. `==` (loose) vs `===` (strict). Arrays `[]`, objects `{}`, arrow functions `(a)=>a*2`, template literals `` `Hi ${name}` ``, destructuring, spread `...`, modules `import/export`, Promises, `async/await`, `fetch()`, JSON `JSON.parse/stringify`.
@@ -56,7 +111,7 @@
 - **Frameworks/libraries:** **React** (Meta; JSX, virtual DOM, hooks), **Angular** (Google; TypeScript), **Vue** (Evan You), **Svelte**, **Next.js** (React meta-framework, Vercel), Nuxt, Astro, jQuery (old: `$()`), **Express** (Node), **Django/Flask/FastAPI** (Python), **Laravel** (PHP), Spring Boot (Java), **ASP.NET** (C#), Ruby on Rails. Tools: npm/yarn/pnpm, Vite, Webpack, ESLint, Prettier, Git, Chrome DevTools. **TypeScript** adds static types.
 - **Back-end basics:** PHP (`<?php ?>`, `$var`, `echo`, `$_GET`, `$_POST`, `$_SESSION`; Rasmus Lerdorf 1994), sessions vs cookies, **JWT**, REST endpoints, MVC, ORM, authentication, input validation (server-side is mandatory).
 
-## 5. Design principles & UX
+## Design, UX, SEO & performance
 - **UI** (look: layout, color, type, buttons) vs **UX** (overall experience, usability). Process: research → personas/user journeys → **wireframe (low-fi)** → **mockup (visual)** → **prototype (interactive)** → usability test → handoff. Tools: **Figma**, Adobe XD (discontinued), Sketch, Adobe Photoshop/Illustrator, Canva, Balsamiq, Framer, Penpot.
 - **Visual design principles:** balance, contrast, emphasis/hierarchy, alignment, proximity, repetition/consistency, white (negative) space, rhythm, unity. **CRAP** (Contrast, Repetition, Alignment, Proximity – Robin Williams). Gestalt principles. **F-pattern / Z-pattern** reading. **Rule of thirds**, golden ratio (1.618), 8-pt grid. "Above the fold".
 - **Color:** **RGB** (additive; light/screens; R, G, B primaries) vs **CMYK** (subtractive; print) vs RYB (art primaries). Color wheel: primary, secondary, tertiary; **complementary** (opposites), **analogous** (neighbors), **triadic**, monochromatic. **Hue, saturation, brightness (HSB/HSL)**. **60-30-10 rule**. Warm vs cool colors; color psychology (blue = trust, red = urgency). Web-safe colors (216). Contrast ratio.
@@ -72,13 +127,13 @@
 
 # PART B — E-COMMERCE
 
-## 6. Definitions & history
+## Definitions & history · finals
 - **E-commerce** = buying/selling goods/services and transferring funds/data over electronic networks. **E-business** is broader (includes internal processes, collaboration, CRM, SCM). **M-commerce** = via mobile devices. Also: **social commerce** (TikTok Shop, Facebook/Instagram Shops), **voice commerce**, **conversational/agentic commerce**.
 - **History:** 1960s–70s **EDI** (Electronic Data Interchange) & **EFT**; **1979 Michael Aldrich** (UK) invented online shopping (teleshopping); **1994** first secure online purchase (NetMarket – a Sting CD); **1994–95** Amazon founded (Jeff Bezos; started with books; Jul 1994 incorporated, site launched Jul 1995); **1995** eBay (Pierre Omidyar; AuctionWeb) ; **1998** PayPal (Peter Thiel, Max Levchin, Elon Musk's X.com merger); **1999** Alibaba (Jack Ma); **2000** dot-com bubble burst; **2003** Taobao; **2006** Shopify (Tobias Lütke); 2007 iPhone → m-commerce; 2010s marketplaces; 2020 COVID boom; 2020s TikTok Shop, Temu (PDD), Shein; **2025** AI shopping agents.
 - **Characteristics:** ubiquity, global reach, universal standards, richness, interactivity, information density, personalization, social technology.
 - **Benefits:** 24/7, global reach, lower costs, personalization, easy comparison. **Limitations:** no physical touch, security/fraud, delivery time, tech dependency, returns.
 
-## 7. E-commerce models
+## E-commerce models
 | Model | Meaning | Examples |
 |---|---|---|
 | **B2C** Business-to-Consumer | firm sells to individuals | Amazon, Lazada, Shopee, Zalora, Apple Store |
@@ -91,28 +146,28 @@
 - **Other terms:** **Brick-and-mortar** (physical only), **click-and-mortar / omnichannel / O2O (online-to-offline)**, pure-play, **dropshipping** (seller doesn't hold inventory), **print-on-demand**, **marketplace** (many sellers) vs **own storefront**, subscription box, flash sale, group buying, reverse auction, **white-label**, **D2C** (direct-to-consumer), **social proof**, **UGC**.
 - **Revenue models:** direct sales, **subscription** (Netflix), **advertising**, **affiliate/commission**, **transaction fee**, **freemium**, licensing, **referral**, data monetization.
 
-## 8. E-commerce system architecture
+## E-commerce architecture · finals
 - **Components:** storefront/website/app → product **catalog** & search → **shopping cart** → **checkout** → **payment gateway** → **order management system (OMS)** → **inventory/warehouse (WMS)** → shipping/logistics → customer service/CRM → analytics → back-office ERP. Supporting: CMS, PIM (product information management), CDN, search (Elasticsearch/Algolia), recommendation engine, fraud detection, notifications (email/SMS/push), reviews/ratings, loyalty/coupons.
 - **Flow:** Browse → Add to cart → Checkout (address/shipping/payment) → Payment authorization → Order confirmation → Fulfillment (pick/pack/ship) → Delivery → After-sales (returns/refunds/reviews).
 - **Fulfillment:** in-house, 3PL, **FBA (Fulfilled by Amazon)**, **dropship**, click-and-collect. **Last-mile delivery.** PH logistics: **J&T Express, LBC, Flash Express, Ninja Van, Lalamove, Grab Express, Xend, JRS, 2GO, SPX Express (Shopee)**. COD (cash on delivery) is very common in PH.
 - **Tech stacks:** LAMP/MEAN/MERN, headless commerce (API-first), microservices, SaaS platforms.
 
-## 9. Electronic payment
+## Electronic payment
 - **Methods:** credit/debit cards (Visa, Mastercard, JCB, AmEx), **e-wallets** (**GCash**, **Maya**, **GrabPay**, ShopeePay, PayPal, Alipay, WeChat Pay, Apple Pay, Google Pay), online banking, bank transfer, over-the-counter (7-Eleven CLiQQ, Bayad Center), **COD**, BNPL (buy now pay later: ShopeePayLater, Atome, Kredivo, Affirm), crypto, **QR Ph** (BSP-standard interoperable QR code), **InstaPay** (real-time, up to ₱50,000 per transaction) and **PESONet** (batch ACH) — both under the **National Retail Payment System (NRPS)** by **BSP** (Bangko Sentral ng Pilipinas).
 - **Payment gateway** (authorizes/encrypts transaction; e.g., **PayPal, Stripe, PayMongo, Xendit, Dragonpay, 2C2P, Adyen**, Square) vs **payment processor** vs **acquirer/merchant account** vs **issuer** (customer's bank). Card flow: customer → merchant → gateway → processor → card network (Visa/MC) → issuing bank → approve/decline.
 - **Security standards:** **PCI DSS** (Payment Card Industry Data Security Standard), **3-D Secure** (Verified by Visa / Mastercard Identity Check; OTP), **EMV chip**, **tokenization**, **SSL/TLS**, **CVV/CVC**, AVS, **SET** (old Secure Electronic Transaction), digital signature, digital certificate, fraud scoring, chargeback.
 - **Terms:** E-cash, micropayment, e-check, smart card, **POS** (point of sale), NFC contactless, mobile wallet, escrow (Shopee Guarantee), remittance.
 - **Digital banks in PH:** GoTyme, Maya Bank, UnionDigital, UNO Digital, Tonik, OwnBank, Seabank (BSP-licensed digital banks).
 
-## 10. Digital marketing & metrics
+## Digital marketing & metrics
 - **Channels:** SEO, SEM/PPC (Google Ads, Meta Ads, TikTok Ads), social media marketing, **email marketing** (Mailchimp), content marketing, **influencer**, **affiliate**, display/banner, **retargeting/remarketing**, referral, SMS/push, live-selling.
 - **Funnel models:** **AIDA** (Attention, Interest, Desire, Action); awareness → consideration → conversion → retention → advocacy. **Marketing mix** 4Ps (Product, Price, Place, Promotion) → 7Ps (+People, Process, Physical evidence). **SWOT**, STP (segmentation, targeting, positioning), customer persona.
 - **Key metrics:** **Conversion rate** = orders ÷ visitors; **AOV** (average order value) = revenue ÷ orders; **CAC** (customer acquisition cost); **CLV/LTV** (customer lifetime value); **ROI**, **ROAS** (return on ad spend); **CTR** (click-through rate) = clicks ÷ impressions; **CPC / CPM / CPA**; **bounce rate**; **cart abandonment rate** (~70 %); **churn**; **NPS** (net promoter score); GMV (gross merchandise value). Examples: 10,000 visitors, 250 orders → 2.5 % conversion; revenue ₱500,000 / 250 orders → AOV ₱2,000.
 - **CRM** (Customer Relationship Management: Salesforce, HubSpot, Zoho), **SCM**, **ERP** (SAP, Oracle NetSuite, Odoo), **big-data personalization**, recommendation (collaborative filtering), **dynamic pricing**, A/B testing, chatbots.
 - **Concepts:** **Long tail** (Chris Anderson), **network effects**, **disintermediation / reintermediation**, **platform business**, **freemium**, **viral marketing**, **flash sale**, **gamification**, **UGC reviews**.
 
-## 11. Trust, law & ethics
-- **Security & trust:** HTTPS padlock, trust seals, secure payment, privacy policy, return policy, seller verification, escrow, reviews. Threats: phishing, fake stores, card-not-present fraud, account takeover, counterfeit goods, bots/scalpers, chargeback abuse, data breaches. → `12_IT_Security.md`.
+## Trust, law & ethics
+- **Security & trust:** HTTPS padlock, trust seals, secure payment, privacy policy, return policy, seller verification, escrow, reviews. Threats: phishing, fake stores, card-not-present fraud, account takeover, counterfeit goods, bots/scalpers, chargeback abuse, data breaches. → the *IT Security* page.
 - **Philippine laws & agencies:**
   - **E-Commerce Act — Republic Act 8792 (2000):** legal recognition of electronic data messages, documents and signatures; penalizes hacking, piracy via electronic means.
   - **Internet Transactions Act of 2023 — RA 11967:** regulates online transactions, creates the **E-Commerce Bureau** under **DTI**; online merchants/platform responsibility, consumer redress.
@@ -122,13 +177,13 @@
 - **Ethical issues:** privacy, tracking cookies (consent banners), dark patterns, fake reviews, price discrimination, IP infringement/counterfeits, digital divide, e-waste, environmental impact of delivery.
 - **Digital signature & PKI:** hash + private-key encryption; certificate issued by CA (DigiCert, Let's Encrypt).
 
-## 12. Emerging: AI in e-commerce
+## AI in e-commerce · finals
 - Personalized recommendations, visual search (Google Lens), chatbots/virtual assistants, dynamic pricing, demand forecasting, AI-generated product descriptions, virtual try-on (AR), voice shopping, fraud detection.
 - **Agentic commerce (2025–26):** AI agents shop/pay on behalf of users. Protocols: **Agentic Commerce Protocol (ACP)** by **OpenAI & Stripe** (powers *Instant Checkout* in ChatGPT), Google's **Agent Payments Protocol (AP2)**, Visa/Mastercard agent tokens. Shopify, Walmart, Etsy integrations. → see `13`.
 
 ---
 
-## ✅ Flashcard seeds
+## ✅ Quick self-check
 - Language for page structure → **HTML**; styling → **CSS**; behavior → **JavaScript**
 - Creator of the Web → **Tim Berners-Lee**; standards body → **W3C**
 - JS creator → **Brendan Eich**; CSS proposer → **Håkon Wium Lie**
