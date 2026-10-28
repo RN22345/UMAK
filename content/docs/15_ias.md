@@ -1,9 +1,82 @@
 # 16 · Information Assurance & Security (IAS)
-*(Coach's IAS-COMBINED reviewer — 589 slides from Whitman & Mattord, **Principles of Information Security**, 5th/6th ed., Chapters 1–10.)* Lesson-10 "IT Security" (file 12) is the broad survey; **this file is the textbook-slide version** — expect questions that follow these slides' exact lists and definitions.
+*(Coach's IAS-COMBINED reviewer — 589 slides from Whitman & Mattord, **Principles of Information Security**, 5th/6th ed., Chapters 1–10.)* Lesson-10 "IT Security" (file 12) is the broad survey; **this file is the textbook-slide version** — the finals follow these slides' exact lists and definitions.
+
+> **How to use this page.** Start with **Basics**: that is what the elimination round tests. The sections after it are the deeper detail for the finals (identification, average/difficult). Tip: learn the threat/attack names, the three CIA principles, the risk strategies and the access-control vocabulary first; dates and long lists can wait.
 
 ---
 
-## Ch 1 · Introduction to Information Security
+## Basics
+
+### Foundations
+- **CIA triad**: **Confidentiality** (only authorized parties see it) · **Integrity** (accurate, not altered by unauthorized parties) · **Availability** (authorized users can access it when needed).
+- **McCumber Cube** = 3-dimensional model (characteristics × states × safeguards).
+- **Larry Roberts** developed **ARPANET** from its inception (1960s, ARPA).
+- **Top-down approach** = initiated by upper management (issues policy, sets goals, assigns accountability); **bottom-up** = grassroots by administrators, seldom works.
+- **SDLC**: investigation → analysis → logical design → physical design → implementation → **maintenance and change** (**longest and most expensive** phase).
+- **Software assurance** = building software that can be deployed securely.
+- **CISO** = primary responsibility for assessing, managing and implementing information security; **reports to the CIO**.
+- **Data owners** = senior management responsible for the security and use of a set of information; custodians run it; users use it.
+- **Firewall** = hardware/software filtering traffic between a trusted and an untrusted network.
+
+### Threats and attacks
+- **Intellectual property compromise** = piracy, copyright infringement.
+- **Competitive intelligence** is legal; **industrial espionage** is the illegal counterpart.
+- **Information extortion** = steal information and demand payment for its return or nondisclosure.
+- **Sabotage or vandalism** = e.g. **website defacing**.
+- **Dumpster diving** = searching trash for sensitive information.
+- **Virus** = attaches to an existing program and takes control of access. **Worm** = replicates itself until it fills memory/disk. **Trojan horse** = disguised as helpful software. **Back door** = access through a known or newly found mechanism.
+- **DoS** = overload a system with requests so legitimate ones fail; **DDoS** = coordinated, from many locations at once.
+- **Mail bomb** = huge volume of e-mail to overwhelm the receiver. **Phishing** = fraudulent e-mails that trick users into revealing sensitive data.
+- **Packet sniffer** = monitors data on a network (legitimate or theft). **Man-in-the-middle** = monitors packets, modifies them and re-inserts them.
+- **War dialer** = dials a range of numbers and records those where a modem answers.
+- **OWASP** publishes the list of top web application security risks.
+- **Tailgating** = an authorized person opens a door and others follow. **Mantrap** = small enclosure with a different entry and exit.
+
+### Law, ethics, organizations
+- **Restitution** = compensating an injured party. **Due care** = a prudent organization acts legally and ethically and knows the consequences of its actions.
+- **Sarbanes-Oxley Act (2002)** = reliable financial reporting for public companies. **HIPAA** = privacy of patients' health information. **FTC** handles identity theft; victims place a **fraud alert**.
+- **SANS** = GIAC certifications. **(ISC)²** = CISSP and SSCP. **FBI InfraGard** = intrusion alert network and secure website.
+
+### Planning, policy, SETA
+- **Security policies** = least expensive controls to execute but hardest to implement properly.
+- **EISP** (Enterprise Information Security Policy) = strategic direction, scope and tone for all security efforts; drafted by or with the CIO. **ISO/IEC 27001** = information security management systems (ISMS).
+- **SETA** = Security Education, Training, and Awareness. **Training** = practical, skills-based, answers **how**.
+- **Clean desk policy** = sensitive documents removed from desks.
+- **Incident response plan** = immediate response to an attack. **Disaster recovery plan** = reestablish operations at the primary site after a disaster. **Business impact analysis (BIA)** = assesses adverse events assuming controls have failed.
+- **Hot site** = fully equipped, takes over almost immediately.
+- **Lewin change model**: unfreezing → moving → refreezing.
+
+### Risk management
+- **Defense** = prevent exploitation (the **preferred** strategy). **Transference** = shift risk to another party (outsourcing, insurance). **Acceptance** = do nothing and accept the outcome. (Others: mitigation, termination.)
+- **Residual risk** = risk remaining after current controls.
+- **SLE = asset value × exposure factor**; **ARO** = annualized rate of occurrence; **ALE = SLE × ARO**.
+
+### Access control
+- Four functions: **identification**, **authentication**, **authorization**, **accountability** (encryption is NOT one).
+- **Identification** = "I am a user". **Authentication** = "I can prove it". **Accountability** = "you can track and monitor my use".
+- Factors: **something you know** (password) · **something you have** (smart card) · something you are (biometrics).
+- **DAC** = discretionary, at the discretion of the data user. **Crossover error rate** = where false reject rate equals false accept rate.
+- **Bell-LaPadula** = a **confidentiality** model.
+
+### Firewalls, IDPS, tools
+- **Packet-filtering firewall** = examines headers (source/destination IP, ports). **Screened subnet with DMZ** = the dominant architecture today.
+- Ports: **Telnet 23**, **SMTP 25**.
+- **Content filter** = restricts access to non-business websites.
+- **Network-based IDPS** = monitors traffic on a network segment. **Signature-based detection** = matches known attack patterns. **Intrusion prevention** = activities that deter an intrusion. **Honeypot** = decoy system luring attackers away from critical systems.
+
+### Cryptography
+- **Cryptology** = cryptography + cryptanalysis. **Steganography** = hiding information in images or audio files.
+- **Symmetric** = same secret key to encipher and decipher; **asymmetric** = public key + private key. **AES** replaced DES and 3DES. **RSA** = first public-key algorithm published for commercial use. **Kerberos** uses symmetric-key encryption.
+- **Digital signature** provides **nonrepudiation**. **Certificate authority (CA)** issues digital certificates in a PKI.
+- **WEP** = early attempt to secure 802.11 wireless. **IPSec** = open-source TCP/IP security framework (Diffie-Hellman, bulk encryption).
+
+### Physical security
+- **GFCI** = quickly identifies and interrupts a ground fault.
+- **Class C** extinguishers = energized electrical equipment.
+
+---
+
+## Intro to information security (Ch 1)
 **History**
 - Computer security began right after the first **mainframes**; WWII code-breaking groups created the first modern computers. Early security = **physical controls** on access to sensitive military locations.
 - **1960s:** **ARPA** studied redundant networked communications; **Larry Roberts** developed **ARPANET**.
@@ -50,7 +123,7 @@
 
 ---
 
-## Ch 2 · The Need for Security
+## Threats & the need for security (Ch 2)
 - **4 functions** of information security: protect the organization's **ability to function** · protect **data** collected and used · enable **safe operation of applications** on IT systems · safeguard **technology assets**.
 - Implementing information security has **more to do with management than technology**.
 - **Threat** = potential risk to an asset's loss of value · **Attack** = intentional/unintentional act that can damage/compromise · **Exploit** = technique used to compromise a system · **Vulnerability** = potential weakness in an asset or its defensive controls.
@@ -105,10 +178,10 @@
 
 ---
 
-## Ch 3 · Legal, Ethical & Professional Issues
+## Law, ethics & professionals (Ch 3) · finals
 - **Laws** = rules that mandate/prohibit behavior, enforced by the state. **Ethics** = socially acceptable behavior, based on **cultural mores** (fixed moral attitudes/customs of a group). Laws carry the authority of a governing body; ethics do not.
 - **Liability** = legal obligation beyond criminal/contract law, incl. **restitution** (compensating an injured party). **Due care** = prudent organization acts legally/ethically and knows the consequences. **Due diligence** = maintain the standard of due care and ensure actions are effective. **Jurisdiction**; **long-arm jurisdiction** = laws applied to those outside the court's normal reach.
-- **Policy vs law:** policies = managerial directives specifying acceptable behavior; **ignorance of a policy IS an acceptable defense** (not for law). **5 criteria for policy enforcement:** **dissemination, review, comprehension, compliance, uniform enforcement.**
+- **Policy vs law:** policies = managerial directives specifying acceptable behavior; **ignorance of a policy is NOT an acceptable defense** (just as ignorance of the law is no excuse); to be enforceable a policy must be **disseminated, reviewed (read), comprehended (understood), complied with (agreed to) and uniformly enforced** — the **5 criteria for policy enforcement**.
 - **Types of law:** constitutional · statutory (civil, tort, criminal) · regulatory/administrative · common law/case/precedent · private & public.
 
 ### U.S. laws (memorize name → year → what)
@@ -135,7 +208,7 @@
 
 ---
 
-## Ch 4 · Planning for Security
+## Planning for security (Ch 4)
 - **Governance** = responsibilities & practices of the board and executives; **5 outcomes:** **strategic alignment, risk management, resource management, performance measurement, value delivery.**
 - **Policy → Standards → Practices/Procedures/Guidelines.** Policies must never contradict law, must stand up in court; they are the **least expensive controls to execute but most difficult to implement properly.**
 
@@ -169,7 +242,7 @@
 
 ---
 
-## Ch 5 · Risk Management
+## Risk management (Ch 5)
 - **Risk management** = identify risk → assess relative magnitude → reduce to acceptable level. **Know yourself** (assets) and **know the enemy** (threats). **Risk identification** (recognize/enumerate/document) · **risk assessment** (extent assets are exposed) · **risk control** (apply controls to reduce to acceptable level).
 - **Risk appetite** = quantity/nature of risk the organization will accept. **Residual risk** = risk remaining after controls. Goal: bring **residual risk in line with risk appetite**. If appetite < residual risk → need more controls.
 - **Asset inventory attributes:** name, IP address, **MAC address**, element type, serial number, manufacturer, model/part number, software version, location, controlling entity.
@@ -195,7 +268,7 @@
 
 ---
 
-## Ch 6 · Access Controls, Firewalls & VPNs
+## Access control, firewalls & VPNs (Ch 6)
 - **Access control** = selective method specifying who may use a resource and how. **MAC** (mandatory — structured data classification rating each collection AND user) · **DAC** (discretionary — at the discretion of the data user) · **Nondiscretionary** (central authority; role/task-based).
 - **4 functions:** **Identification** (I am a user) → **Authentication** (I can prove it) → **Authorization** (here's what I can do) → **Accountability** (you can track me; a.k.a. auditability; via logs/journals).
 - **Authentication factors:** **something you know** (password, passphrase) · **something you have** (dumb card = magnetic stripe, **smart card** = chip, **synchronous** vs **asynchronous tokens**) · **something you are** (biometrics) · (somewhere you are). **Strong authentication** = at least two different factors.
@@ -221,7 +294,7 @@
 
 ---
 
-## Ch 7 · IDPS & Other Security Tools
+## IDPS & security tools (Ch 7)
 - **Intrusion prevention** (deter) · **intrusion detection** (identify) · **intrusion reaction** · **intrusion correction**. An IDS detects a violation of its configuration and triggers an **alarm**.
 - **IDPS terminology:** alarm clustering & compaction · alarm filtering · alert/alarm · confidence value · evasion · false attack stimulus · **false negative / false positive** · noise · site policy (awareness) · true attack stimulus · **tuning**.
 - **Types:** **Network-based (NIDPS)** (monitors a segment; passive; can't analyze encrypted packets) incl. **wireless** NIDPS and **network behavior analysis (NBA)**; **Host-based (HIDPS)** (monitors one host; checks key system files/**configuration or change management**; can see decrypted data; heavier management). 
@@ -233,7 +306,7 @@
 
 ---
 
-## Ch 8 · Cryptography
+## Cryptography (Ch 8)
 - **Cryptology** = cryptography (making codes) + **cryptanalysis** (breaking them). Terms: algorithm · bit stream cipher · block cipher · cipher/cryptosystem · ciphertext · code · decipher/decrypt · encipher/encrypt · **key/cryptovariable** · keyspace · link encryption · plaintext · **steganography** · **work factor**.
 - **Bit stream** = bit-by-bit; **block cipher** = fixed-size blocks (8/16-bit etc.).
 - **Substitution** (monoalphabetic vs polyalphabetic; **Vigenère** = 26 alphabets) · **Transposition** (rearrange within a block; uses block padding) · **XOR** (same bits → 0, different → 1; simple and easy to break) · **Vernam cipher** (Bell Labs; one-time pad; subtract 26 if sum exceeds 26) · **Book ciphers** (book cipher, running key, template).
@@ -247,7 +320,7 @@
 
 ---
 
-## Ch 9 · Physical Security
+## Physical security (Ch 9) · finals
 - Physical security protects physical items/areas from unauthorized access; most technical controls can be circumvented with physical access.
 - **7 sources of physical loss:** extreme temperature · gases · liquids · living organisms · projectiles · movement · energy anomalies.
 - **Controls:** walls/fencing/gates · guards · dogs · ID cards & badges (**tailgating**) · locks & keys (mechanical/electromechanical; manual, programmable, electronic, biometric; **fail-safe** vs **fail-secure**) · **mantrap** (small enclosure with different entry/exit) · electronic monitoring (**CCTV**; passive) · alarms (motion, thermal, glass-break, weight, contact sensors) · computer rooms & wiring closets · interior walls/doors (firewall-grade walls; push/crash bars). **Custodial staff** often have the most unsupervised access.
@@ -258,7 +331,7 @@
 
 ---
 
-## Ch 10 · Implementing Information Security
+## Implementing security (Ch 10) · finals
 - Blueprint → **project plan**. Implementation changes **procedures (policy), people (training), hardware (firewalls), software (encryption), data (classification)**.
 - **Project management:** planning → supervising tasks → wrapping up. **Work breakdown structure (WBS)** tasks: work to be done, people/skills, start/end dates, effort (hours), **capital** and **noncapital** expenses, dependencies.
 - **8 planning considerations:** financial · priority · time & scheduling · staffing · procurement · organizational feasibility · training & indoctrination · scope.
@@ -273,7 +346,7 @@
 
 ---
 
-## Last-minute memory hooks
+## Last-minute memory hooks · finals
 - **CIA** + 7 characteristics = **A**vailability, **A**ccuracy, **A**uthenticity, **C**onfidentiality, **I**ntegrity, **U**tility, **P**ossession.
 - **12 threat categories** → "IP, QoS, Espionage, Nature, Human, Extortion, Sabotage, Software attack, HW fail, SW fail, Obsolescence, Theft."
 - **Due care** = do the right thing; **due diligence** = keep doing it and prove it works.

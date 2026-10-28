@@ -1,9 +1,68 @@
 # 07 · Computer Networks & Telecommunication
-*Lots of acronym/port/layer identification here. Memorize the tables.*
+*Layers, addressing, ports and devices. Basics covers the elimination round; the deeper sections hold the acronym/port/standard tables for finals identification.*
+
+> **How to use this page.** Start with **Basics**: that is what the elimination round tests. The sections after it
+> are the deeper detail for the finals (identification, average/difficult). Tip: layer-to-PDU-to-device and the common ports are the most reusable facts.
 
 ---
 
-## 1. Network basics
+## Basics
+
+### OSI & TCP/IP
+- **OSI model = 7 layers** (top→bottom): Application, Presentation, Session, Transport, Network, Data Link, Physical. **TCP/IP model = 4 layers.**
+
+| Layer | Job | PDU |
+|---|---|---|
+| **Physical (1)** | raw **bits** over cables/signals | Bits |
+| **Data Link (2)** | **MAC addresses**, framing | **Frame** |
+| **Network (3)** | **logical addressing (IP) and routing** | **Packet** |
+| **Transport (4)** | end-to-end delivery, **ports**, reliability | **Segment** (TCP) |
+| **Session (5)** | establishes, maintains, terminates sessions | Data |
+| **Presentation (6)** | **encryption, compression, data formats** | Data |
+
+- **Switch** works at **Layer 2**; **router** at **Layer 3**; hub/repeater at Layer 1. Switch forwards frames by MAC address and connects devices in a LAN.
+
+### Network types, topologies & modes
+- **LAN** = Local Area Network; **MAN** = spans a **city**; WAN = wide area (the Internet).
+- **Star** = every node connected to a central device; **most common in LANs**. **Bus** = single backbone cable; **one cable break brings the network down**.
+- **Simplex** = one direction only (keyboard→computer, broadcast TV). **Half-duplex** = both directions, **not simultaneously** (walkie-talkie). Full-duplex = both at once.
+
+### Addressing
+- **MAC address = 48 bits**. **IPv4 = 32 bits**. **IPv6 = 128 bits**. IPv4 **loopback = 127.0.0.1**.
+- **/24** network = **254 usable hosts** (hosts = 2ʰ − 2).
+- **ARP** resolves **IP → MAC**. **DHCP** assigns IP addresses automatically; steps **DORA** = **Discover, Offer, Request, Acknowledge**.
+- **DNS** translates domain names to IP addresses. Records: **A** = IPv4 address · **AAAA** = IPv6 address · **MX** = mail server.
+- **ICMP** is used by **ping**. **NAT** translates **private addresses to public** addresses.
+
+### Transport & application protocols
+- **TCP** = connection-oriented, reliable. **UDP** = connectionless, faster, less overhead.
+- **TCP three-way handshake:** **SYN → SYN-ACK → ACK**.
+
+| Port | Protocol |
+|---|---|
+| **80** | HTTP |
+| **443** | HTTPS |
+| **53** | DNS |
+| **22** | SSH |
+
+- **Email:** **SMTP** sends mail · **POP3** downloads (often deletes from server) · **IMAP** keeps messages synchronized on the server across devices.
+- **HTTP status:** **200 OK** · **404 Not Found** · **500 Internal Server Error** · **3xx = redirection**.
+
+### Routing, switching & Ethernet/Wi-Fi
+- **OSPF** = link-state routing protocol using **Dijkstra**. **BGP** = routes traffic between **Autonomous Systems** (the Internet).
+- **STP** (Spanning Tree Protocol) prevents switching loops.
+- **IEEE 802.3** = Ethernet · **IEEE 802.11** = Wi-Fi. Most secure Wi-Fi security: **WPA3**.
+
+### Cabling, mobile & tools
+- Max twisted-pair Ethernet segment = **100 meters**. **RJ-45** = Ethernet connector; **RJ-11** = traditional telephone line connector.
+- **Fiber optic** = light pulses, **immune to EMI**.
+- **2G** introduced digital voice + **SMS** with **GSM**; **4G** is based on **LTE**.
+- **`tracert`** (Windows) = path packets take · **`ipconfig`** = IP configuration · **`nslookup`** = query DNS records.
+- **Wireshark** = packet capture/analyzer · **Nmap** = popular port scanner.
+
+---
+
+## Network types & topologies
 - **Network** = interconnected devices sharing data/resources. Components: nodes/hosts, NICs, media, switches/routers, protocols, OS.
 - **By scope:** **PAN** (personal; Bluetooth) · **LAN** (building) · **CAN** (campus) · **MAN** (city) · **WAN** (wide; the Internet is the largest) · **WLAN** · **SAN** (storage area network) · **VPN** (virtual private network) · **GAN**.
 - **Models:** **Client–server** (central servers) vs **Peer-to-peer (P2P)** (BitTorrent). **Intranet/Extranet/Internet**.
@@ -14,8 +73,8 @@
 - **Switching:** **Circuit** (dedicated path; PSTN), **Packet** (Internet; datagram/virtual circuit), **Message**.
 - **Standards bodies:** **IEEE** (802 standards), **IETF** (RFCs), **ISO**, **ITU-T**, **ANSI/TIA/EIA**, **W3C**, **ICANN/IANA** (names & numbers), **ISOC**, **APNIC** (Asia-Pacific address registry), **NTC** (National Telecommunications Commission, PH), **DICT** (Dept. of Information and Communications Technology, PH).
 
-## 2. Reference models
-### 2.1 OSI model (7 layers, top→bottom)
+## OSI & TCP/IP models
+### OSI model (7 layers, top→bottom)
 Mnemonic (top-down): **All People Seem To Need Data Processing** · (bottom-up): **Please Do Not Throw Sausage Pizza Away**.
 | # | Layer | PDU | Function | Examples / devices |
 |---|---|---|---|---|
@@ -29,10 +88,10 @@ Mnemonic (top-down): **All People Seem To Need Data Processing** · (bottom-up):
 - *ARP is often placed between layers 2/3.
 - **Encapsulation** (sender adds headers going down) / **decapsulation** (receiver strips). Peer-to-peer layer communication.
 
-### 2.2 TCP/IP model (4 layers)
+### TCP/IP model (4 layers)
 **Application** (OSI 5–7) · **Transport** (OSI 4) · **Internet** (OSI 3) · **Network Access / Link** (OSI 1–2). (5-layer hybrid model splits Link and Physical.)
 
-## 3. Network devices
+## Network devices
 | Device | Layer | Notes |
 |---|---|---|
 | **Repeater** | 1 | regenerates signal |
@@ -48,7 +107,7 @@ Mnemonic (top-down): **All People Seem To Need Data Processing** · (bottom-up):
 | **Load balancer, proxy, IDS/IPS, NAS, PoE switch, repeater/extender** | | |
 - **Collision domain** vs **broadcast domain**: switch splits collision domains; router (or VLAN) splits broadcast domains.
 
-## 4. Addressing
+## Addressing, DHCP & DNS
 ### MAC (physical)
 - 48 bits (6 bytes), hex, e.g., `00:1A:2B:3C:4D:5E`. First 24 bits = **OUI** (vendor), last 24 = NIC-specific. Broadcast = `FF:FF:FF:FF:FF:FF`.
 
@@ -90,7 +149,7 @@ Mnemonic (top-down): **All People Seem To Need Data Processing** · (bottom-up):
 - **DHCP (Dynamic Host Configuration Protocol):** auto-assigns IP/mask/gateway/DNS. Process **DORA**: **D**iscover → **O**ffer → **R**equest → **A**cknowledge. Server UDP 67, client UDP 68. Lease time; reservation; scope.
 - **DNS (Domain Name System):** name → IP; UDP/TCP 53; hierarchy: root (.) → TLD (.com, .org, .ph) → authoritative. 13 logical root servers (A–M). **Records:** A (IPv4), AAAA (IPv6), CNAME (alias), MX (mail), NS (name server), PTR (reverse), TXT (SPF/DKIM verification), SOA, SRV. Resolver, caching, recursive vs iterative queries. Popular public DNS: Google 8.8.8.8, Cloudflare 1.1.1.1, Quad9 9.9.9.9.
 
-## 5. Transport layer: TCP vs UDP
+## Transport: TCP vs UDP
 | | **TCP** | **UDP** |
 |---|---|---|
 | Connection | connection-oriented (3-way handshake) | connectionless |
@@ -100,7 +159,7 @@ Mnemonic (top-down): **All People Seem To Need Data Processing** · (bottom-up):
 | Uses | web, email, file transfer, SSH | DNS queries, streaming, VoIP, gaming, DHCP, TFTP, QUIC/HTTP3 |
 - **3-way handshake:** SYN → SYN-ACK → ACK. Termination uses FIN/ACK (4-way). Socket = IP + port. **Ports** 16-bit (0–65,535): **well-known 0–1023**, registered 1024–49,151, dynamic/ephemeral 49,152–65,535.
 
-## 6. Application protocols & ports (MEMORIZE)
+## Application protocols & ports
 | Port | Protocol | Notes |
 |---|---|---|
 | 20/21 | **FTP** (data/control) | plaintext; SFTP uses 22; FTPS 990 |
@@ -128,21 +187,21 @@ Mnemonic (top-down): **All People Seem To Need Data Processing** · (bottom-up):
 - Email: **SMTP** sends; **POP3** downloads (usually deletes from server); **IMAP** syncs; **MIME** for attachments; SPF/DKIM/DMARC anti-spoofing.
 - **Telnet vs SSH:** SSH encrypts. **VoIP:** SIP (signaling), RTP (media), codecs G.711/G.729/Opus. **Streaming:** RTSP, HLS, MPEG-DASH, WebRTC. **MQTT** (IoT pub/sub, 1883/8883). **SNMP** manage devices. **Syslog**. **RADIUS/TACACS+** (AAA). **Kerberos** (88). **NFS**. **RDP/VNC**.
 
-## 7. Routing & switching
+## Routing & switching · finals
 - **Routing:** static (manual) vs dynamic. **Metric**, **administrative distance (AD)** (lower = more trusted: connected 0, static 1, EIGRP 90, **OSPF 110**, **RIP 120**).
   - **RIP** – distance-vector, **hop count (max 15; 16 = unreachable)**, v1/v2; **OSPF** – link-state, Dijkstra SPF, cost based on bandwidth, areas (Area 0 backbone), open standard; **EIGRP** – Cisco advanced distance-vector/hybrid; **BGP** – path-vector, exterior gateway protocol between **Autonomous Systems (AS)**, routes the Internet; **IGP** (inside AS) vs **EGP**.
   - Longest prefix match; default route `0.0.0.0/0`.
 - **Switching concepts:** MAC learning/flooding/forwarding/filtering; **VLAN** (IEEE **802.1Q** tagging; trunk vs access ports; inter-VLAN routing/"router on a stick"); **STP** (Spanning Tree Protocol, IEEE 802.1D; prevents loops; root bridge; RSTP 802.1w); **EtherChannel/LACP (802.3ad)**; **port security**; **PoE (802.3af/at/bt)**; **QoS**; **ACL**; **SDN** (separate control/data plane; OpenFlow); **SD-WAN**; **MPLS**.
 - **Cisco IOS modes:** User EXEC `>` → Privileged EXEC `#` (`enable`) → Global config `(config)#` (`configure terminal`) → interface config `(config-if)#`. Commands: `show ip route`, `show running-config`, `copy running-config startup-config`, `ping`, `ip address`, `no shutdown`. Simulator: **Cisco Packet Tracer**.
 
-## 8. Cabling & Ethernet (physical)
-- **Twisted pair:** UTP/STP; twisting reduces crosstalk/EMI. **Cat5e** (1 Gbps, 100 m), **Cat6** (1 Gbps 100 m; 10 Gbps ≤ 55 m), **Cat6a** (10 Gbps 100 m), Cat7/Cat8 (25/40 Gbps short). Max segment **100 m**. Connector **RJ-45** (8P8C); wiring **T568A / T568B**; **straight-through** (different devices: PC↔switch) vs **crossover** (same devices: PC↔PC, switch↔switch; modern auto-MDIX). **Rollover** (console).
+## Cabling & Ethernet
+- **Twisted pair:** UTP/STP; twisting reduces crosstalk/EMI. **Cat5e** (1 Gbps, 100 m), **Cat6** (1 Gbps 100 m; 10 Gbps ≤ 55 m), **Cat6a** (10 Gbps 100 m), Cat7/Cat8 (25/40 Gbps short). Max segment **100 m**. Connector **RJ-45** (8P8C) (RJ-11 = telephone line); wiring **T568A / T568B**; **straight-through** (different devices: PC↔switch) vs **crossover** (same devices: PC↔PC, switch↔switch; modern auto-MDIX). **Rollover** (console).
 - **Coaxial**: RG-6 (cable TV), RG-58 (10Base2 thinnet), BNC connector.
 - **Fiber optic:** light pulses in glass; **single-mode** (SMF; laser; long distance km; 9 µm core) vs **multi-mode** (MMF; LED/VCSEL; short; 50/62.5 µm core). Connectors LC, SC, ST, MPO. Immune to EMI, high bandwidth, secure. **FTTH/FTTx** with **PON** (GPON/XGS-PON), **ONT**. 
 - **Ethernet:** IEEE **802.3**; designed by **Robert Metcalfe** (Xerox PARC, 1973). Standards: 10BASE-T, 100BASE-TX (Fast Ethernet), 1000BASE-T (Gigabit), 10GBASE-T, 25/40/100/400G. **Frame:** preamble, dest MAC, src MAC, type/length, data (46–1500 B), **FCS/CRC**. **CSMA/CD** (collision detection; wired, half-duplex) vs **CSMA/CA** (collision avoidance; Wi-Fi 802.11). **Token Ring** IEEE 802.5; **FDDI**.
 - **Wireless:** radio waves, microwaves (line of sight), infrared, satellite (GEO ~35,786 km high latency; **LEO** e.g., **Starlink** by SpaceX, Amazon Kuiper/“Leo”), Bluetooth (2.4 GHz, IEEE 802.15.1), Zigbee (802.15.4), NFC, RFID, LoRa/LoRaWAN.
 
-## 9. Wi-Fi (IEEE 802.11)
+## Wi-Fi (IEEE 802.11) · finals
 | Standard | Marketing name | Band | Max (theoretical) |
 |---|---|---|---|
 | 802.11b | – | 2.4 GHz | 11 Mbps |
@@ -157,7 +216,7 @@ Mnemonic (top-down): **All People Seem To Need Data Processing** · (bottom-up):
 - **Wi-Fi security:** WEP (broken) → WPA (TKIP) → **WPA2** (AES-CCMP; 2004) → **WPA3** (SAE, 2018; stronger against offline dictionary). Enterprise 802.1X/RADIUS.
 - Wi-Fi Alliance trademark; name "Wi-Fi" has no real expansion (pun on Hi-Fi).
 
-## 10. Telecommunication & mobile
+## Telecom & mobile · finals
 - **Signals:** analog (continuous) vs digital (discrete). **Modulation:** AM, FM, PM; digital ASK, FSK, PSK, QAM. **Multiplexing:** **FDM** (frequency), **TDM** (time), **WDM** (wavelength; fiber), CDM/CDMA, OFDM. **Baud rate** vs bit rate. **Nyquist** (noiseless), **Shannon** (noisy: C = B·log₂(1+S/N)). Attenuation, noise, interference, crosstalk, distortion; units **dB**.
 - **Error detection/correction:** parity bit, checksum, **CRC**, **Hamming code** (corrects single-bit), FEC; ARQ (stop-and-wait, go-back-N, selective repeat); sliding window.
 - **PSTN**, POTS, **ISDN**, T1 (1.544 Mbps)/E1 (2.048 Mbps), **DSL/ADSL** (over phone line; asymmetric), cable broadband (DOCSIS), fiber, fixed wireless, satellite, **PON**, leased lines, Metro Ethernet. **Last mile.** **PBX**, **VoIP**, **IP telephony**, unified communications, video conferencing (Zoom, Teams, Meet).
@@ -173,7 +232,7 @@ Mnemonic (top-down): **All People Seem To Need Data Processing** · (bottom-up):
   - **SIM** (Subscriber Identity Module), **eSIM**, IMEI (device ID), IMSI. Cell towers/base stations (BTS/eNodeB/gNodeB), handoff/handover, roaming. Spectrum bands (700 MHz–3.5 GHz; mmWave 24–100 GHz).
 - **Philippine telecom context:** major carriers **Globe Telecom**, **Smart Communications (PLDT)**, **DITO Telecommunity** (third player, launched 2021); regulators **NTC** and **DICT**; major fixed ISPs PLDT, Globe, Converge ICT, Sky Cable; Free Wi-Fi law (Republic Act 10929, **Free Internet Access in Public Places Act**, 2017); **Konektadong Pinoy** law (2025) opened up data transmission market; submarine cables (Asia Pacific Gateway, SEA-ME-WE) landing in PH (Baler, Ballesteros, Davao…).
 
-## 11. Network tools & commands
+## Network tools & commands
 | Command | Use |
 |---|---|
 | `ping` | test reachability (ICMP echo); `ping 127.0.0.1` tests own TCP/IP stack |
@@ -190,7 +249,7 @@ Mnemonic (top-down): **All People Seem To Need Data Processing** · (bottom-up):
 - **Troubleshooting order (bottom-up):** physical → link → network → transport → application. Typical checks: cable/link lights → IP/DHCP → gateway ping → DNS → app.
 - **Monitoring/management:** SNMP, NetFlow, Nagios, Zabbix, PRTG. **Cloud networking:** VPC, subnets, security groups, CDN, load balancers.
 
-## 12. Internet history & governance (trivia)
+## Internet history & governance · finals
 - **ARPANET** 1969 (first message "LO" from UCLA to Stanford); **TCP/IP** switch 1 Jan 1983; **Vint Cerf & Bob Kahn** = "fathers of the Internet"; **DNS** (Paul Mockapetris, 1983); **WWW** (Tim Berners-Lee 1989–91); **Mosaic** 1993; **Netscape**; first Philippine Internet connection **1994 (PHNet)**; **.ph** domain managed by **dotPH**.
 - **ICANN** oversees domain names & IP allocation; **IANA** function; **RIRs**: ARIN, RIPE NCC, **APNIC**, LACNIC, AFRINIC.
 - Domain levels: root `.` → **TLD** (gTLD .com/.org/.net; ccTLD .ph/.jp/.us) → SLD → subdomain. **URL** parts: scheme://host:port/path?query#fragment. **FQDN**.
@@ -198,7 +257,7 @@ Mnemonic (top-down): **All People Seem To Need Data Processing** · (bottom-up):
 
 ---
 
-## ✅ Flashcard seeds
+## ✅ Quick self-check
 - Number of OSI layers? → **7**; layer that routes packets → **Network (3)**; MAC addresses → **Data Link (2)**; ports/TCP → **Transport (4)**
 - PDU at transport (TCP) → **Segment**; network → **Packet**; data link → **Frame**; physical → **Bits**
 - Device at layer 2 → **Switch**; layer 3 → **Router**; layer 1 → **Hub/repeater**

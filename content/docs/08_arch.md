@@ -1,16 +1,74 @@
 # 08 · Computer Architecture & Organization
 *How the CPU, memory, buses and I/O are organized. Includes modern chip/GPU facts for trivia.*
 
+> **How to use this page.** Start with **Basics**: that is what the elimination round tests. The sections after it
+> are the deeper detail for the finals (identification, average/difficult). Tip: learn the CPU registers and the memory hierarchy first; company and chip names are easy points.
+
 ---
 
-## 1. Architecture vs Organization
+## Basics
+
+### Architecture & organization
+- **Computer architecture** = attributes visible to the programmer (**instruction set**, addressing modes, data types, I/O mechanisms). **Computer organization** = how those are physically realized (control signals, interfaces, memory technology).
+- **Von Neumann** architecture = **one memory for instructions and data** on a single bus; the resulting traffic limit is the **von Neumann bottleneck**.
+- **Harvard** architecture = **separate memories (and buses) for instructions and data**.
+
+### CPU parts and registers
+| Part / register | Role |
+|---|---|
+| **ALU** | arithmetic and logic operations |
+| **Control Unit (CU)** | decodes instructions and issues control signals |
+| **Program Counter (PC)** | address of the **next** instruction |
+| **Instruction Register (IR)** | the instruction **currently being executed** |
+| **MAR** | address of the memory location to read/write |
+| **MDR** | data being transferred to/from memory |
+
+- **Instruction cycle:** **Fetch → Decode → Execute → Store**.
+- **Buses:** address bus (where), data bus (what), **control bus** (read/write, interrupt and clock signals). A **32-bit address bus** addresses 2³² = **4 GB**.
+
+### Instruction sets and processor types
+- **CISC** (complex, variable-length; **x86**) vs **RISC** (simple, fixed-length, load/store; **ARM, RISC-V, MIPS**).
+- **ARM** powers smartphones and **Apple Silicon** (M-series). **RISC-V** = open-standard RISC ISA from UC Berkeley. **AMD** created **x86-64 (AMD64)**.
+- **Little-endian** = least significant byte at the lowest address (x86, ARM).
+- **Flynn's taxonomy:** **SISD** (classic single processor), **SIMD** (vector/**GPU**), **MISD** (rare, fault-tolerant), **MIMD** (multicore running different programs on different data).
+- **FLOPS** = floating-point operations per second. **FPGA** = Field-Programmable Gate Array (reprogrammable); **ASIC** = custom chip for one specific application.
+
+### Performance and pipelining
+- **CPU time = Instruction count × CPI × Clock cycle time.**
+- **Amdahl's Law:** speedup is limited by the **serial (non-parallelizable) fraction**.
+- **Pipelining** overlaps instruction stages and improves **throughput**. Classic 5-stage RISC pipeline: **IF, ID, EX, MEM, WB**.
+- **Hazards:** **structural** (two instructions need the same hardware), **data** (dependency on a result), **control** (caused by branches).
+- **Superscalar** processor = issues and executes **more than one instruction per clock cycle**.
+- **Hyper-Threading** = Intel's implementation of **SMT** (simultaneous multithreading).
+
+### Memory and storage
+- **Fastest memory = registers**, then L1 cache, L2/L3, DRAM, SSD, HDD.
+- **Locality:** **temporal** (recently used data is reused soon) and **spatial** (nearby addresses are used together); this is why caches work.
+- **Cache mapping:** **direct-mapped** = each block goes to exactly one line; **fully associative** = a block may go in any line; n-way set-associative is the compromise.
+- **Write policy:** **write-through** updates cache and main memory on every write; write-back delays the memory update.
+- **SRAM** (fast, costly) is used for **CPU cache**; **DRAM** (capacitor + transistor per bit) is main memory and needs **periodic refresh**.
+- **ROM family:** **EPROM** is erased with **ultraviolet light**; **NAND flash** is used in SSDs and USB drives.
+- **NVMe** SSDs connect over **PCIe**.
+
+### Hardware and industry facts
+- **Nvidia** developed **CUDA**; CEO **Jensen Huang**; GPU architectures Hopper (H100) → **Blackwell** → Rubin.
+- **AMD:** CEO **Lisa Su**; server CPUs = **EPYC**. **Intel:** server CPUs = **Xeon**.
+- **TSMC** = world's largest contract chipmaker. **ASML** = the only maker of **EUV lithography** machines.
+- **Qualcomm** mobile chips = **Snapdragon**. Apple's own chips = **M-series (Apple Silicon)**.
+- **UEFI** replaced legacy BIOS (Secure Boot, GPT support).
+- **PSU** (power supply unit) converts **AC wall power into DC** for the components. **UPS** = backup power during outages.
+- **Quantum:** the quantum bit is a **qubit**; **Shor's algorithm** threatens RSA encryption.
+
+---
+
+## Architecture vs Organization
 - **Computer architecture** = attributes visible to the programmer (instruction set, data types, addressing modes, I/O mechanisms). **Computer organization** = operational units & interconnections that realize the architecture (control signals, interfaces, memory technology).
 - **Von Neumann architecture** (1945): one memory for instructions *and* data, single bus → **von Neumann bottleneck**. Components: CPU (ALU + CU + registers), memory, I/O, buses.
 - **Harvard architecture**: separate instruction and data memories/buses (microcontrollers like AVR/Arduino, DSPs; modern CPUs use "modified Harvard" with split L1 I-cache/D-cache).
 - **Flynn's taxonomy:** **SISD** (single processor classic) · **SIMD** (vector/GPU) · **MISD** (rare, fault-tolerant) · **MIMD** (multicore, clusters).
 - **ISA families:** **CISC** (complex instructions, variable length, e.g., **x86**), **RISC** (simple, fixed-length, load/store, pipelining-friendly: **ARM, RISC-V, MIPS, PowerPC**). **RISC-V** = open-standard ISA (UC Berkeley). **ARM** (Arm Holdings; Acorn → "Advanced RISC Machine"; licensing model) powers phones, Apple Silicon, AWS Graviton. x86-64 / **AMD64** created by AMD. **EPIC/Itanium** (Intel, failed).
 
-## 2. CPU components
+## CPU components
 - **ALU** (arithmetic & logic ops), **Control Unit (CU)** (decodes, issues control signals), **Registers**, **clock**, internal buses, **cache**.
 - **Key registers:** **PC/IP** (Program Counter — address of next instruction) · **IR** (Instruction Register) · **MAR** (Memory Address Register) · **MDR/MBR** (Memory Data/Buffer Register) · **ACC** (Accumulator) · **SP** (Stack Pointer) · **BP** · **Status/Flags (PSW)** — zero, carry, overflow, sign flags · General purpose (AX, BX, CX, DX in x86; RAX… in x86-64; 31 GPRs in ARM64).
 - **Instruction cycle (machine cycle):** **Fetch → Decode → Execute → (Memory access) → Write-back/Store**. Fetch: PC → MAR; memory → MDR → IR; PC incremented.
@@ -18,7 +76,7 @@
 - **Word size**: bits processed at once (32-bit, 64-bit). **Address bus width n → 2ⁿ addressable locations** (16 lines = 64 KB; 20 = 1 MB (8086); 32 = 4 GB; 64-bit theoretical = 16 EB, practical 48-bit = 256 TB). **Data bus** width = bits moved per transfer. **Control bus** = read/write, interrupt, clock signals.
 - **Buses:** system bus (address + data + control); **PCIe** (point-to-point lanes x1/x4/x8/x16; Gen 3 ~1 GB/s per lane, Gen 4 ~2, **Gen 5 ~4**, Gen 6 ~8 GB/s per lane); SATA III (6 Gbps ≈ 600 MB/s); **NVMe** over PCIe; USB; Thunderbolt; I²C, SPI, UART (embedded). **Chipset**: northbridge/southbridge (legacy) → now **PCH**; memory controller on CPU.
 
-## 3. Instruction set & programming level
+## Instruction set & programming level
 - **Instruction format:** opcode + operand(s) (0-, 1-, 2-, 3-address instructions). **Instruction types:** data transfer (`MOV, LOAD, STORE, PUSH, POP`), arithmetic (`ADD, SUB, MUL, DIV, INC`), logical (`AND, OR, XOR, NOT, SHL`), control flow (`JMP, JE/JNE, CALL, RET, LOOP`), comparison (`CMP`), I/O.
 - **Addressing modes:** immediate, direct, indirect, register, register-indirect, indexed, base+offset, relative, stack.
 - **Assembly** → assembler → machine code. **Endianness:** big-endian (MSB at lowest address; network byte order) vs **little-endian** (LSB first; x86, ARM default). Name from *Gulliver's Travels*.
@@ -31,7 +89,7 @@
   - **Pipeline ideal speedup** = number of stages (k stages, n instr: time (k + n − 1) cycles).
   - **Average memory access time** AMAT = hit time + miss rate × miss penalty.
 
-## 4. Pipelining & parallelism
+## Pipelining & parallelism
 - **Pipelining**: overlap instruction stages (classic 5-stage RISC: **IF, ID, EX, MEM, WB**). **Throughput** up; latency per instruction not reduced.
 - **Hazards:** **structural** (resource conflict), **data** (RAW read-after-write; WAR; WAW → fixes: forwarding/bypassing, stalls/bubbles), **control** (branches → branch prediction, delay slots). 
 - **Superscalar** (multiple instructions per cycle), **out-of-order execution**, **speculative execution** (→ Spectre/Meltdown vulnerabilities, 2018), **register renaming**, **VLIW**.
@@ -39,7 +97,7 @@
 - **Heterogeneous / big.LITTLE** (performance + efficiency cores; Intel P-cores + E-cores; Apple).
 - **Interrupts:** hardware (IRQ; maskable/non-maskable), software (trap/syscall), exceptions (page fault, divide by zero). **ISR/interrupt vector table**. **Polling vs interrupt-driven vs DMA** I/O (see `04`).
 
-## 5. Memory system
+## Memory system
 - **Hierarchy (speed ↑, cost/byte ↑, size ↓):** Registers → L1 → L2 → L3 cache → main memory (DRAM) → SSD → HDD → tape/cloud archive. Access ~ 1 cycle (reg), ~1–4 ns (L1), ~10 ns (L2/L3), ~60–100 ns (DRAM), ~100 µs (SSD), ~5–10 ms (HDD).
 - **Principle of locality:** **temporal** (reuse soon) and **spatial** (nearby addresses) → why caches work. **Hit/miss, hit ratio**, miss types: **compulsory, capacity, conflict**.
 - **Cache mapping:** **Direct-mapped** (each block → exactly one line; simple, conflict misses) · **Fully associative** (any line; costly) · **n-way set-associative** (compromise). **Write policies:** write-through vs write-back (dirty bit); write-allocate. **Replacement:** LRU, FIFO, random. Typical cache line 64 B. L1 split I/D; L3 shared.
@@ -49,7 +107,7 @@
 - **Storage:** HDD (platters, RPM 5400/7200, SATA); SSD (no moving parts; SATA 550 MB/s vs **NVMe Gen4 ~7 GB/s**, Gen5 ~14 GB/s); **RAID** (0/1/5/6/10); SAS; **NAS vs SAN**; optical; cloud.
 - **Memory-mapped I/O** vs port-mapped I/O. **DMA** → file `04`.
 
-## 6. Processor families & modern hardware (trivia-ready)
+## Processor families & modern hardware (trivia-ready) · finals
 - **Intel** (Robert Noyce & Gordon Moore, 1968; CEO **Lip-Bu Tan** since March 2025): Core i3/i5/i7/i9 → **Core Ultra** (Meteor/Lunar/Arrow Lake; **Panther Lake** on the **18A** process); Xeon (servers); Intel Arc GPUs; Intel Foundry.
 - **AMD** (CEO **Lisa Su**): Ryzen (desktop/laptop), **EPYC** (servers), **Radeon** GPUs, Instinct (AI accelerators, MI300/MI350 series). Architecture names **Zen 1 → Zen 5** (Zen 6 next). AMD acquired ATI (2006), Xilinx (2022).
 - **Nvidia** (founded 1993; CEO **Jensen Huang**): GeForce RTX (consumer), data-center GPUs: Volta → Ampere (A100) → Hopper (H100) → **Blackwell** (B200/GB200) → **Rubin** (Vera Rubin platform, 2026); CUDA (parallel computing platform), Tensor cores, NVLink, DGX; coined "GPU" with GeForce 256 (1999). Became first company to pass $4 trillion then $5 trillion market cap in 2025 (verify current rankings before answering).
@@ -61,12 +119,12 @@
 - **Quantum:** qubits (superposition, entanglement), gate model; IBM (Condor/Heron/Starling roadmap), **Google Willow** (Dec 2024, 105 qubits, below-threshold error correction), Microsoft Majorana 1, IonQ, Rigetti, D-Wave (annealing). NISQ era. Threat: **Shor's algorithm** breaks RSA/ECC → post-quantum crypto (NIST **FIPS 203/204/205**, Aug 2024: ML-KEM (Kyber), ML-DSA (Dilithium), SLH-DSA (SPHINCS+)).
 - **Neuromorphic**, photonic, **in-memory computing** emerging.
 
-## 7. Motherboard, power, cooling, form factors
+## Motherboard, power, cooling, form factors · finals
 - **Form factors:** ATX, Micro-ATX, Mini-ITX, E-ATX. **PSU** 80 PLUS (Bronze/Silver/Gold/Platinum/Titanium) efficiency; connectors 24-pin ATX, EPS 8-pin CPU, PCIe 6+2/12VHPWR/12V-2×6. **Sockets:** Intel LGA 1700/1851, AMD AM4/**AM5** (LGA, DDR5-only). **TDP** (thermal design power). Cooling: air, AIO liquid, custom loop, thermal paste. **CMOS battery** (CR2032) keeps BIOS settings/clock. **POST beeps**. **UEFI** replaces BIOS (GUI, Secure Boot, GPT).
 - **Display/graphics:** resolution, refresh rate, response time, panel types **IPS, VA, TN, OLED, mini-LED**; HDR; G-Sync/FreeSync; **ray tracing**, DLSS/FSR upscaling; VRAM.
 - **Peripherals:** printers (laser, inkjet, thermal), scanners, UPS (uninterruptible power supply), KVM switch.
 
-## 8. Quick computations
+## Quick computations · finals
 - 2¹⁰ = 1,024; 2²⁰ ≈ 1 M; 2³⁰ ≈ 1 G; 2³² = 4,294,967,296.
 - Memory with 12 address lines & 8-bit words = 2¹² × 8 bits = 4,096 B = 4 KB.
 - Chip count: 64 KB from 16 KB chips = 4 chips.
@@ -78,7 +136,7 @@
 
 ---
 
-## ✅ Flashcard seeds
+## ✅ Quick self-check
 - Stored-program architecture → **Von Neumann**; separate instruction/data memory → **Harvard**
 - Part of CPU doing math/logic → **ALU**; directs operations → **Control Unit**
 - Register holding next instruction address → **Program Counter (PC)**

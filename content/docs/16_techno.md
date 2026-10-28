@@ -1,11 +1,73 @@
 # 15 · Technopreneurship
-*(Coach's TECHNO-COMBINED reviewer — digest of all 6 lessons.)* Slide-based, so questions will mirror the **wording of the slides**: lists, types, steps, definitions. Memorize the numbered lists.
+*(Coach's TECHNO-COMBINED reviewer — digest of all 6 lessons: entrepreneurship, innovation, market research, Business Model Canvas, IP, financing, business plan.)*
 
-> ⚠️ Where the slides differ from the "textbook" version, this file gives the **slide's wording first** and flags the difference.
+> **How to use this page.** Start with **Basics**: that is what the elimination round tests. The sections after it are the deeper detail for the finals (identification, average/difficult). The finals follow the **wording of the slides** (lists, types, steps), so where the slides differ from the textbook, the deeper sections give the slide's wording first.
 
 ---
 
-## 1. Entrepreneurship vs. Technopreneurship (Lesson 1)
+## Basics
+
+### Core terms
+- **Technopreneurship** = entrepreneurship in a **technology-intensive context**; the merging of **technology prowess and entrepreneurial skills**.
+- **Technopreneur** (Daniel Mankani, 2003) = an entrepreneur who uses **cutting-edge technology** to develop a new business.
+- **Entrepreneur** (Kuratko & Hodgetts, 2007) = an innovator who **recognizes opportunities**, **adds value**, **assumes the risks** of the competitive marketplace and **realizes the rewards**.
+- **Technology Developers** = **Inventors** (create unique technology). **Technology Users** = **Innovators** (apply a technology to a new market need).
+- **Technopreneurial process**: the **first step is Idea generation** (then screening, concept testing, business analysis, prototyping, test marketing, commercialization, monitoring).
+
+### 4 types of entrepreneurs
+| Type | Remember |
+|---|---|
+| **Innovative** | passion for discovering **new** products, ideas, processes; enjoys the challenge of risk |
+| **Imitating** | **copies** products of innovators; imitates their technology, process and methods |
+| **Fabian** | **skeptical** about change; waits for the outcome of released products before the next project |
+| **Drone** | **reluctant to change**; happy with results even with **financial losses** |
+
+### Innovation
+- **Sustaining** innovation = **incremental**, a response to customer/market demands (Apple, Intel, Amazon).
+- **Disruptive** innovation = makes products more **affordable and accessible**; popularized by **Clayton Christensen**; classic example: **cellphones vs. fixed-line telephony**.
+- **Breakthrough** innovation = from **inside** a company, pushes something to the next level and opens **new markets**; example: **Apple iPhone**.
+- **Basic research** innovation = starts with the **discovery of a new phenomenon**; seeks to understand how nature and people are put together.
+- **ABC analysis** (rough idea selection): **A** = necessary, go on · **B** = uncertain, discuss · **C** = **rejected**, no longer considered.
+- Detailed analysis criteria include **customer benefit**, differentiation potential, technical and economic feasibility.
+- **Elevator pitch** = a **short, persuasive presentation** of an idea.
+
+### Market research & validation
+- **Survey** = list of questions by phone, paper or online. **Observation** = watching how a subject uses a product. **In-depth interview** = one-on-one with probing questions. (Fourth tool: focus group.)
+- **Market validation** = finding out whether your product is of **interest to a target market**, usually **before significant investment**.
+- **Alpha testing** = **internal employees**, staged setting, remove bugs before outsiders see it. **Beta testing** = a **limited group of real external users** told to find problems.
+
+### Business Model Canvas (BMC)
+- Proposed by **Alexander Osterwalder**; 9 blocks.
+
+| Block | Remember |
+|---|---|
+| **Customer segments** | who the customers are; what they think, see, feel, do; **multi-sided market** = two sides (CNN.com: readers + advertisers) |
+| **Value propositions** | the value a company **promises to deliver** to customers |
+| **Channels** | phases: **Awareness** (word of mouth, social media, TV, flyers) → Evaluation → **Purchase** (self-checkout, credit card, COD) → Delivery → After sales |
+| **Revenue streams** | **cash generated** from each customer segment |
+| **Key resources** | physical, **intellectual** (patents, brands, copyrights, customer lists), human, financial |
+| **Key partnerships** | what the company will **not do** so it can focus on key activities; **coopetition** = alliance between competitors; **joint venture** = two firms create a new business together |
+| **Cost structure** | **all costs** of operating the model; **value-driven** (more value in the product) vs **cost-driven** (minimize costs) |
+
+### Intellectual property (5 types: copyright, patent, trade secret, trademark, industrial design)
+- **Copyright** = literary and artistic works: **computer programs (source code)**, databases, maps, technical drawings, advertisements.
+- **Patent** = **exclusive right over an invention**. **Utility** patent = process, article, machine, composition of matter. **Design** patent = original, new, **ornamental design** of a manufactured product.
+- **Trade secret** = practice/process **not known outside the company** that gives an economic advantage.
+- **Trademark** = distinguishes a seller's products by **brand name or logo**. **Service mark** = protects **services**. **Collective mark** = owned by an organization/association. **Certification mark** = shows adherence to local regulations.
+- **Industrial design** = **ornamental/aesthetic** aspect of an article (3D shape or 2D patterns).
+
+### Money & planning
+- **Angel investors** = individuals making **high-risk** investments in **early-stage** ventures.
+- **Private equity (PE) firms** = invest in **relatively mature** ventures with a track record, **1–5 year** horizon.
+- **Strategic investors** = usually **larger companies in the same industry**. **Public funding agencies** = fund ventures for economic, environmental, cultural or social-policy goals. **Banks** = **lowest cost of capital**.
+- **Crowdfunding** = raising money from **a large number of people, usually online**.
+- **Financial planning** = determine **capital requirements** and **capital structure**. **ROI** = **return on investment**.
+- **Balance sheet** = lists assets and liabilities. **Break-even analysis** = sales level where **total revenue equals total costs**.
+- **Business plan** = document summarizing operational and financial objectives with detailed plans and budgets; its **executive summary** briefly summarizes the whole plan.
+
+---
+
+## Entrepreneurship vs. technopreneurship
 - **Entrepreneurship** = embarking on a new business or reviving an existing one by pooling resources to exploit new-found opportunities. It is **"creating the new and destroying the old"** → new **knowledge, products, processes, services, markets, business models, raw materials**.
 - **Entrepreneur** (Kuratko & Hodgetts, 2007): an innovator/developer who **recognizes and seizes opportunities**, converts them into workable/marketable ideas, **adds value** through time, effort, money or skills, **assumes the risks** of the competitive marketplace, and **realizes the rewards**.
 
@@ -51,7 +113,7 @@ Determines risk & has courage to take it · independent and self-confident yet k
 
 ---
 
-## 2. Innovation & idea generation (Lesson 2)
+## Innovation & idea generation
 - **Innovation** = creation of something that **improves the way we live our lives** (Barack Obama quote). Per **Joerg Gemuenden**: a **process** involving multiple activities by multiple actors, during which new combinations of means and ends are developed, implemented and transferred.
 
 ### 4 types of innovation
@@ -84,7 +146,7 @@ Storytelling · Musical · Video · Photo-only · Immersive · Question · Demon
 
 ---
 
-## 3. Customer needs, market research & validation
+## Market research & validation
 - **Market research** = systematically gathering data about people/companies (a market) and analyzing it to understand what the group needs; conducted to **justify the needs of customers**.
 
 ### 4 primary market-research tools
@@ -115,7 +177,7 @@ Customers' needs are the **foundation** of creating a product; an innovative lea
 
 ---
 
-## 4. Business Model Canvas (Chapter 3)
+## Business Model Canvas
 - Used by startups as a guiding tool to think of better solutions, generate innovation ideas and market products/services. **Proposed by Alexander Osterwalder.** (Slides also follow **Alex Cowan**'s explanation.)
 
 ### The 9 building blocks
@@ -139,13 +201,13 @@ Customers' needs are the **foundation** of creating a product; an innovative lea
 
 **Key resources (4):** **Physical** (equipment, inventory, buildings, plants, distribution networks) · **Intellectual** (brand, patents, IP, copyrights, partnerships, customer lists/knowledge) · **Human** · **Financial** (cash, lines of credit, stock-option plans). The BMC proposes **3 core business types: product, scope, infrastructure** (slide wording).
 
-**Key partnerships:** strategic alliances between **non-competitors** · **coopetition** · **joint ventures** to develop new businesses · **buyer–supplier** relationships. Slide example: **Google** — **97% of revenue from advertising**.
+**Key partnerships:** strategic alliances between **non-competitors** · **coopetition** (alliance between competitors) · **joint ventures** to develop new businesses · **buyer–supplier** relationships. Slide example: **Google** — **97% of revenue from advertising**.
 
 **Cost structure:** **value-driven** (create more value in the product, not lowest cost) vs. **cost-driven** (minimize costs).
 
 ---
 
-## 5. Intellectual Property Rights (Chapter 4)
+## Intellectual property rights
 - **Intellectual property** = creations of the mind: inventions, literary & artistic works, designs, symbols, names and images used in commerce.
 - **5 types:** **Copyright · Patents · Trade secrets · Trademarks · Industrial design.**
 
@@ -161,7 +223,7 @@ Customers' needs are the **foundation** of creating a product; an innovative lea
 
 ---
 
-## 6. Financial plan & resource generation (Chapter 5)
+## Financial plan & funding
 - **Financial plan** = comprehensive overview of financial goals and steps to achieve them; clear vision of operating income & expenses to tell whether the business will profit.
 - **Objectives (4):** (a) determine **capital requirements** (short & long term) · (b) determine **capital structure** (kind & proportion of capital) · (c) frame **financial policies** (cash control, lending, borrowing) · (d) ensure scarce funds are maximally used at least cost for maximum ROI.
 - **Importance (6):** adequate funds · balance of inflow/outflow (stability) · suppliers/investors prefer firms that plan · growth & expansion programs · reduce uncertainties from market trends · stability & profitability.
@@ -182,7 +244,7 @@ Customers' needs are the **foundation** of creating a product; an innovative lea
 
 ---
 
-## 7. Business plan, Lean Canvas & elevator pitch (Lesson 6)
+## Business plan, Lean Canvas & pitch · finals
 - **Business plan** = document summarizing the **operational and financial objectives** with detailed plans and budgets showing how objectives will be realized.
 - **Importance (4):** raise money · make sound decisions · identify potential weaknesses · communicate your idea with stakeholders.
 - **Benefits (10):** see the whole business · strategic focus · set priorities · manage change · develop accountability · manage cash · strategic alignment · milestones · metrics · realistic regular reminders.
@@ -200,7 +262,7 @@ Customers' needs are the **foundation** of creating a product; an innovative lea
 
 ---
 
-## 8. Last-minute memory hooks
+## Last-minute memory hooks · finals
 - **4 entrepreneurs:** **I**nnovative, **I**mitating, **F**abian, **D**rone → "Innovates, Imitates, Fears, Dozes."
 - **Inventors = Developers; Innovators = Users.**
 - **Sustaining = routine/incremental; Disruptive = cheaper & accessible (Christensen); Breakthrough = next level (iPhone); Basic research = new phenomenon.**

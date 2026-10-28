@@ -1,9 +1,72 @@
 # 09 · Database Management Systems (DBMS)
-*(Lesson 8a — pairs with `10_Data_Science_and_Analytics.md`.)* SQL syntax, keys, normalization and ACID are the favorite exam topics.
+*Databases, keys, normalization, SQL, transactions and DBMS products. (Lesson 8a — pairs with `10_ds.md`.)*
+
+> **How to use this page.** Start with **Basics**: that is what the elimination round tests. The sections after it
+> are the deeper detail for the finals (identification, average/difficult). Tip: SQL command groups, keys and ACID come up again and again.
 
 ---
 
-## 1. Fundamentals
+## Basics
+
+### Core terms
+- **Database** = organized collection of related data. **DBMS** = software used to **define, create, query and administer** databases (MySQL, Oracle...).
+- **Metadata** = data about data; stored in the **data dictionary (system catalog)**.
+- **SQL** = **Structured Query Language**.
+
+### Relational model
+- **Edgar F. Codd** (IBM, 1970) proposed the relational model. **Peter Chen** proposed the ER model (1976).
+- **Table = relation · row = tuple (record) · column = attribute (field).**
+- **Primary key** = uniquely identifies each row, cannot be NULL. **Candidate key** = minimal set of attributes that uniquely identifies a row. **Foreign key** = references the primary key of another table. **UNIQUE** constraint = all values in the column are different.
+- **Referential integrity:** a foreign key value must match an existing primary key value **or be NULL**.
+- **Many-to-many** relationships are implemented with a **junction (associative) table**.
+
+### ER diagram symbols
+| Symbol | Meaning |
+|---|---|
+| **Rectangle** | entity |
+| **Diamond** | relationship |
+| **Ellipse (oval)** | attribute |
+
+### Normalization
+- Purpose: prevent **insertion, update and deletion anomalies** by removing redundancy.
+- **1NF** = atomic values, no repeating groups. **2NF** = removes **partial dependencies**. **3NF** = removes **transitive dependencies**.
+- **Denormalization** = deliberately adding redundancy to improve **read** performance.
+
+### SQL command groups
+| Group | Commands |
+|---|---|
+| **DDL** (definition) | `CREATE, ALTER, DROP, TRUNCATE` |
+| **DML** (manipulation) | `INSERT, UPDATE, DELETE` |
+| **DQL** (query) | `SELECT` |
+| **DCL** (control) | `GRANT, REVOKE` |
+| **TCL** (transaction) | `COMMIT, ROLLBACK, SAVEPOINT` |
+
+- `CREATE TABLE` creates a table; `ALTER TABLE` adds/changes columns; `UPDATE` modifies existing rows; `SELECT` retrieves data; `SELECT DISTINCT` **removes duplicate rows** from the result.
+- **`DROP`** removes the table structure itself; **`TRUNCATE`** quickly removes all rows and resets identity (without logging each row).
+
+### Query clauses
+- **`WHERE`** filters **rows before grouping**; **`HAVING`** filters **groups after aggregation**; **`ORDER BY`** sorts results.
+- **`LIKE`** wildcards: **`%`** = any number of characters, `_` = one character.
+- Test for NULL with **`IS NULL`** (never `= NULL`).
+- **`INNER JOIN`** = only rows matching in both tables. **`LEFT JOIN`** = all left rows plus matches from the right.
+- **`UNION`** combines results and **removes duplicates** (`UNION ALL` keeps them).
+- **View** = virtual table based on a `SELECT`. **Trigger** = code that runs automatically on INSERT/UPDATE/DELETE. **Index** = speeds up **reads**, may slow **writes**.
+
+### Transactions
+- **ACID:** **Atomicity** (all or nothing) · **Consistency** (valid state to valid state) · **Isolation** (concurrent transactions do not interfere) · **Durability** (committed data survives failures).
+- **Dirty read** = reading another transaction's uncommitted data. Strongest isolation level = **SERIALIZABLE**.
+- **CAP theorem:** a distributed system can guarantee at most two of **Consistency, Availability, Partition tolerance**.
+
+### Products and data warehousing
+- **MongoDB** = document · **Redis** = in-memory key-value store (caching) · **Neo4j** = graph · **SQLite** = embedded, serverless, file-based.
+- **Microsoft SQL Server** = **T-SQL**; **Oracle** = **PL/SQL**.
+- **OLTP** = Online Transaction Processing (many short transactions); **OLAP** = analysis of large datasets.
+- **ETL** = Extract, Transform, Load. **Star schema:** central **fact table** surrounded by dimension tables.
+- **Philippines:** **Data Privacy Act of 2012 (RA 10173)** governs personal data.
+
+---
+
+## Fundamentals
 - **Data** = raw facts · **Database** = organized collection of related data · **DBMS** = software to define, create, query, update, secure and administer databases (e.g., MySQL, Oracle) · **Database system** = DB + DBMS + applications + users.
 - **Metadata** = data about data, stored in the **data dictionary / system catalog**.
 - **File system problems → DBMS solves:** data redundancy & inconsistency, difficulty in access, isolation, integrity problems, atomicity, concurrent-access anomalies, security.
@@ -13,7 +76,7 @@
 - **Languages:** DDL (define), DML (manipulate), DCL (control), TCL (transaction), DQL (query).
 - **DBMS components:** query processor (parser, optimizer, executor), storage manager (buffer, file, index), transaction manager, lock manager, recovery manager.
 
-## 2. Database models
+## Database models · finals
 | Model | Notes |
 |---|---|
 | **Hierarchical** | tree, parent–child 1:N (IBM IMS) |
@@ -25,7 +88,7 @@
 - **NewSQL**: distributed SQL (CockroachDB, Google Spanner, TiDB).
 - **CAP theorem** (Eric Brewer): a distributed store can guarantee only two of **Consistency, Availability, Partition tolerance**. NoSQL often follows **BASE** (Basically Available, Soft state, Eventually consistent) vs relational **ACID**.
 
-## 3. Entity–Relationship (ER) model
+## Entity–Relationship (ER) model
 - **Entity** (thing: Student) · **Entity set** · **Attribute** (property). Attribute kinds: *simple* vs *composite* (name → first/last), *single-valued* vs *multivalued* (phone numbers; double ellipse), *derived* (age from birthdate; dashed), *key* (underlined).
 - **Weak entity** (no own key; depends on owner; double rectangle) with **identifying relationship** (double diamond).
 - **Relationship** (diamond) with **degree** (unary/recursive, binary, ternary) and **cardinality** **1:1, 1:N, M:N**; **participation** total (double line) vs partial. M:N resolved by **associative/junction (bridge) table**.
@@ -33,7 +96,7 @@
 - **Design stages:** requirements analysis → **conceptual (ER)** → **logical (relational schema)** → **physical (indexes, storage)** → implementation.
 - ER → relational mapping: entity → table; 1:N → FK on the "many" side; M:N → junction table with two FKs; multivalued attribute → separate table.
 
-## 4. Relational model
+## Relational model
 - Terms: **Relation = table · Tuple = row/record · Attribute = column/field · Domain = allowed values · Degree = # of columns · Cardinality = # of rows · Schema vs Instance.**
 - **Keys:**
   - **Super key** (any set of attributes that uniquely identifies a row) ⊇ **Candidate key** (minimal super key) → **Primary key** (chosen candidate; unique, not null) ; remaining candidates = **alternate keys**.
@@ -42,7 +105,7 @@
 - **Relational algebra:** **σ** selection (rows) · **π** projection (columns) · **∪** union · **∩** intersection · **−** difference · **×** Cartesian product · **⋈** join (theta, equi, natural, outer) · **÷** division · **ρ** rename. Relational calculus (tuple/domain). **Codd's 12 rules**.
 - Properties of relations: no duplicate tuples, order of rows/columns irrelevant, atomic values.
 
-## 5. Normalization
+## Normalization
 - **Purpose:** reduce redundancy and avoid **anomalies** — **insertion, update, deletion**. Based on **functional dependencies (FD)** X → Y ("X determines Y").
 - **1NF:** atomic values; no repeating groups/multivalued attributes; has a key.
 - **2NF:** 1NF + **no partial dependency** (non-key attribute depends on part of a composite key). (Only matters for composite keys.)
@@ -53,7 +116,7 @@
 - Quick example: Orders(OrderID, CustomerID, CustomerName, ProductID, Qty) → CustomerName depends on CustomerID (transitive/partial) → split into Customers, Orders, OrderItems.
 - **Armstrong's axioms**: reflexivity, augmentation, transitivity. **Closure** of attributes X⁺. **Lossless join** & **dependency preservation** in decomposition.
 
-## 6. SQL (Structured Query Language)
+## SQL (Structured Query Language)
 - Origin: IBM (Donald Chamberlin & Raymond Boyce) as **SEQUEL** for System R (1970s); ANSI standard 1986, ISO 1987; pronounced "S-Q-L" or "sequel". **Declarative**, 4GL.
 - **Sub-languages:**
   | Group | Commands |
@@ -114,7 +177,7 @@ Q7: Table A has 4 rows, B has 3 rows. A CROSS JOIN B → 12 rows.
 Q8: INNER JOIN of A(1,2,3) and B(2,3,4) on id → 2 rows; LEFT JOIN → 3 rows; FULL OUTER → 4 rows.
 ```
 
-## 7. Transactions, concurrency, recovery
+## Transactions, concurrency, recovery
 - **Transaction** = logical unit of work. **ACID:** **A**tomicity (all or nothing) · **C**onsistency (valid state → valid state) · **I**solation (concurrent transactions don't interfere) · **D**urability (committed data survives crashes).
 - States: active → partially committed → committed / failed → aborted. `BEGIN/START TRANSACTION … COMMIT / ROLLBACK`; `SAVEPOINT`.
 - **Concurrency problems:** **lost update**, **dirty read** (reading uncommitted data), **non-repeatable read**, **phantom read**. **Isolation levels** (weakest→strongest): `READ UNCOMMITTED → READ COMMITTED → REPEATABLE READ → SERIALIZABLE`.
@@ -122,12 +185,12 @@ Q8: INNER JOIN of A(1,2,3) and B(2,3,4) on id → 2 rows; LEFT JOIN → 3 rows; 
 - **Recovery:** **log (WAL – write-ahead logging)**, **checkpoints**, **undo/redo**, shadow paging, ARIES. **Backups:** full, incremental, differential; hot/cold; point-in-time recovery. **High availability:** replication (primary–replica/master–slave, multi-primary), clustering, failover; **sharding** (horizontal partitioning) vs **vertical partitioning**; **RPO/RTO**.
 - **Security:** authentication, authorization (GRANT), roles, encryption at rest/in transit (TDE), auditing, masking, least privilege.
 
-## 8. Data warehousing & BI
+## Data warehousing & BI · finals
 - **OLTP** (many short transactions; normalized; e.g., POS) vs **OLAP** (analysis; denormalized; multidimensional). **Data warehouse** (subject-oriented, integrated, time-variant, non-volatile — **Bill Inmon**; Kimball = dimensional modeling), **data mart**, **data lake** (raw), **lakehouse**.
 - **Star schema** (central **fact table** with measures + surrounding **dimension tables**) vs **snowflake schema** (normalized dimensions). **OLAP operations:** roll-up, drill-down, slice, dice, pivot. **ETL** (Extract–Transform–Load) vs **ELT**. Cloud DWs: Snowflake, BigQuery, Redshift, Azure Synapse, Databricks.
 - **Big-data DB**: Hadoop HDFS, HBase, Hive (SQL on Hadoop), Spark SQL.
 
-## 9. DBMS products & trivia
+## DBMS products & trivia · finals
 | Product | Vendor / note |
 |---|---|
 | **Oracle Database** | Oracle Corp (Larry Ellison); PL/SQL |
@@ -147,7 +210,7 @@ Q8: INNER JOIN of A(1,2,3) and B(2,3,4) on id → 2 rows; LEFT JOIN → 3 rows; 
 
 ---
 
-## ✅ Flashcard seeds
+## ✅ Quick self-check
 - Father of the relational model → **E. F. Codd (IBM, 1970)**; ER model → **Peter Chen**
 - Software managing databases → **DBMS**
 - Row in a table = **tuple/record**; column = **attribute/field**; number of columns = **degree**; rows = **cardinality**
