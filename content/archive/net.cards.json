@@ -1,0 +1,87 @@
+{
+ "id": "net",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "D",
+   "q": "Which Cat cable supports 10 Gbps at 100 m?",
+   "a": "Cat6a",
+   "alt": [],
+   "why": "obscure cable category"
+  },
+  {
+   "d": "D",
+   "q": "What is Shannon's formula for channel capacity?",
+   "a": "C = B log2(1 + S/N)",
+   "alt": [
+    "C=B*log2(1+S/N)"
+   ],
+   "why": "formula card"
+  },
+  {
+   "d": "D",
+   "q": "What is the administrative distance of OSPF?",
+   "a": "110",
+   "alt": [],
+   "why": "administrative distance trivia"
+  },
+  {
+   "d": "D",
+   "q": "What is the administrative distance of RIP?",
+   "a": "120",
+   "alt": [],
+   "why": "administrative distance trivia"
+  },
+  {
+   "d": "D",
+   "q": "What is the default port used to poll SNMP agents (not traps)?",
+   "a": "161",
+   "alt": [],
+   "why": "obscure port"
+  },
+  {
+   "d": "D",
+   "q": "What is the default port of IMAP over TLS (IMAPS)?",
+   "a": "993",
+   "alt": [],
+   "why": "obscure secure port"
+  },
+  {
+   "d": "A",
+   "q": "What is the fixed size in bytes of the IPv6 base header?",
+   "a": "40",
+   "alt": [
+    "40 bytes"
+   ],
+   "why": "obscure figure"
+  },
+  {
+   "d": "D",
+   "q": "What is the data rate of a T1 line in Mbps?",
+   "a": "1.544",
+   "alt": [
+    "1.544 Mbps"
+   ],
+   "why": "obscure line rate"
+  },
+  {
+   "d": "D",
+   "q": "What is the data rate of an E1 line in Mbps?",
+   "a": "2.048",
+   "alt": [
+    "2.048 Mbps"
+   ],
+   "why": "obscure line rate"
+  },
+  {
+   "d": "D",
+   "q": "Who created the Nmap port scanner, known by the handle Fyodor?",
+   "a": "Gordon Lyon",
+   "alt": [
+    "Gordon Fyodor Lyon"
+   ],
+   "why": "obscure trivia"
+  }
+ ]
+}

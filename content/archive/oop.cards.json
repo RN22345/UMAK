@@ -1,0 +1,47 @@
+{
+ "id": "oop",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "D",
+   "q": "What does ECMAScript's ES6 correspond to in year?",
+   "a": "2015",
+   "alt": [],
+   "why": "obscure year"
+  },
+  {
+   "d": "A",
+   "q": "Which two people created Simula?",
+   "a": "Ole-Johan Dahl and Kristen Nygaard",
+   "alt": [
+    "Dahl and Nygaard",
+    "Nygaard and Dahl"
+   ],
+   "why": "obscure history trivia"
+  },
+  {
+   "d": "A",
+   "q": "What was JavaScript's very first name at Netscape?",
+   "a": "Mocha",
+   "alt": [
+    "LiveScript Mocha"
+   ],
+   "why": "obscure history trivia"
+  },
+  {
+   "d": "D",
+   "q": "Java: with int x = 7, what does System.out.println(x / 2 + x % 2) print?",
+   "a": "4",
+   "alt": [],
+   "why": "expression evaluation puzzle"
+  },
+  {
+   "d": "D",
+   "q": "Python: what does 7 // 2 ** 2 evaluate to?",
+   "a": "1",
+   "alt": [],
+   "why": "expression evaluation puzzle"
+  }
+ ]
+}

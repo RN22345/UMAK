@@ -1,0 +1,92 @@
+{
+ "id": "se",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "A",
+   "q": "In ISO/IEC 25010:2023, what was Usability renamed to?",
+   "a": "Interaction Capability",
+   "alt": [],
+   "why": "obscure 2023 rename"
+  },
+  {
+   "d": "A",
+   "q": "In ISO/IEC 25010:2023, what was Portability renamed to?",
+   "a": "Flexibility",
+   "alt": [],
+   "why": "obscure 2023 rename"
+  },
+  {
+   "d": "A",
+   "q": "What are the 4+1 views?",
+   "a": "Logical, Process, Development, Physical, Scenarios",
+   "alt": [],
+   "why": "4+1 views list is hard to type reliably"
+  },
+  {
+   "d": "D",
+   "q": "What are the 5 CMMI levels?",
+   "a": "Initial, Managed, Defined, Quantitatively Managed, Optimizing",
+   "alt": [],
+   "why": "five CMMI level names list is hard to type"
+  },
+  {
+   "d": "D",
+   "q": "What are Bolman and Deal's four frames?",
+   "a": "Structural, Human Resource, Political, Symbolic",
+   "alt": [],
+   "why": "niche theory, unlikely asked"
+  },
+  {
+   "d": "A",
+   "q": "Which ISO/IEC standard defines software life cycle processes?",
+   "a": "ISO/IEC 12207",
+   "alt": [
+    "12207",
+    "ISO 12207"
+   ],
+   "why": "obscure standard number"
+  },
+  {
+   "d": "D",
+   "q": "Using PERT, what is the expected duration when O = 2, M = 5 and P = 14 days?",
+   "a": "6",
+   "alt": [
+    "6 days"
+   ],
+   "why": "calculation card"
+  },
+  {
+   "d": "A",
+   "q": "Which ISO/IEC/IEEE standard covers requirements engineering and the SRS (successor of IEEE 830)?",
+   "a": "ISO/IEC/IEEE 29148",
+   "alt": [
+    "29148",
+    "ISO 29148"
+   ],
+   "why": "obscure standard number"
+  },
+  {
+   "d": "D",
+   "q": "Which SQuaRE division number covers Quality Measurement?",
+   "a": "2502n",
+   "alt": [
+    "ISO/IEC 2502n",
+    "25020"
+   ],
+   "why": "obscure SQuaRE division code"
+  },
+  {
+   "d": "D",
+   "q": "What does JRP stand for in fact-finding techniques?",
+   "a": "Joint Requirement Planning",
+   "alt": [
+    "Joint Requirements Planning",
+    "JAD",
+    "Joint Application Development"
+   ],
+   "why": "obscure acronym"
+  }
+ ]
+}
