@@ -110,7 +110,7 @@ function viewReview(root){
     art.querySelectorAll('table').forEach(t=>{ const w=h('div',{class:'tablewrap'}); t.replaceWith(w); w.append(t); });
     art.querySelectorAll('a').forEach(a=>{ const hr=a.getAttribute('href')||''; if(!/^https?:/.test(hr)) a.replaceWith(...a.childNodes); else {a.target='_blank';a.rel='noopener noreferrer';} });
     const heads=[...art.querySelectorAll('h2')];
-    const jump=h('div',{class:'jump','aria-label':'Jump to section'}, heads.map(x=>h('button',{onclick:()=>x.scrollIntoView({behavior:'smooth',block:'start'})}, x.textContent.replace(/^\d+\.\s*/,'').slice(0,34))));
+    const jump=h('div',{class:'jump','aria-label':'Jump to section'}, heads.map(x=>h('button',{onclick:()=>x.scrollIntoView({behavior:'smooth',block:'start'})}, x.textContent.replace(/^\d+\.\s*/,'').slice(0,44))));
     const l=d.lesson?LBY[d.lesson]:null;
     const head=h('div',{class:'doc-head'},
       h('label',{class:'switch'},h('input',{type:'checkbox',id:'rv-'+d.id,checked:!!reviewed[d.id],onchange:e=>{ if(e.target.checked) reviewed[d.id]=1; else delete reviewed[d.id]; store.set('reviewed',reviewed); drawNav(); }}),'Mark as reviewed'),
