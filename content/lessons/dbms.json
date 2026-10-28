@@ -68,22 +68,6 @@
    "e": "Edgar F. Codd proposed the relational model at IBM in 1970, based on tables, keys and relational algebra. It became the foundation of most modern database systems."
   },
   {
-   "q": "Who proposed the Entity-Relationship model in 1976?",
-   "a": "Peter Chen",
-   "w": [
-    "Edgar Codd",
-    "Chris Date",
-    "Larry Ellison"
-   ],
-   "d": "A",
-   "x": [
-    "Edgar Codd proposed the relational model in 1970, not the Entity-Relationship model.",
-    "Chris Date co-authored and popularized relational theory and SQL concepts, but did not propose the ER model.",
-    "Larry Ellison co-founded Oracle Corporation, which is a company rather than the author of the ER model."
-   ],
-   "e": "Peter Chen introduced the Entity-Relationship model in 1976 as a conceptual design method using entities, attributes and relationships. ER diagrams are still widely used in database design."
-  },
-  {
    "q": "In a relational table, a row is also called a:",
    "a": "Tuple",
    "w": [
@@ -100,102 +84,6 @@
    "e": "A row in a relational table is called a tuple, and each tuple represents one record. Columns are attributes, and the number of tuples gives the cardinality."
   },
   {
-   "q": "In a relational table, a column is also called a:",
-   "a": "Attribute",
-   "w": [
-    "Tuple",
-    "Relation",
-    "Cardinality"
-   ],
-   "d": "E",
-   "x": [
-    "A tuple is a row of a table, not a column.",
-    "A relation is the whole table itself, not one of its columns.",
-    "Cardinality is the number of rows in a relation, not the name for a column."
-   ],
-   "e": "A column in a relational table is called an attribute, and it holds values from one domain for every tuple. Attributes describe the properties of the entity."
-  },
-  {
-   "q": "The number of columns in a relation is its:",
-   "a": "Degree",
-   "w": [
-    "Cardinality",
-    "Domain",
-    "Schema"
-   ],
-   "d": "A",
-   "x": [
-    "Cardinality counts rows in a relation, not columns.",
-    "A domain is the set of allowed values for one attribute, not the count of columns.",
-    "A schema describes the structure of a relation and does not give a numeric count of its columns."
-   ],
-   "e": "The degree of a relation is its number of attributes, or columns. For example, a relation R(A, B, C) has degree 3."
-  },
-  {
-   "q": "The number of rows in a relation is its:",
-   "a": "Cardinality",
-   "w": [
-    "Degree",
-    "Domain",
-    "Key"
-   ],
-   "d": "A",
-   "x": [
-    "Degree counts columns in a relation, not rows.",
-    "A domain is the allowed value set for an attribute, and it is not a count of rows.",
-    "A key is a set of attributes that identifies rows uniquely, not a count of how many rows exist."
-   ],
-   "e": "The cardinality of a relation is its number of tuples, or rows. It changes as data is inserted or deleted, while the degree stays fixed."
-  },
-  {
-   "q": "The three levels of the ANSI/SPARC architecture are:",
-   "a": "External, Conceptual, Internal",
-   "w": [
-    "Physical, Logical, Virtual",
-    "Client, Server, Storage",
-    "View, Model, Controller"
-   ],
-   "d": "D",
-   "x": [
-    "Physical, logical and virtual are related terms but not the three ANSI/SPARC levels, which are external, conceptual and internal.",
-    "Client, server and storage describe a deployment architecture, not the three schema levels of ANSI/SPARC.",
-    "View, model and controller form the MVC pattern used in application design, not the database architecture levels."
-   ],
-   "e": "The ANSI/SPARC three-schema architecture has an external level for user views, a conceptual level for the logical structure of the whole database, and an internal level for physical storage."
-  },
-  {
-   "q": "Which key is a minimal set of attributes that uniquely identifies a row?",
-   "a": "Candidate key",
-   "w": [
-    "Super key",
-    "Foreign key",
-    "Composite key"
-   ],
-   "d": "A",
-   "x": [
-    "A super key uniquely identifies rows but may contain extra attributes, so it is not minimal.",
-    "A foreign key references the primary key of another table, not a minimal unique identifier within its own table.",
-    "A composite key is a key made of two or more columns, which does not by itself mean it is minimal."
-   ],
-   "e": "A candidate key is a minimal set of attributes that uniquely identifies each row. Minimal means no attribute can be removed without losing uniqueness."
-  },
-  {
-   "q": "Which key uniquely identifies each row and cannot be NULL?",
-   "a": "Primary key",
-   "w": [
-    "Foreign key",
-    "Alternate key",
-    "Unique key"
-   ],
-   "d": "A",
-   "x": [
-    "A foreign key links to a primary key in another table and does not identify the row in its own table.",
-    "An alternate key is a candidate key that was not chosen as the primary key, so it is not the designated main identifier.",
-    "A unique key enforces uniqueness but in many DBMSs allows NULL, so it does not guarantee non-null values."
-   ],
-   "e": "A primary key uniquely identifies each row and cannot be NULL. Each table has one primary key, chosen from its candidate keys."
-  },
-  {
    "q": "Which key references the primary key of another table?",
    "a": "Foreign key",
    "w": [
@@ -210,70 +98,6 @@
     "A super key is any set of attributes that uniquely identifies rows, and it does not reference another table."
    ],
    "e": "A foreign key is an attribute in one table that references the primary key of another table. It enforces links between related tables."
-  },
-  {
-   "q": "A key made of two or more columns is a:",
-   "a": "Composite key",
-   "w": [
-    "Surrogate key",
-    "Alternate key",
-    "Natural key"
-   ],
-   "d": "E",
-   "x": [
-    "A surrogate key is a single system-generated value, not a key made of several columns.",
-    "An alternate key is a candidate key that is not the primary key, and it is not defined by its number of columns.",
-    "A natural key is drawn from meaningful real-world data such as an ISBN, so it is defined by meaning rather than column count."
-   ],
-   "e": "A composite key is made of two or more columns that together uniquely identify a row, such as StudentID and CourseID in an enrollment table."
-  },
-  {
-   "q": "A system-generated key such as an auto-increment ID is a:",
-   "a": "Surrogate key",
-   "w": [
-    "Natural key",
-    "Composite key",
-    "Foreign key"
-   ],
-   "d": "A",
-   "x": [
-    "A natural key comes from real-world data such as an email or national ID, not from system generation.",
-    "A composite key is made of two or more columns combined, not a single generated value.",
-    "A foreign key references another table's primary key and is not a generated identifier."
-   ],
-   "e": "A surrogate key is a system-generated identifier with no business meaning, such as an auto-increment ID. It stays stable even when natural data changes."
-  },
-  {
-   "q": "Entity integrity requires that:",
-   "a": "Primary keys are not NULL",
-   "w": [
-    "Foreign keys match primary keys",
-    "All columns have defaults",
-    "Tables have indexes"
-   ],
-   "d": "A",
-   "x": [
-    "Foreign keys matching primary keys describes referential integrity, not entity integrity.",
-    "Columns having default values is a design choice and is not a rule of entity integrity.",
-    "Tables having indexes concerns performance and is not required by entity integrity."
-   ],
-   "e": "Entity integrity requires that every primary key value is unique and not NULL, so each row can be identified reliably."
-  },
-  {
-   "q": "Referential integrity requires that:",
-   "a": "Foreign key values match an existing primary key or are NULL",
-   "w": [
-    "Primary keys are unique",
-    "Columns are atomic",
-    "Tables are normalized"
-   ],
-   "d": "A",
-   "x": [
-    "Primary keys being unique is the entity integrity rule, which is separate from referential integrity.",
-    "Atomic columns relate to First Normal Form, which concerns single values per column, not links between tables.",
-    "Normalized tables relate to database design quality and reduced redundancy, not to the foreign key rule."
-   ],
-   "e": "Referential integrity requires that every non-NULL foreign key value matches an existing primary key in the referenced table, so no dangling references exist."
   },
   {
    "q": "In an ER diagram, a diamond represents a:",
@@ -306,102 +130,6 @@
     "Cardinality is a constraint on a relationship, such as one-to-many, and is not a shape in ER diagrams."
    ],
    "e": "In an ER diagram, a rectangle represents an entity, which is a thing such as Student or Course that the database stores data about."
-  },
-  {
-   "q": "In ER diagrams, a derived attribute (such as Age from BirthDate) is shown with:",
-   "a": "A dashed ellipse",
-   "w": [
-    "A double ellipse",
-    "An underlined name",
-    "A diamond"
-   ],
-   "d": "D",
-   "x": [
-    "A double ellipse denotes a multivalued attribute in ER notation, not a derived one.",
-    "An underlined name marks a key attribute, not a derived attribute.",
-    "A diamond represents a relationship, not an attribute."
-   ],
-   "e": "A derived attribute is computed from other stored data, so it is shown with a dashed ellipse in ER notation. For example, Age can be derived from BirthDate."
-  },
-  {
-   "q": "A many-to-many relationship is implemented in the relational model with:",
-   "a": "A junction (associative) table",
-   "w": [
-    "A single foreign key",
-    "A view",
-    "A trigger"
-   ],
-   "d": "A",
-   "x": [
-    "A single foreign key links one table to another in one direction and cannot represent many-to-many links by itself.",
-    "A view is a saved query shown as a virtual table, not a structure that stores the links between entities.",
-    "A trigger runs code automatically on data changes and is not a way to model the relationship structure."
-   ],
-   "e": "A many-to-many relationship is implemented with a junction table, also called an associative or bridge table. It holds a pair of foreign keys, one for each related table."
-  },
-  {
-   "q": "First Normal Form (1NF) requires:",
-   "a": "Atomic values with no repeating groups",
-   "w": [
-    "No partial dependencies",
-    "No transitive dependencies",
-    "Every determinant is a super key"
-   ],
-   "d": "A",
-   "x": [
-    "No partial dependencies is the requirement for 2NF, not for 1NF.",
-    "No transitive dependencies is the requirement for 3NF, not for 1NF.",
-    "Every determinant being a super key is the BCNF condition, not the 1NF condition."
-   ],
-   "e": "1NF requires that every column holds atomic values and that there are no repeating groups. It is the base level of normalization."
-  },
-  {
-   "q": "Second Normal Form (2NF) removes:",
-   "a": "Partial dependencies",
-   "w": [
-    "Transitive dependencies",
-    "Multivalued dependencies",
-    "Join dependencies"
-   ],
-   "d": "A",
-   "x": [
-    "Transitive dependencies are removed by 3NF, not by 2NF.",
-    "Multivalued dependencies are removed by 4NF, not by 2NF.",
-    "Join dependencies are addressed by 5NF, not by 2NF."
-   ],
-   "e": "2NF requires that every non-key attribute depend on the whole candidate key, so partial dependencies on part of a composite key are removed."
-  },
-  {
-   "q": "Third Normal Form (3NF) removes:",
-   "a": "Transitive dependencies",
-   "w": [
-    "Partial dependencies",
-    "Repeating groups",
-    "Candidate keys"
-   ],
-   "d": "A",
-   "x": [
-    "Partial dependencies are removed by 2NF, not by 3NF.",
-    "Repeating groups are removed by 1NF, not by 3NF.",
-    "Candidate keys are not removed by normalization, since they identify rows and are kept in the design."
-   ],
-   "e": "3NF requires that non-key attributes depend only on the key and not on other non-key attributes, which removes transitive dependencies."
-  },
-  {
-   "q": "Boyce-Codd Normal Form requires that for every functional dependency X to Y:",
-   "a": "X is a super key",
-   "w": [
-    "Y is a super key",
-    "X is atomic",
-    "Y is a foreign key"
-   ],
-   "d": "D",
-   "x": [
-    "The BCNF condition is on the determinant X, not on Y, so Y being a super key is not the rule.",
-    "Atomicity of X is a First Normal Form requirement, not the BCNF condition on functional dependencies.",
-    "Y being a foreign key is unrelated, since BCNF concerns whether each determinant is a super key."
-   ],
-   "e": "BCNF requires that for every functional dependency X to Y, X is a super key. It is a stricter form of 3NF."
   },
   {
    "q": "Which are the three kinds of anomalies normalization prevents?",
@@ -468,38 +196,6 @@
    "e": "DML (Data Manipulation Language) changes row data with INSERT, UPDATE and DELETE."
   },
   {
-   "q": "Which SQL command group does GRANT and REVOKE belong to?",
-   "a": "DCL",
-   "w": [
-    "DDL",
-    "DML",
-    "TCL"
-   ],
-   "d": "A",
-   "x": [
-    "DDL defines structure with CREATE, ALTER and DROP, not access rights.",
-    "DML manipulates data rows with SELECT, INSERT, UPDATE and DELETE, not permissions.",
-    "TCL controls transactions with COMMIT and ROLLBACK, not user privileges."
-   ],
-   "e": "DCL (Data Control Language) controls access rights, using GRANT and REVOKE."
-  },
-  {
-   "q": "Which SQL command group does COMMIT and ROLLBACK belong to?",
-   "a": "TCL",
-   "w": [
-    "DDL",
-    "DCL",
-    "DQL"
-   ],
-   "d": "A",
-   "x": [
-    "DDL defines database structure such as tables, not transaction completion.",
-    "DCL grants and revokes privileges and does not finalize or undo transactions.",
-    "DQL refers to querying with SELECT and does not control transactions."
-   ],
-   "e": "TCL (Transaction Control Language) manages transactions, using COMMIT and ROLLBACK."
-  },
-  {
    "q": "Which SQL statement retrieves data?",
    "a": "SELECT",
    "w": [
@@ -564,22 +260,6 @@
    "e": "ORDER BY sorts the result set by one or more columns, ascending by default or descending when DESC is given."
   },
   {
-   "q": "Which operator matches a pattern in SQL?",
-   "a": "LIKE",
-   "w": [
-    "MATCH",
-    "SIMILAR",
-    "IN"
-   ],
-   "d": "E",
-   "x": [
-    "MATCH is not the standard pattern-matching operator; in standard SQL it is used for row-value comparisons.",
-    "SIMILAR TO is a less common regex-style pattern predicate, not the basic LIKE operator the question asks about.",
-    "IN tests whether a value appears in a list of values and does not match patterns."
-   ],
-   "e": "LIKE matches text against a pattern using wildcards such as % and _. It is commonly used in WHERE clauses."
-  },
-  {
    "q": "In SQL LIKE, which wildcard represents any number of characters?",
    "a": "%",
    "w": [
@@ -596,22 +276,6 @@
    "e": "The percent sign % matches any sequence of characters, including none, in a LIKE pattern."
   },
   {
-   "q": "In SQL LIKE, which wildcard represents exactly one character?",
-   "a": "_",
-   "w": [
-    "%",
-    "*",
-    "#"
-   ],
-   "d": "A",
-   "x": [
-    "The percent sign matches any number of characters, including none, not exactly one.",
-    "The asterisk is not the standard SQL LIKE single-character wildcard; it is used in MS Access and shell globbing.",
-    "The hash sign is the one-digit wildcard in MS Access, not the standard SQL LIKE wildcard for one character."
-   ],
-   "e": "The underscore _ matches exactly one character in a LIKE pattern."
-  },
-  {
    "q": "How do you test for NULL values correctly?",
    "a": "IS NULL",
    "w": [
@@ -626,54 +290,6 @@
     "EQUALS NULL is not a SQL operator, so this statement would cause a syntax error."
    ],
    "e": "IS NULL is the correct test for NULL, since comparisons with = return unknown rather than true when a value is NULL."
-  },
-  {
-   "q": "Which aggregate function counts all rows including those with NULLs?",
-   "a": "COUNT(*)",
-   "w": [
-    "COUNT(column)",
-    "SUM(*)",
-    "TOTAL()"
-   ],
-   "d": "D",
-   "x": [
-    "COUNT(column) counts only rows where that column is not NULL.",
-    "SUM(*) is not valid standard SQL, since SUM needs a column or expression to add.",
-    "TOTAL() is the SQLite function that sums values and returns a float, and it does not count all rows."
-   ],
-   "e": "COUNT(*) counts all rows in the group, including rows with NULL values, whereas COUNT(column) skips NULLs."
-  },
-  {
-   "q": "Aggregate functions like AVG ignore:",
-   "a": "NULL values",
-   "w": [
-    "Zero values",
-    "Duplicates",
-    "Negative values"
-   ],
-   "d": "A",
-   "x": [
-    "Zero values are included in AVG, since zero is a real number and is counted in the average.",
-    "Duplicates are kept by AVG unless DISTINCT is specified, so they are not ignored by default.",
-    "Negative values are valid numbers and are included in the average calculation."
-   ],
-   "e": "Aggregate functions such as AVG, SUM, MIN, MAX and COUNT(column) ignore NULL values, so NULLs do not affect the result."
-  },
-  {
-   "q": "Employees salaries: 30000, 40000, 50000, 70000 and NULL. What does AVG(salary) return?",
-   "a": "47500",
-   "w": [
-    "38000",
-    "48000",
-    "190000"
-   ],
-   "d": "D",
-   "x": [
-    "38000 is what you get by dividing 190000 by 5, which counts the NULL as zero; AVG ignores NULL, so the divisor is 4.",
-    "48000 does not match the correct calculation.",
-    "190000 is the plain sum of the salaries, not their average."
-   ],
-   "e": "AVG ignores NULL, so it sums the four non-NULL salaries to 190000 and divides by 4, giving 47500. The NULL row does not count toward the divisor."
   },
   {
    "q": "Which JOIN returns only rows with matching values in both tables?",
@@ -708,70 +324,6 @@
    "e": "LEFT JOIN returns every row from the left table and matching rows from the right, filling unmatched right columns with NULL."
   },
   {
-   "q": "Table A has 4 rows and table B has 3 rows. A CROSS JOIN B yields:",
-   "a": "12 rows",
-   "w": [
-    "7 rows",
-    "4 rows",
-    "3 rows"
-   ],
-   "d": "A",
-   "x": [
-    "7 rows would come from adding 4 and 3, which is not how a cross join builds its result.",
-    "4 rows is the row count of table A alone and ignores the rows of table B.",
-    "3 rows is the row count of table B alone and ignores the rows of table A."
-   ],
-   "e": "A CROSS JOIN pairs every row of A with every row of B, so the result has 4 x 3 = 12 rows."
-  },
-  {
-   "q": "Which set operator removes duplicates from combined results?",
-   "a": "UNION",
-   "w": [
-    "UNION ALL",
-    "INTERSECT ALL",
-    "JOIN"
-   ],
-   "d": "A",
-   "x": [
-    "UNION ALL keeps duplicate rows, so it does not remove them.",
-    "INTERSECT ALL returns common rows while keeping duplicates, and it does not combine all results.",
-    "JOIN combines tables by matching column values, not by stacking query results."
-   ],
-   "e": "UNION combines the results of two queries and removes duplicate rows from the combined set. Both queries must return the same number of compatible columns."
-  },
-  {
-   "q": "Which set operator keeps duplicates?",
-   "a": "UNION ALL",
-   "w": [
-    "UNION",
-    "INTERSECT",
-    "EXCEPT"
-   ],
-   "d": "A",
-   "x": [
-    "UNION removes duplicate rows, so it does not keep them.",
-    "INTERSECT returns rows common to both queries and by default removes duplicates.",
-    "EXCEPT returns rows from the first query that are not in the second and by default removes duplicates."
-   ],
-   "e": "UNION ALL combines query results and keeps every row, including duplicates. It is usually faster than UNION because it skips the duplicate-removal step."
-  },
-  {
-   "q": "Which command removes all rows from a table quickly and resets identity, without logging each row?",
-   "a": "TRUNCATE",
-   "w": [
-    "DELETE",
-    "DROP",
-    "REMOVE"
-   ],
-   "d": "D",
-   "x": [
-    "DELETE removes rows one at a time and logs each one, so it is slower and can filter rows with WHERE.",
-    "DROP removes the whole table structure, not only its rows.",
-    "REMOVE is not a standard SQL command for deleting table rows."
-   ],
-   "e": "TRUNCATE empties a table quickly without deleting row by row, keeps the table structure, and in many systems resets identity counters as the question describes."
-  },
-  {
    "q": "Which command removes the table structure itself?",
    "a": "DROP",
    "w": [
@@ -802,38 +354,6 @@
     "DEFAULT supplies a value when none is given and does not prevent duplicate values."
    ],
    "e": "A UNIQUE constraint ensures that no two rows hold the same value in the constrained column or columns. Many DBMSs also use it to build an index."
-  },
-  {
-   "q": "Which data type stores fixed-length strings?",
-   "a": "CHAR",
-   "w": [
-    "VARCHAR",
-    "TEXT",
-    "BLOB"
-   ],
-   "d": "A",
-   "x": [
-    "VARCHAR stores variable-length strings, keeping only the characters entered.",
-    "TEXT stores large variable-length character data and is not fixed length.",
-    "BLOB stores binary large objects such as images, not fixed-length character strings."
-   ],
-   "e": "CHAR stores fixed-length character strings, padding shorter values to the defined length. It suits values that always have the same size, such as country codes."
-  },
-  {
-   "q": "An index primarily:",
-   "a": "Speeds up reads but can slow writes",
-   "w": [
-    "Speeds up writes only",
-    "Encrypts data",
-    "Backs up data"
-   ],
-   "d": "A",
-   "x": [
-    "An index does not speed up writes; it adds overhead to inserts, updates and deletes.",
-    "Encrypting data is a security feature, and indexes are not used for encryption.",
-    "Backing up data is a recovery process, and indexes are not backups."
-   ],
-   "e": "An index is a separate lookup structure that lets the DBMS find rows quickly, so reads get faster. Every insert or update must also maintain the index, which slows writes."
   },
   {
    "q": "A virtual table based on a SELECT query is a:",
@@ -882,6 +402,358 @@
     "Accuracy is a general quality goal and not the formal ACID property."
    ],
    "e": "In ACID, Atomicity means a transaction is all-or-nothing: either every change is applied or none is. This prevents partially completed transactions."
+  },
+  {
+   "q": "Which type of database is MongoDB?",
+   "a": "Document",
+   "w": [
+    "Key-value",
+    "Graph",
+    "Wide-column"
+   ],
+   "d": "E",
+   "x": [
+    "A key-value store maps keys to opaque values, while MongoDB stores JSON-like documents.",
+    "A graph database stores nodes and relationships, which is not MongoDB's data model.",
+    "A wide-column store like Cassandra uses column families, not MongoDB's document model."
+   ],
+   "e": "MongoDB is a document database that stores flexible JSON-like BSON documents in collections. Documents can have nested fields and differing structures."
+  },
+  {
+   "q": "Which database is an in-memory key-value store used for caching?",
+   "a": "Redis",
+   "w": [
+    "MongoDB",
+    "Neo4j",
+    "Cassandra"
+   ],
+   "d": "E",
+   "x": [
+    "MongoDB is a document database, not primarily an in-memory key-value cache.",
+    "Neo4j is a graph database for connected data, not a key-value cache.",
+    "Cassandra is a wide-column distributed store for large-scale writes, not an in-memory cache."
+   ],
+   "e": "Redis is an in-memory data store that holds key-value data and is widely used for caching. It supports structures such as strings, hashes and lists."
+  },
+  {
+   "q": "Which database is a graph database?",
+   "a": "Neo4j",
+   "w": [
+    "Redis",
+    "Cassandra",
+    "MySQL"
+   ],
+   "d": "E",
+   "x": [
+    "Redis is a key-value store, not a graph database.",
+    "Cassandra is a wide-column store, not a graph database.",
+    "MySQL is a relational database that uses tables, not a graph database."
+   ],
+   "e": "Neo4j is a graph database that stores nodes and relationships as first-class data. It suits queries over connected data such as social networks."
+  },
+  {
+   "q": "Which database is embedded, serverless and file-based?",
+   "a": "SQLite",
+   "w": [
+    "MySQL",
+    "Oracle",
+    "PostgreSQL"
+   ],
+   "d": "E",
+   "x": [
+    "MySQL is a client-server database that runs as a separate server process.",
+    "Oracle is a client-server enterprise database, not an embedded file-based library.",
+    "PostgreSQL is a client-server database server, not an embedded file-based engine."
+   ],
+   "e": "SQLite is an embedded, serverless database engine that stores an entire database in a single file. It is widely used in mobile apps and browsers."
+  },
+  {
+   "q": "OLTP stands for:",
+   "a": "Online Transaction Processing",
+   "w": [
+    "Online Transfer Protocol",
+    "Offline Transaction Processing",
+    "Online Table Processing"
+   ],
+   "d": "E",
+   "x": [
+    "Online Transfer Protocol is not the term; OLTP means Online Transaction Processing for day-to-day transactions.",
+    "Offline Transaction Processing is not the term; OLTP refers to online, real-time transactions.",
+    "Online Table Processing is not the term; the transaction part of the name is the core concept."
+   ],
+   "e": "OLTP stands for Online Transaction Processing. It handles many short, concurrent transactions such as sales, bookings and deposits that need fast, consistent updates."
+  },
+  {
+   "q": "OLAP is primarily used for:",
+   "a": "Analysis of large datasets",
+   "w": [
+    "Day-to-day transactions",
+    "File storage",
+    "Network routing"
+   ],
+   "d": "E",
+   "x": [
+    "Day-to-day transactions describe OLTP, which handles short, frequent updates rather than analysis.",
+    "File storage is a separate storage function, not analytical processing.",
+    "Network routing is a networking function and not a database analysis task."
+   ],
+   "e": "OLAP is used for analyzing large datasets, such as trend reports, aggregations and dashboards across many records. It typically uses denormalized or dimensional models."
+  },
+  {
+   "q": "ETL stands for:",
+   "a": "Extract, Transform, Load",
+   "w": [
+    "Evaluate, Test, Launch",
+    "Encrypt, Transfer, Log",
+    "Export, Table, Load"
+   ],
+   "d": "E",
+   "x": [
+    "Evaluate, Test, Launch describes software release steps, not data movement.",
+    "Encrypt, Transfer, Log is not the ETL process, which extracts, transforms and loads data.",
+    "Export, Table, Load is not the standard expansion; the middle step is Transform, not Table."
+   ],
+   "e": "ETL stands for Extract, Transform, Load. Data is pulled from sources, cleaned and reshaped, then loaded into a target such as a data warehouse."
+  },
+  {
+   "q": "Which command in SQL adds a new column to an existing table?",
+   "a": "ALTER TABLE",
+   "w": [
+    "UPDATE TABLE",
+    "MODIFY DATA",
+    "INSERT COLUMN"
+   ],
+   "d": "E",
+   "x": [
+    "UPDATE changes existing row values and is not the statement for adding columns.",
+    "MODIFY DATA is not a standard SQL statement for adding columns.",
+    "INSERT COLUMN is not a standard SQL statement, since INSERT adds rows, not columns."
+   ],
+   "e": "ALTER TABLE changes an existing table's structure. With ADD it adds a new column, and with DROP COLUMN it removes one."
+  },
+  {
+   "q": "SQL SELECT DISTINCT is used to:",
+   "a": "Remove duplicate rows from the result",
+   "w": [
+    "Sort the result",
+    "Count rows",
+    "Join tables"
+   ],
+   "d": "E",
+   "x": [
+    "Sorting is done by ORDER BY, not by DISTINCT.",
+    "Counting rows is done with COUNT, while DISTINCT only removes duplicates.",
+    "Joining tables is done with JOIN clauses, not with DISTINCT."
+   ],
+   "e": "SELECT DISTINCT removes duplicate rows from the result so that each distinct combination of the selected values appears once."
+  },
+  {
+   "q": "Who proposed the Entity-Relationship model in 1976?",
+   "a": "Peter Chen",
+   "w": [
+    "Edgar Codd",
+    "Chris Date",
+    "Larry Ellison"
+   ],
+   "d": "A",
+   "x": [
+    "Edgar Codd proposed the relational model in 1970, not the Entity-Relationship model.",
+    "Chris Date co-authored and popularized relational theory and SQL concepts, but did not propose the ER model.",
+    "Larry Ellison co-founded Oracle Corporation, which is a company rather than the author of the ER model."
+   ],
+   "e": "Peter Chen introduced the Entity-Relationship model in 1976 as a conceptual design method using entities, attributes and relationships. ER diagrams are still widely used in database design."
+  },
+  {
+   "q": "Which key is a minimal set of attributes that uniquely identifies a row?",
+   "a": "Candidate key",
+   "w": [
+    "Super key",
+    "Foreign key",
+    "Composite key"
+   ],
+   "d": "A",
+   "x": [
+    "A super key uniquely identifies rows but may contain extra attributes, so it is not minimal.",
+    "A foreign key references the primary key of another table, not a minimal unique identifier within its own table.",
+    "A composite key is a key made of two or more columns, which does not by itself mean it is minimal."
+   ],
+   "e": "A candidate key is a minimal set of attributes that uniquely identifies each row. Minimal means no attribute can be removed without losing uniqueness."
+  },
+  {
+   "q": "Which key uniquely identifies each row and cannot be NULL?",
+   "a": "Primary key",
+   "w": [
+    "Foreign key",
+    "Alternate key",
+    "Unique key"
+   ],
+   "d": "A",
+   "x": [
+    "A foreign key links to a primary key in another table and does not identify the row in its own table.",
+    "An alternate key is a candidate key that was not chosen as the primary key, so it is not the designated main identifier.",
+    "A unique key enforces uniqueness but in many DBMSs allows NULL, so it does not guarantee non-null values."
+   ],
+   "e": "A primary key uniquely identifies each row and cannot be NULL. Each table has one primary key, chosen from its candidate keys."
+  },
+  {
+   "q": "Referential integrity requires that:",
+   "a": "Foreign key values match an existing primary key or are NULL",
+   "w": [
+    "Primary keys are unique",
+    "Columns are atomic",
+    "Tables are normalized"
+   ],
+   "d": "A",
+   "x": [
+    "Primary keys being unique is the entity integrity rule, which is separate from referential integrity.",
+    "Atomic columns relate to First Normal Form, which concerns single values per column, not links between tables.",
+    "Normalized tables relate to database design quality and reduced redundancy, not to the foreign key rule."
+   ],
+   "e": "Referential integrity requires that every non-NULL foreign key value matches an existing primary key in the referenced table, so no dangling references exist."
+  },
+  {
+   "q": "A many-to-many relationship is implemented in the relational model with:",
+   "a": "A junction (associative) table",
+   "w": [
+    "A single foreign key",
+    "A view",
+    "A trigger"
+   ],
+   "d": "A",
+   "x": [
+    "A single foreign key links one table to another in one direction and cannot represent many-to-many links by itself.",
+    "A view is a saved query shown as a virtual table, not a structure that stores the links between entities.",
+    "A trigger runs code automatically on data changes and is not a way to model the relationship structure."
+   ],
+   "e": "A many-to-many relationship is implemented with a junction table, also called an associative or bridge table. It holds a pair of foreign keys, one for each related table."
+  },
+  {
+   "q": "First Normal Form (1NF) requires:",
+   "a": "Atomic values with no repeating groups",
+   "w": [
+    "No partial dependencies",
+    "No transitive dependencies",
+    "Every determinant is a super key"
+   ],
+   "d": "A",
+   "x": [
+    "No partial dependencies is the requirement for 2NF, not for 1NF.",
+    "No transitive dependencies is the requirement for 3NF, not for 1NF.",
+    "Every determinant being a super key is the BCNF condition, not the 1NF condition."
+   ],
+   "e": "1NF requires that every column holds atomic values and that there are no repeating groups. It is the base level of normalization."
+  },
+  {
+   "q": "Second Normal Form (2NF) removes:",
+   "a": "Partial dependencies",
+   "w": [
+    "Transitive dependencies",
+    "Multivalued dependencies",
+    "Join dependencies"
+   ],
+   "d": "A",
+   "x": [
+    "Transitive dependencies are removed by 3NF, not by 2NF.",
+    "Multivalued dependencies are removed by 4NF, not by 2NF.",
+    "Join dependencies are addressed by 5NF, not by 2NF."
+   ],
+   "e": "2NF requires that every non-key attribute depend on the whole candidate key, so partial dependencies on part of a composite key are removed."
+  },
+  {
+   "q": "Third Normal Form (3NF) removes:",
+   "a": "Transitive dependencies",
+   "w": [
+    "Partial dependencies",
+    "Repeating groups",
+    "Candidate keys"
+   ],
+   "d": "A",
+   "x": [
+    "Partial dependencies are removed by 2NF, not by 3NF.",
+    "Repeating groups are removed by 1NF, not by 3NF.",
+    "Candidate keys are not removed by normalization, since they identify rows and are kept in the design."
+   ],
+   "e": "3NF requires that non-key attributes depend only on the key and not on other non-key attributes, which removes transitive dependencies."
+  },
+  {
+   "q": "Which SQL command group does GRANT and REVOKE belong to?",
+   "a": "DCL",
+   "w": [
+    "DDL",
+    "DML",
+    "TCL"
+   ],
+   "d": "A",
+   "x": [
+    "DDL defines structure with CREATE, ALTER and DROP, not access rights.",
+    "DML manipulates data rows with SELECT, INSERT, UPDATE and DELETE, not permissions.",
+    "TCL controls transactions with COMMIT and ROLLBACK, not user privileges."
+   ],
+   "e": "DCL (Data Control Language) controls access rights, using GRANT and REVOKE."
+  },
+  {
+   "q": "Which SQL command group does COMMIT and ROLLBACK belong to?",
+   "a": "TCL",
+   "w": [
+    "DDL",
+    "DCL",
+    "DQL"
+   ],
+   "d": "A",
+   "x": [
+    "DDL defines database structure such as tables, not transaction completion.",
+    "DCL grants and revokes privileges and does not finalize or undo transactions.",
+    "DQL refers to querying with SELECT and does not control transactions."
+   ],
+   "e": "TCL (Transaction Control Language) manages transactions, using COMMIT and ROLLBACK."
+  },
+  {
+   "q": "Which set operator removes duplicates from combined results?",
+   "a": "UNION",
+   "w": [
+    "UNION ALL",
+    "INTERSECT ALL",
+    "JOIN"
+   ],
+   "d": "A",
+   "x": [
+    "UNION ALL keeps duplicate rows, so it does not remove them.",
+    "INTERSECT ALL returns common rows while keeping duplicates, and it does not combine all results.",
+    "JOIN combines tables by matching column values, not by stacking query results."
+   ],
+   "e": "UNION combines the results of two queries and removes duplicate rows from the combined set. Both queries must return the same number of compatible columns."
+  },
+  {
+   "q": "Which command removes all rows from a table quickly and resets identity, without logging each row?",
+   "a": "TRUNCATE",
+   "w": [
+    "DELETE",
+    "DROP",
+    "REMOVE"
+   ],
+   "d": "A",
+   "x": [
+    "DELETE removes rows one at a time and logs each one, so it is slower and can filter rows with WHERE.",
+    "DROP removes the whole table structure, not only its rows.",
+    "REMOVE is not a standard SQL command for deleting table rows."
+   ],
+   "e": "TRUNCATE empties a table quickly without deleting row by row, keeps the table structure, and in many systems resets identity counters as the question describes."
+  },
+  {
+   "q": "An index primarily:",
+   "a": "Speeds up reads but can slow writes",
+   "w": [
+    "Speeds up writes only",
+    "Encrypts data",
+    "Backs up data"
+   ],
+   "d": "A",
+   "x": [
+    "An index does not speed up writes; it adds overhead to inserts, updates and deletes.",
+    "Encrypting data is a security feature, and indexes are not used for encryption.",
+    "Backing up data is a recovery process, and indexes are not backups."
+   ],
+   "e": "An index is a separate lookup structure that lets the DBMS find rows quickly, so reads get faster. Every insert or update must also maintain the index, which slows writes."
   },
   {
    "q": "In ACID, \"Isolation\" means:",
@@ -964,102 +836,6 @@
    "e": "CAP says a distributed system can guarantee at most two of consistency, availability and partition tolerance. Since network partitions happen, the practical choice during a partition is consistency or availability."
   },
   {
-   "q": "Which type of database is MongoDB?",
-   "a": "Document",
-   "w": [
-    "Key-value",
-    "Graph",
-    "Wide-column"
-   ],
-   "d": "E",
-   "x": [
-    "A key-value store maps keys to opaque values, while MongoDB stores JSON-like documents.",
-    "A graph database stores nodes and relationships, which is not MongoDB's data model.",
-    "A wide-column store like Cassandra uses column families, not MongoDB's document model."
-   ],
-   "e": "MongoDB is a document database that stores flexible JSON-like BSON documents in collections. Documents can have nested fields and differing structures."
-  },
-  {
-   "q": "Which database is an in-memory key-value store used for caching?",
-   "a": "Redis",
-   "w": [
-    "MongoDB",
-    "Neo4j",
-    "Cassandra"
-   ],
-   "d": "E",
-   "x": [
-    "MongoDB is a document database, not primarily an in-memory key-value cache.",
-    "Neo4j is a graph database for connected data, not a key-value cache.",
-    "Cassandra is a wide-column distributed store for large-scale writes, not an in-memory cache."
-   ],
-   "e": "Redis is an in-memory data store that holds key-value data and is widely used for caching. It supports structures such as strings, hashes and lists."
-  },
-  {
-   "q": "Which database is a graph database?",
-   "a": "Neo4j",
-   "w": [
-    "Redis",
-    "Cassandra",
-    "MySQL"
-   ],
-   "d": "E",
-   "x": [
-    "Redis is a key-value store, not a graph database.",
-    "Cassandra is a wide-column store, not a graph database.",
-    "MySQL is a relational database that uses tables, not a graph database."
-   ],
-   "e": "Neo4j is a graph database that stores nodes and relationships as first-class data. It suits queries over connected data such as social networks."
-  },
-  {
-   "q": "Which database is a wide-column store?",
-   "a": "Cassandra",
-   "w": [
-    "Redis",
-    "Neo4j",
-    "MongoDB"
-   ],
-   "d": "A",
-   "x": [
-    "Redis is an in-memory key-value store, not a wide-column store.",
-    "Neo4j is a graph database for nodes and relationships, not a wide-column store.",
-    "MongoDB is a document store, not a wide-column store."
-   ],
-   "e": "Cassandra is a wide-column NoSQL database that distributes data across nodes. It is designed for high write throughput and very large datasets."
-  },
-  {
-   "q": "Which database is embedded, serverless and file-based?",
-   "a": "SQLite",
-   "w": [
-    "MySQL",
-    "Oracle",
-    "PostgreSQL"
-   ],
-   "d": "E",
-   "x": [
-    "MySQL is a client-server database that runs as a separate server process.",
-    "Oracle is a client-server enterprise database, not an embedded file-based library.",
-    "PostgreSQL is a client-server database server, not an embedded file-based engine."
-   ],
-   "e": "SQLite is an embedded, serverless database engine that stores an entire database in a single file. It is widely used in mobile apps and browsers."
-  },
-  {
-   "q": "MariaDB is a fork of:",
-   "a": "MySQL",
-   "w": [
-    "PostgreSQL",
-    "Oracle",
-    "SQLite"
-   ],
-   "d": "A",
-   "x": [
-    "PostgreSQL is a separate database project and is not the origin of MariaDB.",
-    "Oracle is a proprietary database and is not the origin of MariaDB.",
-    "SQLite is an embedded database and is not the origin of MariaDB."
-   ],
-   "e": "MariaDB is a community-developed fork of MySQL, started by former MySQL developers. It remains largely compatible with MySQL."
-  },
-  {
    "q": "Which database system is known for T-SQL?",
    "a": "Microsoft SQL Server",
    "w": [
@@ -1092,38 +868,6 @@
    "e": "PL/SQL is Oracle's procedural extension to SQL, used for stored procedures, functions, packages and triggers."
   },
   {
-   "q": "OLTP stands for:",
-   "a": "Online Transaction Processing",
-   "w": [
-    "Online Transfer Protocol",
-    "Offline Transaction Processing",
-    "Online Table Processing"
-   ],
-   "d": "E",
-   "x": [
-    "Online Transfer Protocol is not the term; OLTP means Online Transaction Processing for day-to-day transactions.",
-    "Offline Transaction Processing is not the term; OLTP refers to online, real-time transactions.",
-    "Online Table Processing is not the term; the transaction part of the name is the core concept."
-   ],
-   "e": "OLTP stands for Online Transaction Processing. It handles many short, concurrent transactions such as sales, bookings and deposits that need fast, consistent updates."
-  },
-  {
-   "q": "OLAP is primarily used for:",
-   "a": "Analysis of large datasets",
-   "w": [
-    "Day-to-day transactions",
-    "File storage",
-    "Network routing"
-   ],
-   "d": "E",
-   "x": [
-    "Day-to-day transactions describe OLTP, which handles short, frequent updates rather than analysis.",
-    "File storage is a separate storage function, not analytical processing.",
-    "Network routing is a networking function and not a database analysis task."
-   ],
-   "e": "OLAP is used for analyzing large datasets, such as trend reports, aggregations and dashboards across many records. It typically uses denormalized or dimensional models."
-  },
-  {
    "q": "In a star schema, the central table is the:",
    "a": "Fact table",
    "w": [
@@ -1140,22 +884,6 @@
    "e": "In a star schema, the fact table sits at the center and stores measures such as sales amounts, with foreign keys to the surrounding dimension tables."
   },
   {
-   "q": "ETL stands for:",
-   "a": "Extract, Transform, Load",
-   "w": [
-    "Evaluate, Test, Launch",
-    "Encrypt, Transfer, Log",
-    "Export, Table, Load"
-   ],
-   "d": "E",
-   "x": [
-    "Evaluate, Test, Launch describes software release steps, not data movement.",
-    "Encrypt, Transfer, Log is not the ETL process, which extracts, transforms and loads data.",
-    "Export, Table, Load is not the standard expansion; the middle step is Transform, not Table."
-   ],
-   "e": "ETL stands for Extract, Transform, Load. Data is pulled from sources, cleaned and reshaped, then loaded into a target such as a data warehouse."
-  },
-  {
    "q": "Which Philippine law governs personal data in databases?",
    "a": "Data Privacy Act of 2012 (RA 10173)",
    "w": [
@@ -1163,7 +891,7 @@
     "E-Commerce Act (RA 8792)",
     "Anti-Wiretapping Act"
    ],
-   "d": "D",
+   "d": "A",
    "x": [
     "RA 10175 criminalizes cybercrime offenses, but it is not the law that governs personal data handling.",
     "RA 8792 is the Electronic Commerce Act, which covers electronic transactions and not personal data privacy.",
@@ -1172,579 +900,67 @@
    "e": "The Data Privacy Act of 2012 (RA 10173) protects personal information and regulates how organizations collect, process and store personal data, including in databases."
   },
   {
-   "q": "Who is considered the father of the data warehouse?",
-   "a": "Bill Inmon",
+   "q": "SQL stands for:",
+   "a": "Structured Query Language",
    "w": [
-    "Ralph Kimball",
-    "Edgar Codd",
-    "Jim Gray"
-   ],
-   "d": "A",
-   "x": [
-    "Ralph Kimball promoted the dimensional, bottom-up approach to data warehouses, not the top-down enterprise warehouse concept.",
-    "Edgar Codd proposed the relational model and is not credited with the data warehouse concept.",
-    "Jim Gray is known for transaction processing research, not for founding data warehousing."
-   ],
-   "e": "Bill Inmon is widely called the father of the data warehouse. He defined it as a subject-oriented, integrated, time-variant and non-volatile collection of data for management decisions."
-  },
-  {
-   "q": "The fact table in a star schema contains:",
-   "a": "Measures and foreign keys to dimensions",
-   "w": [
-    "Only descriptive text",
-    "Only primary keys",
-    "User credentials"
-   ],
-   "d": "A",
-   "x": [
-    "Only descriptive text describes dimension tables, which hold attributes rather than measures.",
-    "Only primary keys is incomplete, since fact tables also hold measures and foreign keys to dimensions.",
-    "User credentials are security data that do not belong in a star schema fact table."
-   ],
-   "e": "The fact table holds numeric measures such as quantity or revenue, plus foreign keys linking to dimension tables. Each row records a business event at a defined grain."
-  },
-  {
-   "q": "Which command in SQL adds a new column to an existing table?",
-   "a": "ALTER TABLE",
-   "w": [
-    "UPDATE TABLE",
-    "MODIFY DATA",
-    "INSERT COLUMN"
+    "Standard Query Logic",
+    "Sequential Query Language",
+    "Simple Question Language"
    ],
    "d": "E",
+   "e": "SQL is the Structured Query Language used to manage relational databases.",
    "x": [
-    "UPDATE changes existing row values and is not the statement for adding columns.",
-    "MODIFY DATA is not a standard SQL statement for adding columns.",
-    "INSERT COLUMN is not a standard SQL statement, since INSERT adds rows, not columns."
-   ],
-   "e": "ALTER TABLE changes an existing table's structure. With ADD it adds a new column, and with DROP COLUMN it removes one."
+    "Not the expansion of SQL.",
+    "Not the expansion of SQL.",
+    "Not the expansion of SQL."
+   ]
   },
   {
-   "q": "Which SQL statement correctly selects names starting with A?",
-   "a": "SELECT name FROM t WHERE name LIKE 'A%'",
+   "q": "In an ER diagram, an ellipse (oval) represents an:",
+   "a": "Attribute",
    "w": [
-    "SELECT name FROM t WHERE name = 'A*'",
-    "SELECT name FROM t WHERE name STARTS 'A'",
-    "SELECT name FROM t HAVING name LIKE 'A%'"
-   ],
-   "d": "A",
-   "x": [
-    "This compares names to the literal text A* with equals, so it does not match names beginning with A.",
-    "STARTS is not valid SQL syntax, so this statement would fail.",
-    "HAVING is meant for groups after aggregation, so using it for a row condition is the wrong clause; WHERE is correct."
-   ],
-   "e": "The LIKE operator with the pattern A% matches any value beginning with A, since % stands for any number of characters. WHERE filters individual rows as required."
-  },
-  {
-   "q": "SQL SELECT DISTINCT is used to:",
-   "a": "Remove duplicate rows from the result",
-   "w": [
-    "Sort the result",
-    "Count rows",
-    "Join tables"
+    "Entity",
+    "Relationship",
+    "Cardinality"
    ],
    "d": "E",
+   "e": "Ellipses show attributes of an entity.",
    "x": [
-    "Sorting is done by ORDER BY, not by DISTINCT.",
-    "Counting rows is done with COUNT, while DISTINCT only removes duplicates.",
-    "Joining tables is done with JOIN clauses, not with DISTINCT."
-   ],
-   "e": "SELECT DISTINCT removes duplicate rows from the result so that each distinct combination of the selected values appears once."
+    "Entities are drawn as rectangles.",
+    "Relationships are drawn as diamonds.",
+    "Cardinality is shown by notation on the connecting lines."
+   ]
   },
   {
-   "q": "Which function returns the number of rows in a table?",
-   "a": "COUNT(*)",
+   "q": "Which SQL statement creates a new table?",
+   "a": "CREATE TABLE",
    "w": [
-    "SUM(*)",
-    "ROWS()",
-    "LEN(*)"
+    "ALTER TABLE",
+    "INSERT TABLE",
+    "ADD TABLE"
    ],
    "d": "E",
+   "e": "CREATE TABLE defines a new table in the database.",
    "x": [
-    "SUM(*) is invalid in standard SQL, because SUM needs a numeric column or expression.",
-    "ROWS() is not a standard SQL aggregate function for counting rows.",
-    "LEN(*) is not a valid row count function; LEN returns the length of a string in some dialects."
-   ],
-   "e": "COUNT(*) returns the number of rows in a table or result, including rows where some columns are NULL."
-  },
-  {
-   "q": "Employees: (Ann, Sales, 30000) (Ben, Sales, 40000) (Cy, IT, 50000) (Di, IT, 70000) (Ed, HR, NULL). What does SELECT dept FROM Employees GROUP BY dept HAVING AVG(salary) > 45000 return?",
-   "a": "IT only",
-   "w": [
-    "Sales and IT",
-    "IT and HR",
-    "Sales, IT and HR"
-   ],
-   "d": "D",
-   "e": "Sales averages 35000 and IT averages 60000, so only IT passes. HR's AVG is NULL, so the comparison is unknown and the group is dropped.",
-   "x": [
-    "Sales and IT would require the Sales average to exceed 45000, but Sales averages 35000 here.",
-    "IT and HR would include HR, whose AVG is NULL, so the comparison is unknown and HR is dropped.",
-    "Sales, IT and HR would include Sales and HR, which do not pass because their averages are 35000 and NULL."
+    "ALTER TABLE changes the structure of an existing table.",
+    "INSERT adds rows to a table; INSERT TABLE is not a valid statement.",
+    "ADD TABLE is not a valid SQL statement."
    ]
   },
   {
-   "q": "Employees salaries: 30000, 40000, 50000, 70000 and NULL (5 rows). How many rows does SELECT * FROM Employees WHERE salary <> 40000 return?",
-   "a": "3",
+   "q": "Which SQL statement modifies existing rows in a table?",
+   "a": "UPDATE",
    "w": [
-    "4",
-    "5",
-    "2"
+    "ALTER",
+    "INSERT",
+    "SELECT"
    ],
-   "d": "D",
-   "e": "Only 30000, 50000 and 70000 satisfy the condition. The NULL row evaluates to unknown, not true, so it is excluded.",
+   "d": "E",
+   "e": "UPDATE changes values in existing rows.",
    "x": [
-    "4 rows would wrongly include the NULL row, which evaluates to unknown and is excluded.",
-    "5 rows would count every row, including the 40000 row that fails the condition.",
-    "2 rows would miss one of the three qualifying salaries, so it does not match the correct filter result."
-   ]
-  },
-  {
-   "q": "Table A has ids (1,2,3) and table B has ids (2,3,4). Which A ids does SELECT A.id FROM A LEFT JOIN B ON A.id = B.id WHERE B.id IS NULL return?",
-   "a": "1",
-   "w": [
-    "4",
-    "2 and 3",
-    "1 and 4"
-   ],
-   "d": "D",
-   "e": "The LEFT JOIN keeps all of A and fills B.id with NULL when no match exists; only id 1 has no match. Id 4 exists only in B and is never returned by a LEFT JOIN.",
-   "x": [
-    "4 exists only in table B, so a LEFT JOIN from A never returns it.",
-    "2 and 3 match rows in B, so the IS NULL filter removes them.",
-    "1 and 4 includes 4, which exists only in B and is never returned from A in a LEFT JOIN."
-   ]
-  },
-  {
-   "q": "Query 1 returns the values 1, 2, 2, 3 and query 2 returns 2, 3, 3, 4. How many rows does Query 1 UNION ALL Query 2 return?",
-   "a": "8",
-   "w": [
-    "4",
-    "6",
-    "7"
-   ],
-   "d": "D",
-   "e": "UNION ALL keeps every row: 4 + 4 = 8. Plain UNION would remove duplicates and return the 4 distinct values 1, 2, 3, 4.",
-   "x": [
-    "4 is the count for plain UNION after removing duplicates, not for UNION ALL.",
-    "6 does not match the total number of rows from both queries, which is 4 plus 4.",
-    "7 does not match the total row count; the correct sum is 4 plus 4 rows."
-   ]
-  },
-  {
-   "q": "In relational algebra, a relation has 5 tuples whose dept values are Sales, Sales, IT, IT, HR. How many tuples does projecting onto dept return?",
-   "a": "3",
-   "w": [
-    "5",
-    "2",
-    "4"
-   ],
-   "d": "D",
-   "e": "A relation is a set, so projection (pi) eliminates duplicate tuples, leaving Sales, IT and HR. SQL's SELECT without DISTINCT would keep 5 rows.",
-   "x": [
-    "5 keeps all original rows, which is what SQL SELECT without DISTINCT does, not relational projection.",
-    "2 would count only Sales and IT, leaving out HR, which is a distinct value.",
-    "4 does not match the distinct values, which are Sales, IT and HR."
-   ]
-  },
-  {
-   "q": "A query such as 'find students enrolled in ALL courses' is expressed in relational algebra with which operator?",
-   "a": "Division",
-   "w": [
-    "Natural join",
-    "Intersection",
-    "Rename"
-   ],
-   "d": "D",
-   "e": "Division (÷) answers 'for all' queries by returning tuples related to every value in the divisor. A join only matches rows and does not test for coverage of a whole set.",
-   "x": [
-    "Natural join matches rows on common attributes, but it does not test that a tuple is related to every divisor value.",
-    "Intersection returns tuples common to both relations, not tuples related to every value in a set.",
-    "Rename changes attribute or relation names and does not compute coverage of a set."
-   ]
-  },
-  {
-   "q": "Relation R(A, B, C) has A as its only candidate key. How many super keys does R have?",
-   "a": "4",
-   "w": [
-    "3",
-    "7",
-    "1"
-   ],
-   "d": "D",
-   "e": "Every super key must contain A: A, AB, AC and ABC, giving 2 x 2 = 4. The 7 would count all non-empty attribute subsets, most of which do not determine the row.",
-   "x": [
-    "3 does not match the count of attribute sets containing A, which is 4.",
-    "7 counts every non-empty attribute subset, including BC, B and C, which do not determine all rows.",
-    "1 would count only the key A, but B and C can be added to A and still form super keys."
-   ]
-  },
-  {
-   "q": "Which is NOT one of Armstrong's three axioms for functional dependencies?",
-   "a": "Decomposition",
-   "w": [
-    "Reflexivity",
-    "Augmentation",
-    "Transitivity"
-   ],
-   "d": "D",
-   "e": "Armstrong's axioms are reflexivity, augmentation and transitivity. Decomposition (X -> YZ implies X -> Y) is a rule derived from them.",
-   "x": [
-    "Reflexivity is one of Armstrong's axioms, so it belongs in the set and does not answer the NOT question.",
-    "Augmentation is one of Armstrong's axioms, so it belongs in the set and does not answer the NOT question.",
-    "Transitivity is one of Armstrong's axioms, so it belongs in the set and does not answer the NOT question."
-   ]
-  },
-  {
-   "q": "Given FDs A -> B, B -> C and CD -> E on R(A, B, C, D, E), what is the closure A+?",
-   "a": "{A, B, C}",
-   "w": [
-    "{A, B}",
-    "{A, B, C, E}",
-    "{A, B, C, D, E}"
-   ],
-   "d": "D",
-   "e": "A gives B, and B gives C, but CD -> E needs D, which is not in the closure. So E is not reached and A+ = {A, B, C}.",
-   "x": [
-    "{A, B} stops before C, but A gives B and B gives C, so C must be included in the closure.",
-    "{A, B, C, E} wrongly includes E, since CD -> E requires D, which is not in the closure.",
-    "{A, B, C, D, E} wrongly includes D and E, since D is never derived from A, B or C."
-   ]
-  },
-  {
-   "q": "R(StudentID, CourseID, StudentName, Grade) has key (StudentID, CourseID) and the FD StudentID -> StudentName. Assuming atomic values, what is the highest normal form R satisfies?",
-   "a": "1NF",
-   "w": [
-    "2NF",
-    "3NF",
-    "BCNF"
-   ],
-   "d": "D",
-   "e": "StudentName depends on only part of the composite key, a partial dependency, which violates 2NF. The relation is therefore only in 1NF.",
-   "x": [
-    "2NF is not satisfied because StudentName depends on only part of the composite key, StudentID, which is a partial dependency.",
-    "3NF is not reached because the relation already fails 2NF, which is a more basic requirement.",
-    "BCNF is stricter still and is violated by the partial dependency, so R is not in BCNF."
-   ]
-  },
-  {
-   "q": "R(EmpID, DeptID, DeptName) has key EmpID and the FD DeptID -> DeptName. What is the highest normal form R satisfies?",
-   "a": "2NF",
-   "w": [
-    "1NF",
-    "3NF",
-    "BCNF"
-   ],
-   "d": "D",
-   "e": "The key is a single attribute so no partial dependency is possible (2NF holds). DeptName depends on EmpID only through DeptID, a transitive dependency that violates 3NF.",
-   "x": [
-    "1NF understates the result, since R satisfies 2NF because its key is a single attribute and so has no partial dependency.",
-    "3NF is not satisfied because DeptName depends on EmpID through DeptID, which is a transitive dependency.",
-    "BCNF is not satisfied because DeptID is not a super key but determines DeptName."
-   ]
-  },
-  {
-   "q": "A relation is in 3NF but not in BCNF. For the violating FD X -> Y, X is not a super key, so Y must be:",
-   "a": "A prime attribute (part of a candidate key)",
-   "w": [
-    "A non-prime attribute",
-    "A foreign key",
-    "A multivalued attribute"
-   ],
-   "d": "A",
-   "e": "3NF allows X -> Y if X is a super key or Y is prime; BCNF drops the prime-attribute exception. A non-prime Y would violate 3NF itself.",
-   "x": [
-    "An attribute outside every candidate key. A non-prime Y would itself break 3NF, so it does not fit this question.",
-    "A column referencing another table's primary key, used to link tables. It is not the dependency target that a normal form violation produces.",
-    "An attribute holding several values per row, handled by 4NF rather than 3NF or BCNF. It does not describe the target of a functional dependency violation."
-   ]
-  },
-  {
-   "q": "Which is the weakest SQL isolation level that prevents dirty reads?",
-   "a": "READ COMMITTED",
-   "w": [
-    "READ UNCOMMITTED",
-    "REPEATABLE READ",
-    "SERIALIZABLE"
-   ],
-   "d": "D",
-   "e": "Levels from weakest to strongest are READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE. READ COMMITTED is the first that stops reads of uncommitted data.",
-   "x": [
-    "The weakest level, which allows reads of uncommitted data. It does not prevent dirty reads, so it is not the answer.",
-    "A stronger level that keeps re-read rows stable within a transaction. It sits above READ COMMITTED, so it is not the weakest level that prevents dirty reads.",
-    "The strongest level, making concurrent transactions behave as if run one at a time. It prevents dirty reads too but is stronger than needed."
-   ]
-  },
-  {
-   "q": "Two transactions read the same balance, each computes a new value and writes it back, so one write silently overwrites the other. This problem is a:",
-   "a": "Lost update",
-   "w": [
-    "Dirty read",
-    "Phantom read",
-    "Non-repeatable read"
-   ],
-   "d": "A",
-   "e": "A lost update is a write-write overwrite. A dirty read is reading uncommitted data; a phantom read is extra rows appearing in a repeated range query.",
-   "x": [
-    "Reading another transaction's uncommitted data. The scenario describes two writes overwriting each other, not reading uncommitted values.",
-    "Extra rows appearing in a repeated range query because of inserts. The scenario concerns overwritten updates to one balance, not new rows.",
-    "Re-reading the same row gives a different value because another transaction changed it. The problem here is an overwritten write, not a changed read."
-   ]
-  },
-  {
-   "q": "In two-phase locking, once a transaction has released its first lock it:",
-   "a": "Cannot acquire any new locks",
-   "w": [
-    "Must commit immediately",
-    "Must release all other locks at once",
-    "Can only acquire shared locks"
-   ],
-   "d": "D",
-   "e": "2PL has a growing phase (acquire only) followed by a shrinking phase (release only). The first release marks the start of shrinking, after which no new lock may be taken.",
-   "x": [
-    "Commit is not required by 2PL itself. The transaction may still be running in the shrinking phase, so committing is not the rule.",
-    "2PL releases locks gradually during the shrinking phase, not all at once. A mass release describes a different rule.",
-    "After the first release, no new lock of any type is allowed, not just exclusive ones. Restricting to shared locks is not part of 2PL."
-   ]
-  },
-  {
-   "q": "A deadlock is detected when the wait-for graph contains a:",
-   "a": "Cycle",
-   "w": [
-    "Node with two incoming edges",
-    "Node with two outgoing edges",
-    "Path of more than two edges"
-   ],
-   "d": "D",
-   "e": "A cycle means each transaction in it waits for another in the same loop, so none can proceed. The DBMS then rolls back a victim transaction.",
-   "x": [
-    "Several transactions waiting on one transaction is not circular by itself. Without a loop back, the waiting does not form a deadlock.",
-    "One transaction waiting on several others is not a deadlock by itself. A deadlock needs the waits to loop back into a cycle.",
-    "A long chain of waits can end at a free resource and resolve. A deadlock requires the waits to loop back on themselves."
-   ]
-  },
-  {
-   "q": "Scores 90, 80, 80, 70 are ranked in descending order. What are RANK() and DENSE_RANK() for the score 70?",
-   "a": "4 and 3",
-   "w": [
-    "3 and 4",
-    "3 and 3",
-    "4 and 4"
-   ],
-   "d": "D",
-   "e": "RANK leaves a gap after the tie (1, 2, 2, 4) while DENSE_RANK does not (1, 2, 2, 3).",
-   "x": [
-    "The two values are swapped. For score 70, RANK gives 4 and DENSE_RANK gives 3, not the reverse.",
-    "RANK is wrong here. The tied 80s push RANK for score 70 to 4, so 3 does not match, though DENSE_RANK of 3 is correct.",
-    "DENSE_RANK is wrong here. It leaves no gaps, so score 70 gets 3, not 4, though RANK of 4 is correct."
-   ]
-  },
-  {
-   "q": "What is the logical (processing) order of these clauses?",
-   "a": "WHERE, GROUP BY, HAVING, SELECT",
-   "w": [
-    "SELECT, WHERE, GROUP BY, HAVING",
-    "GROUP BY, WHERE, HAVING, SELECT",
-    "WHERE, HAVING, GROUP BY, SELECT"
-   ],
-   "d": "D",
-   "e": "Rows are filtered by WHERE, then grouped, then groups are filtered by HAVING, and SELECT is evaluated afterwards. The first option is the written order, not the execution order.",
-   "x": [
-    "The order the clauses are written in, not the order they are processed. SELECT is evaluated after filtering and grouping.",
-    "Grouping happens after WHERE filters rows, so GROUP BY cannot run first. SELECT is evaluated last, not second.",
-    "HAVING filters groups, so it can only run after GROUP BY forms them. It cannot come before grouping."
-   ]
-  },
-  {
-   "q": "Employees salaries: 30000, 40000, 50000, 70000 and NULL (5 rows). How many rows does WHERE NOT (salary > 35000) return?",
-   "a": "1",
-   "w": [
-    "2",
-    "4",
-    "5"
-   ],
-   "d": "D",
-   "e": "Only 30000 makes the inner condition false so NOT makes it true. For the NULL row, NOT unknown is still unknown, so it is excluded.",
-   "x": [
-    "Counts 30000 and wrongly includes the NULL row. The result of NOT (salary > 35000) for a NULL salary is unknown, and WHERE excludes it.",
-    "Counts all non-NULL salaries and ignores the condition. Does not match the correct calculation; only 30000 satisfies NOT (salary > 35000).",
-    "Counts every row, including the NULL salary. The NULL row evaluates to unknown, so WHERE does not keep it."
-   ]
-  },
-  {
-   "q": "Which statement is true of DELETE but not of TRUNCATE?",
-   "a": "It can use a WHERE clause to remove selected rows",
-   "w": [
-    "It is classified as DDL",
-    "It resets the identity counter",
-    "It removes the table structure"
-   ],
-   "d": "D",
-   "e": "DELETE is DML, works row by row with WHERE and can be rolled back. TRUNCATE is DDL and removes all rows at once, while only DROP removes the structure.",
-   "x": [
-    "DELETE is classified as DML, while TRUNCATE is DDL. So this describes TRUNCATE, not DELETE.",
-    "Resetting the identity counter is typically a TRUNCATE behavior, not a DELETE behavior. It describes the wrong statement for this question.",
-    "Only DROP removes the table definition. Neither DELETE nor TRUNCATE removes the structure, so this is not a difference between them."
-   ]
-  },
-  {
-   "q": "During a network partition, a distributed store refuses requests rather than risk returning stale data. Under the CAP theorem it has sacrificed:",
-   "a": "Availability",
-   "w": [
-    "Consistency",
-    "Partition tolerance",
-    "Durability"
-   ],
-   "d": "D",
-   "e": "Refusing to answer keeps data consistent (a CP choice) but gives up availability. Durability is not one of the CAP properties.",
-   "x": [
-    "The property the system keeps by refusing stale reads. It is preserved during the partition, not given up, so it is not the sacrifice.",
-    "The system keeps operating despite network splits, which is a design goal here. It is not given up, so it is not the answer.",
-    "Durability is an ACID property, not one of the CAP properties. The CAP theorem does not include it."
-   ]
-  },
-  {
-   "q": "In an ER diagram, a weak entity is drawn as a double rectangle and tied to its owner by:",
-   "a": "A double diamond (identifying relationship)",
-   "w": [
-    "A double ellipse",
-    "A dashed ellipse",
-    "An underlined ellipse"
-   ],
-   "d": "A",
-   "e": "A weak entity has no key of its own and uses an identifying relationship shown as a double diamond. A double ellipse is a multivalued attribute and a dashed ellipse is a derived attribute.",
-   "x": [
-    "A double ellipse marks a multivalued attribute. It is an attribute, not the identifying link between a weak entity and its owner.",
-    "A dashed ellipse marks a derived attribute computed from other values. It does not tie a weak entity to its owner.",
-    "An underlined ellipse marks a key attribute. It names attributes, not the relationship that links a weak entity to its owner."
-   ]
-  },
-  {
-   "q": "Department and Employee have a 1:N relationship. In the relational schema the foreign key goes in:",
-   "a": "The Employee table",
-   "w": [
-    "The Department table",
-    "Both tables",
-    "A separate junction table"
-   ],
-   "d": "A",
-   "e": "A 1:N relationship puts the FK on the 'many' side, so Employee holds DeptID. A junction table is only needed for M:N.",
-   "x": [
-    "The one side of a 1:N relationship, which would need many DeptID values per row. The foreign key sits on the many side.",
-    "Storing the key on both sides is not how a 1:N relationship is modeled. Only the many side holds the foreign key.",
-    "A junction table is used for M:N relationships to hold pairs of keys. A 1:N relationship does not need one."
-   ]
-  },
-  {
-   "q": "Which OLAP operation selects values on two or more dimensions to produce a sub-cube?",
-   "a": "Dice",
-   "w": [
-    "Slice",
-    "Roll-up",
-    "Pivot"
-   ],
-   "d": "A",
-   "e": "Dice filters on several dimensions; slice fixes a single dimension value. Roll-up aggregates to a higher level and pivot rotates the view.",
-   "x": [
-    "Fixes one dimension to a single value, producing a slice. It does not select on two or more dimensions at once.",
-    "Aggregates data up a hierarchy, such as day to month. It changes the level of detail, not the selection across dimensions.",
-    "Rotates the view to reorient dimensions. It does not select a sub-cube by filtering values."
-   ]
-  },
-  {
-   "q": "Which is NOT one of the four characteristics of a data warehouse in Bill Inmon's definition?",
-   "a": "Volatile",
-   "w": [
-    "Subject-oriented",
-    "Integrated",
-    "Time-variant"
-   ],
-   "d": "D",
-   "e": "A warehouse is subject-oriented, integrated, time-variant and non-volatile, meaning data is not changed once loaded. 'Volatile' is the opposite of the last property.",
-   "x": [
-    "Organized around subjects such as sales or customers, one of Inmon's four characteristics. It is therefore not the exception.",
-    "Data from different sources is made consistent in naming and format. This is one of the four characteristics, so it is not the answer.",
-    "Data is kept with time as a dimension to store history. This is one of the four characteristics, so it is not the answer."
-   ]
-  },
-  {
-   "q": "Who developed SEQUEL, the forerunner of SQL, at IBM for System R?",
-   "a": "Donald Chamberlin and Raymond Boyce",
-   "w": [
-    "Edgar Codd and Chris Date",
-    "Peter Chen and Charles Bachman",
-    "Michael Stonebraker and Larry Ellison"
-   ],
-   "d": "D",
-   "e": "Chamberlin and Boyce created SEQUEL in the 1970s. Codd proposed the relational model that inspired it.",
-   "x": [
-    "A pair known for relational theory, not for SEQUEL. Codd proposed the relational model that inspired SEQUEL, and Date later popularized it.",
-    "The ER model and network database pioneers, not the creators of SEQUEL. Neither developed SEQUEL for System R at IBM.",
-    "Ingres and Oracle pioneers, not the creators of SEQUEL. Stonebraker led Ingres and Ellison founded Oracle, and neither built SEQUEL."
-   ]
-  },
-  {
-   "q": "Under write-ahead logging (WAL), what must reach stable storage before a modified data page is written to disk?",
-   "a": "The log records describing that change",
-   "w": [
-    "The next checkpoint record",
-    "A full backup of the database",
-    "The commit of every other transaction"
-   ],
-   "d": "D",
-   "e": "WAL requires the log record to be flushed first so the change can be undone or redone after a crash. Checkpoints and backups are separate recovery mechanisms.",
-   "x": [
-    "A checkpoint record marks a recovery point, which is a separate mechanism. The rule concerns the log record of this change, not a checkpoint.",
-    "Full backups are separate from logging and are not required before each page write. WAL concerns the log record of the change.",
-    "WAL does not need other transactions to commit first. Only the log record for this change must be flushed before the page."
-   ]
-  },
-  {
-   "q": "A decomposition of a relation is lossless-join when:",
-   "a": "Joining the parts reproduces exactly the original relation",
-   "w": [
-    "Every functional dependency can be checked within a single part",
-    "Every resulting relation is in BCNF",
-    "No attribute appears in more than one part"
-   ],
-   "d": "D",
-   "e": "Lossless join means no spurious or missing tuples after rejoining. Checking each FD inside one part is dependency preservation, a separate property.",
-   "x": [
-    "Describes dependency preservation, a separate property. Lossless join concerns whether rejoining the parts gives back the original relation.",
-    "BCNF is a property of each relation, not the definition of lossless join. A decomposition can be lossless without being in BCNF.",
-    "Shared attributes are how parts are rejoined, so sharing them is not the condition. Lossless depends on the rejoin reproducing the original."
-   ]
-  },
-  {
-   "q": "A parent row is deleted and the matching child rows stay but have their foreign key set to NULL. Which referential action is used?",
-   "a": "ON DELETE SET NULL",
-   "w": [
-    "ON DELETE CASCADE",
-    "ON DELETE RESTRICT",
-    "ON DELETE NO ACTION"
-   ],
-   "d": "A",
-   "e": "SET NULL keeps child rows and nulls the FK. CASCADE deletes the child rows, while RESTRICT and NO ACTION block the deletion.",
-   "x": [
-    "Deletes the matching child rows along with the parent. The scenario keeps child rows and sets their foreign key to NULL, so this does not fit.",
-    "Blocks deleting a parent that still has child rows. No deletion of the parent happens in the scenario, so this action does not apply.",
-    "Rejects the parent delete while children reference it, checked at statement end. The scenario deletes the parent, so this does not fit."
-   ]
-  },
-  {
-   "q": "A table has four candidate keys and one is chosen as the primary key. How many alternate keys does it have?",
-   "a": "3",
-   "w": [
-    "4",
-    "1",
-    "0"
-   ],
-   "d": "A",
-   "e": "Alternate keys are the candidate keys not chosen as the primary key, so 4 - 1 = 3.",
-   "x": [
-    "Four candidate keys includes the one chosen as primary key, so counting it would be wrong. Alternate keys exclude the primary key.",
-    "Does not match the correct calculation: four candidate keys minus one primary key leaves three.",
-    "Zero would mean no candidate keys remain after choosing the primary key. Four candidates leave three alternates."
+    "ALTER changes a table's structure, not its row data.",
+    "INSERT adds new rows rather than changing existing ones.",
+    "SELECT only reads rows; it does not modify them."
    ]
   }
  ],
@@ -2041,18 +1257,6 @@
   },
   {
    "d": "D",
-   "q": "How many rows does a CROSS JOIN of tables with 4 and 3 rows produce?",
-   "a": "12",
-   "alt": []
-  },
-  {
-   "d": "D",
-   "q": "What is the AVG of 30000, 40000, 50000, 70000 and NULL in SQL?",
-   "a": "47500",
-   "alt": []
-  },
-  {
-   "d": "D",
    "q": "Which logical level of ANSI/SPARC describes the whole database structure?",
    "a": "Conceptual",
    "alt": [
@@ -2097,16 +1301,6 @@
    "a": "Bill Inmon",
    "alt": [
     "Inmon"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "What is the name of a vector database used for AI embeddings (example)?",
-   "a": "Pinecone",
-   "alt": [
-    "Milvus",
-    "Chroma",
-    "pgvector"
    ]
   },
   {
@@ -2164,23 +1358,6 @@
   },
   {
    "d": "D",
-   "q": "Which DCL command, specific to SQL Server, explicitly blocks a permission?",
-   "a": "DENY",
-   "alt": [
-    "Deny"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "Who created the embedded database SQLite?",
-   "a": "D. Richard Hipp",
-   "alt": [
-    "Richard Hipp",
-    "Hipp"
-   ]
-  },
-  {
-   "d": "D",
    "q": "What is the query language of the Neo4j graph database?",
    "a": "Cypher",
    "alt": [
@@ -2189,26 +1366,10 @@
   },
   {
    "d": "D",
-   "q": "What is Oracle's name for the EXCEPT set operator?",
-   "a": "MINUS",
-   "alt": [
-    "Minus"
-   ]
-  },
-  {
-   "d": "D",
    "q": "Which relational algebra operator, written with the symbol ÷, answers 'for all' queries?",
    "a": "Division",
    "alt": [
     "Divide"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "A(1,2,3) LEFT JOIN B(2,3,4) on id produces how many rows?",
-   "a": "3",
-   "alt": [
-    "three"
    ]
   },
   {

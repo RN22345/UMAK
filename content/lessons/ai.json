@@ -100,54 +100,6 @@
    "e": "Andy Jassy succeeded Jeff Bezos as Amazon's chief executive in 2021."
   },
   {
-   "q": "Who became CEO of Apple on 1 September 2026?",
-   "a": "John Ternus",
-   "w": [
-    "Tim Cook",
-    "Craig Federighi",
-    "Jeff Williams"
-   ],
-   "d": "A",
-   "x": [
-    "Tim Cook is named in the question as chief executive until 2026, so not the person taking over on 1 September 2026.",
-    "A senior Apple software executive, not the one named as chief executive from 1 September 2026.",
-    "A senior Apple executive, not the person the question names as the new chief executive."
-   ],
-   "e": "John Ternus takes over as Apple chief executive on 1 September 2026, succeeding Tim Cook as the question states."
-  },
-  {
-   "q": "Who was Apple's CEO from 2011 until 2026?",
-   "a": "Tim Cook",
-   "w": [
-    "Steve Jobs",
-    "John Sculley",
-    "John Ternus"
-   ],
-   "d": "A",
-   "x": [
-    "Apple's co-founder who led the company before 2011, so outside the period in the question.",
-    "Apple's chief executive in the 1980s and early 1990s, before the period in the question.",
-    "The person the question names as becoming Apple chief executive in 2026, after the period asked about."
-   ],
-   "e": "Tim Cook served as Apple chief executive from 2011 until 2026, the exact period the question gives."
-  },
-  {
-   "q": "Who has been Intel's CEO since March 2025?",
-   "a": "Lip-Bu Tan",
-   "w": [
-    "Pat Gelsinger",
-    "Brian Krzanich",
-    "Bob Swan"
-   ],
-   "d": "D",
-   "x": [
-    "An earlier Intel chief executive, not the one in the role since March 2025.",
-    "Intel's chief executive until 2018, before the current leader took over.",
-    "An interim Intel chief executive from 2019, not the leader since March 2025."
-   ],
-   "e": "Lip-Bu Tan has been Intel's chief executive since March 2025, the time frame the question gives."
-  },
-  {
    "q": "Who leads xAI, Tesla and SpaceX?",
    "a": "Elon Musk",
    "w": [
@@ -162,86 +114,6 @@
     "A venture investor and co-founder of PayPal and Palantir, not the leader of these firms."
    ],
    "e": "Elon Musk leads xAI, Tesla and SpaceX, as the question states, so he is the person described."
-  },
-  {
-   "q": "Who founded DeepSeek?",
-   "a": "Liang Wenfeng",
-   "w": [
-    "Jack Ma",
-    "Robin Li",
-    "Pony Ma"
-   ],
-   "d": "A",
-   "x": [
-    "Founder of Alibaba, a different Chinese company, not DeepSeek.",
-    "Co-founder of Baidu, a different Chinese company, not DeepSeek.",
-    "Founder of Tencent, a different Chinese company, not DeepSeek."
-   ],
-   "e": "Liang Wenfeng founded DeepSeek, the Chinese AI company behind the DeepSeek models."
-  },
-  {
-   "q": "Who is the CEO of Mistral AI?",
-   "a": "Arthur Mensch",
-   "w": [
-    "Yann LeCun",
-    "Clement Delangue",
-    "Aidan Gomez"
-   ],
-   "d": "A",
-   "x": [
-    "A prominent AI researcher linked to Meta, not the chief executive of Mistral AI.",
-    "Chief executive of Hugging Face, a different AI company, not Mistral AI.",
-    "Co-founder and chief executive of Cohere, a different AI company, not Mistral AI."
-   ],
-   "e": "Arthur Mensch co-founded and leads Mistral AI, the French AI company, as its chief executive."
-  },
-  {
-   "q": "Who heads Meta Superintelligence Labs as Meta's Chief AI Officer?",
-   "a": "Alexandr Wang",
-   "w": [
-    "Yann LeCun",
-    "Mustafa Suleyman",
-    "Andrej Karpathy"
-   ],
-   "d": "D",
-   "x": [
-    "A prominent AI researcher linked to Meta, not the Chief AI Officer named in the question.",
-    "Leads Microsoft AI, a different company, not Meta Superintelligence Labs.",
-    "An AI researcher and former OpenAI co-founder, not the head of Meta Superintelligence Labs."
-   ],
-   "e": "Alexandr Wang is named as Meta's Chief AI Officer and head of Meta Superintelligence Labs, the role the question describes."
-  },
-  {
-   "q": "Who is the CEO of Microsoft AI and a co-founder of DeepMind?",
-   "a": "Mustafa Suleyman",
-   "w": [
-    "Demis Hassabis",
-    "Ilya Sutskever",
-    "Mira Murati"
-   ],
-   "d": "A",
-   "x": [
-    "Also a DeepMind co-founder, but he leads Google DeepMind, not Microsoft AI.",
-    "A former OpenAI co-founder who leads Safe Superintelligence, not Microsoft AI.",
-    "A former OpenAI executive who founded a different AI startup, not Microsoft AI."
-   ],
-   "e": "Mustafa Suleyman co-founded DeepMind and now leads Microsoft AI, which matches both clues in the question."
-  },
-  {
-   "q": "Who is the CEO of Safe Superintelligence Inc. (SSI)?",
-   "a": "Ilya Sutskever",
-   "w": [
-    "Mira Murati",
-    "Andrej Karpathy",
-    "Greg Brockman"
-   ],
-   "d": "A",
-   "x": [
-    "A former OpenAI executive, not the leader of Safe Superintelligence Inc.",
-    "An AI researcher and former OpenAI co-founder, not the head of Safe Superintelligence Inc.",
-    "An OpenAI co-founder and president, not the chief executive of Safe Superintelligence Inc."
-   ],
-   "e": "Ilya Sutskever is the chief executive of Safe Superintelligence Inc., the company the question names."
   },
   {
    "q": "Which company makes ChatGPT?",
@@ -308,54 +180,6 @@
    "e": "xAI, the AI company linked to Elon Musk, develops Grok, its chatbot and model family."
   },
   {
-   "q": "Which company makes the Llama and Muse models?",
-   "a": "Meta",
-   "w": [
-    "Google",
-    "Microsoft",
-    "Nvidia"
-   ],
-   "d": "A",
-   "x": [
-    "Google makes Gemini, not the Llama or Muse models.",
-    "Microsoft makes Copilot, not the Llama or Muse models.",
-    "Nvidia makes GPU chips, not the Llama or Muse models."
-   ],
-   "e": "Meta develops the Llama models, and the question also names its Muse models, so Meta is the answer."
-  },
-  {
-   "q": "Which company makes Qwen?",
-   "a": "Alibaba",
-   "w": [
-    "Baidu",
-    "Tencent",
-    "Huawei"
-   ],
-   "d": "A",
-   "x": [
-    "Baidu is a different Chinese internet company, not the maker of Qwen.",
-    "Tencent is a different Chinese internet company, not the maker of Qwen.",
-    "Huawei is a different Chinese technology company, not the maker of Qwen."
-   ],
-   "e": "Alibaba develops Qwen, its family of large language models."
-  },
-  {
-   "q": "Which company makes the Kimi models?",
-   "a": "Moonshot AI",
-   "w": [
-    "DeepSeek",
-    "MiniMax",
-    "Zhipu"
-   ],
-   "d": "D",
-   "x": [
-    "DeepSeek is a different Chinese AI company, not the maker of Kimi.",
-    "MiniMax is a different Chinese AI company, not the maker of Kimi.",
-    "Zhipu is a different Chinese AI company, not the maker of Kimi."
-   ],
-   "e": "Moonshot AI is the Chinese AI company that develops the Kimi models."
-  },
-  {
    "q": "Which company makes Copilot?",
    "a": "Microsoft",
    "w": [
@@ -404,38 +228,6 @@
    "e": "Amazon developed Alexa, the voice assistant used in Amazon Echo speakers and other devices."
   },
   {
-   "q": "Which company created Stable Diffusion?",
-   "a": "Stability AI",
-   "w": [
-    "Midjourney",
-    "OpenAI",
-    "Runway"
-   ],
-   "d": "A",
-   "x": [
-    "Midjourney is a separate image generator from its own company, not Stable Diffusion.",
-    "OpenAI makes ChatGPT and DALL-E, not Stable Diffusion.",
-    "Runway is an AI video company, not the creator of Stable Diffusion."
-   ],
-   "e": "Stability AI released Stable Diffusion, an open image generation model."
-  },
-  {
-   "q": "Which company created Midjourney?",
-   "a": "Midjourney, Inc.",
-   "w": [
-    "Stability AI",
-    "OpenAI",
-    "Adobe"
-   ],
-   "d": "A",
-   "x": [
-    "Stability AI makes Stable Diffusion, not Midjourney.",
-    "OpenAI makes ChatGPT and Sora, not Midjourney.",
-    "Adobe makes creative software such as Photoshop, not Midjourney."
-   ],
-   "e": "Midjourney, Inc. built the Midjourney image generator, so the company itself is the answer."
-  },
-  {
    "q": "Which company makes Sora?",
    "a": "OpenAI",
    "w": [
@@ -452,22 +244,6 @@
    "e": "OpenAI developed Sora, its text-to-video generation model."
   },
   {
-   "q": "Which company makes Veo?",
-   "a": "Google",
-   "w": [
-    "OpenAI",
-    "Runway",
-    "Midjourney"
-   ],
-   "d": "A",
-   "x": [
-    "OpenAI makes Sora, not Veo.",
-    "Runway is a separate AI video company, not the maker of Veo.",
-    "Midjourney makes an image generator, not Veo."
-   ],
-   "e": "Google developed Veo, its video generation model."
-  },
-  {
    "q": "Which company makes Claude Code?",
    "a": "Anthropic",
    "w": [
@@ -482,150 +258,6 @@
     "Cursor is an AI code editor made by Anysphere, a different company from Anthropic."
    ],
    "e": "Anthropic develops Claude Code, its coding agent built on the Claude models."
-  },
-  {
-   "q": "Which company makes Cursor, the AI code editor?",
-   "a": "Anysphere",
-   "w": [
-    "Cognition",
-    "GitHub",
-    "JetBrains"
-   ],
-   "d": "D",
-   "x": [
-    "Cognition makes Devin, an AI software engineer, not Cursor.",
-    "GitHub is a code hosting platform owned by Microsoft, not Cursor's maker.",
-    "JetBrains makes IDEs such as IntelliJ, not Cursor."
-   ],
-   "e": "Anysphere is the company behind Cursor, the AI-powered code editor."
-  },
-  {
-   "q": "Which company makes the Devin AI software engineer?",
-   "a": "Cognition",
-   "w": [
-    "Anysphere",
-    "OpenAI",
-    "Replit"
-   ],
-   "d": "D",
-   "x": [
-    "Anysphere makes Cursor, not Devin.",
-    "OpenAI makes ChatGPT, not Devin.",
-    "Replit is a separate online coding platform, not the maker of Devin."
-   ],
-   "e": "Cognition is the company behind Devin, an AI software engineering agent."
-  },
-  {
-   "q": "Which company makes Whisper, the speech recognition model?",
-   "a": "OpenAI",
-   "w": [
-    "Google",
-    "Meta",
-    "Apple"
-   ],
-   "d": "A",
-   "x": [
-    "Google makes Gemini and Veo, not Whisper.",
-    "Meta makes the Llama and Muse models, not Whisper.",
-    "Apple makes Siri, not Whisper."
-   ],
-   "e": "OpenAI released Whisper, an open speech recognition model."
-  },
-  {
-   "q": "Which company created the AlphaFold system?",
-   "a": "Google DeepMind",
-   "w": [
-    "OpenAI",
-    "Meta AI",
-    "IBM"
-   ],
-   "d": "A",
-   "x": [
-    "OpenAI makes ChatGPT, not AlphaFold.",
-    "Meta AI is Meta's research unit, not the developer of AlphaFold.",
-    "IBM built Watson, a different AI system, not AlphaFold."
-   ],
-   "e": "Google DeepMind developed AlphaFold, the AI system that predicts protein structures."
-  },
-  {
-   "q": "Which AI protocol, introduced by Anthropic in November 2024, connects AI apps to tools and data?",
-   "a": "MCP",
-   "w": [
-    "A2A",
-    "ACP",
-    "AP2"
-   ],
-   "d": "A",
-   "x": [
-    "Google's agent-to-agent protocol, as another question states, not the tool and data connection standard.",
-    "Not the answer here: a different agent protocol, not the Anthropic tool and data standard named in the question.",
-    "Not the answer here: a different protocol, not the one introduced by Anthropic in November 2024."
-   ],
-   "e": "MCP, the Model Context Protocol, is an open standard that lets AI apps connect to tools and data sources."
-  },
-  {
-   "q": "Which protocol was introduced by Google for agent-to-agent communication?",
-   "a": "A2A",
-   "w": [
-    "MCP",
-    "ACP",
-    "REST"
-   ],
-   "d": "A",
-   "x": [
-    "Anthropic's Model Context Protocol, for connecting AI apps to tools and data, not agent-to-agent talk.",
-    "Not the answer here: a different agent communication protocol, not the one Google introduced.",
-    "REST is a general web API style, not an agent-to-agent protocol from Google."
-   ],
-   "e": "A2A, the Agent2Agent protocol, lets AI agents from different systems communicate and coordinate with each other."
-  },
-  {
-   "q": "When was ChatGPT launched?",
-   "a": "30 November 2022",
-   "w": [
-    "14 March 2023",
-    "1 January 2023",
-    "10 October 2022"
-   ],
-   "d": "D",
-   "x": [
-    "A date in March 2023, which is when GPT-4 was released, not ChatGPT's launch.",
-    "Not the answer here: a date in 2023, after ChatGPT had already launched.",
-    "Not the answer here: a date in October 2022, before ChatGPT's actual launch in late November 2022."
-   ],
-   "e": "ChatGPT was launched by OpenAI on 30 November 2022, which started its public chatbot era."
-  },
-  {
-   "q": "Who coined the term \"vibe coding\"?",
-   "a": "Andrej Karpathy",
-   "w": [
-    "Sam Altman",
-    "Andrew Ng",
-    "Linus Torvalds"
-   ],
-   "d": "A",
-   "x": [
-    "The OpenAI chief executive, not the person who coined this term.",
-    "Andrew Ng, an AI educator and researcher, not the person who coined this term.",
-    "Linus Torvalds, creator of Linux, not the person who coined this term."
-   ],
-   "e": "Andrej Karpathy coined vibe coding in 2025 to describe building software by prompting an AI and accepting its output."
-  },
-  {
-   "q": "Who coined the term \"artificial intelligence\" at the 1956 Dartmouth workshop?",
-   "a": "John McCarthy",
-   "w": [
-    "Alan Turing",
-    "Marvin Minsky",
-    "Claude Shannon"
-   ],
-   "d": "A",
-   "x": [
-    "Alan Turing, who proposed the Turing Test in 1950, not the person who coined this term.",
-    "An AI pioneer linked to the 1956 workshop, but not credited with coining the term.",
-    "An information theory pioneer who attended the 1956 workshop, not the term's coiner."
-   ],
-   "e": "John McCarthy coined the term artificial intelligence when proposing the 1956 Dartmouth workshop."
   },
   {
    "q": "Who proposed the Turing Test in 1950?",
@@ -692,134 +324,6 @@
    "e": "AlphaGo, developed by Google DeepMind, defeated Go champion Lee Sedol in 2016."
   },
   {
-   "q": "Which 2012 event, achieved by AlexNet, started the deep learning boom?",
-   "a": "Winning the ImageNet competition",
-   "w": [
-    "Winning Jeopardy!",
-    "Beating Kasparov",
-    "Launching GPT-1"
-   ],
-   "d": "A",
-   "x": [
-    "IBM Watson's 2011 Jeopardy win, a different event from the ImageNet result.",
-    "Deep Blue's 1997 chess win, a different event in a different field, not the ImageNet result.",
-    "OpenAI's 2018 GPT-1 launch, which came after the 2012 event."
-   ],
-   "e": "AlexNet won the 2012 ImageNet competition by a wide margin using deep convolutional networks, sparking the modern deep learning boom."
-  },
-  {
-   "q": "Which paper introduced the Transformer architecture in 2017?",
-   "a": "Attention Is All You Need",
-   "w": [
-    "Deep Residual Learning",
-    "Playing Atari with Deep RL",
-    "ImageNet Classification"
-   ],
-   "d": "A",
-   "x": [
-    "The 2015 ResNet paper, Deep Residual Learning, a different architecture, not the Transformer.",
-    "A 2013 deep reinforcement learning paper on playing Atari games, not the Transformer.",
-    "The 2012 AlexNet paper, a convolutional network, not the Transformer."
-   ],
-   "e": "Attention Is All You Need, published by Google researchers in 2017, introduced the Transformer architecture behind modern large language models."
-  },
-  {
-   "q": "Who shared the 2024 Nobel Prize in Physics for neural network research?",
-   "a": "John Hopfield and Geoffrey Hinton",
-   "w": [
-    "Yann LeCun and Yoshua Bengio",
-    "Demis Hassabis and John Jumper",
-    "Fei-Fei Li and Andrew Ng"
-   ],
-   "d": "A",
-   "x": [
-    "Yann LeCun and Yoshua Bengio are deep learning pioneers, but did not share the 2024 physics prize.",
-    "Demis Hassabis and John Jumper won the 2024 chemistry prize, not physics.",
-    "Fei-Fei Li and Andrew Ng are AI researchers, not 2024 physics laureates."
-   ],
-   "e": "John Hopfield and Geoffrey Hinton shared the 2024 Nobel Prize in Physics for foundational work enabling machine learning with neural networks."
-  },
-  {
-   "q": "Who won the 2024 Nobel Prize in Chemistry along with David Baker for AI protein structure work?",
-   "a": "Demis Hassabis and John Jumper",
-   "w": [
-    "Geoffrey Hinton and John Hopfield",
-    "Sam Altman and Ilya Sutskever",
-    "Yann LeCun and Fei-Fei Li"
-   ],
-   "d": "D",
-   "x": [
-    "Geoffrey Hinton and John Hopfield won the 2024 physics prize, not chemistry.",
-    "Sam Altman and Ilya Sutskever are AI company leaders, not Nobel chemistry laureates.",
-    "Yann LeCun and Fei-Fei Li are AI researchers, not 2024 chemistry laureates."
-   ],
-   "e": "Demis Hassabis and John Jumper shared the 2024 Nobel Prize in Chemistry with David Baker for AI-driven protein structure prediction."
-  },
-  {
-   "q": "Who won the 2018 Turing Award for deep learning?",
-   "a": "Hinton, LeCun and Bengio",
-   "w": [
-    "Knuth, Dijkstra and Codd",
-    "Barto and Sutton",
-    "Page, Brin and Schmidt"
-   ],
-   "d": "A",
-   "x": [
-    "Knuth, Dijkstra and Codd are earlier Turing Award winners for other areas of computing.",
-    "Barto and Sutton received the 2024 Turing Award for reinforcement learning, a different field.",
-    "Google's founders and a former chief executive, not the deep learning Turing Award winners."
-   ],
-   "e": "Geoffrey Hinton, Yann LeCun and Yoshua Bengio received the 2018 ACM Turing Award for their work on deep learning."
-  },
-  {
-   "q": "Who won the 2024 ACM Turing Award for reinforcement learning?",
-   "a": "Andrew Barto and Richard Sutton",
-   "w": [
-    "Geoffrey Hinton and Yann LeCun",
-    "Demis Hassabis and David Silver",
-    "Ilya Sutskever and Alex Krizhevsky"
-   ],
-   "d": "D",
-   "x": [
-    "Hinton and LeCun shared the 2018 Turing Award, not the 2024 award.",
-    "Hassabis and Silver are DeepMind researchers, not the 2024 Turing Award winners.",
-    "Sutskever and Krizhevsky co-authored AlexNet, not the 2024 Turing Award winners."
-   ],
-   "e": "Andrew Barto and Richard Sutton received the 2024 ACM Turing Award for foundational work in reinforcement learning."
-  },
-  {
-   "q": "Who won the 2022 Turing Award for inventing Ethernet?",
-   "a": "Robert Metcalfe",
-   "w": [
-    "Vint Cerf",
-    "Tim Berners-Lee",
-    "Bob Kahn"
-   ],
-   "d": "D",
-   "x": [
-    "Vint Cerf, a co-designer of TCP/IP, not the Ethernet inventor.",
-    "Tim Berners-Lee, who created the World Wide Web, not Ethernet.",
-    "Bob Kahn, another TCP/IP co-designer, not the Ethernet inventor."
-   ],
-   "e": "Robert Metcalfe helped invent Ethernet, the local area networking technology, and received the 2022 ACM Turing Award for it."
-  },
-  {
-   "q": "The tiers of the Claude model family from smallest to largest in the older lineup are:",
-   "a": "Haiku, Sonnet, Opus",
-   "w": [
-    "Opus, Sonnet, Haiku",
-    "Sonnet, Haiku, Opus",
-    "Haiku, Opus, Sonnet"
-   ],
-   "d": "A",
-   "x": [
-    "Opus, Sonnet, Haiku is the reverse order, from largest to smallest.",
-    "Sonnet, Haiku, Opus puts Sonnet below Haiku, which breaks the size order.",
-    "Haiku, Opus, Sonnet puts Opus in the middle, which breaks the size order."
-   ],
-   "e": "In the older Claude lineup, Haiku is the smallest tier, Sonnet the middle tier and Opus the largest."
-  },
-  {
    "q": "Who founded Microsoft?",
    "a": "Bill Gates and Paul Allen",
    "w": [
@@ -834,22 +338,6 @@
     "Jeff Bezos founded Amazon, so this pair mixes one Microsoft co-founder with another company's founder."
    ],
    "e": "Bill Gates and Paul Allen founded Microsoft in 1975."
-  },
-  {
-   "q": "Who founded Apple?",
-   "a": "Steve Jobs, Steve Wozniak and Ronald Wayne",
-   "w": [
-    "Bill Gates and Paul Allen",
-    "Tim Cook and Jony Ive",
-    "Steve Jobs and John Sculley"
-   ],
-   "d": "A",
-   "x": [
-    "Bill Gates and Paul Allen are Microsoft's founders, not Apple's.",
-    "Tim Cook and Jony Ive were later Apple executives, not its founders.",
-    "John Sculley was a later Apple chief executive, not a founder alongside Jobs."
-   ],
-   "e": "Steve Jobs, Steve Wozniak and Ronald Wayne founded Apple in 1976."
   },
   {
    "q": "Who founded Google?",
@@ -884,70 +372,6 @@
    "e": "Mark Zuckerberg co-founded Facebook in 2004 while a student at Harvard."
   },
   {
-   "q": "Which company restructured under the parent holding company Alphabet in 2015?",
-   "a": "Google",
-   "w": [
-    "Microsoft",
-    "Facebook",
-    "Amazon"
-   ],
-   "d": "A",
-   "x": [
-    "Not the answer here: this company did not restructure under the Alphabet holding company.",
-    "Not the answer here: this company is not the one that became part of Alphabet in 2015.",
-    "Not the answer here: this company is a separate firm, not the one named as part of Alphabet."
-   ],
-   "e": "Google became part of Alphabet, the holding company created in a 2015 restructuring."
-  },
-  {
-   "q": "In which year did Facebook rename itself Meta?",
-   "a": "2021",
-   "w": [
-    "2019",
-    "2022",
-    "2023"
-   ],
-   "d": "A",
-   "x": [
-    "Not the answer here: the rename to Meta was in 2021, not this year.",
-    "Not the answer here: this year is not when Facebook became Meta.",
-    "Not the answer here: this year is not the rename year; the answer is 2021."
-   ],
-   "e": "Facebook's parent company took the name Meta in 2021, the year given as the correct answer."
-  },
-  {
-   "q": "In which year did Twitter get renamed X?",
-   "a": "2023",
-   "w": [
-    "2022",
-    "2024",
-    "2021"
-   ],
-   "d": "A",
-   "x": [
-    "Not the answer here: the rebrand of Twitter to X was in 2023, not this year.",
-    "Not the answer here: this year is not when Twitter became X.",
-    "Not the answer here: this year is not the Twitter-to-X rename year; the answer is 2023."
-   ],
-   "e": "Twitter was rebranded as X in 2023, the year given as the correct answer."
-  },
-  {
-   "q": "Which company acquired xAI in 2026?",
-   "a": "SpaceX",
-   "w": [
-    "Tesla",
-    "OpenAI",
-    "Microsoft"
-   ],
-   "d": "D",
-   "x": [
-    "Tesla is another Musk company, but the question names SpaceX as the acquirer.",
-    "OpenAI is a rival AI lab to xAI, not the company that acquired it.",
-    "Microsoft is a large tech company, not the 2026 acquirer of xAI named in the question."
-   ],
-   "e": "SpaceX acquired xAI in 2026, according to the question, and both companies are led by Elon Musk."
-  },
-  {
    "q": "Who created Linux and Git?",
    "a": "Linus Torvalds",
    "w": [
@@ -962,38 +386,6 @@
     "Guido van Rossum created Python, not Linux or Git."
    ],
    "e": "Linus Torvalds created the Linux kernel in 1991 and later created Git in 2005."
-  },
-  {
-   "q": "Who founded the GNU Project and the Free Software Foundation?",
-   "a": "Richard Stallman",
-   "w": [
-    "Linus Torvalds",
-    "Eric Raymond",
-    "Ken Thompson"
-   ],
-   "d": "A",
-   "x": [
-    "Linus Torvalds created Linux, not the GNU Project or the Free Software Foundation.",
-    "Eric Raymond is an open source writer and advocate, not the founder of GNU.",
-    "Ken Thompson co-created Unix, not the GNU Project."
-   ],
-   "e": "Richard Stallman founded the GNU Project in 1983 and the Free Software Foundation in 1985."
-  },
-  {
-   "q": "Who created the C programming language?",
-   "a": "Dennis Ritchie",
-   "w": [
-    "Ken Thompson",
-    "Bjarne Stroustrup",
-    "Brian Kernighan"
-   ],
-   "d": "A",
-   "x": [
-    "Ken Thompson co-created Unix with Ritchie, not the C language.",
-    "Bjarne Stroustrup created C++, not C.",
-    "Brian Kernighan co-wrote the classic C book, but did not create the language."
-   ],
-   "e": "Dennis Ritchie created the C programming language at Bell Labs in the early 1970s, mainly for developing Unix."
   },
   {
    "q": "Which company bought GitHub in 2018?",
@@ -1060,22 +452,6 @@
    "e": "Google bought YouTube in 2006, and it has remained a Google company since then."
   },
   {
-   "q": "Which company acquired DeepMind in 2014?",
-   "a": "Google",
-   "w": [
-    "Facebook",
-    "Microsoft",
-    "OpenAI"
-   ],
-   "d": "A",
-   "x": [
-    "Facebook did not acquire DeepMind in 2014, so it does not fit.",
-    "Microsoft did not acquire DeepMind in 2014, so it does not fit.",
-    "OpenAI is a separate AI lab that did not acquire DeepMind."
-   ],
-   "e": "Google acquired DeepMind, the UK AI company, in 2014, and it is now Google DeepMind."
-  },
-  {
    "q": "Which chip company is headquartered in Santa Clara and makes the Blackwell GPU?",
    "a": "Nvidia",
    "w": [
@@ -1092,164 +468,196 @@
    "e": "Nvidia, based in Santa Clara, makes the Blackwell GPUs widely used for AI computing."
   },
   {
-   "q": "Which company makes the only EUV lithography machines?",
-   "a": "ASML",
+   "q": "Who is known as the \"Godfather of AI\" and won the 2024 Nobel Prize in Physics?",
+   "a": "Geoffrey Hinton",
    "w": [
-    "Applied Materials",
-    "Lam Research",
-    "Nikon"
-   ],
-   "d": "A",
-   "x": [
-    "Applied Materials makes other chip equipment, not EUV lithography machines.",
-    "Lam Research makes other chip equipment, not EUV lithography machines.",
-    "Nikon makes lithography tools, but not the only EUV machine maker the question names."
-   ],
-   "e": "ASML is the Dutch company that is the sole maker of EUV lithography machines used for advanced chips."
-  },
-  {
-   "q": "Which Google quantum chip announced in 2024 reduced errors as qubits scaled?",
-   "a": "Willow",
-   "w": [
-    "Sycamore",
-    "Condor",
-    "Eagle"
-   ],
-   "d": "A",
-   "x": [
-    "Sycamore was Google's earlier quantum processor, not the 2024 chip.",
-    "Condor is an IBM quantum processor, not a Google chip.",
-    "Eagle is an IBM quantum processor, not a Google chip."
-   ],
-   "e": "Google Willow, announced in 2024, showed error rates falling as more qubits were added."
-  },
-  {
-   "q": "What is the name of the Philippine government department for ICT created by RA 10844?",
-   "a": "DICT",
-   "w": [
-    "DOST",
-    "NTC",
-    "DTI"
-   ],
-   "d": "A",
-   "x": [
-    "DOST is the Department of Science and Technology, not the ICT department created by RA 10844.",
-    "NTC is the National Telecommunications Commission, a regulator, not the ICT department.",
-    "DTI is the Department of Trade and Industry, not the ICT department."
-   ],
-   "e": "RA 10844 created the Department of Information and Communications Technology, abbreviated DICT."
-  },
-  {
-   "q": "Which is the Philippines' largest e-wallet?",
-   "a": "GCash",
-   "w": [
-    "Maya",
-    "GrabPay",
-    "ShopeePay"
+    "Yann LeCun",
+    "Yoshua Bengio",
+    "Andrew Ng"
    ],
    "d": "E",
    "x": [
-    "Maya is a Philippine e-wallet, but not the largest one.",
-    "GrabPay is an e-wallet, not the country's largest one.",
-    "ShopeePay is an e-wallet, not the country's largest one."
+    "Yann LeCun is a deep learning pioneer, but did not share the 2024 physics prize with Hinton.",
+    "Yoshua Bengio is a deep learning pioneer, but did not share the 2024 physics prize with Hinton.",
+    "Andrew Ng is an AI educator and researcher, not the 2024 physics laureate."
    ],
-   "e": "GCash is the widely used mobile e-wallet in the Philippines and the market leader."
+   "e": "Geoffrey Hinton is known as a Godfather of AI and shared the 2024 Nobel Prize in Physics with John Hopfield."
   },
   {
-   "q": "Which is the Philippines' third major telco launched in 2021?",
-   "a": "DITO Telecommunity",
+   "q": "Which AI protocol, introduced by Anthropic in November 2024, connects AI apps to tools and data?",
+   "a": "MCP",
    "w": [
-    "Globe",
-    "Smart",
-    "Sun Cellular"
+    "A2A",
+    "ACP",
+    "AP2"
    ],
    "d": "A",
    "x": [
-    "Globe is an established major telco, not the third one launched in 2021.",
-    "Smart is an established major telco, not the third one launched in 2021.",
-    "Sun Cellular is a budget mobile brand, not a new third major telco."
+    "Google's agent-to-agent protocol, as another question states, not the tool and data connection standard.",
+    "Not the answer here: a different agent protocol, not the Anthropic tool and data standard named in the question.",
+    "Not the answer here: a different protocol, not the one introduced by Anthropic in November 2024."
    ],
-   "e": "DITO Telecommunity is the newer third major telco in the Philippines, which began commercial service in 2021."
+   "e": "MCP, the Model Context Protocol, is an open standard that lets AI apps connect to tools and data sources."
   },
   {
-   "q": "Which company operates the Philippine Long Distance Telephone and the Smart brand?",
-   "a": "PLDT",
+   "q": "Who coined the term \"vibe coding\"?",
+   "a": "Andrej Karpathy",
    "w": [
-    "Globe",
-    "Converge",
-    "DITO"
+    "Sam Altman",
+    "Andrew Ng",
+    "Linus Torvalds"
    ],
    "d": "A",
    "x": [
-    "Globe is a separate telco, not the parent of Smart.",
-    "Converge is a separate internet provider, not the parent of Smart.",
-    "DITO is a separate telco, not the parent of Smart."
+    "The OpenAI chief executive, not the person who coined this term.",
+    "Andrew Ng, an AI educator and researcher, not the person who coined this term.",
+    "Linus Torvalds, creator of Linux, not the person who coined this term."
    ],
-   "e": "PLDT is the parent company of the Smart brand, making it the operator named in the question."
+   "e": "Andrej Karpathy coined vibe coding in 2025 to describe building software by prompting an AI and accepting its output."
   },
   {
-   "q": "Which Philippine microsatellite launched in 2016 was the country's first?",
-   "a": "Diwata-1",
+   "q": "Who coined the term \"artificial intelligence\" at the 1956 Dartmouth workshop?",
+   "a": "John McCarthy",
    "w": [
-    "Maya-1",
-    "PhilSat-1",
-    "Bayanihan-1"
+    "Alan Turing",
+    "Marvin Minsky",
+    "Claude Shannon"
    ],
-   "d": "D",
+   "d": "A",
    "x": [
-    "Not the answer here: a different satellite name, not the 2016 first Philippine microsatellite.",
-    "Not the answer here: this name does not match the first Philippine microsatellite the question describes.",
-    "Not the answer here: this name is not the country's first microsatellite launched in 2016."
+    "Alan Turing, who proposed the Turing Test in 1950, not the person who coined this term.",
+    "An AI pioneer linked to the 1956 workshop, but not credited with coining the term.",
+    "An information theory pioneer who attended the 1956 workshop, not the term's coiner."
    ],
-   "e": "Diwata-1, launched in 2016, was the Philippines' first microsatellite, built in a Philippine space program."
+   "e": "John McCarthy coined the term artificial intelligence when proposing the 1956 Dartmouth workshop."
   },
   {
-   "q": "Which Filipino inventor is credited with the Sing-Along System (karaoke)?",
-   "a": "Roberto del Rosario",
+   "q": "Which 2012 event, achieved by AlexNet, started the deep learning boom?",
+   "a": "Winning the ImageNet competition",
    "w": [
-    "Gregorio Zara",
-    "Diosdado Banatao",
-    "Onel de Guzman"
+    "Winning Jeopardy!",
+    "Beating Kasparov",
+    "Launching GPT-1"
    ],
-   "d": "D",
+   "d": "A",
    "x": [
-    "Gregorio Zara is credited with the 1955 videophone, a different invention, not karaoke.",
-    "Diosdado Banatao is known for chip design, a different field, not karaoke.",
-    "Not the answer here: a different name, not the inventor of the karaoke system named in the question."
+    "IBM Watson's 2011 Jeopardy win, a different event from the ImageNet result.",
+    "Deep Blue's 1997 chess win, a different event in a different field, not the ImageNet result.",
+    "OpenAI's 2018 GPT-1 launch, which came after the 2012 event."
    ],
-   "e": "Roberto del Rosario is credited with the Sing-Along System, an early karaoke system."
+   "e": "AlexNet won the 2012 ImageNet competition by a wide margin using deep convolutional networks, sparking the modern deep learning boom."
   },
   {
-   "q": "Which Filipino created the first two-way videophone in 1955?",
-   "a": "Gregorio Zara",
+   "q": "Which paper introduced the Transformer architecture in 2017?",
+   "a": "Attention Is All You Need",
    "w": [
-    "Roberto del Rosario",
-    "Diosdado Banatao",
-    "Josefino Comiso"
+    "Deep Residual Learning",
+    "Playing Atari with Deep RL",
+    "ImageNet Classification"
    ],
-   "d": "D",
+   "d": "A",
    "x": [
-    "Roberto del Rosario is credited with the karaoke Sing-Along System, not the videophone.",
-    "Diosdado Banatao is known for chip design, not the 1955 videophone.",
-    "Not the answer here: a different name, not the inventor of the 1955 videophone."
+    "The 2015 ResNet paper, Deep Residual Learning, a different architecture, not the Transformer.",
+    "A 2013 deep reinforcement learning paper on playing Atari games, not the Transformer.",
+    "The 2012 AlexNet paper, a convolutional network, not the Transformer."
    ],
-   "e": "Gregorio Zara is credited with building the first two-way videophone in 1955."
+   "e": "Attention Is All You Need, published by Google researchers in 2017, introduced the Transformer architecture behind modern large language models."
   },
   {
-   "q": "Which Filipino-American is known as a pioneer of chip design and the S3 graphics accelerator?",
-   "a": "Diosdado Banatao",
+   "q": "Who founded Apple?",
+   "a": "Steve Jobs, Steve Wozniak and Ronald Wayne",
    "w": [
-    "Gregorio Zara",
-    "Roberto del Rosario",
-    "Onel de Guzman"
+    "Bill Gates and Paul Allen",
+    "Tim Cook and Jony Ive",
+    "Steve Jobs and John Sculley"
    ],
-   "d": "D",
+   "d": "A",
    "x": [
-    "Gregorio Zara is credited with the 1955 videophone, not chip design.",
-    "Roberto del Rosario is credited with the Sing-Along karaoke system, not chip design.",
-    "Not the answer here: a different name, not the chip design pioneer named in the question."
+    "Bill Gates and Paul Allen are Microsoft's founders, not Apple's.",
+    "Tim Cook and Jony Ive were later Apple executives, not its founders.",
+    "John Sculley was a later Apple chief executive, not a founder alongside Jobs."
    ],
-   "e": "Diosdado Banatao is a Filipino-American chip design pioneer linked to the S3 graphics accelerator."
+   "e": "Steve Jobs, Steve Wozniak and Ronald Wayne founded Apple in 1976."
+  },
+  {
+   "q": "In which year did Facebook rename itself Meta?",
+   "a": "2021",
+   "w": [
+    "2019",
+    "2022",
+    "2023"
+   ],
+   "d": "A",
+   "x": [
+    "Not the answer here: the rename to Meta was in 2021, not this year.",
+    "Not the answer here: this year is not when Facebook became Meta.",
+    "Not the answer here: this year is not the rename year; the answer is 2021."
+   ],
+   "e": "Facebook's parent company took the name Meta in 2021, the year given as the correct answer."
+  },
+  {
+   "q": "In which year did Twitter get renamed X?",
+   "a": "2023",
+   "w": [
+    "2022",
+    "2024",
+    "2021"
+   ],
+   "d": "A",
+   "x": [
+    "Not the answer here: the rebrand of Twitter to X was in 2023, not this year.",
+    "Not the answer here: this year is not when Twitter became X.",
+    "Not the answer here: this year is not the Twitter-to-X rename year; the answer is 2023."
+   ],
+   "e": "Twitter was rebranded as X in 2023, the year given as the correct answer."
+  },
+  {
+   "q": "Who founded the GNU Project and the Free Software Foundation?",
+   "a": "Richard Stallman",
+   "w": [
+    "Linus Torvalds",
+    "Eric Raymond",
+    "Ken Thompson"
+   ],
+   "d": "A",
+   "x": [
+    "Linus Torvalds created Linux, not the GNU Project or the Free Software Foundation.",
+    "Eric Raymond is an open source writer and advocate, not the founder of GNU.",
+    "Ken Thompson co-created Unix, not the GNU Project."
+   ],
+   "e": "Richard Stallman founded the GNU Project in 1983 and the Free Software Foundation in 1985."
+  },
+  {
+   "q": "Who created the C programming language?",
+   "a": "Dennis Ritchie",
+   "w": [
+    "Ken Thompson",
+    "Bjarne Stroustrup",
+    "Brian Kernighan"
+   ],
+   "d": "A",
+   "x": [
+    "Ken Thompson co-created Unix with Ritchie, not the C language.",
+    "Bjarne Stroustrup created C++, not C.",
+    "Brian Kernighan co-wrote the classic C book, but did not create the language."
+   ],
+   "e": "Dennis Ritchie created the C programming language at Bell Labs in the early 1970s, mainly for developing Unix."
+  },
+  {
+   "q": "Which company acquired DeepMind in 2014?",
+   "a": "Google",
+   "w": [
+    "Facebook",
+    "Microsoft",
+    "OpenAI"
+   ],
+   "d": "A",
+   "x": [
+    "Facebook did not acquire DeepMind in 2014, so it does not fit.",
+    "Microsoft did not acquire DeepMind in 2014, so it does not fit.",
+    "OpenAI is a separate AI lab that did not acquire DeepMind."
+   ],
+   "e": "Google acquired DeepMind, the UK AI company, in 2014, and it is now Google DeepMind."
   },
   {
    "q": "What does CAPTCHA stand for?",
@@ -1332,54 +740,6 @@
    "e": "Ray Tomlinson wrote the first networked email program and chose the @ symbol to separate user names from host names."
   },
   {
-   "q": "Which company invented the QR code in 1994?",
-   "a": "Denso Wave",
-   "w": [
-    "Sony",
-    "Toshiba",
-    "Samsung"
-   ],
-   "d": "D",
-   "x": [
-    "Sony is a different electronics company, not the creator of the QR code.",
-    "Toshiba is a different electronics company, not the creator of the QR code.",
-    "Samsung is a different electronics company, not the creator of the QR code."
-   ],
-   "e": "Denso Wave, a Japanese company, developed the QR code in 1994, first for tracking automotive parts."
-  },
-  {
-   "q": "Who created the first emoji set in 1999?",
-   "a": "Shigetaka Kurita",
-   "w": [
-    "Steve Jobs",
-    "Takeshi Kitano",
-    "Masayoshi Son"
-   ],
-   "d": "D",
-   "x": [
-    "Steve Jobs led Apple but did not create the 1999 emoji set.",
-    "Takeshi Kitano is a Japanese filmmaker and entertainer, not the emoji designer.",
-    "Masayoshi Son is a Japanese business leader, not the emoji designer."
-   ],
-   "e": "Shigetaka Kurita designed the original set of emoji in 1999 for a Japanese mobile operator."
-  },
-  {
-   "q": "VisiCalc (1979) was the first widely used:",
-   "a": "Spreadsheet program",
-   "w": [
-    "Word processor",
-    "Web browser",
-    "Database system"
-   ],
-   "d": "E",
-   "x": [
-    "A word processor is a different kind of program, not a spreadsheet.",
-    "A web browser is a different kind of program, not a spreadsheet.",
-    "A database system is a different kind of program, not a spreadsheet."
-   ],
-   "e": "VisiCalc, released in 1979, was the first widely used spreadsheet program, popular on Apple II computers."
-  },
-  {
    "q": "Which was the first web browser, created by Tim Berners-Lee?",
    "a": "WorldWideWeb",
    "w": [
@@ -1394,22 +754,6 @@
     "Internet Explorer is a later Microsoft browser, not the first web browser."
    ],
    "e": "WorldWideWeb, written by Tim Berners-Lee around 1990, was the first web browser and editor."
-  },
-  {
-   "q": "Who is known as the \"Godfather of AI\" and won the 2024 Nobel Prize in Physics?",
-   "a": "Geoffrey Hinton",
-   "w": [
-    "Yann LeCun",
-    "Yoshua Bengio",
-    "Andrew Ng"
-   ],
-   "d": "E",
-   "x": [
-    "Yann LeCun is a deep learning pioneer, but did not share the 2024 physics prize with Hinton.",
-    "Yoshua Bengio is a deep learning pioneer, but did not share the 2024 physics prize with Hinton.",
-    "Andrew Ng is an AI educator and researcher, not the 2024 physics laureate."
-   ],
-   "e": "Geoffrey Hinton is known as a Godfather of AI and shared the 2024 Nobel Prize in Physics with John Hopfield."
   },
   {
    "q": "Who led the ImageNet project?",
@@ -1428,483 +772,35 @@
    "e": "Fei-Fei Li led the ImageNet project, the large labeled image dataset that helped drive deep learning progress."
   },
   {
-   "q": "Which company runs the Stargate data-center project together with Oracle and SoftBank?",
-   "a": "OpenAI",
+   "q": "GPT stands for:",
+   "a": "Generative Pre-trained Transformer",
    "w": [
-    "Anthropic",
-    "xAI",
-    "Google DeepMind"
+    "General Purpose Technology",
+    "Graphical Processing Tool",
+    "Generated Predictive Text"
    ],
-   "d": "A",
-   "e": "Stargate is OpenAI's data-center project with Oracle and SoftBank. Colossus, the Memphis supercomputer, is xAI's.",
+   "d": "E",
+   "e": "GPT models are generative, pre-trained, and use the Transformer architecture.",
    "x": [
-    "Anthropic makes Claude, not the Stargate data center project named here.",
-    "xAI runs the Colossus supercomputer, a different data center project, not Stargate.",
-    "Google DeepMind is a Google AI lab, not the company running the Stargate project in the question."
+    "Not what GPT means.",
+    "Not what GPT means.",
+    "Not what GPT means."
    ]
   },
   {
-   "q": "Who is the CEO of Alibaba, the company behind the Qwen models?",
-   "a": "Eddie Wu",
+   "q": "LLM stands for:",
+   "a": "Large Language Model",
    "w": [
-    "Jack Ma",
-    "Pony Ma",
-    "Zhang Yiming"
+    "Linear Learning Machine",
+    "Logical Language Matrix",
+    "Large Logic Module"
    ],
-   "d": "A",
-   "e": "The notes list Eddie Wu as Alibaba's CEO. Jack Ma is the founder, Pony Ma founded Tencent and Zhang Yiming founded ByteDance.",
+   "d": "E",
+   "e": "An LLM is a very large neural network trained on text to generate language.",
    "x": [
-    "Jack Ma is the founder of Alibaba, not the current CEO the notes name as Eddie Wu.",
-    "Pony Ma founded Tencent, a different company, not Alibaba.",
-    "Zhang Yiming founded ByteDance, a different company, not Alibaba."
-   ]
-  },
-  {
-   "q": "Which company owns the e-commerce platform Lazada?",
-   "a": "Alibaba",
-   "w": [
-    "Sea Ltd",
-    "Tencent",
-    "Grab"
-   ],
-   "d": "A",
-   "e": "Lazada is owned by Alibaba. Shopee is the platform owned by Sea Ltd.",
-   "x": [
-    "Sea Ltd owns Shopee, a different e-commerce platform, not Lazada.",
-    "Tencent is a different Chinese internet company, not the owner of Lazada.",
-    "Grab is a different Southeast Asian company, not the owner of Lazada."
-   ]
-  },
-  {
-   "q": "Trainium is an AI chip made by which company?",
-   "a": "Amazon (AWS)",
-   "w": [
-    "Google",
-    "Microsoft",
-    "Nvidia"
-   ],
-   "d": "A",
-   "e": "Trainium and Inferentia are AWS chips. Google makes the TPU, Microsoft makes Maia and Nvidia makes H100/B200/Rubin.",
-   "x": [
-    "Google makes the TPU chips, not Trainium, which is an AWS chip.",
-    "Microsoft makes the Maia chips, not Trainium, which is an AWS chip.",
-    "Nvidia makes the H100, B200 and Rubin GPUs, not Trainium, which is an AWS chip."
-   ]
-  },
-  {
-   "q": "In GPT-4o, what does the letter o stand for?",
-   "a": "omni",
-   "w": [
-    "open",
-    "optimized",
-    "online"
-   ],
-   "d": "A",
-   "e": "The notes explain 4o as 'omni'. The separate o-series (o1) refers to reasoning models.",
-   "x": [
-    "Not the answer here: open is not the meaning of the o in GPT-4o; the notes explain it as omni.",
-    "Not the answer here: optimized is not the meaning of the o in GPT-4o; the notes explain it as omni.",
-    "Not the answer here: online is not the meaning of the o in GPT-4o; the notes explain it as omni."
-   ]
-  },
-  {
-   "q": "Who founded Alibaba in 1999?",
-   "a": "Jack Ma",
-   "w": [
-    "Pony Ma",
-    "Ren Zhengfei",
-    "Zhang Yiming"
-   ],
-   "d": "A",
-   "e": "Alibaba was founded by Jack Ma in Hangzhou. Pony Ma founded Tencent, Ren Zhengfei founded Huawei and Zhang Yiming founded ByteDance.",
-   "x": [
-    "Pony Ma founded Tencent, a different company, not Alibaba.",
-    "Ren Zhengfei founded Huawei, a different company, not Alibaba.",
-    "Zhang Yiming founded ByteDance, a different company, not Alibaba."
-   ]
-  },
-  {
-   "q": "In which city is Mistral AI based?",
-   "a": "Paris",
-   "w": [
-    "Berlin",
-    "London",
-    "Zurich"
-   ],
-   "d": "A",
-   "e": "Mistral AI is a Paris company led by CEO Arthur Mensch, described as Europe's champion.",
-   "x": [
-    "Berlin is a German city, not where Mistral AI is based; Mistral is a Paris company.",
-    "London is a UK city, not where Mistral AI is based; Mistral is a Paris company.",
-    "Zurich is a Swiss city, not where Mistral AI is based; Mistral is a Paris company."
-   ]
-  },
-  {
-   "q": "ASTI and PCIEERD are councils or institutes under which Philippine department?",
-   "a": "DOST",
-   "w": [
-    "DICT",
-    "CHED",
-    "TESDA"
-   ],
-   "d": "A",
-   "e": "The notes place PCIEERD and ASTI under DOST, the Department of Science and Technology. DICT handles ICT policy.",
-   "x": [
-    "DICT is the department for ICT policy, not the department that houses ASTI and PCIEERD.",
-    "CHED is the Commission on Higher Education, not the body that houses ASTI and PCIEERD.",
-    "TESDA handles technical-vocational training, not the science councils ASTI and PCIEERD."
-   ]
-  },
-  {
-   "q": "Who is the President and co-founder of OpenAI?",
-   "a": "Greg Brockman",
-   "w": [
-    "Sarah Friar",
-    "Bret Taylor",
-    "Mira Murati"
-   ],
-   "d": "D",
-   "e": "Greg Brockman is OpenAI's President and co-founder. Sarah Friar is the CFO and Bret Taylor is the Chair.",
-   "x": [
-    "Sarah Friar is OpenAI's CFO, not its President and co-founder.",
-    "Bret Taylor is the Chair of OpenAI, not its President and co-founder.",
-    "Not the answer here: Mira Murati is not the President and co-founder named in the notes; the answer is Greg Brockman."
-   ]
-  },
-  {
-   "q": "Which GPT-6 family model is the low-cost tier?",
-   "a": "GPT-6 Luna",
-   "w": [
-    "GPT-6 Astra",
-    "GPT-6 Sol",
-    "GPT-6.1 Sol"
-   ],
-   "d": "D",
-   "e": "In the September 2026 GPT-6 family, Astra is top-tier, Sol is the balanced default and Luna is low-cost. GPT-6.1 Sol followed on 29 Sep.",
-   "x": [
-    "GPT-6 Astra is the top-tier model in the family, not the low-cost tier.",
-    "GPT-6 Sol is the balanced default model in the family, not the low-cost tier.",
-    "GPT-6.1 Sol is a follow-on release of Sol from 29 Sep, not the low-cost tier; the low-cost tier is Luna."
-   ]
-  },
-  {
-   "q": "Who is the President of Anthropic?",
-   "a": "Daniela Amodei",
-   "w": [
-    "Mira Murati",
-    "Ilya Sutskever",
-    "Greg Brockman"
-   ],
-   "d": "D",
-   "e": "Daniela Amodei is Anthropic's President, while Dario Amodei is CEO. Brockman is OpenAI's President.",
-   "x": [
-    "Not the answer here: Mira Murati is not Anthropic's President per the notes; the answer is Daniela Amodei.",
-    "Not the answer here: Ilya Sutskever is not Anthropic's President per the notes; the answer is Daniela Amodei.",
-    "Greg Brockman is OpenAI's President and co-founder, not Anthropic's President."
-   ]
-  },
-  {
-   "q": "Which Claude model was released on 28 September 2026?",
-   "a": "Claude Sonnet 5.5",
-   "w": [
-    "Claude Opus 5.5",
-    "Claude Haiku 5.5",
-    "Claude Fable 5.1"
-   ],
-   "d": "D",
-   "e": "Claude Sonnet 5.5 came on 28 Sep. Claude Opus 5.5 arrived on 22 Sep and Claude Haiku 5.5 on 7 Oct.",
-   "x": [
-    "Claude Opus 5.5 was released on 22 Sep 2026 per the notes, not on 28 September.",
-    "Claude Haiku 5.5 was released on 7 Oct 2026 per the notes, not on 28 September.",
-    "Not the answer here: Claude Fable 5.1 is not the model the notes date to 28 September; that model is Sonnet 5.5."
-   ]
-  },
-  {
-   "q": "Mythos Preview was made available through which Anthropic initiative?",
-   "a": "Project Glasswing",
-   "w": [
-    "Project Stargate",
-    "Constitutional AI",
-    "Responsible Scaling Policy"
-   ],
-   "d": "D",
-   "e": "The restricted Claude Mythos tier is offered as Mythos Preview via Project Glasswing. Constitutional AI and the Responsible Scaling Policy are separate Anthropic frameworks.",
-   "x": [
-    "Not the answer here: Project Stargate is not the initiative through which Mythos Preview was offered; the answer is Project Glasswing.",
-    "Constitutional AI is a separate Anthropic framework, not the initiative through which Mythos Preview was offered.",
-    "The Responsible Scaling Policy is a separate Anthropic policy framework, not the initiative through which Mythos Preview was offered."
-   ]
-  },
-  {
-   "q": "On what date did Gemini 4 'Argon' become publicly available?",
-   "a": "13 October 2026",
-   "w": [
-    "30 September 2026",
-    "7 October 2026",
-    "21 October 2026"
-   ],
-   "d": "D",
-   "e": "Gemini 4 Argon was announced on 30 Sep / 1 Oct 2026 but went public on 13 Oct 2026.",
-   "x": [
-    "30 September 2026 is the announcement date for Gemini 4 Argon, not its public release date.",
-    "Not the answer here: 7 October 2026 is not the public availability date for Gemini 4 Argon; the notes give 13 October.",
-    "Not the answer here: 21 October 2026 is not the public availability date for Gemini 4 Argon; the notes give 13 October."
-   ]
-  },
-  {
-   "q": "In which year was Google Brain merged with DeepMind?",
-   "a": "2023",
-   "w": [
-    "2014",
-    "2015",
-    "2021"
-   ],
-   "d": "D",
-   "e": "Google Brain merged with DeepMind in 2023. DeepMind was acquired in 2014 and Alphabet was created in 2015.",
-   "x": [
-    "2014 is the year Google acquired DeepMind, not the year Google Brain merged with it.",
-    "2015 is the year Alphabet was created, not the year Google Brain merged with DeepMind.",
-    "Not the answer here: 2021 is not the merger year given in the notes; the answer is 2023."
-   ]
-  },
-  {
-   "q": "Which Meta model was released on 8 April 2026?",
-   "a": "Muse Spark",
-   "w": [
-    "Muse Wonder",
-    "Llama 4",
-    "Llama 3"
-   ],
-   "d": "D",
-   "e": "Muse Spark came out on 8 Apr 2026, while Muse Wonder followed on 12 Oct 2026. Llama 4 was April 2025 and its line is now paused.",
-   "x": [
-    "Muse Wonder followed on 12 Oct 2026 per the notes, not the model released on 8 April 2026.",
-    "Llama 4 was released in April 2025 per the notes, not on 8 April 2026, and its line is now paused.",
-    "Not the answer here: Llama 3 is not the Meta model the notes date to 8 April 2026; the answer is Muse Spark."
-   ]
-  },
-  {
-   "q": "Which AI leader left Meta in November 2025 to start his own venture?",
-   "a": "Yann LeCun",
-   "w": [
-    "Alexandr Wang",
-    "Andrew Ng",
-    "Demis Hassabis"
-   ],
-   "d": "D",
-   "e": "The notes say Turing Award winner Yann LeCun left Meta in Nov 2025. Alexandr Wang remains Chief AI Officer.",
-   "x": [
-    "Alexandr Wang is Meta's Chief AI Officer per the notes and stayed at Meta, so he did not leave in November 2025.",
-    "Not the answer here: Andrew Ng is not the Meta leader the notes say left in November 2025; the answer is Yann LeCun.",
-    "Not the answer here: Demis Hassabis is not the Meta leader the notes say left in November 2025; the answer is Yann LeCun."
-   ]
-  },
-  {
-   "q": "On what date was SpaceX's acquisition of xAI announced?",
-   "a": "2 February 2026",
-   "w": [
-    "21 April 2026",
-    "8 April 2026",
-    "1 September 2026"
-   ],
-   "d": "D",
-   "e": "SpaceX acquiring xAI was announced on 2 Feb 2026. The 21 April date is Apple's CEO announcement.",
-   "x": [
-    "21 April 2026 is the date of Apple's CEO announcement per the notes, not the SpaceX and xAI announcement.",
-    "Not the answer here: 8 April 2026 is not the announcement date given for SpaceX acquiring xAI; the answer is 2 February 2026.",
-    "Not the answer here: 1 September 2026 is not the announcement date given for SpaceX acquiring xAI; the answer is 2 February 2026."
-   ]
-  },
-  {
-   "q": "Which model released on 23 October 2026 is a 2.8 trillion-parameter MoE with open weights?",
-   "a": "Kimi K3.1 Pro",
-   "w": [
-    "Qwen 4",
-    "DeepSeek V4.1-Flash",
-    "Mistral Large 4"
-   ],
-   "d": "D",
-   "e": "Kimi K3.1 Pro from Moonshot AI matches the 23 Oct 2026 date and 2.8 T-parameter MoE. Qwen 4 is still in training.",
-   "x": [
-    "Qwen 4 is still in training per the notes, so it was not released on 23 October 2026.",
-    "Not the answer here: DeepSeek V4.1-Flash is not the 2.8 trillion-parameter open-weights MoE released on 23 October 2026; the answer is Kimi K3.1 Pro.",
-    "Not the answer here: Mistral Large 4 is not the 2.8 trillion-parameter open-weights MoE released on 23 October 2026; the answer is Kimi K3.1 Pro."
-   ]
-  },
-  {
-   "q": "Which two companies are behind the Agentic Commerce Protocol (ACP)?",
-   "a": "OpenAI and Stripe",
-   "w": [
-    "Google and Stripe",
-    "Anthropic and Stripe",
-    "OpenAI and Oracle"
-   ],
-   "d": "D",
-   "e": "ACP is from OpenAI plus Stripe. Google's counterpart is AP2, the Agent Payments Protocol.",
-   "x": [
-    "Google and Stripe is not the pair behind ACP; Google's counterpart is AP2, the Agent Payments Protocol.",
-    "Not the answer here: Anthropic is not one of the two companies behind ACP per the notes; ACP is from OpenAI and Stripe.",
-    "Not the answer here: Oracle is not the partner behind ACP per the notes; the partner is Stripe."
-   ]
-  },
-  {
-   "q": "Which trio created AlexNet, which won ImageNet in 2012?",
-   "a": "Krizhevsky, Sutskever and Hinton",
-   "w": [
-    "Hinton, LeCun and Bengio",
-    "Rumelhart, Hinton and Williams",
-    "Krizhevsky, LeCun and Bengio"
-   ],
-   "d": "D",
-   "e": "AlexNet was by Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton. Hinton, LeCun and Bengio won the 2018 Turing Award, and Rumelhart, Hinton and Williams popularized backpropagation in 1986.",
-   "x": [
-    "Hinton, LeCun and Bengio are the trio behind the 2018 Turing Award, not the creators of AlexNet.",
-    "Rumelhart, Hinton and Williams popularized backpropagation in 1986, not the creators of AlexNet.",
-    "Not the answer here: LeCun and Bengio are not AlexNet's creators per the notes; AlexNet was by Krizhevsky, Sutskever and Hinton."
-   ]
-  },
-  {
-   "q": "Who won the 2023 ACM Turing Award for work on complexity and randomness?",
-   "a": "Avi Wigderson",
-   "w": [
-    "Robert Metcalfe",
-    "Jack Dongarra",
-    "Charles Bennett"
-   ],
-   "d": "D",
-   "e": "Avi Wigderson won in 2023. Metcalfe won in 2022, Dongarra in 2021 and Bennett (with Brassard) in 2025.",
-   "x": [
-    "Robert Metcalfe won the ACM Turing Award in 2022 per the notes, not in 2023.",
-    "Jack Dongarra won the ACM Turing Award in 2021 per the notes, not in 2023.",
-    "Charles Bennett won in 2025 per the notes (with Brassard), not in 2023."
-   ]
-  },
-  {
-   "q": "Along with Jensen Huang, who co-founded Nvidia in 1993?",
-   "a": "Chris Malachowsky and Curtis Priem",
-   "w": [
-    "Robert Noyce and Gordon Moore",
-    "Jerry Sanders and Ed Oates",
-    "Reed Hastings and Marc Randolph"
-   ],
-   "d": "D",
-   "e": "Nvidia was founded by Huang, Malachowsky and Priem. Noyce and Moore founded Intel and Hastings and Randolph founded Netflix.",
-   "x": [
-    "Robert Noyce and Gordon Moore founded Intel, a different company, not Nvidia.",
-    "Not the answer here: Jerry Sanders and Ed Oates are not Nvidia's co-founders per the notes; the co-founders are Malachowsky and Priem.",
-    "Reed Hastings and Marc Randolph founded Netflix, a different company, not Nvidia."
-   ]
-  },
-  {
-   "q": "Which company did IBM acquire in 2019 for about $34 billion?",
-   "a": "Red Hat",
-   "w": [
-    "Sun Microsystems",
-    "GitHub",
-    "Mojang"
-   ],
-   "d": "D",
-   "e": "The notes say IBM bought Red Hat for $34 B in 2019. Sun was bought by Oracle in 2010 and GitHub by Microsoft in 2018.",
-   "x": [
-    "Sun Microsystems was bought by Oracle in 2010 per the notes, not by IBM in 2019.",
-    "GitHub was bought by Microsoft in 2018 per the notes, not by IBM in 2019.",
-    "Not the answer here: Mojang is not the company IBM bought in 2019 per the notes; the answer is Red Hat."
-   ]
-  },
-  {
-   "q": "On what date was Python 3.15 released?",
-   "a": "9 October 2026",
-   "w": [
-    "21 October 2026",
-    "14 October 2026",
-    "7 October 2025"
-   ],
-   "d": "D",
-   "e": "Python 3.15 was released on 9 Oct 2026, with 3.15.1 following on 21 Oct. Python 3.14 came out in Oct 2025.",
-   "x": [
-    "21 October 2026 is the date of Python 3.15.1, a follow-up release, not the 3.15 release date.",
-    "Not the answer here: 14 October 2026 is not the Python 3.15 release date per the notes; the release was 9 October 2026.",
-    "Not the answer here: 7 October 2025 is not the Python 3.15 release date; the notes give 9 October 2026, and 3.14 came out in October 2025."
-   ]
-  },
-  {
-   "q": "Which HDMI version, announced in January 2025, supports 96 Gbps?",
-   "a": "HDMI 2.2",
-   "w": [
-    "HDMI 2.1",
-    "HDMI 2.3",
-    "HDMI 3.0"
-   ],
-   "d": "D",
-   "e": "The notes list HDMI 2.1 as the mainstream standard and HDMI 2.2 (96 Gbps) as announced in Jan 2025.",
-   "x": [
-    "HDMI 2.1 is the mainstream standard per the notes, not the version announced in January 2025 with 96 Gbps.",
-    "Not the answer here: HDMI 2.3 is not the version announced in January 2025 with 96 Gbps per the notes; the answer is HDMI 2.2.",
-    "Not the answer here: HDMI 3.0 is not the version the notes tie to 96 Gbps in January 2025; the answer is HDMI 2.2."
-   ]
-  },
-  {
-   "q": "Which Philippine law is Republic Act 11934?",
-   "a": "SIM Registration Act",
-   "w": [
-    "Data Privacy Act",
-    "Cybercrime Prevention Act",
-    "Internet Transactions Act"
-   ],
-   "d": "D",
-   "e": "RA 11934 is the SIM Registration Act. The Data Privacy Act is RA 10173, Cybercrime RA 10175 and Internet Transactions RA 11967.",
-   "x": [
-    "Republic Act 10173 is the Data Privacy Act, a different law, not RA 11934.",
-    "Republic Act 10175 is the Cybercrime Prevention Act, a different law, not RA 11934.",
-    "Republic Act 11967 is the Internet Transactions Act, a different law, not RA 11934."
-   ]
-  },
-  {
-   "q": "Which is the Philippine internet exchange?",
-   "a": "PHOPEX",
-   "w": [
-    "PHNet",
-    "dotPH",
-    "PhilSys"
-   ],
-   "d": "D",
-   "e": "PHOPEX is the Philippine Open Internet Exchange. PHNet was the first Philippine Internet connection (1994) and dotPH handles the .ph domain.",
-   "x": [
-    "PHNet was the first Philippine Internet connection in 1994 per the notes, not the Internet exchange.",
-    "dotPH handles the .ph domain per the notes, not the Internet exchange.",
-    "Not the answer here: PhilSys is a national identification system, not an Internet exchange; the answer is PHOPEX."
-   ]
-  },
-  {
-   "q": "Which regional language model from AI Singapore covers Filipino?",
-   "a": "SEA-LION",
-   "w": [
-    "Gemma",
-    "Qwen",
-    "Nemotron"
-   ],
-   "d": "D",
-   "e": "The notes cite SEA-LION by AI Singapore as a regional model covering Filipino. Gemma is Google's open model family.",
-   "x": [
-    "Gemma is Google's open model family per the notes, not the AI Singapore regional model covering Filipino.",
-    "Not the answer here: Qwen is not the AI Singapore regional model covering Filipino per the notes; the answer is SEA-LION.",
-    "Not the answer here: Nemotron is not the regional model covering Filipino per the notes; the answer is SEA-LION."
-   ]
-  },
-  {
-   "q": "Which was the first registered domain name, in 1985?",
-   "a": "symbolics.com",
-   "w": [
-    "info.cern.ch",
-    "archie.com",
-    "apple.com"
-   ],
-   "d": "D",
-   "e": "symbolics.com (1985) is the first domain. info.cern.ch (1991) was the first website, a different milestone.",
-   "x": [
-    "info.cern.ch (1991) was the first website, a different milestone, not the first registered domain.",
-    "Not the answer here: archie.com is not the first registered domain per the notes; the answer is symbolics.com.",
-    "Not the answer here: apple.com is not the first registered domain per the notes; the answer is symbolics.com."
+    "Not what LLM means.",
+    "Not what LLM means.",
+    "Not what LLM means."
    ]
   }
  ],
@@ -2175,12 +1071,6 @@
   },
   {
    "d": "D",
-   "q": "Who founded Thinking Machines Lab?",
-   "a": "Mira Murati",
-   "alt": []
-  },
-  {
-   "d": "D",
    "q": "Who won the 2018 Turing Award for deep learning?",
    "a": "Hinton, LeCun and Bengio",
    "alt": []
@@ -2191,14 +1081,6 @@
    "a": "Barto and Sutton",
    "alt": [
     "Andrew Barto and Richard Sutton"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "Who won the 2022 Turing Award for Ethernet?",
-   "a": "Robert Metcalfe",
-   "alt": [
-    "Metcalfe"
    ]
   },
   {
@@ -2357,39 +1239,6 @@
   },
   {
    "d": "D",
-   "q": "Who founded Grab?",
-   "a": "Anthony Tan",
-   "alt": [
-    "Tan"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "Which company is the parent of Shopee?",
-   "a": "Sea Ltd",
-   "alt": [
-    "Sea",
-    "Sea Limited"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "Who is the CFO of OpenAI?",
-   "a": "Sarah Friar",
-   "alt": [
-    "Friar"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "Who is the Chair of OpenAI?",
-   "a": "Bret Taylor",
-   "alt": [
-    "Taylor"
-   ]
-  },
-  {
-   "d": "D",
    "q": "Who introduced GANs in 2014?",
    "a": "Ian Goodfellow",
    "alt": [
@@ -2410,24 +1259,6 @@
    "a": "Steve Ballmer",
    "alt": [
     "Ballmer"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "Who won the 2021 Turing Award for high-performance computing?",
-   "a": "Jack Dongarra",
-   "alt": [
-    "Dongarra"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "Who won the 2025 Turing Award for quantum cryptography?",
-   "a": "Charles Bennett and Gilles Brassard",
-   "alt": [
-    "Bennett and Brassard",
-    "Bennett & Brassard",
-    "Charles Bennett, Gilles Brassard"
    ]
   }
  ]

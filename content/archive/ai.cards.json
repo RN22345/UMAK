@@ -1,0 +1,80 @@
+{
+ "id": "ai",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "D",
+   "q": "Who founded Thinking Machines Lab?",
+   "a": "Mira Murati",
+   "alt": [],
+   "why": "obscure trivia not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Who won the 2022 Turing Award for Ethernet?",
+   "a": "Robert Metcalfe",
+   "alt": [
+    "Metcalfe"
+   ],
+   "why": "obscure trivia not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Who founded Grab?",
+   "a": "Anthony Tan",
+   "alt": [
+    "Tan"
+   ],
+   "why": "obscure trivia not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Which company is the parent of Shopee?",
+   "a": "Sea Ltd",
+   "alt": [
+    "Sea",
+    "Sea Limited"
+   ],
+   "why": "obscure trivia not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Who is the CFO of OpenAI?",
+   "a": "Sarah Friar",
+   "alt": [
+    "Friar"
+   ],
+   "why": "obscure trivia not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Who is the Chair of OpenAI?",
+   "a": "Bret Taylor",
+   "alt": [
+    "Taylor"
+   ],
+   "why": "obscure trivia not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Who won the 2021 Turing Award for high-performance computing?",
+   "a": "Jack Dongarra",
+   "alt": [
+    "Dongarra"
+   ],
+   "why": "obscure trivia not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Who won the 2025 Turing Award for quantum cryptography?",
+   "a": "Charles Bennett and Gilles Brassard",
+   "alt": [
+    "Bennett and Brassard",
+    "Bennett & Brassard",
+    "Charles Bennett, Gilles Brassard"
+   ],
+   "why": "obscure trivia not fair for typed ID"
+  }
+ ]
+}

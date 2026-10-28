@@ -1,0 +1,69 @@
+{
+ "id": "dbms",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "D",
+   "q": "How many rows does a CROSS JOIN of tables with 4 and 3 rows produce?",
+   "a": "12",
+   "alt": [],
+   "why": "calculation or obscure trivia"
+  },
+  {
+   "d": "D",
+   "q": "What is the AVG of 30000, 40000, 50000, 70000 and NULL in SQL?",
+   "a": "47500",
+   "alt": [],
+   "why": "calculation or obscure trivia"
+  },
+  {
+   "d": "D",
+   "q": "What is the name of a vector database used for AI embeddings (example)?",
+   "a": "Pinecone",
+   "alt": [
+    "Milvus",
+    "Chroma",
+    "pgvector"
+   ],
+   "why": "calculation or obscure trivia"
+  },
+  {
+   "d": "D",
+   "q": "Which DCL command, specific to SQL Server, explicitly blocks a permission?",
+   "a": "DENY",
+   "alt": [
+    "Deny"
+   ],
+   "why": "calculation or obscure trivia"
+  },
+  {
+   "d": "D",
+   "q": "Who created the embedded database SQLite?",
+   "a": "D. Richard Hipp",
+   "alt": [
+    "Richard Hipp",
+    "Hipp"
+   ],
+   "why": "calculation or obscure trivia"
+  },
+  {
+   "d": "D",
+   "q": "What is Oracle's name for the EXCEPT set operator?",
+   "a": "MINUS",
+   "alt": [
+    "Minus"
+   ],
+   "why": "calculation or obscure trivia"
+  },
+  {
+   "d": "D",
+   "q": "A(1,2,3) LEFT JOIN B(2,3,4) on id produces how many rows?",
+   "a": "3",
+   "alt": [
+    "three"
+   ],
+   "why": "calculation or obscure trivia"
+  }
+ ]
+}

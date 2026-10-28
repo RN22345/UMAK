@@ -1,0 +1,65 @@
+{
+ "id": "sec",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "D",
+   "q": "What function did NIST CSF 2.0 add?",
+   "a": "Govern",
+   "alt": [],
+   "why": "obscure figure/trivia or calculation, not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "What does STRIDE stand for in threat modeling?",
+   "a": "Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege",
+   "alt": [],
+   "why": "obscure figure/trivia or calculation, not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Which key length does DES use in bits?",
+   "a": "56",
+   "alt": [],
+   "why": "obscure figure/trivia or calculation, not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "What is the digest size of MD5 in bits?",
+   "a": "128",
+   "alt": [],
+   "why": "obscure figure/trivia or calculation, not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "What is the Caesar cipher (shift 3) result for HELLO?",
+   "a": "KHOOR",
+   "alt": [],
+   "why": "obscure figure/trivia or calculation, not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Which Lockheed Martin model has 7 steps from reconnaissance to actions on objectives?",
+   "a": "Cyber Kill Chain",
+   "alt": [],
+   "why": "obscure figure/trivia or calculation, not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Which Philippine agency handles cybercrime coordination (CICC)?",
+   "a": "Cybercrime Investigation and Coordinating Center",
+   "alt": [
+    "CICC"
+   ],
+   "why": "obscure figure/trivia or calculation, not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "In the Lockheed Martin Cyber Kill Chain, which stage comes immediately after Delivery?",
+   "a": "Exploitation",
+   "alt": [],
+   "why": "obscure figure/trivia or calculation, not fair for typed ID"
+  }
+ ]
+}

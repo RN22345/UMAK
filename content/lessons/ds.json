@@ -68,22 +68,6 @@
    "e": "Prescriptive analytics uses optimization, simulation and decision rules to recommend the best course of action. It fits the question asking what we should do."
   },
   {
-   "q": "The DIKW pyramid stands for:",
-   "a": "Data, Information, Knowledge, Wisdom",
-   "w": [
-    "Database, Information, Knowledge, Web",
-    "Data, Insight, Knowledge, Wisdom",
-    "Documents, Information, Knowledge, Wisdom"
-   ],
-   "d": "A",
-   "x": [
-    "Database is a storage system, not a level of the DIKW hierarchy, and Web is not a level either.",
-    "Insight is not the second DIKW level; the second level is Information, which is data given context.",
-    "Documents is not a DIKW level; the first level is Data. Information, Knowledge and Wisdom are correct."
-   ],
-   "e": "DIKW stands for Data, Information, Knowledge and Wisdom, a hierarchy where each level adds context, understanding and judgment to the one below. It fits the question asking for the four names."
-  },
-  {
    "q": "The first phase of CRISP-DM is:",
    "a": "Business understanding",
    "w": [
@@ -114,22 +98,6 @@
     "Data understanding is an early phase where data is collected and explored, far before the final phase."
    ],
    "e": "Deployment is the final CRISP-DM phase, where the validated model is put into production and its results are delivered to users. It fits because the question asks for the last phase."
-  },
-  {
-   "q": "The 5 Vs of big data are:",
-   "a": "Volume, Velocity, Variety, Veracity, Value",
-   "w": [
-    "Volume, Velocity, Variety, Validity, Visibility",
-    "Volume, Variety, Vision, Veracity, Value",
-    "Value, Version, Velocity, Variety, Volume"
-   ],
-   "d": "A",
-   "x": [
-    "Validity and Visibility are not standard big-data Vs. Veracity, meaning trustworthiness, is the V that belongs in the set.",
-    "Vision is not one of the standard big-data Vs. Velocity, the speed of data arrival, is missing from this list.",
-    "Version is not one of the standard big-data Vs. Veracity is missing here, so the set is incomplete."
-   ],
-   "e": "The 5 Vs of big data are Volume (amount), Velocity (speed), Variety (types), Veracity (trustworthiness) and Value (usefulness). The question asks for this standard set."
   },
   {
    "q": "Which Hadoop component provides distributed storage?",
@@ -196,70 +164,6 @@
    "e": "Images and videos are unstructured data because they have no predefined data model or schema that fits neatly into rows and columns. This is why they need specialized processing."
   },
   {
-   "q": "JSON data is classified as:",
-   "a": "Semi-structured",
-   "w": [
-    "Structured",
-    "Unstructured",
-    "Binary"
-   ],
-   "d": "A",
-   "x": [
-    "Structured data fits a fixed schema of rows and columns, such as relational tables. JSON uses tags and nesting instead.",
-    "Unstructured data has no defined model, such as images or free text. JSON has keys and nested fields that give it some organization.",
-    "Binary means raw machine-encoded bytes, such as executables or images. JSON is readable text whose keys describe its own structure."
-   ],
-   "e": "JSON is semi-structured data because it has no rigid fixed schema, yet uses key-value pairs and nesting to organize the data. It fits between structured tables and unstructured content."
-  },
-  {
-   "q": "The NOIR scales of measurement are:",
-   "a": "Nominal, Ordinal, Interval, Ratio",
-   "w": [
-    "Numeric, Ordinal, Interval, Ratio",
-    "Nominal, Ordinal, Integer, Real",
-    "Name, Order, Interval, Rank"
-   ],
-   "d": "A",
-   "x": [
-    "Numeric is not a measurement scale. The first scale is Nominal, used for unordered categories, and it is missing here.",
-    "Integer and Real are data types, not measurement scales. Interval and Ratio are the correct scales.",
-    "Name, Order, Rank are informal labels, not the standard scale names. The correct terms are Nominal, Ordinal, Interval and Ratio."
-   ],
-   "e": "The four levels of measurement are Nominal (labels), Ordinal (ranked order), Interval (equal differences, no true zero) and Ratio (equal differences with a true zero). The question asks for these four names."
-  },
-  {
-   "q": "Which scale has a true zero?",
-   "a": "Ratio",
-   "w": [
-    "Interval",
-    "Ordinal",
-    "Nominal"
-   ],
-   "d": "A",
-   "x": [
-    "Interval has equal gaps but no true zero, so ratios such as twice as much are not meaningful.",
-    "Ordinal data is ranked in order, but the gaps between ranks are not equal and there is no true zero.",
-    "Nominal data is just category labels with no order, no equal intervals and no meaningful zero."
-   ],
-   "e": "Ratio is the scale with a true zero, meaning zero is the absence of the quantity, so ratios like twice as heavy are valid. Examples include height, weight, income and age. This fits the question directly."
-  },
-  {
-   "q": "A survey rating from 1 to 5 (Poor to Excellent) is:",
-   "a": "Ordinal",
-   "w": [
-    "Nominal",
-    "Ratio",
-    "Continuous interval"
-   ],
-   "d": "A",
-   "x": [
-    "Nominal data is unordered categories, but a Poor to Excellent rating has a meaningful rank order.",
-    "Ratio data has a true zero and equal gaps, such as weight or income, which a 1 to 5 rating does not have.",
-    "Continuous interval mixes two ideas and is not a standard measurement level. A rating scale is ranked, not continuous."
-   ],
-   "e": "Ordinal data has categories with a meaningful order, but the distances between them are not guaranteed to be equal. A Poor to Excellent rating fits this description."
-  },
-  {
    "q": "Eye color is an example of:",
    "a": "Nominal data",
    "w": [
@@ -276,22 +180,6 @@
    "e": "Nominal data are categories with names or labels and no inherent order, such as eye colour, blood type or nationality. Eye colour fits this category."
   },
   {
-   "q": "The number of students in a class is:",
-   "a": "Discrete data",
-   "w": [
-    "Continuous data",
-    "Nominal data",
-    "Ordinal data"
-   ],
-   "d": "A",
-   "x": [
-    "Continuous data can take any value within a range, such as height or time, but a count of students is whole numbers only.",
-    "Nominal data are category labels, not counts, so a number of students is not nominal.",
-    "Ordinal data are ranked categories, while a count of students is a numeric quantity."
-   ],
-   "e": "Discrete data takes countable, separate values, usually whole numbers, such as counts of people or items. The number of students is a count, so it is discrete."
-  },
-  {
    "q": "Which technique replaces missing values with a statistical value?",
    "a": "Imputation",
    "w": [
@@ -306,22 +194,6 @@
     "Binning groups continuous values into intervals, and it does not estimate or replace missing values."
    ],
    "e": "Imputation fills in missing values using a statistic such as the mean, median or mode, or a model-based estimate. It fits the question about replacing missing values with a statistical value."
-  },
-  {
-   "q": "The IQR rule flags values outside:",
-   "a": "Q1 - 1.5 x IQR and Q3 + 1.5 x IQR",
-   "w": [
-    "Q1 and Q3",
-    "Mean +/- 1 SD",
-    "Median +/- IQR"
-   ],
-   "d": "D",
-   "x": [
-    "Q1 and Q3 are the quartile boundaries of the middle half of the data, not the fences used to flag outliers.",
-    "Mean plus or minus one standard deviation is a rule based on SD, not the IQR outlier rule.",
-    "Median plus or minus IQR is not a standard outlier rule; the IQR fences use Q1 and Q3 with 1.5 times the IQR."
-   ],
-   "e": "The IQR rule flags points below Q1 minus 1.5 times the IQR or above Q3 plus 1.5 times the IQR as potential outliers. It is based on quartiles, so it is resistant to extreme values."
   },
   {
    "q": "Min-max normalization scales values to the range:",
@@ -354,22 +226,6 @@
     "Variance 0 would mean all values are identical; standardized data keeps a variance of 1, so this is not the result."
    ],
    "e": "Standardization computes z = (x - mean) / SD, so the transformed data has mean 0 and standard deviation 1. It fits the question about the z-score result."
-  },
-  {
-   "q": "Which encoding creates a binary column for each category?",
-   "a": "One-hot encoding",
-   "w": [
-    "Label encoding",
-    "Ordinal encoding",
-    "Hash encoding"
-   ],
-   "d": "E",
-   "x": [
-    "Label encoding maps each category to a single integer in one column, not a separate binary column per category.",
-    "Ordinal encoding assigns ranked integers to categories in one column, so it does not create binary columns.",
-    "Hash encoding maps categories to a fixed number of hashed columns, not one binary column for each category."
-   ],
-   "e": "One-hot encoding creates one binary column per category, set to 1 where the category applies and 0 otherwise. It avoids implying a false order among categories."
   },
   {
    "q": "Which is the middle value of a sorted dataset?",
@@ -420,22 +276,6 @@
    "e": "Mode is the value that appears most frequently in a dataset. It is the only central measure that can be used for categorical data."
   },
   {
-   "q": "For the dataset {2, 3, 3, 5, 7, 9, 100}, the median is:",
-   "a": "5",
-   "w": [
-    "3",
-    "18.4",
-    "7"
-   ],
-   "d": "A",
-   "x": [
-    "3 is the mode, the value that appears most often, not the middle value of the sorted set.",
-    "18.4 is the mean (129 divided by 7), which the outlier 100 pulls upward; the median ignores that pull.",
-    "7 is the fifth value in the sorted list, not the fourth, which is the middle of seven values."
-   ],
-   "e": "With 7 values sorted as 2, 3, 3, 5, 7, 9, 100, the middle (4th) value is 5. The median is 5, and the large outlier 100 does not change it."
-  },
-  {
    "q": "The square root of variance is the:",
    "a": "Standard deviation",
    "w": [
@@ -450,38 +290,6 @@
     "IQR is the spread between the 25th and 75th percentiles, not the square root of the variance."
    ],
    "e": "Standard deviation is the square root of the variance, expressing spread in the same units as the data. It fits the question's definition."
-  },
-  {
-   "q": "IQR is computed as:",
-   "a": "Q3 - Q1",
-   "w": [
-    "Q1 - Q3",
-    "Max - Min",
-    "Median - Q1"
-   ],
-   "d": "E",
-   "x": [
-    "Q1 minus Q3 gives a negative number because Q1 is smaller, so it cannot be a spread measure.",
-    "Max minus Min is the range, which uses the extreme values rather than the middle half of the data.",
-    "Median minus Q1 is not a standard measure; the IQR uses the difference between the third and first quartiles."
-   ],
-   "e": "The interquartile range is Q3 minus Q1, the spread of the middle 50 percent of the data. It is robust to outliers."
-  },
-  {
-   "q": "A Pearson correlation of -1 means:",
-   "a": "Perfect negative linear relationship",
-   "w": [
-    "No relationship",
-    "Perfect positive relationship",
-    "Causation"
-   ],
-   "d": "A",
-   "x": [
-    "No relationship corresponds to a correlation of 0, not -1, which indicates a perfect linear relationship.",
-    "Perfect positive relationship corresponds to +1, the opposite direction from -1.",
-    "Causation is not measured by the Pearson correlation coefficient, which only measures linear association."
-   ],
-   "e": "A Pearson correlation of -1 means all points lie exactly on a straight line sloping downward, so as one variable increases the other decreases. It fits the question's definition."
   },
   {
    "q": "Correlation does not imply:",
@@ -500,70 +308,6 @@
    "e": "Correlation shows that two variables move together, but it cannot prove one causes the other, since confounders or reverse causation may explain the link. The question asks what correlation does not imply."
   },
   {
-   "q": "In a normal distribution, about what percent of data lies within 1 standard deviation of the mean?",
-   "a": "68%",
-   "w": [
-    "95%",
-    "99.7%",
-    "50%"
-   ],
-   "d": "E",
-   "x": [
-    "95 percent is the share within 2 standard deviations, not within 1.",
-    "99.7 percent is the share within 3 standard deviations of the mean, not within 1.",
-    "50 percent is roughly the share within 0.67 standard deviations, not within 1 standard deviation."
-   ],
-   "e": "About 68 percent of a normal distribution lies within one standard deviation of the mean, about 95 percent within two, and about 99.7 percent within three."
-  },
-  {
-   "q": "In a normal distribution, about what percent lies within 2 standard deviations?",
-   "a": "95%",
-   "w": [
-    "68%",
-    "99.7%",
-    "90%"
-   ],
-   "d": "E",
-   "x": [
-    "68 percent is the share within 1 standard deviation, not within 2.",
-    "99.7 percent is the share within 3 standard deviations of the mean, not within 2.",
-    "90 percent is not the standard normal benchmark; about 95 percent lies within 2 standard deviations."
-   ],
-   "e": "In a normal distribution about 95 percent of values lie within two standard deviations of the mean (more precisely 95.4 percent). The question asks for this value."
-  },
-  {
-   "q": "In a normal distribution, about what percent lies within 3 standard deviations?",
-   "a": "99.7%",
-   "w": [
-    "95%",
-    "68%",
-    "100%"
-   ],
-   "d": "E",
-   "x": [
-    "95 percent is the share within 2 standard deviations, not within 3.",
-    "68 percent is the share within 1 standard deviation of the mean, not within 3.",
-    "100 percent is not reached by a normal distribution, whose tails extend indefinitely, so about 99.7 percent is the within-3 value."
-   ],
-   "e": "About 99.7 percent of a normal distribution lies within three standard deviations of the mean, leaving about 0.3 percent in the tails. The question asks for the three-sigma share."
-  },
-  {
-   "q": "The Central Limit Theorem states that:",
-   "a": "Sample means tend to be normally distributed as sample size grows",
-   "w": [
-    "All data is normal",
-    "The mean equals the median",
-    "Variance is constant"
-   ],
-   "d": "A",
-   "x": [
-    "All data is normal is a false assumption; the CLT concerns the distribution of sample means, not the raw data being normal.",
-    "The mean equals the median only for symmetric distributions, and the CLT does not state that.",
-    "Variance is constant describes homoscedasticity, a separate assumption, not the statement of the CLT."
-   ],
-   "e": "The Central Limit Theorem says sample means approach a normal distribution as sample size grows, even if the population is not normal. This matches the question."
-  },
-  {
    "q": "In hypothesis testing, a p-value below alpha (0.05) leads you to:",
    "a": "Reject the null hypothesis",
    "w": [
@@ -578,38 +322,6 @@
     "Ignoring the test discards the evidence, which is not what the p-value rule directs a researcher to do."
    ],
    "e": "When the p-value is below alpha, the observed result is unlikely under the null hypothesis, so you reject the null hypothesis. This is the decision rule for significance testing."
-  },
-  {
-   "q": "A Type I error is:",
-   "a": "Rejecting a true null hypothesis (false positive)",
-   "w": [
-    "Failing to reject a false null hypothesis",
-    "Accepting the alternative",
-    "A computation error"
-   ],
-   "d": "A",
-   "x": [
-    "Failing to reject a false null is a Type II error, the false negative, not a false positive.",
-    "Accepting the alternative is a decision in favor of H1, not the definition of a false positive error.",
-    "A computation error is an arithmetic mistake, not the statistical concept of a Type I error."
-   ],
-   "e": "A Type I error occurs when a true null hypothesis is wrongly rejected, a false positive. Its probability is controlled by the significance level alpha."
-  },
-  {
-   "q": "A Type II error is:",
-   "a": "Failing to reject a false null hypothesis (false negative)",
-   "w": [
-    "Rejecting a true null hypothesis",
-    "A sampling error",
-    "A measurement error"
-   ],
-   "d": "A",
-   "x": [
-    "Rejecting a true null hypothesis is a Type I error, the false positive, not a false negative.",
-    "A sampling error is a general term for variation from sampling, not the specific Type II error definition.",
-    "A measurement error comes from inaccurate data collection, not from failing to detect a real effect in the test decision."
-   ],
-   "e": "A Type II error occurs when a false null hypothesis is not rejected, a false negative, so a real effect is missed. Its probability is denoted beta, and power is 1 minus beta."
   },
   {
    "q": "Which statistical test compares the means of three or more groups?",
@@ -642,22 +354,6 @@
     "Linear regression models how a numeric outcome relates to predictors, not a test of categorical association."
    ],
    "e": "The chi-square test of independence checks whether two categorical variables are associated, by comparing observed counts in a contingency table with expected counts."
-  },
-  {
-   "q": "Machine learning was defined in 1959 by:",
-   "a": "Arthur Samuel",
-   "w": [
-    "Alan Turing",
-    "John McCarthy",
-    "Geoffrey Hinton"
-   ],
-   "d": "D",
-   "x": [
-    "Alan Turing proposed the Turing test and computability theory, but did not give the 1959 machine learning definition.",
-    "John McCarthy coined the term artificial intelligence and organized the 1956 Dartmouth workshop, not the 1959 definition.",
-    "Geoffrey Hinton is a pioneer of deep learning and backpropagation research, decades after the 1959 definition."
-   ],
-   "e": "Arthur Samuel, who worked on checkers-playing programs at IBM, described machine learning in 1959 as giving computers the ability to learn without being explicitly programmed. The question asks for this author."
   },
   {
    "q": "Which learning type uses labeled data?",
@@ -740,22 +436,6 @@
    "e": "k-Means clusters data by assigning each point to the nearest of k centroids and then recomputing the centroids, repeating until assignments stabilize. This fits the question about centroids."
   },
   {
-   "q": "Which algorithm classifies by looking at the nearest neighbors?",
-   "a": "k-NN",
-   "w": [
-    "k-Means",
-    "DBSCAN",
-    "PCA"
-   ],
-   "d": "E",
-   "x": [
-    "k-Means is a clustering method that assigns points to centroids, not a classifier that looks at nearest neighbors.",
-    "DBSCAN is a density-based clustering algorithm that groups dense regions, not a nearest-neighbor classifier.",
-    "PCA is a dimensionality reduction technique that finds directions of maximum variance, not a classifier."
-   ],
-   "e": "k-Nearest Neighbors classifies a new point by the majority label among its k closest training points, using a distance measure. This fits the question about nearest neighbors."
-  },
-  {
    "q": "Which ensemble method builds many decision trees and combines their votes?",
    "a": "Random Forest",
    "w": [
@@ -770,38 +450,6 @@
     "Naive Bayes is a single probabilistic classifier with independence assumptions, not an ensemble of trees."
    ],
    "e": "Random Forest trains many decision trees on bootstrapped samples with random feature subsets and combines their votes or averages. This reduces variance compared with a single tree."
-  },
-  {
-   "q": "Which technique reduces the number of features while preserving variance?",
-   "a": "PCA",
-   "w": [
-    "SMOTE",
-    "One-hot encoding",
-    "k-Means"
-   ],
-   "d": "A",
-   "x": [
-    "SMOTE generates synthetic minority-class samples to fix class imbalance, not to reduce the number of features.",
-    "One-hot encoding creates more binary columns from categories, which increases the number of features rather than reducing them.",
-    "k-Means is a clustering algorithm that groups data points, not a method that preserves variance while reducing features."
-   ],
-   "e": "Principal Component Analysis projects data onto directions of maximum variance, called principal components, reducing the number of features while keeping as much variance as possible. This fits the question."
-  },
-  {
-   "q": "Reinforcement learning uses:",
-   "a": "Agent, environment and rewards",
-   "w": [
-    "Labeled pairs only",
-    "Clusters",
-    "Decision trees only"
-   ],
-   "d": "E",
-   "x": [
-    "Labeled input-output pairs are the basis of supervised learning, not the reinforcement learning setup.",
-    "Clusters are the output of unsupervised clustering, not part of the reinforcement learning framework.",
-    "Decision trees are one model type that can be used in many settings, not a restriction of reinforcement learning."
-   ],
-   "e": "Reinforcement learning has an agent that takes actions in an environment and receives rewards or penalties, learning a policy that maximizes cumulative reward over time. This fits the question."
   },
   {
    "q": "A model that performs well on training data but poorly on new data is:",
@@ -820,52 +468,292 @@
    "e": "Overfitting happens when a model learns noise and specific details of the training data, so it performs well on training data but poorly on unseen data. This fits the question."
   },
   {
-   "q": "A model too simple to capture patterns is:",
-   "a": "Underfitting",
+   "q": "Which Python library is used for data manipulation with DataFrames?",
+   "a": "pandas",
    "w": [
-    "Overfitting",
-    "Regularized",
-    "Ensemble"
+    "NumPy",
+    "Matplotlib",
+    "Seaborn"
    ],
    "d": "E",
    "x": [
-    "Overfitting means the model fits training data too closely and fails on new data, not that it is too simple.",
-    "Regularized describes a technique, such as L2 penalties, that reduces overfitting, not a model that is too simple.",
-    "Ensemble describes combining multiple models, such as random forests, and does not by itself mean a model is too simple."
+    "NumPy provides N-dimensional arrays and numerical routines, not labeled DataFrames for data manipulation.",
+    "Matplotlib is a plotting library for creating charts, not a tool for manipulating DataFrames.",
+    "Seaborn is a statistical visualization library built on Matplotlib, not a data manipulation library."
    ],
-   "e": "Underfitting happens when a model is too simple or has too few features to capture the underlying patterns, so it performs poorly even on training data."
+   "e": "pandas is a Python library that provides DataFrame and Series structures for cleaning, filtering, joining and aggregating tabular data. It fits the question."
   },
   {
-   "q": "Which technique evaluates a model by splitting data into k parts?",
-   "a": "k-fold cross-validation",
+   "q": "Which chart type best shows a trend over time?",
+   "a": "Line chart",
    "w": [
-    "Bootstrapping only",
-    "Gradient descent",
-    "Dropout"
+    "Pie chart",
+    "Scatter plot",
+    "Treemap"
    ],
    "d": "E",
    "x": [
-    "Bootstrapping resamples data with replacement to estimate uncertainty, not splitting data into k equal parts.",
-    "Gradient descent is an optimization method for minimizing a loss, not a way to evaluate a model by splitting data.",
-    "Dropout is a regularization technique for neural networks that randomly drops units during training, not a data-splitting evaluation."
+    "A pie chart shows parts of a whole at one point in time, not a trend over time.",
+    "A scatter plot shows the relationship between two numeric variables, not a trend across time periods.",
+    "A treemap shows hierarchical parts of a whole using nested rectangles, not change over time."
    ],
-   "e": "k-fold cross-validation splits the data into k parts, training on k minus 1 folds and testing on the remaining fold, rotating so every fold is used once for testing. It gives a more reliable performance estimate."
+   "e": "A line chart connects data points in time order, making increases, decreases and trends easy to see over time. It is the standard choice for time series."
   },
   {
-   "q": "In a confusion matrix, TP stands for:",
-   "a": "True Positive",
+   "q": "Which chart type shows the relationship between two numeric variables?",
+   "a": "Scatter plot",
    "w": [
-    "Total Predicted",
-    "Test Prediction",
-    "Target Positive"
+    "Pie chart",
+    "Histogram",
+    "Bar chart"
    ],
    "d": "E",
    "x": [
-    "Total Predicted is not a confusion matrix term; the matrix counts correct and incorrect predictions per class.",
-    "Test Prediction is not a standard term; TP means a positive case correctly predicted as positive.",
-    "Target Positive is not the standard term; TP stands for True Positive, a correctly predicted positive case."
+    "A pie chart shows parts of a whole for categories, not the relationship between two numeric variables.",
+    "A histogram shows the distribution of a single numeric variable, not the relationship between two variables.",
+    "A bar chart compares values across categories, not the relationship between two numeric variables."
    ],
-   "e": "In a confusion matrix, TP means True Positive, a positive case that the model correctly predicted as positive. Other cells are TN, FP and FN."
+   "e": "A scatter plot places each observation as a point using two numeric variables on its axes, so it reveals correlation, clusters and outliers. It fits the question."
+  },
+  {
+   "q": "Which chart shows median, quartiles and outliers?",
+   "a": "Box plot",
+   "w": [
+    "Histogram",
+    "Pie chart",
+    "Heatmap"
+   ],
+   "d": "E",
+   "x": [
+    "A histogram shows the shape of a distribution through bar counts, but it does not explicitly mark quartiles and outliers.",
+    "A pie chart shows proportions of a whole and does not display quartiles or outliers.",
+    "A heatmap shows values as colors in a grid, and does not display a median or quartile summary."
+   ],
+   "e": "A box plot draws the median, the first and third quartiles and whiskers, and marks outliers as individual points. It summarizes a distribution compactly."
+  },
+  {
+   "q": "Which AI system beat Garry Kasparov in 1997?",
+   "a": "IBM Deep Blue",
+   "w": [
+    "IBM Watson",
+    "AlphaGo",
+    "AlphaZero"
+   ],
+   "d": "E",
+   "x": [
+    "IBM Watson won Jeopardy! in 2011, not a chess match against Kasparov.",
+    "AlphaGo beat Lee Sedol at Go in 2016, a different game and opponent.",
+    "AlphaZero learned chess, shogi and Go through self-play in 2017, and did not defeat Kasparov in 1997."
+   ],
+   "e": "IBM Deep Blue defeated reigning world chess champion Garry Kasparov in a 1997 match. The question asks for this system."
+  },
+  {
+   "q": "Which AI system beat Lee Sedol at Go in 2016?",
+   "a": "AlphaGo",
+   "w": [
+    "Deep Blue",
+    "Watson",
+    "Stockfish"
+   ],
+   "d": "E",
+   "x": [
+    "Deep Blue played chess and beat Kasparov in 1997, not Go.",
+    "Watson competed on Jeopardy! in 2011, not in a Go match.",
+    "Stockfish is an open-source chess engine, not a Go-playing system."
+   ],
+   "e": "DeepMind's AlphaGo defeated Lee Sedol 4 games to 1 in March 2016 in the game of Go, a milestone because Go has a far larger search space than chess. The question asks for this system."
+  },
+  {
+   "q": "The DIKW pyramid stands for:",
+   "a": "Data, Information, Knowledge, Wisdom",
+   "w": [
+    "Database, Information, Knowledge, Web",
+    "Data, Insight, Knowledge, Wisdom",
+    "Documents, Information, Knowledge, Wisdom"
+   ],
+   "d": "A",
+   "x": [
+    "Database is a storage system, not a level of the DIKW hierarchy, and Web is not a level either.",
+    "Insight is not the second DIKW level; the second level is Information, which is data given context.",
+    "Documents is not a DIKW level; the first level is Data. Information, Knowledge and Wisdom are correct."
+   ],
+   "e": "DIKW stands for Data, Information, Knowledge and Wisdom, a hierarchy where each level adds context, understanding and judgment to the one below. It fits the question asking for the four names."
+  },
+  {
+   "q": "JSON data is classified as:",
+   "a": "Semi-structured",
+   "w": [
+    "Structured",
+    "Unstructured",
+    "Binary"
+   ],
+   "d": "A",
+   "x": [
+    "Structured data fits a fixed schema of rows and columns, such as relational tables. JSON uses tags and nesting instead.",
+    "Unstructured data has no defined model, such as images or free text. JSON has keys and nested fields that give it some organization.",
+    "Binary means raw machine-encoded bytes, such as executables or images. JSON is readable text whose keys describe its own structure."
+   ],
+   "e": "JSON is semi-structured data because it has no rigid fixed schema, yet uses key-value pairs and nesting to organize the data. It fits between structured tables and unstructured content."
+  },
+  {
+   "q": "The NOIR scales of measurement are:",
+   "a": "Nominal, Ordinal, Interval, Ratio",
+   "w": [
+    "Numeric, Ordinal, Interval, Ratio",
+    "Nominal, Ordinal, Integer, Real",
+    "Name, Order, Interval, Rank"
+   ],
+   "d": "A",
+   "x": [
+    "Numeric is not a measurement scale. The first scale is Nominal, used for unordered categories, and it is missing here.",
+    "Integer and Real are data types, not measurement scales. Interval and Ratio are the correct scales.",
+    "Name, Order, Rank are informal labels, not the standard scale names. The correct terms are Nominal, Ordinal, Interval and Ratio."
+   ],
+   "e": "The four levels of measurement are Nominal (labels), Ordinal (ranked order), Interval (equal differences, no true zero) and Ratio (equal differences with a true zero). The question asks for these four names."
+  },
+  {
+   "q": "Which scale has a true zero?",
+   "a": "Ratio",
+   "w": [
+    "Interval",
+    "Ordinal",
+    "Nominal"
+   ],
+   "d": "A",
+   "x": [
+    "Interval has equal gaps but no true zero, so ratios such as twice as much are not meaningful.",
+    "Ordinal data is ranked in order, but the gaps between ranks are not equal and there is no true zero.",
+    "Nominal data is just category labels with no order, no equal intervals and no meaningful zero."
+   ],
+   "e": "Ratio is the scale with a true zero, meaning zero is the absence of the quantity, so ratios like twice as heavy are valid. Examples include height, weight, income and age. This fits the question directly."
+  },
+  {
+   "q": "A survey rating from 1 to 5 (Poor to Excellent) is:",
+   "a": "Ordinal",
+   "w": [
+    "Nominal",
+    "Ratio",
+    "Continuous interval"
+   ],
+   "d": "A",
+   "x": [
+    "Nominal data is unordered categories, but a Poor to Excellent rating has a meaningful rank order.",
+    "Ratio data has a true zero and equal gaps, such as weight or income, which a 1 to 5 rating does not have.",
+    "Continuous interval mixes two ideas and is not a standard measurement level. A rating scale is ranked, not continuous."
+   ],
+   "e": "Ordinal data has categories with a meaningful order, but the distances between them are not guaranteed to be equal. A Poor to Excellent rating fits this description."
+  },
+  {
+   "q": "The number of students in a class is:",
+   "a": "Discrete data",
+   "w": [
+    "Continuous data",
+    "Nominal data",
+    "Ordinal data"
+   ],
+   "d": "A",
+   "x": [
+    "Continuous data can take any value within a range, such as height or time, but a count of students is whole numbers only.",
+    "Nominal data are category labels, not counts, so a number of students is not nominal.",
+    "Ordinal data are ranked categories, while a count of students is a numeric quantity."
+   ],
+   "e": "Discrete data takes countable, separate values, usually whole numbers, such as counts of people or items. The number of students is a count, so it is discrete."
+  },
+  {
+   "q": "For the dataset {2, 3, 3, 5, 7, 9, 100}, the median is:",
+   "a": "5",
+   "w": [
+    "3",
+    "18.4",
+    "7"
+   ],
+   "d": "A",
+   "x": [
+    "3 is the mode, the value that appears most often, not the middle value of the sorted set.",
+    "18.4 is the mean (129 divided by 7), which the outlier 100 pulls upward; the median ignores that pull.",
+    "7 is the fifth value in the sorted list, not the fourth, which is the middle of seven values."
+   ],
+   "e": "With 7 values sorted as 2, 3, 3, 5, 7, 9, 100, the middle (4th) value is 5. The median is 5, and the large outlier 100 does not change it."
+  },
+  {
+   "q": "A Pearson correlation of -1 means:",
+   "a": "Perfect negative linear relationship",
+   "w": [
+    "No relationship",
+    "Perfect positive relationship",
+    "Causation"
+   ],
+   "d": "A",
+   "x": [
+    "No relationship corresponds to a correlation of 0, not -1, which indicates a perfect linear relationship.",
+    "Perfect positive relationship corresponds to +1, the opposite direction from -1.",
+    "Causation is not measured by the Pearson correlation coefficient, which only measures linear association."
+   ],
+   "e": "A Pearson correlation of -1 means all points lie exactly on a straight line sloping downward, so as one variable increases the other decreases. It fits the question's definition."
+  },
+  {
+   "q": "The Central Limit Theorem states that:",
+   "a": "Sample means tend to be normally distributed as sample size grows",
+   "w": [
+    "All data is normal",
+    "The mean equals the median",
+    "Variance is constant"
+   ],
+   "d": "A",
+   "x": [
+    "All data is normal is a false assumption; the CLT concerns the distribution of sample means, not the raw data being normal.",
+    "The mean equals the median only for symmetric distributions, and the CLT does not state that.",
+    "Variance is constant describes homoscedasticity, a separate assumption, not the statement of the CLT."
+   ],
+   "e": "The Central Limit Theorem says sample means approach a normal distribution as sample size grows, even if the population is not normal. This matches the question."
+  },
+  {
+   "q": "A Type I error is:",
+   "a": "Rejecting a true null hypothesis (false positive)",
+   "w": [
+    "Failing to reject a false null hypothesis",
+    "Accepting the alternative",
+    "A computation error"
+   ],
+   "d": "A",
+   "x": [
+    "Failing to reject a false null is a Type II error, the false negative, not a false positive.",
+    "Accepting the alternative is a decision in favor of H1, not the definition of a false positive error.",
+    "A computation error is an arithmetic mistake, not the statistical concept of a Type I error."
+   ],
+   "e": "A Type I error occurs when a true null hypothesis is wrongly rejected, a false positive. Its probability is controlled by the significance level alpha."
+  },
+  {
+   "q": "A Type II error is:",
+   "a": "Failing to reject a false null hypothesis (false negative)",
+   "w": [
+    "Rejecting a true null hypothesis",
+    "A sampling error",
+    "A measurement error"
+   ],
+   "d": "A",
+   "x": [
+    "Rejecting a true null hypothesis is a Type I error, the false positive, not a false negative.",
+    "A sampling error is a general term for variation from sampling, not the specific Type II error definition.",
+    "A measurement error comes from inaccurate data collection, not from failing to detect a real effect in the test decision."
+   ],
+   "e": "A Type II error occurs when a false null hypothesis is not rejected, a false negative, so a real effect is missed. Its probability is denoted beta, and power is 1 minus beta."
+  },
+  {
+   "q": "Which technique reduces the number of features while preserving variance?",
+   "a": "PCA",
+   "w": [
+    "SMOTE",
+    "One-hot encoding",
+    "k-Means"
+   ],
+   "d": "A",
+   "x": [
+    "SMOTE generates synthetic minority-class samples to fix class imbalance, not to reduce the number of features.",
+    "One-hot encoding creates more binary columns from categories, which increases the number of features rather than reducing them.",
+    "k-Means is a clustering algorithm that groups data points, not a method that preserves variance while reducing features."
+   ],
+   "e": "Principal Component Analysis projects data onto directions of maximum variance, called principal components, reducing the number of features while keeping as much variance as possible. This fits the question."
   },
   {
    "q": "Precision is calculated as:",
@@ -932,38 +820,6 @@
    "e": "The F1 score is the harmonic mean of precision and recall, 2 times precision times recall divided by their sum. It penalizes large gaps between the two."
   },
   {
-   "q": "With TP=40, FP=10, FN=20, TN=30, the precision is:",
-   "a": "0.80",
-   "w": [
-    "0.67",
-    "0.70",
-    "0.50"
-   ],
-   "d": "D",
-   "x": [
-    "0.67 is recall, 40 divided by 60 (TP + FN), not precision, which divides by predicted positives TP + FP = 50.",
-    "0.70 is accuracy, (40 + 30) divided by 100, not precision, which uses only the predicted positives.",
-    "Does not match the correct calculation; precision is 40 divided by 50, the predicted positives."
-   ],
-   "e": "Precision = TP / (TP + FP) = 40 / (40 + 10) = 40 / 50 = 0.80, the share of predicted positives that were correct."
-  },
-  {
-   "q": "With TP=40, FP=10, FN=20, TN=30, the accuracy is:",
-   "a": "0.70",
-   "w": [
-    "0.80",
-    "0.67",
-    "0.60"
-   ],
-   "d": "D",
-   "x": [
-    "0.80 is precision, 40 divided by 50 (TP + FP), not accuracy, which counts all 100 cases.",
-    "0.67 is recall, 40 divided by 60 (TP + FN), which does not include the true negatives.",
-    "Does not match the correct calculation; accuracy is (40 + 30) divided by 100."
-   ],
-   "e": "Accuracy = (TP + TN) / (TP + TN + FP + FN) = (40 + 30) / 100 = 0.70, the proportion of all 100 predictions that were correct."
-  },
-  {
    "q": "An AUC of 0.5 means the classifier:",
    "a": "Performs no better than random",
    "w": [
@@ -978,22 +834,6 @@
     "AUC is not a precision value; 0.5 reflects ranking no better than random guessing, not 50 percent precision."
    ],
    "e": "An AUC of 0.5 means the ROC curve lies on the diagonal, so the classifier ranks positives above negatives no better than random chance. It is the baseline for a useless model."
-  },
-  {
-   "q": "Which library is Google's deep learning framework?",
-   "a": "TensorFlow",
-   "w": [
-    "PyTorch",
-    "scikit-learn",
-    "Keras only"
-   ],
-   "d": "E",
-   "x": [
-    "PyTorch is a deep learning framework developed mainly by Meta, not Google's framework.",
-    "scikit-learn is a Python library for classical machine learning algorithms, not Google's deep learning framework.",
-    "Keras is a high-level API that was integrated into TensorFlow, so it is not a separate framework from Google."
-   ],
-   "e": "TensorFlow is an open-source deep learning framework developed by the Google Brain team and released in 2015. The question asks for Google's framework."
   },
   {
    "q": "Which deep learning framework was developed by Meta?",
@@ -1012,38 +852,6 @@
    "e": "PyTorch is an open-source deep learning framework originally developed by Meta AI (Facebook AI Research) and now hosted under the Linux Foundation. It is known for dynamic computation graphs."
   },
   {
-   "q": "Which Python library is used for data manipulation with DataFrames?",
-   "a": "pandas",
-   "w": [
-    "NumPy",
-    "Matplotlib",
-    "Seaborn"
-   ],
-   "d": "E",
-   "x": [
-    "NumPy provides N-dimensional arrays and numerical routines, not labeled DataFrames for data manipulation.",
-    "Matplotlib is a plotting library for creating charts, not a tool for manipulating DataFrames.",
-    "Seaborn is a statistical visualization library built on Matplotlib, not a data manipulation library."
-   ],
-   "e": "pandas is a Python library that provides DataFrame and Series structures for cleaning, filtering, joining and aggregating tabular data. It fits the question."
-  },
-  {
-   "q": "Which Python library is mainly used for numerical arrays?",
-   "a": "NumPy",
-   "w": [
-    "pandas",
-    "Seaborn",
-    "Requests"
-   ],
-   "d": "E",
-   "x": [
-    "pandas is built on NumPy and focuses on labeled tabular DataFrames, not core N-dimensional numerical arrays.",
-    "Seaborn is a statistical plotting library, not a numerical array library.",
-    "Requests is a library for making HTTP calls, not for numerical array computation."
-   ],
-   "e": "NumPy is the core Python library for multidimensional arrays and fast vectorized mathematical operations. It is the foundation for many scientific libraries."
-  },
-  {
    "q": "Which neural network architecture is the basis of GPT, BERT and Claude?",
    "a": "Transformer",
    "w": [
@@ -1060,54 +868,6 @@
    "e": "The Transformer architecture, based on self-attention, underlies large language models such as GPT, BERT and Claude. It fits the question about the common basis of these models."
   },
   {
-   "q": "The paper that introduced the Transformer (2017) is titled:",
-   "a": "Attention Is All You Need",
-   "w": [
-    "Deep Residual Learning",
-    "Generative Adversarial Nets",
-    "Language Models are Few-Shot Learners"
-   ],
-   "d": "D",
-   "x": [
-    "Deep Residual Learning introduced residual networks (ResNet) for image recognition, not the Transformer.",
-    "Generative Adversarial Nets introduced GANs in 2014, a generative framework rather than the Transformer.",
-    "Language Models are Few-Shot Learners introduced GPT-3 in 2020, which builds on the Transformer rather than introducing it."
-   ],
-   "e": "Attention Is All You Need, by Vaswani et al. at Google in 2017, introduced the Transformer architecture built on self-attention, without recurrence or convolution. It fits the question."
-  },
-  {
-   "q": "Which architecture is best suited to image tasks?",
-   "a": "CNN",
-   "w": [
-    "RNN",
-    "Transformer only",
-    "Autoencoder only"
-   ],
-   "d": "E",
-   "x": [
-    "RNNs are designed for sequential data such as text or time series, not for spatial image tasks.",
-    "Transformer alone is a general architecture, while the question asks for the design built around the spatial structure of images, which is the CNN.",
-    "Autoencoders learn compressed representations and are used for denoising or anomaly detection, not as the standard architecture for image tasks."
-   ],
-   "e": "Convolutional Neural Networks use convolution filters that detect local spatial patterns such as edges and textures, and share weights across the image. This makes them well suited to image tasks."
-  },
-  {
-   "q": "Who invented GANs in 2014?",
-   "a": "Ian Goodfellow",
-   "w": [
-    "Geoffrey Hinton",
-    "Yann LeCun",
-    "Yoshua Bengio"
-   ],
-   "d": "D",
-   "x": [
-    "Geoffrey Hinton is a pioneer of backpropagation and deep learning, but he did not invent GANs.",
-    "Yann LeCun developed convolutional networks such as LeNet, but he did not invent GANs.",
-    "Yoshua Bengio is a deep learning pioneer, but the 2014 GAN paper was by Ian Goodfellow and colleagues."
-   ],
-   "e": "Ian Goodfellow and colleagues introduced Generative Adversarial Networks in 2014, where a generator and a discriminator are trained against each other. The question asks for the inventor."
-  },
-  {
    "q": "RAG stands for:",
    "a": "Retrieval-Augmented Generation",
    "w": [
@@ -1122,726 +882,6 @@
     "Recursive Attention Gate is not a standard term; RAG is a retrieval step followed by a language model generation step."
    ],
    "e": "RAG stands for Retrieval-Augmented Generation, where a model retrieves relevant documents from an external source and uses them to ground its generated answer. The question asks for the expansion."
-  },
-  {
-   "q": "RLHF stands for:",
-   "a": "Reinforcement Learning from Human Feedback",
-   "w": [
-    "Recursive Learning with Hidden Features",
-    "Reward Learning for Hidden Functions",
-    "Reinforced Language Heuristic Framework"
-   ],
-   "d": "A",
-   "x": [
-    "Recursive Learning with Hidden Features is not the standard expansion; RLHF trains a reward model from human preference ratings.",
-    "Reward Learning for Hidden Functions is not the standard term; RLHF uses human feedback to fine-tune a model with reinforcement learning.",
-    "Reinforced Language Heuristic Framework is not the standard term; RLHF stands for Reinforcement Learning from Human Feedback."
-   ],
-   "e": "RLHF stands for Reinforcement Learning from Human Feedback, a method that fine-tunes a model using a reward model trained on human preference judgments. The question asks for the expansion."
-  },
-  {
-   "q": "Which chart type best shows a trend over time?",
-   "a": "Line chart",
-   "w": [
-    "Pie chart",
-    "Scatter plot",
-    "Treemap"
-   ],
-   "d": "E",
-   "x": [
-    "A pie chart shows parts of a whole at one point in time, not a trend over time.",
-    "A scatter plot shows the relationship between two numeric variables, not a trend across time periods.",
-    "A treemap shows hierarchical parts of a whole using nested rectangles, not change over time."
-   ],
-   "e": "A line chart connects data points in time order, making increases, decreases and trends easy to see over time. It is the standard choice for time series."
-  },
-  {
-   "q": "Which chart type best shows the distribution of a numeric variable?",
-   "a": "Histogram",
-   "w": [
-    "Line chart",
-    "Pie chart",
-    "Gauge"
-   ],
-   "d": "E",
-   "x": [
-    "A line chart shows values along an ordered axis, often time, and is not used to show the distribution of one numeric variable.",
-    "A pie chart shows proportions of a whole across categories, not the shape of a numeric distribution.",
-    "A gauge shows a single value against a range or target, not the distribution of many values."
-   ],
-   "e": "A histogram bins a numeric variable into intervals and shows bar heights as counts, revealing its shape, center and spread. It fits the question about distributions."
-  },
-  {
-   "q": "Which chart type shows the relationship between two numeric variables?",
-   "a": "Scatter plot",
-   "w": [
-    "Pie chart",
-    "Histogram",
-    "Bar chart"
-   ],
-   "d": "E",
-   "x": [
-    "A pie chart shows parts of a whole for categories, not the relationship between two numeric variables.",
-    "A histogram shows the distribution of a single numeric variable, not the relationship between two variables.",
-    "A bar chart compares values across categories, not the relationship between two numeric variables."
-   ],
-   "e": "A scatter plot places each observation as a point using two numeric variables on its axes, so it reveals correlation, clusters and outliers. It fits the question."
-  },
-  {
-   "q": "Which chart shows median, quartiles and outliers?",
-   "a": "Box plot",
-   "w": [
-    "Histogram",
-    "Pie chart",
-    "Heatmap"
-   ],
-   "d": "E",
-   "x": [
-    "A histogram shows the shape of a distribution through bar counts, but it does not explicitly mark quartiles and outliers.",
-    "A pie chart shows proportions of a whole and does not display quartiles or outliers.",
-    "A heatmap shows values as colors in a grid, and does not display a median or quartile summary."
-   ],
-   "e": "A box plot draws the median, the first and third quartiles and whiskers, and marks outliers as individual points. It summarizes a distribution compactly."
-  },
-  {
-   "q": "Which tool is Microsoft's business intelligence platform?",
-   "a": "Power BI",
-   "w": [
-    "Tableau",
-    "Looker",
-    "Qlik"
-   ],
-   "d": "E",
-   "x": [
-    "Tableau is a business intelligence tool owned by Salesforce, not Microsoft's platform.",
-    "Looker is a business intelligence platform owned by Google, not Microsoft's platform.",
-    "Qlik is a business intelligence platform from Qlik, not Microsoft's platform."
-   ],
-   "e": "Power BI is Microsoft's business intelligence and data visualization platform, used to connect, model and share interactive dashboards and reports. It fits the question."
-  },
-  {
-   "q": "Tableau is owned by:",
-   "a": "Salesforce",
-   "w": [
-    "Microsoft",
-    "Google",
-    "Oracle"
-   ],
-   "d": "D",
-   "x": [
-    "Microsoft owns products such as Power BI, but it does not own Tableau.",
-    "Google owns Looker, not Tableau, which Salesforce acquired in 2019.",
-    "Oracle is a database and enterprise software company and does not own Tableau."
-   ],
-   "e": "Tableau was acquired by Salesforce in 2019 and now operates as part of Salesforce's analytics offerings. The question asks for its owner."
-  },
-  {
-   "q": "Who is known for the data-ink ratio concept in data visualization?",
-   "a": "Edward Tufte",
-   "w": [
-    "Hans Rosling",
-    "Nate Silver",
-    "Florence Nightingale"
-   ],
-   "d": "A",
-   "x": [
-    "Hans Rosling is known for animated global health data presentations, not for the data-ink ratio concept.",
-    "Nate Silver is known for statistical election forecasting, not for the data-ink ratio concept.",
-    "Florence Nightingale pioneered polar area diagrams in public health, not the data-ink ratio concept."
-   ],
-   "e": "The data-ink ratio is attributed to Edward Tufte, who argued that most ink in a chart should show data rather than decoration."
-  },
-  {
-   "q": "Who shared the 2024 Nobel Prize in Physics for foundational neural network work?",
-   "a": "John Hopfield and Geoffrey Hinton",
-   "w": [
-    "Yann LeCun and Yoshua Bengio",
-    "Demis Hassabis and John Jumper",
-    "Fei-Fei Li and Andrew Ng"
-   ],
-   "d": "D",
-   "x": [
-    "Yann LeCun and Yoshua Bengio are deep learning pioneers, but they did not share the 2024 Physics Nobel with Hinton.",
-    "Demis Hassabis and John Jumper shared the 2024 Nobel Prize in Chemistry for AlphaFold, not Physics.",
-    "Fei-Fei Li and Andrew Ng are AI educators and researchers who did not receive the 2024 Physics Nobel."
-   ],
-   "e": "John Hopfield and Geoffrey Hinton received the 2024 Nobel Prize in Physics for foundational discoveries that enable machine learning with artificial neural networks. The question asks for this pair."
-  },
-  {
-   "q": "The 2024 Nobel Prize in Chemistry honored work on:",
-   "a": "Protein structure prediction and design (AlphaFold)",
-   "w": [
-    "Quantum computing",
-    "Graphene",
-    "CRISPR"
-   ],
-   "d": "A",
-   "x": [
-    "Quantum computing is a different research area that the 2024 Chemistry Nobel did not recognize.",
-    "Graphene is a material studied in physics, and the 2024 Chemistry Nobel did not honor work on it.",
-    "CRISPR was recognized by the 2020 Nobel Prize in Chemistry for gene editing, not in 2024."
-   ],
-   "e": "The 2024 Nobel Prize in Chemistry went to David Baker for computational protein design and to Demis Hassabis and John Jumper for protein structure prediction with AlphaFold. The question refers to this prize."
-  },
-  {
-   "q": "Which AI system beat Garry Kasparov in 1997?",
-   "a": "IBM Deep Blue",
-   "w": [
-    "IBM Watson",
-    "AlphaGo",
-    "AlphaZero"
-   ],
-   "d": "E",
-   "x": [
-    "IBM Watson won Jeopardy! in 2011, not a chess match against Kasparov.",
-    "AlphaGo beat Lee Sedol at Go in 2016, a different game and opponent.",
-    "AlphaZero learned chess, shogi and Go through self-play in 2017, and did not defeat Kasparov in 1997."
-   ],
-   "e": "IBM Deep Blue defeated reigning world chess champion Garry Kasparov in a 1997 match. The question asks for this system."
-  },
-  {
-   "q": "Which AI system won Jeopardy! in 2011?",
-   "a": "IBM Watson",
-   "w": [
-    "Deep Blue",
-    "AlphaGo",
-    "ChatGPT"
-   ],
-   "d": "A",
-   "x": [
-    "Deep Blue beat Kasparov at chess in 1997, not a quiz show in 2011.",
-    "AlphaGo beat Lee Sedol at Go in 2016, not a quiz competition.",
-    "ChatGPT was launched in November 2022, long after the 2011 Jeopardy! match."
-   ],
-   "e": "IBM Watson defeated Jeopardy! champions Ken Jennings and Brad Rutter in February 2011, using natural language processing to answer clues. The question asks for this system."
-  },
-  {
-   "q": "Which AI system beat Lee Sedol at Go in 2016?",
-   "a": "AlphaGo",
-   "w": [
-    "Deep Blue",
-    "Watson",
-    "Stockfish"
-   ],
-   "d": "E",
-   "x": [
-    "Deep Blue played chess and beat Kasparov in 1997, not Go.",
-    "Watson competed on Jeopardy! in 2011, not in a Go match.",
-    "Stockfish is an open-source chess engine, not a Go-playing system."
-   ],
-   "e": "DeepMind's AlphaGo defeated Lee Sedol 4 games to 1 in March 2016 in the game of Go, a milestone because Go has a far larger search space than chess. The question asks for this system."
-  },
-  {
-   "q": "ChatGPT was launched on:",
-   "a": "30 November 2022",
-   "w": [
-    "14 March 2023",
-    "1 January 2022",
-    "1 May 2023"
-   ],
-   "d": "D",
-   "x": [
-    "14 March 2023 is the release date of GPT-4, not ChatGPT's launch.",
-    "1 January 2022 is not ChatGPT's launch date; ChatGPT launched in late 2022.",
-    "1 May 2023 does not match ChatGPT's launch, which was in November 2022."
-   ],
-   "e": "ChatGPT was publicly launched by OpenAI on 30 November 2022 as a research preview. The question asks for this date."
-  },
-  {
-   "q": "Who popularized the term \"data scientist\" and wrote about the \"sexiest job of the 21st century\"?",
-   "a": "DJ Patil and Thomas Davenport",
-   "w": [
-    "Hal Varian and Jim Gray",
-    "Peter Norvig and Andrew Ng",
-    "Alan Turing and John Tukey"
-   ],
-   "d": "D",
-   "x": [
-    "Hal Varian and Jim Gray are known for other data and computing work, not for the 2012 article that popularized the data scientist term.",
-    "Peter Norvig and Andrew Ng are AI researchers and educators, not the authors of the 2012 data scientist article.",
-    "Alan Turing and John Tukey are notable computer scientists and statisticians, but they did not write this 2012 article."
-   ],
-   "e": "DJ Patil and Thomas Davenport wrote the 2012 Harvard Business Review article calling data scientist the sexiest job of the 21st century, and Patil is credited with popularizing the term. The question asks for these authors."
-  },
-  {
-   "q": "A classifier has TP=30, FP=20, FN=10, TN=40. What is its F1 score (rounded)?",
-   "a": "0.67",
-   "w": [
-    "0.60",
-    "0.75",
-    "0.50"
-   ],
-   "d": "D",
-   "e": "Precision = 30/50 = 0.60 and recall = 30/40 = 0.75, so F1 = 2(0.60)(0.75)/1.35 = 0.67 (also 2TP/(2TP+FP+FN) = 60/90). 0.60 is only the precision and 0.75 only the recall.",
-   "x": [
-    "0.60 is the precision, 30 divided by 50, which is only one part of the F1 calculation.",
-    "0.75 is the recall, 30 divided by 40, which is only one part of the F1 calculation.",
-    "Does not match the correct calculation; F1 is 2TP divided by (2TP + FP + FN), which is 60 divided by 90."
-   ]
-  },
-  {
-   "q": "With TP=45, FP=5, FN=15, TN=35, the specificity is:",
-   "a": "0.875",
-   "w": [
-    "0.75",
-    "0.90",
-    "0.80"
-   ],
-   "d": "D",
-   "e": "Specificity = TN/(TN+FP) = 35/40 = 0.875. 0.75 is the recall (45/60), 0.90 the precision (45/50), and 0.80 the accuracy (80/100).",
-   "x": [
-    "0.75 is the recall, 45 divided by 60 (TP + FN), which measures positives found, not negatives correctly identified.",
-    "0.90 is the precision, 45 divided by 50 (TP + FP), which looks at predicted positives, not specificity.",
-    "0.80 is the accuracy, 80 divided by 100, which combines both classes rather than measuring negatives alone."
-   ]
-  },
-  {
-   "q": "A dataset has 990 negatives and 10 positives, and a model predicts 'negative' for every case. Which result is correct?",
-   "a": "Accuracy 99% but recall 0%",
-   "w": [
-    "Accuracy 99% and recall 99%",
-    "Accuracy 50% and recall 0%",
-    "Accuracy 1% and recall 100%"
-   ],
-   "d": "D",
-   "e": "All 990 negatives are correct (990/1000 = 99%), but no positive is found so TP=0 and recall = 0. This is why accuracy misleads on imbalanced classes.",
-   "x": [
-    "Recall of 99 percent would need the model to find nearly all positives, but it finds none, so recall is 0 and not 99.",
-    "Accuracy is 990 out of 1000, or 99 percent, not 50 percent; recall is 0 because no positives are found.",
-    "Accuracy is 99 percent, not 1 percent; recall of 100 percent would require finding every positive, which this model does not do."
-   ]
-  },
-  {
-   "q": "Using min-max normalization, a value of 20 in data ranging from 10 to 50 becomes:",
-   "a": "0.25",
-   "w": [
-    "0.20",
-    "0.40",
-    "0.50"
-   ],
-   "d": "A",
-   "e": "(20 - 10)/(50 - 10) = 10/40 = 0.25. 0.40 would be 20/50, which ignores subtracting the minimum.",
-   "x": [
-    "0.20 is 10 divided by 50, which uses the maximum as the denominator instead of the range 40.",
-    "0.40 is 20 divided by 50, which ignores subtracting the minimum from the value.",
-    "0.50 is 20 divided by 40, which uses the correct range but forgets to subtract the minimum from the value."
-   ]
-  },
-  {
-   "q": "A value of 70 comes from data with mean 50 and standard deviation 10. Its z-score is:",
-   "a": "2",
-   "w": [
-    "0.2",
-    "20",
-    "-2"
-   ],
-   "d": "D",
-   "e": "z = (x - mean)/SD = (70 - 50)/10 = 2, meaning two standard deviations above the mean. 20 is the raw difference before dividing by SD.",
-   "x": [
-    "0.2 is 20 divided by 100, which divides by the variance instead of the standard deviation.",
-    "20 is the raw difference 70 minus 50, before dividing by the standard deviation of 10.",
-    "-2 reverses the subtraction, computing (mean - x) / SD, which gives a value below the mean instead of above."
-   ]
-  },
-  {
-   "q": "If Q1 = 20 and Q3 = 36, values above which number are flagged as outliers by the 1.5 x IQR rule?",
-   "a": "60",
-   "w": [
-    "52",
-    "68",
-    "44"
-   ],
-   "d": "D",
-   "e": "IQR = 36 - 20 = 16, and the upper fence is Q3 + 1.5 x 16 = 36 + 24 = 60. 52 is Q3 + 1 x IQR, and 68 is Q3 + 2 x IQR.",
-   "x": [
-    "Q3 plus 1 times the IQR, a multiplier too small for this rule. Values up to the fence at 60 are not flagged, so this is not the cutoff.",
-    "Q3 plus 2 times the IQR, which uses the wrong multiplier. The 1.5 x IQR rule gives the fence at 60, so this value is not the boundary.",
-    "Q1 plus 1.5 x IQR, which measures from the wrong quartile. The upper fence is built from Q3, so this value is not the cutoff."
-   ]
-  },
-  {
-   "q": "What is the population standard deviation of {2, 4, 4, 4, 5, 5, 7, 9}?",
-   "a": "2",
-   "w": [
-    "4",
-    "2.14",
-    "5"
-   ],
-   "d": "D",
-   "e": "The mean is 5 and the squared deviations sum to 32, so population variance = 32/8 = 4 and SD = 2. Using n - 1 gives sample SD = sqrt(32/7), about 2.14.",
-   "x": [
-    "The population variance, 32/8 = 4, not the standard deviation. The SD is the square root of the variance, so 4 is the wrong measure.",
-    "The sample standard deviation, sqrt(32/7), which divides by n - 1. The question asks for the population SD dividing by n, so this does not fit.",
-    "The mean of the data, 40/8 = 5, not a measure of spread. A standard deviation is computed from squared deviations around the mean."
-   ]
-  },
-  {
-   "q": "Why does the sample variance divide by n - 1 instead of n?",
-   "a": "To correct the underestimate of population variance (Bessel's correction)",
-   "w": [
-    "To make the standard deviation equal the range",
-    "To remove outliers from the sample",
-    "To force the sample mean to equal the median"
-   ],
-   "d": "D",
-   "e": "Deviations from the sample mean are on average smaller than from the true mean, so dividing by n - 1 (Bessel's correction) gives an unbiased variance estimate. It has nothing to do with outliers.",
-   "x": [
-    "A property of the range, not a reason for n - 1. Dividing by n - 1 does not make the standard deviation equal the range.",
-    "Outlier removal is a separate data-cleaning decision. The n - 1 divisor corrects bias in the variance estimate and removes no data points.",
-    "Mean and median are different statistics, and the divisor does not force them equal. The n - 1 correction concerns unbiased variance estimation."
-   ]
-  },
-  {
-   "q": "A disease affects 1% of people. A test is positive for 90% of sick people and 10% of healthy people. Given a positive test, the probability of disease is about:",
-   "a": "8.3%",
-   "w": [
-    "90%",
-    "50%",
-    "1%"
-   ],
-   "d": "D",
-   "e": "P(+) = 0.01(0.9) + 0.99(0.1) = 0.009 + 0.099 = 0.108, so P(disease|+) = 0.009/0.108, about 8.3% by Bayes' theorem. 90% is the sensitivity P(+|disease), not the posterior.",
-   "x": [
-    "The sensitivity, P(positive given disease), not the probability of disease given a positive test. The 1% base rate lowers the posterior to about 8.3%.",
-    "Not the answer here: it does not follow from Bayes' theorem with a 1% base rate and a 10% false positive rate, which gives about 8.3%.",
-    "The base rate, the chance of disease before testing. A positive result raises the probability well above 1%, so the prior is not the posterior."
-   ]
-  },
-  {
-   "q": "If a test has Type II error probability beta = 0.20, its statistical power is:",
-   "a": "0.80",
-   "w": [
-    "0.20",
-    "0.95",
-    "0.05"
-   ],
-   "d": "A",
-   "e": "Power = 1 - beta = 0.80. 0.05 is the usual alpha (Type I error rate), and 0.20 is beta itself.",
-   "x": [
-    "Beta itself, the Type II error probability. Power is its complement, so 0.20 is the chance of a miss, not the power.",
-    "Not the answer here: 0.95 is 1 minus alpha for alpha = 0.05, a confidence level. Power is 1 minus beta, which is 0.80.",
-    "The usual alpha, the Type I error rate, not power. Power is 1 minus beta, so this value does not fit."
-   ]
-  },
-  {
-   "q": "In a right-skewed distribution, the usual ordering of the measures of center is:",
-   "a": "Mean > median > mode",
-   "w": [
-    "Mode > median > mean",
-    "Median > mean > mode",
-    "Mean = median = mode"
-   ],
-   "d": "D",
-   "e": "A long right tail pulls the mean upward the most, the median less, leaving the mode at the peak. The reverse order (mode > median > mean) describes left skew.",
-   "x": [
-    "The order for left skew, where a long left tail pulls the mean down. Right skew reverses this, so this is not the answer.",
-    "Not the answer here: in right skew the mean sits above the median, so the median cannot be above the mean in this ordering.",
-    "The equal-center pattern of a symmetric distribution. Right skew pulls the mean above the median, so the three measures differ."
-   ]
-  },
-  {
-   "q": "Which pair is correctly matched with its measurement scale?",
-   "a": "Celsius temperature - interval; Kelvin temperature - ratio",
-   "w": [
-    "Celsius temperature - ratio; Kelvin temperature - interval",
-    "Celsius temperature - ordinal; Kelvin temperature - interval",
-    "Celsius temperature - nominal; Kelvin temperature - ratio"
-   ],
-   "d": "D",
-   "e": "0 degrees Celsius is not an absence of heat (no true zero), so Celsius is interval, while 0 K is absolute zero, making Kelvin a ratio scale.",
-   "x": [
-    "Celsius is interval, not ratio, because 0 degrees Celsius is not an absence of heat. Kelvin is the ratio scale, so this pair is swapped.",
-    "Celsius has equal intervals, so it is interval, not ordinal. Kelvin has an absolute zero, so it is ratio, not interval.",
-    "Nominal is for unordered category labels. Temperatures are ordered numbers with equal intervals, so Celsius is not nominal."
-   ]
-  },
-  {
-   "q": "Which task is NOT an unsupervised learning task?",
-   "a": "Regression",
-   "w": [
-    "Clustering",
-    "Dimensionality reduction",
-    "Association rule mining"
-   ],
-   "d": "D",
-   "e": "Regression needs labeled continuous targets, so it is supervised. Clustering, dimensionality reduction (PCA) and association rules (Apriori) work on unlabeled data.",
-   "x": [
-    "An unsupervised task that groups unlabeled data by similarity. It needs no target variable, so it does not fit the exception asked for.",
-    "An unsupervised task such as PCA that compresses features without labels. It needs no target, so it does not fit the exception asked for.",
-    "An unsupervised task that finds co-occurrence patterns, as in Apriori, on unlabeled transactions. It does not fit the exception asked for."
-   ]
-  },
-  {
-   "q": "Which of these is NOT a core component of Hadoop?",
-   "a": "Apache Kafka",
-   "w": [
-    "HDFS",
-    "MapReduce",
-    "YARN"
-   ],
-   "d": "D",
-   "e": "Hadoop's core is HDFS (storage), MapReduce (processing) and YARN (resource management). Kafka is a separate streaming platform.",
-   "x": [
-    "The Hadoop Distributed File System, the core storage layer. It is a core component, so it is not the one excluded.",
-    "Hadoop's core batch processing model. It is a core component, so it is not the one excluded.",
-    "Hadoop's resource manager, which schedules cluster resources. It is a core component, so it is not the one excluded."
-   ]
-  },
-  {
-   "q": "Which of these is NOT a tree-based ensemble method?",
-   "a": "SVM",
-   "w": [
-    "Random Forest",
-    "XGBoost",
-    "LightGBM"
-   ],
-   "d": "D",
-   "e": "SVM finds a maximal-margin hyperplane (with kernels) and uses no trees. Random Forest is a bagging ensemble of trees; XGBoost and LightGBM are gradient-boosted trees.",
-   "x": [
-    "A bagging ensemble of decision trees, so it is tree-based. It belongs to the tree-based family, not the exception.",
-    "A gradient-boosted tree ensemble, so it is tree-based and not the exception.",
-    "A gradient-boosting framework that builds decision trees, so it is tree-based and not the exception."
-   ]
-  },
-  {
-   "q": "Which tool is used mainly for workflow orchestration of data pipelines?",
-   "a": "Apache Airflow",
-   "w": [
-    "Apache Flink",
-    "Apache Kafka",
-    "Apache HBase"
-   ],
-   "d": "A",
-   "e": "Airflow schedules and orchestrates pipeline tasks. Flink is a stream processor, Kafka a streaming platform and HBase a NoSQL store.",
-   "x": [
-    "A stream and batch processing engine that computes over data. It processes data rather than orchestrating pipeline schedules.",
-    "A distributed event streaming platform for moving messages. It transports data but does not orchestrate workflow tasks.",
-    "A NoSQL column-family database used for storage. It holds data rather than orchestrating pipelines."
-   ]
-  },
-  {
-   "q": "Which of these is a columnar storage format used in big data?",
-   "a": "Parquet",
-   "w": [
-    "JSON",
-    "CSV",
-    "XML"
-   ],
-   "d": "A",
-   "e": "Parquet (like ORC) stores data by column, which suits analytic scans. JSON, CSV and XML are row-oriented text formats.",
-   "x": [
-    "A text format that stores records as key-value objects, row by row. It is not a columnar storage format.",
-    "A plain-text delimited format where each line is a row. It is row-oriented, not columnar.",
-    "A markup format with nested tagged elements. It is a text format, not a columnar storage format."
-   ]
-  },
-  {
-   "q": "Which of these is NOT a dimensionality reduction technique?",
-   "a": "DBSCAN",
-   "w": [
-    "PCA",
-    "t-SNE",
-    "UMAP"
-   ],
-   "d": "D",
-   "e": "DBSCAN is a density-based clustering algorithm. PCA, t-SNE and UMAP all reduce the number of dimensions.",
-   "x": [
-    "A linear method that projects data onto principal components. It does reduce dimensions, so it is not the exception.",
-    "A nonlinear method that embeds high-dimensional data in two or three dimensions for visualization. It reduces dimensions, so it is not the exception.",
-    "A nonlinear manifold method that embeds data in fewer dimensions. It reduces dimensions, so it is not the exception."
-   ]
-  },
-  {
-   "q": "Which statement correctly contrasts bagging and boosting?",
-   "a": "Bagging trains models in parallel to reduce variance; boosting trains sequentially to reduce bias",
-   "w": [
-    "Bagging trains models sequentially to reduce bias; boosting trains in parallel to reduce variance",
-    "Both train in parallel, but only bagging reduces variance",
-    "Bagging reduces bias and boosting reduces variance, both sequentially"
-   ],
-   "d": "D",
-   "e": "Random Forest (bagging) averages independent trees to cut variance, whereas gradient boosting adds trees one after another, each correcting prior errors to cut bias.",
-   "x": [
-    "Training orders and goals are swapped. Bagging trains in parallel to reduce variance, and boosting trains sequentially to reduce bias.",
-    "Wrong about boosting, which is sequential because each model corrects earlier errors. Boosting also targets bias, not only variance.",
-    "Reverses the goals and wrongly makes bagging sequential. Bagging is parallel and targets variance, while boosting targets bias."
-   ]
-  },
-  {
-   "q": "Which regularization method can shrink some coefficients exactly to zero, acting as embedded feature selection?",
-   "a": "L1 (Lasso)",
-   "w": [
-    "L2 (Ridge)",
-    "Dropout",
-    "Early stopping"
-   ],
-   "d": "D",
-   "e": "The L1 penalty drives some weights to exactly zero. L2/Ridge only shrinks weights toward zero, while dropout and early stopping are different regularization techniques.",
-   "x": [
-    "Penalizes squared weights and shrinks them toward zero, but rarely to exactly zero. It does not provide exact sparsity.",
-    "A neural network method that randomly disables units during training. It does not set coefficients to exactly zero.",
-    "Halts training when validation performance stops improving. It does not set coefficients to exactly zero."
-   ]
-  },
-  {
-   "q": "A trend appears in every subgroup but reverses when the groups are combined. This is known as:",
-   "a": "Simpson's paradox",
-   "w": [
-    "Berkson's paradox",
-    "The curse of dimensionality",
-    "Bessel's correction"
-   ],
-   "d": "D",
-   "e": "Simpson's paradox is a reversal caused by a lurking grouping variable. The curse of dimensionality concerns high-dimensional data, and Bessel's correction is the n - 1 divisor.",
-   "x": [
-    "A selection-bias effect where two traits look linked in a sample chosen on both. It is not a trend reversing across combined groups.",
-    "The problem that distances and data density break down as dimensions grow. It has nothing to do with a subgroup trend reversing.",
-    "The n - 1 divisor for sample variance. It is a statistical correction, not a name for a reversal across groups."
-   ]
-  },
-  {
-   "q": "In the KDD process, which step comes immediately after Transformation?",
-   "a": "Data mining",
-   "w": [
-    "Preprocessing",
-    "Interpretation",
-    "Selection"
-   ],
-   "d": "A",
-   "e": "KDD runs Selection, Preprocessing, Transformation, Data mining, then Interpretation, so mining follows transformation.",
-   "x": [
-    "The KDD step that cleans data, which comes before transformation. It is earlier in the sequence, not right after transformation.",
-    "The final KDD step that evaluates and presents mined patterns. It comes after data mining, so it is not next.",
-    "The first KDD step, choosing the relevant target data. It comes well before transformation in the sequence."
-   ]
-  },
-  {
-   "q": "In the OSEMN workflow, the 'S' stands for:",
-   "a": "Scrub",
-   "w": [
-    "Sample",
-    "Segment",
-    "Score"
-   ],
-   "d": "A",
-   "e": "OSEMN = Obtain, Scrub, Explore, Model, iNterpret; scrubbing is data cleaning.",
-   "x": [
-    "Sampling is not a step in OSEMN. The S stands for Scrub, the data-cleaning step.",
-    "Segmenting customers is not an OSEMN step. The S stands for Scrub, the data-cleaning step.",
-    "Scoring a model's output is not an OSEMN letter. The S stands for Scrub, meaning data cleaning."
-   ]
-  },
-  {
-   "q": "In CRISP-DM, which phase comes immediately before Modeling?",
-   "a": "Data preparation",
-   "w": [
-    "Data understanding",
-    "Evaluation",
-    "Business understanding"
-   ],
-   "d": "D",
-   "e": "The order is Business understanding, Data understanding, Data preparation, Modeling, Evaluation, Deployment. Data understanding comes two steps before modeling.",
-   "x": [
-    "It comes earlier, before Data preparation, so it is two steps before Modeling, not immediately before.",
-    "It comes after Modeling, when results are assessed. It is the step that follows modeling, not the one before it.",
-    "The first CRISP-DM phase, which sets project objectives. It is far from Modeling in the sequence."
-   ]
-  },
-  {
-   "q": "Backpropagation was popularized in 1986 by:",
-   "a": "Rumelhart, Hinton and Williams",
-   "w": [
-    "Rosenblatt, Minsky and Papert",
-    "LeCun, Bengio and Goodfellow",
-    "Hochreiter and Schmidhuber"
-   ],
-   "d": "D",
-   "e": "Rumelhart, Hinton and Williams popularized backpropagation in 1986. Frank Rosenblatt invented the perceptron in 1958.",
-   "x": [
-    "Rosenblatt invented the perceptron in 1958, and Minsky and Papert analyzed its limits in 1969. Neither popularized backpropagation in 1986.",
-    "Known for deep learning work and the 2016 Deep Learning book. They did not popularize backpropagation in 1986.",
-    "Known for the LSTM architecture from 1997. They did not popularize backpropagation in 1986."
-   ]
-  },
-  {
-   "q": "Who shared the 2024 Nobel Prize in Chemistry with Demis Hassabis and John Jumper?",
-   "a": "David Baker",
-   "w": [
-    "Geoffrey Hinton",
-    "John Hopfield",
-    "Fei-Fei Li"
-   ],
-   "d": "D",
-   "e": "The prize went to Hassabis and Jumper for AlphaFold protein structure prediction and to David Baker for computational protein design. Hinton and Hopfield won the 2024 Physics prize.",
-   "x": [
-    "Hinton shared the 2024 Physics Nobel Prize, not Chemistry, for neural network work. He is not a 2024 Chemistry laureate.",
-    "Hopfield shared the 2024 Physics Nobel Prize for associative memory networks. He is not a 2024 Chemistry laureate.",
-    "Fei-Fei Li is known for ImageNet and computer vision work. She is not a 2024 Chemistry laureate."
-   ]
-  },
-  {
-   "q": "Which activation function converts a layer's outputs into probabilities over multiple classes?",
-   "a": "Softmax",
-   "w": [
-    "ReLU",
-    "Tanh",
-    "Sigmoid"
-   ],
-   "d": "A",
-   "e": "Softmax produces a probability distribution that sums to 1 over multi-class outputs. Sigmoid handles a single binary probability, while ReLU and tanh are hidden-layer activations.",
-   "x": [
-    "A hidden-layer activation that outputs max(0, x). It does not produce a probability distribution over classes.",
-    "A hidden-layer activation with outputs between -1 and 1. It does not produce class probabilities that sum to 1.",
-    "Maps one output to a value between 0 and 1 for binary decisions. It does not normalize across multiple classes."
-   ]
-  },
-  {
-   "q": "Which scenario is an example of data leakage?",
-   "a": "Fitting a scaler on the entire dataset before splitting into train and test sets",
-   "w": [
-    "Using stratified sampling for the train/test split",
-    "Evaluating with k-fold cross-validation",
-    "Holding out a test set until final evaluation"
-   ],
-   "d": "D",
-   "e": "Fitting the scaler on all data lets test-set statistics influence training. Stratified splits, k-fold CV and a held-out test set are normal good practice.",
-   "x": [
-    "A standard split method that keeps class proportions similar in train and test. It does not let test information leak into training.",
-    "A standard evaluation method that rotates validation folds. When done properly, each fold is tested on held-out data, so it is not leakage.",
-    "Keeping test data separate until final evaluation prevents leakage. It is the good practice, not an example of leakage."
-   ]
-  },
-  {
-   "q": "For a cancer-screening model where missing a sick patient is far costlier than a false alarm, which metric should be prioritized?",
-   "a": "Recall",
-   "w": [
-    "Precision",
-    "Specificity",
-    "Accuracy"
-   ],
-   "d": "D",
-   "e": "Recall = TP/(TP+FN) penalizes false negatives, which are the costly error here. Precision and specificity focus on false positives, and accuracy can hide missed cases.",
-   "x": [
-    "Measures the share of positive predictions that are correct, TP/(TP+FP). It targets false alarms, not missed sick patients.",
-    "Measures the share of healthy patients correctly cleared, TN/(TN+FP). It focuses on false alarms, not missed cases.",
-    "The overall share of correct predictions. It can look high while many sick patients are missed, so it is not the priority."
-   ]
-  },
-  {
-   "q": "The original 3 Vs of big data, defined by Doug Laney, are:",
-   "a": "Volume, velocity, variety",
-   "w": [
-    "Volume, veracity, value",
-    "Velocity, variety, veracity",
-    "Volume, validity, variety"
-   ],
-   "d": "D",
-   "e": "Laney's 3 Vs are volume, velocity and variety; veracity and value were added later to make the 5 Vs.",
-   "x": [
-    "Veracity and value were added later to make the 5 Vs. Velocity, one of the original three, is missing.",
-    "Veracity is a later addition, and volume, one of the original three, is missing from this set.",
-    "Validity is not one of the Vs; the later term is veracity. Velocity, one of the original three, is also missing."
-   ]
   }
  ],
  "cards": [
@@ -2131,12 +1171,6 @@
   },
   {
    "d": "D",
-   "q": "Which AI model system's creators won the 2024 Nobel Prize in Chemistry?",
-   "a": "AlphaFold",
-   "alt": []
-  },
-  {
-   "d": "D",
    "q": "Who is known for the data-ink ratio in visualization?",
    "a": "Edward Tufte",
    "alt": [
@@ -2206,14 +1240,6 @@
    "alt": []
   },
   {
-   "d": "D",
-   "q": "What is the date ChatGPT launched?",
-   "a": "30 November 2022",
-   "alt": [
-    "November 30, 2022"
-   ]
-  },
-  {
    "d": "A",
    "q": "What does OSEMN stand for in the data science workflow?",
    "a": "Obtain, Scrub, Explore, Model, iNterpret",
@@ -2250,23 +1276,6 @@
   },
   {
    "d": "D",
-   "q": "What is the population standard deviation of {2, 4, 4, 4, 5, 5, 7, 9}?",
-   "a": "2",
-   "alt": [
-    "2.0"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "Using min-max normalization, what does 20 become in data ranging from 10 to 50?",
-   "a": "0.25",
-   "alt": [
-    ".25",
-    "1/4"
-   ]
-  },
-  {
-   "d": "D",
    "q": "Which Apache tool is used to orchestrate and schedule data pipelines?",
    "a": "Apache Airflow",
    "alt": [
@@ -2296,14 +1305,6 @@
    "a": "YARN",
    "alt": [
     "Yet Another Resource Negotiator"
-   ]
-  },
-  {
-   "d": "D",
-   "q": "Who shared the 2024 Nobel Prize in Chemistry with Demis Hassabis and John Jumper?",
-   "a": "David Baker",
-   "alt": [
-    "Baker"
    ]
   },
   {

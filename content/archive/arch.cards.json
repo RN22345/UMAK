@@ -1,0 +1,90 @@
+{
+ "id": "arch",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "D",
+   "q": "How many addressable locations does a 12-line address bus provide?",
+   "a": "4096",
+   "alt": [
+    "4,096"
+   ],
+   "why": "obscure figure/calculation or time-sensitive trivia"
+  },
+  {
+   "d": "D",
+   "q": "Which Google quantum chip showed below-threshold error correction in 2024?",
+   "a": "Willow",
+   "alt": [],
+   "why": "obscure figure/calculation or time-sensitive trivia"
+  },
+  {
+   "d": "D",
+   "q": "Which Nvidia platform is named after astronomer Vera Rubin?",
+   "a": "Rubin",
+   "alt": [],
+   "why": "obscure figure/calculation or time-sensitive trivia"
+  },
+  {
+   "d": "D",
+   "q": "Which supercomputer at LLNL topped TOP500 from November 2024?",
+   "a": "El Capitan",
+   "alt": [],
+   "why": "obscure figure/calculation or time-sensitive trivia"
+  },
+  {
+   "d": "D",
+   "q": "What is the exponent bias in IEEE 754 single precision?",
+   "a": "127",
+   "alt": [],
+   "why": "obscure figure/calculation or time-sensitive trivia"
+  },
+  {
+   "d": "D",
+   "q": "What is the exponent bias in IEEE 754 double precision?",
+   "a": "1023",
+   "alt": [],
+   "why": "obscure figure/calculation or time-sensitive trivia"
+  },
+  {
+   "d": "D",
+   "q": "How large is a 48-bit byte-addressable address space?",
+   "a": "256 TB",
+   "alt": [
+    "256TB",
+    "256 terabytes"
+   ],
+   "why": "obscure figure/calculation or time-sensitive trivia"
+  },
+  {
+   "d": "D",
+   "q": "What is the theoretical size of a full 64-bit byte address space?",
+   "a": "16 EB",
+   "alt": [
+    "16EB",
+    "16 exabytes"
+   ],
+   "why": "obscure figure/calculation or time-sensitive trivia"
+  },
+  {
+   "d": "D",
+   "q": "Which NIST FIPS 204 algorithm is derived from Dilithium?",
+   "a": "ML-DSA",
+   "alt": [
+    "ML DSA"
+   ],
+   "why": "obscure figure/calculation or time-sensitive trivia"
+  },
+  {
+   "d": "A",
+   "q": "Approximately how many MB/s is SATA III's 6 Gbps link?",
+   "a": "600 MB/s",
+   "alt": [
+    "600",
+    "600MB/s"
+   ],
+   "why": "obscure figure/calculation or time-sensitive trivia"
+  }
+ ]
+}

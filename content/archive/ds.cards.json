@@ -1,0 +1,51 @@
+{
+ "id": "ds",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "D",
+   "q": "Which AI model system's creators won the 2024 Nobel Prize in Chemistry?",
+   "a": "AlphaFold",
+   "alt": [],
+   "why": "calculation or exact-date trivia"
+  },
+  {
+   "d": "D",
+   "q": "What is the date ChatGPT launched?",
+   "a": "30 November 2022",
+   "alt": [
+    "November 30, 2022"
+   ],
+   "why": "calculation or exact-date trivia"
+  },
+  {
+   "d": "D",
+   "q": "What is the population standard deviation of {2, 4, 4, 4, 5, 5, 7, 9}?",
+   "a": "2",
+   "alt": [
+    "2.0"
+   ],
+   "why": "calculation or exact-date trivia"
+  },
+  {
+   "d": "D",
+   "q": "Using min-max normalization, what does 20 become in data ranging from 10 to 50?",
+   "a": "0.25",
+   "alt": [
+    ".25",
+    "1/4"
+   ],
+   "why": "calculation or exact-date trivia"
+  },
+  {
+   "d": "D",
+   "q": "Who shared the 2024 Nobel Prize in Chemistry with Demis Hassabis and John Jumper?",
+   "a": "David Baker",
+   "alt": [
+    "Baker"
+   ],
+   "why": "calculation or exact-date trivia"
+  }
+ ]
+}

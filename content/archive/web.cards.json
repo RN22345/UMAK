@@ -1,0 +1,103 @@
+{
+ "id": "web",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "A",
+   "q": "Who proposed CSS?",
+   "a": "Hakon Wium Lie",
+   "alt": [
+    "Håkon Wium Lie"
+   ],
+   "why": "obscure name/figure/protocol not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "How many usability heuristics did Nielsen define?",
+   "a": "10",
+   "alt": [
+    "Ten"
+   ],
+   "why": "obscure name/figure/protocol not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Who coined responsive web design in 2010?",
+   "a": "Ethan Marcotte",
+   "alt": [],
+   "why": "obscure name/figure/protocol not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Which protocol by OpenAI and Stripe powers Instant Checkout in ChatGPT?",
+   "a": "ACP",
+   "alt": [
+    "Agentic Commerce Protocol"
+   ],
+   "why": "obscure name/figure/protocol not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Which Google protocol is used for agent payments?",
+   "a": "AP2",
+   "alt": [
+    "Agent Payments Protocol"
+   ],
+   "why": "obscure name/figure/protocol not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Who created the Node.js runtime in 2009?",
+   "a": "Ryan Dahl",
+   "alt": [
+    "Dahl"
+   ],
+   "why": "obscure name/figure/protocol not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "In 1994, NetMarket made the first secure online purchase. What item was bought?",
+   "a": "A Sting CD",
+   "alt": [
+    "Sting CD",
+    "CD",
+    "Sting album"
+   ],
+   "why": "obscure name/figure/protocol not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Who founded Shopify in 2006?",
+   "a": "Tobias Lutke",
+   "alt": [
+    "Tobias Lütke",
+    "Lutke",
+    "Lütke"
+   ],
+   "why": "obscure name/figure/protocol not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Which Republic Act is the Financial Products and Services Consumer Protection Act?",
+   "a": "RA 11765",
+   "alt": [
+    "11765",
+    "Republic Act 11765",
+    "Republic Act No. 11765"
+   ],
+   "why": "obscure name/figure/protocol not fair for typed ID"
+  },
+  {
+   "d": "D",
+   "q": "Which Republic Act is the Magna Carta for Persons with Disability?",
+   "a": "RA 7277",
+   "alt": [
+    "7277",
+    "Republic Act 7277",
+    "Republic Act No. 7277"
+   ],
+   "why": "obscure name/figure/protocol not fair for typed ID"
+  }
+ ]
+}
