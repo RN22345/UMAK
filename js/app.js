@@ -148,7 +148,7 @@ function pickItems(pool, n, {balanced,smart}, kind){
   return shuffle(chosen);
 }
 function allQuestionPool(selIds,diffs){
-  const out=[]; LESSONS.forEach(l=>{ if(!selIds.has(l.id)) return; l.mcq.forEach((m,i)=>{ if(!diffs||diffs.has(m.d)) out.push({id:l.id+':m:'+i,l:l.id,m}); }); });
+  const out=[]; LESSONS.forEach(l=>{ if(!selIds.has(l.id)) return; l.mcq.forEach((m,i)=>{ if(!diffs||diffs.has(m.d)) out.push({id:l.id+':m2:'+i,l:l.id,m}); }); });
   return out;
 }
 function buildQuizItem(p){
@@ -360,7 +360,7 @@ const DIFF={E:'Easy',A:'Average',D:'Difficult'};
 const TLIM={E:15,A:20,D:30};
 const PTS={E:3,A:5,D:7};
 function cardPool(selIds,diffs){
-  const out=[]; LESSONS.forEach(l=>{ if(!selIds.has(l.id)) return; l.cards.forEach((c,i)=>{ if(diffs.has(c.d)) out.push({id:l.id+':c:'+i,l:l.id,d:c.d,q:c.q,a:c.a,alt:c.alt||[]}); }); });
+  const out=[]; LESSONS.forEach(l=>{ if(!selIds.has(l.id)) return; l.cards.forEach((c,i)=>{ if(diffs.has(c.d)) out.push({id:l.id+':c2:'+i,l:l.id,d:c.d,q:c.q,a:c.a,alt:c.alt||[]}); }); });
   return out;
 }
 /* answer checking */
@@ -545,8 +545,8 @@ function viewProgress(root){
   let tq=0,tqs=0,tqc=0,tqa=0,tc=0,tcs=0,tcc=0,tca=0;
   const rows=LESSONS.map(l=>{
     let ms=0,ma=0,mc=0,cs=0,ca=0,cc=0;
-    l.mcq.forEach((_,i)=>{ const r=st.q[l.id+':m:'+i]; if(r){ ms++; ma+=r[0]; mc+=r[1]; } });
-    l.cards.forEach((_,i)=>{ const r=st.c[l.id+':c:'+i]; if(r){ cs++; ca+=r[0]; cc+=r[1]; } });
+    l.mcq.forEach((_,i)=>{ const r=st.q[l.id+':m2:'+i]; if(r){ ms++; ma+=r[0]; mc+=r[1]; } });
+    l.cards.forEach((_,i)=>{ const r=st.c[l.id+':c2:'+i]; if(r){ cs++; ca+=r[0]; cc+=r[1]; } });
     tq+=l.mcq.length;tqs+=ms;tqc+=mc;tqa+=ma; tc+=l.cards.length;tcs+=cs;tcc+=cc;tca+=ca;
     return {l,ms,ma,mc,cs,ca,cc};
   });

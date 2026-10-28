@@ -1,0 +1,1734 @@
+{
+ "id": "se",
+ "archived": "2026-10-28",
+ "mcq": [
+  {
+   "q": "The term \"software engineering\" was popularized at which 1968 event?",
+   "a": "NATO conference",
+   "w": [
+    "ACM Turing banquet",
+    "IEEE Computer Congress",
+    "ISO summit"
+   ],
+   "d": "A",
+   "x": [
+    "Not the answer here: an ACM Turing Award banquet honors awards and is not the 1968 event where the term was popularized.",
+    "Not the answer here: this is not the 1968 event that popularized the term, which was the NATO conference.",
+    "Not the answer here: an ISO summit is a standards meeting, not the 1968 conference that popularized software engineering."
+   ],
+   "e": "The NATO conference of 1968 is where the term software engineering was popularized, framing software development as an engineering discipline. That matches the 1968 event in the question."
+  },
+  {
+   "q": "\"Adding people to a late software project makes it later\" is known as:",
+   "a": "Brooks's Law",
+   "w": [
+    "Conway's Law",
+    "Moore's Law",
+    "Parkinson's Law"
+   ],
+   "d": "E",
+   "x": [
+    "Conway's Law says system design mirrors the communication structure of the organization, not that adding people delays projects.",
+    "Moore's Law describes the doubling of transistor counts in chips over time, not the effect of adding staff to a late project.",
+    "Parkinson's Law says work expands to fill the time available, which is a different observation from communication overhead in late staffing."
+   ],
+   "e": "Brooks's Law says adding people to a late project makes it later, because of ramp-up time and communication overhead. The question describes this same principle."
+  },
+  {
+   "q": "\"System design mirrors the organization's communication structure\" is:",
+   "a": "Conway's Law",
+   "w": [
+    "Brooks's Law",
+    "Amdahl's Law",
+    "Metcalfe's Law"
+   ],
+   "d": "A",
+   "x": [
+    "Brooks's Law says adding people to a late project makes it later, which is about staffing rather than system structure.",
+    "Amdahl's Law gives the speedup limit from the serial part of a task, not the link between organization and design.",
+    "Metcalfe's Law says a network's value grows with the number of connected nodes, not with organizational communication."
+   ],
+   "e": "Conway's Law says the system design mirrors the communication structure of the organization that builds it. The question states this same principle."
+  },
+  {
+   "q": "The coach's three sources of IT projects are:",
+   "a": "Problem, opportunity, directive",
+   "w": [
+    "Cost, time, scope",
+    "Plan, build, run",
+    "Need, want, wish"
+   ],
+   "d": "D",
+   "x": [
+    "Not the answer here: cost, time and scope are the constraints of the iron triangle, not the sources of IT projects.",
+    "Not the answer here: plan, build and run are lifecycle stages of a system, not the sources that trigger projects.",
+    "Not the answer here: need, want and wish are informal terms, not the three project sources in this framework."
+   ],
+   "e": "Per the answer, the three sources of IT projects are a problem to solve, an opportunity to pursue and a directive from management. These are the origins of a project."
+  },
+  {
+   "q": "The \"iron triangle\" of project management consists of:",
+   "a": "Scope, time and cost",
+   "w": [
+    "People, process and product",
+    "Plan, risk and quality",
+    "Design, code and test"
+   ],
+   "d": "E",
+   "x": [
+    "People, process and product is a different triad used to describe delivery elements, not the three constraints of the iron triangle.",
+    "Plan, risk and quality are project concerns, but they are not the three constraints of the iron triangle.",
+    "Design, code and test are development activities, not the three constraints that form the iron triangle."
+   ],
+   "e": "The iron triangle is the set of three constraints, scope, time and cost, which trade off against each other. The question names these three constraints."
+  },
+  {
+   "q": "CMMI Level 5 is called:",
+   "a": "Optimizing",
+   "w": [
+    "Defined",
+    "Managed",
+    "Initial"
+   ],
+   "d": "A",
+   "x": [
+    "Defined is CMMI Level 3, where processes are documented and standardized, not the top level.",
+    "Managed is CMMI Level 2, where processes are planned and tracked at project level, not the top level.",
+    "Initial is CMMI Level 1, where processes are ad hoc and unpredictable, so it is the lowest level."
+   ],
+   "e": "CMMI Level 5 is Optimizing, where the organization continually improves its processes using quantitative feedback. It is the highest maturity level."
+  },
+  {
+   "q": "Which is the oldest and most rigid, linear sequential SDLC model?",
+   "a": "Waterfall",
+   "w": [
+    "Spiral",
+    "Agile",
+    "RAD"
+   ],
+   "d": "E",
+   "x": [
+    "Spiral is an iterative, risk-driven model, not a strictly linear sequence of phases.",
+    "Agile is iterative and incremental with short cycles, not a rigid linear model.",
+    "RAD, rapid application development, relies on fast prototyping and iteration rather than a linear sequence."
+   ],
+   "e": "Waterfall is the oldest sequential SDLC model, moving through phases in a strictly linear order with little flexibility. This fits the question's rigid, linear description."
+  },
+  {
+   "q": "Which model pairs each development phase with a corresponding testing phase?",
+   "a": "V-Model",
+   "w": [
+    "Waterfall",
+    "Spiral",
+    "Big Bang"
+   ],
+   "d": "E",
+   "x": [
+    "Waterfall runs its phases in strict sequence without pairing each development phase with a matching test phase.",
+    "Spiral is a risk-driven iterative model and does not pair each phase with a matching test phase.",
+    "Big Bang has little or no planning and releases at once, so it has no phase-to-test pairing."
+   ],
+   "e": "The V-Model places each development phase opposite a matching test phase, so testing is planned alongside the phase it verifies. That matches the question."
+  },
+  {
+   "q": "Which model is risk-driven with phases Planning, Risk Analysis, Engineering and Evaluation?",
+   "a": "Spiral",
+   "w": [
+    "Waterfall",
+    "Incremental",
+    "Prototyping"
+   ],
+   "d": "A",
+   "x": [
+    "Waterfall is strictly sequential and has no explicit risk analysis phase.",
+    "Incremental development delivers the system in parts, and it lacks the four-quadrant risk cycle.",
+    "Prototyping builds working models to clarify requirements, not a cycle of planning, risk analysis, engineering and evaluation."
+   ],
+   "e": "The Spiral model is risk-driven and cycles through Planning, Risk Analysis, Engineering and Evaluation. The question lists these four phases."
+  },
+  {
+   "q": "Which model is associated with Barry Boehm and risk analysis?",
+   "a": "Spiral",
+   "w": [
+    "V-Model",
+    "RAD",
+    "Kanban"
+   ],
+   "d": "E",
+   "x": [
+    "V-Model pairs development with testing stages and is not built around risk analysis.",
+    "RAD, rapid application development, focuses on fast prototyping and short delivery, not risk analysis.",
+    "Kanban is a visual flow method for managing work in progress, not a risk-driven lifecycle model."
+   ],
+   "e": "Barry Boehm is associated with the Spiral model, which places risk analysis at the center of each iteration. This matches the question."
+  },
+  {
+   "q": "Which SDLC approach says \"fast failure\" is good and is stakeholder-driven?",
+   "a": "Agile",
+   "w": [
+    "Waterfall",
+    "Big Bang",
+    "V-Model"
+   ],
+   "d": "A",
+   "x": [
+    "Waterfall is plan-driven with fixed requirements, so it does not value fast failure or stakeholder-driven change.",
+    "Big Bang has little planning and deploys all at once, so it does not promote fast failure.",
+    "V-Model is a sequential model that pairs testing with development, not an approach built on fast failure."
+   ],
+   "e": "Agile is stakeholder-driven and iterative, valuing early delivery and quick feedback so that failures surface fast. This matches the question's description."
+  },
+  {
+   "q": "Which SDLC model has little or no planning and is suitable only for tiny or experimental projects?",
+   "a": "Big Bang",
+   "w": [
+    "Waterfall",
+    "Spiral",
+    "V-Model"
+   ],
+   "d": "A",
+   "x": [
+    "Waterfall has thorough upfront planning, so it does not fit the description of little or no planning.",
+    "Spiral plans each risk-driven cycle, so it is not a model with little or no planning.",
+    "V-Model is structured with testing phases tied to development, so it needs planning and is not for tiny experiments."
+   ],
+   "e": "The Big Bang model has little or no planning, with development and release done all at once, so it suits only tiny or experimental projects. This matches the question."
+  },
+  {
+   "q": "Fixing bugs after release is which type of maintenance?",
+   "a": "Corrective",
+   "w": [
+    "Adaptive",
+    "Perfective",
+    "Preventive"
+   ],
+   "d": "A",
+   "x": [
+    "Adaptive maintenance changes software to suit a new environment, not to fix bugs.",
+    "Perfective maintenance adds enhancements and improves features or performance, not bug fixes.",
+    "Preventive maintenance restructures code to avoid future problems, not to correct existing faults."
+   ],
+   "e": "Corrective maintenance fixes defects found after software is released. This matches the question's bug-fixing scenario."
+  },
+  {
+   "q": "Updating software to work in a new operating system is which type of maintenance?",
+   "a": "Adaptive",
+   "w": [
+    "Corrective",
+    "Perfective",
+    "Preventive"
+   ],
+   "d": "A",
+   "x": [
+    "Corrective maintenance fixes defects found after release, not changes for a new environment.",
+    "Perfective maintenance enhances features or performance for users, not adapts software to a new operating system.",
+    "Preventive maintenance restructures code to reduce future faults, not to adapt to a new platform."
+   ],
+   "e": "Adaptive maintenance modifies software so it works in a changed environment, such as a new operating system. This matches the question."
+  },
+  {
+   "q": "Which of the following is a value of the Agile Manifesto?",
+   "a": "Working software over comprehensive documentation",
+   "w": [
+    "Processes and tools over individuals",
+    "Contract negotiation over customer collaboration",
+    "Following a plan over responding to change"
+   ],
+   "d": "E",
+   "x": [
+    "Processes and tools over individuals reverses the manifesto, which values individuals and interactions over processes and tools.",
+    "Contract negotiation over customer collaboration reverses the manifesto, which values customer collaboration over contract negotiation.",
+    "Following a plan over responding to change reverses the manifesto, which values responding to change over following a plan."
+   ],
+   "e": "The Agile Manifesto values working software over comprehensive documentation. It is one of its four value pairs."
+  },
+  {
+   "q": "In Scrum, which role maximizes the value of the product and manages the backlog?",
+   "a": "Product Owner",
+   "w": [
+    "Scrum Master",
+    "Developer",
+    "Stakeholder"
+   ],
+   "d": "E",
+   "x": [
+    "Scrum Master coaches the team and removes impediments, but does not own the product backlog.",
+    "Developers build the Increment and manage their Sprint Backlog, not the product's value and backlog.",
+    "A stakeholder is outside the Scrum team and does not own the product backlog or maximize its value."
+   ],
+   "e": "The Product Owner maximizes the value of the product and manages the Product Backlog. This matches the question's role."
+  },
+  {
+   "q": "How long is the Daily Scrum?",
+   "a": "15 minutes",
+   "w": [
+    "30 minutes",
+    "1 hour",
+    "8 hours"
+   ],
+   "d": "E",
+   "x": [
+    "30 minutes is twice the fixed 15-minute time-box of the Daily Scrum.",
+    "1 hour is far longer than the 15-minute time-box of the Daily Scrum.",
+    "8 hours is a full working day, far beyond the 15-minute time-box of the Daily Scrum."
+   ],
+   "e": "The Daily Scrum is time-boxed to 15 minutes, so the Developers can sync on progress each day. The question asks for this fixed length."
+  },
+  {
+   "q": "The maximum length of a Sprint is:",
+   "a": "One month",
+   "w": [
+    "Two weeks",
+    "Six weeks",
+    "Three months"
+   ],
+   "d": "A",
+   "x": [
+    "Two weeks is a common sprint length, but it is shorter than the one-month maximum asked about.",
+    "Six weeks exceeds the one-month maximum for a Sprint.",
+    "Three months exceeds the one-month maximum for a Sprint by far."
+   ],
+   "e": "A Sprint is a time-box of one month or less, so one month is the maximum length. This matches the question."
+  },
+  {
+   "q": "Which Scrum artifact lists everything that might be needed in the product?",
+   "a": "Product Backlog",
+   "w": [
+    "Sprint Backlog",
+    "Increment",
+    "Burndown chart"
+   ],
+   "d": "E",
+   "x": [
+    "The Sprint Backlog lists only the items selected for the current Sprint, not everything the product might need.",
+    "The Increment is the sum of completed Product Backlog items, not the list of everything that might be needed.",
+    "A burndown chart tracks remaining work over time and is not a list of product needs."
+   ],
+   "e": "The Product Backlog is an ordered list of everything that might be needed in the product. This matches the question."
+  },
+  {
+   "q": "Which methodology uses a visual board with WIP limits?",
+   "a": "Kanban",
+   "w": [
+    "Scrum",
+    "Waterfall",
+    "Spiral"
+   ],
+   "d": "E",
+   "x": [
+    "Scrum uses time-boxed sprints with defined roles and events, not a flow board with WIP limits.",
+    "Waterfall is a sequential model with phase gates, not a visual flow board with WIP limits.",
+    "Spiral is a risk-driven iterative model, not a visual board method with WIP limits."
+   ],
+   "e": "Kanban visualizes work on a board and limits work in progress, which controls the flow of work. This matches the question."
+  },
+  {
+   "q": "Which Agile method emphasizes pair programming, TDD and small releases?",
+   "a": "Extreme Programming (XP)",
+   "w": [
+    "Kanban",
+    "Scrum",
+    "RUP"
+   ],
+   "d": "A",
+   "x": [
+    "Kanban manages visual flow and work-in-progress limits, not pair programming and test-driven development.",
+    "Scrum is a framework built on roles, events and sprints, and it does not prescribe pair programming or TDD.",
+    "RUP, the Rational Unified Process, is a heavyweight iterative framework rather than an agile method built on XP practices."
+   ],
+   "e": "Extreme Programming emphasizes pair programming, test-driven development and small, frequent releases. This matches the question."
+  },
+  {
+   "q": "Who created Git in 2005?",
+   "a": "Linus Torvalds",
+   "w": [
+    "Richard Stallman",
+    "Guido van Rossum",
+    "Ken Thompson"
+   ],
+   "d": "E",
+   "x": [
+    "Richard Stallman founded the GNU project and the free software movement, not Git.",
+    "Guido van Rossum created the Python language, not Git.",
+    "Ken Thompson co-created Unix, not Git."
+   ],
+   "e": "Linus Torvalds created Git in 2005 to manage Linux kernel development. This matches the question."
+  },
+  {
+   "q": "Which word should a requirement use to state a mandatory item?",
+   "a": "Shall",
+   "w": [
+    "May",
+    "Might",
+    "Could"
+   ],
+   "d": "E",
+   "x": [
+    "May grants permission or an option, so it is not the word for a mandatory item.",
+    "Might expresses possibility, not a mandatory requirement.",
+    "Could expresses capability or optionality, not a mandatory requirement."
+   ],
+   "e": "Shall is the conventional word for a mandatory requirement, meaning the requirement must be met. This matches the question."
+  },
+  {
+   "q": "A good requirement describes:",
+   "a": "What, not how",
+   "w": [
+    "How, not what",
+    "Only the technology",
+    "Only the budget"
+   ],
+   "d": "E",
+   "x": [
+    "How, not what, describes implementation, which a good requirement should avoid specifying.",
+    "Only the technology is too narrow, because requirements describe needs and behavior, not just the tool used.",
+    "Only the budget is not a requirement description, since budget is a constraint rather than what the system does."
+   ],
+   "e": "A good requirement describes what the system must do and the qualities it must have, not how to build it. This matches the question."
+  },
+  {
+   "q": "\"The system shall respond within 2 seconds\" is a:",
+   "a": "Non-functional requirement",
+   "w": [
+    "Functional requirement",
+    "User story",
+    "Constraint on the budget"
+   ],
+   "d": "A",
+   "x": [
+    "A functional requirement describes what the system does, not how well it performs.",
+    "A user story is an informal, user-centered statement of a need, not a measurable quality target.",
+    "A budget constraint limits cost and is not a performance quality of the system."
+   ],
+   "e": "A non-functional requirement describes a quality such as response time or performance rather than a behavior. The 2-second limit is a performance quality."
+  },
+  {
+   "q": "\"The system shall allow users to log in\" is a:",
+   "a": "Functional requirement",
+   "w": [
+    "Non-functional requirement",
+    "Domain constraint",
+    "Quality attribute"
+   ],
+   "d": "A",
+   "x": [
+    "A non-functional requirement describes qualities such as performance or security, not a specific behavior like logging in.",
+    "A domain constraint is a rule imposed by the business domain, not a system behavior.",
+    "A quality attribute describes how well the system performs, not what it does, so it does not fit a login behavior."
+   ],
+   "e": "A functional requirement describes a behavior the system must perform. Allowing users to log in is a behavior."
+  },
+  {
+   "q": "Which technique uses a fishbone diagram for cause-and-effect analysis?",
+   "a": "Ishikawa",
+   "w": [
+    "Pareto",
+    "Gantt",
+    "PERT"
+   ],
+   "d": "E",
+   "x": [
+    "Pareto analysis ranks causes by frequency to show the vital few, not cause-and-effect branches.",
+    "A Gantt chart shows a schedule over time with bars, not cause-and-effect analysis.",
+    "PERT is a network-based scheduling and estimation technique, not a cause-and-effect diagram."
+   ],
+   "e": "An Ishikawa diagram, also called a fishbone diagram, shows cause-and-effect relationships grouped into categories. This matches the question."
+  },
+  {
+   "q": "MoSCoW prioritization stands for:",
+   "a": "Must, Should, Could, Won't",
+   "w": [
+    "Manage, Steer, Control, Operate, Work",
+    "Measure, Support, Check, Observe, Wrap",
+    "Mandatory, Standard, Core, Optional, Wanted"
+   ],
+   "d": "E",
+   "x": [
+    "Manage, Steer, Control, Operate and Work is not a MoSCoW expansion; the method uses Must, Should, Could and Won't.",
+    "Measure, Support, Check, Observe and Wrap is not a MoSCoW expansion; the method uses Must, Should, Could and Won't.",
+    "Mandatory, Standard, Core, Optional and Wanted is not the MoSCoW expansion; the letters stand for Must, Should, Could and Won't."
+   ],
+   "e": "MoSCoW stands for Must, Should, Could and Won't, a prioritization technique for requirements. This matches the question."
+  },
+  {
+   "q": "The SQuaRE series of standards is:",
+   "a": "ISO/IEC 25000",
+   "w": [
+    "ISO 9001",
+    "ISO/IEC 27001",
+    "ISO/IEC 12207"
+   ],
+   "d": "A",
+   "x": [
+    "ISO 9001 is the quality management system standard, not the SQuaRE series for software product quality.",
+    "ISO/IEC 27001 is the information security management standard, not the SQuaRE series.",
+    "ISO/IEC 12207 covers software life cycle processes, not the SQuaRE quality series."
+   ],
+   "e": "The SQuaRE series is ISO/IEC 25000, covering system and software quality requirements and evaluation. This matches the question."
+  },
+  {
+   "q": "ISO/IEC 25010 (2023) has how many product quality characteristics?",
+   "a": "9",
+   "w": [
+    "8",
+    "6",
+    "10"
+   ],
+   "d": "D",
+   "x": [
+    "8 was the count of product quality characteristics in the 2011 edition, before Safety was added.",
+    "6 does not match the nine product quality characteristics in the 2023 revision.",
+    "10 is one more than the nine product quality characteristics in the 2023 revision."
+   ],
+   "e": "The 2023 revision of ISO/IEC 25010 has nine product quality characteristics, with Safety added. This matches the question."
+  },
+  {
+   "q": "In the 2023 revision of ISO/IEC 25010, \"Usability\" was renamed to:",
+   "a": "Interaction Capability",
+   "w": [
+    "User Experience",
+    "Operability",
+    "Accessibility"
+   ],
+   "d": "D",
+   "x": [
+    "User Experience is a broader concept, not the standard's name for the usability characteristic.",
+    "Operability is a sub-characteristic in the standard, not the new name of the characteristic.",
+    "Accessibility is a narrower concern within the characteristic, not its new name."
+   ],
+   "e": "In the 2023 revision, Usability was renamed Interaction Capability. This matches the question."
+  },
+  {
+   "q": "In the 2023 revision of ISO/IEC 25010, \"Portability\" was renamed to:",
+   "a": "Flexibility",
+   "w": [
+    "Adaptability",
+    "Compatibility",
+    "Transferability"
+   ],
+   "d": "D",
+   "x": [
+    "Adaptability is a sub-characteristic about adjusting to environments, not the characteristic's new name.",
+    "Compatibility is a separate characteristic in the standard, not the renamed portability characteristic.",
+    "Not the answer here: transferability is not the standard's name for this characteristic."
+   ],
+   "e": "In the 2023 revision, Portability was renamed Flexibility. This matches the question."
+  },
+  {
+   "q": "Which characteristic was newly added in ISO/IEC 25010:2023?",
+   "a": "Safety",
+   "w": [
+    "Security",
+    "Reliability",
+    "Maintainability"
+   ],
+   "d": "D",
+   "x": [
+    "Security already existed as a characteristic in the 2011 model, so it was not newly added.",
+    "Reliability was already a characteristic of the earlier model, so it was not newly added.",
+    "Maintainability was already a characteristic of the earlier model, so it was not newly added."
+   ],
+   "e": "Safety is the characteristic newly added in ISO/IEC 25010:2023. This matches the question."
+  },
+  {
+   "q": "\"Are we building the product right?\" refers to:",
+   "a": "Verification",
+   "w": [
+    "Validation",
+    "Acceptance",
+    "Certification"
+   ],
+   "d": "A",
+   "x": [
+    "Validation asks whether the right product is built, not whether the product is built right.",
+    "Acceptance testing is a testing activity that checks user acceptance, not the check of building it right.",
+    "Certification is a formal approval process by an authority, not the question of building the product correctly."
+   ],
+   "e": "Verification asks whether the product is built right, checking it against its specifications. This matches the question."
+  },
+  {
+   "q": "\"Are we building the right product?\" refers to:",
+   "a": "Validation",
+   "w": [
+    "Verification",
+    "Debugging",
+    "Refactoring"
+   ],
+   "d": "A",
+   "x": [
+    "Verification asks whether the product is built right, not whether the right product is built.",
+    "Debugging is locating and fixing defects, not checking whether the right product is built.",
+    "Refactoring restructures code without changing behavior, not checking the product against user needs."
+   ],
+   "e": "Validation asks whether the right product is built, checking it against user needs. This matches the question."
+  },
+  {
+   "q": "The order of testing levels is:",
+   "a": "Unit, integration, system, acceptance",
+   "w": [
+    "System, unit, integration, acceptance",
+    "Acceptance, system, unit, integration",
+    "Integration, unit, acceptance, system"
+   ],
+   "d": "A",
+   "x": [
+    "System testing placed before unit testing reverses the bottom-up order of testing levels.",
+    "Acceptance testing placed first reverses the expected order of testing levels.",
+    "Integration testing placed before unit testing reverses the expected bottom-up order."
+   ],
+   "e": "Testing levels go from unit to integration to system to acceptance, building from small parts up to the whole. This matches the question."
+  },
+  {
+   "q": "Testing without knowledge of the code's internal structure is:",
+   "a": "Black-box testing",
+   "w": [
+    "White-box testing",
+    "Glass-box testing",
+    "Path testing"
+   ],
+   "d": "E",
+   "x": [
+    "White-box testing uses the internal code structure, which the question explicitly excludes.",
+    "Glass-box testing is another name for white-box testing, which uses internal structure.",
+    "Path testing is a white-box technique that examines execution paths in the code."
+   ],
+   "e": "Black-box testing checks behavior against inputs and outputs without looking at internal code. This matches the question."
+  },
+  {
+   "q": "A stub in integration testing is a:",
+   "a": "Fake called module",
+   "w": [
+    "Fake calling module",
+    "Real database",
+    "Test report"
+   ],
+   "d": "D",
+   "x": [
+    "A fake calling module is a driver, not a stub, which replaces a module that is called.",
+    "A real database is an actual dependency, not a stub replacing a called module.",
+    "A test report documents results and is not a test double."
+   ],
+   "e": "A stub is a fake version of a module that is called by the module under test, returning canned responses. This matches the question."
+  },
+  {
+   "q": "The TDD cycle is:",
+   "a": "Red, Green, Refactor",
+   "w": [
+    "Plan, Do, Check, Act",
+    "Code, Build, Test",
+    "Given, When, Then"
+   ],
+   "d": "E",
+   "x": [
+    "Plan, Do, Check, Act is the PDCA improvement cycle, not the TDD cycle.",
+    "Code, Build, Test describes a general build sequence, not the red-green-refactor cycle of TDD.",
+    "Given, When, Then is the behavior-driven scenario structure, not the TDD cycle."
+   ],
+   "e": "TDD follows the Red, Green, Refactor cycle: write a failing test, make it pass, then clean up the code. This matches the question."
+  },
+  {
+   "q": "The PERT three-point estimate is:",
+   "a": "(O + 4M + P) / 6",
+   "w": [
+    "(O + M + P) / 3",
+    "(O + 2M + P) / 4",
+    "(4O + M + P) / 6"
+   ],
+   "d": "D",
+   "x": [
+    "(O + M + P) / 3 is a simple average that ignores the extra weight on the most likely estimate.",
+    "(O + 2M + P) / 4 uses the wrong weight on the most likely estimate, so it is not the PERT formula.",
+    "(4O + M + P) / 6 puts the weight on the optimistic estimate instead of the most likely one."
+   ],
+   "e": "The PERT three-point estimate is (O + 4M + P) / 6, weighting the most likely estimate by four. This matches the question."
+  },
+  {
+   "q": "Which model estimates software cost and was devised by Barry Boehm?",
+   "a": "COCOMO",
+   "w": [
+    "PERT",
+    "CPM",
+    "Kanban"
+   ],
+   "d": "A",
+   "x": [
+    "PERT is a network scheduling and estimation technique, not Boehm's software cost model.",
+    "CPM is the critical path method for scheduling, not a software cost estimation model.",
+    "Kanban is a workflow visualization method, not a cost estimation model."
+   ],
+   "e": "COCOMO is a software cost estimation model devised by Barry Boehm. This matches the question."
+  },
+  {
+   "q": "Which diagram shows a context diagram as Level 0?",
+   "a": "Data Flow Diagram",
+   "w": [
+    "ER Diagram",
+    "Class diagram",
+    "State diagram"
+   ],
+   "d": "A",
+   "x": [
+    "An ER diagram models data entities and relationships, not a context-level process view.",
+    "A class diagram shows static structure in UML, not the Level 0 data flow view.",
+    "A state diagram models the states and transitions of an object, not data flow."
+   ],
+   "e": "A Data Flow Diagram shows processes, data stores and data flows, with a context diagram as Level 0. This matches the question."
+  },
+  {
+   "q": "A Level 0 DFD is also known as a:",
+   "a": "Context diagram",
+   "w": [
+    "Detailed diagram",
+    "Physical DFD",
+    "Structure chart"
+   ],
+   "d": "A",
+   "x": [
+    "A detailed diagram is a lower-level DFD, not the Level 0 context view.",
+    "A physical DFD shows how the system is implemented, not the high-level context view.",
+    "A structure chart shows the module hierarchy in design, not a data flow diagram."
+   ],
+   "e": "The Level 0 DFD is the context diagram, showing the whole system as one process with its external entities. This matches the question."
+  },
+  {
+   "q": "The \"Three Amigos\" who created UML are:",
+   "a": "Booch, Jacobson, Rumbaugh",
+   "w": [
+    "Gamma, Helm, Johnson",
+    "Beck, Fowler, Martin",
+    "Codd, Chen, Date"
+   ],
+   "d": "A",
+   "x": [
+    "Gamma, Helm and Johnson are authors of the Gang of Four design patterns book, not the creators of UML.",
+    "Beck, Fowler and Martin are associated with agile and refactoring, not with UML.",
+    "Codd, Chen and Date are associated with relational and data modeling, not with UML."
+   ],
+   "e": "Booch, Jacobson and Rumbaugh are the Three Amigos who created UML. This matches the question."
+  },
+  {
+   "q": "UML is standardized by which organization?",
+   "a": "Object Management Group (OMG)",
+   "w": [
+    "IEEE",
+    "W3C",
+    "ISO only"
+   ],
+   "d": "A",
+   "x": [
+    "IEEE publishes its own engineering standards, but UML is maintained by the OMG.",
+    "W3C publishes web standards, not UML.",
+    "ISO alone is incomplete, because the UML specifications are maintained by the OMG, which is the answer here."
+   ],
+   "e": "The Object Management Group standardizes and maintains UML. This matches the question."
+  },
+  {
+   "q": "How many diagram types does UML 2.x define?",
+   "a": "14",
+   "w": [
+    "9",
+    "12",
+    "7"
+   ],
+   "d": "D",
+   "x": [
+    "9 does not match the UML 2.x count of 14 diagram types.",
+    "12 does not match the UML 2.x count of 14 diagram types.",
+    "7 matches only one family, either the seven structure or the seven behavior diagrams, not all of UML 2.x."
+   ],
+   "e": "UML 2.x defines 14 diagram types, seven structure and seven behavior. This matches the question."
+  },
+  {
+   "q": "Which is a UML structural diagram?",
+   "a": "Class diagram",
+   "w": [
+    "Sequence diagram",
+    "Activity diagram",
+    "Use case diagram"
+   ],
+   "d": "E",
+   "x": [
+    "Sequence diagram is a behavioral diagram that shows message ordering over time, not structure.",
+    "Activity diagram is a behavioral diagram that models workflow, not structure.",
+    "Use case diagram is a behavioral diagram that shows functionality from the actor's viewpoint, not structure."
+   ],
+   "e": "A class diagram is a structural diagram showing classes, attributes, operations and relationships. This matches the question."
+  },
+  {
+   "q": "Which is a UML behavioral diagram?",
+   "a": "Sequence diagram",
+   "w": [
+    "Component diagram",
+    "Deployment diagram",
+    "Package diagram"
+   ],
+   "d": "A",
+   "x": [
+    "Component diagram is a structural diagram showing software components, not behavior.",
+    "Deployment diagram is a structural diagram showing hardware nodes and artifacts, not behavior.",
+    "Package diagram is a structural diagram showing groupings of elements, not behavior."
+   ],
+   "e": "A sequence diagram is a behavioral diagram that shows object interactions over time. This matches the question."
+  },
+  {
+   "q": "In a UML class diagram, which symbol marks a private member?",
+   "a": "-",
+   "w": [
+    "+",
+    "#",
+    "~"
+   ],
+   "d": "E",
+   "x": [
+    "The plus sign marks a public member, not a private one.",
+    "The hash sign marks a protected member, not a private one.",
+    "The tilde sign marks a package-level member, not a private one."
+   ],
+   "e": "The minus sign marks a private member in UML class diagrams. This matches the question."
+  },
+  {
+   "q": "In a UML class diagram, \"#\" denotes:",
+   "a": "Protected",
+   "w": [
+    "Private",
+    "Public",
+    "Package"
+   ],
+   "d": "E",
+   "x": [
+    "Private is marked with a minus sign, not the hash sign.",
+    "Public is marked with a plus sign, not the hash sign.",
+    "Package visibility is marked with a tilde, not the hash sign."
+   ],
+   "e": "The hash sign marks a protected member in UML class diagrams. This matches the question."
+  },
+  {
+   "q": "A filled diamond on a UML association denotes:",
+   "a": "Composition",
+   "w": [
+    "Aggregation",
+    "Generalization",
+    "Dependency"
+   ],
+   "d": "A",
+   "x": [
+    "Aggregation is a hollow diamond, which denotes a weaker whole-part relationship.",
+    "Generalization is a hollow triangle arrowhead, not a diamond.",
+    "Dependency is a dashed arrow, which denotes a weaker use relationship."
+   ],
+   "e": "A filled diamond on an association denotes composition, a strong whole-part relationship. This matches the question."
+  },
+  {
+   "q": "A hollow diamond on a UML association denotes:",
+   "a": "Aggregation",
+   "w": [
+    "Composition",
+    "Realization",
+    "Association class"
+   ],
+   "d": "A",
+   "x": [
+    "Composition is a filled diamond, a stronger whole-part relationship where parts depend on the whole.",
+    "Realization is a dashed arrow with a hollow triangle, used for implementing an interface.",
+    "An association class is a class attached to an association line, not a diamond symbol."
+   ],
+   "e": "A hollow diamond denotes aggregation, a weaker whole-part relationship. This matches the question."
+  },
+  {
+   "q": "A hollow triangle arrow with a solid line denotes:",
+   "a": "Generalization (inheritance)",
+   "w": [
+    "Realization",
+    "Dependency",
+    "Aggregation"
+   ],
+   "d": "A",
+   "x": [
+    "Realization is a dashed line with a hollow triangle, used for interface implementation.",
+    "Dependency is a dashed arrow, which denotes a weaker relationship.",
+    "Aggregation is a hollow diamond at the whole end, not a triangle."
+   ],
+   "e": "A solid line with a hollow triangle denotes generalization, or inheritance. This matches the question."
+  },
+  {
+   "q": "A dashed arrow in a class diagram typically denotes:",
+   "a": "Dependency",
+   "w": [
+    "Inheritance",
+    "Composition",
+    "Association"
+   ],
+   "d": "A",
+   "x": [
+    "Inheritance is a solid line with a hollow triangle, not a dashed arrow.",
+    "Composition is a solid line with a filled diamond, not a dashed arrow.",
+    "Association is a solid line, not a dashed arrow."
+   ],
+   "e": "A dashed arrow denotes dependency, a weaker use relationship between elements. This matches the question."
+  },
+  {
+   "q": "In a use case diagram, an <<include>> relationship means the included use case is:",
+   "a": "Always required",
+   "w": [
+    "Optional",
+    "Deleted",
+    "A generalization"
+   ],
+   "d": "A",
+   "x": [
+    "Optional describes an extend relationship, not an include relationship.",
+    "Deleted is not what include means, since the included use case still runs as part of the flow.",
+    "A generalization is an inheritance relationship, not an include relationship."
+   ],
+   "e": "An include relationship means the included use case is always executed as part of the base use case. This matches the question."
+  },
+  {
+   "q": "In a use case diagram, an <<extend>> relationship means the extension is:",
+   "a": "Optional or conditional",
+   "w": [
+    "Mandatory",
+    "A system actor",
+    "A boundary"
+   ],
+   "d": "A",
+   "x": [
+    "Mandatory describes an include relationship, not an extend relationship.",
+    "A system actor is a participant that interacts with the system, not an extension.",
+    "A boundary is the system boundary box in the diagram, not an extension."
+   ],
+   "e": "An extend relationship means the extension is optional and occurs only under a condition. This matches the question."
+  },
+  {
+   "q": "Which diagram shows messages between lifelines along a vertical time axis?",
+   "a": "Sequence diagram",
+   "w": [
+    "Activity diagram",
+    "State diagram",
+    "Component diagram"
+   ],
+   "d": "E",
+   "x": [
+    "Activity diagram models workflow and control flow, not messages on a time axis.",
+    "State diagram models object states and transitions, not messages between lifelines.",
+    "Component diagram shows structural components and their connections, not message timing."
+   ],
+   "e": "A sequence diagram shows messages between lifelines along a vertical time axis. This matches the question."
+  },
+  {
+   "q": "Which diagram models a workflow with decisions, fork and join bars and swimlanes?",
+   "a": "Activity diagram",
+   "w": [
+    "Sequence diagram",
+    "Class diagram",
+    "Object diagram"
+   ],
+   "d": "A",
+   "x": [
+    "Sequence diagram shows message ordering between lifelines, not decisions and swimlanes.",
+    "Class diagram shows static structure and relationships, not a workflow with swimlanes.",
+    "Object diagram shows instances at a moment in time, not a workflow."
+   ],
+   "e": "An activity diagram models workflows with decisions, fork and join bars and swimlanes. This matches the question."
+  },
+  {
+   "q": "Kruchten's 4+1 view model includes which views?",
+   "a": "Logical, Process, Development, Physical + Scenarios",
+   "w": [
+    "Context, Container, Component, Code + Users",
+    "Data, Process, Network, Logic + Time",
+    "Business, Application, Data, Technology + Motivation"
+   ],
+   "d": "A",
+   "x": [
+    "Context, Container, Component, Code is the C4 model, not Kruchten's view set.",
+    "Data, Process, Network, Logic plus Time is not Kruchten's 4+1 model.",
+    "Business, Application, Data, Technology plus Motivation is an enterprise architecture framework, not Kruchten's 4+1 model."
+   ],
+   "e": "Kruchten's 4+1 view model has Logical, Process, Development and Physical views, plus Scenarios. This matches the question."
+  },
+  {
+   "q": "How many design patterns are described in the Gang of Four book?",
+   "a": "23",
+   "w": [
+    "12",
+    "30",
+    "15"
+   ],
+   "d": "E",
+   "x": [
+    "12 is not the Gang of Four count; the book describes 23 patterns.",
+    "30 is not the Gang of Four count; the book describes 23 patterns.",
+    "15 is not the Gang of Four count; the book describes 23 patterns."
+   ],
+   "e": "The Gang of Four book describes 23 design patterns. This matches the question."
+  },
+  {
+   "q": "Which GoF pattern notifies dependent objects when an object's state changes?",
+   "a": "Observer",
+   "w": [
+    "Singleton",
+    "Adapter",
+    "Facade"
+   ],
+   "d": "E",
+   "x": [
+    "Singleton restricts a class to one instance, not notifying dependents of state changes.",
+    "Adapter converts one interface into another, not state notification.",
+    "Facade gives a simplified interface to subsystems, not state notification."
+   ],
+   "e": "The Observer pattern notifies dependent objects when an object's state changes. This matches the question."
+  },
+  {
+   "q": "Which GoF pattern provides a simplified interface to a group of related classes?",
+   "a": "Facade",
+   "w": [
+    "Adapter",
+    "Proxy",
+    "Bridge"
+   ],
+   "d": "A",
+   "x": [
+    "Adapter converts an incompatible interface, not simplifies a group of classes.",
+    "Proxy stands in for another object to control access, not simplify a subsystem.",
+    "Bridge separates an abstraction from its implementation, not simplifies a group of classes."
+   ],
+   "e": "The Facade pattern provides a simplified interface to a group of related classes. This matches the question."
+  },
+  {
+   "q": "Which GoF pattern ensures that a class has only one instance?",
+   "a": "Singleton",
+   "w": [
+    "Factory Method",
+    "Builder",
+    "Prototype"
+   ],
+   "d": "E",
+   "x": [
+    "Factory Method defers object creation to subclasses, not restricting a class to one instance.",
+    "Builder constructs complex objects step by step, not restricting instances.",
+    "Prototype creates objects by cloning, not restricting instances."
+   ],
+   "e": "The Singleton pattern ensures a class has only one instance and gives global access to it. This matches the question."
+  },
+  {
+   "q": "Which pattern adds responsibilities to an object dynamically at run time?",
+   "a": "Decorator",
+   "w": [
+    "Iterator",
+    "Composite",
+    "Flyweight"
+   ],
+   "d": "A",
+   "x": [
+    "Iterator provides sequential access to elements, not adding responsibilities to objects.",
+    "Composite treats individual objects and groups uniformly in a tree, not adding responsibilities.",
+    "Flyweight shares objects to reduce memory use, not adding responsibilities."
+   ],
+   "e": "The Decorator pattern adds responsibilities to an object dynamically at run time. This matches the question."
+  },
+  {
+   "q": "In SOLID, the \"S\" stands for:",
+   "a": "Single Responsibility",
+   "w": [
+    "Segregation",
+    "Substitution",
+    "Scalability"
+   ],
+   "d": "E",
+   "x": [
+    "Segregation is the I in SOLID, Interface Segregation, not the S.",
+    "Substitution is the L in SOLID, Liskov Substitution, not the S.",
+    "Scalability is not a SOLID principle."
+   ],
+   "e": "In SOLID, the S stands for Single Responsibility, meaning a class should have one reason to change. This matches the question."
+  },
+  {
+   "q": "In SOLID, the \"L\" stands for:",
+   "a": "Liskov Substitution",
+   "w": [
+    "Layered Design",
+    "Late Binding",
+    "Loose Coupling"
+   ],
+   "d": "A",
+   "x": [
+    "Layered Design is not a SOLID principle; the L stands for Liskov Substitution.",
+    "Late Binding is a runtime technique, not a SOLID principle.",
+    "Loose Coupling is a design goal, not the SOLID principle named by L."
+   ],
+   "e": "In SOLID, the L stands for Liskov Substitution, meaning subtypes must be usable in place of their base types. This matches the question."
+  },
+  {
+   "q": "MVC stands for:",
+   "a": "Model-View-Controller",
+   "w": [
+    "Model-Variable-Control",
+    "Module-View-Class",
+    "Master-View-Controller"
+   ],
+   "d": "E",
+   "x": [
+    "Model-Variable-Control is not the MVC pattern, which uses Model, View and Controller.",
+    "Module-View-Class is not the MVC pattern name.",
+    "Master-View-Controller is not the MVC pattern name."
+   ],
+   "e": "MVC stands for Model-View-Controller, a pattern that separates data, presentation and input handling. This matches the question."
+  },
+  {
+   "q": "Which GPL-style license is \"copyleft\", requiring derivative works to be open source?",
+   "a": "GPL",
+   "w": [
+    "BSD",
+    "MIT",
+    "Apache"
+   ],
+   "d": "E",
+   "x": [
+    "BSD is a permissive license without copyleft requirements.",
+    "MIT is a permissive license that does not require derivative works to be open source.",
+    "Apache is a permissive license with patent terms and no copyleft requirement."
+   ],
+   "e": "GPL is a copyleft license, requiring derivative works to be released as open source. This matches the question."
+  },
+  {
+   "q": "Which open source license is non-reciprocal (permissive)?",
+   "a": "BSD",
+   "w": [
+    "GPL",
+    "AGPL",
+    "Copyleft"
+   ],
+   "d": "A",
+   "x": [
+    "GPL is a copyleft license, so derivative works must remain open.",
+    "AGPL is a copyleft license that extends the requirements to network use.",
+    "Copyleft is a licensing approach requiring derivative works to be open, so it is reciprocal rather than permissive."
+   ],
+   "e": "BSD is a permissive license that does not require derivative works to remain open. This matches the question."
+  },
+  {
+   "q": "Who founded the Free Software Foundation in 1985?",
+   "a": "Richard Stallman",
+   "w": [
+    "Linus Torvalds",
+    "Eric Raymond",
+    "Bruce Perens"
+   ],
+   "d": "A",
+   "x": [
+    "Linus Torvalds created the Linux kernel and is not the founder of the Free Software Foundation.",
+    "Eric Raymond is known for writing about open source development, not for founding the FSF in 1985.",
+    "Bruce Perens is known for open source work such as the Open Source Definition, not the FSF."
+   ],
+   "e": "Richard Stallman founded the Free Software Foundation in 1985 and started the GNU project. This matches the question."
+  },
+  {
+   "q": "Which integration method connects subsystems in a chain through an Enterprise Service Bus?",
+   "a": "Horizontal integration",
+   "w": [
+    "Vertical integration",
+    "Star integration",
+    "Common data format"
+   ],
+   "d": "D",
+   "x": [
+    "Vertical integration links systems by functional level, from operations to management, not in a chain across processes.",
+    "Star integration connects systems to a central hub, not in a chain of processes.",
+    "Common data format is a shared data standard for exchange, not an integration method that chains systems."
+   ],
+   "e": "Horizontal integration links systems and business processes across departments end to end, often through an ESB. This fits a chain of connected subsystems."
+  },
+  {
+   "q": "Which integration method is called \"spaghetti integration\"?",
+   "a": "Star integration",
+   "w": [
+    "Horizontal",
+    "Vertical",
+    "Common data format"
+   ],
+   "d": "A",
+   "x": [
+    "Horizontal integration links processes end to end across departments, not a tangled set of direct links.",
+    "Vertical integration links systems by functional level, not through direct point-to-point links.",
+    "Common data format is a shared data standard, not a description of the tangled connection pattern."
+   ],
+   "e": "Spaghetti integration names the tangle of direct point-to-point links between many systems. Note: this is usually the opposite of star integration, which uses a central hub, so the answer key should be checked."
+  },
+  {
+   "q": "Vertical integration links systems:",
+   "a": "By functional level, from operational to management",
+   "w": [
+    "In a chain via an ESB",
+    "By one shared database only",
+    "Only across companies"
+   ],
+   "d": "A",
+   "x": [
+    "Horizontal integration links processes end to end in a chain, not by functional level.",
+    "Linking through one shared database is a data-sharing approach, not the level-by-level link described.",
+    "Linking systems across companies is inter-organization integration, not the level-by-level vertical link."
+   ],
+   "e": "Vertical integration connects systems by functional level, from operational systems up to management and strategic systems. That is why the question's level-based description fits it."
+  },
+  {
+   "q": "Bolman and Deal's four frames are:",
+   "a": "Structural, Human Resource, Political, Symbolic",
+   "w": [
+    "Structural, Financial, Political, Cultural",
+    "People, Process, Product, Profit",
+    "Strategic, Tactical, Operational, Symbolic"
+   ],
+   "d": "D",
+   "x": [
+    "Structural, Financial, Political, Cultural includes financial and cultural frames that are not among Bolman and Deal's four.",
+    "People, Process, Product, Profit is not Bolman and Deal's framework of four frames.",
+    "Strategic, Tactical, Operational, Symbolic names organizational levels plus symbolic, not the four frames."
+   ],
+   "e": "Bolman and Deal's four frames are structural, human resource, political and symbolic. They describe organizations through four lenses, which matches the question."
+  },
+  {
+   "q": "Which organizational structure groups employees by both function and product team?",
+   "a": "Matrix",
+   "w": [
+    "Functional",
+    "Divisional",
+    "Project-based"
+   ],
+   "d": "A",
+   "x": [
+    "Functional structure groups people by specialty, without a dual product reporting line.",
+    "Divisional structure groups units by product, market or region, as self-contained units rather than dual reporting.",
+    "Project-based structure organizes work around temporary projects, not two simultaneous reporting lines."
+   ],
+   "e": "A matrix structure gives employees two reporting lines, one by function and one by product or project. This matches grouping by both function and product team."
+  },
+  {
+   "q": "Which organization structure groups people by tasks or skills, enabling quick decisions?",
+   "a": "Functional",
+   "w": [
+    "Matrix",
+    "Divisional",
+    "Network"
+   ],
+   "d": "A",
+   "x": [
+    "Matrix combines function and product reporting lines, not grouping by skill alone.",
+    "Divisional structure groups by product, market or region, not by task or skill.",
+    "Network structure relies on loose partnerships among organizations, not internal skill groups."
+   ],
+   "e": "A functional structure groups people by specialty such as finance or engineering, with clear reporting lines inside each function. It fits grouping by tasks or skills."
+  },
+  {
+   "q": "In Blender, the process of unwrapping a 3D mesh to apply a 2D image is called:",
+   "a": "UV mapping",
+   "w": [
+    "Baking",
+    "Rigging",
+    "Sculpting"
+   ],
+   "d": "A",
+   "x": [
+    "Baking stores lighting or texture detail into an image, not unwrapping the surface.",
+    "Rigging creates a skeleton of bones for animation, not 2D texture mapping.",
+    "Sculpting shapes a mesh by adding detail with brush-like tools, not mapping a texture."
+   ],
+   "e": "UV mapping unwraps the surface of a 3D mesh into 2D coordinates so that a texture image can be applied correctly. This matches the question."
+  },
+  {
+   "q": "In Blender, pre-computing shaders or lighting into an image to speed up rendering is called:",
+   "a": "Baking",
+   "w": [
+    "Unwrapping",
+    "Rigging",
+    "Retopology"
+   ],
+   "d": "A",
+   "x": [
+    "Unwrapping creates UV coordinates for texturing, not precomputed lighting.",
+    "Rigging creates a skeleton for animation, not precomputed lighting.",
+    "Retopology rebuilds a mesh with cleaner geometry, not precomputed lighting."
+   ],
+   "e": "Baking stores lighting, shading or texture detail as an image so it does not have to be computed at render time. This matches the question."
+  },
+  {
+   "q": "Using the PERT three-point formula, a task has optimistic 4 days, most likely 7 days and pessimistic 16 days. The expected duration is:",
+   "a": "8 days",
+   "w": [
+    "9 days",
+    "7 days",
+    "8.5 days"
+   ],
+   "d": "D",
+   "e": "(O + 4M + P) / 6 = (4 + 28 + 16) / 6 = 48 / 6 = 8. A plain average gives 9, and (O + 2M + P) / 4 gives 8.5, both of which are wrong formulas.",
+   "x": [
+    "A simple average of the three estimates, (4 + 7 + 16) / 3, gives 9 and ignores the PERT weighting.",
+    "The most likely estimate alone gives 7 and ignores the optimistic and pessimistic values.",
+    "Using (O + 2M + P) / 4 gives 8.5, which is not the PERT formula."
+   ]
+  },
+  {
+   "q": "A function contains 4 if statements and 1 while loop (no compound conditions, no other branching). Its cyclomatic complexity is:",
+   "a": "6",
+   "w": [
+    "5",
+    "7",
+    "4"
+   ],
+   "d": "D",
+   "e": "Cyclomatic complexity = number of decision points + 1 = 5 + 1 = 6. Counting only the decisions (5) forgets the +1.",
+   "x": [
+    "5 counts only the decision points and forgets the plus one.",
+    "7 adds an extra decision point that the function does not have.",
+    "4 counts only the if statements and ignores the while loop."
+   ]
+  },
+  {
+   "q": "A control-flow graph has 12 edges, 9 nodes and 1 connected component. Using McCabe's formula, V(G) is:",
+   "a": "5",
+   "w": [
+    "4",
+    "6",
+    "3"
+   ],
+   "d": "D",
+   "e": "V(G) = E - N + 2P = 12 - 9 + 2(1) = 5. Forgetting the 2P term gives 3.",
+   "x": [
+    "4 uses plus one in place of the 2P term, so it does not match McCabe's formula.",
+    "6 does not match the correct calculation of 12 minus 9 plus 2 times 1.",
+    "3 forgets the 2P term, which gives 12 minus 9."
+   ]
+  },
+  {
+   "q": "Which of the following is NOT a Scrum event?",
+   "a": "Product Backlog",
+   "w": [
+    "Sprint Planning",
+    "Daily Scrum",
+    "Sprint Review"
+   ],
+   "d": "A",
+   "e": "The Product Backlog is an artifact (with the Sprint Backlog and the Increment). Sprint Planning, Daily Scrum, Sprint Review and Sprint Retrospective are events.",
+   "x": [
+    "Sprint Planning is a Scrum event, so it is not the item that fails to fit the NOT question.",
+    "Daily Scrum is a Scrum event, so it is not the answer.",
+    "Sprint Review is a Scrum event, so it is not the answer."
+   ]
+  },
+  {
+   "q": "Which of the following is NOT a Scrum artifact?",
+   "a": "Sprint Review",
+   "w": [
+    "Product Backlog",
+    "Sprint Backlog",
+    "Increment"
+   ],
+   "d": "A",
+   "e": "Sprint Review is an event. The three Scrum artifacts are the Product Backlog, the Sprint Backlog and the Increment.",
+   "x": [
+    "Product Backlog is a Scrum artifact, so it does not fit the NOT question.",
+    "Sprint Backlog is a Scrum artifact, so it does not fit the NOT question.",
+    "Increment is a Scrum artifact, so it does not fit the NOT question."
+   ]
+  },
+  {
+   "q": "A team restructures working code without changing its behavior so that future defects are less likely. This is which type of maintenance?",
+   "a": "Preventive",
+   "w": [
+    "Perfective",
+    "Corrective",
+    "Adaptive"
+   ],
+   "d": "D",
+   "e": "Preventive maintenance refactors to avoid future issues. Perfective maintenance enhances features or performance, so it is the nearest wrong option.",
+   "x": [
+    "Perfective maintenance enhances features or performance, not restructuring to prevent future defects.",
+    "Corrective maintenance fixes faults that already exist, not future ones.",
+    "Adaptive maintenance changes software for a new environment, not refactoring to prevent future defects."
+   ]
+  },
+  {
+   "q": "In a pipeline where every change that passes all automated tests is released to production automatically with no manual approval, the practice is:",
+   "a": "Continuous Deployment",
+   "w": [
+    "Continuous Delivery",
+    "Continuous Integration",
+    "Infrastructure as Code"
+   ],
+   "d": "D",
+   "e": "Continuous Deployment auto-releases every passing change. Continuous Delivery only keeps the build always releasable, with release still a manual decision.",
+   "x": [
+    "Continuous Delivery keeps software always releasable, but a person still decides when to release.",
+    "Continuous Integration merges and tests changes frequently, but does not release them to production.",
+    "Infrastructure as Code manages infrastructure through code and is not a release practice."
+   ]
+  },
+  {
+   "q": "In the Spiral model, which activity comes immediately after Risk Analysis?",
+   "a": "Engineering",
+   "w": [
+    "Planning",
+    "Evaluation",
+    "Deployment"
+   ],
+   "d": "A",
+   "e": "The quadrant order is Planning, Risk Analysis, Engineering, Evaluation, then the spiral repeats.",
+   "x": [
+    "Planning comes before Risk Analysis in the spiral, not after it.",
+    "Evaluation comes after Engineering, not right after Risk Analysis.",
+    "Deployment is not a quadrant of the Spiral model's cycle."
+   ]
+  },
+  {
+   "q": "Which of the following is NOT one of the listed types of prototyping?",
+   "a": "Agile",
+   "w": [
+    "Rapid throwaway",
+    "Evolutionary",
+    "Extreme"
+   ],
+   "d": "D",
+   "e": "The prototyping types are rapid throwaway, evolutionary, incremental and extreme. Agile is a separate development approach, not a prototyping type.",
+   "x": [
+    "Rapid throwaway is a listed prototyping type, built quickly and discarded after use.",
+    "Evolutionary is a listed prototyping type, refined into the final system over time.",
+    "Extreme prototyping is a listed prototyping type, so it is not the answer to the NOT question."
+   ]
+  },
+  {
+   "q": "Which ISO/IEC 25010:2023 sub-characteristic belongs to Safety?",
+   "a": "Hazard warning",
+   "w": [
+    "Non-repudiation",
+    "Fault tolerance",
+    "Scalability"
+   ],
+   "d": "D",
+   "e": "Safety covers operational constraint, risk identification, fail safe, hazard warning and safe integration. Non-repudiation is Security, fault tolerance is Reliability and scalability is Flexibility.",
+   "x": [
+    "Non-repudiation is a Security sub-characteristic, not a Safety one.",
+    "Fault tolerance is a Reliability sub-characteristic, not a Safety one.",
+    "Scalability is a Flexibility sub-characteristic in the 2023 model, not a Safety one."
+   ]
+  },
+  {
+   "q": "In ISO/IEC 25010, availability is a sub-characteristic of:",
+   "a": "Reliability",
+   "w": [
+    "Performance Efficiency",
+    "Security",
+    "Safety"
+   ],
+   "d": "D",
+   "e": "Reliability includes faultlessness, availability, fault tolerance and recoverability. Performance Efficiency covers time behaviour, resource utilization and capacity.",
+   "x": [
+    "Performance Efficiency covers time behaviour, resource utilization and capacity, not availability.",
+    "Security covers confidentiality, integrity and related concerns, not availability.",
+    "Safety covers hazard and risk protection, not availability."
+   ]
+  },
+  {
+   "q": "In the ISO/IEC 25000 SQuaRE series, the 2501n division covers:",
+   "a": "Quality Model",
+   "w": [
+    "Quality Management",
+    "Quality Measurement",
+    "Quality Evaluation"
+   ],
+   "d": "A",
+   "e": "2500n is Quality Management, 2501n Quality Model, 2502n Quality Measurement, 2503n Quality Requirements and 2504n Quality Evaluation.",
+   "x": [
+    "Quality Management is the 2500n division for managing the series, not the 2501n model.",
+    "Quality Measurement is the 2502n division for measurement, not the 2501n model.",
+    "Quality Evaluation is the 2504n division for evaluation, not the 2501n model."
+   ]
+  },
+  {
+   "q": "Which of the following belongs to the ISO/IEC 25010 quality in use model?",
+   "a": "Context coverage",
+   "w": [
+    "Modularity",
+    "Interoperability",
+    "Testability"
+   ],
+   "d": "D",
+   "e": "Quality in use covers effectiveness, efficiency, satisfaction, freedom from risk and context coverage. Modularity, interoperability and testability are product quality sub-characteristics.",
+   "x": [
+    "Modularity is a product quality sub-characteristic under Maintainability, describing how a system is split into separate components. It describes the product's internal design, not quality in use.",
+    "Interoperability is a product quality sub-characteristic under Compatibility, meaning systems can exchange and use information. It describes the product itself, not the user's experience in use.",
+    "Testability is a product quality sub-characteristic under Maintainability, about how easily software can be tested. It belongs to the product quality model, so it is not part of quality in use."
+   ]
+  },
+  {
+   "q": "Sandwich (hybrid) integration testing combines:",
+   "a": "Top-down and bottom-up integration",
+   "w": [
+    "Big-bang and top-down integration",
+    "Big-bang and bottom-up integration",
+    "Unit and system testing"
+   ],
+   "d": "D",
+   "e": "Sandwich integration works from both the top layers (using stubs) and the bottom layers (using drivers) toward the middle.",
+   "x": [
+    "Big-bang integration assembles all modules at once with no incremental stage, so it is not one of the two sandwich approaches. Sandwich testing combines top-down and bottom-up, not big-bang.",
+    "Big-bang and bottom-up pairs a non-incremental approach with one half of the sandwich. Sandwich testing is the combination of top-down and bottom-up, so this pairing does not describe it.",
+    "Unit and system testing are test levels, not integration strategies. Sandwich testing combines two integration directions, so unit and system testing do not describe it."
+   ]
+  },
+  {
+   "q": "Which of the following is NOT a black-box test design technique?",
+   "a": "Branch coverage",
+   "w": [
+    "Equivalence partitioning",
+    "Boundary-value analysis",
+    "Decision tables"
+   ],
+   "d": "D",
+   "e": "Branch coverage needs knowledge of the code structure, so it is white-box. The other three derive tests from the specification only.",
+   "x": [
+    "Equivalence partitioning is a black-box technique that groups inputs into classes taken from the specification. It is a valid black-box method, so it is not the exception in this NOT question.",
+    "Boundary-value analysis is a black-box technique that tests values at the edges of input ranges. It derives tests from the specification alone, so it does not fit the NOT question.",
+    "Decision tables are a black-box technique that map combinations of conditions to actions. They use the specification rather than code structure, so they are not the answer here."
+   ]
+  },
+  {
+   "q": "A project has tasks A (3 days, no predecessor), B (4 days, after A), C (6 days, after A) and D (2 days, after both B and C). The minimum project duration is:",
+   "a": "11 days",
+   "w": [
+    "9 days",
+    "13 days",
+    "15 days"
+   ],
+   "d": "D",
+   "e": "Paths: A-B-D = 9 days and A-C-D = 11 days. The longest path (the critical path) sets the duration, so B has 2 days of slack.",
+   "x": [
+    "9 days is the duration of the shorter path A-B-D (3+4+2). It ignores the longer path A-C-D, which finishes later and sets the project duration.",
+    "13 days is 3+4+6, adding A, B and C as if they were in sequence. B and C run in parallel after A, so this overstates the duration.",
+    "15 days is the sum of all four tasks (3+4+6+2). Tasks on parallel paths are not added together, so this does not match the critical path calculation of 11 days."
+   ]
+  },
+  {
+   "q": "Dropping a risky feature from the scope so that the risk can no longer occur is which risk response?",
+   "a": "Avoid",
+   "w": [
+    "Mitigate",
+    "Transfer",
+    "Accept"
+   ],
+   "d": "D",
+   "e": "Avoidance eliminates the risk source. Mitigation only reduces probability or impact, and transfer shifts the impact to a third party such as an insurer or vendor.",
+   "x": [
+    "Mitigate reduces the probability or impact of a risk but keeps the risk source in the project. Here the feature is removed, so the risk can no longer occur at all.",
+    "Transfer shifts the impact of a risk to a third party such as an insurer or vendor. Dropping the feature does not move the risk to anyone else.",
+    "Accept means acknowledging the risk and keeping it, with or without a contingency plan. Dropping the feature removes the risk source entirely, so this does not fit."
+   ]
+  },
+  {
+   "q": "In cause-and-effect (fishbone) analysis, which step comes immediately after working out the major factors?",
+   "a": "Identify possible causes",
+   "w": [
+    "Identify the problem",
+    "Analyze the diagram",
+    "Rank causes by the 80/20 rule"
+   ],
+   "d": "D",
+   "e": "The order is identify the problem, work out major factors, identify possible causes, then analyze the diagram.",
+   "x": [
+    "Identify the problem is the first step, stated before any factors are worked out. The question asks for the step that follows the major factors, so this comes too early.",
+    "Analyze the diagram comes after possible causes have been identified, not before. It is the last step of the fishbone process, so it does not follow the major factors.",
+    "Rank causes by the 80/20 rule is a Pareto analysis technique, not a step in building a fishbone diagram. It is not part of the cause-and-effect sequence."
+   ]
+  },
+  {
+   "q": "Which of the following is NOT one of the TELOS feasibility dimensions?",
+   "a": "Strategic",
+   "w": [
+    "Technical",
+    "Legal",
+    "Schedule"
+   ],
+   "d": "D",
+   "e": "TELOS is Technical, Economic, Legal, Operational and Schedule feasibility.",
+   "x": [
+    "Technical feasibility asks whether the required technology and skills are available. It is the T in TELOS, so it is one of the dimensions rather than the exception.",
+    "Legal feasibility asks whether the project complies with laws, regulations and contracts. It is the L in TELOS, so it is a valid dimension here.",
+    "Schedule feasibility asks whether the project can be finished within the time available. It is the S in TELOS, so it does not fit the NOT question."
+   ]
+  },
+  {
+   "q": "Which data flow is NOT allowed in a Data Flow Diagram?",
+   "a": "Directly from one data store to another data store",
+   "w": [
+    "From an external entity to a process",
+    "From a process to a data store",
+    "From one process to another process"
+   ],
+   "d": "D",
+   "e": "Data stores can only exchange data through a process. Processes need both input and output so they are not black holes or miracles.",
+   "x": [
+    "A data flow from an external entity to a process is allowed, since processes receive input from outside the system. It is a valid DFD flow, so it is not the exception.",
+    "A data flow from a process to a data store is allowed, since processes write data into stores. It is a standard DFD flow, so it does not fit the NOT question.",
+    "A data flow from one process to another is allowed, since processes pass results along. It is a common valid flow in a DFD, so it is not the answer."
+   ]
+  },
+  {
+   "q": "Which API style uses HTTP/2 and Protocol Buffers (protobuf)?",
+   "a": "gRPC",
+   "w": [
+    "REST",
+    "SOAP",
+    "GraphQL"
+   ],
+   "d": "A",
+   "e": "gRPC uses HTTP/2 with protobuf. REST usually uses HTTP verbs with JSON, and SOAP uses XML messages.",
+   "x": [
+    "REST is an architectural style that usually uses HTTP verbs on resources with JSON messages. It does not use protobuf as its standard format, so it is not the answer.",
+    "SOAP is a protocol that exchanges XML messages, usually described with WSDL. It does not use HTTP/2 with protobuf, so it does not fit.",
+    "GraphQL is a query language for APIs where clients request specific fields, usually with JSON responses. It does not use protobuf as its standard format, so it is not the answer."
+   ]
+  },
+  {
+   "q": "Which of the following is NOT a UML behavioral diagram?",
+   "a": "Composite structure diagram",
+   "w": [
+    "Timing diagram",
+    "Communication diagram",
+    "Interaction overview diagram"
+   ],
+   "d": "D",
+   "e": "Composite structure is one of the 7 structural diagrams. Timing, communication, interaction overview, sequence, activity, use case and state diagrams are the 7 behavioral ones.",
+   "x": [
+    "The timing diagram is a UML behavioral diagram that shows state changes against a time axis. It describes behavior, so it is not the diagram that fails to fit the NOT question.",
+    "The communication diagram is a behavioral diagram showing object interactions through links and numbered messages. It is one of the seven behavioral types, so it does not fit.",
+    "The interaction overview diagram is a behavioral diagram that combines activity and sequence diagram elements. It is one of the behavioral types, so it is not the answer."
+   ]
+  },
+  {
+   "q": "In a UML sequence diagram, which combined fragment runs its operand only if its guard is true, like an if without an else?",
+   "a": "opt",
+   "w": [
+    "alt",
+    "loop",
+    "par"
+   ],
+   "d": "D",
+   "e": "opt is a single optional operand. alt offers alternative operands (if/else), loop repeats, and par runs operands in parallel.",
+   "x": [
+    "alt is the combined fragment for alternatives, like if-else with several guarded operands. It has more than one operand, so it does not match a single guarded run.",
+    "loop repeats its operand several times based on a condition or count. It does not run an operand once only when a guard is true, so it does not fit.",
+    "par runs its operands in parallel, each concurrently. It is not a single guarded operand that runs conditionally, so it does not match the description."
+   ]
+  },
+  {
+   "q": "In a UML component diagram, a socket (half-circle) represents a:",
+   "a": "Required interface",
+   "w": [
+    "Provided interface",
+    "Port",
+    "Artifact"
+   ],
+   "d": "D",
+   "e": "The lollipop is the provided interface and the socket is the required interface. A port is drawn as a small square on the component edge.",
+   "x": [
+    "A provided interface is drawn as a lollipop and shows services the component offers. It is the opposite of the socket, which shows a required interface.",
+    "A port is drawn as a small square on the component boundary and marks an interaction point. It is not the half-circle socket notation, so it does not fit.",
+    "An artifact is a physical piece of information such as a file or deployed library, drawn with a document-like symbol. It is not an interface notation, so it does not fit."
+   ]
+  },
+  {
+   "q": "Which pair is the best example of composition rather than aggregation?",
+   "a": "A hotel building and its floors",
+   "w": [
+    "An apartment and its rentee",
+    "An order and a product",
+    "An employee and a part-time employee"
+   ],
+   "d": "D",
+   "e": "Floors cannot exist without the building (filled diamond). Apartment and rentee is aggregation, order-product is dependency, and employee-part-time employee is generalization.",
+   "x": [
+    "An apartment and its rentee is aggregation, since a rentee can exist and move on independently of the apartment. Composition requires that the part cannot exist without the whole.",
+    "An order and a product is a dependency, where the order uses the product without owning it. Neither part is composed of the other, so it is not composition.",
+    "An employee and a part-time employee is generalization, an is-a inheritance relationship. It describes a type hierarchy, not whole-part ownership."
+   ]
+  },
+  {
+   "q": "In a UML class diagram, an attribute written as /age is:",
+   "a": "A derived attribute",
+   "w": [
+    "A protected attribute",
+    "A package-visible attribute",
+    "A private attribute"
+   ],
+   "d": "A",
+   "e": "A leading slash marks a derived attribute (computed from others). Protected is #, package is ~, private is -.",
+   "x": [
+    "A protected attribute is marked with a hash sign and is visible to subclasses. A leading slash does not denote visibility, so this is not what /age means.",
+    "A package-visible attribute is marked with a tilde and is visible within its package. The slash marks a derived value, not package visibility.",
+    "A private attribute is marked with a minus sign and is visible only inside its class. The slash denotes a derived attribute, not an access modifier."
+   ]
+  },
+  {
+   "q": "Which of the following is NOT a creational design pattern?",
+   "a": "Decorator",
+   "w": [
+    "Builder",
+    "Prototype",
+    "Abstract Factory"
+   ],
+   "d": "D",
+   "e": "Decorator is structural (adds behavior at run-time). Singleton, Factory Method, Abstract Factory, Builder and Prototype are the creational patterns.",
+   "x": [
+    "Builder is a creational pattern that constructs complex objects step by step. It is one of the creational patterns, so it is not the one that fails to belong.",
+    "Prototype is a creational pattern that creates new objects by cloning an existing instance. It is creational, so it does not fit the NOT question.",
+    "Abstract Factory is a creational pattern that creates families of related objects without naming concrete classes. It is creational, so it is not the answer."
+   ]
+  },
+  {
+   "q": "Which of these is NOT one of the four elements used to describe a design pattern?",
+   "a": "Implementation code",
+   "w": [
+    "Name",
+    "Problem description",
+    "Consequences"
+   ],
+   "d": "D",
+   "e": "A pattern is described by its name, problem description, solution description and consequences. The solution is general, not a fixed piece of code.",
+   "x": [
+    "The name is one of the four elements of a pattern description and gives the pattern a handle for discussion. It is part of the description, so it is not the exception.",
+    "The problem description states the situation in which the pattern applies. It is one of the four elements, so it does not fit the NOT question.",
+    "The consequences describe the results, benefits and trade-offs of applying the pattern. It is one of the four elements, so it is not the answer."
+   ]
+  },
+  {
+   "q": "The SOLID principle stating that high-level modules should depend on abstractions rather than on low-level modules is:",
+   "a": "Dependency Inversion",
+   "w": [
+    "Interface Segregation",
+    "Open/Closed",
+    "Liskov Substitution"
+   ],
+   "d": "A",
+   "e": "D in SOLID is Dependency Inversion. Interface Segregation says clients should not depend on methods they do not use.",
+   "x": [
+    "Interface Segregation says clients should not be forced to depend on methods they do not use. It addresses interface design, not depending on abstractions rather than low-level modules.",
+    "Open/Closed says software entities should be open for extension and closed for modification. It does not state the dependency direction described in the question.",
+    "Liskov Substitution says subtypes must be substitutable for their base types without breaking behavior. It concerns inheritance correctness, not the dependency direction in the question."
+   ]
+  },
+  {
+   "q": "Which GNU license is intended to let a component link to a library without having to publish the component's own source code?",
+   "a": "LGPL",
+   "w": [
+    "GPL",
+    "AGPL",
+    "GNU FDL"
+   ],
+   "d": "D",
+   "e": "The Lesser GPL permits linking from proprietary components. The plain GPL is reciprocal and requires derived works to be open source.",
+   "x": [
+    "The GPL is a strong copyleft license; a combined work generally must be released under the GPL too. It does not allow the proprietary linking described, so it is not the answer.",
+    "The AGPL is a copyleft license that extends GPL obligations to software used over a network. It is stricter than the LGPL and does not allow the exemption described.",
+    "The GNU FDL is a license for free documentation, not for software libraries. It does not address linking components to libraries, so it is not the answer."
+   ]
+  }
+ ]
+}

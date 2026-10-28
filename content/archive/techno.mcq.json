@@ -1,0 +1,2134 @@
+{
+ "id": "techno",
+ "archived": "2026-10-28",
+ "mcq": [
+  {
+   "q": "Which type of entrepreneur copies existing products made by innovators and imitates their technology, process and methods?",
+   "a": "Imitating entrepreneur",
+   "w": [
+    "Innovative entrepreneur",
+    "Fabian entrepreneur",
+    "Drone entrepreneur"
+   ],
+   "e": "The imitating entrepreneur copies the innovative entrepreneur's products, technology, process and methods.",
+   "d": "A",
+   "x": [
+    "The innovative entrepreneur originates new products, technology and processes. The question describes copying others' innovations, which is the imitating entrepreneur.",
+    "The Fabian entrepreneur is cautious about change and waits to see how released products fare. It does not copy existing innovations.",
+    "The drone entrepreneur is reluctant to change and content with results. It does not copy innovators' products."
+   ]
+  },
+  {
+   "q": "Which entrepreneur is skeptical about change and waits for the outcome of released products in the market before starting the next project?",
+   "a": "Fabian entrepreneur",
+   "w": [
+    "Drone entrepreneur",
+    "Innovative entrepreneur",
+    "Imitating entrepreneur"
+   ],
+   "e": "The Fabian entrepreneur is skeptical about change and waits to see how released products fare.",
+   "d": "A",
+   "x": [
+    "The drone entrepreneur is content with results even at a loss and resists change. It does not wait to see how released products perform.",
+    "The innovative entrepreneur is passionate about discovering new products and enjoys risk. It is not skeptical of change or waiting on market results.",
+    "The imitating entrepreneur copies existing products and technology from innovators. Copying is its defining trait, not skepticism toward change."
+   ]
+  },
+  {
+   "q": "Which entrepreneur is happy with business results even with financial losses and is reluctant to make any change?",
+   "a": "Drone entrepreneur",
+   "w": [
+    "Fabian entrepreneur",
+    "Imitating entrepreneur",
+    "Innovative entrepreneur"
+   ],
+   "e": "The drone entrepreneur is reluctant to change and content with results even when they involve financial losses.",
+   "d": "A",
+   "x": [
+    "The Fabian entrepreneur is skeptical of change and waits for market results before the next project. The question describes contentment with results despite losses, which is the drone type.",
+    "The imitating entrepreneur copies existing products and technology from innovators. It is not defined by reluctance to change or contentment with losses.",
+    "The innovative entrepreneur is passionate about new products and enjoys risk. It is the opposite of reluctance to make changes."
+   ]
+  },
+  {
+   "q": "Which entrepreneur has a great passion for discovering new products, ideas and processes and enjoys the challenge of risk?",
+   "a": "Innovative entrepreneur",
+   "w": [
+    "Imitating entrepreneur",
+    "Fabian entrepreneur",
+    "Drone entrepreneur"
+   ],
+   "e": "The innovative entrepreneur is passionate about discovering new products, ideas and processes and enjoys risk.",
+   "d": "A",
+   "x": [
+    "The imitating entrepreneur copies existing products, technology and methods rather than discovering new ones. It does not enjoy the challenge of creating new things.",
+    "The Fabian entrepreneur is skeptical of change and waits for others' outcomes. It does not show passion for discovering new products or embrace risk.",
+    "The drone entrepreneur is reluctant to change and content with results. It does not show passion for discovering new products or enjoy risk."
+   ]
+  },
+  {
+   "q": "Entrepreneurship is described as \"creating the new and destroying the old.\" Which of these is NOT listed as something new?",
+   "a": "New taxes",
+   "w": [
+    "New knowledge",
+    "New business models",
+    "New raw materials"
+   ],
+   "e": "Taxes are not on the slide's list of new things (knowledge, products, processes, services, markets, business models, raw materials). The closest wrong options, new business models and new raw materials, are both on that list.",
+   "d": "D",
+   "x": [
+    "New knowledge is on the slide's list of things that entrepreneurship creates as new. It fits the creating-the-new idea, so it is not the exception.",
+    "New business models are on the slide's list of new things. They are part of what entrepreneurs create, so they do not answer the question.",
+    "New raw materials are on the slide's list of new things. They are part of what entrepreneurship creates, so they are not the exception."
+   ]
+  },
+  {
+   "q": "According to Kuratko and Hodgetts (2007), an entrepreneur is an innovator who recognizes opportunities, adds value, and also:",
+   "a": "Assumes the risks of the competitive marketplace and realizes the rewards",
+   "w": [
+    "Avoids all financial risk",
+    "Copies existing products only",
+    "Depends entirely on government funding"
+   ],
+   "e": "Kuratko and Hodgetts describe the entrepreneur as one who assumes the risks of the competitive marketplace and realizes the rewards.",
+   "d": "A",
+   "x": [
+    "Avoiding all financial risk contradicts the definition, since entrepreneurs take on the risks of the competitive marketplace. It is not a trait of the entrepreneur.",
+    "Copying existing products describes an imitator, not the innovator the definition describes. Entrepreneurs are defined as innovators who add value.",
+    "Depending on government funding is not part of the Kuratko and Hodgetts definition. The entrepreneur is described as assuming marketplace risks and realizing rewards."
+   ]
+  },
+  {
+   "q": "A technopreneur is defined by Daniel Mankani (2003) as an entrepreneur who:",
+   "a": "Uses cutting-edge technology to develop a new business",
+   "w": [
+    "Imitates existing retail businesses",
+    "Only sells computers",
+    "Works for a government agency"
+   ],
+   "e": "Mankani (2003) defines a technopreneur as an entrepreneur who uses cutting-edge technology to develop a new business.",
+   "d": "A",
+   "x": [
+    "Imitating existing retail businesses is not Mankani's definition. A technopreneur uses cutting-edge technology to develop a new business, not to copy one.",
+    "Selling computers is too narrow and is not in the definition. Mankani's technopreneur is defined by using cutting-edge technology to build a new business.",
+    "Working for a government agency is not part of the definition. A technopreneur is an entrepreneur building a new business with cutting-edge technology."
+   ]
+  },
+  {
+   "q": "Technopreneurship is best described as:",
+   "a": "Entrepreneurship in a technology-intensive context",
+   "w": [
+    "Selling gadgets in a mall",
+    "Government regulation of technology",
+    "Research done only in universities"
+   ],
+   "e": "Technopreneurship is entrepreneurship in a technology-intensive context, merging technology prowess with entrepreneurial skills.",
+   "d": "E",
+   "x": [
+    "Retail selling of gadgets is a commercial activity, not the definition. Technopreneurship is entrepreneurship in a technology-intensive context, which involves building new business with technology.",
+    "Government regulation is a policy topic, not entrepreneurship. Technopreneurship is about entrepreneurs building businesses in technology-intensive settings.",
+    "Research confined to universities describes academic work, not entrepreneurship. Technopreneurship merges technology prowess with entrepreneurial skills in business."
+   ]
+  },
+  {
+   "q": "Technology Developers, who create unique technology capable of driving a new business, are also known as:",
+   "a": "Inventors",
+   "w": [
+    "Innovators",
+    "Imitators",
+    "Investors"
+   ],
+   "e": "Technology developers who create unique technology are the inventors, since the notes equate inventors with developers. The closest confusion is innovators, which is the name for technology users.",
+   "d": "D",
+   "x": [
+    "Innovators are the technology users who apply new technology to a new market need. The question asks about the developers who create the unique technology, which are the inventors.",
+    "Imitators copy existing products and technologies rather than creating unique ones. The question describes developers creating a unique technology that drives a new business.",
+    "Investors provide capital to ventures and are not defined as technology developers. The question describes those who create unique technology."
+   ]
+  },
+  {
+   "q": "Technology Users, who see a new technology and apply it to meet a new market need, are also known as:",
+   "a": "Innovators",
+   "w": [
+    "Inventors",
+    "Imitators",
+    "Incubators"
+   ],
+   "e": "Technology users who see a new technology and apply it to a new market need are the innovators. The closest confusion is inventors, which is the name for technology developers.",
+   "d": "D",
+   "x": [
+    "Inventors are the technology developers who create unique technology. The question describes users who apply a new technology to a new market need.",
+    "Imitators copy existing products and technologies rather than applying them to a new market need. The question describes users who see a new technology and apply it.",
+    "Incubators are support organizations that nurture startups. They are not a category of technology users who apply technology to new market needs."
+   ]
+  },
+  {
+   "q": "Which is NOT considered a technology-based enterprise even though it uses computers?",
+   "a": "Internet café",
+   "w": [
+    "Apple iPod maker",
+    "UPS delivery system",
+    "A software startup"
+   ],
+   "e": "An internet cafe uses computers in its operations but is not a technology-based enterprise, which must gain competitive advantage from direct or indirect use of technology. The closest confusion is the iPod maker or software startup, which are technology-based.",
+   "d": "D",
+   "x": [
+    "The iPod maker gains competitive advantage directly from its technology, so it is technology-based. The question asks for a business that uses computers without that advantage.",
+    "UPS gains an advantage from technology-driven sorting and tracking, so its delivery system is technology-based. The internet cafe is not in that category.",
+    "A software startup's competitive advantage comes directly from technology, so it is technology-based. The question asks for a business that merely uses computers."
+   ]
+  },
+  {
+   "q": "The slide cites which Apple innovation as a technopreneurship example with a 160 GB, 1.8-inch hard disk drive?",
+   "a": "iPod",
+   "w": [
+    "iPad",
+    "MacBook",
+    "Apple Watch"
+   ],
+   "e": "The 160 GB, 1.8-inch hard disk drive is the iPod's innovation in the slides. The closest confusion is the iPad or MacBook, which the slides do not cite for this example.",
+   "d": "D",
+   "x": [
+    "The iPad is a different Apple product, not the one with the 160 GB, 1.8-inch hard disk drive. The slides attribute that example to the iPod.",
+    "The MacBook is a laptop, not the product with the 160 GB, 1.8-inch hard disk drive. The slides attribute that example to the iPod.",
+    "The Apple Watch is a wearable, not the product with the 1.8-inch hard disk drive example. The slides attribute that example to the iPod."
+   ]
+  },
+  {
+   "q": "Which company is cited for offering one-day delivery anywhere in the world through its sorting and delivery facility?",
+   "a": "UPS (United Parcel Service)",
+   "w": [
+    "FedEx Ground",
+    "DHL Express",
+    "Amazon Prime"
+   ],
+   "e": "UPS is the slide's example of one-day delivery anywhere in the world.",
+   "d": "A",
+   "x": [
+    "FedEx Ground is another parcel delivery company, but the slides cite UPS for one-day worldwide delivery. It does not match the example given.",
+    "DHL Express is another international courier, but the slides cite UPS for this one-day delivery example. It is not the company named in the question.",
+    "Amazon Prime is a subscription service, not the delivery company cited for sorting and one-day delivery. The slides name UPS for this example."
+   ]
+  },
+  {
+   "q": "How many stages are in the technopreneurial process shown in the slides?",
+   "a": "8",
+   "w": [
+    "5",
+    "6",
+    "10"
+   ],
+   "e": "The technopreneurial process has 8 steps, from idea generation to monitoring and evaluation. The closest confusion is 5, which is the number of steps in the entrepreneurial process.",
+   "d": "D",
+   "x": [
+    "Five is the number of steps in the entrepreneurial process, not the technopreneurial process. The technopreneurial process has eight stages.",
+    "Six does not match the eight stages of the technopreneurial process shown in the slides.",
+    "Ten does not match the eight stages of the technopreneurial process shown in the slides."
+   ]
+  },
+  {
+   "q": "Which is the FIRST step of the technopreneurial process?",
+   "a": "Idea generation",
+   "w": [
+    "Prototyping",
+    "Commercialization",
+    "Test marketing"
+   ],
+   "e": "Idea generation is step 1 of the technopreneurial process.",
+   "d": "A",
+   "x": [
+    "Prototyping is step 5, a middle stage where a working model is built. It comes after idea generation, so it is not the first step.",
+    "Commercialization is a late stage near the end of the process, not the first step. The first step is idea generation.",
+    "Test marketing is a later stage that tests the product with customers, after the early steps. It does not begin the process."
+   ]
+  },
+  {
+   "q": "Which is the LAST step of the technopreneurial process?",
+   "a": "Monitoring and evaluation",
+   "w": [
+    "Commercialization",
+    "Test marketing",
+    "Business analysis"
+   ],
+   "e": "Monitoring and evaluation is step 8, after commercialization.",
+   "d": "A",
+   "x": [
+    "Commercialization is step 7, the launch stage just before the final step. It is not the last step of the process.",
+    "Test marketing comes before commercialization in the process, so it is not the final stage.",
+    "Business analysis is step 4, an early stage of the technopreneurial process, not the last."
+   ]
+  },
+  {
+   "q": "In the technopreneurial process, which step comes right after concept testing?",
+   "a": "Business analysis",
+   "w": [
+    "Idea screening",
+    "Prototyping",
+    "Commercialization"
+   ],
+   "e": "Business analysis is step 4 and comes directly after concept testing (step 3). The closest confusion is prototyping, which is step 5 and comes after business analysis.",
+   "d": "D",
+   "x": [
+    "Idea screening is an earlier stage, before concept testing, so it does not come right after it.",
+    "Prototyping is step 5, which comes after business analysis rather than directly after concept testing.",
+    "Commercialization is a late stage, far after concept testing in the process."
+   ]
+  },
+  {
+   "q": "The 5 steps of the entrepreneurial process end with:",
+   "a": "Scaling and harvesting",
+   "w": [
+    "Implementation",
+    "Gathering resources",
+    "Business planning"
+   ],
+   "e": "The entrepreneurial process ends with scaling and harvesting (step 5).",
+   "d": "A",
+   "x": [
+    "Implementation is not the final stage of the entrepreneurial process. The process ends with scaling and harvesting.",
+    "Gathering resources is an earlier step, needed before the venture runs. The process ends with scaling and harvesting.",
+    "Business planning is an early step in the entrepreneurial process, not the final one."
+   ]
+  },
+  {
+   "q": "Innovation that happens incrementally, as a response to customer and market demands, is called:",
+   "a": "Sustaining innovation",
+   "w": [
+    "Disruptive innovation",
+    "Breakthrough innovation",
+    "Basic research innovation"
+   ],
+   "e": "Sustaining innovation is incremental and responds to customer and market demands.",
+   "d": "E",
+   "x": [
+    "Disruptive innovation displaces existing markets rather than improving incrementally in response to customers. It does not match this description.",
+    "Breakthrough innovation comes from inside a company and opens new markets, rather than building incrementally on customer demands.",
+    "Basic research innovation starts with discovering a new phenomenon, not with incremental responses to customer and market demand."
+   ]
+  },
+  {
+   "q": "Another name for sustaining innovation is:",
+   "a": "Routine innovation",
+   "w": [
+    "Radical innovation",
+    "Frontier innovation",
+    "Reverse innovation"
+   ],
+   "e": "The notes give routine innovation as the other name for sustaining innovation. Radical, frontier and reverse innovation are not listed as alternative names for it.",
+   "d": "D",
+   "x": [
+    "The notes do not list radical innovation as an alternative name for sustaining innovation. The only alternative name given is routine innovation.",
+    "The notes do not list frontier innovation as a name for sustaining innovation. The notes give routine innovation as the other name.",
+    "The notes do not list reverse innovation as another name for sustaining innovation. The alternative name given is routine innovation."
+   ]
+  },
+  {
+   "q": "Which companies are cited as examples of sustaining innovation?",
+   "a": "Apple, Intel and Amazon",
+   "w": [
+    "Kodak, Nokia and Sears",
+    "Uber, Airbnb and Netflix",
+    "Tesla, SpaceX and Boeing"
+   ],
+   "e": "The slides cite Apple, Intel and Amazon as sustaining innovators. The closest confusion is the Kodak, Nokia and Sears set, which the notes do not cite as sustaining examples.",
+   "d": "D",
+   "x": [
+    "The notes do not cite Kodak, Nokia and Sears as sustaining innovation examples. The slides name Apple, Intel and Amazon for this category.",
+    "Uber, Airbnb and Netflix are not cited as sustaining innovation examples in the notes. The slides name Apple, Intel and Amazon for this.",
+    "Tesla, SpaceX and Boeing are not cited as sustaining examples in the notes. The slides name Apple, Intel and Amazon for this category."
+   ]
+  },
+  {
+   "q": "Who popularized the idea of disruptive innovation?",
+   "a": "Clayton Christensen",
+   "w": [
+    "Alexander Osterwalder",
+    "Joerg Gemuenden",
+    "Ash Maurya"
+   ],
+   "e": "Clayton Christensen popularized disruptive innovation.",
+   "d": "A",
+   "x": [
+    "Alexander Osterwalder is known for the Business Model Canvas, not for popularizing disruptive innovation. He is not the figure credited here.",
+    "Joerg Gemuenden is not the figure the notes credit with popularizing disruptive innovation. That credit goes to Clayton Christensen.",
+    "Ash Maurya is associated with the Lean Canvas and lean startup methods, not with popularizing disruptive innovation."
+   ]
+  },
+  {
+   "q": "Which Clayton Christensen book was published in 1997?",
+   "a": "The Innovator's Dilemma",
+   "w": [
+    "The Innovator's Solution",
+    "The Lean Startup",
+    "Business Model Generation"
+   ],
+   "e": "Christensen's The Innovator's Dilemma was published in 1997. The closest confusion is The Innovator's Solution, the follow-up book, which is not the 1997 title.",
+   "d": "D",
+   "x": [
+    "The Innovator's Solution is Christensen's follow-up book, not the 1997 title. The question asks for the book published in 1997.",
+    "The Lean Startup is by Eric Ries and is not a Christensen book. The question asks for a Christensen title.",
+    "Business Model Generation is by Osterwalder and Pigneur, not a Christensen book. The question asks for his 1997 title."
+   ]
+  },
+  {
+   "q": "A classic example of disruptive innovation given in the slides is:",
+   "a": "Cellphones competing with fixed-line telephony",
+   "w": [
+    "The first Apple iPhone",
+    "The iPod hard drive",
+    "Online surveys"
+   ],
+   "e": "Cellphones displacing fixed-line telephony is the slides' classic disruptive example.",
+   "d": "A",
+   "x": [
+    "The first Apple iPhone is the slides' breakthrough example, not a disruptive example. The classic disruptive case is cellphones displacing fixed-line telephony.",
+    "The iPod hard drive is a technology product example, not the classic disruptive case in the slides. Cellphones displacing fixed-line telephony is the classic case.",
+    "Online surveys are a research method, not an example of disruptive innovation. The classic case is cellphones displacing fixed-line telephony."
+   ]
+  },
+  {
+   "q": "Innovation that comes from inside a company and pushes something to the next level, opening new markets, is called:",
+   "a": "Breakthrough innovation",
+   "w": [
+    "Sustaining innovation",
+    "Disruptive innovation",
+    "Incremental innovation"
+   ],
+   "e": "Breakthrough innovation comes from inside a company, pushes something to the next level and opens new markets.",
+   "d": "A",
+   "x": [
+    "Sustaining innovation is incremental and responds to customer and market demands. It does not push something to the next level from inside the company.",
+    "Disruptive innovation is defined by displacing existing markets, rather than pushing something to the next level from inside the company.",
+    "Incremental innovation makes small improvements in response to demand, not a breakthrough that opens new markets."
+   ]
+  },
+  {
+   "q": "Which product is the slide's example of breakthrough innovation?",
+   "a": "Apple iPhone",
+   "w": [
+    "Nokia 3310",
+    "Amazon Kindle",
+    "UPS tracking"
+   ],
+   "e": "The slides use the Apple iPhone as the breakthrough example.",
+   "d": "E",
+   "x": [
+    "The Nokia 3310 is not the breakthrough example in the slides. The slides name the Apple iPhone for this category.",
+    "The Amazon Kindle is not the breakthrough example in the slides. The slides use the Apple iPhone.",
+    "UPS tracking is not a breakthrough example in the slides. The slides use the Apple iPhone for this category."
+   ]
+  },
+  {
+   "q": "Innovation that begins with the discovery of a new phenomenon and seeks to understand how nature and people are put together is:",
+   "a": "Basic research innovation",
+   "w": [
+    "Breakthrough innovation",
+    "Sustaining innovation",
+    "Disruptive innovation"
+   ],
+   "e": "Basic research starts with discovering a new phenomenon to learn how nature and people are put together.",
+   "d": "A",
+   "x": [
+    "Breakthrough innovation comes from inside a company and pushes something to the next level. It does not begin with discovering a new phenomenon.",
+    "Sustaining innovation is incremental and responds to customer demands. It does not start from discovering a new phenomenon.",
+    "Disruptive innovation displaces existing markets. It does not begin with discovering a new phenomenon about nature and people."
+   ]
+  },
+  {
+   "q": "Which principle of sustainable innovation states that new products must solve real customer problems?",
+   "a": "Value creation",
+   "w": [
+    "Ownership",
+    "Accountability",
+    "Idea management"
+   ],
+   "e": "Value creation means new products must solve real customer problems. The closest confusion is ownership or accountability, which are other principles in the list of ten.",
+   "d": "D",
+   "x": [
+    "Ownership is the principle where the business leader owns the new products. It does not address whether products solve real customer problems.",
+    "Accountability is the principle that team and leaders carry full responsibility for the innovation. It does not address solving customer problems.",
+    "Idea management is not the principle about products solving real customer problems. The question asks for value creation."
+   ]
+  },
+  {
+   "q": "Which principle says that team members and leaders have full responsibility and obligation in the innovation?",
+   "a": "Accountability",
+   "w": [
+    "Ownership",
+    "Inspire",
+    "Net result and reward"
+   ],
+   "e": "Accountability means the team and leaders carry full responsibility for the innovation. The closest confusion is ownership, where the business leader owns the new products.",
+   "d": "D",
+   "x": [
+    "Ownership is the principle where the business leader owns the new products. The question asks about team and leader responsibility and obligation.",
+    "Inspire is a different principle in the list, not the one about full responsibility and obligation for the innovation.",
+    "Net result and reward is about giving employees incentives once ROI is achieved. It does not address responsibility and obligation."
+   ]
+  },
+  {
+   "q": "Which principle says that achieving the ROI should be followed by incentives for employees?",
+   "a": "Net result and reward",
+   "w": [
+    "Observe and measure",
+    "Value creation",
+    "Training and coaching"
+   ],
+   "e": "Net result and reward means that when ROI is achieved, employees get incentives. The closest confusion is observe and measure, which tracks ROI but does not itself give incentives.",
+   "d": "D",
+   "x": [
+    "Observe and measure tracks ROI but does not itself give employees incentives. The question asks for the principle that rewards employees after ROI.",
+    "Value creation is about new products solving real customer problems. It does not involve incentives for employees after ROI is achieved.",
+    "Training and coaching is a different principle about developing people. It does not provide incentives after ROI is achieved."
+   ]
+  },
+  {
+   "q": "\"Technopreneurs are risk takers\" matches which principle for sustainable innovation?",
+   "a": "No risk, no innovation",
+   "w": [
+    "Ownership",
+    "Inspire",
+    "New product process"
+   ],
+   "e": "\"No risk, no innovation\" is the principle that technopreneurs are risk takers.",
+   "d": "A",
+   "x": [
+    "Ownership concerns the business leader owning new products. It does not match the idea that technopreneurs are risk takers.",
+    "Inspire is a different principle in the list. It does not concern risk-taking by technopreneurs.",
+    "New product process is a different principle about how products are developed. It does not state that technopreneurs are risk takers."
+   ]
+  },
+  {
+   "q": "In idea selection, the \"ABC analysis\" is used in which step?",
+   "a": "Step 1: Rough selection",
+   "w": [
+    "Step 2: Fine selection",
+    "Step 3: Detailed analysis",
+    "Step 4: Final launch"
+   ],
+   "e": "Rough selection, the first of three idea-selection steps, uses ABC analysis.",
+   "d": "A",
+   "x": [
+    "Fine selection is the second idea-selection step, using methods such as dot gluing or rating. ABC analysis is used in the first step, rough selection.",
+    "Detailed analysis is the third step, judging customer benefit and feasibility. ABC analysis is used in rough selection, the first step.",
+    "Final launch is not an idea-selection step. ABC analysis belongs to rough selection, the first step."
+   ]
+  },
+  {
+   "q": "In the ABC analysis, which ideas are discussed and decided on together?",
+   "a": "B-ideas",
+   "w": [
+    "A-ideas",
+    "C-ideas",
+    "None of them"
+   ],
+   "e": "B-ideas are uncertain, so they are discussed and decided together.",
+   "d": "A",
+   "x": [
+    "A-ideas are not the uncertain group that is discussed together. The notes place the joint discussion and decision with B-ideas.",
+    "C-ideas have no value and are rejected, so they are not discussed and decided together. The uncertain B-ideas are the group discussed together.",
+    "The notes say B-ideas are the ones discussed and decided together, so this option does not match."
+   ]
+  },
+  {
+   "q": "In the ABC analysis, C-ideas are:",
+   "a": "Rejected and no longer considered",
+   "w": [
+    "Automatically adopted",
+    "Postponed for next year",
+    "Moved straight to production"
+   ],
+   "e": "C-ideas have no value and are rejected.",
+   "d": "E",
+   "x": [
+    "Automatic adoption does not match C-ideas, which the notes describe as having no value and being rejected.",
+    "Postponing to next year is not in the notes for C-ideas. C-ideas have no value and are rejected.",
+    "Moving to production does not match C-ideas, which are rejected for having no value."
+   ]
+  },
+  {
+   "q": "In the \"dots gluing\" method of fine selection, how many sticky points does each participant receive?",
+   "a": "5",
+   "w": [
+    "3",
+    "10",
+    "7"
+   ],
+   "e": "In dot gluing each participant gets 5 sticky points to distribute among ideas. The closest confusion is the rating method, which uses a 0 to 5 point scale instead.",
+   "d": "D",
+   "x": [
+    "Three sticky points is not the dot gluing allotment. Each participant gets 5 sticky points to distribute among the ideas.",
+    "Ten is too many for the dot gluing method. Each participant gets 5 sticky points.",
+    "Seven does not match the dot gluing allotment, which is 5 sticky points per participant."
+   ]
+  },
+  {
+   "q": "When there are fewer than ten ideas, fine selection can use the \"rating\" method with points from:",
+   "a": "0 to 5",
+   "w": [
+    "1 to 10",
+    "0 to 100",
+    "1 to 3"
+   ],
+   "e": "When there are fewer than ten ideas, each participant rates every idea from 0 to 5 points. The closest confusion is dot gluing, which gives each participant 5 sticky points.",
+   "d": "D",
+   "x": [
+    "A 1 to 10 scale is not the rating range for fewer-than-ten ideas. The notes give points from 0 to 5.",
+    "A 0 to 100 scale is not in the notes. The rating method uses points from 0 to 5.",
+    "A 1 to 3 scale does not match the rating method, which uses points from 0 to 5."
+   ]
+  },
+  {
+   "q": "Which is a criterion used in the detailed analysis of product ideas?",
+   "a": "Customer benefit",
+   "w": [
+    "Office location",
+    "Number of employees",
+    "Founder's age"
+   ],
+   "e": "Detailed analysis judges customer benefit, differentiation and competitive factor, and technical and economic feasibility.",
+   "d": "E",
+   "x": [
+    "Office location is not a criterion in the detailed analysis. The criteria are customer benefit, differentiation and feasibility.",
+    "Number of employees is not one of the detailed analysis criteria listed. The criteria are customer benefit, differentiation and feasibility.",
+    "Founder's age is not a criterion for analyzing product ideas. Detailed analysis judges customer benefit, differentiation and feasibility."
+   ]
+  },
+  {
+   "q": "A canvas by which person can be used in detailed analysis for new business models?",
+   "a": "Osterwalder",
+   "w": [
+    "Christensen",
+    "Kuratko",
+    "Mankani"
+   ],
+   "e": "Osterwalder's canvas can be used in detailed analysis for new business models.",
+   "d": "A",
+   "x": [
+    "Christensen is associated with disruptive innovation, not with the business model canvas used in detailed analysis.",
+    "Kuratko is cited for the definition of an entrepreneur, not for a canvas used to analyze new business models.",
+    "Mankani defined technopreneurs, not the canvas for analyzing new business models."
+   ]
+  },
+  {
+   "q": "A focus group typically consists of how many people with a moderator?",
+   "a": "8 to 12",
+   "w": [
+    "2 to 4",
+    "20 to 30",
+    "50 or more"
+   ],
+   "e": "A focus group is typically 8 to 12 people led by a moderator. The notes give this as the size, so the other size ranges in the options do not match.",
+   "d": "D",
+   "x": [
+    "Two to four people is too small for a focus group as the notes describe it, which is typically 8 to 12 people.",
+    "Twenty to thirty people is larger than the typical focus group size of 8 to 12 given in the notes.",
+    "Fifty or more is far larger than the typical focus group size of 8 to 12."
+   ]
+  },
+  {
+   "q": "The researcher gathers information by simply watching how a subject interacts with a product. This technique is:",
+   "a": "Observation",
+   "w": [
+    "Survey",
+    "Focus group",
+    "In-depth interview"
+   ],
+   "e": "Observation means watching how a subject interacts with a product.",
+   "d": "E",
+   "x": [
+    "A survey asks respondents questions rather than watching how they interact with a product. The question describes observation.",
+    "A focus group is a moderated group discussion, not watching a subject interact with a product.",
+    "An in-depth interview is a one-on-one conversation with probing questions, not watching a subject use a product."
+   ]
+  },
+  {
+   "q": "A one-on-one interview using probing questions to understand a person's product preferences is a(n):",
+   "a": "In-depth interview",
+   "w": [
+    "Focus group",
+    "Survey",
+    "Observation"
+   ],
+   "e": "An in-depth interview is one-on-one with probing questions.",
+   "d": "E",
+   "x": [
+    "A focus group involves several people in a group discussion, not a one-on-one interview with probing questions.",
+    "A survey collects answers from a questionnaire, not through one-on-one probing questions.",
+    "Observation means watching how a subject interacts with a product, not talking with them through probing questions."
+   ]
+  },
+  {
+   "q": "Determining whether your product is of interest to a target market, usually before significant investment, is called:",
+   "a": "Market validation",
+   "w": [
+    "Market penetration",
+    "Market segmentation",
+    "Market share"
+   ],
+   "e": "Market validation checks whether a target market is interested in your product, usually before significant investment.",
+   "d": "A",
+   "x": [
+    "Market penetration is about increasing sales in an existing market, not checking whether a target market is interested in the product.",
+    "Market segmentation divides a market into groups, not checking whether the target market is interested in the product.",
+    "Market share is the portion of a market a company holds, not a check of interest before significant investment."
+   ]
+  },
+  {
+   "q": "What is the FIRST of the 5 steps to determine market validation?",
+   "a": "Write down goals, assumptions and hypotheses",
+   "w": [
+    "Test your product or service",
+    "Conduct customer validation interviews",
+    "Assess market size and share"
+   ],
+   "e": "Step 1 of market validation is writing down goals, assumptions and hypotheses. The closest confusion is assessing market size and share, which is step 2.",
+   "d": "D",
+   "x": [
+    "Testing the product is the final step of market validation, not the first. It comes after goals and hypotheses are written.",
+    "Customer validation interviews come later in the five steps, not first. Goals, assumptions and hypotheses are written down first.",
+    "Assessing market size and share is step 2, after goals and hypotheses are written down."
+   ]
+  },
+  {
+   "q": "Which is the LAST of the 5 steps of market validation?",
+   "a": "Test your product or service",
+   "w": [
+    "Research search volume of related terms",
+    "Assess market size and share",
+    "Conduct customer validation interviews"
+   ],
+   "e": "Step 5, the last step, is testing the product or service with alpha and beta testing.",
+   "d": "A",
+   "x": [
+    "Not the answer here: researching search volume is not the final step. The last step is testing the product with alpha and beta testing.",
+    "Assessing market size and share is an earlier step, step 2, not the last step.",
+    "Customer validation interviews are an earlier step, not the last of the five."
+   ]
+  },
+  {
+   "q": "Testing by internal employees in a staged setting to eliminate bugs before outside users see the product is:",
+   "a": "Alpha testing",
+   "w": [
+    "Beta testing",
+    "Market testing",
+    "Focus testing"
+   ],
+   "e": "Alpha testing uses internal employees in a staged setting to remove bugs before outsiders see the product.",
+   "d": "A",
+   "x": [
+    "Beta testing uses a limited group of real external users, not internal employees. The question describes internal testing before outsiders see the product.",
+    "Market testing gauges demand in the market, not internal bug testing by employees in a staged setting.",
+    "Focus testing gathers group feedback, not internal bug testing by employees in a staged setting."
+   ]
+  },
+  {
+   "q": "Testing by a limited group of real external users who are told to identify problems is:",
+   "a": "Beta testing",
+   "w": [
+    "Alpha testing",
+    "Unit testing",
+    "Prototype testing"
+   ],
+   "e": "Beta testing uses a limited group of real external users told to find problems.",
+   "d": "A",
+   "x": [
+    "Alpha testing uses internal employees in a staged setting. The question describes a limited group of external users told to find problems.",
+    "Unit testing checks individual code components, not testing by a limited group of external users.",
+    "Prototype testing evaluates an early model, not testing by external users told to identify problems."
+   ]
+  },
+  {
+   "q": "Which stage of the decision-making process comes right after \"Information search\"?",
+   "a": "Evaluation of alternatives",
+   "w": [
+    "Selection stage",
+    "Problem or need recognition",
+    "Evaluation of decision"
+   ],
+   "e": "Information search is followed by evaluation of alternatives (stage 3). The closest confusion is the selection stage, which comes after evaluation of alternatives.",
+   "d": "D",
+   "x": [
+    "The selection stage comes after evaluation of alternatives, not directly after information search.",
+    "Problem or need recognition is the first stage, before information search.",
+    "Evaluation of decision is the final stage, the fifth, not the one that follows information search."
+   ]
+  },
+  {
+   "q": "The 5th and last stage of the decision-making process is:",
+   "a": "Evaluation of decision",
+   "w": [
+    "Selection stage",
+    "Information search",
+    "Problem or need recognition"
+   ],
+   "e": "The five stages end with evaluation of the decision.",
+   "d": "E",
+   "x": [
+    "The selection stage is an earlier stage, before the final evaluation of the decision.",
+    "Information search is the second stage, early in the process, not the last.",
+    "Problem or need recognition is the first stage, not the last."
+   ]
+  },
+  {
+   "q": "The Business Model Canvas was proposed by:",
+   "a": "Alexander Osterwalder",
+   "w": [
+    "Clayton Christensen",
+    "Alex Cowan",
+    "Mark Zuckerberg"
+   ],
+   "e": "Alexander Osterwalder proposed the Business Model Canvas (the slides also follow Alex Cowan's explanation).",
+   "d": "E",
+   "x": [
+    "Clayton Christensen is known for disruptive innovation, not for proposing the Business Model Canvas.",
+    "Alex Cowan is associated with the explanation of the canvas in the slides, but the canvas itself was proposed by Osterwalder.",
+    "Mark Zuckerberg is not associated with proposing the Business Model Canvas. Alexander Osterwalder proposed it."
+   ]
+  },
+  {
+   "q": "How many building blocks does the Business Model Canvas have?",
+   "a": "9",
+   "w": [
+    "7",
+    "5",
+    "12"
+   ],
+   "e": "The Business Model Canvas has 9 building blocks.",
+   "d": "A",
+   "x": [
+    "Seven does not match the nine building blocks of the Business Model Canvas.",
+    "Five does not match the nine building blocks of the Business Model Canvas.",
+    "Twelve does not match the nine building blocks of the Business Model Canvas."
+   ]
+  },
+  {
+   "q": "Which BMC block answers \"Who are the customers? What do they think, see, feel, do?\"",
+   "a": "Customer segments",
+   "w": [
+    "Value propositions",
+    "Channels",
+    "Revenue streams"
+   ],
+   "e": "Customer segments asks who the customers are and what they think, see, feel and do.",
+   "d": "A",
+   "x": [
+    "Value propositions describe the value promised to customers, not who the customers are.",
+    "Channels describe how the company reaches customers, not who the customers are and what they think, see, feel and do.",
+    "Revenue streams describe how the company earns money, not who the customers are."
+   ]
+  },
+  {
+   "q": "A media property such as CNN.com with readers on one side and advertisers on the other is an example of a:",
+   "a": "Multi-sided market",
+   "w": [
+    "Single-sided market",
+    "Niche market",
+    "Monopoly"
+   ],
+   "e": "CNN.com serves readers and advertisers, which makes it a multi-sided market.",
+   "d": "A",
+   "x": [
+    "A single-sided market serves only one customer group, but CNN.com serves both readers and advertisers.",
+    "A niche market is a small specialized segment, not a platform serving two distinct groups such as readers and advertisers.",
+    "A monopoly describes a single dominant seller, not a platform connecting readers and advertisers."
+   ]
+  },
+  {
+   "q": "Which BMC block is \"the value a company promises to deliver to customers should they choose to buy\"?",
+   "a": "Value propositions",
+   "w": [
+    "Channels",
+    "Key partnerships",
+    "Cost structure"
+   ],
+   "e": "The value proposition is the value the company promises to deliver to customers.",
+   "d": "E",
+   "x": [
+    "Channels describe how value reaches customers, not the value itself.",
+    "Key partnerships describe outside alliances with suppliers and partners, not the value promised to customers.",
+    "Cost structure describes the costs of running the business, not the value promised to customers."
+   ]
+  },
+  {
+   "q": "Which is NOT one of the five phases of channels?",
+   "a": "Production",
+   "w": [
+    "Awareness",
+    "Evaluation",
+    "After sales"
+   ],
+   "e": "The five channel phases are awareness, evaluation, purchase, delivery and after sales. Production is not a channel phase; it belongs to the key activities block.",
+   "d": "D",
+   "x": [
+    "Awareness is one of the five channel phases, so it does not fit the NOT question.",
+    "Evaluation is one of the five channel phases, so it is not the exception here.",
+    "After sales is one of the five channel phases, so it does not match the NOT question."
+   ]
+  },
+  {
+   "q": "In the channel phases, \"word of mouth, social media, newspaper, television and flyers\" belong to which phase?",
+   "a": "Awareness",
+   "w": [
+    "Evaluation",
+    "Purchase",
+    "Delivery"
+   ],
+   "e": "Word of mouth, social media, newspapers, TV and flyers are awareness channels.",
+   "d": "A",
+   "x": [
+    "Evaluation is the phase where customers assess options, not the phase where word of mouth, social media and flyers reach them first.",
+    "Purchase is the phase where the customer buys, not the phase where channels create awareness.",
+    "Delivery is the phase that gets the product to the customer, not the awareness phase."
+   ]
+  },
+  {
+   "q": "Which are the 3 benefits of good customer relationships listed in the slides?",
+   "a": "Retention, loyalty and satisfaction",
+   "w": [
+    "Profit, growth and fame",
+    "Speed, price and quality",
+    "Reach, frequency and recall"
+   ],
+   "e": "Good customer relationships bring retention, loyalty and satisfaction.",
+   "d": "A",
+   "x": [
+    "Profit, growth and fame are not the three benefits of good customer relationships listed in the slides.",
+    "Speed, price and quality are not the listed benefits of good customer relationships.",
+    "Reach, frequency and recall are advertising measures, not the listed benefits of good customer relationships."
+   ]
+  },
+  {
+   "q": "Which is NOT a way to generate revenue streams listed in the slides?",
+   "a": "Crowdfunding",
+   "w": [
+    "Subscription fee",
+    "Usage fee",
+    "Advertising"
+   ],
+   "e": "Crowdfunding is a way to raise startup capital, not one of the revenue streams (product sale, usage, subscription, lending/renting/leasing, brokerage, advertising, volume and unit selling). The closest confusion is the funding-source list, where crowdfunding does appear.",
+   "d": "D",
+   "x": [
+    "A subscription fee is one of the listed revenue streams, so it does not fit the NOT question.",
+    "A usage fee is a listed revenue stream, so it is not the exception.",
+    "Advertising is a listed revenue stream, so it does not answer the NOT question."
+   ]
+  },
+  {
+   "q": "Which BMC block asks \"What can the company not do so it can focus on its key activities?\"",
+   "a": "Key partnerships",
+   "w": [
+    "Key resources",
+    "Key activities",
+    "Cost structure"
+   ],
+   "e": "The slide's key partnerships block is described as what the company will not do itself, so it can focus on key activities.",
+   "d": "A",
+   "x": [
+    "Key resources are the assets a company needs, not what it chooses not to do itself.",
+    "Key activities are what the company does itself to stay focused, not what it will not do. The question describes outsourcing.",
+    "Cost structure describes the costs of the business model, not partners handling what the company does not do."
+   ]
+  },
+  {
+   "q": "A strategic alliance between competitors is called:",
+   "a": "Coopetition",
+   "w": [
+    "Joint venture",
+    "Buyer–supplier relationship",
+    "Franchising"
+   ],
+   "e": "Coopetition is cooperation between competitors, which is listed under key partnerships. The closest confusion is joint venture, another key-partnership type, but the notes place strategic alliances among non-competitors.",
+   "d": "D",
+   "x": [
+    "A joint venture is a separate key-partnership type, not the term for cooperation between competitors. Coopetition is that term.",
+    "A buyer-supplier relationship is a key-partnership type between a buyer and a supplier, not an alliance between competitors.",
+    "Franchising is a business arrangement with a licensed operator, not an alliance between competitors."
+   ]
+  },
+  {
+   "q": "According to the slides, what percent of Google's revenue comes from advertising?",
+   "a": "97%",
+   "w": [
+    "50%",
+    "75%",
+    "33%"
+   ],
+   "e": "The slides say 97% of Google's revenue comes from advertising. The closest confusion is the 50% or 75% options, which the notes do not give for Google.",
+   "d": "D",
+   "x": [
+    "The notes give 97% for Google's advertising share, so 50% does not match.",
+    "The notes give 97% for Google's advertising share, not 75%.",
+    "The notes give 97% for Google's advertising share, not 33%."
+   ]
+  },
+  {
+   "q": "A cost structure focused on creating more value in the product rather than the lowest cost is:",
+   "a": "Value-driven",
+   "w": [
+    "Cost-driven",
+    "Price-driven",
+    "Volume-driven"
+   ],
+   "e": "Value-driven cost structures focus on creating more value in the product rather than the lowest cost.",
+   "d": "A",
+   "x": [
+    "Cost-driven structures focus on minimizing costs, the opposite of creating more value in the product.",
+    "Price-driven is not one of the cost structure types in the notes. The question describes value-driven structures.",
+    "Volume-driven is not a cost structure type in the notes. The notes contrast value-driven with cost-driven structures."
+   ]
+  },
+  {
+   "q": "A cost structure focused on minimizing costs of the product or service is:",
+   "a": "Cost-driven",
+   "w": [
+    "Value-driven",
+    "Brand-driven",
+    "Partner-driven"
+   ],
+   "e": "Cost-driven cost structures focus on minimizing the cost of the product or service.",
+   "d": "A",
+   "x": [
+    "Value-driven structures focus on creating more value in the product rather than the lowest cost.",
+    "Brand-driven is not a cost structure type in the notes. The question describes minimizing cost.",
+    "Partner-driven is not a cost structure type in the notes. The question asks about minimizing cost."
+   ]
+  },
+  {
+   "q": "Which is NOT a type of key resource listed in the slides?",
+   "a": "Political resources",
+   "w": [
+    "Physical resources",
+    "Intellectual resources",
+    "Financial resources"
+   ],
+   "e": "The key resource types are physical, intellectual, human and financial; political is not one.",
+   "d": "A",
+   "x": [
+    "Physical resources are one of the four listed key resource types, so they are not the exception.",
+    "Intellectual resources are a listed key resource type, so they do not match the NOT question.",
+    "Financial resources are a listed key resource type, so they are not the exception."
+   ]
+  },
+  {
+   "q": "Patents, brands, copyrights and customer lists are what kind of key resources?",
+   "a": "Intellectual resources",
+   "w": [
+    "Physical resources",
+    "Human resources",
+    "Financial resources"
+   ],
+   "e": "Patents, brands, copyrights and customer lists are intellectual resources.",
+   "d": "A",
+   "x": [
+    "Physical resources are tangible assets such as facilities and equipment, not patents, brands or copyrights.",
+    "Human resources are people and their skills, not patents, brands, copyrights or customer lists.",
+    "Financial resources are money and credit, not patents, brands, copyrights or customer lists."
+   ]
+  },
+  {
+   "q": "Which is NOT one of the five types of intellectual property rights?",
+   "a": "Franchise",
+   "w": [
+    "Copyright",
+    "Trade secrets",
+    "Industrial design"
+   ],
+   "e": "A franchise is a business arrangement, not one of the five IP types (copyright, patents, trade secrets, trademarks, industrial design). The closest confusion is trademark, which is one of the five.",
+   "d": "D",
+   "x": [
+    "Copyright is one of the five IP rights, so it does not fit the NOT question.",
+    "Trade secrets are one of the five IP rights listed, so they are not the exception.",
+    "Industrial design is one of the five IP rights listed, so it is not the exception."
+   ]
+  },
+  {
+   "q": "Which IP right protects literary and artistic works, including computer programs and databases?",
+   "a": "Copyright",
+   "w": [
+    "Patent",
+    "Trademark",
+    "Trade secret"
+   ],
+   "e": "Copyright protects literary and artistic works, including computer programs and databases.",
+   "d": "E",
+   "x": [
+    "A patent protects inventions, not literary and artistic works such as computer programs and databases.",
+    "A trademark identifies the source of products or services, not literary and artistic works.",
+    "A trade secret protects confidential business information, not literary and artistic works."
+   ]
+  },
+  {
+   "q": "Which is NOT a right granted under copyright law?",
+   "a": "Patent the invention",
+   "w": [
+    "Reproduce the work",
+    "Prepare derivative works",
+    "Perform the work publicly"
+   ],
+   "e": "Patenting an invention is a patent right, not a copyright right; copyright covers reproducing, derivative works, distributing, and public performance and display. The closest confusion is performing the work publicly, which is a copyright right.",
+   "d": "D",
+   "x": [
+    "Reproducing the work is a copyright right, so it does not fit the NOT question.",
+    "Preparing derivative works is a copyright right, so it is not the exception.",
+    "Performing the work publicly is a copyright right, so it does not match the NOT question."
+   ]
+  },
+  {
+   "q": "Patent applications in the Philippines are published in the:",
+   "a": "IPO Gazette",
+   "w": [
+    "Official Gazette of the BIR",
+    "SEC Bulletin",
+    "DTI Journal"
+   ],
+   "e": "Philippine patent applications are published in the IPO Gazette, where anyone may contest them. The closest confusion is the Official Gazette of the BIR, which is not the patent publication.",
+   "d": "D",
+   "x": [
+    "The Official Gazette of the BIR is a tax agency publication, not where patent applications are published.",
+    "The SEC Bulletin is not the publication for patent applications. The IPO Gazette is.",
+    "The DTI Journal is not the patent publication here. Philippine patent applications are published in the IPO Gazette."
+   ]
+  },
+  {
+   "q": "Which is NOT a type of patent mentioned in the slides?",
+   "a": "Hybrid patent",
+   "w": [
+    "Utility patent",
+    "Design patent",
+    "Plant patent"
+   ],
+   "e": "The slide patent types are utility, design and plant; a process falls under utility.",
+   "d": "A",
+   "x": [
+    "Utility patents are one of the three listed slide types, so they are not the exception.",
+    "Design patents are one of the three listed types, so they do not fit the NOT question.",
+    "Plant patents are one of the three listed types, so they are not the exception."
+   ]
+  },
+  {
+   "q": "A patent covering an original, new and ornamental design for a manufactured product is a:",
+   "a": "Design patent",
+   "w": [
+    "Utility patent",
+    "Plant patent",
+    "Basic patent"
+   ],
+   "e": "A design patent covers an original, new and ornamental design.",
+   "d": "A",
+   "x": [
+    "A utility patent covers the function or process of an invention, not an ornamental design.",
+    "A plant patent covers new plant varieties, not an ornamental design of a manufactured product.",
+    "A basic patent is not a patent type listed in the notes, and it does not describe an ornamental design."
+   ]
+  },
+  {
+   "q": "A practice or process generally unknown outside the company that gives an economic advantage is a:",
+   "a": "Trade secret",
+   "w": [
+    "Patent",
+    "Copyright",
+    "Collective mark"
+   ],
+   "e": "A trade secret is a practice or process not generally known outside the company that gives it an economic advantage.",
+   "d": "E",
+   "x": [
+    "A patent protects a publicly disclosed invention, not a practice kept unknown outside the company.",
+    "A copyright protects literary and artistic works, not business practices or processes.",
+    "A collective mark identifies members of an organization, not a confidential practice or process."
+   ]
+  },
+  {
+   "q": "A special trademark that designates protection for services is a:",
+   "a": "Service mark",
+   "w": [
+    "Collective mark",
+    "Certification mark",
+    "Trade secret"
+   ],
+   "e": "A service mark protects services, which are non-product items, while trademarks identify products. The closest confusion is the collective mark (owned by an organization) and the certification mark.",
+   "d": "D",
+   "x": [
+    "A collective mark is owned by an organization or association, not a mark for protecting services.",
+    "A certification mark ascertains adherence to regulations, not protection for services.",
+    "A trade secret protects confidential business information, not services."
+   ]
+  },
+  {
+   "q": "A special trademark owned by an organization or association is a:",
+   "a": "Collective mark",
+   "w": [
+    "Service mark",
+    "Certification mark",
+    "Design patent"
+   ],
+   "e": "A collective mark is owned by an organization or association. The closest confusion is the service mark, which protects services, and the certification mark, which ascertains adherence to regulations.",
+   "d": "D",
+   "x": [
+    "A service mark protects services, not marks owned by an organization or association.",
+    "A certification mark ascertains adherence to regulations, not marks owned by an organization.",
+    "A design patent covers ornamental designs of manufactured products, not marks owned by an association."
+   ]
+  },
+  {
+   "q": "A mark registered to ascertain adherence to local regulations is a:",
+   "a": "Certification mark",
+   "w": [
+    "Collective mark",
+    "Service mark",
+    "Trademark"
+   ],
+   "e": "A certification mark is registered to ascertain adherence to local regulations. The closest confusion is the trademark, which distinguishes products, and the collective mark, which is owned by an organization.",
+   "d": "D",
+   "x": [
+    "A collective mark is owned by an organization or association, not registered to ascertain adherence to regulations.",
+    "A service mark protects services, not adherence to local regulations.",
+    "A trademark distinguishes products, not a mark registered to ascertain adherence to local regulations."
+   ]
+  },
+  {
+   "q": "The ornamental or aesthetic aspect of an article, including 3D shape or 2D patterns, is covered by:",
+   "a": "Industrial design",
+   "w": [
+    "Utility patent",
+    "Copyright",
+    "Trade secret"
+   ],
+   "e": "Industrial design protects the ornamental or aesthetic aspect of an article, in 3D shape or 2D patterns.",
+   "d": "A",
+   "x": [
+    "A utility patent protects functional inventions, not the ornamental or aesthetic aspect of an article.",
+    "Copyright protects literary and artistic works, not the ornamental appearance of an article.",
+    "A trade secret protects confidential information with economic value, not the aesthetic appearance of an article."
+   ]
+  },
+  {
+   "q": "Which investors make high-risk investments in early-stage ventures as individuals?",
+   "a": "Angel investors",
+   "w": [
+    "Private equity firms",
+    "Strategic investors",
+    "Banks"
+   ],
+   "e": "Angel investors are individuals making high-risk investments in early-stage ventures.",
+   "d": "E",
+   "x": [
+    "Private equity firms invest in more mature ventures with a track record, not early-stage ventures as individuals.",
+    "Strategic investors are usually larger companies in the same industry, not individuals.",
+    "Banks lend money with a fixed repayment, and are not individuals making high-risk early-stage investments."
+   ]
+  },
+  {
+   "q": "Which investors invest in relatively mature ventures with a track record in a 1–5 year time frame?",
+   "a": "Private equity (PE) firms",
+   "w": [
+    "Angel investors",
+    "Venture capital companies",
+    "Public funding agencies"
+   ],
+   "e": "Private equity firms invest in relatively mature ventures with a track record, on a 1-5 year time frame. The closest confusion is angel investors, who make high-risk investments in early-stage ventures.",
+   "d": "D",
+   "x": [
+    "Angel investors are individuals making high-risk investments in early-stage ventures, not mature ventures with a track record.",
+    "Venture capital companies are not the category the notes assign to relatively mature ventures with a track record. That is private equity.",
+    "Public funding agencies are government sources, not the private investors that back mature ventures on a 1 to 5 year time frame."
+   ]
+  },
+  {
+   "q": "Which source of funds offers the lowest cost of capital according to the slides?",
+   "a": "Banks",
+   "w": [
+    "Angel investors",
+    "Venture capital",
+    "Crowdfunding"
+   ],
+   "e": "The slides say banks offer the lowest cost of capital.",
+   "d": "A",
+   "x": [
+    "The slides name banks as offering the lowest cost of capital, not angel investors.",
+    "The slides name banks as offering the lowest cost of capital, not venture capital.",
+    "The slides name banks as offering the lowest cost of capital, not crowdfunding."
+   ]
+  },
+  {
+   "q": "Strategic investors are usually:",
+   "a": "Larger companies in the same industry",
+   "w": [
+    "Individual friends and family",
+    "Government agencies",
+    "Small online lenders"
+   ],
+   "e": "Strategic investors are usually larger companies in the same industry.",
+   "d": "A",
+   "x": [
+    "Friends and family are individuals lending personal funds, not larger companies in the same industry.",
+    "Government agencies are public funding sources, not companies in the same industry.",
+    "Small online lenders are lending platforms, not larger companies in the same industry."
+   ]
+  },
+  {
+   "q": "Which is NOT a way of raising capital for startups listed in the slides?",
+   "a": "Issuing government bonds",
+   "w": [
+    "Crowdfunding",
+    "Friends and family",
+    "Entering competitions"
+   ],
+   "e": "Issuing government bonds is not one of the five listed ways to raise startup capital (own funding, crowdfunding, friends and family, loans, competitions). The closest confusion is crowdfunding, which is on that list.",
+   "d": "D",
+   "x": [
+    "Crowdfunding is one of the five listed ways to raise startup capital, so it is not the exception.",
+    "Friends and family is one of the five listed capital sources, so it does not fit the NOT question.",
+    "Entering competitions is one of the five listed ways to raise startup capital, so it is not the exception."
+   ]
+  },
+  {
+   "q": "Which is NOT a component of a small business financial plan?",
+   "a": "Marketing slogan",
+   "w": [
+    "Income statement",
+    "Balance sheet",
+    "Break-even analysis"
+   ],
+   "e": "A marketing slogan is not a component of a small-business financial plan; the components are statements, projections, ratios and break-even analysis. The closest confusion is the income statement and balance sheet, which are on the list.",
+   "d": "D",
+   "x": [
+    "The income statement is one of the financial components listed, so it is not the exception.",
+    "The balance sheet is one of the financial components listed, so it is not the exception.",
+    "Break-even analysis is a listed component of a small business financial plan, so it is not the exception."
+   ]
+  },
+  {
+   "q": "Determining capital requirements and capital structure are objectives of:",
+   "a": "Financial planning",
+   "w": [
+    "Market research",
+    "Idea selection",
+    "Elevator pitching"
+   ],
+   "e": "Financial planning determines capital requirements and capital structure, among other objectives.",
+   "d": "A",
+   "x": [
+    "Market research studies customers and markets, not capital requirements and capital structure.",
+    "Idea selection narrows down product ideas, not determining capital requirements and capital structure.",
+    "An elevator pitch is a short persuasive presentation, not a planning objective for capital needs."
+   ]
+  },
+  {
+   "q": "A document that summarizes operational and financial objectives with detailed plans and budgets is a:",
+   "a": "Business plan",
+   "w": [
+    "Lean canvas",
+    "Elevator pitch",
+    "Value proposition"
+   ],
+   "e": "A business plan summarizes operational and financial objectives with detailed plans and budgets.",
+   "d": "A",
+   "x": [
+    "A lean canvas is a one-page model of a business idea, not a detailed document with plans and budgets.",
+    "An elevator pitch is a short spoken summary of 30 seconds to 2 minutes, not a detailed plan with budgets.",
+    "A value proposition describes the value delivered to customers, not operational and financial objectives with budgets."
+   ]
+  },
+  {
+   "q": "How many sections are in the business plan outline in the slides?",
+   "a": "7",
+   "w": [
+    "5",
+    "9",
+    "10"
+   ],
+   "e": "The business plan outline has 7 sections, from the executive summary to the financial plan. The closest confusion is the other counts in the options, which do not match the outline.",
+   "d": "D",
+   "x": [
+    "Five does not match the seven sections in the business plan outline.",
+    "Nine does not match the seven sections in the business plan outline.",
+    "Ten does not match the seven sections in the business plan outline."
+   ]
+  },
+  {
+   "q": "Which section of the business plan comes FIRST?",
+   "a": "Executive summary",
+   "w": [
+    "Company description",
+    "Market analysis",
+    "Financial plan"
+   ],
+   "e": "The executive summary comes first in the outline.",
+   "d": "A",
+   "x": [
+    "The company description comes after the executive summary, so it is not first.",
+    "Market analysis comes after the executive summary in the outline, not first.",
+    "The financial plan is the last section, the seventh, not the first."
+   ]
+  },
+  {
+   "q": "Which section is the LAST in the business plan outline?",
+   "a": "Financial plan",
+   "w": [
+    "Management team",
+    "Strategy and implementation",
+    "Product or service"
+   ],
+   "e": "The financial plan is the 7th and last section.",
+   "d": "A",
+   "x": [
+    "The management team section is an earlier part of the outline, not the final section.",
+    "Strategy and implementation is an earlier section, before the financial plan.",
+    "Product or service is an earlier section in the outline, not the last."
+   ]
+  },
+  {
+   "q": "How many blocks does the Lean Canvas have?",
+   "a": "9",
+   "w": [
+    "5",
+    "7",
+    "12"
+   ],
+   "e": "The Lean Canvas has 9 blocks, the same count as the Business Model Canvas but a different set. The closest confusion is the 9 blocks of the Business Model Canvas.",
+   "d": "D",
+   "x": [
+    "Five does not match the nine blocks of the Lean Canvas.",
+    "Seven does not match the nine blocks of the Lean Canvas.",
+    "Twelve does not match the nine blocks of the Lean Canvas."
+   ]
+  },
+  {
+   "q": "Which is a block of the Lean Canvas in the slides?",
+   "a": "Unfair advantage",
+   "w": [
+    "Key partnerships",
+    "Customer relationships",
+    "Key resources"
+   ],
+   "e": "Unfair advantage is a Lean Canvas block. The closest confusion is key partnerships, customer relationships and key resources, which are Business Model Canvas blocks.",
+   "d": "D",
+   "x": [
+    "Key partnerships is a Business Model Canvas block, not a Lean Canvas block.",
+    "Customer relationships is a Business Model Canvas block, not a Lean Canvas block.",
+    "Key resources is a Business Model Canvas block, not a Lean Canvas block."
+   ]
+  },
+  {
+   "q": "An elevator pitch is usually how long?",
+   "a": "30 seconds to 2 minutes",
+   "w": [
+    "5 to 10 minutes",
+    "15 to 20 minutes",
+    "1 hour"
+   ],
+   "e": "An elevator pitch is concise and usually lasts 30 seconds to 2 minutes. The closest confusion is 5 to 10 minutes, which is far longer than a pitch should be.",
+   "d": "D",
+   "x": [
+    "Five to ten minutes is far longer than an elevator pitch, which is concise and lasts 30 seconds to 2 minutes.",
+    "Fifteen to twenty minutes is far longer than an elevator pitch should be.",
+    "One hour is far too long for an elevator pitch, which lasts 30 seconds to 2 minutes."
+   ]
+  },
+  {
+   "q": "What is the FIRST step of the 5-step elevator pitch?",
+   "a": "Introduce yourself",
+   "w": [
+    "Identify the problem",
+    "Announce your promise",
+    "Offer proof and a plan"
+   ],
+   "e": "Step 1 of the pitch is introducing yourself with your name, company and service.",
+   "d": "A",
+   "x": [
+    "Identifying the problem is a later step of the 5-step pitch, after introducing yourself.",
+    "Announcing your promise is a later step in the pitch, after the introduction and problem identification.",
+    "Offering proof and a plan is a later step, not the opening step of the pitch."
+   ]
+  },
+  {
+   "q": "What is the LAST step of the 5-step elevator pitch?",
+   "a": "Know when to stop and listen",
+   "w": [
+    "Offer proof and a plan",
+    "Announce your promise",
+    "Introduce yourself"
+   ],
+   "e": "Step 5 is knowing when to stop and listen.",
+   "d": "A",
+   "x": [
+    "The fourth step, where you back your promise with proof and a plan. It comes before the final listening step, not after it.",
+    "The third step, where you state the value you will deliver. It is an earlier step, not the last one.",
+    "The first step, where you say who you are. It opens the pitch rather than closing it."
+   ]
+  },
+  {
+   "q": "Which of the three essential components of a pitch is the most important?",
+   "a": "Stimulate interest",
+   "w": [
+    "Transition that interest",
+    "Share a vision",
+    "Close the sale"
+   ],
+   "e": "Stimulate interest is the most important of the three essential components of a pitch. The closest confusion is transition that interest and share a vision, which are the other two components.",
+   "d": "D",
+   "x": [
+    "The second component, which moves interest toward pain, fear or guilt. It is not the most important of the three.",
+    "The third component, which presents the value proposition through the 100/20 Rule. It is not the most important of the three.",
+    "Closing the sale is not one of the three essential pitch components. The three are stimulate interest, transition that interest and share a vision."
+   ]
+  },
+  {
+   "q": "The \"100/20 Rule\" is associated with which pitch component?",
+   "a": "Share a vision",
+   "w": [
+    "Stimulate interest",
+    "Transition that interest",
+    "Introduce yourself"
+   ],
+   "e": "The 100/20 Rule is associated with the share a vision component (the value proposition). The closest confusion is stimulate interest, the other component the options name.",
+   "d": "D",
+   "x": [
+    "The first component, which grabs attention. The 100/20 Rule belongs to the share a vision component, not this one.",
+    "The second component, which moves interest toward pain, fear or guilt using logic. It is not the value proposition component.",
+    "The opening step of the pitch, where you say who you are. It is not a pitch component tied to the 100/20 Rule."
+   ]
+  },
+  {
+   "q": "In the slide's list of 10 principles for sustainable innovation, which principle comes immediately after Ownership?",
+   "a": "Value creation",
+   "w": [
+    "Accountability",
+    "Training and coaching",
+    "Idea management"
+   ],
+   "d": "D",
+   "e": "The order is Inspire, No risk no innovation, New product process, Ownership, Value creation, then Accountability (6th).",
+   "x": [
+    "Accountability is the sixth principle, two places after Ownership, so it is not the item immediately after it.",
+    "Training and coaching is the seventh principle, further down the list, not the one right after Ownership.",
+    "Idea management is the eighth principle, well after Ownership, so it is not the immediate next item."
+   ]
+  },
+  {
+   "q": "Which principle of sustainable innovation covers hiring, staffing training and continuous coaching?",
+   "a": "Training and coaching",
+   "w": [
+    "Idea management",
+    "Ownership",
+    "New product process"
+   ],
+   "d": "D",
+   "e": "Training and coaching is principle 7. Idea management (8) is about valuing customers' and sales members' input.",
+   "x": [
+    "The eighth principle, about valuing customer and sales input through brainstorming, not staffing, hiring or training.",
+    "The fourth principle, which concerns ownership, not hiring, staffing or continuous coaching.",
+    "The third principle, about the new product process, not staff hiring, training and coaching."
+   ]
+  },
+  {
+   "q": "Which principle of sustainable innovation says to value customers' and sales members' input through brainstorming?",
+   "a": "Idea management",
+   "w": [
+    "Observe and measure",
+    "Inspire",
+    "Value creation"
+   ],
+   "d": "D",
+   "e": "Idea management is principle 8. Observe and measure (9) is about tracking results such as ROI.",
+   "x": [
+    "The ninth principle, about tracking results such as ROI, not collecting input from customers and sales members.",
+    "The first principle on the list, which opens the list, not the principle about gathering input through brainstorming.",
+    "The fifth principle, about creating value, not collecting input from customers and sales members."
+   ]
+  },
+  {
+   "q": "How many principles for sustainable innovation are listed in the slides?",
+   "a": "10",
+   "w": [
+    "8",
+    "9",
+    "12"
+   ],
+   "d": "A",
+   "e": "The slides list 10 principles, from Inspire to Net result and reward.",
+   "x": [
+    "Eight is fewer than the ten principles the slides list, which run from Inspire to Net result and reward.",
+    "Nine is one short of the ten principles the slides list, which run from Inspire to Net result and reward.",
+    "Twelve is more than the ten principles the slides list, which run from Inspire to Net result and reward."
+   ]
+  },
+  {
+   "q": "Which is NOT one of the 10 idea-presentation styles in the slides?",
+   "a": "Infographic",
+   "w": [
+    "Photo-only",
+    "Immersive",
+    "Props"
+   ],
+   "d": "D",
+   "e": "The styles are storytelling, musical, video, photo-only, immersive, question, demonstrative, humorous, animated and props.",
+   "x": [
+    "Photo-only is one of the listed idea-presentation styles, so it is a valid style and not the exception.",
+    "Immersive is one of the listed idea-presentation styles, so it is a valid style and not the exception.",
+    "Props is one of the listed idea-presentation styles, so it is a valid style and not the exception."
+   ]
+  },
+  {
+   "q": "Which is NOT one of the 7 ways to generate revenue listed in the slides?",
+   "a": "Franchise fees",
+   "w": [
+    "Brokerage fees",
+    "Lending, renting or leasing",
+    "Volume and unit selling"
+   ],
+   "d": "D",
+   "e": "The seven are sale of physical product, usage fee, subscription fee, lending/renting/leasing, brokerage fees, advertising, and volume and unit selling.",
+   "x": [
+    "A listed revenue stream where the business earns fees for brokering deals, so it does not fit the NOT question.",
+    "A listed revenue stream earned by lending, renting or leasing out goods, so it does not fit the NOT question.",
+    "A listed revenue stream earned by selling in volume or per unit, so it does not fit the NOT question."
+   ]
+  },
+  {
+   "q": "How many ways to generate revenue does the slide list under revenue streams?",
+   "a": "7",
+   "w": [
+    "5",
+    "6",
+    "9"
+   ],
+   "d": "A",
+   "e": "Seven ways are listed, from sale of a physical product to volume and unit selling.",
+   "x": [
+    "Five is fewer than the seven revenue ways the slide lists, from selling a physical product to volume and unit selling.",
+    "Six is one short of the seven revenue ways the slide lists, from selling a physical product to volume and unit selling.",
+    "Nine is more than the seven revenue ways the slide lists, from selling a physical product to volume and unit selling."
+   ]
+  },
+  {
+   "q": "Which is NOT one of the four key-activity groups in the Business Model Canvas slides?",
+   "a": "Human resources management",
+   "w": [
+    "Production",
+    "Marketing",
+    "Research and development"
+   ],
+   "d": "D",
+   "e": "The four groups are R&D, production, marketing, and sales and customer services.",
+   "x": [
+    "Production is one of the four listed key-activity groups, so it is not the exception.",
+    "Marketing is one of the four listed key-activity groups, so it is not the exception.",
+    "Research and development is one of the four listed key-activity groups, so it is not the exception."
+   ]
+  },
+  {
+   "q": "Product and process selection, capacity, inventory and machine maintenance belong to which key-activity group?",
+   "a": "Production",
+   "w": [
+    "Research and development",
+    "Marketing",
+    "Sales and customer services"
+   ],
+   "d": "D",
+   "e": "These are listed under production. R&D covers new product research, existing product updates, quality checks and innovation.",
+   "x": [
+    "Research and development covers new product research, product updates, quality checks and innovation, not product and process selection.",
+    "Marketing covers strategy, research, communications and events, not capacity, inventory or machine maintenance.",
+    "Sales and customer services covers handling problems and assisting sales, not capacity, inventory or machine maintenance."
+   ]
+  },
+  {
+   "q": "Handling problems, assisting sales and clerical tasks belong to which key-activity group?",
+   "a": "Sales and customer services",
+   "w": [
+    "Marketing",
+    "Production",
+    "Research and development"
+   ],
+   "d": "D",
+   "e": "Sales and customer services covers handling problems, assisting sales and clerical tasks. Marketing covers strategy, research, communications and events.",
+   "x": [
+    "Marketing covers strategy, research, communications and events, not handling problems or clerical tasks.",
+    "Production covers product and process selection, capacity, inventory and machine maintenance, not customer-facing tasks.",
+    "Research and development covers new product research, updates, quality checks and innovation, not sales assistance or clerical work."
+   ]
+  },
+  {
+   "q": "Which investors have a mandate to fund ventures for economic, environmental, cultural or social-policy objectives?",
+   "a": "Public funding agencies",
+   "w": [
+    "Strategic investors",
+    "Angel investors",
+    "Venture capital companies"
+   ],
+   "d": "D",
+   "e": "Public funding agencies fund ventures for policy objectives and suit the early stage. Venture capital firms instead chase high returns on high-risk ventures.",
+   "x": [
+    "Strategic investors are usually companies investing for business benefit, not to meet economic, environmental or social-policy objectives.",
+    "Angel investors are individuals who fund early ventures with their own money for financial return, not for policy objectives.",
+    "Venture capital companies chase high returns on high-risk ventures, not economic, environmental, cultural or social-policy goals."
+   ]
+  },
+  {
+   "q": "Which is NOT one of the 6 types of investors in the slides?",
+   "a": "Business incubators",
+   "w": [
+    "Banks",
+    "Angel investors",
+    "Private equity firms"
+   ],
+   "d": "A",
+   "e": "The six are angel investors, public funding agencies, venture capital companies, private equity firms, strategic investors and banks.",
+   "x": [
+    "Banks are one of the six listed investor types, so they are not the exception.",
+    "Angel investors are one of the six listed investor types, so they are not the exception.",
+    "Private equity firms are one of the six listed investor types, so they are not the exception."
+   ]
+  },
+  {
+   "q": "Which financial-plan objective covers cash control, lending and borrowing?",
+   "a": "Frame financial policies",
+   "w": [
+    "Determine capital requirements",
+    "Determine capital structure",
+    "Use scarce funds at least cost for maximum ROI"
+   ],
+   "d": "D",
+   "e": "Framing financial policies covers cash control, lending and borrowing. Capital requirements are short and long term needs.",
+   "x": [
+    "Capital requirements are the short- and long-term amounts of money the business needs, not cash control, lending or borrowing.",
+    "Capital structure is the kind and proportion of capital used, not cash control, lending or borrowing policy.",
+    "A separate objective about using limited funds at the lowest cost for the best return, not cash control, lending or borrowing."
+   ]
+  },
+  {
+   "q": "Determining the kind and proportion of capital is which objective of the financial plan?",
+   "a": "Determine capital structure",
+   "w": [
+    "Determine capital requirements",
+    "Frame financial policies",
+    "Maximize use of scarce funds"
+   ],
+   "d": "D",
+   "e": "Capital structure is the kind and proportion of capital; capital requirements are the short- and long-term amounts needed.",
+   "x": [
+    "Capital requirements are the short- and long-term amounts needed, not the kind and proportion of capital.",
+    "Framing financial policies covers cash control, lending and borrowing, not the kind and proportion of capital.",
+    "Using scarce funds at the lowest cost for the best return is a separate objective, not the mix of capital."
+   ]
+  },
+  {
+   "q": "Which is NOT among the 6 listed points on the importance of a financial plan?",
+   "a": "Guarantees approval of every loan",
+   "w": [
+    "Ensures adequate funds",
+    "Reduces uncertainties from market trends",
+    "Supports growth and expansion programs"
+   ],
+   "d": "D",
+   "e": "The slide's points include adequate funds, inflow/outflow balance, investor preference for planners, growth programs, reduced uncertainty, and stability and profitability.",
+   "x": [
+    "Ensuring adequate funds is one of the six listed points, so it is not the exception.",
+    "Reducing uncertainty from market trends is one of the six listed points, so it is not the exception.",
+    "Supporting growth and expansion programs is one of the six listed points, so it is not the exception."
+   ]
+  },
+  {
+   "q": "How many components of a small-business financial plan are listed in the slides?",
+   "a": "8",
+   "w": [
+    "6",
+    "7",
+    "10"
+   ],
+   "d": "A",
+   "e": "The eight include income statement, balance sheet, personnel plan, business ratios, cash-flow projection, income projections, assets and liabilities, and break-even analysis.",
+   "x": [
+    "Six is fewer than the eight components the slides list, such as the income statement and balance sheet.",
+    "Seven is one short of the eight components the slides list, such as the income statement and balance sheet.",
+    "Ten is more than the eight components the slides list, such as the income statement and balance sheet."
+   ]
+  },
+  {
+   "q": "Which is NOT one of the 4 reasons for the importance of a business plan?",
+   "a": "Reduce taxes",
+   "w": [
+    "Raise money",
+    "Identify potential weaknesses",
+    "Communicate your idea with stakeholders"
+   ],
+   "d": "A",
+   "e": "The four are raise money, make sound decisions, identify potential weaknesses and communicate your idea with stakeholders.",
+   "x": [
+    "Raising money is one of the four listed reasons, so it is not the exception.",
+    "Identifying potential weaknesses is one of the four listed reasons, so it is not the exception.",
+    "Communicating your idea with stakeholders is one of the four listed reasons, so it is not the exception."
+   ]
+  },
+  {
+   "q": "Which is the last of the 10 benefits of a business plan listed in the slides?",
+   "a": "Realistic regular reminders",
+   "w": [
+    "Metrics",
+    "Milestones",
+    "Strategic alignment"
+   ],
+   "d": "D",
+   "e": "The list ends with strategic alignment, milestones, metrics and then realistic regular reminders.",
+   "x": [
+    "Metrics comes earlier in the list. The last benefit is realistic regular reminders, which follows metrics.",
+    "Milestones comes earlier in the list, before metrics and the reminders at the end.",
+    "Strategic alignment appears several items before the end of the list, so it is not the last benefit."
+   ]
+  },
+  {
+   "q": "Which is NOT one of the 4 final tips for the pitch?",
+   "a": "Memorize every word",
+   "w": [
+    "Take your time",
+    "Make it conversational",
+    "Avoid niche words and phrases"
+   ],
+   "d": "D",
+   "e": "The tips are take your time, make it conversational, avoid niche words and phrases, and express confidence.",
+   "x": [
+    "Taking your time is one of the four final tips, so it is not the exception.",
+    "Making it conversational is one of the four final tips, so it is not the exception.",
+    "Avoiding niche words and phrases is one of the four final tips, so it is not the exception."
+   ]
+  },
+  {
+   "q": "In the 5-step pitch, which step comes immediately after identifying the problem your company solves?",
+   "a": "Announce your promise",
+   "w": [
+    "Offer proof and a plan",
+    "Introduce yourself",
+    "Know when to stop and listen"
+   ],
+   "d": "D",
+   "e": "The order is introduce yourself, identify the problem, announce your promise, offer proof and a plan, then know when to stop and listen.",
+   "x": [
+    "The fourth step, which comes after announcing the promise, not right after identifying the problem.",
+    "The first step, which comes before identifying the problem, not after it.",
+    "The last step, which comes after offering proof and a plan, so it is not the step right after the problem."
+   ]
+  },
+  {
+   "q": "Which pitch component addresses pain, fear or guilt and depends on logic?",
+   "a": "Transition that interest",
+   "w": [
+    "Stimulate interest",
+    "Share a vision",
+    "Announce your promise"
+   ],
+   "d": "D",
+   "e": "Transitioning interest addresses pain, fear or guilt. Stimulating interest is the most important component; sharing a vision uses the 100/20 Rule.",
+   "x": [
+    "Stimulating interest is the first of the three components and the most important one, not the one dealing with pain, fear or guilt.",
+    "Sharing a vision is the component that uses the 100/20 Rule, not the one that addresses pain, fear or guilt.",
+    "Announcing your promise is a step of the five-step pitch, not one of the three essential components."
+   ]
+  },
+  {
+   "q": "In the slide's Lean Canvas, which block comes right after Problem?",
+   "a": "Customer Segments",
+   "w": [
+    "Solution",
+    "Unique Value Proposition",
+    "Key Activity"
+   ],
+   "d": "D",
+   "e": "The slide order is Problem, Customer Segments, Unique Value Proposition, Solution, Key Activity, Channels, Cost Structure, Revenue Streams, Unfair Advantage.",
+   "x": [
+    "Solution is the fourth block, after Unique Value Proposition, so it is not the one right after Problem.",
+    "Unique Value Proposition is the third block, after Customer Segments, so it is not the one right after Problem.",
+    "Key Activity is the fifth block on the slide, so it comes well after Problem."
+   ]
+  },
+  {
+   "q": "In the slide's Lean Canvas, which block is fifth?",
+   "a": "Key Activity",
+   "w": [
+    "Key Resources",
+    "Key Partnerships",
+    "Channels"
+   ],
+   "d": "D",
+   "e": "Fifth is Key Activity, after Solution; the slide uses it where Ash Maurya's original has Key Metrics.",
+   "x": [
+    "Not the answer here: Key Resources does not appear in this slide's Lean Canvas block order.",
+    "Not the answer here: Key Partnerships does not appear in this slide's Lean Canvas block order.",
+    "Channels is the sixth block on the slide, coming right after Key Activity."
+   ]
+  },
+  {
+   "q": "Which Lean Canvas block has no counterpart among the Business Model Canvas's blocks?",
+   "a": "Problem",
+   "w": [
+    "Customer Segments",
+    "Channels",
+    "Revenue Streams"
+   ],
+   "d": "D",
+   "e": "Problem (with Solution and Unfair Advantage) is unique to the Lean Canvas; the other options are blocks in both canvases.",
+   "x": [
+    "Customer Segments is also a Business Model Canvas block, so it has a counterpart and is not the answer.",
+    "Channels is also a Business Model Canvas block, so it has a counterpart and is not the answer.",
+    "Revenue Streams is also a Business Model Canvas block, so it has a counterpart and is not the answer."
+   ]
+  },
+  {
+   "q": "Personas, single- versus multi-sided markets and current alternatives are discussed under which BMC block?",
+   "a": "Customer Segments",
+   "w": [
+    "Value Propositions",
+    "Customer Relationships",
+    "Channels"
+   ],
+   "d": "A",
+   "e": "Customer Segments covers who the customers are, personas, problems, needs, habits and alternatives.",
+   "x": [
+    "Value Propositions describe the value the company offers, not who the customers are or what alternatives they have.",
+    "Customer Relationships describe how the business interacts with and keeps customers, not who the customers are.",
+    "Channels describe how the company reaches customers and delivers its offer, not who the customers are."
+   ]
+  },
+  {
+   "q": "Which is NOT among the value proposition examples listed in the slides?",
+   "a": "Geographic coverage",
+   "w": [
+    "Brand or status",
+    "Risk reduction",
+    "Convenience"
+   ],
+   "d": "D",
+   "e": "Listed examples include newness, performance, customization, design, brand/status, price, cost reduction, risk reduction and convenience.",
+   "x": [
+    "Brand or status is one of the listed value proposition examples, so it does not fit the NOT question.",
+    "Risk reduction is one of the listed value proposition examples, so it does not fit the NOT question.",
+    "Convenience is one of the listed value proposition examples, so it does not fit the NOT question."
+   ]
+  },
+  {
+   "q": "Self-checkout, credit card and cash on delivery are examples of which channel phase?",
+   "a": "Purchase",
+   "w": [
+    "Evaluation",
+    "Delivery",
+    "After sales"
+   ],
+   "d": "A",
+   "e": "They are purchase-phase channels. Delivery is over-the-counter or door-to-door; after sales is call center, return policy and assistance.",
+   "x": [
+    "Evaluation is the phase where customers assess the offer before buying, not the purchase phase.",
+    "Delivery covers over-the-counter or door-to-door handover, not payment methods such as self-checkout or cash on delivery.",
+    "After sales covers call centers, return policies and assistance, not the purchase phase."
+   ]
+  },
+  {
+   "q": "Which three core business types does the BMC propose in the slide wording?",
+   "a": "Product, scope and infrastructure",
+   "w": [
+    "Product, price and promotion",
+    "Customer, product and finance",
+    "Infrastructure, customer and finance"
+   ],
+   "d": "D",
+   "e": "The slide wording lists product, scope and infrastructure as the three core business types.",
+   "x": [
+    "Product, price and promotion is the marketing mix, not the three core business types in the slide wording.",
+    "Customer, product and finance mixes terms that are not the three core business types in the slide wording.",
+    "Infrastructure, customer and finance uses terms that are not the three core business types in the slide wording."
+   ]
+  },
+  {
+   "q": "Which test may be opened to the public with an \"unfinished\" notice?",
+   "a": "Beta testing",
+   "w": [
+    "Alpha testing",
+    "Concept testing",
+    "Test marketing"
+   ],
+   "d": "D",
+   "e": "Beta testing uses real external users and may be public with an unfinished notice. Alpha testing is internal, by employees in a staged setting.",
+   "x": [
+    "Alpha testing is internal, done by employees in a staged setting, not a public test with real external users.",
+    "Concept testing checks whether an idea appeals to target customers before it is built, not an open unfinished release.",
+    "Test marketing launches the product in selected markets to gauge sales, not an open test with an unfinished notice."
+   ]
+  },
+  {
+   "q": "The \"240 monthly searches\" for \"best mattress for lower back pain sufferers\" (per Moz) supports which market-validation step?",
+   "a": "Research search volume of related terms",
+   "w": [
+    "Assess market size and share",
+    "Conduct customer validation interviews",
+    "Write down goals, assumptions and hypotheses"
+   ],
+   "d": "D",
+   "e": "Step 3 researches search volume. Casper mattresses is the example for step 2, market size and share.",
+   "x": [
+    "Assessing market size and share is the second validation step, illustrated with Casper mattresses, not search volume.",
+    "Customer validation interviews are direct conversations with potential customers, not search-volume data like the 240 monthly searches.",
+    "Writing down goals, assumptions and hypotheses is a planning step, not a count of how often people search for terms."
+   ]
+  },
+  {
+   "q": "The slide contrasts the iPod's 160 GB, 1.8-inch drive with an average 3.5-inch drive of what capacity?",
+   "a": "40 GB",
+   "w": [
+    "20 GB",
+    "80 GB",
+    "120 GB"
+   ],
+   "d": "D",
+   "e": "The average 3.5-inch drive in the slide held 40 GB, versus the iPod's 160 GB in a 1.8-inch drive.",
+   "x": [
+    "20 GB is below the average 40 GB 3.5-inch drive stated in the slide, not the correct figure.",
+    "80 GB is double the average 40 GB 3.5-inch drive stated in the slide, not the correct figure.",
+    "120 GB is three times the average 40 GB 3.5-inch drive stated in the slide, not the correct figure."
+   ]
+  },
+  {
+   "q": "Which definition of technopreneur is credited to Sarimah Hanim and Abd. Rashid (2008)?",
+   "a": "An entrepreneur involved in technological changes in producing goods or services for his organization",
+   "w": [
+    "An entrepreneur who uses cutting-edge technology to develop a new business",
+    "An entrepreneur who only sells technology products",
+    "An investor who funds technology startups"
+   ],
+   "d": "D",
+   "e": "The cutting-edge technology definition belongs to Daniel Mankani (2003); Sarimah Hanim and Abd. Rashid stress technological changes in producing goods or services.",
+   "x": [
+    "This is Daniel Mankani's 2003 cutting-edge technology definition, not the 2008 Sarimah Hanim and Abd. Rashid definition.",
+    "Not the answer here: selling technology products is a narrow sales role, not the technopreneur definition credited to these authors.",
+    "Not the answer here: this describes a technology investor, not an entrepreneur involved in technological changes."
+   ]
+  },
+  {
+   "q": "Who described innovation as a process of multiple activities by multiple actors in which new combinations of means and ends are developed, implemented and transferred?",
+   "a": "Joerg Gemuenden",
+   "w": [
+    "Clayton Christensen",
+    "Barack Obama",
+    "Alex Cowan"
+   ],
+   "d": "D",
+   "e": "This is Joerg Gemuenden's description. Barack Obama's quote instead describes innovation as creating something that improves the way we live our lives.",
+   "x": [
+    "Not the answer here: Christensen is known for disruptive innovation theory, while this process definition is credited to Gemuenden.",
+    "Barack Obama's quote describes innovation as improving how we live, not as multiple actors developing new means and ends.",
+    "Not the answer here: this name is not the one credited with the multi-actor process definition in the slides."
+   ]
+  },
+  {
+   "q": "Which Clayton Christensen book is the follow-up to The Innovator's Dilemma?",
+   "a": "The Innovator's Solution",
+   "w": [
+    "The Lean Startup",
+    "Business Model Generation",
+    "The Innovator's Handbook"
+   ],
+   "d": "A",
+   "e": "The Innovator's Solution followed The Innovator's Dilemma (1997).",
+   "x": [
+    "The Lean Startup is a separate book on startups, not Christensen's follow-up to The Innovator's Dilemma.",
+    "Business Model Generation is a separate book on business models, not Christensen's follow-up to The Innovator's Dilemma.",
+    "Not the answer here: this title is not the follow-up to The Innovator's Dilemma, which is The Innovator's Solution."
+   ]
+  },
+  {
+   "q": "Which is NOT one of the three basic requirements of a patent in the slides?",
+   "a": "Commercially profitable",
+   "w": [
+    "Novel",
+    "Inventive",
+    "Industrially applicable"
+   ],
+   "d": "D",
+   "e": "A patentable invention must be novel, inventive and industrially applicable; profitability is not a requirement.",
+   "x": [
+    "Novel is one of the three basic patent requirements, so it is not the exception.",
+    "Inventive is one of the three basic patent requirements, so it is not the exception.",
+    "Industrially applicable is one of the three basic patent requirements, so it is not the exception."
+   ]
+  },
+  {
+   "q": "Which is NOT one of the three conditions for a trade secret in the slides?",
+   "a": "It is registered and published in the IPO Gazette",
+   "w": [
+    "It is not public",
+    "Its secrecy gives an economic benefit",
+    "Its secrecy is actively protected"
+   ],
+   "d": "D",
+   "e": "A trade secret is not public, its secrecy gives economic benefit, and it is actively protected. Publication in the IPO Gazette applies to patent applications.",
+   "x": [
+    "Not being public is one of the three trade secret conditions, so it does not fit the NOT question.",
+    "Economic benefit from secrecy is one of the three trade secret conditions, so it does not fit the NOT question.",
+    "Active protection of secrecy is one of the three trade secret conditions, so it does not fit the NOT question."
+   ]
+  },
+  {
+   "q": "In the copyright application steps, what comes right after filling out the form?",
+   "a": "Attach a copy of the work",
+   "w": [
+    "Pay the filing fee at the IPO",
+    "Publish in the IPO Gazette",
+    "Submit drawings and descriptions"
+   ],
+   "d": "D",
+   "e": "The sequence is fill out the form, attach a copy of the work, then pay the filing fee at the IPO. Drawings and Gazette publication are for patents.",
+   "x": [
+    "Paying the filing fee at the IPO comes after attaching the copy of the work, so it is a later step.",
+    "Publishing in the IPO Gazette applies to patent applications, not the copyright steps.",
+    "Submitting drawings and descriptions is a patent requirement, not a copyright step."
+   ]
+  },
+  {
+   "q": "A process, article, machine or composition of matter is covered by which type of patent?",
+   "a": "Utility patent",
+   "w": [
+    "Design patent",
+    "Plant patent",
+    "Industrial design"
+   ],
+   "d": "D",
+   "e": "Utility patents cover process, article, machine and composition of matter. Design patents cover ornamental designs; plant patents cover new reproducible plants.",
+   "x": [
+    "A design patent covers ornamental designs, not processes, articles, machines or compositions of matter.",
+    "A plant patent covers new reproducible plants, not processes, articles, machines or compositions of matter.",
+    "Industrial design protects the look of an article rather than a functional invention such as a process or machine."
+   ]
+  },
+  {
+   "q": "Patterns, lines and color of an article are which kind of industrial design?",
+   "a": "2D",
+   "w": [
+    "3D",
+    "Utility",
+    "Plant"
+   ],
+   "d": "A",
+   "e": "2D industrial design covers patterns, lines and color; 3D covers shape and surface.",
+   "x": [
+    "3D industrial design covers shape and surface, not patterns, lines and color.",
+    "Utility is a patent type for functional inventions, not an industrial design for patterns, lines and color.",
+    "Plant is a patent type for new reproducible plants, not an industrial design for patterns, lines and color."
+   ]
+  },
+  {
+   "q": "Maps, technical drawings and advertisements are protected by which IP right?",
+   "a": "Copyright",
+   "w": [
+    "Patent",
+    "Trademark",
+    "Trade secret"
+   ],
+   "d": "A",
+   "e": "Copyright covers literary and artistic works including maps, technical drawings and ads.",
+   "x": [
+    "A patent protects inventions, not literary and artistic works such as maps, technical drawings and advertisements.",
+    "A trademark protects brand names, logos and signs, not literary and artistic works such as maps.",
+    "A trade secret protects confidential business information kept secret, not published maps or advertisements."
+   ]
+  }
+ ]
+}

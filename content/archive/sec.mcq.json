@@ -1,0 +1,2166 @@
+{
+ "id": "sec",
+ "archived": "2026-10-28",
+ "mcq": [
+  {
+   "q": "The CIA triad stands for:",
+   "a": "Confidentiality, Integrity, Availability",
+   "w": [
+    "Control, Integrity, Authentication",
+    "Confidentiality, Identity, Access",
+    "Cryptography, Integrity, Authorization"
+   ],
+   "d": "E",
+   "x": [
+    "Control, Integrity, Authentication is not the triad. Control is a general safeguard, and Authentication is an AAA service, not one of the three CIA pillars.",
+    "Confidentiality is correct, but Identity and Access are related security terms, not CIA pillars.",
+    "Cryptography supports confidentiality and integrity but is not a triad pillar. Authorization is an access control step, so this set does not match the CIA triad."
+   ],
+   "e": "Confidentiality, Integrity and Availability are the three core goals of information security: keeping data private, unaltered and accessible. Together they form the CIA triad."
+  },
+  {
+   "q": "Which element of the CIA triad is protected by encryption?",
+   "a": "Confidentiality",
+   "w": [
+    "Integrity",
+    "Availability",
+    "Non-repudiation"
+   ],
+   "d": "E",
+   "x": [
+    "Integrity means data is not altered without detection. Encryption hides content but does not by itself prove it was unchanged; hashes and signatures do that.",
+    "Availability means systems and data are accessible when needed. Encryption does not keep services running; redundancy and backups support availability.",
+    "Non-repudiation means a sender cannot deny having sent a message, usually through digital signatures. It is not the CIA element that encryption protects."
+   ],
+   "e": "Confidentiality means only authorized parties can read data. Encryption makes content unreadable without the proper key, which is why it protects confidentiality."
+  },
+  {
+   "q": "Hashing and digital signatures primarily protect:",
+   "a": "Integrity",
+   "w": [
+    "Confidentiality",
+    "Availability",
+    "Anonymity"
+   ],
+   "d": "E",
+   "x": [
+    "Confidentiality keeps data hidden from unauthorized readers, mainly through encryption. Hashing is one-way and is used to detect changes, not to hide content.",
+    "Availability keeps systems accessible when needed. Hashes and signatures do not keep services running; redundancy and DDoS defenses do that.",
+    "Anonymity hides who a party is. Digital signatures do the opposite by tying a message to a signer's identity."
+   ],
+   "e": "Integrity means data is not changed without detection. Hashes and digital signatures reveal any alteration, so they primarily protect integrity."
+  },
+  {
+   "q": "Redundancy, backups and DDoS protection primarily support:",
+   "a": "Availability",
+   "w": [
+    "Confidentiality",
+    "Integrity",
+    "Authenticity"
+   ],
+   "d": "E",
+   "x": [
+    "Confidentiality limits who can read data, usually through encryption and access control. Redundancy and DDoS protection keep systems reachable, not secret.",
+    "Integrity ensures data is not altered, supported by hashes and signatures. Backups and DDoS protection do not verify that data is unchanged.",
+    "Authenticity verifies that a party or message is genuine, using credentials or signatures. Redundancy and DDoS protection do not verify identity."
+   ],
+   "e": "Availability means systems and data are accessible when needed. Redundancy, backups and DDoS protection keep services running during failures or floods."
+  },
+  {
+   "q": "AAA stands for:",
+   "a": "Authentication, Authorization, Accounting",
+   "w": [
+    "Access, Authority, Audit",
+    "Authentication, Access, Accountability",
+    "Authorization, Administration, Accounting"
+   ],
+   "d": "E",
+   "x": [
+    "Access, Authority and Audit are not the standard AAA terms. The AAA framework is Authentication, Authorization and Accounting.",
+    "Accountability is a related idea, but the AAA term is Accounting. Access is not one of the three AAA services.",
+    "Authorization and Accounting are correct AAA services, but Administration is not. The first A is Authentication, not Authorization."
+   ],
+   "e": "AAA stands for Authentication (who you are), Authorization (what you may do) and Accounting (logging what you did). It is a standard access control framework."
+  },
+  {
+   "q": "Which step answers \"Who are you?\"",
+   "a": "Authentication",
+   "w": [
+    "Authorization",
+    "Accounting",
+    "Auditing"
+   ],
+   "d": "E",
+   "x": [
+    "Authorization decides what an authenticated user may do. It answers what you are allowed to do, not who you are.",
+    "Accounting records what a user did, such as logs and session usage. It does not verify identity.",
+    "Auditing reviews logs and records after the fact to check compliance. It does not verify who the user is at login."
+   ],
+   "e": "Authentication verifies identity, such as with a password, token or biometric. It answers who you are before any permissions are checked."
+  },
+  {
+   "q": "Which step answers \"What are you allowed to do?\"",
+   "a": "Authorization",
+   "w": [
+    "Authentication",
+    "Accounting",
+    "Identification"
+   ],
+   "d": "E",
+   "x": [
+    "Authentication verifies who a user is, such as with a password or token. It comes before authorization and does not decide permissions.",
+    "Accounting logs what a user did, such as sessions and actions. It records activity rather than setting what is allowed.",
+    "Identification is the claim of who you are, such as a username. It does not decide what permissions are granted."
+   ],
+   "e": "Authorization decides what an authenticated user may access or do. It is applied after authentication confirms identity."
+  },
+  {
+   "q": "A weakness in a system that can be exploited is a:",
+   "a": "Vulnerability",
+   "w": [
+    "Threat",
+    "Risk",
+    "Payload"
+   ],
+   "d": "E",
+   "x": [
+    "A threat is a potential cause of harm, such as an attacker or malware. A vulnerability is the weakness itself that a threat can exploit.",
+    "Risk is the likelihood of harm combined with its impact. It describes the chance of loss, not the weakness in the system.",
+    "A payload is the delivered or malicious content of an attack, such as code run after exploitation. It is not a weakness in a system."
+   ],
+   "e": "A vulnerability is a weakness in a system, design or process that can be exploited. A threat is what might exploit it, and risk combines likelihood and impact."
+  },
+  {
+   "q": "A vulnerability unknown to the vendor and unpatched is a:",
+   "a": "Zero-day",
+   "w": [
+    "Legacy bug",
+    "Backdoor",
+    "Patch gap only"
+   ],
+   "d": "E",
+   "x": [
+    "A legacy bug is an old, known defect that is often documented. A zero-day is specifically unknown to the vendor and has no patch yet.",
+    "A backdoor is a hidden access path into a system, which may be intentional or malicious. It is not defined by being unknown to the vendor.",
+    "Patch gap is not a standard term for this. A zero-day is a vulnerability the vendor does not know about, so no patch exists yet."
+   ],
+   "e": "A zero-day is a vulnerability unknown to the vendor, so no patch exists when attackers use it. The name refers to the zero days of warning defenders have."
+  },
+  {
+   "q": "Giving users only the access they need to do their job is:",
+   "a": "Least privilege",
+   "w": [
+    "Separation of duties",
+    "Defense in depth",
+    "Need-to-know only"
+   ],
+   "d": "A",
+   "x": [
+    "Separation of duties splits a critical task among several people to prevent fraud. It is about dividing tasks, not limiting each user's access rights.",
+    "Defense in depth uses multiple layers of controls. It is about layering protections, not restricting each user's rights.",
+    "Need-to-know is a related idea for sharing sensitive information only with those who need it. Least privilege is the broader rule for granting access rights."
+   ],
+   "e": "Least privilege means granting each user, process or account only the minimum access needed for the job. It limits damage if an account is compromised."
+  },
+  {
+   "q": "Using multiple layers of security controls is called:",
+   "a": "Defense in depth",
+   "w": [
+    "Least privilege",
+    "Security by obscurity",
+    "Zero trust only"
+   ],
+   "d": "E",
+   "x": [
+    "Least privilege gives users only the access they need. It limits rights rather than layering multiple controls.",
+    "Security by obscurity relies on hiding how a system works. It is not layered controls and is weak on its own.",
+    "Zero trust is a model that verifies every access request. It is not the name for multiple layers of controls."
+   ],
+   "e": "Defense in depth layers multiple security controls, such as firewalls, access control and monitoring, so one failure does not expose everything."
+  },
+  {
+   "q": "\"Never trust, always verify\" describes:",
+   "a": "Zero trust",
+   "w": [
+    "Defense in depth",
+    "Least privilege",
+    "Security by obscurity"
+   ],
+   "d": "E",
+   "x": [
+    "Defense in depth stacks several security layers. It does not specifically mean verifying every request regardless of network location.",
+    "Least privilege limits access rights to what is needed. It is a principle zero trust uses, but not the never trust, always verify model itself.",
+    "Security by obscurity depends on keeping design details secret. It does not involve continuous verification of trust."
+   ],
+   "e": "Zero trust assumes no user or device is trusted by default, and every access request is verified continuously. It replaces trust based on network location."
+  },
+  {
+   "q": "Malware that attaches to a host file and needs user action to spread is a:",
+   "a": "Virus",
+   "w": [
+    "Worm",
+    "Trojan",
+    "Rootkit"
+   ],
+   "d": "A",
+   "x": [
+    "A worm spreads on its own across networks without user action. A virus needs a host file and user action to spread.",
+    "A Trojan disguises itself as legitimate software and does not replicate by attaching to files. The question describes infecting a host file.",
+    "A rootkit hides deep in the system to keep privileged access. It is not defined by attaching to host files and needing user action."
+   ],
+   "e": "A virus attaches itself to a host file or program and needs user action, such as opening the file, to spread. That matches the description."
+  },
+  {
+   "q": "Malware that spreads by itself across networks without user action is a:",
+   "a": "Worm",
+   "w": [
+    "Virus",
+    "Trojan",
+    "Spyware"
+   ],
+   "d": "E",
+   "x": [
+    "A virus attaches to host files and needs user action to spread. The question describes self-spreading across networks.",
+    "A Trojan is disguised as legitimate software and does not self-replicate. The question describes spreading without user action.",
+    "Spyware secretly collects user information. It is not defined by spreading itself across networks."
+   ],
+   "e": "A worm replicates itself and spreads across networks without user action, exploiting weaknesses such as unpatched services. That is its defining trait."
+  },
+  {
+   "q": "Malware disguised as legitimate software is a:",
+   "a": "Trojan horse",
+   "w": [
+    "Worm",
+    "Virus",
+    "Adware"
+   ],
+   "d": "E",
+   "x": [
+    "A worm replicates itself across networks without needing a host program. It is not defined by disguising itself as legitimate software.",
+    "A virus attaches to a host file and needs user action to spread. It is not defined by disguising itself as legitimate software.",
+    "Adware displays unwanted advertisements and may be bundled with other software. It is not defined by disguise and hidden malicious functions."
+   ],
+   "e": "A Trojan horse looks like legitimate software but hides malicious functions. Users install it willingly, so user deception is its key trait."
+  },
+  {
+   "q": "Malware that encrypts files and demands payment is:",
+   "a": "Ransomware",
+   "w": [
+    "Spyware",
+    "Adware",
+    "Rootkit"
+   ],
+   "d": "E",
+   "x": [
+    "Spyware secretly gathers information about a user. It does not encrypt files or demand payment.",
+    "Adware shows unwanted advertisements. It does not encrypt files or demand a ransom.",
+    "A rootkit hides deep in a system to maintain privileged access. It is not defined by encrypting files for payment."
+   ],
+   "e": "Ransomware encrypts victims' files and demands payment, usually in cryptocurrency, for the decryption key. The payment demand is its defining feature."
+  },
+  {
+   "q": "Malware that hides deep in the OS to keep privileged access is a:",
+   "a": "Rootkit",
+   "w": [
+    "Adware",
+    "Keylogger",
+    "Worm"
+   ],
+   "d": "A",
+   "x": [
+    "Adware displays unwanted advertisements. It does not hide deep in the OS for privileged access.",
+    "A keylogger records keystrokes. It captures typing rather than hiding deep in the operating system.",
+    "A worm spreads itself across networks. It does not focus on hiding deep in the OS."
+   ],
+   "e": "A rootkit hides deep within the operating system or firmware and keeps privileged access while concealing its presence from normal detection tools."
+  },
+  {
+   "q": "Software that records keystrokes is a:",
+   "a": "Keylogger",
+   "w": [
+    "Rootkit",
+    "Botnet",
+    "Adware"
+   ],
+   "d": "E",
+   "x": [
+    "A rootkit hides deep in the OS for privileged access. It is not defined by recording keystrokes, though it may be used alongside a keylogger.",
+    "A botnet is a network of infected machines controlled remotely. It is not software that records keystrokes.",
+    "Adware shows unwanted advertisements. It does not record keystrokes."
+   ],
+   "e": "A keylogger records keystrokes, often to capture passwords and sensitive input. It can be software or hardware."
+  },
+  {
+   "q": "A network of infected computers controlled remotely is a:",
+   "a": "Botnet",
+   "w": [
+    "Honeynet",
+    "Subnet",
+    "Darknet"
+   ],
+   "d": "E",
+   "x": [
+    "A honeynet is a network of decoy systems used to lure and study attackers. It is not a group of infected computers under remote control.",
+    "A subnet is a subdivision of an IP network. It has no connection to infected computers controlled remotely.",
+    "A darknet is an overlay network hosting hidden services and is accessed through special software. It is not a network of infected machines."
+   ],
+   "e": "A botnet is a network of infected computers, or bots, controlled remotely by an attacker. Botnets are often used for DDoS attacks and spam."
+  },
+  {
+   "q": "Malware that triggers when a certain condition or date is met is a:",
+   "a": "Logic bomb",
+   "w": [
+    "Worm",
+    "Trojan",
+    "Spyware"
+   ],
+   "d": "A",
+   "x": [
+    "A worm spreads across networks on its own. It is not defined by activating when a condition or date is met.",
+    "A Trojan disguises itself as legitimate software. It is not defined by triggering on a set condition or date.",
+    "Spyware secretly collects user data. It is not defined by triggering on a date or condition."
+   ],
+   "e": "A logic bomb is malicious code that stays dormant until a specific condition, such as a date or event, triggers its payload."
+  },
+  {
+   "q": "The WannaCry attack of 2017 was:",
+   "a": "Ransomware",
+   "w": [
+    "A DDoS",
+    "A phishing campaign",
+    "Adware"
+   ],
+   "d": "A",
+   "x": [
+    "A DDoS floods a service with traffic to make it unavailable. WannaCry encrypted files and demanded payment instead.",
+    "A phishing campaign tricks users into giving credentials or opening malicious links. WannaCry was a self-spreading ransomware outbreak, not a phishing campaign.",
+    "Adware shows unwanted advertisements. WannaCry encrypted files and demanded ransom payment instead."
+   ],
+   "e": "WannaCry was a 2017 ransomware outbreak that encrypted files on infected Windows systems and demanded Bitcoin payments. It spread by exploiting an SMB vulnerability."
+  },
+  {
+   "q": "Which worm, created by a Filipino student in 2000, spread through email?",
+   "a": "ILOVEYOU",
+   "w": [
+    "Melissa",
+    "Code Red",
+    "Slammer"
+   ],
+   "d": "D",
+   "x": [
+    "Melissa was a 1999 macro virus spread through email. It is not the 2000 worm created by a Filipino student.",
+    "Code Red was a 2001 worm that exploited Microsoft IIS web servers. It did not spread through email.",
+    "Slammer was a 2003 worm that exploited SQL Server over UDP. It did not spread through email."
+   ],
+   "e": "ILOVEYOU was a 2000 email worm that spread through a love-letter attachment and overwrote files. It was created by a Filipino student, Onel de Guzman."
+  },
+  {
+   "q": "Who wrote the ILOVEYOU worm?",
+   "a": "Onel de Guzman",
+   "w": [
+    "Kevin Mitnick",
+    "Robert Morris",
+    "Gary McKinnon"
+   ],
+   "d": "D",
+   "x": [
+    "Kevin Mitnick was a well-known hacker and security consultant from the US. He did not write the ILOVEYOU worm.",
+    "Robert Morris wrote the 1988 Internet worm, not ILOVEYOU. He is not the Filipino author of ILOVEYOU.",
+    "Gary McKinnon was a British hacker known for breaching US military computers. He did not create the ILOVEYOU worm."
+   ],
+   "e": "Onel de Guzman, a Filipino student, wrote the ILOVEYOU worm in 2000. The attack spread through email and caused major damage worldwide."
+  },
+  {
+   "q": "Who created the first major Internet worm in 1988?",
+   "a": "Robert Tappan Morris",
+   "w": [
+    "Kevin Mitnick",
+    "Adrian Lamo",
+    "Onel de Guzman"
+   ],
+   "d": "A",
+   "x": [
+    "Kevin Mitnick was a hacker known for computer intrusions in the 1990s. He did not create the 1988 Internet worm.",
+    "Adrian Lamo was known for unauthorized intrusions and for reporting Chelsea Manning. He was not the author of the 1988 worm.",
+    "Onel de Guzman wrote the 2000 ILOVEYOU worm, a different attack. He was not the author of the 1988 Internet worm."
+   ],
+   "e": "Robert Tappan Morris, then a Cornell graduate student, released the 1988 Morris worm, one of the first major Internet worms."
+  },
+  {
+   "q": "Which 2010 malware targeted Iranian nuclear centrifuges?",
+   "a": "Stuxnet",
+   "w": [
+    "WannaCry",
+    "Mirai",
+    "NotPetya"
+   ],
+   "d": "A",
+   "x": [
+    "WannaCry was a 2017 ransomware outbreak. It was not designed to sabotage Iranian nuclear centrifuges.",
+    "Mirai was a 2016 IoT botnet used for DDoS attacks. It did not target nuclear centrifuges.",
+    "NotPetya was a 2017 destructive wiper disguised as ransomware. It was not the 2010 malware that targeted centrifuges."
+   ],
+   "e": "Stuxnet, discovered in 2010, was a sophisticated worm that sabotaged Iranian uranium enrichment centrifuges by manipulating their control systems."
+  },
+  {
+   "q": "Which 2016 botnet used IoT devices to launch massive DDoS attacks?",
+   "a": "Mirai",
+   "w": [
+    "Conficker",
+    "Zeus",
+    "Emotet"
+   ],
+   "d": "A",
+   "x": [
+    "Conficker was a 2008 worm that exploited Windows and built a botnet. It did not rely on IoT devices for DDoS attacks.",
+    "Zeus is a banking trojan used to steal credentials. It is not an IoT botnet for massive DDoS attacks.",
+    "Emotet was modular malware spread largely by email and used to deliver other malware. It is not the 2016 IoT DDoS botnet."
+   ],
+   "e": "Mirai, from 2016, infected insecure IoT devices such as cameras and routers and used them in massive DDoS attacks against services."
+  },
+  {
+   "q": "Phishing carried out via SMS is called:",
+   "a": "Smishing",
+   "w": [
+    "Vishing",
+    "Whaling",
+    "Pharming"
+   ],
+   "d": "A",
+   "x": [
+    "Vishing is phishing by voice call. The question describes SMS messages, not phone calls.",
+    "Whaling targets senior executives. It describes who is targeted, not the SMS channel.",
+    "Pharming redirects users to fake sites through DNS or host tampering. It does not use SMS messages."
+   ],
+   "e": "Smishing is phishing through SMS text messages that lure victims to malicious links or to share information. SMS is the channel that defines it."
+  },
+  {
+   "q": "Phishing carried out via voice calls is called:",
+   "a": "Vishing",
+   "w": [
+    "Smishing",
+    "Quishing",
+    "Spear phishing"
+   ],
+   "d": "A",
+   "x": [
+    "Smishing is phishing via SMS text messages. It is not done through voice calls.",
+    "Quishing is phishing through malicious QR codes. It does not involve voice calls.",
+    "Spear phishing targets a specific person or organization. It is about targeting, not the voice channel."
+   ],
+   "e": "Vishing, or voice phishing, uses phone calls to trick victims into revealing information or taking action. The voice call defines the channel."
+  },
+  {
+   "q": "Phishing aimed at senior executives is called:",
+   "a": "Whaling",
+   "w": [
+    "Spear phishing",
+    "Smishing",
+    "Pharming"
+   ],
+   "d": "A",
+   "x": [
+    "Spear phishing targets a specific individual, but not necessarily a senior executive. Whaling is the term for high-profile executive targets.",
+    "Smishing is phishing via SMS. It is defined by the channel, not by targeting senior executives.",
+    "Pharming redirects users to fake websites through DNS tampering. It is not aimed at senior executives."
+   ],
+   "e": "Whaling is spear phishing aimed at high-profile targets such as senior executives, because they have access to sensitive data and approvals."
+  },
+  {
+   "q": "Phishing that targets a specific individual or organization is called:",
+   "a": "Spear phishing",
+   "w": [
+    "Mass phishing",
+    "Vishing",
+    "Pharming"
+   ],
+   "d": "A",
+   "x": [
+    "Mass phishing sends generic messages to many people. It is the opposite of targeting a specific individual or organization.",
+    "Vishing is phishing by voice call. It is defined by channel, not by a specific target.",
+    "Pharming redirects traffic to fake sites through DNS or host tampering. It is not defined by targeting a specific person."
+   ],
+   "e": "Spear phishing is a targeted attack against a specific individual or organization, often using personal details to appear credible."
+  },
+  {
+   "q": "Redirecting users to a fake website by tampering with DNS is:",
+   "a": "Pharming",
+   "w": [
+    "Phishing",
+    "Smishing",
+    "Spoofing only"
+   ],
+   "d": "A",
+   "x": [
+    "Phishing tricks users into giving information, often through lure messages. It does not necessarily redirect DNS requests to fake sites.",
+    "Smishing is phishing through SMS messages. It does not involve DNS tampering.",
+    "Spoofing means faking an identity or address, such as a sender. The question describes DNS tampering that redirects users to fake sites."
+   ],
+   "e": "Pharming redirects users from legitimate websites to fraudulent ones, often by poisoning DNS or altering host files, so users are tricked without clicking a link."
+  },
+  {
+   "q": "Phishing through QR codes is called:",
+   "a": "Quishing",
+   "w": [
+    "Smishing",
+    "Vishing",
+    "Baiting"
+   ],
+   "d": "D",
+   "x": [
+    "Smishing is phishing via SMS text messages. It does not use QR codes.",
+    "Vishing is phishing via voice calls. It does not use QR codes.",
+    "Baiting lures victims with an enticing offer or device, such as an infected USB drive. It does not use QR code lures."
+   ],
+   "e": "Quishing is phishing that uses malicious QR codes to direct victims to fake sites or malware. The QR code is the lure."
+  },
+  {
+   "q": "Following an authorized person into a restricted area is:",
+   "a": "Tailgating",
+   "w": [
+    "Pretexting",
+    "Baiting",
+    "Shoulder surfing"
+   ],
+   "d": "A",
+   "x": [
+    "Pretexting invents a believable story to gain trust or information. The question describes physically following someone through a door.",
+    "Baiting uses a lure such as a free item or infected USB drive. It does not involve following someone through a secure entry.",
+    "Shoulder surfing is watching someone enter or view sensitive information. It does not involve following an authorized person into a restricted area."
+   ],
+   "e": "Tailgating, also called piggybacking, is physically following an authorized person through a secured door without proper credentials. It is a social engineering tactic."
+  },
+  {
+   "q": "Watching someone type a password over their shoulder is:",
+   "a": "Shoulder surfing",
+   "w": [
+    "Tailgating",
+    "Dumpster diving",
+    "Baiting"
+   ],
+   "d": "E",
+   "x": [
+    "Tailgating is following an authorized person into a restricted area. It is about physical entry, not watching screens or keypads.",
+    "Dumpster diving searches trash for sensitive information. It does not involve observing someone type.",
+    "Baiting uses a lure such as an infected USB drive. It does not involve observing input."
+   ],
+   "e": "Shoulder surfing is observing someone's screen, keypad or typing from nearby to capture sensitive information such as passwords or PINs."
+  },
+  {
+   "q": "Searching trash for sensitive information is:",
+   "a": "Dumpster diving",
+   "w": [
+    "Shoulder surfing",
+    "Tailgating",
+    "Pretexting"
+   ],
+   "d": "E",
+   "x": [
+    "Shoulder surfing is watching someone enter or view information over their shoulder. It does not involve searching trash.",
+    "Tailgating is following an authorized person into a restricted area. It does not involve searching trash.",
+    "Pretexting uses an invented story to manipulate someone into revealing information. It does not involve searching discarded materials."
+   ],
+   "e": "Dumpster diving is searching discarded materials, such as paper or drives, for sensitive information. It exploits poor disposal practices."
+  },
+  {
+   "q": "Leaving infected USB drives for victims to find is:",
+   "a": "Baiting",
+   "w": [
+    "Pretexting",
+    "Tailgating",
+    "Quid pro quo"
+   ],
+   "d": "A",
+   "x": [
+    "Pretexting uses a fabricated story to gain trust. It does not rely on leaving a lure such as a USB drive.",
+    "Tailgating means following an authorized person into a restricted area. It does not involve leaving lures.",
+    "Quid pro quo offers a service in exchange for information or access. It does not involve a lure left for victims to find."
+   ],
+   "e": "Baiting leaves a lure, such as an infected USB drive labeled as something desirable, that tempts victims into installing malware."
+  },
+  {
+   "q": "A DDoS attack aims to:",
+   "a": "Make a service unavailable",
+   "w": [
+    "Steal passwords",
+    "Encrypt files",
+    "Hide malware"
+   ],
+   "d": "E",
+   "x": [
+    "Stealing passwords is a credential theft goal, such as through phishing or keylogging. A DDoS floods a service to make it unavailable.",
+    "Encrypting files for payment is ransomware. A DDoS aims to disrupt availability, not to encrypt data.",
+    "Hiding malware is a rootkit or stealth goal. A DDoS overwhelms a service with traffic."
+   ],
+   "e": "A DDoS, or distributed denial-of-service, attack floods a target with traffic from many sources, exhausting resources so legitimate users cannot access the service."
+  },
+  {
+   "q": "A SYN flood exploits which protocol step?",
+   "a": "TCP three-way handshake",
+   "w": [
+    "DNS lookup",
+    "ARP request",
+    "DHCP lease"
+   ],
+   "d": "A",
+   "x": [
+    "A DNS lookup resolves names to IP addresses. A SYN flood abuses the TCP handshake, not name resolution.",
+    "ARP maps IP addresses to MAC addresses on a local network. It is not the TCP handshake exploited by a SYN flood.",
+    "DHCP assigns IP addresses to hosts through a lease process. It is not the TCP connection setup a SYN flood targets."
+   ],
+   "e": "A SYN flood sends many TCP SYN packets without completing the handshake, exhausting the server's connection resources. It targets the TCP three-way handshake."
+  },
+  {
+   "q": "Intercepting and possibly altering communication between two parties is a:",
+   "a": "Man-in-the-middle attack",
+   "w": [
+    "Brute force attack",
+    "DDoS attack",
+    "Replay attack"
+   ],
+   "d": "E",
+   "x": [
+    "Brute force tries many credentials until one works. It does not intercept communication between two parties.",
+    "DDoS floods a target with traffic to disrupt service. It does not intercept and alter communication.",
+    "A replay attack resends captured messages to repeat an action. The question describes intercepting and possibly altering live communication, which is the broader man-in-the-middle attack."
+   ],
+   "e": "A man-in-the-middle attack secretly intercepts communication between two parties, and the attacker may read or alter the messages in transit."
+  },
+  {
+   "q": "Trying every possible password combination is a:",
+   "a": "Brute-force attack",
+   "w": [
+    "Dictionary attack",
+    "Rainbow table attack",
+    "Spraying attack"
+   ],
+   "d": "E",
+   "x": [
+    "A dictionary attack tries a list of common words and known passwords. It does not try every possible combination.",
+    "A rainbow table attack uses precomputed hash tables to reverse hashes. It is not an exhaustive trial of every combination against a login.",
+    "Password spraying tries a few common passwords across many accounts. It does not try every combination against one account."
+   ],
+   "e": "A brute-force attack systematically tries every possible combination of characters until the correct password is found."
+  },
+  {
+   "q": "Trying commonly used words as passwords is a:",
+   "a": "Dictionary attack",
+   "w": [
+    "Brute-force attack",
+    "Credential stuffing",
+    "Phishing"
+   ],
+   "d": "A",
+   "x": [
+    "Brute force tries every possible combination, not a list of likely words. It is a broader exhaustive search.",
+    "Credential stuffing reuses leaked username and password pairs on other sites. It does not use a word list of guesses.",
+    "Phishing tricks users into revealing credentials through deceptive messages. It does not involve guessing from a word list."
+   ],
+   "e": "A dictionary attack tries words and commonly used passwords from a list instead of every possible combination, which is faster against weak passwords."
+  },
+  {
+   "q": "Using leaked username-password pairs on other sites is:",
+   "a": "Credential stuffing",
+   "w": [
+    "Password spraying",
+    "Brute force",
+    "Keylogging"
+   ],
+   "d": "A",
+   "x": [
+    "Password spraying tries a few common passwords across many accounts. It does not reuse leaked pairs on other sites.",
+    "Brute force tries many possible passwords against an account. It does not use leaked username and password pairs.",
+    "Keylogging records keystrokes on a victim's device. It does not reuse leaked credentials on other sites."
+   ],
+   "e": "Credential stuffing uses username and password pairs leaked from one breach to log in to other sites, exploiting password reuse."
+  },
+  {
+   "q": "Adding a random value to a password before hashing is called:",
+   "a": "Salting",
+   "w": [
+    "Peppering only",
+    "Encoding",
+    "Obfuscation"
+   ],
+   "d": "A",
+   "x": [
+    "Peppering is a secret value added to hashes, often stored outside the database. It is a related technique, not the random per-password value the question describes.",
+    "Encoding transforms data into another format, such as Base64, and is reversible without a key. It is not adding a random value before hashing.",
+    "Obfuscation makes data harder to read but does not add random values for hashing. It is not the salting technique here."
+   ],
+   "e": "Salting adds a random value to each password before hashing, so identical passwords produce different hashes and precomputed attacks become ineffective."
+  },
+  {
+   "q": "Salting primarily defends against:",
+   "a": "Rainbow table attacks",
+   "w": [
+    "DDoS",
+    "Phishing",
+    "SQL injection"
+   ],
+   "d": "A",
+   "x": [
+    "DDoS floods a service with traffic. Salting protects stored password hashes, not service availability.",
+    "Phishing tricks users into giving credentials through deceptive messages. Salting protects stored hashes from precomputed lookups.",
+    "SQL injection inserts malicious SQL through input. Salting does not stop that; parameterized queries do."
+   ],
+   "e": "Salting defeats rainbow table attacks, which use precomputed hash lookups. Unique salts force attackers to compute each hash separately."
+  },
+  {
+   "q": "Inserting malicious SQL through user input is:",
+   "a": "SQL injection",
+   "w": [
+    "XSS",
+    "CSRF",
+    "Buffer overflow"
+   ],
+   "d": "E",
+   "x": [
+    "Cross-site scripting injects scripts into pages viewed by other users. It targets the browser, not the database query.",
+    "CSRF tricks an authenticated browser into sending unwanted requests. It does not insert SQL through user input.",
+    "A buffer overflow writes past a memory buffer's bounds. It is a memory corruption flaw, not SQL inserted through input."
+   ],
+   "e": "SQL injection inserts malicious SQL statements through user input that the application passes unsafely to the database, potentially exposing or altering data."
+  },
+  {
+   "q": "The best defense against SQL injection is:",
+   "a": "Parameterized queries",
+   "w": [
+    "Longer passwords",
+    "Firewalls only",
+    "Encryption of the database"
+   ],
+   "d": "E",
+   "x": [
+    "Longer passwords strengthen login security against guessing. They do not stop malicious SQL from being parsed in queries.",
+    "Firewalls filter network traffic but usually do not inspect application query logic. They are not the direct defense against SQL injection.",
+    "Encrypting the database protects stored data at rest. It does not prevent malicious SQL from being executed through input."
+   ],
+   "e": "Parameterized queries separate SQL code from user data, so input is treated as data and cannot change the query structure. This is the primary defense."
+  },
+  {
+   "q": "Injecting malicious scripts into pages viewed by other users is:",
+   "a": "Cross-site scripting (XSS)",
+   "w": [
+    "SQL injection",
+    "CSRF",
+    "Clickjacking"
+   ],
+   "d": "A",
+   "x": [
+    "SQL injection inserts malicious SQL into database queries. It does not inject scripts into pages seen by other users.",
+    "CSRF forces an authenticated user's browser to send requests. It does not inject scripts into pages viewed by others.",
+    "Clickjacking hides a frame over a page to trick clicks. It does not inject malicious scripts."
+   ],
+   "e": "Cross-site scripting injects malicious scripts into web pages that other users view, so the scripts run in their browsers and can steal sessions or data."
+  },
+  {
+   "q": "Tricking an authenticated user's browser into sending unwanted requests is:",
+   "a": "CSRF",
+   "w": [
+    "XSS",
+    "SQL injection",
+    "Session fixation"
+   ],
+   "d": "A",
+   "x": [
+    "XSS injects scripts into a page. CSRF abuses the browser's existing authenticated session to send requests the user did not intend.",
+    "SQL injection manipulates database queries through input. It is not about tricking a browser into sending requests.",
+    "Session fixation forces a known session ID onto a user. It is a session management attack, not forged requests from the victim's browser."
+   ],
+   "e": "CSRF, or cross-site request forgery, tricks an authenticated user's browser into submitting unwanted requests, which the server accepts because the session cookie is valid."
+  },
+  {
+   "q": "Which is #1 in the OWASP Top 10 (2021)?",
+   "a": "Broken Access Control",
+   "w": [
+    "Injection",
+    "Cryptographic Failures",
+    "Security Misconfiguration"
+   ],
+   "d": "D",
+   "x": [
+    "Injection was number one in older OWASP lists, including 2017, but is number three in the 2021 list. The question asks for the 2021 top item.",
+    "Cryptographic Failures is number two in OWASP 2021. It is not the top-ranked category.",
+    "Security Misconfiguration is number five in OWASP 2021. It ranks below Broken Access Control."
+   ],
+   "e": "Broken Access Control is ranked number one in the OWASP Top 10 2021 list. It covers flaws where users can act outside their intended permissions."
+  },
+  {
+   "q": "OWASP stands for:",
+   "a": "Open Worldwide Application Security Project",
+   "w": [
+    "Online Web Application Security Protocol",
+    "Open Web Authentication Standard Project",
+    "Official Web Application Security Practice"
+   ],
+   "d": "A",
+   "x": [
+    "Not the answer here: this expansion does not match the organization. OWASP stands for Open Worldwide Application Security Project.",
+    "Not the answer here: this expansion does not match the organization. OWASP stands for Open Worldwide Application Security Project.",
+    "Not the answer here: this expansion does not match the organization. OWASP stands for Open Worldwide Application Security Project."
+   ],
+   "e": "OWASP is the Open Worldwide Application Security Project, a nonprofit community that publishes guidance such as the OWASP Top 10 for web application security."
+  },
+  {
+   "q": "Which type of cryptography uses the same key for encryption and decryption?",
+   "a": "Symmetric",
+   "w": [
+    "Asymmetric",
+    "Hashing",
+    "Quantum"
+   ],
+   "d": "E",
+   "x": [
+    "Asymmetric cryptography uses a public and private key pair. It does not share one key for both encryption and decryption.",
+    "Hashing is one-way and produces a digest with no decryption key. It is not a reversible encryption method.",
+    "Quantum is a computing paradigm, not a cryptography class for shared-key use. The question asks about the symmetric category."
+   ],
+   "e": "Symmetric cryptography uses one shared secret key for both encryption and decryption, such as AES. It is fast and suited for bulk data encryption."
+  },
+  {
+   "q": "Which of these is a symmetric encryption algorithm?",
+   "a": "AES",
+   "w": [
+    "RSA",
+    "ECC",
+    "Diffie-Hellman"
+   ],
+   "d": "E",
+   "x": [
+    "RSA is an asymmetric algorithm using a public and private key pair. It is not a symmetric block cipher like AES.",
+    "ECC is elliptic curve cryptography, an asymmetric method. It does not use the same key for encryption and decryption.",
+    "Diffie-Hellman is a key exchange protocol, not a symmetric cipher. It is used to agree on shared keys."
+   ],
+   "e": "AES, the Advanced Encryption Standard, is a symmetric block cipher that uses the same key for encryption and decryption. It is widely used today."
+  },
+  {
+   "q": "Which of these is an asymmetric algorithm?",
+   "a": "RSA",
+   "w": [
+    "AES",
+    "DES",
+    "ChaCha20"
+   ],
+   "d": "E",
+   "x": [
+    "AES is a symmetric block cipher using one shared key. It is not an asymmetric public-key algorithm.",
+    "DES is an older symmetric block cipher. It is not a public-key algorithm.",
+    "ChaCha20 is a symmetric stream cipher. It does not use a public and private key pair."
+   ],
+   "e": "RSA is an asymmetric algorithm that uses a public and private key pair, commonly used for encryption and digital signatures."
+  },
+  {
+   "q": "Which algorithm was the US standard that replaced DES in 2001?",
+   "a": "AES",
+   "w": [
+    "3DES",
+    "Blowfish",
+    "RC4"
+   ],
+   "d": "D",
+   "x": [
+    "Triple DES applies DES three times as an interim upgrade. It was not chosen as the 2001 replacement standard.",
+    "Blowfish is a symmetric cipher designed by Bruce Schneier, not a NIST standard. It did not replace DES as the US standard.",
+    "RC4 is a stream cipher now considered insecure. It was not the US standard that replaced DES."
+   ],
+   "e": "AES, the Advanced Encryption Standard, was selected by NIST as the successor to DES. It was standardized in 2001 after a public competition."
+  },
+  {
+   "q": "DES uses a key length of:",
+   "a": "56 bits",
+   "w": [
+    "128 bits",
+    "192 bits",
+    "256 bits"
+   ],
+   "d": "D",
+   "x": [
+    "128 bits is the key length of AES-128, not DES. DES has an effective key length of 56 bits.",
+    "192 bits is an AES key size option, not DES. DES has an effective key length of 56 bits.",
+    "256 bits is the largest AES key size, not the DES key length. DES uses 56 effective key bits."
+   ],
+   "e": "DES uses a 64-bit key, of which 56 bits are effective because 8 bits are parity. That 56-bit key is vulnerable to brute-force attacks today."
+  },
+  {
+   "q": "Which of these is a hashing algorithm?",
+   "a": "SHA-256",
+   "w": [
+    "AES",
+    "RSA",
+    "Diffie-Hellman"
+   ],
+   "d": "E",
+   "x": [
+    "AES is a symmetric encryption algorithm, not a hash function. It produces ciphertext, not a fixed-length digest.",
+    "RSA is an asymmetric encryption and signature algorithm. It is not a hash function.",
+    "Diffie-Hellman is a key exchange protocol. It does not produce a fixed-length digest of data."
+   ],
+   "e": "SHA-256 is a cryptographic hash function from the SHA-2 family. It produces a fixed-size digest used for integrity checks and signatures."
+  },
+  {
+   "q": "How many bits is a SHA-256 digest?",
+   "a": "256",
+   "w": [
+    "128",
+    "160",
+    "512"
+   ],
+   "d": "A",
+   "x": [
+    "128 bits is the digest size of MD5, not SHA-256.",
+    "160 bits is the digest size of SHA-1, not SHA-256.",
+    "512 bits is the digest size of SHA-512, not SHA-256."
+   ],
+   "e": "SHA-256 produces a 256-bit digest, as the name indicates. That fixed output length is a defining property of the algorithm."
+  },
+  {
+   "q": "MD5 produces a digest of:",
+   "a": "128 bits",
+   "w": [
+    "160 bits",
+    "256 bits",
+    "64 bits"
+   ],
+   "d": "D",
+   "x": [
+    "160 bits is the digest size of SHA-1, not MD5.",
+    "256 bits is the digest size of SHA-256, not MD5.",
+    "64 bits is not the MD5 digest length. MD5 produces a 128-bit digest."
+   ],
+   "e": "MD5 produces a 128-bit digest. It is considered broken for collision resistance, so it should not be used for security-sensitive hashing."
+  },
+  {
+   "q": "Which algorithm is used for key exchange, developed by Diffie and Hellman?",
+   "a": "Diffie-Hellman",
+   "w": [
+    "RSA",
+    "AES",
+    "SHA"
+   ],
+   "d": "E",
+   "x": [
+    "RSA is an asymmetric algorithm for encryption and signatures, developed by Rivest, Shamir and Adleman. It was not developed by Diffie and Hellman.",
+    "AES is a symmetric cipher for encrypting data. It is not a key exchange algorithm.",
+    "SHA is a family of hash functions. It does not perform key exchange."
+   ],
+   "e": "Diffie-Hellman is a key exchange protocol that lets two parties establish a shared secret over an insecure channel without sending the secret directly."
+  },
+  {
+   "q": "A digital signature is created using the sender's:",
+   "a": "Private key",
+   "w": [
+    "Public key",
+    "Session key",
+    "Hash only"
+   ],
+   "d": "A",
+   "x": [
+    "The public key is shared openly and is used to verify signatures, not create them. Using it to sign would not prove that only the owner produced the signature.",
+    "A session key is a temporary symmetric key for one session's encryption. It is not the key used to sign.",
+    "A hash is computed over the message as part of signing, but it is not the signer's key. A signature needs the sender's private key to protect the hash."
+   ],
+   "e": "A digital signature is created by signing a hash of the message with the sender's private key. Anyone can verify it with the sender's public key."
+  },
+  {
+   "q": "Messages encrypted with a public key can be decrypted with:",
+   "a": "The matching private key",
+   "w": [
+    "The same public key",
+    "Any key",
+    "A hash"
+   ],
+   "d": "A",
+   "x": [
+    "Encryption and decryption use different keys in asymmetric cryptography. The public key only encrypts; decrypting needs the private key.",
+    "Only the matching private key decrypts the message. Any other key will fail.",
+    "A hash is one-way and cannot decrypt anything. It is a digest, not a decryption key."
+   ],
+   "e": "In public-key encryption, data encrypted with a public key can only be decrypted by the matching private key, which only the recipient holds."
+  },
+  {
+   "q": "A digital certificate is issued by a:",
+   "a": "Certificate Authority",
+   "w": [
+    "Internet Service Provider",
+    "Domain registrar only",
+    "Firewall"
+   ],
+   "d": "E",
+   "x": [
+    "An ISP provides internet access, not trusted certificate issuance. It does not verify identities for certificates.",
+    "A domain registrar manages domain registration. Certificates are issued by a Certificate Authority that signs them.",
+    "A firewall filters network traffic. It does not issue digital certificates."
+   ],
+   "e": "A Certificate Authority is a trusted entity that validates identities and issues digital certificates, which browsers and systems use to trust public keys."
+  },
+  {
+   "q": "The Caesar cipher with shift 3 turns HELLO into:",
+   "a": "KHOOR",
+   "w": [
+    "IFMMP",
+    "EBIIL",
+    "JGNNQ"
+   ],
+   "d": "D",
+   "x": [
+    "IFMMP is a shift of 1, not 3. Each letter moved forward only one position.",
+    "EBIIL is a shift of minus 3, moving letters backward. Shifting forward by 3 gives KHOOR.",
+    "JGNNQ is a shift of 2, not 3. Each letter moves forward two positions."
+   ],
+   "e": "Shifting each letter of HELLO forward by 3 gives KHOOR, since H becomes K, E becomes H, L becomes O, and O becomes R."
+  },
+  {
+   "q": "The only theoretically unbreakable cipher when used correctly is the:",
+   "a": "One-time pad",
+   "w": [
+    "Caesar cipher",
+    "Vigenere cipher",
+    "DES"
+   ],
+   "d": "A",
+   "x": [
+    "The Caesar cipher is a simple shift cipher that is easily broken by frequency analysis or brute force. It is not theoretically unbreakable.",
+    "The Vigenere cipher uses a repeating keyword and can be broken with techniques such as Kasiski examination. It is not unbreakable.",
+    "DES is a block cipher with a 56-bit effective key that can be broken by brute force. It is not theoretically unbreakable."
+   ],
+   "e": "A one-time pad uses a truly random key as long as the message and used only once. When used correctly, it is theoretically unbreakable."
+  },
+  {
+   "q": "Hiding data inside images or other files is:",
+   "a": "Steganography",
+   "w": [
+    "Cryptography",
+    "Encoding",
+    "Hashing"
+   ],
+   "d": "E",
+   "x": [
+    "Cryptography scrambles content so it cannot be read without a key. It makes data unreadable, but it does not hide that the data exists.",
+    "Encoding converts data into another format, such as Base64, and is not secrecy. It does not hide data inside other files.",
+    "Hashing produces a one-way fixed-length digest used for integrity checks. It does not hide data inside images."
+   ],
+   "e": "Steganography hides the existence of a message inside another file, such as an image or audio file. It conceals the message itself, not just its meaning."
+  },
+  {
+   "q": "TLS is the successor of:",
+   "a": "SSL",
+   "w": [
+    "SSH",
+    "IPsec",
+    "PGP"
+   ],
+   "d": "E",
+   "x": [
+    "SSH is a secure remote login and tunneling protocol. It is not the successor to SSL.",
+    "IPsec secures IP traffic at the network layer. It is not the successor to SSL.",
+    "PGP is used for email and file encryption. It is not the successor to SSL."
+   ],
+   "e": "TLS, Transport Layer Security, is the successor to SSL, the Secure Sockets Layer. SSL is deprecated, and TLS is the current protocol for secure communication."
+  },
+  {
+   "q": "HTTPS uses TLS on which port by default?",
+   "a": "443",
+   "w": [
+    "80",
+    "22",
+    "8080"
+   ],
+   "d": "A",
+   "x": [
+    "Port 80 is the default for plain HTTP, not HTTPS.",
+    "Port 22 is the default for SSH, not HTTPS.",
+    "Port 8080 is a common alternate HTTP port, not the HTTPS default."
+   ],
+   "e": "HTTPS uses TLS on port 443 by default. Port 443 is the standard port for encrypted web traffic."
+  },
+  {
+   "q": "Which quantum algorithm threatens RSA and ECC?",
+   "a": "Shor's algorithm",
+   "w": [
+    "Grover's algorithm",
+    "Dijkstra's algorithm",
+    "Simon's algorithm only"
+   ],
+   "d": "A",
+   "x": [
+    "Grover's algorithm gives a quadratic speedup for search. It weakens symmetric keys more than it breaks RSA and ECC.",
+    "Dijkstra's algorithm finds shortest paths in a graph. It is not a quantum attack on public-key cryptography.",
+    "Simon's algorithm solves a specific periodicity problem. It is not the known quantum threat to RSA and ECC."
+   ],
+   "e": "Shor's algorithm can factor large integers and compute discrete logarithms efficiently on a quantum computer, which would break RSA and ECC."
+  },
+  {
+   "q": "Which NIST post-quantum standard is a key-encapsulation mechanism (Kyber)?",
+   "a": "ML-KEM",
+   "w": [
+    "ML-DSA",
+    "SLH-DSA",
+    "AES-GCM"
+   ],
+   "d": "D",
+   "x": [
+    "ML-DSA is a NIST post-quantum digital signature standard based on Dilithium. It is not a key-encapsulation mechanism.",
+    "SLH-DSA is a hash-based NIST post-quantum signature standard. It is not a key-encapsulation mechanism.",
+    "AES-GCM is a symmetric authenticated encryption mode. It is not a post-quantum key-encapsulation standard."
+   ],
+   "e": "ML-KEM, standardized by NIST as FIPS 203, is based on CRYSTALS-Kyber and is a post-quantum key-encapsulation mechanism."
+  },
+  {
+   "q": "MFA combines at least two of which factor types?",
+   "a": "Something you know, have, or are",
+   "w": [
+    "Two passwords",
+    "Two usernames",
+    "Two security questions"
+   ],
+   "d": "A",
+   "x": [
+    "Two passwords are both knowledge factors, so they do not add a different factor type. MFA needs factors from different categories.",
+    "A username is an identifier, not an authentication factor. Usernames do not verify identity.",
+    "Security questions are knowledge factors, so they are the same category. They do not meet the MFA requirement of different types."
+   ],
+   "e": "MFA requires factors from at least two categories: something you know, something you have, or something you are. Different categories strengthen security."
+  },
+  {
+   "q": "A fingerprint is an example of:",
+   "a": "Something you are",
+   "w": [
+    "Something you know",
+    "Something you have",
+    "Somewhere you are"
+   ],
+   "d": "E",
+   "x": [
+    "Something you know is a secret such as a password or PIN. A fingerprint is a biometric trait of the user.",
+    "Something you have is a possession such as a token or phone. A fingerprint is a biometric trait.",
+    "Somewhere you are is location-based, such as GPS or an IP range. A fingerprint identifies the person, not the place."
+   ],
+   "e": "A fingerprint is a biometric trait, a form of something you are. Biometrics identify who you are physically."
+  },
+  {
+   "q": "A smart card or token is:",
+   "a": "Something you have",
+   "w": [
+    "Something you know",
+    "Something you are",
+    "Something you do"
+   ],
+   "d": "E",
+   "x": [
+    "Something you know is a secret such as a password. A smart card is a physical possession.",
+    "Something you are is biometric, such as a fingerprint. A smart card is a physical possession.",
+    "Something you do is a behavioral factor, such as typing rhythm or gestures. A smart card is possessed, not performed."
+   ],
+   "e": "A smart card or token is a physical possession, which makes it something you have. Possession is a separate MFA factor category."
+  },
+  {
+   "q": "Which passwordless, phishing-resistant standard underlies passkeys?",
+   "a": "FIDO2/WebAuthn",
+   "w": [
+    "SAML",
+    "RADIUS",
+    "LDAP"
+   ],
+   "d": "A",
+   "x": [
+    "SAML is a federated single sign-on XML standard. It is not the passwordless public-key standard behind passkeys.",
+    "RADIUS is a network AAA protocol for remote access. It is not the passkey standard.",
+    "LDAP is a directory access protocol. It is not the passwordless authentication standard behind passkeys."
+   ],
+   "e": "FIDO2 and WebAuthn are the standards behind passkeys, providing public-key, phishing-resistant, passwordless authentication."
+  },
+  {
+   "q": "Which access control model assigns permissions based on job roles?",
+   "a": "RBAC",
+   "w": [
+    "DAC",
+    "MAC",
+    "ABAC"
+   ],
+   "d": "E",
+   "x": [
+    "DAC lets the resource owner grant access. It does not assign permissions based on job roles.",
+    "MAC enforces central labels set by policy, such as classification levels. It is not role-based.",
+    "ABAC decides access from attributes such as department, time or location. It is not based on job roles alone."
+   ],
+   "e": "RBAC, or role-based access control, assigns permissions to roles that match job functions, and users receive permissions through their assigned roles."
+  },
+  {
+   "q": "In which access control model does the owner decide who has access?",
+   "a": "DAC",
+   "w": [
+    "MAC",
+    "RBAC",
+    "ABAC"
+   ],
+   "d": "A",
+   "x": [
+    "MAC uses system-wide policy labels set by administrators, not owner decisions. The owner does not control access under MAC.",
+    "RBAC grants permissions by job role. The owner does not decide access in this model.",
+    "ABAC evaluates attributes and policies. It does not give the owner discretionary control."
+   ],
+   "e": "DAC, or discretionary access control, lets the resource owner decide who may access the resource and what permissions they get."
+  },
+  {
+   "q": "Which system detects and alerts about suspicious traffic but does not block it?",
+   "a": "IDS",
+   "w": [
+    "IPS",
+    "WAF",
+    "NGFW"
+   ],
+   "d": "A",
+   "x": [
+    "An IPS actively blocks malicious traffic. The question asks for a system that only detects and alerts.",
+    "A WAF filters HTTP traffic for web attacks and can block them. It is not a general intrusion detector that only alerts.",
+    "A next-generation firewall combines filtering with inspection and can block traffic. It is not a detect-only alerting system."
+   ],
+   "e": "An IDS, or intrusion detection system, monitors traffic and alerts administrators to suspicious activity but does not block it by itself."
+  },
+  {
+   "q": "Which system detects and actively blocks malicious traffic?",
+   "a": "IPS",
+   "w": [
+    "IDS",
+    "SIEM",
+    "Honeypot"
+   ],
+   "d": "A",
+   "x": [
+    "An IDS detects and alerts but does not block by default. The question asks for active blocking.",
+    "SIEM collects and correlates logs and alerts. It is not an inline blocking device.",
+    "A honeypot is a decoy system used to lure attackers and study them. It does not block malicious traffic."
+   ],
+   "e": "An IPS, or intrusion prevention system, sits inline and actively blocks malicious traffic, going beyond the detection-only behavior of an IDS."
+  },
+  {
+   "q": "A network segment between the internet and the internal network hosting public servers is a:",
+   "a": "DMZ",
+   "w": [
+    "VLAN",
+    "VPN",
+    "NAT"
+   ],
+   "d": "E",
+   "x": [
+    "A VLAN logically segments a switched network. It is not specifically the public-facing zone between the internet and the internal network.",
+    "A VPN creates an encrypted tunnel over an untrusted network. It is not a segment that hosts public servers.",
+    "NAT translates IP addresses between networks. It does not describe a network segment hosting public servers."
+   ],
+   "e": "A DMZ, or demilitarized zone, is a network segment between the internet and the internal network that hosts public-facing servers such as web servers."
+  },
+  {
+   "q": "Which device protects web applications against SQLi and XSS at Layer 7?",
+   "a": "WAF",
+   "w": [
+    "Hub",
+    "Router",
+    "Switch"
+   ],
+   "d": "A",
+   "x": [
+    "A hub repeats traffic at Layer 1 and has no application inspection. It cannot filter SQLi or XSS.",
+    "A router forwards packets between networks at Layer 3. It does not inspect web application payloads.",
+    "A switch forwards frames at Layer 2 within a network. It does not filter web attacks at Layer 7."
+   ],
+   "e": "A WAF, or web application firewall, operates at Layer 7 and filters HTTP traffic to block attacks such as SQL injection and XSS."
+  },
+  {
+   "q": "A decoy system used to lure attackers is a:",
+   "a": "Honeypot",
+   "w": [
+    "Firewall",
+    "Proxy",
+    "Sandbox"
+   ],
+   "d": "E",
+   "x": [
+    "A firewall filters traffic between networks. It is not a decoy system to lure attackers.",
+    "A proxy forwards requests on behalf of clients. It is not a decoy meant to attract attackers.",
+    "A sandbox is an isolated environment for running untrusted code. It is not a decoy system to lure attackers."
+   ],
+   "e": "A honeypot is a decoy system designed to attract attackers, so defenders can observe their techniques and detect intrusions early."
+  },
+  {
+   "q": "SIEM stands for:",
+   "a": "Security Information and Event Management",
+   "w": [
+    "System Integration and Event Monitoring",
+    "Secure Internet Email Management",
+    "Security Intrusion and Endpoint Management"
+   ],
+   "d": "A",
+   "x": [
+    "System Integration and Event Monitoring is not the standard expansion. SIEM stands for Security Information and Event Management.",
+    "Secure Internet Email Management is not the term. SIEM refers to collecting and analyzing security event data.",
+    "Security Intrusion and Endpoint Management is not the term. SIEM focuses on security information and event data from many sources."
+   ],
+   "e": "SIEM, Security Information and Event Management, collects and correlates log and event data from many sources to detect and respond to threats."
+  },
+  {
+   "q": "Which tool is a popular network packet analyzer?",
+   "a": "Wireshark",
+   "w": [
+    "Nmap",
+    "Metasploit",
+    "Burp Suite"
+   ],
+   "d": "E",
+   "x": [
+    "Nmap is a network scanner for host and port discovery. It is not primarily a packet capture and analysis tool.",
+    "Metasploit is an exploitation framework. It does not primarily capture and analyze packets.",
+    "Burp Suite is a web application testing proxy. It focuses on HTTP testing rather than general packet analysis."
+   ],
+   "e": "Wireshark is a widely used packet analyzer that captures and inspects network traffic in detail, used for troubleshooting and analysis."
+  },
+  {
+   "q": "Which tool is a popular network scanner?",
+   "a": "Nmap",
+   "w": [
+    "Wireshark",
+    "John the Ripper",
+    "Hydra"
+   ],
+   "d": "E",
+   "x": [
+    "Wireshark captures and analyzes packets. It is not a host and port scanner.",
+    "John the Ripper is a password cracking tool. It does not scan networks for open ports.",
+    "Hydra is an online password brute-forcing tool. It is not a network scanner."
+   ],
+   "e": "Nmap is a network scanner used to discover hosts, open ports and services on a network. It is a standard reconnaissance tool."
+  },
+  {
+   "q": "Which framework is widely used for exploit development and penetration testing?",
+   "a": "Metasploit",
+   "w": [
+    "Snort",
+    "Splunk",
+    "Zeek"
+   ],
+   "d": "A",
+   "x": [
+    "Snort is a network intrusion detection and prevention system. It is not an exploit development framework.",
+    "Splunk is a log search and analytics platform. It is not a penetration testing framework.",
+    "Zeek is a network traffic analysis framework. It is not used for exploit development."
+   ],
+   "e": "Metasploit is a penetration testing framework that supports exploit development and execution, with a large library of modules."
+  },
+  {
+   "q": "Which Linux distribution is designed for penetration testing?",
+   "a": "Kali Linux",
+   "w": [
+    "Ubuntu",
+    "Fedora",
+    "Alpine"
+   ],
+   "d": "E",
+   "x": [
+    "Ubuntu is a general-purpose Linux distribution. It is not specifically built with penetration testing tools.",
+    "Fedora is a general-purpose Linux distribution sponsored by Red Hat. It is not designed for penetration testing.",
+    "Alpine is a minimal Linux distribution often used in containers. It is not designed for penetration testing."
+   ],
+   "e": "Kali Linux is a Debian-based distribution preloaded with penetration testing and security tools, widely used by security professionals."
+  },
+  {
+   "q": "The first phase of a penetration test is generally:",
+   "a": "Reconnaissance",
+   "w": [
+    "Exploitation",
+    "Reporting",
+    "Covering tracks"
+   ],
+   "d": "A",
+   "x": [
+    "Exploitation is an attack phase that comes after information gathering and vulnerability identification. It is not the first phase.",
+    "Reporting is the final phase, documenting findings for the client. It does not come first.",
+    "Covering tracks is a post-exploitation step to hide activity. It occurs late in the test, not first."
+   ],
+   "e": "Reconnaissance, or information gathering, is the first phase of a penetration test. It collects data about the target before testing begins."
+  },
+  {
+   "q": "In a pen test, a black-box tester has:",
+   "a": "No prior knowledge of the system",
+   "w": [
+    "Full knowledge",
+    "Source code only",
+    "Admin access"
+   ],
+   "d": "E",
+   "x": [
+    "Full knowledge describes a white-box test, where the tester has complete internal information. Black-box testers have none.",
+    "Source code access describes a white-box or gray-box approach. Black-box testing gives the tester no internal information.",
+    "Admin access is a privileged level, usually tested in other scenarios. Black-box testing starts with no prior knowledge."
+   ],
+   "e": "A black-box tester has no prior knowledge of the system's internals and tests it as an outside attacker would, starting without credentials or documentation."
+  },
+  {
+   "q": "CVE stands for:",
+   "a": "Common Vulnerabilities and Exposures",
+   "w": [
+    "Critical Vulnerability Evaluation",
+    "Cyber Vulnerability Engine",
+    "Computer Virus Event"
+   ],
+   "d": "A",
+   "x": [
+    "Critical Vulnerability Evaluation is not the CVE name. CVE stands for Common Vulnerabilities and Exposures, a public catalog of identifiers.",
+    "Cyber Vulnerability Engine is not the CVE name. CVE is a catalog of publicly disclosed vulnerabilities.",
+    "Computer Virus Event is not the CVE name. CVE refers to Common Vulnerabilities and Exposures identifiers."
+   ],
+   "e": "CVE, Common Vulnerabilities and Exposures, is a public catalog that assigns unique identifiers to publicly known security vulnerabilities."
+  },
+  {
+   "q": "CVSS provides:",
+   "a": "A severity score from 0 to 10",
+   "w": [
+    "A list of malware",
+    "A password strength rating",
+    "A firewall rule set"
+   ],
+   "d": "A",
+   "x": [
+    "A list of malware is a threat catalog or signature set. CVSS scores the severity of vulnerabilities.",
+    "A password strength rating measures how hard a password is to guess. CVSS does not rate passwords.",
+    "A firewall rule set defines allowed traffic. CVSS is a vulnerability severity scoring system."
+   ],
+   "e": "CVSS, the Common Vulnerability Scoring System, rates vulnerability severity on a scale from 0 to 10, helping prioritize remediation."
+  },
+  {
+   "q": "The NIST Cybersecurity Framework core functions include:",
+   "a": "Identify, Protect, Detect, Respond, Recover",
+   "w": [
+    "Plan, Do, Check, Act",
+    "Prevent, Detect, Correct",
+    "Assess, Block, Monitor, Report"
+   ],
+   "d": "A",
+   "x": [
+    "Plan, Do, Check, Act is the Deming improvement cycle, not the NIST CSF core functions. The CSF uses Identify, Protect, Detect, Respond and Recover.",
+    "Prevent, Detect, Correct is a control-type model, not the NIST CSF core functions. The CSF has five functions, including Identify and Recover.",
+    "Assess, Block, Monitor, Report is not a standard NIST CSF function set. The CSF functions are Identify, Protect, Detect, Respond and Recover."
+   ],
+   "e": "The NIST Cybersecurity Framework has five core functions: Identify, Protect, Detect, Respond and Recover. Together they cover the cybersecurity lifecycle."
+  },
+  {
+   "q": "RTO stands for:",
+   "a": "Recovery Time Objective",
+   "w": [
+    "Recovery Test Operation",
+    "Real-Time Output",
+    "Risk Tolerance Objective"
+   ],
+   "d": "A",
+   "x": [
+    "Not a recognized disaster recovery term. It is not a testing operation; RTO stands for Recovery Time Objective, the maximum tolerable downtime.",
+    "Not the answer here: Real-Time Output is not a recovery metric. RTO measures how long a system may stay down, not an output stream.",
+    "Not the answer here: Risk Tolerance Objective is not the standard expansion. RTO sets the maximum acceptable downtime after an incident."
+   ],
+   "e": "RTO is the maximum acceptable time a service may stay down after a disruption before it must be restored. It is the time-based recovery target."
+  },
+  {
+   "q": "RPO represents:",
+   "a": "The maximum acceptable data loss measured in time",
+   "w": [
+    "The maximum downtime",
+    "The cost of recovery",
+    "The backup size"
+   ],
+   "d": "A",
+   "x": [
+    "The maximum downtime is the RTO, not the RPO. RPO concerns how much data can be lost, not how long the service is unavailable.",
+    "The cost of recovery is not a standard RPO concept. RPO measures the tolerable amount of data loss in time, not money spent on restoring.",
+    "The backup size says nothing about tolerable loss. RPO is a time-based target for how recent the restored data must be."
+   ],
+   "e": "RPO is the maximum acceptable amount of data loss, measured as the time between the last recoverable copy of the data and the failure."
+  },
+  {
+   "q": "Which Philippine law is the Cybercrime Prevention Act of 2012?",
+   "a": "RA 10175",
+   "w": [
+    "RA 10173",
+    "RA 8484",
+    "RA 9995"
+   ],
+   "d": "D",
+   "x": [
+    "RA 10173 is the Data Privacy Act of 2012, which governs handling of personal data. It is not the Cybercrime Prevention Act.",
+    "RA 8484 is the Access Devices Regulation Act of 1998, which covers card fraud. It is not the Cybercrime Prevention Act.",
+    "RA 9995 is the Anti-Photo and Video Voyeurism Act of 2009, which penalizes recording intimate images. It is not the general cybercrime law."
+   ],
+   "e": "RA 10175 is the Cybercrime Prevention Act of 2012, which defines and penalizes cyber offenses such as illegal access, data interference and cyber-squatting."
+  },
+  {
+   "q": "Which agency enforces the Data Privacy Act?",
+   "a": "National Privacy Commission",
+   "w": [
+    "DICT",
+    "NBI",
+    "CICC"
+   ],
+   "d": "E",
+   "x": [
+    "DICT is the Department of Information and Communications Technology, which sets ICT policy. It does not enforce the Data Privacy Act.",
+    "NBI is the National Bureau of Investigation, a law enforcement body that investigates crimes. It is not the data privacy regulator.",
+    "CICC is the Cybercrime Investigation and Coordinating Center, which coordinates cybercrime policy. It does not enforce data privacy."
+   ],
+   "e": "The National Privacy Commission enforces the Data Privacy Act of 2012 (RA 10173), handling complaints, breach notifications and compliance. It is the data privacy regulator."
+  },
+  {
+   "q": "How soon must a personal data breach be reported to the NPC under the Data Privacy Act rules?",
+   "a": "72 hours",
+   "w": [
+    "24 hours",
+    "7 days",
+    "30 days"
+   ],
+   "d": "D",
+   "x": [
+    "24 hours is shorter than the NPC's 72-hour deadline for notifying the Commission. It is not the required reporting window.",
+    "7 days is far beyond the 72-hour limit. Waiting a week would make the notification late under the NPC rules.",
+    "30 days is much longer than the 72-hour limit. A breach held for a month would be reported late."
+   ],
+   "e": "Under NPC rules, a personal data breach must be notified within 72 hours after the personal information controller becomes aware of it."
+  },
+  {
+   "q": "Which Philippine law penalizes access device fraud, such as credit card fraud?",
+   "a": "RA 8484",
+   "w": [
+    "RA 10175",
+    "RA 9995",
+    "RA 8792"
+   ],
+   "d": "D",
+   "x": [
+    "RA 10175 is the Cybercrime Prevention Act, which covers computer offenses broadly. It is not the specific access device fraud law.",
+    "RA 9995 is the Anti-Photo and Video Voyeurism Act, which penalizes recording intimate images without consent. It does not cover card fraud.",
+    "RA 8792 is the E-Commerce Act of 2000, which recognizes electronic documents and penalizes hacking. It is not the access device fraud law."
+   ],
+   "e": "RA 8484, the Access Devices Regulation Act of 1998, penalizes fraud involving access devices such as credit and debit cards."
+  },
+  {
+   "q": "Which Philippine law prohibits photo and video voyeurism?",
+   "a": "RA 9995",
+   "w": [
+    "RA 9775",
+    "RA 10173",
+    "RA 4200"
+   ],
+   "d": "D",
+   "x": [
+    "RA 9775 is the Anti-Child Pornography Act of 2009, which targets child sexual abuse material. It does not cover voyeurism of adults.",
+    "RA 10173 is the Data Privacy Act of 2012, which governs personal information. It does not specifically prohibit photo and video voyeurism.",
+    "RA 4200 is the Anti-Wiretapping Act, which covers secret recording of private communications. It is not the voyeurism law."
+   ],
+   "e": "RA 9995, the Anti-Photo and Video Voyeurism Act of 2009, prohibits taking, copying or sharing intimate photos or videos of a person without consent."
+  },
+  {
+   "q": "Which Philippine law is the Anti-Wiretapping Act?",
+   "a": "RA 4200",
+   "w": [
+    "RA 10175",
+    "RA 8792",
+    "RA 10844"
+   ],
+   "d": "D",
+   "x": [
+    "RA 10175 is the Cybercrime Prevention Act of 2012, a broader cybercrime law. It is not the wiretapping statute.",
+    "RA 8792 is the E-Commerce Act of 2000, covering electronic transactions and hacking. It does not prohibit secret interception of communications.",
+    "RA 10844 created the Department of Information and Communications Technology. It is an agency law, not a wiretapping prohibition."
+   ],
+   "e": "RA 4200, the Anti-Wiretapping Act, prohibits secretly recording or listening to private communications without the consent of all parties."
+  },
+  {
+   "q": "Which Philippine law created the Department of Information and Communications Technology?",
+   "a": "RA 10844",
+   "w": [
+    "RA 10173",
+    "RA 10175",
+    "RA 11934"
+   ],
+   "d": "D",
+   "x": [
+    "RA 10173 is the Data Privacy Act of 2012, which governs personal data. It did not create any government department.",
+    "RA 10175 is the Cybercrime Prevention Act of 2012, which defines cyber offenses. It is not the law that created DICT.",
+    "RA 11934 is the SIM Registration Act, which requires registering SIM cards. It is not the DICT charter."
+   ],
+   "e": "RA 10844 (2016) created the Department of Information and Communications Technology, the agency responsible for national ICT policy."
+  },
+  {
+   "q": "Which law penalizes money mules and social-engineering account scams (2024)?",
+   "a": "RA 12010 (AFASA)",
+   "w": [
+    "RA 11934",
+    "RA 10175",
+    "RA 11967"
+   ],
+   "d": "D",
+   "x": [
+    "RA 11934 is the SIM Registration Act, which regulates mobile SIM registration. It does not penalize money mules or account scams.",
+    "RA 10175 is the Cybercrime Prevention Act of 2012. It predates the 2024 account-scamming law and does not specifically cover money mules.",
+    "RA 11967 is the Internet Transactions Act of 2023, which regulates online business platforms. It is not the anti-account-scamming law."
+   ],
+   "e": "RA 12010, the Anti-Financial Account Scamming Act of 2024, penalizes schemes that use bank and e-wallet accounts as money mule channels for scams."
+  },
+  {
+   "q": "The cloud shared responsibility model means:",
+   "a": "The provider secures the cloud and the customer secures what they put in it",
+   "w": [
+    "The customer is solely responsible",
+    "The provider is solely responsible",
+    "Both share equally every control"
+   ],
+   "d": "A",
+   "x": [
+    "The customer is not solely responsible; the provider secures the underlying cloud infrastructure. Responsibility is split, not placed entirely on the customer.",
+    "The provider is not solely responsible; customers still must secure their data, identities and configurations. Responsibility is shared.",
+    "Controls are not split equally; responsibility varies by service model and by control. Equal sharing of every control is not the model."
+   ],
+   "e": "The shared responsibility model divides duties: the provider secures the underlying cloud infrastructure, while the customer secures its data, identities and configurations, depending on the service model."
+  },
+  {
+   "q": "Prompt injection is an attack against:",
+   "a": "AI/LLM applications",
+   "w": [
+    "SQL databases only",
+    "Routers",
+    "Hard disks"
+   ],
+   "d": "E",
+   "x": [
+    "SQL databases are attacked with SQL injection, a different technique. Prompt injection targets natural-language instructions given to AI and LLM systems.",
+    "Routers are network devices and are not the target of prompt injection. The attack manipulates an LLM's instructions through input text.",
+    "Hard disks are storage hardware and are not attacked this way. Prompt injection manipulates model behavior through crafted prompts."
+   ],
+   "e": "Prompt injection manipulates an AI or LLM application by inserting instructions into its input, so the model follows attacker text rather than the developer's intent."
+  },
+  {
+   "q": "CrowdStrike's July 2024 global outage was caused by:",
+   "a": "A faulty software update",
+   "w": [
+    "A ransomware attack",
+    "A DDoS attack",
+    "A nation-state intrusion"
+   ],
+   "d": "A",
+   "x": [
+    "Ransomware encrypts data for extortion. The July 2024 CrowdStrike outage was caused by a defective update, not malicious encryption.",
+    "A DDoS floods a service with traffic. The outage came from a faulty Falcon sensor content update that crashed Windows systems.",
+    "A nation-state intrusion is a stealthy espionage campaign. The outage was not an intrusion; it was a bad update pushed to endpoints."
+   ],
+   "e": "The July 2024 CrowdStrike outage was caused by a faulty content update to its Falcon sensor that crashed Windows systems worldwide. It was a defective update, not a cyberattack."
+  },
+  {
+   "q": "The Log4Shell vulnerability affected which library?",
+   "a": "Log4j",
+   "w": [
+    "OpenSSL",
+    "Bash",
+    "Struts"
+   ],
+   "d": "E",
+   "x": [
+    "OpenSSL is the library affected by Heartbleed, not Log4Shell. Log4Shell was a flaw in Apache Log4j's message lookup feature.",
+    "Bash was affected by Shellshock, a separate vulnerability. Log4Shell is specific to the Apache Log4j logging library.",
+    "Apache Struts had a notable 2017 flaw exploited in the Equifax breach. Log4Shell concerns Log4j, not Struts."
+   ],
+   "e": "Log4Shell (CVE-2021-44228) was a critical remote code execution flaw in the Apache Log4j Java logging library, so Log4j is the affected library."
+  },
+  {
+   "q": "The Heartbleed bug affected:",
+   "a": "OpenSSL",
+   "w": [
+    "Log4j",
+    "SMB",
+    "Flash"
+   ],
+   "d": "A",
+   "x": [
+    "Log4j was affected by Log4Shell, a different 2021 flaw. Heartbleed was a memory-disclosure bug in OpenSSL's TLS heartbeat extension.",
+    "SMB was exploited by EternalBlue, which WannaCry used. Heartbleed affected OpenSSL's heartbeat feature, not the SMB file-sharing protocol.",
+    "Flash was a browser plugin with its own vulnerabilities. Heartbleed concerns OpenSSL, the cryptographic library."
+   ],
+   "e": "Heartbleed (CVE-2014-0160) was a memory-disclosure flaw in OpenSSL's TLS heartbeat extension that let attackers read server memory, which may expose private data."
+  },
+  {
+   "q": "Under the CVSS 0.0-10.0 scale, what is the lowest base score that is rated Critical?",
+   "a": "9.0",
+   "w": [
+    "8.0",
+    "8.5",
+    "9.5"
+   ],
+   "d": "D",
+   "e": "Critical begins at 9.0 and runs to 10.0. A 9.5 is Critical too but is not the lowest, and scores of 7.0 to 8.9 are rated High.",
+   "x": [
+    "8.0 falls in the High range (7.0 to 8.9) under CVSS v3, so it is not rated Critical.",
+    "8.5 is also High, below the 9.0 Critical threshold. It is not the lowest Critical score.",
+    "9.5 is Critical, but it is not the lowest Critical score; 9.0 is. A score of 9.5 sits above the threshold."
+   ]
+  },
+  {
+   "q": "The GDPR sets its maximum administrative fine for the most serious infringements at:",
+   "a": "EUR 20 million or 4% of global annual turnover",
+   "w": [
+    "EUR 10 million or 2% of global annual turnover",
+    "EUR 50 million or 5% of global annual turnover",
+    "EUR 20 million or 10% of global annual turnover"
+   ],
+   "d": "D",
+   "e": "The upper tier is EUR 20 million or 4% of worldwide turnover (whichever is higher). EUR 10 million or 2% is the lower tier.",
+   "x": [
+    "EUR 10 million or 2% is the lower fine tier under GDPR Article 83, used for less serious infringements.",
+    "EUR 50 million or 5% is not the GDPR maximum; the top tier is EUR 20 million or 4% of worldwide turnover.",
+    "The 10% figure is not the GDPR top tier. The higher maximum is EUR 20 million or 4% of worldwide annual turnover, whichever is higher."
+   ]
+  },
+  {
+   "q": "Encrypting CYBER with a Caesar cipher of shift 3 (wrapping around the alphabet) gives:",
+   "a": "FBEHU",
+   "w": [
+    "FAEHU",
+    "ZVYBO",
+    "FBEHV"
+   ],
+   "d": "D",
+   "e": "C to F, Y wraps to B, B to E, E to H, R to U. ZVYBO is what a shift of 3 in the opposite direction would give.",
+   "x": [
+    "FAEHU has A where the second letter should be B. Y shifted by 2 gives A; shifted by 3 it wraps to B, so this is an off-by-one error.",
+    "ZVYBO is a shift of 3 in the wrong direction, which decrypts instead. It moves each letter backward, so C becomes Z.",
+    "FBEHV shifts the final R by 4 to V instead of 3 to U. The last letter does not match a shift of 3."
+   ]
+  },
+  {
+   "q": "Alice sends Bob a digitally signed message. Which key does Bob use to verify the signature?",
+   "a": "Alice's public key",
+   "w": [
+    "Alice's private key",
+    "Bob's private key",
+    "Bob's public key"
+   ],
+   "d": "D",
+   "e": "Signatures are made with the signer's private key and checked with the signer's public key. Bob's keys would be used for encrypting to or decrypting for Bob, not for verifying Alice.",
+   "x": [
+    "Alice's private key is what creates the signature. Verification uses the matching public key, which is safe to share.",
+    "Bob's private key is used to decrypt messages sent to Bob. It plays no role in verifying a signature made by Alice.",
+    "Bob's public key verifies signatures made by Bob, not by Alice. Alice's signature must be checked against Alice's own key."
+   ]
+  },
+  {
+   "q": "Which statement correctly distinguishes a salt from a pepper in password storage?",
+   "a": "A salt is unique per user and stored beside the hash; a pepper is a secret kept outside the database",
+   "w": [
+    "A salt is a secret kept outside the database; a pepper is stored beside each hash",
+    "A salt is applied after hashing; a pepper is applied before hashing",
+    "A salt is a fixed value shared by all users; a pepper is unique per user"
+   ],
+   "d": "D",
+   "e": "Salts are random per-user values that are not secret; peppers are secret values held separately (for example in an HSM or app config). The other options reverse or distort these roles.",
+   "x": [
+    "This reverses the roles. Salts are per-user and stored with the hash; peppers are secret and kept outside the database, not the other way around.",
+    "Both are typically combined with the password before hashing, so timing is not the distinction. The difference is uniqueness, storage and secrecy.",
+    "This reverses both properties. A salt is unique per user, while a pepper is a shared secret, not a fixed per-user value."
+   ]
+  },
+  {
+   "q": "A database leaks salted SHA-256 password hashes. Which attack does the per-user salt make impractical?",
+   "a": "Using one precomputed rainbow table against all users",
+   "w": [
+    "Brute-forcing a single targeted user's hash offline",
+    "Guessing a weak password from a dictionary for one user",
+    "Using a GPU to test many guesses against one hash"
+   ],
+   "d": "D",
+   "e": "Salting forces a separate computation per user, which defeats precomputed tables. It does not stop guessing against one specific hash, only slow hashes like bcrypt or Argon2 make that costly.",
+   "x": [
+    "Brute-forcing one target's hash is still possible with a salt. The salt does not stop guessing against one specific hash.",
+    "A dictionary attack on one user's weak password still works against a salted hash. Salting does not stop guessing; slow hashes do.",
+    "GPU guessing against one hash is still feasible. Salting forces separate work per user but does not remove the cost of guessing."
+   ]
+  },
+  {
+   "q": "An attacker tries the single password 'Password123' against 5,000 different accounts, one attempt per account, to avoid lockouts. This is:",
+   "a": "Password spraying",
+   "w": [
+    "Credential stuffing",
+    "Brute-force attack",
+    "Hybrid attack"
+   ],
+   "d": "D",
+   "e": "Spraying is one (or few) common passwords across many accounts. Credential stuffing uses leaked username-password pairs, and brute force tries many passwords against one account.",
+   "x": [
+    "Credential stuffing replays leaked username and password pairs, one pair per account. It does not try one common password across many accounts.",
+    "Brute force tries many passwords against one account. Here the attacker tries a single password against many accounts.",
+    "A hybrid attack mixes a dictionary with added characters or brute-force guesses. It is not one fixed password tried across accounts."
+   ]
+  },
+  {
+   "q": "A Smurf attack amplifies traffic by sending spoofed ICMP echo requests to:",
+   "a": "A network's broadcast address",
+   "w": [
+    "Open DNS resolvers",
+    "Public NTP servers",
+    "Memcached servers"
+   ],
+   "d": "D",
+   "e": "Every host on the broadcast network replies to the spoofed victim address. DNS, NTP and memcached are separate amplification techniques that use UDP services.",
+   "x": [
+    "Open DNS resolvers are used in DNS amplification, which relies on UDP responses larger than the query. Smurf instead uses ICMP sent to a broadcast address.",
+    "Public NTP servers are abused in NTP amplification using UDP responses. Smurf relies on ICMP echo sent to a broadcast address instead.",
+    "Memcached servers enable very large UDP amplification in DDoS attacks. Smurf targets a broadcast address, where hosts reply to ICMP echo."
+   ]
+  },
+  {
+   "q": "Which attack ties up a web server by holding many connections open with deliberately incomplete HTTP requests?",
+   "a": "Slowloris",
+   "w": [
+    "HTTP flood",
+    "SYN flood",
+    "Ping of Death"
+   ],
+   "d": "D",
+   "e": "Slowloris sends partial headers slowly so connection slots are never freed. An HTTP flood sends large numbers of complete requests, and a SYN flood abuses the TCP handshake.",
+   "x": [
+    "An HTTP flood sends large numbers of complete, valid requests to exhaust resources. Slowloris keeps connections open with incomplete requests.",
+    "A SYN flood sends many TCP SYN packets and leaves handshakes half-open. It works at the transport layer, not with partial HTTP requests.",
+    "Ping of Death sends an oversized ICMP packet that crashes a stack. It does not hold web server connections open."
+   ]
+  },
+  {
+   "q": "The Ping of Death works by sending:",
+   "a": "An oversized ICMP packet exceeding the 65,535-byte IP limit once reassembled",
+   "w": [
+    "ICMP echo requests to a broadcast address with a spoofed source",
+    "Thousands of half-open TCP connections",
+    "Partial HTTP requests that never complete"
+   ],
+   "d": "A",
+   "e": "Fragments reassemble to more than the maximum IP packet size and crash vulnerable stacks. The broadcast variant is Smurf and the half-open variant is a SYN flood.",
+   "x": [
+    "ICMP echo requests to a broadcast address describe a Smurf attack. Ping of Death uses a single oversized packet, not broadcast amplification.",
+    "Thousands of half-open TCP connections describe a SYN flood. Ping of Death relies on a single oversized ICMP packet instead.",
+    "Partial HTTP requests that never finish describe Slowloris. Ping of Death sends one malformed oversized ICMP packet, not HTTP traffic."
+   ]
+  },
+  {
+   "q": "In the Lockheed Martin Cyber Kill Chain, which stage pairs an exploit with a payload into a deliverable such as a malicious PDF?",
+   "a": "Weaponization",
+   "w": [
+    "Delivery",
+    "Exploitation",
+    "Installation"
+   ],
+   "d": "D",
+   "e": "Weaponization is building the attack package. Delivery is transmitting it (email, USB), and exploitation is when it triggers on the target.",
+   "x": [
+    "Delivery is transmitting the weaponized package to the target, such as through email or USB. It does not build the package.",
+    "Exploitation is when the weapon triggers and runs on the target. Building the exploit-and-payload package comes earlier, at weaponization.",
+    "Installation is when malware is set up to persist on the system. It happens after the package has been built and delivered."
+   ]
+  },
+  {
+   "q": "In the NIST SP 800-61 incident response lifecycle, eradication belongs to which phase?",
+   "a": "Containment, Eradication and Recovery",
+   "w": [
+    "Detection and Analysis",
+    "Preparation",
+    "Post-Incident Activity"
+   ],
+   "d": "D",
+   "e": "NIST merges containment, eradication and recovery into one phase, giving four phases overall. The SANS model separates them into distinct steps (six in total).",
+   "x": [
+    "Detection and Analysis is the phase for identifying and validating incidents. Eradication happens later, within the containment, eradication and recovery phase.",
+    "Preparation covers building capability before incidents occur. Eradication removes the threat after it has been detected and contained.",
+    "Post-Incident Activity covers lessons learned and reporting. Eradication happens earlier, when the threat is actively removed."
+   ]
+  },
+  {
+   "q": "Following the order of volatility in forensic collection, which evidence is gathered first?",
+   "a": "Contents of RAM",
+   "w": [
+    "The hard disk image",
+    "Backup tapes",
+    "Archived logs on remote storage"
+   ],
+   "d": "A",
+   "e": "The most volatile data is captured first because it vanishes on power loss. Disk contents come afterwards, and offline backups and archives are the least volatile.",
+   "x": [
+    "A hard disk image is non-volatile and is collected after volatile memory. Its contents survive power loss, so it is not captured first.",
+    "Backup tapes are offline, stable copies and are the least volatile. They are collected last, not first.",
+    "Archived logs on remote storage are persistent and change slowly. They are not the most volatile evidence."
+   ]
+  },
+  {
+   "q": "Under the cloud shared responsibility model for IaaS, which task falls to the customer?",
+   "a": "Patching the guest operating system",
+   "w": [
+    "Securing the physical data center",
+    "Patching the hypervisor",
+    "Maintaining the host hardware"
+   ],
+   "d": "D",
+   "e": "In IaaS the provider secures facilities, hardware and hypervisor, while the customer secures what runs in the instance, including OS patches, apps, data and IAM.",
+   "x": [
+    "Securing the physical data center is the provider's responsibility in IaaS, along with facilities and physical access.",
+    "Patching the hypervisor is the provider's job in IaaS, since it runs the host layer the customer does not control.",
+    "Maintaining host hardware is the provider's responsibility in IaaS. The customer manages the instance running on top of it."
+   ]
+  },
+  {
+   "q": "Access is granted only if the user is in the Finance department, logging in between 8 AM and 5 PM, from a managed device. Which access control model is this?",
+   "a": "ABAC",
+   "w": [
+    "RBAC",
+    "MAC",
+    "DAC"
+   ],
+   "d": "D",
+   "e": "ABAC evaluates attributes of the user, resource and environment. RBAC would use only the user's role, and MAC uses system-enforced classification labels.",
+   "x": [
+    "RBAC grants access based on the user's role alone. This rule also checks department, time and device, which are attributes.",
+    "MAC enforces system-set classification labels, such as Confidential or Secret. This rule relies on user, resource and environment attributes.",
+    "DAC lets the resource owner decide access at their discretion. This rule is set by policy on attributes, not by owners."
+   ]
+  },
+  {
+   "q": "Making a biometric system's matching threshold stricter typically:",
+   "a": "Lowers the FAR and raises the FRR",
+   "w": [
+    "Raises the FAR and lowers the FRR",
+    "Lowers both the FAR and the FRR",
+    "Raises both the FAR and the FRR"
+   ],
+   "d": "D",
+   "e": "A stricter threshold rejects more impostors (fewer false acceptances) but also more genuine users (more false rejections). The two trade off against each other around the EER.",
+   "x": [
+    "Raising FAR and lowering FRR is what a looser threshold does. A stricter threshold accepts fewer impostors, so FAR goes down.",
+    "Threshold changes trade FAR against FRR rather than lowering both. A stricter threshold raises FRR.",
+    "Raising both FAR and FRR is not a threshold effect. A stricter threshold lowers FAR while raising FRR."
+   ]
+  },
+  {
+   "q": "In the OWASP Top 10 (2021), cross-site scripting was merged into which category?",
+   "a": "A03 Injection",
+   "w": [
+    "A01 Broken Access Control",
+    "A04 Insecure Design",
+    "A05 Security Misconfiguration"
+   ],
+   "d": "D",
+   "e": "The 2021 edition folds XSS together with SQL injection under A03 Injection. Broken Access Control is A01 and Insecure Design is the new A04.",
+   "x": [
+    "A01 Broken Access Control is the top 2021 category for authorization flaws. XSS was merged into A03 Injection instead.",
+    "A04 Insecure Design covers flaws in design and threat modeling. It is a new 2021 category, not the home of XSS.",
+    "A05 Security Misconfiguration covers insecure default settings and configuration. XSS belongs to A03 Injection."
+   ]
+  },
+  {
+   "q": "Which is NOT an effective defense against cross-site scripting?",
+   "a": "Using parameterized queries",
+   "w": [
+    "Output encoding",
+    "A Content Security Policy",
+    "HttpOnly cookies"
+   ],
+   "d": "D",
+   "e": "Parameterized queries defend against SQL injection, which targets the database. Output encoding and CSP stop script injection, and HttpOnly prevents scripts from reading session cookies.",
+   "x": [
+    "Output encoding neutralizes script in rendered output, so it is an effective XSS defense. It is not the answer to this NOT question.",
+    "A Content Security Policy restricts which scripts can run, which blocks many XSS payloads. It is an effective defense.",
+    "HttpOnly cookies stop injected scripts from reading session cookies. This limits the damage of XSS, so it is an effective mitigation."
+   ]
+  },
+  {
+   "q": "Which cookie attribute is a defense against CSRF?",
+   "a": "SameSite",
+   "w": [
+    "HttpOnly",
+    "Secure",
+    "Path"
+   ],
+   "d": "D",
+   "e": "SameSite stops browsers sending the cookie on cross-site requests. HttpOnly hides it from JavaScript (an XSS mitigation) and Secure limits it to HTTPS.",
+   "x": [
+    "HttpOnly hides the cookie from JavaScript, which mitigates XSS theft. It does not stop cross-site requests from carrying the cookie.",
+    "Secure only restricts the cookie to HTTPS connections. It does not control whether cross-site requests include the cookie.",
+    "Path limits which URL paths receive the cookie. It is not a cross-site request control."
+   ]
+  },
+  {
+   "q": "A user denies placing an order, and the system keeps no logs able to prove otherwise. Which STRIDE category does this represent?",
+   "a": "Repudiation",
+   "w": [
+    "Spoofing",
+    "Tampering",
+    "Elevation of privilege"
+   ],
+   "d": "D",
+   "e": "Repudiation is the ability to deny an action because there is no proof. Spoofing would be pretending to be another identity.",
+   "x": [
+    "Spoofing means pretending to be another identity or source. The question is about denying an action without proof, not impersonation.",
+    "Tampering is unauthorized modification of data. No change to data is described; the issue is the lack of logs proving the order.",
+    "Elevation of privilege means gaining higher access than allowed. The user is not described as gaining privileges."
+   ]
+  },
+  {
+   "q": "A full backup is made Sunday and differential backups every night. The disk fails Thursday morning. Which backups are needed to restore?",
+   "a": "Sunday's full and Wednesday's differential",
+   "w": [
+    "Sunday's full and every differential from Monday to Wednesday",
+    "Wednesday's differential only",
+    "Sunday's full and Monday's differential"
+   ],
+   "d": "D",
+   "e": "Each differential holds all changes since the last full backup, so only the newest one is needed with the full. Incremental backups would require the whole chain.",
+   "x": [
+    "Every differential from Monday to Wednesday is unnecessary. Each differential already contains all changes since the full backup, so only the newest is needed.",
+    "Wednesday's differential alone cannot restore the system. It holds only changes since Sunday, so the full backup is required.",
+    "Monday's differential misses Tuesday and Wednesday changes. Only the most recent differential is needed with the full backup."
+   ]
+  },
+  {
+   "q": "Nightly backups run at 11 PM and the RPO is 8 hours. The storage fails at 3 PM the next day. How much data is lost and is the RPO met?",
+   "a": "16 hours of data; the RPO is exceeded",
+   "w": [
+    "16 hours of data; the RPO is met",
+    "8 hours of data; the RPO is exceeded",
+    "4 hours of data; the RPO is met"
+   ],
+   "d": "D",
+   "e": "From 11 PM to 3 PM is 16 hours, double the 8-hour RPO. RPO measures maximum tolerable data loss; RTO is about downtime.",
+   "x": [
+    "Saying the RPO is met is wrong here. 16 hours of loss is double the 8-hour tolerance, so the RPO is exceeded.",
+    "8 hours is the RPO target, not the amount lost. The failure occurs 16 hours after the 11 PM backup, so the RPO is exceeded.",
+    "4 hours of loss does not match the timing. 11 PM to 3 PM is 16 hours, which exceeds the 8-hour RPO."
+   ]
+  },
+  {
+   "q": "The Philippine law passed after the 2000 ILOVEYOU outbreak, since no existing law could prosecute its author, is:",
+   "a": "E-Commerce Act (RA 8792)",
+   "w": [
+    "Cybercrime Prevention Act (RA 10175)",
+    "Data Privacy Act (RA 10173)",
+    "Access Devices Regulation Act (RA 8484)"
+   ],
+   "d": "D",
+   "e": "RA 8792 (2000) penalizes hacking and recognizes e-documents and e-signatures. RA 10175 only came in 2012.",
+   "x": [
+    "RA 10175 is the Cybercrime Prevention Act of 2012, passed after the ILOVEYOU outbreak. It came too late to be the law in question.",
+    "RA 10173 is the Data Privacy Act of 2012, about personal data. It is not the law passed after the 2000 outbreak.",
+    "RA 8484 is the Access Devices Regulation Act of 1998, about card fraud. It does not address hacking or electronic documents."
+   ]
+  },
+  {
+   "q": "Under RA 10175, a traditional crime such as libel committed through ICT is punished:",
+   "a": "One degree higher than under the Revised Penal Code",
+   "w": [
+    "One degree lower than under the Revised Penal Code",
+    "At the same penalty as the offline crime",
+    "With a fine only, with no imprisonment"
+   ],
+   "d": "D",
+   "e": "The Cybercrime Prevention Act raises penalties by one degree for crimes under the Revised Penal Code and special laws when committed via ICT.",
+   "x": [
+    "One degree lower would reduce the penalty. RA 10175 raises penalties for crimes committed through ICT, not lowers them.",
+    "The same penalty as the offline crime is what the law does not do. RA 10175 raises the penalty one degree when committed through ICT.",
+    "A fine only, with no imprisonment, is not the rule. The penalty is increased one degree on the Revised Penal Code scale."
+   ]
+  },
+  {
+   "q": "Under RA 10175, cyber-squatting is classified as an offense against:",
+   "a": "The confidentiality, integrity and availability of computer data and systems",
+   "w": [
+    "Computer-related offenses",
+    "Content-related offenses",
+    "Offenses involving aiding or abetting"
+   ],
+   "d": "A",
+   "e": "Cyber-squatting sits with illegal access, interception, data and system interference and misuse of devices. Forgery, fraud and identity theft are the computer-related offenses.",
+   "x": [
+    "Computer-related offenses include forgery, fraud and identity theft. Cyber-squatting is grouped with offenses against the confidentiality, integrity and availability of data and systems.",
+    "Content-related offenses cover things like cybersex, libel and unsolicited commercial messages. Cyber-squatting is not a content offense.",
+    "Aiding or abetting is a liability category for helping commit cybercrimes. Cyber-squatting is listed as an offense against the CIA of computer systems."
+   ]
+  },
+  {
+   "q": "Which block cipher mode of operation also provides authentication (integrity) of the ciphertext?",
+   "a": "GCM",
+   "w": [
+    "CBC",
+    "CTR",
+    "ECB"
+   ],
+   "d": "D",
+   "e": "GCM is an authenticated mode (AEAD). CBC and CTR give confidentiality only, and ECB leaks patterns and is considered insecure.",
+   "x": [
+    "CBC provides confidentiality through chaining but no integrity check on its own. It needs a separate MAC to authenticate the ciphertext.",
+    "CTR turns a block cipher into a stream-like cipher for confidentiality. It provides no authentication of the ciphertext by itself.",
+    "ECB encrypts identical blocks identically, leaking patterns. It provides no integrity and is considered insecure."
+   ]
+  },
+  {
+   "q": "Perfect forward secrecy ensures that:",
+   "a": "Compromise of a long-term private key does not expose past session traffic",
+   "w": [
+    "Session keys never expire during a connection",
+    "The server certificate can never be revoked",
+    "Traffic is encrypted twice with two different algorithms"
+   ],
+   "d": "D",
+   "e": "PFS uses ephemeral key exchange so each session key is independent of the server's long-term key. Recorded old traffic stays protected even if that key leaks later.",
+   "x": [
+    "Session keys expiring during a connection is a rotation idea, not forward secrecy. Forward secrecy protects past traffic if a long-term key leaks.",
+    "Certificate revocation is a separate PKI function. Forward secrecy concerns protecting past sessions from later key compromise.",
+    "Encrypting traffic twice with two algorithms is not what forward secrecy means. It depends on an ephemeral key exchange for each session."
+   ]
+  },
+  {
+   "q": "Because of Grover's algorithm, AES-256 is considered to have an effective strength against a quantum attacker of about:",
+   "a": "128 bits",
+   "w": [
+    "64 bits",
+    "192 bits",
+    "256 bits"
+   ],
+   "d": "D",
+   "e": "Grover gives a quadratic speedup, roughly halving effective key length. Shor's algorithm, in contrast, breaks RSA and ECC outright.",
+   "x": [
+    "64 bits assumes Grover reduces AES-256 to a quarter of its length, which is too severe. Grover's quadratic speedup gives about 128 bits.",
+    "192 bits overstates the remaining strength. Grover gives a quadratic speedup, which roughly halves 256 to 128 bits.",
+    "256 bits is the nominal key length, not the effective quantum strength. Grover reduces it roughly by half to about 128 bits."
+   ]
+  },
+  {
+   "q": "Which NIST post-quantum standard is FIPS 204?",
+   "a": "ML-DSA (Dilithium), a digital signature scheme",
+   "w": [
+    "ML-KEM (Kyber), a key-encapsulation mechanism",
+    "SLH-DSA (SPHINCS+), a hash-based signature scheme",
+    "SHA-3 (Keccak), a hash function"
+   ],
+   "d": "D",
+   "e": "FIPS 203 is ML-KEM, FIPS 204 is ML-DSA, and FIPS 205 is SLH-DSA. Only ML-KEM is for key establishment.",
+   "x": [
+    "ML-KEM is FIPS 203, a key-encapsulation mechanism for establishing keys. It is not the digital signature standard in FIPS 204.",
+    "SLH-DSA is FIPS 205, a hash-based signature scheme. It is a different signature standard from FIPS 204's ML-DSA.",
+    "SHA-3 is the Keccak hash function standard, FIPS 202. It is not a post-quantum signature scheme."
+   ]
+  },
+  {
+   "q": "Malware that rewrites its own code with each infection, rather than just re-encrypting it with a changing key, is called:",
+   "a": "Metamorphic",
+   "w": [
+    "Polymorphic",
+    "Stealth",
+    "Macro"
+   ],
+   "d": "D",
+   "e": "Metamorphic malware rewrites its body entirely, while polymorphic malware mainly mutates its encryption or decryptor wrapper. Both evade signature-based detection.",
+   "x": [
+    "Polymorphic malware changes its encryption or decryptor wrapper while keeping the same body. The question describes rewriting the code itself.",
+    "Stealth is a general term for evading detection, not a specific code-mutation technique. It does not describe rewriting code per infection.",
+    "Macro malware is delivered through document macros, such as Office scripts. It is a delivery method, not a self-rewriting technique."
+   ]
+  }
+ ]
+}

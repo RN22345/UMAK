@@ -1,0 +1,2214 @@
+{
+ "id": "web",
+ "archived": "2026-10-28",
+ "mcq": [
+  {
+   "q": "Who invented the World Wide Web?",
+   "a": "Tim Berners-Lee",
+   "w": [
+    "Vint Cerf",
+    "Marc Andreessen",
+    "Brendan Eich"
+   ],
+   "d": "E",
+   "x": [
+    "Co-designed the TCP/IP protocols that the Internet runs on, not the World Wide Web layer built on top of them.",
+    "Co-created the Mosaic browser and Netscape, which popularized the web, but he did not invent it.",
+    "Created the JavaScript language at Netscape in 1995, which is a scripting language and not the Web itself."
+   ],
+   "e": "Tim Berners-Lee invented the World Wide Web at CERN around 1989 to 1991, creating HTML, HTTP, and the first browser and server."
+  },
+  {
+   "q": "Which organization, founded by Tim Berners-Lee in 1994, develops web standards?",
+   "a": "W3C",
+   "w": [
+    "IETF",
+    "ICANN",
+    "IEEE"
+   ],
+   "d": "E",
+   "x": [
+    "Develops the Internet protocols such as TCP and IP through open working groups, not the web standards.",
+    "Manages domain name system policy and IP address allocation, not HTML or CSS standards.",
+    "A professional engineering body that publishes standards such as Wi-Fi 802.11, not W3C web standards."
+   ],
+   "e": "W3C, the World Wide Web Consortium, was founded by Tim Berners-Lee in 1994 and publishes the official standards for HTML, CSS, and related web technologies."
+  },
+  {
+   "q": "Which web browser engine is used by Chrome and Edge?",
+   "a": "Blink",
+   "w": [
+    "WebKit",
+    "Gecko",
+    "Trident"
+   ],
+   "d": "A",
+   "x": [
+    "The engine used by Apple Safari, which is the ancestor of Blink but is not the engine in Chrome and Edge today.",
+    "The rendering engine developed by Mozilla for Firefox, not the one used by Chrome or Edge.",
+    "The legacy engine of Internet Explorer, which Edge replaced with a new engine."
+   ],
+   "e": "Blink is the rendering engine forked from WebKit in 2013 and is used by Chromium-based browsers such as Chrome and Edge."
+  },
+  {
+   "q": "Which browser engine does Firefox use?",
+   "a": "Gecko",
+   "w": [
+    "Blink",
+    "WebKit",
+    "Chromium"
+   ],
+   "d": "A",
+   "x": [
+    "The engine used by Chrome and Edge, forked from WebKit, not the engine that Firefox uses.",
+    "The engine used by Apple Safari, not the one in Firefox.",
+    "The open-source project behind Chrome, which uses Blink as its engine, not Firefox's Gecko."
+   ],
+   "e": "Gecko is the layout and rendering engine developed by Mozilla and used in Firefox to parse HTML and CSS and draw pages."
+  },
+  {
+   "q": "HTML stands for:",
+   "a": "HyperText Markup Language",
+   "w": [
+    "HighText Machine Language",
+    "Hyperlinks and Text Markup Language",
+    "Home Tool Markup Language"
+   ],
+   "d": "E",
+   "x": [
+    "An invented expansion. The H in HTML stands for HyperText, not HighText, and Machine Language is not part of the name.",
+    "A wrong expansion. The real term is HyperText, not hyperlinks plus text.",
+    "A wrong expansion. Home Tool is not part of the name, and the H stands for HyperText."
+   ],
+   "e": "HTML stands for HyperText Markup Language, the standard language for structuring content on web pages using elements and tags."
+  },
+  {
+   "q": "Which tag defines the largest heading in HTML?",
+   "a": "<h1>",
+   "w": [
+    "<h6>",
+    "<head>",
+    "<header>"
+   ],
+   "d": "E",
+   "x": [
+    "The smallest heading level in HTML, not the largest.",
+    "A container for page metadata such as the title and linked resources, not a visible heading.",
+    "A semantic element for introductory content or a group of navigation, not a heading level."
+   ],
+   "e": "The h1 tag defines the top-level and largest heading, and h2 through h6 are used for progressively smaller subheadings."
+  },
+  {
+   "q": "Which HTML tag creates a hyperlink?",
+   "a": "<a>",
+   "w": [
+    "<link>",
+    "<href>",
+    "<url>"
+   ],
+   "d": "E",
+   "x": [
+    "Used in the head to load external resources such as stylesheets, not to create clickable links in the body.",
+    "An attribute, not a tag. It holds the destination inside an a tag but does not create the link itself.",
+    "Not an HTML element. URLs appear as values of the href or src attributes instead."
+   ],
+   "e": "The a (anchor) element creates a hyperlink, and its href attribute supplies the destination address."
+  },
+  {
+   "q": "Which attribute of <img> provides alternative text?",
+   "a": "alt",
+   "w": [
+    "title",
+    "src",
+    "name"
+   ],
+   "d": "E",
+   "x": [
+    "Gives a hover tooltip on an element, not the text that screen readers read when an image cannot display.",
+    "Specifies the location of the image file, not a text description of it.",
+    "Identifies a form control for submission or scripting, and does not describe the image."
+   ],
+   "e": "The alt attribute gives a text description of the image, which is shown if the image fails to load and read aloud by screen readers."
+  },
+  {
+   "q": "Which of these is a void (empty) element in HTML?",
+   "a": "<br>",
+   "w": [
+    "<p>",
+    "<div>",
+    "<span>"
+   ],
+   "d": "A",
+   "x": [
+    "A paragraph container that needs an opening and closing tag and wraps text.",
+    "A generic block container that needs an opening and closing tag to hold content.",
+    "An inline container for styling part of a text, which also needs a closing tag."
+   ],
+   "e": "The br element is a void element that inserts a line break and has no closing tag or content."
+  },
+  {
+   "q": "Which element should hold the main navigation links semantically?",
+   "a": "<nav>",
+   "w": [
+    "<menu>",
+    "<aside>",
+    "<section>"
+   ],
+   "d": "E",
+   "x": [
+    "Meant for lists of commands or interactive controls, not the semantic element for a site's main navigation.",
+    "Holds content tangentially related to the main content, such as a sidebar, not primary navigation.",
+    "Groups thematic content with a heading, and does not specifically mark up navigation links."
+   ],
+   "e": "The nav element marks up a section of major navigation links, which helps screen readers and search engines identify site navigation."
+  },
+  {
+   "q": "Which of these is a semantic HTML5 element?",
+   "a": "<article>",
+   "w": [
+    "<div>",
+    "<span>",
+    "<b>"
+   ],
+   "d": "E",
+   "x": [
+    "A generic non-semantic container that says nothing about the content it holds.",
+    "A generic inline container with no semantic meaning for the content it holds.",
+    "An inline tag for bold styling with no structural meaning for the page."
+   ],
+   "e": "The article element marks up a self-contained piece of content, such as a blog post or news story, that could stand on its own."
+  },
+  {
+   "q": "Which HTML tag creates an ordered list?",
+   "a": "<ol>",
+   "w": [
+    "<ul>",
+    "<li>",
+    "<dl>"
+   ],
+   "d": "E",
+   "x": [
+    "Creates an unordered bulleted list, not a numbered one.",
+    "Marks a single list item and must sit inside ul or ol, so it does not create the list itself.",
+    "Creates a description list of term and description pairs, not a numbered list."
+   ],
+   "e": "The ol element is the ordered list, and its items are numbered by default."
+  },
+  {
+   "q": "Which tag creates an unordered (bulleted) list?",
+   "a": "<ul>",
+   "w": [
+    "<ol>",
+    "<li>",
+    "<list>"
+   ],
+   "d": "E",
+   "x": [
+    "Creates an ordered list that is numbered, not bulleted.",
+    "Marks a single list item and must sit inside ul or ol, so it does not create the list itself.",
+    "Not a valid HTML element. Bulleted lists use the ul tag."
+   ],
+   "e": "The ul element is the unordered list, and its items display with bullets by default."
+  },
+  {
+   "q": "Which tag defines a table row?",
+   "a": "<tr>",
+   "w": [
+    "<td>",
+    "<th>",
+    "<row>"
+   ],
+   "d": "A",
+   "x": [
+    "Defines an individual data cell inside a row, not the row itself.",
+    "Defines an individual header cell inside a row, not the row itself.",
+    "Not a valid HTML element. Table rows use the tr tag."
+   ],
+   "e": "The tr element defines a table row, and its td or th cells sit inside it."
+  },
+  {
+   "q": "Which tag defines a table header cell?",
+   "a": "<th>",
+   "w": [
+    "<td>",
+    "<tr>",
+    "<thead> only"
+   ],
+   "d": "A",
+   "x": [
+    "A standard data cell, not a header cell.",
+    "Defines a whole table row, not an individual header cell.",
+    "Groups the header rows of a table, and is not a single header cell."
+   ],
+   "e": "The th element defines a table header cell, which browsers usually show in bold and centered and screen readers treat as a header."
+  },
+  {
+   "q": "Which attribute opens a link in a new tab?",
+   "a": "target=\"_blank\"",
+   "w": [
+    "href=\"_new\"",
+    "open=\"new\"",
+    "rel=\"newtab\""
+   ],
+   "d": "A",
+   "x": [
+    "The href attribute holds a destination URL, and _new is not a valid target value.",
+    "Not a valid attribute on a link element.",
+    "The rel attribute describes the relationship to the linked resource, and rel newtab has no new-tab behavior."
+   ],
+   "e": "The target attribute with the value _blank tells the browser to open the linked page in a new tab or window."
+  },
+  {
+   "q": "Which HTTP method sends form data in the URL and is bookmarkable?",
+   "a": "GET",
+   "w": [
+    "POST",
+    "PUT",
+    "DELETE"
+   ],
+   "d": "A",
+   "x": [
+    "Sends data in the request body, so the form data is not visible in the URL to bookmark.",
+    "Updates or replaces a resource on the server, not used to retrieve a page with URL parameters.",
+    "Requests removal of a resource on the server, not a form-submission method for retrieving data."
+   ],
+   "e": "GET sends form data as URL query parameters, which keeps the address bookmarkable and shareable, and it is meant for retrieving data."
+  },
+  {
+   "q": "Which form method sends data in the request body?",
+   "a": "POST",
+   "w": [
+    "GET",
+    "HEAD",
+    "TRACE"
+   ],
+   "d": "A",
+   "x": [
+    "Places form data in the URL rather than the request body.",
+    "Works like GET but returns only headers without a body, so it does not send form data in the body.",
+    "Echoes the received request for diagnostics, not a form submission method."
+   ],
+   "e": "POST sends form data in the request body, which keeps it out of the URL and suits submitting data that changes server state."
+  },
+  {
+   "q": "Which input type hides the characters being typed?",
+   "a": "password",
+   "w": [
+    "hidden",
+    "secret",
+    "text"
+   ],
+   "d": "E",
+   "x": [
+    "Stores a value in the form that users cannot see or edit, and does not mask typed characters.",
+    "Not a valid input type in HTML.",
+    "A plain visible single-line text box that shows characters as they are typed."
+   ],
+   "e": "The password input type masks typed characters with dots or asterisks so that people nearby cannot read them."
+  },
+  {
+   "q": "Which input type provides a color picker?",
+   "a": "color",
+   "w": [
+    "palette",
+    "range",
+    "picker"
+   ],
+   "d": "E",
+   "x": [
+    "Not a valid HTML input type.",
+    "A slider for choosing a number within a range, not a color.",
+    "Not a valid input type. The color picker is the input type color."
+   ],
+   "e": "The color input type opens a color picker and sets a value in hex format such as #RRGGBB."
+  },
+  {
+   "q": "CSS stands for:",
+   "a": "Cascading Style Sheets",
+   "w": [
+    "Creative Style Sheets",
+    "Computer Style Sheets",
+    "Colorful Style Sheets"
+   ],
+   "d": "E",
+   "x": [
+    "An invented expansion. The C stands for Cascading, which describes how conflicting styles are prioritized.",
+    "An invented expansion. Cascading is the correct word.",
+    "An invented expansion. CSS controls layout and appearance broadly, not only color."
+   ],
+   "e": "CSS stands for Cascading Style Sheets, the language that controls how HTML elements look and are laid out."
+  },
+  {
+   "q": "Who proposed CSS in 1994?",
+   "a": "Hakon Wium Lie",
+   "w": [
+    "Tim Berners-Lee",
+    "Brendan Eich",
+    "Ethan Marcotte"
+   ],
+   "d": "D",
+   "x": [
+    "Invented the World Wide Web and HTML, not the proposal for CSS.",
+    "Created JavaScript at Netscape, not CSS.",
+    "Coined the term responsive web design in 2010, and did not propose CSS."
+   ],
+   "e": "Hakon Wium Lie proposed CSS in 1994, and the language was later standardized by the W3C."
+  },
+  {
+   "q": "Which is the best practice for adding CSS to many pages?",
+   "a": "External stylesheet",
+   "w": [
+    "Inline styles",
+    "Internal <style> block",
+    "JavaScript only"
+   ],
+   "d": "E",
+   "x": [
+    "Applied to a single element's style attribute, so the same styles must be repeated on every element and page.",
+    "An internal style block works for one page only and must be copied to every other page.",
+    "JavaScript can change styles, but it is not a styling method and is not the standard way to style pages."
+   ],
+   "e": "An external stylesheet is a separate css file linked from every page, so one change updates the whole site and browsers can cache it."
+  },
+  {
+   "q": "In the CSS box model, the order from inside to outside is:",
+   "a": "Content, padding, border, margin",
+   "w": [
+    "Content, margin, border, padding",
+    "Margin, border, padding, content",
+    "Padding, content, border, margin"
+   ],
+   "d": "A",
+   "x": [
+    "Margin sits outside the border, and padding sits between the content and the border, so the order of padding and margin is wrong.",
+    "Reverses the whole order by starting from the outside, which is the opposite of how the box model is built.",
+    "Places padding outside the content, but padding sits between the content and the border."
+   ],
+   "e": "The box model order from inside out is content, then padding, then border, then margin, which is the space outside the element."
+  },
+  {
+   "q": "What does the CSS rule \"margin: 10px 20px\" set?",
+   "a": "10px top/bottom and 20px left/right",
+   "w": [
+    "10px left/right and 20px top/bottom",
+    "10px top only",
+    "20px on all sides"
+   ],
+   "d": "A",
+   "x": [
+    "Swaps the two values, because the first value applies to top and bottom and the second to left and right.",
+    "Ignores the other sides, because the shorthand sets all four sides with two values.",
+    "A two-value shorthand sets vertical and horizontal sides, so it does not apply 20px to all four sides."
+   ],
+   "e": "With two values in margin, the first sets the top and bottom and the second sets the left and right."
+  },
+  {
+   "q": "Which CSS selector selects elements by class?",
+   "a": ".name",
+   "w": [
+    "#name",
+    "name",
+    "*name"
+   ],
+   "d": "E",
+   "x": [
+    "A selector that targets an element by id, not by class.",
+    "A tag selector that matches elements by tag name, not by class.",
+    "Not a valid CSS selector. An asterisk selects all elements and cannot be combined this way."
+   ],
+   "e": "The dot prefix selects elements that have the class attribute with that name, and one class can be shared across many elements."
+  },
+  {
+   "q": "Which CSS selector selects an element by id?",
+   "a": "#name",
+   "w": [
+    ".name",
+    "name",
+    "@name"
+   ],
+   "d": "E",
+   "x": [
+    "A class selector, which can match many elements instead of one id.",
+    "A tag selector that matches elements by tag name, not by id.",
+    "Not a valid CSS selector. The at sign starts at-rules such as media queries."
+   ],
+   "e": "The hash prefix selects the element whose id attribute matches, and each id should be unique on a page."
+  },
+  {
+   "q": "Which has the highest CSS specificity?",
+   "a": "Inline style",
+   "w": [
+    "ID selector",
+    "Class selector",
+    "Element selector"
+   ],
+   "d": "A",
+   "x": [
+    "Strong, but lower in specificity than inline styles.",
+    "Has lower specificity than an ID selector and inline styles.",
+    "Has the lowest specificity of these options, because it targets tags only."
+   ],
+   "e": "Inline styles placed directly in the style attribute have the highest specificity, so they override ID, class, and element rules unless important is used."
+  },
+  {
+   "q": "Which CSS property controls text color?",
+   "a": "color",
+   "w": [
+    "font-color",
+    "text-color",
+    "foreground"
+   ],
+   "d": "E",
+   "x": [
+    "Not a valid CSS property.",
+    "Not a valid CSS property.",
+    "Not a valid CSS property. CSS uses the color property for text."
+   ],
+   "e": "The color property sets the text color of an element, and it accepts values such as named colors, hex codes, or rgb."
+  },
+  {
+   "q": "Which CSS display value makes a one-dimensional flexible layout?",
+   "a": "flex",
+   "w": [
+    "grid",
+    "block",
+    "table"
+   ],
+   "d": "A",
+   "x": [
+    "Creates a two-dimensional layout of rows and columns, not a one-dimensional one.",
+    "Stacks elements vertically, one per line, and does not distribute items flexibly.",
+    "Lays out content in a table structure, which is not a flexible one-dimensional model."
+   ],
+   "e": "display flex creates a one-dimensional flexible layout that arranges items along a row or column and distributes space among them."
+  },
+  {
+   "q": "Which CSS display value creates a two-dimensional layout?",
+   "a": "grid",
+   "w": [
+    "flex",
+    "inline",
+    "block"
+   ],
+   "d": "A",
+   "x": [
+    "Controls one dimension, either a row or a column, not both at once.",
+    "Flows elements within a line of text and does not create a layout grid.",
+    "Stacks elements in a column, one per line, without a two-dimensional layout."
+   ],
+   "e": "display grid creates a two-dimensional layout with rows and columns at once, which allows precise placement of items in both directions."
+  },
+  {
+   "q": "Which CSS position is relative to the browser window and does not scroll?",
+   "a": "fixed",
+   "w": [
+    "absolute",
+    "relative",
+    "static"
+   ],
+   "d": "A",
+   "x": [
+    "Positioned relative to the nearest positioned ancestor, and it scrolls with the page.",
+    "Offset from its normal place in the flow, and it scrolls with the page.",
+    "The default. The element follows normal document flow and is not positioned against the window."
+   ],
+   "e": "position fixed places an element relative to the browser window, so it stays in place when the page scrolls."
+  },
+  {
+   "q": "Which CSS feature applies styles based on screen width?",
+   "a": "Media queries",
+   "w": [
+    "Pseudo-elements",
+    "Keyframes",
+    "Variables"
+   ],
+   "d": "E",
+   "x": [
+    "Styles parts of an element such as the before and after generated content, not styles based on screen width.",
+    "Defines the steps of a CSS animation, not rules based on screen width.",
+    "Stores reusable values using custom properties, and does not apply styles based on screen size."
+   ],
+   "e": "Media queries use the at-media rule to apply CSS only when conditions such as screen width are met, which enables responsive layouts."
+  },
+  {
+   "q": "Who coined the term \"responsive web design\" in 2010?",
+   "a": "Ethan Marcotte",
+   "w": [
+    "Jakob Nielsen",
+    "Luke Wroblewski",
+    "Steve Krug"
+   ],
+   "d": "D",
+   "x": [
+    "Known for usability heuristics and usability research, not for coining responsive web design.",
+    "Known for mobile-first design writing, but he did not coin responsive web design.",
+    "Author of the usability book Don't Make Me Think, not the coiner of this term."
+   ],
+   "e": "Ethan Marcotte coined responsive web design in a 2010 article, describing sites that adapt fluidly to different screen sizes."
+  },
+  {
+   "q": "Which CSS framework was originally developed at Twitter?",
+   "a": "Bootstrap",
+   "w": [
+    "Tailwind",
+    "Bulma",
+    "Foundation"
+   ],
+   "d": "A",
+   "x": [
+    "A utility-first framework created by separate developers, not one developed at Twitter.",
+    "A CSS framework built on Flexbox, created independently, not at Twitter.",
+    "A responsive framework from ZURB, not one developed at Twitter."
+   ],
+   "e": "Bootstrap was originally developed at Twitter in 2011 and is a widely used component-based front-end framework."
+  },
+  {
+   "q": "Which CSS framework is utility-first?",
+   "a": "Tailwind CSS",
+   "w": [
+    "Bootstrap",
+    "Bulma",
+    "Materialize"
+   ],
+   "d": "A",
+   "x": [
+    "A component-based framework with predefined classes such as btn, not utility-first.",
+    "A framework of modular component classes built on Flexbox, not utility-first.",
+    "A framework that implements Google Material Design components, not a utility-first approach."
+   ],
+   "e": "Tailwind CSS is utility-first, providing small single-purpose classes such as flex and p-4 that are combined directly in HTML."
+  },
+  {
+   "q": "What is the HEX code for white?",
+   "a": "#FFFFFF",
+   "w": [
+    "#000000",
+    "#FF0000",
+    "#00FF00"
+   ],
+   "d": "E",
+   "x": [
+    "Black, with no red, green, or blue light.",
+    "Pure red, with only the red channel at maximum.",
+    "Pure green, with only the green channel at maximum."
+   ],
+   "e": "#FFFFFF sets red, green, and blue all to their maximum values, which produces white."
+  },
+  {
+   "q": "What is the HEX code for black?",
+   "a": "#000000",
+   "w": [
+    "#FFFFFF",
+    "#FF0000",
+    "#0000FF"
+   ],
+   "d": "E",
+   "x": [
+    "White, with all three channels at full value.",
+    "Pure red, with only the red channel at maximum.",
+    "Pure blue, with only the blue channel at maximum."
+   ],
+   "e": "#000000 sets red, green, and blue all to zero, which produces black."
+  },
+  {
+   "q": "Who created JavaScript?",
+   "a": "Brendan Eich",
+   "w": [
+    "James Gosling",
+    "Tim Berners-Lee",
+    "Rasmus Lerdorf"
+   ],
+   "d": "E",
+   "x": [
+    "Created Java at Sun Microsystems, which is a different language.",
+    "Invented the World Wide Web and HTML, not JavaScript.",
+    "Created PHP, a server-side language, not JavaScript."
+   ],
+   "e": "Brendan Eich created JavaScript at Netscape in 1995, and it became the main scripting language of web browsers."
+  },
+  {
+   "q": "DOM stands for:",
+   "a": "Document Object Model",
+   "w": [
+    "Data Object Model",
+    "Document Order Model",
+    "Digital Object Map"
+   ],
+   "d": "E",
+   "x": [
+    "An incorrect expansion. The D stands for Document.",
+    "An incorrect expansion. Object Model is the correct term.",
+    "An incorrect expansion and not a web standard term."
+   ],
+   "e": "DOM stands for Document Object Model, a tree-like representation of an HTML page that JavaScript can read and change."
+  },
+  {
+   "q": "Which JavaScript keyword declares a block-scoped variable?",
+   "a": "let",
+   "w": [
+    "var",
+    "def",
+    "dim"
+   ],
+   "d": "A",
+   "x": [
+    "Function-scoped in JavaScript rather than block-scoped, so it can leak out of blocks.",
+    "A keyword in Python for defining functions, not a JavaScript declaration.",
+    "A keyword in Visual Basic for declaring variables, not used in JavaScript."
+   ],
+   "e": "let declares a variable limited to the block where it is defined, such as inside an if statement or a loop."
+  },
+  {
+   "q": "Which operator checks equality without type conversion in JavaScript?",
+   "a": "===",
+   "w": [
+    "==",
+    "=",
+    "!=="
+   ],
+   "d": "E",
+   "x": [
+    "Loose equality that converts types before comparing, so 5 == with a string 5 is true.",
+    "The assignment operator, which sets a value rather than comparing two values.",
+    "Strict inequality, which checks that values are not equal without type conversion, the opposite of equality."
+   ],
+   "e": "The triple equals operator returns true only when both the value and the type match, with no type conversion."
+  },
+  {
+   "q": "Which browser storage persists even after the browser is closed (and is not sent to the server)?",
+   "a": "localStorage",
+   "w": [
+    "sessionStorage",
+    "Cookies sent per request",
+    "RAM cache"
+   ],
+   "d": "A",
+   "x": [
+    "Lasts only for the browser tab session and is cleared when the tab closes.",
+    "Cookies are sent to the server with each request, which the question excludes, so they do not fit.",
+    "A temporary memory cache cleared when the browser or device restarts, not a persistent browser storage API."
+   ],
+   "e": "localStorage keeps data after the browser closes and is read only by client-side scripts, not sent with each HTTP request."
+  },
+  {
+   "q": "Which JavaScript library created by Meta uses a virtual DOM and JSX?",
+   "a": "React",
+   "w": [
+    "Angular",
+    "Vue",
+    "jQuery"
+   ],
+   "d": "A",
+   "x": [
+    "A full framework from Google that uses TypeScript and templates rather than JSX.",
+    "A progressive framework created by Evan You, not from Meta.",
+    "A DOM manipulation library that does not use a virtual DOM or JSX."
+   ],
+   "e": "React was created by Meta, using a virtual DOM to update the page efficiently and JSX syntax to write UI components."
+  },
+  {
+   "q": "Which JavaScript framework was created by Google and uses TypeScript?",
+   "a": "Angular",
+   "w": [
+    "React",
+    "Vue",
+    "Svelte"
+   ],
+   "d": "A",
+   "x": [
+    "Created by Meta, not Google, and typically written with JSX rather than TypeScript templates.",
+    "Created by Evan You, not Google.",
+    "A compiler-based framework created by Rich Harris, not a Google framework."
+   ],
+   "e": "Angular is a full framework maintained by Google, built with TypeScript as its main language and using templates and dependency injection."
+  },
+  {
+   "q": "Who created Vue.js?",
+   "a": "Evan You",
+   "w": [
+    "Jordan Walke",
+    "Misko Hevery",
+    "Ryan Dahl"
+   ],
+   "d": "D",
+   "x": [
+    "Created React at Facebook, not Vue.js.",
+    "Created AngularJS while at Google, not Vue.js.",
+    "Created Node.js, not Vue.js."
+   ],
+   "e": "Evan You created Vue.js, a progressive JavaScript framework for building user interfaces."
+  },
+  {
+   "q": "Which runtime lets JavaScript run on the server using the V8 engine?",
+   "a": "Node.js",
+   "w": [
+    "Deno only",
+    "JVM",
+    ".NET"
+   ],
+   "d": "E",
+   "x": [
+    "Deno is also a JavaScript runtime built on V8, but the answer here is Node.js, so the word only is not accurate.",
+    "The Java Virtual Machine runs Java and other JVM languages, not JavaScript on V8.",
+    "Microsoft's framework for languages such as C#, not JavaScript on V8."
+   ],
+   "e": "Node.js runs JavaScript outside the browser on the server, built on Google's V8 engine, and is widely used for web backends."
+  },
+  {
+   "q": "UI design focuses on:",
+   "a": "Look and interface elements",
+   "w": [
+    "The entire customer journey only",
+    "Server performance",
+    "Database design"
+   ],
+   "d": "E",
+   "x": [
+    "Describes UX design, which covers the whole customer journey and is broader than the interface look, so only is wrong.",
+    "A backend engineering concern, not UI design.",
+    "A data architecture concern, not UI design."
+   ],
+   "e": "UI design focuses on the look and the interface elements users interact with, such as layout, typography, color, buttons, and icons."
+  },
+  {
+   "q": "Which low-fidelity design is a basic layout sketch of a page?",
+   "a": "Wireframe",
+   "w": [
+    "Prototype",
+    "Mockup",
+    "Style guide"
+   ],
+   "d": "A",
+   "x": [
+    "An interactive model that simulates how the product works, usually higher fidelity than a basic sketch.",
+    "A static visual design showing realistic styling, usually higher fidelity than a wireframe.",
+    "Documents colors, fonts, and components for consistency, not a page layout sketch."
+   ],
+   "e": "A wireframe is a low-fidelity layout sketch that shows the structure and placement of content without colors or detailed visual design."
+  },
+  {
+   "q": "Which design tool is browser-based and widely used for UI collaboration?",
+   "a": "Figma",
+   "w": [
+    "Notepad",
+    "Excel",
+    "MySQL Workbench"
+   ],
+   "d": "E",
+   "x": [
+    "A plain text editor, not a design tool.",
+    "A spreadsheet program, not used for UI design.",
+    "A database design and administration tool, not a visual design tool."
+   ],
+   "e": "Figma is a browser-based design tool that lets teams collaborate on interfaces in real time."
+  },
+  {
+   "q": "Which color model is additive and used for screens?",
+   "a": "RGB",
+   "w": [
+    "CMYK",
+    "Pantone",
+    "RYB"
+   ],
+   "d": "A",
+   "x": [
+    "A subtractive model used for printing, not for screens.",
+    "A proprietary color matching system for inks, not a color model for displays.",
+    "A traditional painting color model, not one used for screens."
+   ],
+   "e": "RGB is additive, mixing red, green, and blue light to produce colors, which is how screens display color."
+  },
+  {
+   "q": "Which color model is subtractive and used for printing?",
+   "a": "CMYK",
+   "w": [
+    "RGB",
+    "HSL",
+    "HEX"
+   ],
+   "d": "A",
+   "x": [
+    "An additive light model used for screens, not subtractive printing.",
+    "A way to describe colors by hue, saturation, and lightness, not a print ink model.",
+    "A notation for RGB values written in hexadecimal, used in web code, not a print model."
+   ],
+   "e": "CMYK is subtractive, using cyan, magenta, yellow, and black inks that absorb light, and it is the standard for color printing."
+  },
+  {
+   "q": "Colors opposite each other on the color wheel are:",
+   "a": "Complementary",
+   "w": [
+    "Analogous",
+    "Triadic",
+    "Monochromatic"
+   ],
+   "d": "A",
+   "x": [
+    "Colors next to each other on the wheel, not opposite.",
+    "Three colors evenly spaced around the wheel, not two opposite colors.",
+    "Variations of one single hue, not opposite colors."
+   ],
+   "e": "Complementary colors sit opposite each other on the color wheel, creating strong contrast when placed side by side."
+  },
+  {
+   "q": "Colors next to each other on the color wheel are:",
+   "a": "Analogous",
+   "w": [
+    "Complementary",
+    "Triadic",
+    "Tetradic"
+   ],
+   "d": "A",
+   "x": [
+    "Colors directly opposite each other on the wheel, not adjacent.",
+    "Three colors spaced evenly around the wheel, not neighbors.",
+    "Four colors forming a rectangle on the wheel, not adjacent neighbors."
+   ],
+   "e": "Analogous colors are neighbors on the color wheel, which creates harmonious designs with a consistent feel."
+  },
+  {
+   "q": "Fitts's Law says that the time to reach a target depends on:",
+   "a": "Its distance and size",
+   "w": [
+    "The number of choices",
+    "The color",
+    "The font"
+   ],
+   "d": "A",
+   "x": [
+    "The number of choices is the basis of Hick's Law, not Fitts's Law.",
+    "Color does not affect the time to reach a target in Fitts's Law.",
+    "Font style does not factor into target acquisition time."
+   ],
+   "e": "Fitts's Law says the time to reach a target grows with its distance and shrinks as its size increases, so larger nearby buttons are faster to hit."
+  },
+  {
+   "q": "Hick's Law says that decision time increases with:",
+   "a": "The number of choices",
+   "w": [
+    "The size of the target",
+    "The screen resolution",
+    "The font size"
+   ],
+   "d": "A",
+   "x": [
+    "Target size is part of Fitts's Law, which governs pointing time, not decision time.",
+    "Screen resolution does not directly affect decision time in Hick's Law.",
+    "Font size is not a factor in Hick's Law, which concerns the number of choices."
+   ],
+   "e": "Hick's Law says decision time grows as the number of choices increases, so fewer options speed up user decisions."
+  },
+  {
+   "q": "How many usability heuristics did Jakob Nielsen define?",
+   "a": "10",
+   "w": [
+    "7",
+    "5",
+    "12"
+   ],
+   "d": "D",
+   "x": [
+    "Matches Miller's well-known 7 plus or minus 2 limit on working memory, not Nielsen's heuristic count.",
+    "Does not match the count Nielsen published.",
+    "Does not match the count Nielsen published, since his list has ten heuristics."
+   ],
+   "e": "Jakob Nielsen defined ten usability heuristics, such as visibility of system status and error prevention, first published in the 1990s."
+  },
+  {
+   "q": "WCAG stands for:",
+   "a": "Web Content Accessibility Guidelines",
+   "w": [
+    "Web Content Access Group",
+    "World Content Accessibility Guide",
+    "Web Coding Accessibility Guide"
+   ],
+   "d": "E",
+   "x": [
+    "A wrong expansion. Guidelines is the correct word.",
+    "A wrong expansion. The W3C publishes Web Content Accessibility Guidelines.",
+    "A wrong expansion. WCAG covers web content and not only coding."
+   ],
+   "e": "WCAG stands for Web Content Accessibility Guidelines, published by the W3C to make web content usable by people with disabilities."
+  },
+  {
+   "q": "The WCAG POUR principles are:",
+   "a": "Perceivable, Operable, Understandable, Robust",
+   "w": [
+    "Perceivable, Open, Usable, Reliable",
+    "Portable, Operable, Universal, Robust",
+    "Purposeful, Operable, Understandable, Responsive"
+   ],
+   "d": "D",
+   "x": [
+    "Open, Usable, and Reliable are not WCAG principles. Only Perceivable matches.",
+    "Portable and Universal are not WCAG principles. Only Operable and Robust match.",
+    "Purposeful and Responsive are not WCAG principles. Only Operable and Understandable match."
+   ],
+   "e": "POUR stands for Perceivable, Operable, Understandable, and Robust, the four principles at the core of WCAG."
+  },
+  {
+   "q": "The minimum WCAG AA contrast ratio for normal text is:",
+   "a": "4.5:1",
+   "w": [
+    "3:1",
+    "7:1",
+    "2:1"
+   ],
+   "d": "D",
+   "x": [
+    "The AA minimum for large text, not normal text.",
+    "The AAA minimum for normal text, which is stricter than AA.",
+    "Below any WCAG requirement for text contrast."
+   ],
+   "e": "WCAG 2.1 AA requires a contrast ratio of at least 4.5:1 for normal text, the level most accessibility audits check."
+  },
+  {
+   "q": "Which is NOT one of the Core Web Vitals?",
+   "a": "TTFB",
+   "w": [
+    "LCP",
+    "INP",
+    "CLS"
+   ],
+   "d": "A",
+   "x": [
+    "TTFB is not the answer here. LCP is a Core Web Vital, so it is part of the set the question asks you to exclude.",
+    "INP is a Core Web Vital that measures responsiveness, so it does not fit the NOT question.",
+    "CLS is a Core Web Vital that measures visual stability, so it does not fit the NOT question."
+   ],
+   "e": "TTFB, Time to First Byte, is a server-response metric and is not one of the three Core Web Vitals, which are LCP, INP, and CLS."
+  },
+  {
+   "q": "LCP in Core Web Vitals measures:",
+   "a": "Loading performance",
+   "w": [
+    "Interactivity",
+    "Layout stability",
+    "Server speed"
+   ],
+   "d": "A",
+   "x": [
+    "Measures interactivity, which belongs to INP, not LCP.",
+    "Measures layout stability, which belongs to CLS, not LCP.",
+    "Relates to server response time, such as TTFB, while LCP measures when the main content renders."
+   ],
+   "e": "LCP, Largest Contentful Paint, measures how long the largest visible element takes to render, which reflects loading performance."
+  },
+  {
+   "q": "CLS measures:",
+   "a": "Visual stability (layout shift)",
+   "w": [
+    "Loading speed",
+    "Interactivity",
+    "Bandwidth"
+   ],
+   "d": "A",
+   "x": [
+    "Loading speed is measured by LCP, not CLS.",
+    "Interactivity is measured by INP, not CLS.",
+    "Bandwidth is a network capacity measure and not a Core Web Vital."
+   ],
+   "e": "CLS, Cumulative Layout Shift, measures unexpected movement of visible content while the page loads, such as text shifting when an image appears."
+  },
+  {
+   "q": "Which file tells search engine crawlers which pages not to crawl?",
+   "a": "robots.txt",
+   "w": [
+    "sitemap.xml",
+    ".htaccess",
+    "index.html"
+   ],
+   "d": "A",
+   "x": [
+    "Lists pages the site wants indexed, the opposite of telling crawlers what to avoid.",
+    "An Apache server configuration file for settings such as redirects, not a crawler instruction file.",
+    "A common homepage file, not a crawler instruction file."
+   ],
+   "e": "robots.txt sits at the site root and uses Disallow rules to tell crawlers which paths they should not crawl."
+  },
+  {
+   "q": "Which file lists a site's pages to help search engines index it?",
+   "a": "sitemap.xml",
+   "w": [
+    "robots.txt",
+    "manifest.json",
+    "package.json"
+   ],
+   "d": "A",
+   "x": [
+    "Tells crawlers which pages to avoid, not which pages to index, though it may point to the sitemap.",
+    "A web app manifest for install details such as name and icons, not a page list.",
+    "A Node.js project file listing dependencies and scripts, not an SEO file."
+   ],
+   "e": "sitemap.xml lists the URLs of a site that the owner wants search engines to discover and index."
+  },
+  {
+   "q": "SEO stands for:",
+   "a": "Search Engine Optimization",
+   "w": [
+    "Site Engine Operation",
+    "Search Engagement Output",
+    "Secure Engine Optimization"
+   ],
+   "d": "E",
+   "x": [
+    "An invented expansion. SEO focuses on optimizing a site for search engines.",
+    "An invented expansion and not an industry term.",
+    "An invented expansion. Secure is not part of the term."
+   ],
+   "e": "SEO stands for Search Engine Optimization, the practice of improving a site's visibility in organic search results."
+  },
+  {
+   "q": "Backlinks from other sites are part of which SEO category?",
+   "a": "Off-page SEO",
+   "w": [
+    "On-page SEO",
+    "Technical SEO",
+    "Local SEO only"
+   ],
+   "d": "A",
+   "x": [
+    "Covers the content and HTML on the page itself, such as titles and headings, not links from other sites.",
+    "Covers crawlability, speed, and site structure, not external backlinks.",
+    "Targets local search results, and backlinks are not limited to that category."
+   ],
+   "e": "Backlinks come from other websites, so they are classed as off-page SEO, which happens outside the site itself."
+  },
+  {
+   "q": "Who developed PageRank?",
+   "a": "Larry Page and Sergey Brin",
+   "w": [
+    "Jeff Bezos",
+    "Mark Zuckerberg",
+    "Tim Berners-Lee"
+   ],
+   "d": "E",
+   "x": [
+    "Founded Amazon, not the PageRank algorithm.",
+    "Founded Facebook, not the PageRank algorithm.",
+    "Invented the World Wide Web, not PageRank."
+   ],
+   "e": "Larry Page and Sergey Brin developed PageRank at Stanford, a link-based algorithm that ranks pages by the quality of links pointing to them."
+  },
+  {
+   "q": "E-commerce is best defined as:",
+   "a": "Buying and selling goods and services over electronic networks",
+   "w": [
+    "Only selling on Facebook",
+    "Delivering goods by drones",
+    "Running a physical store with computers"
+   ],
+   "d": "E",
+   "x": [
+    "A narrow example of social commerce, not the full definition.",
+    "A logistics method for delivery, not what e-commerce is.",
+    "Uses technology inside a physical store, not buying and selling over electronic networks."
+   ],
+   "e": "E-commerce means buying and selling goods and services over electronic networks such as the internet, without requiring a physical storefront."
+  },
+  {
+   "q": "M-commerce refers to commerce conducted through:",
+   "a": "Mobile devices",
+   "w": [
+    "Mainframes",
+    "Mailing lists",
+    "Metaverse only"
+   ],
+   "d": "E",
+   "x": [
+    "Large central computers, not the mobile devices that m-commerce uses.",
+    "A bulk email method, not a commerce channel that uses mobile devices.",
+    "A virtual world, which is narrower and does not define m-commerce."
+   ],
+   "e": "M-commerce is commerce conducted through mobile devices such as smartphones and tablets, using mobile apps or mobile web browsers."
+  },
+  {
+   "q": "Amazon, Lazada and Shopee are examples of:",
+   "a": "B2C",
+   "w": [
+    "B2B",
+    "C2C",
+    "B2G"
+   ],
+   "d": "A",
+   "x": [
+    "Business to business, where both parties are companies. These platforms sell to individual consumers.",
+    "Consumer to consumer, where individuals sell to each other, such as on eBay or Carousell.",
+    "Business to government, such as selling to public agencies."
+   ],
+   "e": "Amazon, Lazada, and Shopee sell goods from businesses to individual consumers, which is business to consumer, or B2C."
+  },
+  {
+   "q": "eBay and Carousell are examples of:",
+   "a": "C2C",
+   "w": [
+    "B2C",
+    "B2B",
+    "G2C"
+   ],
+   "d": "A",
+   "x": [
+    "Businesses sell to consumers, but eBay and Carousell are mainly individual sellers.",
+    "Business to business, where companies trade with each other.",
+    "Government to citizen, such as public services delivered to residents."
+   ],
+   "e": "eBay and Carousell let individual consumers sell to other individual consumers, so they are consumer to consumer, or C2C."
+  },
+  {
+   "q": "Alibaba.com is an example of:",
+   "a": "B2B",
+   "w": [
+    "B2C",
+    "C2C",
+    "C2B"
+   ],
+   "d": "A",
+   "x": [
+    "A business selling directly to consumers, which is not Alibaba.com's main model.",
+    "Individuals selling to individuals, which does not describe Alibaba.com.",
+    "Consumers selling to businesses, the reverse of Alibaba.com's role."
+   ],
+   "e": "Alibaba.com connects manufacturers and wholesalers with other businesses that buy in bulk, so it is business to business, or B2B."
+  },
+  {
+   "q": "PhilGEPS is an example of:",
+   "a": "B2G",
+   "w": [
+    "B2C",
+    "C2C",
+    "G2C"
+   ],
+   "d": "A",
+   "x": [
+    "Business to consumer, which does not describe government procurement.",
+    "Consumer to consumer, which is unrelated to public procurement.",
+    "Government to citizen, the reverse direction used for public services, while PhilGEPS is where businesses bid on government contracts."
+   ],
+   "e": "PhilGEPS is the Philippine government electronic procurement system where businesses bid on government contracts, which is business to government, or B2G."
+  },
+  {
+   "q": "Upwork and Fiverr, where individuals sell services to businesses, are examples of:",
+   "a": "C2B",
+   "w": [
+    "B2C",
+    "B2B",
+    "G2B"
+   ],
+   "d": "D",
+   "x": [
+    "A business selling to consumers, the reverse of freelancers selling to companies.",
+    "Business to business, but freelancers on these platforms are individuals rather than businesses.",
+    "Government to business, which does not describe a freelance marketplace."
+   ],
+   "e": "On Upwork and Fiverr, individuals offer services to businesses, which is consumer to business, or C2B."
+  },
+  {
+   "q": "Selling products without holding inventory, with the supplier shipping directly, is:",
+   "a": "Dropshipping",
+   "w": [
+    "Wholesaling",
+    "Consignment",
+    "Franchising"
+   ],
+   "d": "A",
+   "x": [
+    "The seller buys goods in bulk and holds inventory, which dropshipping avoids.",
+    "The seller holds goods owned by another party and pays only when items sell, so it involves holding stock.",
+    "A model where a franchisor licenses its brand and system to franchisees, not a supplier-shipping model."
+   ],
+   "e": "Dropshipping lets sellers list products without holding inventory, so the supplier ships each order directly to the customer."
+  },
+  {
+   "q": "The strategy that combines online and physical channels seamlessly is:",
+   "a": "Omnichannel",
+   "w": [
+    "Pure-play",
+    "Brick-and-mortar",
+    "Drop shipping"
+   ],
+   "d": "A",
+   "x": [
+    "Sells through one channel only, usually online, rather than combining channels.",
+    "Uses only physical stores and does not integrate online channels.",
+    "A fulfillment method where the supplier ships orders, not a channel strategy."
+   ],
+   "e": "Omnichannel is a strategy that integrates online, mobile, and physical store channels so customers get a consistent experience across all of them."
+  },
+  {
+   "q": "Who founded Amazon?",
+   "a": "Jeff Bezos",
+   "w": [
+    "Jack Ma",
+    "Pierre Omidyar",
+    "Elon Musk"
+   ],
+   "d": "E",
+   "x": [
+    "Co-founded Alibaba, not Amazon.",
+    "Founded eBay, not Amazon.",
+    "Known for Tesla and SpaceX, not Amazon."
+   ],
+   "e": "Jeff Bezos founded Amazon in 1994 as an online bookstore that later expanded into a global marketplace."
+  },
+  {
+   "q": "Who founded Alibaba?",
+   "a": "Jack Ma",
+   "w": [
+    "Jeff Bezos",
+    "Pony Ma",
+    "Robin Li"
+   ],
+   "d": "A",
+   "x": [
+    "Founded Amazon, not Alibaba.",
+    "Co-founded Tencent, not Alibaba.",
+    "Co-founded Baidu, not Alibaba."
+   ],
+   "e": "Jack Ma founded Alibaba in 1999 with a group of co-founders, building it into a major Chinese e-commerce company."
+  },
+  {
+   "q": "Who founded eBay?",
+   "a": "Pierre Omidyar",
+   "w": [
+    "Jeff Bezos",
+    "Peter Thiel",
+    "Jack Ma"
+   ],
+   "d": "A",
+   "x": [
+    "Founded Amazon, not eBay.",
+    "Co-founded PayPal, not eBay.",
+    "Founded Alibaba, not eBay."
+   ],
+   "e": "Pierre Omidyar founded eBay in 1995 as an online auction site where individuals sold items to each other."
+  },
+  {
+   "q": "Who invented online shopping (teleshopping) in 1979?",
+   "a": "Michael Aldrich",
+   "w": [
+    "Jeff Bezos",
+    "Tim Berners-Lee",
+    "Pierre Omidyar"
+   ],
+   "d": "D",
+   "x": [
+    "Founded Amazon, which came years later and did not invent online shopping.",
+    "Invented the World Wide Web, which came after the 1979 invention of teleshopping.",
+    "Founded eBay in 1995, long after teleshopping was invented in 1979."
+   ],
+   "e": "Michael Aldrich invented teleshopping in 1979 by connecting a modified TV to a transaction computer over a phone line."
+  },
+  {
+   "q": "EDI stands for:",
+   "a": "Electronic Data Interchange",
+   "w": [
+    "Electronic Digital Information",
+    "Enterprise Data Integration",
+    "Electronic Direct Interface"
+   ],
+   "d": "A",
+   "x": [
+    "An invented expansion. The term is Electronic Data Interchange.",
+    "A general concept, not the standard expansion of EDI.",
+    "Not the standard name for EDI."
+   ],
+   "e": "EDI stands for Electronic Data Interchange, the structured electronic exchange of business documents such as purchase orders between companies."
+  },
+  {
+   "q": "Which is the Philippine real-time interbank electronic fund transfer service with a per-transaction limit of PHP 50,000?",
+   "a": "InstaPay",
+   "w": [
+    "PESONet",
+    "GCash Send",
+    "Swift"
+   ],
+   "d": "D",
+   "x": [
+    "A batch-based transfer service, not the real-time instant service described here.",
+    "A GCash e-wallet transfer feature, not the BSP interbank real-time service.",
+    "A global messaging network for banks, not a domestic Philippine real-time transfer service."
+   ],
+   "e": "InstaPay is the BSP's real-time interbank fund transfer service in the Philippines, which lets users send money to other banks and e-wallets instantly."
+  },
+  {
+   "q": "Which BSP-standard QR code allows interoperable payments in the Philippines?",
+   "a": "QR Ph",
+   "w": [
+    "QR Pay",
+    "PhilQR",
+    "BSP Code"
+   ],
+   "d": "A",
+   "x": [
+    "A generic phrase, not the BSP standard name.",
+    "An invented name, not the BSP standard.",
+    "An invented name. The BSP is the regulator, not the name of the QR standard."
+   ],
+   "e": "QR Ph is the BSP-standard QR code that lets payment apps from different providers work together across the Philippines."
+  },
+  {
+   "q": "PESONet is a:",
+   "a": "Batch-based electronic fund transfer service",
+   "w": [
+    "Real-time payment rail",
+    "Cryptocurrency network",
+    "Credit card scheme"
+   ],
+   "d": "D",
+   "x": [
+    "That describes InstaPay, not PESONet.",
+    "A blockchain-based system, not PESONet.",
+    "A card network such as Visa or Mastercard, not a bank transfer system."
+   ],
+   "e": "PESONet is a batch-based electronic fund transfer service in the Philippines, where transfers are processed in batches at scheduled times."
+  },
+  {
+   "q": "Which Philippine central bank regulates payment systems?",
+   "a": "BSP",
+   "w": [
+    "SEC",
+    "DTI",
+    "BIR"
+   ],
+   "d": "E",
+   "x": [
+    "Regulates corporations and securities, not banking payment systems.",
+    "Oversees trade, business registration, and consumer policy, not payment system regulation.",
+    "The tax collection agency, not the payment regulator."
+   ],
+   "e": "The Bangko Sentral ng Pilipinas, or BSP, is the central bank that regulates payment systems and financial institutions in the Philippines."
+  },
+  {
+   "q": "Which are major Philippine e-wallets?",
+   "a": "GCash and Maya",
+   "w": [
+    "PayPal and Venmo",
+    "Alipay and Paytm",
+    "Zelle and Cash App"
+   ],
+   "d": "E",
+   "x": [
+    "Global e-wallets from the US, not major Philippine e-wallets.",
+    "Chinese and Indian e-wallets, not Philippine ones.",
+    "US-based payment apps, not Philippine e-wallets."
+   ],
+   "e": "GCash and Maya are the leading e-wallets in the Philippines, letting users pay bills, send money, and shop from mobile phones."
+  },
+  {
+   "q": "The security standard for organizations that handle card data is:",
+   "a": "PCI DSS",
+   "w": [
+    "HIPAA",
+    "ISO 9001",
+    "SOX"
+   ],
+   "d": "A",
+   "x": [
+    "A US law on health information privacy, not card data security.",
+    "A quality management standard, not card data security.",
+    "The Sarbanes-Oxley Act on financial reporting controls for public companies, not card data."
+   ],
+   "e": "PCI DSS is the Payment Card Industry Data Security Standard, which sets security requirements for organizations that store, process, or transmit card data."
+  },
+  {
+   "q": "3-D Secure authentication typically adds:",
+   "a": "An OTP or extra verification step for card payments",
+   "w": [
+    "A hardware token only",
+    "A paper receipt",
+    "A fingerprint scan only"
+   ],
+   "d": "A",
+   "x": [
+    "A token is one possible factor, but 3-D Secure typically uses a one-time password or verification step, not only a device.",
+    "Unrelated to authentication, since 3-D Secure is an online verification step.",
+    "Biometrics can be used, but 3-D Secure is not limited to a fingerprint scan."
+   ],
+   "e": "3-D Secure adds a verification step, such as a one-time password or bank confirmation, to confirm the cardholder during online card payments."
+  },
+  {
+   "q": "What does a payment gateway do?",
+   "a": "Securely authorizes and transmits payment transaction data",
+   "w": [
+    "Stores products",
+    "Delivers parcels",
+    "Designs websites"
+   ],
+   "d": "A",
+   "x": [
+    "A product catalog or inventory function, not a payment gateway.",
+    "A logistics function handled by couriers, not payments.",
+    "Web development or design work, not payment processing."
+   ],
+   "e": "A payment gateway securely passes payment details between the shop, the card network or bank, and the processor to authorize transactions."
+  },
+  {
+   "q": "Which is a payment gateway/provider used in the Philippines?",
+   "a": "PayMongo",
+   "w": [
+    "Zelle",
+    "Venmo",
+    "Klarna"
+   ],
+   "d": "A",
+   "x": [
+    "A US bank-to-bank transfer service, not a Philippine payment gateway that processes card payments for online merchants.",
+    "A US peer-to-peer payment app for sending money between people, not a payment gateway used by Philippine online merchants.",
+    "A Swedish buy-now-pay-later service, not a Philippine payment gateway for merchants."
+   ],
+   "e": "PayMongo is a Philippine payment gateway that lets online merchants accept cards, e-wallets and bank payments. It fits because it is a local provider serving Philippine businesses."
+  },
+  {
+   "q": "Conversion rate is computed as:",
+   "a": "Orders divided by visitors",
+   "w": [
+    "Visitors divided by orders",
+    "Revenue divided by visitors",
+    "Clicks divided by impressions"
+   ],
+   "d": "A",
+   "x": [
+    "Visitors divided by orders is the inverse ratio, giving how many visitors each order needs, not the share of visitors who buy.",
+    "Revenue divided by visitors is revenue per visitor, a different metric that measures money earned rather than the share of visitors who convert.",
+    "Clicks divided by impressions is the click-through rate, which measures ad response, not purchase conversion."
+   ],
+   "e": "Conversion rate is the share of visitors who place an order, so orders divided by visitors gives it. It fits because the question asks how visitors turn into buyers."
+  },
+  {
+   "q": "10,000 visitors and 250 orders gives a conversion rate of:",
+   "a": "2.5%",
+   "w": [
+    "25%",
+    "0.25%",
+    "4%"
+   ],
+   "d": "A",
+   "x": [
+    "25% is ten times too large; it would need 2,500 orders from 10,000 visitors, so the decimal point is misplaced.",
+    "0.25% is ten times too small; it corresponds to 25 orders from 10,000 visitors, a misread of the 250 orders.",
+    "4% does not match the calculation; 250 orders out of 10,000 visitors is 2.5%, not 4%."
+   ],
+   "e": "250 divided by 10,000 visitors equals 0.025, which is 2.5 percent. Conversion rate is orders divided by visitors, multiplied by 100 to show a percentage."
+  },
+  {
+   "q": "AOV stands for:",
+   "a": "Average Order Value",
+   "w": [
+    "Annual Online Volume",
+    "Average Online Visits",
+    "Authorized Order Value"
+   ],
+   "d": "A",
+   "x": [
+    "Annual Online Volume is not a standard e-commerce metric; AOV measures the average value of each order, not yearly volume.",
+    "Average Online Visits would measure traffic rather than money per order, so it does not match the metric.",
+    "Authorized Order Value is not a standard term; the metric is the average amount spent per order."
+   ],
+   "e": "AOV means Average Order Value, the average amount a customer spends per order. It is total revenue divided by the number of orders."
+  },
+  {
+   "q": "CTR is computed as:",
+   "a": "Clicks divided by impressions",
+   "w": [
+    "Impressions divided by clicks",
+    "Orders divided by clicks",
+    "Clicks divided by orders"
+   ],
+   "d": "A",
+   "x": [
+    "Impressions divided by clicks is the inverse of CTR and gives a number that is not a click rate.",
+    "Orders divided by clicks is a click-to-order conversion measure, not click-through rate.",
+    "Clicks divided by orders gives clicks per order, not the share of impressions that receive a click."
+   ],
+   "e": "CTR is click-through rate, the share of impressions that receive a click. It fits because it compares clicks to impressions to measure how appealing an ad is."
+  },
+  {
+   "q": "CAC stands for:",
+   "a": "Customer Acquisition Cost",
+   "w": [
+    "Customer Account Code",
+    "Cost of Annual Contracts",
+    "Cart Abandonment Count"
+   ],
+   "d": "A",
+   "x": [
+    "Customer Account Code is not a marketing metric; CAC measures the cost to win a new customer.",
+    "Cost of Annual Contracts is not the standard meaning; CAC is the cost spent to acquire each new customer.",
+    "Cart Abandonment Count measures abandoned carts, which is a different metric from customer acquisition cost."
+   ],
+   "e": "CAC stands for Customer Acquisition Cost, the total marketing and sales spend needed to win one new customer. It fits because the question asks what the abbreviation means."
+  },
+  {
+   "q": "AIDA stands for:",
+   "a": "Attention, Interest, Desire, Action",
+   "w": [
+    "Awareness, Intent, Decision, Action",
+    "Attract, Inform, Decide, Act",
+    "Audience, Interest, Demand, Approval"
+   ],
+   "d": "A",
+   "x": [
+    "Awareness, Intent, Decision, Action is a plausible-sounding sequence but not the AIDA model, which uses Attention, Interest, Desire and Action.",
+    "Attract, Inform, Decide, Act is not the AIDA model, whose stages are Attention, Interest, Desire and Action.",
+    "Audience, Interest, Demand, Approval does not match AIDA; the model's stages are Attention, Interest, Desire and Action."
+   ],
+   "e": "AIDA is a marketing model describing the customer journey as Attention, Interest, Desire, Action. It fits because each stage moves a buyer closer to purchase."
+  },
+  {
+   "q": "The 4Ps of the marketing mix are:",
+   "a": "Product, Price, Place, Promotion",
+   "w": [
+    "People, Process, Product, Price",
+    "Plan, Pilot, Produce, Promote",
+    "Product, Profit, Place, Package"
+   ],
+   "d": "A",
+   "x": [
+    "People, Process, Product, Price mixes in People and Process from the extended 7Ps; the classic 4Ps are Product, Price, Place and Promotion.",
+    "Plan, Pilot, Produce, Promote is not the marketing mix; the 4Ps are Product, Price, Place and Promotion.",
+    "Product, Profit, Place, Package includes Profit and Package, which are not part of the classic 4Ps."
+   ],
+   "e": "The 4Ps are the classic marketing mix: Product, Price, Place and Promotion. The mix is used to plan how a business offers and sells what it makes."
+  },
+  {
+   "q": "Which Philippine law is the E-Commerce Act?",
+   "a": "RA 8792",
+   "w": [
+    "RA 10173",
+    "RA 10175",
+    "RA 11967"
+   ],
+   "d": "D",
+   "x": [
+    "RA 10173 is the Data Privacy Act of 2012, which governs personal data, not electronic commerce transactions.",
+    "RA 10175 is the Cybercrime Prevention Act of 2012, which covers online offenses, not the E-Commerce Act.",
+    "RA 11967 is the Internet Transactions Act of 2023, a later law on online businesses rather than the E-Commerce Act."
+   ],
+   "e": "RA 8792 is the Electronic Commerce Act of 2000, which gave legal recognition to electronic documents and transactions. It fits because the question asks for the E-Commerce Act."
+  },
+  {
+   "q": "Which Philippine law is the Internet Transactions Act of 2023?",
+   "a": "RA 11967",
+   "w": [
+    "RA 8792",
+    "RA 10173",
+    "RA 11934"
+   ],
+   "d": "D",
+   "x": [
+    "RA 8792 is the Electronic Commerce Act of 2000, the earlier e-commerce law, not the 2023 Internet Transactions Act.",
+    "RA 10173 is the Data Privacy Act of 2012, which covers personal information, not online transactions.",
+    "RA 11934 is the SIM Registration Act of 2022, which requires SIM card registration, not regulation of online business transactions."
+   ],
+   "e": "RA 11967 is the Internet Transactions Act of 2023, which regulates online businesses and transactions and created the E-Commerce Bureau under DTI. It fits the 2023 date in the question."
+  },
+  {
+   "q": "Which Philippine law is the Data Privacy Act?",
+   "a": "RA 10173",
+   "w": [
+    "RA 10175",
+    "RA 8792",
+    "RA 7394"
+   ],
+   "d": "D",
+   "x": [
+    "RA 10175 is the Cybercrime Prevention Act of 2012, which covers online offenses, not personal data protection.",
+    "RA 8792 is the Electronic Commerce Act of 2000, which covers electronic transactions, not personal data privacy.",
+    "RA 7394 is the Consumer Act of the Philippines, which protects consumers in trade, not personal data privacy."
+   ],
+   "e": "RA 10173 is the Data Privacy Act of 2012, which protects personal information and created the National Privacy Commission. It fits because the question asks for the data privacy law."
+  },
+  {
+   "q": "Which Philippine law is the Cybercrime Prevention Act?",
+   "a": "RA 10175",
+   "w": [
+    "RA 10173",
+    "RA 8792",
+    "RA 11934"
+   ],
+   "d": "D",
+   "x": [
+    "RA 10173 is the Data Privacy Act of 2012, which governs personal data handling, not offenses committed through computers.",
+    "RA 8792 is the Electronic Commerce Act of 2000, which recognizes electronic transactions, not cybercrime offenses.",
+    "RA 11934 is the SIM Registration Act of 2022, which requires registering SIM cards, not a general cybercrime law."
+   ],
+   "e": "RA 10175 is the Cybercrime Prevention Act of 2012, which defines and penalizes offenses committed through computer and communication systems. It fits because the question names this act."
+  },
+  {
+   "q": "Which Philippine law is the SIM Registration Act?",
+   "a": "RA 11934",
+   "w": [
+    "RA 11967",
+    "RA 10173",
+    "RA 12010"
+   ],
+   "d": "D",
+   "x": [
+    "RA 11967 is the Internet Transactions Act of 2023, which regulates online businesses, not mobile SIM registration.",
+    "RA 10173 is the Data Privacy Act of 2012, which governs personal information, not SIM card registration.",
+    "RA 12010 is the Anti-Financial Account Scamming Act of 2024, which targets account scams, not SIM registration."
+   ],
+   "e": "RA 11934 is the SIM Registration Act of 2022, which requires users to register their SIM cards with their identities. It fits because the question asks for that law."
+  },
+  {
+   "q": "Which Philippine law is the Consumer Act?",
+   "a": "RA 7394",
+   "w": [
+    "RA 8792",
+    "RA 10173",
+    "RA 11765"
+   ],
+   "d": "D",
+   "x": [
+    "RA 8792 is the Electronic Commerce Act of 2000, which covers electronic transactions, not general consumer protection.",
+    "RA 10173 is the Data Privacy Act of 2012, which protects personal data, not consumer rights in trade.",
+    "RA 11765 is the Financial Products and Services Consumer Protection Act, which covers financial consumers, not the general Consumer Act."
+   ],
+   "e": "RA 7394 is the Consumer Act of the Philippines, which protects consumers against unfair trade practices and defective goods. It fits because the question names the general Consumer Act."
+  },
+  {
+   "q": "The Internet Transactions Act created which bureau under DTI?",
+   "a": "E-Commerce Bureau",
+   "w": [
+    "Cyber Bureau",
+    "Digital Commerce Authority",
+    "Online Trade Office"
+   ],
+   "d": "D",
+   "x": [
+    "Cyber Bureau is not the bureau named in the Internet Transactions Act; that law created an E-Commerce Bureau under DTI.",
+    "Digital Commerce Authority is not the body created by the Internet Transactions Act, which set up the E-Commerce Bureau.",
+    "Online Trade Office is not the body created by the Internet Transactions Act, which set up the E-Commerce Bureau."
+   ],
+   "e": "The Internet Transactions Act of 2023 created the E-Commerce Bureau under the Department of Trade and Industry. It fits because the question asks for that specific bureau."
+  },
+  {
+   "q": "Which Philippine agency oversees data privacy?",
+   "a": "National Privacy Commission",
+   "w": [
+    "DTI",
+    "DICT",
+    "NTC"
+   ],
+   "d": "A",
+   "x": [
+    "DTI is the Department of Trade and Industry, which handles trade and consumer policy, not data privacy oversight.",
+    "DICT is the Department of Information and Communications Technology, which sets ICT policy, not the data privacy regulator.",
+    "NTC is the National Telecommunications Commission, which regulates telecom services, not data privacy."
+   ],
+   "e": "The National Privacy Commission is the agency that enforces the Data Privacy Act and oversees personal data protection. It fits because the question asks which agency oversees data privacy."
+  },
+  {
+   "q": "The ACP (Agentic Commerce Protocol) was introduced by:",
+   "a": "OpenAI and Stripe",
+   "w": [
+    "Google and PayPal",
+    "Amazon and Visa",
+    "Meta and Shopify"
+   ],
+   "d": "D",
+   "x": [
+    "Google and PayPal did not introduce ACP; the protocol came from OpenAI and Stripe, so this pairing does not fit.",
+    "Amazon and Visa did not introduce ACP; OpenAI and Stripe are the companies behind it.",
+    "Meta and Shopify did not introduce ACP; the protocol was introduced by OpenAI and Stripe."
+   ],
+   "e": "ACP, the Agentic Commerce Protocol, was introduced by OpenAI and Stripe to let AI agents complete purchases. It fits because the question asks who introduced it."
+  },
+  {
+   "q": "Which protocol did Google introduce for AI agent payments?",
+   "a": "AP2 (Agent Payments Protocol)",
+   "w": [
+    "ACP",
+    "MCP",
+    "A2A"
+   ],
+   "d": "D",
+   "x": [
+    "ACP is the Agentic Commerce Protocol from OpenAI and Stripe, not Google's agent payments protocol.",
+    "MCP is the Model Context Protocol, a standard for connecting AI models to tools and data, not a payments protocol.",
+    "A2A is Google's Agent2Agent protocol for communication between agents, not a payments protocol."
+   ],
+   "e": "AP2, the Agent Payments Protocol, is Google's open protocol for letting AI agents make payments securely. It fits because it is the payments protocol Google introduced."
+  },
+  {
+   "q": "What is the CSS specificity of the selector #nav .item a:hover (using id=100, class/pseudo-class=10, element=1)?",
+   "a": "121",
+   "w": [
+    "111",
+    "131",
+    "211"
+   ],
+   "d": "D",
+   "e": "One id (100) + one class (.item = 10) + one pseudo-class (:hover = 10) + one element (a = 1) = 121. Pseudo-classes count like classes, not like elements.",
+   "x": [
+    "Forgets to count the pseudo-class :hover, so only the .item class is counted as class-level, giving 100 + 10 + 1.",
+    "Counts one extra class-level selector (100 + 30 + 1); the selector has only .item and :hover, which add to 20.",
+    "Counts two ids (200 + 10 + 1), but #nav is the only id in the selector."
+   ]
+  },
+  {
+   "q": "An element has width: 200px; padding: 20px; border: 5px solid; margin: 10px and box-sizing: content-box. How much horizontal space does its box (excluding margin) occupy?",
+   "a": "250px",
+   "w": [
+    "200px",
+    "240px",
+    "260px"
+   ],
+   "d": "D",
+   "e": "With content-box, width is content only: 200 + 20 + 20 (padding) + 5 + 5 (border) = 250px. With border-box it would stay 200px; 260px wrongly adds a 10px margin.",
+   "x": [
+    "Assumes border-box sizing, where the width already includes padding and border, so the box stays at 200px.",
+    "240px counts the padding but forgets the 10px of border, giving 200 + 40 instead of 250.",
+    "260px adds the 10px margin, but margin is excluded from the box size the question asks for."
+   ]
+  },
+  {
+   "q": "For margin: 5px 10px 15px 20px, which values apply to the bottom and left sides respectively?",
+   "a": "15px and 20px",
+   "w": [
+    "5px and 10px",
+    "10px and 15px",
+    "20px and 15px"
+   ],
+   "d": "D",
+   "e": "Four-value shorthand goes clockwise: top, right, bottom, left (TRBL), so bottom = 15px and left = 20px.",
+   "x": [
+    "5px and 10px are the top and right values, not the bottom and left values.",
+    "10px is the right value and 15px is the bottom value, so the left value in this pair is wrong.",
+    "20px and 15px reverses the bottom and left values; bottom is 15px and left is 20px."
+   ]
+  },
+  {
+   "q": "A page has an h1 followed by three sibling p elements. How many of those p elements does the selector h1 ~ p match?",
+   "a": "3",
+   "w": [
+    "1",
+    "2",
+    "0"
+   ],
+   "d": "D",
+   "e": "The general sibling combinator (~) matches all following siblings, so all 3 paragraphs. The adjacent sibling combinator h1 + p would match only the first.",
+   "x": [
+    "1 matches only the adjacent sibling combinator h1 + p, which selects just the first paragraph, not all three.",
+    "2 is a miscount; all three paragraphs follow the h1 as siblings, and the general sibling combinator matches each one.",
+    "0 is wrong because the paragraphs are following siblings of the h1, so the selector matches them."
+   ]
+  },
+  {
+   "q": "A parent has font-size: 20px and the root (html) font-size is 16px. What is the computed font-size of a child with font-size: 1.5em?",
+   "a": "30px",
+   "w": [
+    "24px",
+    "24.5px",
+    "36px"
+   ],
+   "d": "D",
+   "e": "em is relative to the parent font size: 1.5 x 20 = 30px. 1.5rem would be relative to the root: 1.5 x 16 = 24px.",
+   "x": [
+    "24px uses the root font size, 1.5 x 16, which is what 1.5rem gives, not em relative to the parent.",
+    "24.5px does not match the correct calculation, which is 1.5 x 20 = 30px.",
+    "36px does not match the correct calculation; the parent font size is 20px, so 1.5 times it gives 30px."
+   ]
+  },
+  {
+   "q": "A 900px-wide container uses display:grid; grid-template-columns: repeat(3, 1fr); column-gap: 30px. How wide is each column?",
+   "a": "280px",
+   "w": [
+    "300px",
+    "270px",
+    "290px"
+   ],
+   "d": "D",
+   "e": "The two gaps take 2 x 30 = 60px, leaving 840px shared equally by 3 fr tracks = 280px each. 300px would be the width with no gap.",
+   "x": [
+    "300px is the width with no gaps (900 / 3), but the two 30px column gaps must be subtracted first.",
+    "270px subtracts three gaps of 30px instead of two, but a 3-column grid has only two gaps.",
+    "290px does not match the correct calculation; 840 divided by 3 is 280, not 290."
+   ]
+  },
+  {
+   "q": "In a flex container, which justify-content value leaves equal space between items and also equal space at both container edges?",
+   "a": "space-evenly",
+   "w": [
+    "space-between",
+    "space-around",
+    "center"
+   ],
+   "d": "D",
+   "e": "space-evenly makes every gap, including the two edge gaps, identical. space-around gives edge gaps of half size, and space-between puts no space at the edges.",
+   "x": [
+    "space-between puts the first and last items flush against the container edges, leaving no space at the edges.",
+    "space-around gives each item equal space on both sides, so edge gaps are half the size of the gaps between items.",
+    "center groups all items together in the middle without distributing space between them."
+   ]
+  },
+  {
+   "q": "A request returns HTTP 403. What does this mean?",
+   "a": "The server understood the request but refuses to authorize it",
+   "w": [
+    "The requested resource was not found",
+    "The client must authenticate because credentials are missing or invalid",
+    "The server crashed while handling the request"
+   ],
+   "d": "D",
+   "e": "403 Forbidden means access is refused even if you are known. 401 is the one for missing or invalid credentials, 404 is Not Found, and 500 is an internal server error.",
+   "x": [
+    "404 Not Found means the resource does not exist, not that access is refused.",
+    "401 Unauthorized means credentials are missing or invalid, not that the server understood the request and refused it.",
+    "500 Internal Server Error means the server failed while processing the request, not an authorization refusal."
+   ]
+  },
+  {
+   "q": "Which HTTP status code signals that a resource has been moved permanently to a new URL?",
+   "a": "301",
+   "w": [
+    "302",
+    "304",
+    "307"
+   ],
+   "d": "D",
+   "e": "301 Moved Permanently is the permanent redirect. 302 and 307 are temporary redirects, and 304 Not Modified tells the client to use its cached copy.",
+   "x": [
+    "302 Found is a temporary redirect, so clients keep using the original URL rather than treating the move as permanent.",
+    "304 Not Modified tells the client its cached copy is still valid; it is not a redirect at all.",
+    "307 Temporary Redirect is also temporary and keeps the request method, so it does not mark a permanent move."
+   ]
+  },
+  {
+   "q": "What does this JavaScript print? for (var i = 0; i < 3; i++) { setTimeout(() => console.log(i), 0); }",
+   "a": "3 3 3",
+   "w": [
+    "0 1 2",
+    "0 0 0",
+    "undefined undefined undefined"
+   ],
+   "d": "D",
+   "e": "var is function-scoped, so all callbacks share one i, which is 3 when the timeouts run after the loop. Declaring it with let would give a new binding per iteration and print 0 1 2.",
+   "x": [
+    "0 1 2 is what let would print, because let creates a new binding for each loop iteration, while var shares one i.",
+    "0 0 0 does not occur; the callbacks read the shared i after the loop ends, when it has reached 3.",
+    "undefined undefined undefined does not occur; i is defined and holds 3 when the timeouts run."
+   ]
+  },
+  {
+   "q": "In JavaScript, what are the results of \"5\" + 3 and \"5\" - 3?",
+   "a": "\"53\" and 2",
+   "w": [
+    "8 and 2",
+    "\"53\" and \"53\"",
+    "8 and \"2\""
+   ],
+   "d": "D",
+   "e": "The + operator concatenates when one operand is a string, giving \"53\", while - always converts to numbers, giving 2.",
+   "x": [
+    "The first result is wrong: plus concatenates when one operand is a string, giving 53, not 8. The second value of 2 is correct.",
+    "The minus result is wrong: minus never concatenates; it converts both operands to numbers and gives 2.",
+    "The plus result is wrong, since plus gives the concatenated text 53 rather than 8, and minus returns a number, not text."
+   ]
+  },
+  {
+   "q": "What happens when you set element.textContent = \"<b>Hi</b>\"?",
+   "a": "The literal text <b>Hi</b> is displayed, not bold text",
+   "w": [
+    "The word Hi is displayed in bold",
+    "Nothing is displayed because tags are stripped",
+    "The browser throws a syntax error"
+   ],
+   "d": "A",
+   "e": "textContent treats the value as plain text, so tags show literally. innerHTML would parse the markup and render bold Hi.",
+   "x": [
+    "Bold text would need innerHTML, which parses tags; textContent treats the string as plain text, so no bolding occurs.",
+    "Nothing being displayed is wrong; textContent does not strip tags, it shows the whole string literally.",
+    "A syntax error is not thrown; assigning a string to textContent is valid and simply displays the characters."
+   ]
+  },
+  {
+   "q": "When an external script is loaded with the defer attribute, when does it execute?",
+   "a": "After the HTML is fully parsed, in document order",
+   "w": [
+    "Immediately, pausing HTML parsing until it finishes",
+    "As soon as it downloads, in any order",
+    "Only after the window load event and all images finish"
+   ],
+   "d": "D",
+   "e": "defer downloads in parallel with parsing and runs once parsing is done, preserving order. The immediate-blocking behaviour is a plain script; the as-soon-as-downloaded one is async.",
+   "x": [
+    "Immediate blocking is how a plain script without defer or async runs; defer does not pause parsing.",
+    "As soon as it downloads, in any order describes async, which runs when ready and does not keep document order.",
+    "Running after the window load event is not how defer works; deferred scripts run before DOMContentLoaded, once parsing ends."
+   ]
+  },
+  {
+   "q": "Which statement about form fields is correct?",
+   "a": "A disabled field is not submitted with the form, but a readonly field is",
+   "w": [
+    "A readonly field is not submitted, but a disabled field is",
+    "Both disabled and readonly fields are never submitted",
+    "Both are submitted, but readonly cannot be focused"
+   ],
+   "d": "D",
+   "e": "Disabled controls are excluded from form submission and cannot be focused; readonly fields can be focused and their value is sent.",
+   "x": [
+    "Reversed: a readonly field is submitted with the form, and a disabled field is excluded from it.",
+    "Incorrect: readonly fields are submitted, and only disabled fields are excluded from submission.",
+    "Incorrect: disabled fields are not submitted and cannot be focused, while readonly fields can be focused."
+   ]
+  },
+  {
+   "q": "In the URL https://www.umak.edu.ph:8080/about?x=1#top, which part is not sent to the server in the HTTP request?",
+   "a": "#top",
+   "w": [
+    "?x=1",
+    "/about",
+    "8080"
+   ],
+   "d": "D",
+   "e": "The fragment (#top) is handled only by the browser. The path, the query string (?x=1) and the port (used to connect) are all part of the request.",
+   "x": [
+    "The query string ?x=1 is part of the request line, so it is sent to the server.",
+    "The path /about is the request target sent in the request line, so it is sent to the server.",
+    "The port 8080 selects the connection target and appears in the Host header when non-default, so it is sent."
+   ]
+  },
+  {
+   "q": "Which of these HTML elements is NOT a void (empty) element?",
+   "a": "<textarea>",
+   "w": [
+    "<input>",
+    "<meta>",
+    "<link>"
+   ],
+   "d": "D",
+   "e": "textarea has a start tag, content and an end tag. input, meta and link, like br, hr and img, cannot have content or an end tag.",
+   "x": [
+    "Input is a void element: it has no content and no closing tag.",
+    "Meta is a void element: it only carries metadata and has no closing tag.",
+    "Link is a void element: it references a resource and has no closing tag or content."
+   ]
+  },
+  {
+   "q": "Which Core Web Vital measures responsiveness to user interaction and replaced FID in March 2024?",
+   "a": "INP",
+   "w": [
+    "LCP",
+    "CLS",
+    "TTFB"
+   ],
+   "d": "A",
+   "e": "INP (Interaction to Next Paint) measures responsiveness. LCP is loading, CLS is visual stability, and TTFB is not a Core Web Vital.",
+   "x": [
+    "LCP measures loading performance, the time to render the largest content element, not responsiveness.",
+    "CLS measures visual stability, how much content shifts unexpectedly, not input responsiveness.",
+    "TTFB measures server response time and is not a Core Web Vital."
+   ]
+  },
+  {
+   "q": "What is the minimum WCAG contrast ratio for normal-size text at level AAA?",
+   "a": "7:1",
+   "w": [
+    "4.5:1",
+    "3:1",
+    "5.5:1"
+   ],
+   "d": "A",
+   "e": "AAA requires 7:1 for normal text. 4.5:1 is the AA requirement, and 3:1 is the AA minimum for large text.",
+   "x": [
+    "4.5:1 is the AA minimum for normal text, a lower level than AAA.",
+    "3:1 is the AA minimum for large text, not normal text.",
+    "5.5:1 is not a WCAG contrast threshold for normal text at any level."
+   ]
+  },
+  {
+   "q": "A form offers an undo button and a clearly marked way to cancel an operation. Which of Nielsen's heuristics does this best support?",
+   "a": "User control and freedom",
+   "w": [
+    "Error prevention",
+    "Flexibility and efficiency of use",
+    "Consistency and standards"
+   ],
+   "d": "D",
+   "e": "Undo, redo and clear emergency exits give users control and freedom. Error prevention would stop the mistake from happening in the first place.",
+   "x": [
+    "Error prevention aims to stop mistakes before they happen, such as with confirmation steps, rather than offering undo or exits.",
+    "Flexibility and efficiency of use is about shortcuts and customization for expert users, not undo or cancel controls.",
+    "Consistency and standards is about following familiar conventions across the interface, not giving users a way to undo or cancel."
+   ]
+  },
+  {
+   "q": "A store gets 40,000 visitors, 2% of them order, and the average order value is PHP 1,500. What is the revenue?",
+   "a": "PHP 1,200,000",
+   "w": [
+    "PHP 800,000",
+    "PHP 120,000",
+    "PHP 3,000,000"
+   ],
+   "d": "D",
+   "e": "Orders = 40,000 x 0.02 = 800; revenue = 800 x 1,500 = PHP 1,200,000. PHP 800,000 is just the confusion of the orders figure with revenue.",
+   "x": [
+    "Does not match the correct calculation, which is 800 orders times PHP 1,500 = PHP 1,200,000.",
+    "Does not match the correct calculation; the revenue is 800 orders times PHP 1,500, and PHP 120,000 is far too small.",
+    "Does not match the correct calculation; the order count is 800, not 2,000, so PHP 3,000,000 is too large."
+   ]
+  },
+  {
+   "q": "An ad receives 200,000 impressions with a 1.5% CTR, and 4% of the clicks result in an order. How many orders result?",
+   "a": "120",
+   "w": [
+    "12",
+    "300",
+    "3,000"
+   ],
+   "d": "D",
+   "e": "Clicks = 200,000 x 0.015 = 3,000; orders = 3,000 x 0.04 = 120. 3,000 is the number of clicks, not orders.",
+   "x": [
+    "Does not match the correct calculation: 3,000 clicks times 4 percent gives 120 orders.",
+    "Does not match the correct calculation: 300 is too small, since 4 percent of 3,000 clicks is 120 orders.",
+    "3,000 is the number of clicks (200,000 times 1.5 percent), not the number of orders."
+   ]
+  },
+  {
+   "q": "A seller spends PHP 30,000 on ads and earns PHP 90,000 in sales from them. What is the ROAS?",
+   "a": "3.0 (3:1)",
+   "w": [
+    "2.0 (2:1)",
+    "0.33",
+    "30%"
+   ],
+   "d": "D",
+   "e": "ROAS = revenue / ad spend = 90,000 / 30,000 = 3. The value 2.0 would be net profit over spend, (90,000 - 30,000) / 30,000, which is closer to ROI.",
+   "x": [
+    "2.0 is the ratio of net profit over spend, (90,000 minus 30,000) divided by 30,000, which measures ROI rather than ROAS.",
+    "0.33 inverts the ratio, dividing spend by revenue, which gives 30,000 divided by 90,000.",
+    "30% does not match the calculation; ROAS is revenue divided by ad spend, shown as 3.0, not a percentage."
+   ]
+  },
+  {
+   "q": "If 1,000 shopping carts were created and 300 resulted in completed purchases, what is the cart abandonment rate?",
+   "a": "70%",
+   "w": [
+    "30%",
+    "300%",
+    "3.3%"
+   ],
+   "d": "D",
+   "e": "Abandoned carts = 1,000 - 300 = 700, so 700 / 1,000 = 70%. The 30% figure is the checkout completion rate.",
+   "x": [
+    "30% is the checkout completion rate, 300 out of 1,000 carts, not the abandonment rate.",
+    "300% does not match the calculation; abandonment is 700 of 1,000 carts, which is 70 percent and cannot be 300 percent.",
+    "3.3% does not match the calculation; 700 abandoned carts out of 1,000 is 70 percent."
+   ]
+  },
+  {
+   "q": "Which Philippine law, enacted in 2024, targets account takeover and the scamming of financial accounts, such as e-wallet and bank fraud?",
+   "a": "RA 12010 (Anti-Financial Account Scamming Act)",
+   "w": [
+    "RA 11765 (Financial Products and Services Consumer Protection Act)",
+    "RA 11934 (SIM Registration Act)",
+    "RA 10175 (Cybercrime Prevention Act)"
+   ],
+   "d": "D",
+   "e": "AFASA is RA 12010. RA 11765 is the broader financial consumer protection law, and RA 10175 is the general cybercrime law from 2012.",
+   "x": [
+    "RA 11765 is a broader financial consumer protection law covering financial products and services, not the 2024 act targeting account scams.",
+    "RA 11934 is the SIM Registration Act, which requires SIM card registration, not the act targeting financial account scams.",
+    "RA 10175 is the Cybercrime Prevention Act of 2012, a general cybercrime law, not the 2024 act on financial account scamming."
+   ]
+  },
+  {
+   "q": "Which Republic Act established the Philippine Identification System (PhilSys) National ID, used for e-KYC?",
+   "a": "RA 11055",
+   "w": [
+    "RA 11934",
+    "RA 7277",
+    "RA 11967"
+   ],
+   "d": "D",
+   "e": "PhilSys is RA 11055. RA 11934 is SIM registration, RA 7277 is the Magna Carta for Persons with Disability, and RA 11967 is the Internet Transactions Act.",
+   "x": [
+    "RA 11934 is the SIM Registration Act, which covers mobile SIM card registration, not the national ID system.",
+    "RA 7277 is the Magna Carta for Persons with Disability, which covers the rights of persons with disabilities, not PhilSys.",
+    "RA 11967 is the Internet Transactions Act of 2023, which governs online businesses, not the national ID system."
+   ]
+  },
+  {
+   "q": "In a card payment, which party is the customer's own bank that approves or declines the transaction?",
+   "a": "Issuer",
+   "w": [
+    "Acquirer",
+    "Payment gateway",
+    "Card network"
+   ],
+   "d": "A",
+   "e": "The issuer issued the card and holds the customer's account. The acquirer serves the merchant, and the card network (Visa/Mastercard) routes the messages between them.",
+   "x": [
+    "The acquirer is the merchant's bank that processes card payments for the seller, not the bank that approves the customer's card.",
+    "The payment gateway passes transaction data between the merchant and the processors; it does not hold the customer's account.",
+    "The card network, such as Visa or Mastercard, routes transaction messages between banks and sets rules; it does not hold the customer's account."
+   ]
+  },
+  {
+   "q": "Which browser is NOT correctly paired with its rendering engine?",
+   "a": "Opera - Gecko",
+   "w": [
+    "Safari - WebKit",
+    "Edge - Blink",
+    "Firefox - Gecko"
+   ],
+   "d": "D",
+   "e": "Opera is Chromium-based and uses Blink. Gecko belongs to Firefox, WebKit to Safari, and Edge moved to Blink.",
+   "x": [
+    "This pairing is correct, since Safari uses WebKit; the question asks for the incorrect pairing.",
+    "This pairing is correct, since Edge uses Blink; it does not match the question's incorrect pairing.",
+    "This pairing is correct, since Firefox uses Gecko; it does not match the question's incorrect pairing."
+   ]
+  },
+  {
+   "q": "Which of these is NOT a typical B2C e-commerce example?",
+   "a": "IndiaMART",
+   "w": [
+    "Zalora",
+    "Lazada",
+    "Apple Store"
+   ],
+   "d": "A",
+   "e": "IndiaMART is a B2B marketplace linking businesses. Zalora, Lazada and Apple Store sell to individual consumers.",
+   "x": [
+    "Zalora is an online fashion retailer selling directly to individual shoppers, so it is a B2C example.",
+    "Lazada is an online marketplace selling to individual consumers, so it is a B2C example.",
+    "Apple Store sells products directly to individual consumers, so it is a B2C example."
+   ]
+  },
+  {
+   "q": "Replacing a real card number with a non-sensitive surrogate value that is useless if stolen is called:",
+   "a": "Tokenization",
+   "w": [
+    "3-D Secure",
+    "Chargeback",
+    "Escrow"
+   ],
+   "d": "D",
+   "e": "Tokenization swaps the card number for a token. 3-D Secure adds an OTP/authentication step, a chargeback is a disputed transaction reversal, and escrow holds funds until delivery.",
+   "x": [
+    "3-D Secure adds an authentication step, such as a one-time password, rather than replacing the card number.",
+    "A chargeback is a reversal of a disputed transaction, initiated by the cardholder through their bank, not a card number substitute.",
+    "Escrow is a third party holding funds until the buyer receives the goods, not a way to protect card numbers."
+   ]
+  },
+  {
+   "q": "How is a digital signature created?",
+   "a": "The sender hashes the message and encrypts the hash with the sender's private key",
+   "w": [
+    "The sender encrypts the whole message with the receiver's public key",
+    "The sender hashes the message and encrypts the hash with the receiver's private key",
+    "The sender encrypts the message with a shared symmetric key"
+   ],
+   "d": "D",
+   "e": "A signature is a hash signed with the signer's private key so anyone can verify it with the matching public key. Encrypting with the receiver's public key gives confidentiality, not a signature.",
+   "x": [
+    "Encrypting with the receiver's public key gives confidentiality, not a signature; a signature uses the sender's private key.",
+    "Using the receiver's private key is wrong; the sender signs with its own private key, and the receiver does not use it to create a signature.",
+    "A shared symmetric key is used for encryption or message authentication, not for public-key digital signatures."
+   ]
+  }
+ ]
+}
