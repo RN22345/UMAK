@@ -1,9 +1,67 @@
 # 03 · Logic Formulation
 *Algorithms, flowcharts, pseudocode, Boolean/propositional logic, gates, data structures & algorithms, tracing, puzzles. Heavy on **compute/trace** items — practice these on paper.*
 
+> **How to use this page.** Start with **Basics**: that is what the elimination round tests. The sections after it are the deeper detail for the finals (identification, average/difficult). Practice the tracing and gate questions on paper.
+
 ---
 
-## 1. Problem solving & algorithms
+## Basics
+
+### Problem solving and algorithms
+- First step in problem solving: **understand the problem**, then plan the algorithm, code it, test/debug.
+- **Algorithm** = finite, ordered, well-defined steps. Required properties: input, output, definiteness, finiteness, effectiveness. A **graphical output** is *not* a required property.
+- The word *algorithm* comes from **Al-Khwarizmi**.
+- **Pseudocode** = step-by-step instructions in English-like statements. **Flowchart** = the algorithm drawn with symbols and arrows.
+- **Errors**: **Syntax** = grammar rules broken · **Runtime** = crash while running (e.g., divide by zero) · **Logic** = runs but gives wrong results (hardest to find).
+
+### Flowchart symbols
+| Symbol | Meaning |
+|---|---|
+| **Oval** (terminator) | **Start / End** |
+| **Parallelogram** | **Input / Output** |
+| **Rectangle** | **Process** / calculation |
+| **Diamond** | **Decision** |
+
+### Control structures
+- **Sequence**, **selection** (if / else / switch), **iteration** (loops).
+- **do-while** (and repeat-until) = post-test, runs **at least once**. **while** = pre-test, runs **zero times** if the condition is false at the start. **for** = known count.
+- **continue** skips to the next iteration; **break** exits the loop.
+- **Recursion**: a function calls itself and must have a **base case** so it stops.
+- Operator precedence: `*` before `+`, so `2 + 3 * 4` = **14**.
+- Python 3: `7 // 2` = **3** (integer division); `"HELLO"[1:4]` = **"ELL"**; array indexes start at **0**.
+
+### Logic gates and Boolean algebra
+- **AND**: 1 only if all inputs are 1 (1 AND 0 = 0). **OR**: 0 only if all inputs are 0. **NOT**: inverts its single input.
+- **XOR** = 1 when the inputs **differ**. **NOR** with 0,0 → **1**.
+- **NAND and NOR are universal gates**.
+- **De Morgan**: (A + B)' = **A'B'**; (AB)' = A' + B'. **Absorption**: A + AB = **A**.
+- **Half adder**: Sum = **A XOR B**, Carry = A AND B.
+- **Flip-flops** are sequential (memory-based) circuit elements; combinational circuits depend only on current inputs.
+
+### Propositional and predicate logic
+- **Proposition** = a statement that is **either true or false**. **Tautology** = always true; contradiction = always false.
+- **p → q is false only when p is true and q is false.**
+- **Contrapositive** of p → q is **¬q → ¬p** (logically equivalent).
+- **Modus ponens**: p→q, p ∴ q. **Modus tollens**: p→q, ¬q ∴ ¬p. **Hypothetical syllogism**: p→q, q→r ∴ p→r.
+- **Negation of ∃x P(x)** ≡ **∀x ¬P(x)**.
+
+### Data structures
+- **Stack** = **LIFO**; **push** adds to the top. **Queue** = **FIFO**; **dequeue** removes the front item.
+- **Linked list** = nodes holding data + a pointer to the next node.
+- **Inorder traversal of a BST** gives values in **sorted order**. **Preorder** = root, left, right.
+- **Postfix** of A + B * C = **A B C * +**.
+- **BFS** (breadth-first search) uses a **queue**.
+
+### Algorithms
+- **Linear search** worst case **O(n)**. **Binary search** needs **sorted** data.
+- **Bubble sort** = repeatedly swaps adjacent out-of-order items.
+- **Quick sort**: average O(n log n), **worst O(n²)**. **Merge sort**: **O(n log n)** always, needs **O(n)** extra space.
+- **Dijkstra** = shortest path with non-negative weights. **Kruskal / Prim** = **minimum spanning tree**.
+- Sum of 1 to 100 = n(n+1)/2 = **5050**.
+
+---
+
+## Problem solving & algorithms
 - **Problem-solving steps (Polya-style):** Understand problem → Plan (devise algorithm) → Carry out (code) → Review/test (debug).
 - **Program development cycle:** Define problem → Design (flowchart/pseudocode) → Code → Test & debug → Document → Maintain.
 - **Algorithm** = finite, ordered set of well-defined steps to solve a problem.
@@ -12,7 +70,7 @@
 - Tools: **pseudocode**, **flowchart**, **structured English**, decision tables, IPO chart, hierarchy chart / structure chart, **Nassi–Shneiderman** diagram.
 - **Software errors:** *Syntax* (breaks grammar rules, caught at compile), *Runtime* (crash while running, e.g., divide by zero), *Logic* (runs but wrong result — hardest to detect). **Debugging** = finding/fixing bugs. *Dry run / desk checking / trace table* = manually tracing.
 
-## 2. Flowchart symbols
+## Flowchart symbols
 | Symbol | Meaning |
 |---|---|
 | Oval / rounded rectangle (terminator) | Start / End |
@@ -25,7 +83,7 @@
 | Rectangle with double side bars | Predefined process / subroutine |
 | Document shape (wavy bottom) | Printed document/report |
 
-## 3. Control structures
+## Control structures
 1. **Sequence** – steps in order.
 2. **Selection** – `if`, `if-else`, `else if`, `switch/case`; ternary `cond ? a : b`.
 3. **Iteration (loops)** – `for` (known count), `while` (pre-test; may run 0 times), `do-while` (post-test; runs ≥ 1 time), `repeat-until` (post-test, stops when true).
@@ -33,7 +91,7 @@
 - `break` exits loop; `continue` skips to next iteration; `return` exits function; nested loops multiply iterations (n × m).
 - **Infinite loop**: condition never becomes false.
 
-## 4. Variables, data types, operators
+## Variables, data types, operators
 - **Variable** = named memory location. **Constant** = fixed value. **Identifier rules:** no spaces, can't start with a digit, no reserved words.
 - Common types: `int`, `float/double`, `char`, `string`, `boolean`. Typical sizes (C/Java): `int` 4 bytes (32-bit), `long` 8 bytes, `char` 1 byte (C) / 2 bytes (Java), `float` 4 bytes, `double` 8 bytes, `boolean` 1 bit logical.
 - **Arithmetic:** `+ − * / % ` (modulus = remainder). Integer division: `7/2 = 3` (in C/Java/Python3 `//`), `7%2 = 1`, `−7 % 3` differs by language.
@@ -45,11 +103,11 @@
   - Example: `5 + 8 / 2 * 3 − 1` = 5 + (8/2)*3 − 1 = 5 + 12 − 1 = **16**.
   - Example: `17 % 5 + 17 / 5` (ints) = 2 + 3 = **5**.
 
-## 5. Number base quick drills (see also file 02)
+## Number base quick drills (see also file 02)
 - 1101₂ = 13; 10110₂ = 22; 0x2F = 47; 255 = 11111111₂ = 0xFF = 377₈; 64 = 1000000₂; 100₁₀ = 1100100₂ = 0x64.
 - Largest unsigned n-bit = 2ⁿ − 1 (8-bit = 255; 16-bit = 65,535; 32-bit = 4,294,967,295).
 
-## 6. Boolean algebra & logic gates
+## Boolean algebra & logic gates
 
 ### 6.1 Gate truth tables
 | A | B | AND | OR | NAND | NOR | XOR | XNOR |
@@ -79,7 +137,7 @@
 - **MUX** (many→one, select lines), **DEMUX**, **Decoder** (n→2ⁿ), **Encoder**.
 - A 4:1 MUX needs **2** select lines; an n-to-2ⁿ decoder; a 3-to-8 decoder has 3 inputs & 8 outputs.
 
-## 7. Propositional & predicate logic (discrete math)
+## Propositional & predicate logic (discrete math)
 - **Proposition** = declarative statement that is either true or false (not questions/commands).
 - Connectives: ¬ (negation), ∧ (conjunction), ∨ (disjunction), ⊕ (exclusive or), → (implication), ↔ (biconditional).
 - **Implication p → q** is false **only** when p is true and q is false.
@@ -99,7 +157,7 @@
 - **Counting:** n! ; permutations P(n,r) = n!/(n−r)! ; combinations C(n,r) = n!/(r!(n−r)!) ; C(5,2)=10 ; P(5,2)=20 ; arrangements of "LOGIC" (5 distinct) = 120; "LETTER" = 6!/(2!·2!) = 180. **Pigeonhole principle**.
 - **Graph basics:** vertices & edges; degree; path/cycle; tree (connected acyclic, n−1 edges); complete graph Kₙ edges = n(n−1)/2; Euler path (each edge once) ↔ 0 or 2 odd-degree vertices; Hamiltonian path (each vertex once).
 
-## 8. Data structures
+## Data structures
 | Structure | Rule / key facts |
 |---|---|
 | **Array** | contiguous, index from 0, O(1) access, fixed size |
@@ -121,7 +179,7 @@
 
 **Stack/Queue trace:** push 1, push 2, push 3, pop, push 4, pop → stack bottom→top: 1, 2 (popped 3 then 4) → remaining [1, 2]. Same ops on a queue (enqueue, dequeue removes oldest) → differs.
 
-## 9. Algorithms & Big-O
+## Algorithms & Big-O
 | Algorithm | Best | Average | Worst | Space | Stable? |
 |---|---|---|---|---|---|
 | Bubble sort | O(n)* | O(n²) | O(n²) | O(1) | Yes |
@@ -140,7 +198,7 @@
 - **Halting problem** (Turing) is undecidable.
 - **Recursion:** factorial `n! = n·(n−1)!`, base 0! = 1; Fibonacci 0,1,1,2,3,5,8,13,21,34,55; Tower of Hanoi needs **2ⁿ − 1** moves; GCD (Euclid) `gcd(a,b)=gcd(b, a mod b)` → gcd(48,18)=6. Stack overflow if no base case.
 
-## 10. Tracing practice (answers hidden below each)
+## Tracing practice (answers hidden below each)
 ```
 Q1: x = 5; y = 3; x = x + y; y = x - y; x = x - y;  → x=?, y=?
 A1: x = 3, y = 5 (a swap without temp)
@@ -168,19 +226,19 @@ Q9: Fibonacci F(7) (F0=0,F1=1) = ?   A9: 13
 Q10: What does string "HELLO"[1:4] give (Python)?  A10: "ELL"
 ```
 
-## 11. Pseudocode & logic puzzle styles
+## Pseudocode & logic puzzle styles · finals
 - **Pseudocode keywords:** `INPUT/READ`, `OUTPUT/PRINT/DISPLAY`, `SET/←`, `IF-THEN-ELSE-ENDIF`, `WHILE-ENDWHILE`, `FOR-NEXT`, `REPEAT-UNTIL`, `CASE`.
 - **Sequence/pattern puzzles:** arithmetic (constant difference), geometric (constant ratio), squares (1,4,9,16), cubes, primes (2,3,5,7,11,13,17,19,23), triangular (1,3,6,10,15), Fibonacci, alternating patterns, letter-position (A=1…Z=26).
 - **Knights & knaves** (knight always tells truth; knave always lies): set up cases and test for contradictions.
 - **Common puzzle themes:** river-crossing (fox/chicken/grain), weighing coins (3 weighings), light-bulb switches, Monty Hall (switch → 2/3), age problems, work-rate (A does job in 6 days, B in 3: together 2 days), speed-distance-time, clocks (hands angle), calendars (day-of-week via mod 7).
 - **Quick math:** % change; ratio; mean/median/mode; probability = favorable / total; sum 1..n = n(n+1)/2 (1..100 = 5050); sum of odd numbers 1..(2n−1) = n²; digits sum divisibility (3, 9); a number is divisible by 4 if last two digits are; by 11 alternating digit sum.
 
-## 12. Cross-links
+## Cross-links
 Computer number systems → `02`; OOP logic → `06`; SQL logic → `09`; trees/graphs again in `08` (architecture of search) and networking routing → `07`.
 
 ---
 
-## ✅ Flashcard seeds
+## ✅ Quick self-check
 - Flowchart symbol for decision? → **Diamond** · Input/Output? → **Parallelogram** · Start/End? → **Terminator (oval)**
 - Loop that runs at least once? → **do-while / repeat-until**
 - Error that doesn't crash but gives wrong output? → **Logic error**
