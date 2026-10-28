@@ -248,7 +248,7 @@ function runQuiz(root,s){
   const prog=h('i'); const posEl=h('span',{class:'pos'}); const body=h('div'); const pal=h('div',{class:'pal'}); const palWrap=h('details',{class:'pals'},h('summary',null,'Question map'),pal);
   const notice=h('div');
   screen.append(
-    h('div',{class:'runbar'},posEl,h('div',{class:'row'},s.qt?qEl:null,timerEl,h('button',{class:'btn small',onclick:()=>{ s.elapsed=elapsed(); store.set('session.quiz',s); go('quiz'); }},'Save & exit'))),
+    h('div',{class:'runbar'},posEl,h('div',{class:'row'},s.qt?qEl:null,timerEl,h('button',{class:'btn small',onclick:()=>{ s.elapsed=elapsed(); store.set('session.quiz',s); go('quiz'); }},'Save & exit'),h('button',{class:'btn small gold',onclick:()=>{ confirmSubmit=true; draw(); notice.scrollIntoView({block:'center'}); }},'Finish early'))),
     h('div',{class:'progress'},prog), body, notice, palWrap);
 
   function answered(){ return s.ans.filter(x=>x!=null).length; }
@@ -284,7 +284,7 @@ function runQuiz(root,s){
           last?h('button',{class:'btn gold',onclick:()=>finish(false)},'Finish'):h('button',{class:'btn primary',onclick:()=>move(1)},'Next')))));
     if(confirmSubmit){
       const un=N-answered();
-      notice.replaceChildren(h('div',{class:'notice'},h('span',null,un+' question'+(un===1?'':'s')+' still unanswered. Submit anyway?'),
+      notice.replaceChildren(h('div',{class:'notice'},h('span',null,un?'Finish now? '+un+' question'+(un===1?'':'s')+' still unanswered and will be marked skipped.':'Finish and see your results?'),
         h('div',{class:'row'},h('button',{class:'btn small gold',onclick:()=>finish(true)},'Submit now'),h('button',{class:'btn small',onclick:()=>{confirmSubmit=false;draw();}},'Keep working'))));
     } else notice.replaceChildren();
     drawPal(); updQ();
