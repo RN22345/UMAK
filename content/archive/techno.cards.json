@@ -1,0 +1,142 @@
+{
+ "id": "techno",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "E",
+   "q": "How many steps are in the technopreneurial process?",
+   "a": "8",
+   "alt": [
+    "eight"
+   ],
+   "why": "step count, slide trivia"
+  },
+  {
+   "d": "A",
+   "q": "How many steps are there to determine market validation?",
+   "a": "5",
+   "alt": [
+    "five"
+   ],
+   "why": "step count, slide trivia"
+  },
+  {
+   "d": "A",
+   "q": "What percent of Google's revenue comes from advertising according to the slides?",
+   "a": "97%",
+   "alt": [
+    "97",
+    "97 percent"
+   ],
+   "why": "obscure percentage"
+  },
+  {
+   "d": "E",
+   "q": "How many types of intellectual property rights are listed?",
+   "a": "5",
+   "alt": [
+    "five"
+   ],
+   "why": "IP type count, slide trivia"
+  },
+  {
+   "d": "D",
+   "q": "What are the Philippine patent filing fees listed in the slides?",
+   "a": "Php 1,800 / 3,600",
+   "alt": [
+    "1800 / 3600",
+    "1800 and 3600"
+   ],
+   "why": "obscure fee figures"
+  },
+  {
+   "d": "A",
+   "q": "How many sections are in the business plan outline?",
+   "a": "7",
+   "alt": [
+    "seven"
+   ],
+   "why": "section count, slide trivia"
+  },
+  {
+   "d": "A",
+   "q": "How many principles for sustainable innovation does the slide list?",
+   "a": "10",
+   "alt": [
+    "ten"
+   ],
+   "why": "principle count, slide trivia"
+  },
+  {
+   "d": "A",
+   "q": "How many idea-presentation styles are listed in the slides?",
+   "a": "10",
+   "alt": [
+    "ten"
+   ],
+   "why": "style count, slide trivia"
+  },
+  {
+   "d": "A",
+   "q": "How many ways to generate revenue are listed in the slides?",
+   "a": "7",
+   "alt": [
+    "seven"
+   ],
+   "why": "list count, slide trivia"
+  },
+  {
+   "d": "D",
+   "q": "What three core business types does the BMC propose in the slide wording?",
+   "a": "Product, scope, infrastructure",
+   "alt": [],
+   "why": "slide-specific wording"
+  },
+  {
+   "d": "D",
+   "q": "Which block does the slide's Lean Canvas use where Ash Maurya's original has Key Metrics?",
+   "a": "Key Activity",
+   "alt": [
+    "key activities"
+   ],
+   "why": "slide-specific wording"
+  },
+  {
+   "d": "D",
+   "q": "How many components does a small-business financial plan have in the slides?",
+   "a": "8",
+   "alt": [
+    "eight"
+   ],
+   "why": "component count, slide trivia"
+  },
+  {
+   "d": "D",
+   "q": "What are the four final tips for the pitch?",
+   "a": "Take your time, make it conversational, avoid niche words and phrases, express confidence",
+   "alt": [],
+   "why": "list of tips, slide trivia"
+  },
+  {
+   "d": "D",
+   "q": "Who defined a technopreneur as an entrepreneur involved in technological changes in producing goods and services for his organization?",
+   "a": "Sarimah Hanim and Abd. Rashid",
+   "alt": [
+    "sarimah hanim",
+    "abd. rashid",
+    "hanim and rashid"
+   ],
+   "why": "obscure citation"
+  },
+  {
+   "d": "D",
+   "q": "Who described innovation as a process involving multiple activities by multiple actors?",
+   "a": "Joerg Gemuenden",
+   "alt": [
+    "gemuenden"
+   ],
+   "why": "obscure citation"
+  }
+ ]
+}

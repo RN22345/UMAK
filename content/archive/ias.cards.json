@@ -1,0 +1,118 @@
+{
+ "id": "ias",
+ "archived": "2026-10-28",
+ "note": "flashcards removed as ultra-hard or ill-fitting",
+ "cards": [
+  {
+   "d": "A",
+   "q": "In what year was DEFCON established?",
+   "a": "1993",
+   "alt": [],
+   "why": "DEFCON year, trivia"
+  },
+  {
+   "d": "A",
+   "q": "How many categories of threats appear in Table 2-5?",
+   "a": "12",
+   "alt": [
+    "twelve"
+   ],
+   "why": "threat category count, slide trivia"
+  },
+  {
+   "d": "A",
+   "q": "In what year was the Freedom of Information Act passed?",
+   "a": "1966",
+   "alt": [],
+   "why": "FOIA year, obscure"
+  },
+  {
+   "d": "A",
+   "q": "How many offenses are in the UK Computer Misuse Act 1990?",
+   "a": "3",
+   "alt": [
+    "three"
+   ],
+   "why": "UK Act offense count, obscure"
+  },
+  {
+   "d": "A",
+   "q": "In what year was the ACM founded?",
+   "a": "1947",
+   "alt": [],
+   "why": "ACM founding year, obscure"
+  },
+  {
+   "d": "A",
+   "q": "In what year was DES adopted by NIST?",
+   "a": "1976",
+   "alt": [],
+   "why": "DES adoption year, obscure"
+  },
+  {
+   "d": "E",
+   "q": "How many sources of physical loss are listed?",
+   "a": "7",
+   "alt": [
+    "seven"
+   ],
+   "why": "count of physical loss sources, slide trivia"
+  },
+  {
+   "d": "D",
+   "q": "What is the first step of the NIST CSF 7-step implementation?",
+   "a": "Prioritize and scope",
+   "alt": [
+    "prioritize and scope",
+    "scope"
+   ],
+   "why": "memorised step position"
+  },
+  {
+   "d": "A",
+   "q": "How many areas does PCI DSS have in the slides?",
+   "a": "6",
+   "alt": [
+    "six"
+   ],
+   "why": "PCI DSS area count, slide trivia"
+  },
+  {
+   "d": "D",
+   "q": "Who wrote the 1982 paper On the Security of UNIX?",
+   "a": "Dennis Ritchie",
+   "alt": [
+    "Ritchie"
+   ],
+   "why": "obscure paper author"
+  },
+  {
+   "d": "D",
+   "q": "Which 2015 act inherited select functions of the expiring USA PATRIOT Act?",
+   "a": "USA FREEDOM Act",
+   "alt": [
+    "Freedom Act"
+   ],
+   "why": "obscure act succession"
+  },
+  {
+   "d": "D",
+   "q": "What term names the three groups of federal information: NSI, Non-NSI and what?",
+   "a": "Intelligence Community (IC)",
+   "alt": [
+    "IC",
+    "intelligence community"
+   ],
+   "why": "obscure federal info grouping"
+  },
+  {
+   "d": "D",
+   "q": "What tar-pit active-prevention tool did the slides name?",
+   "a": "LaBrea",
+   "alt": [
+    "La Brea"
+   ],
+   "why": "slide-specific tool name"
+  }
+ ]
+}
