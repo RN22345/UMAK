@@ -23,7 +23,7 @@
 | Thu 29 | OOP + Networks | Lessons 5, 6 |
 | Fri 30 | Architecture + DBMS + Data Science | Lessons 7, 8A, 8B |
 | Sat 31 | E-commerce/Web + Security | Lessons 9, 10 |
-| Sun 1 Nov | AI & tech trivia (re-check news headlines that morning) | AI & Tech Trivia |
+| Sun 1 Nov | Trivia: IT/gaming/internet bank + AI & tech industry (re-check news headlines that morning) | Trivia docs |
 | Mon 2 | Flashcard seeds from all lessons; weak spots | Flashcards tab |
 | Tue 3 | Cram sheet only; sleep early | Cram sheet, Competition setup |
 | Wed 4 | Light skim of the Cram sheet on the way; eat breakfast | — |
@@ -38,17 +38,20 @@ Teammate tip: split the lessons (each studies half deeply, both skim all), then 
 5. Calculations are short: subnetting, binary/hex, truth tables, scheduling averages, Big-O, SQL results.
 
 ## 4. Items flagged "(verify)"
-AI-industry facts move weekly. Everything marked **(verify)** in the AI & Tech Trivia doc is from a single/secondary source:
+AI-industry facts move weekly. Everything marked **(verify)** in the AI & Tech Industry doc is from a single/secondary source:
 - Demis Hassabis's current title at Alphabet/Google DeepMind
 - MCP's governance (Linux Foundation / Agentic AI Foundation)
 - Apple OS version numbering for the 2026 releases ("27")
 - Android 17
 - Some model names/versions in the model table (new releases happen often)
 
-**Before Nov 4:** spend 10 minutes on a news search ("AI news this week", "CEO steps down", "new model release") and update the AI & Tech Trivia doc in your head.
+**Before Nov 4:** spend 10 minutes on a news search ("AI news this week", "CEO steps down", "new model release") and update the AI & Tech Industry doc in your head.
 
 ## 5. Sources
-Official: the contest PDF *ITSO 2026 Quiz Bee Category* and the coach's reviewers *PT-COMBINED*, *SIA-COMBINED*, *IAS-COMBINED* and *TECHNO-COMBINED* (the last two added 27 Oct 2026). General IT/CS content is standard curriculum knowledge (Philippine BSIT scope). Current-events items (Oct 2026) gathered from:
+Official: the contest PDF *ITSO 2026 Quiz Bee Category* and the coach's *TRIVIA BANK* (3 Nov 2026) and reviewers *PT-COMBINED*, *SIA-COMBINED*, *IAS-COMBINED* and *TECHNO-COMBINED* (the last two added 27 Oct 2026). General IT/CS content is standard curriculum knowledge (Philippine BSIT scope). Current-events items (Oct 2026) gathered from:
+- [Apple names Ternus CEO (20 Apr 2026) – Constellation Research](https://www.constellationr.com/insights/news/apple-names-john-ternus-ceo-cook-executive-chairman)
+- [Spotify: Ek to executive chairman, co-CEOs named – Spotify Newsroom](https://newsroom.spotify.com/2025-09-30/spotify-announcement-daniel-ek-executive-chairman/)
+- [Adobe names Anil Chakravarthy CEO – Constellation Research](https://www.constellationr.com/index%2Ephp/insights/news/adobe-names-chakravarthy-ceo)
 - [Latest model releases – tldl.io](https://www.tldl.io/guides/latest-model-releases)
 - [October 2026 AI Model Updates – local-ai-zone](https://local-ai-zone.github.io/blog/October_2026_AI_Model_Updates.html)
 - [Best AI models – felloai](https://felloai.com/best-ai-models/)

@@ -1,7 +1,7 @@
 {
  "id": "ai",
  "no": "+",
- "title": "AI & Tech Trivia",
+ "title": "Tech & AI Trivia",
  "mcq": [
   {
    "q": "Who is the CEO of OpenAI?",
@@ -1906,6 +1906,1654 @@
     "Not the answer here: archie.com is not the first registered domain per the notes; the answer is symbolics.com.",
     "Not the answer here: apple.com is not the first registered domain per the notes; the answer is symbolics.com."
    ]
+  },
+  {
+   "q": "Who founded Dell Technologies?",
+   "a": "Michael Dell",
+   "w": [
+    "Larry Ellison",
+    "Steve Ballmer",
+    "Jeff Bezos"
+   ],
+   "d": "A",
+   "x": [
+    "Co-founder of Oracle, a database company, not of Dell.",
+    "Microsoft's CEO from 2000 to 2014, not the founder of Dell.",
+    "The founder of Amazon, not of Dell."
+   ],
+   "e": "Michael Dell founded the company in 1984 as PC's Limited, which later became Dell Technologies."
+  },
+  {
+   "q": "Who co-founded the database company Oracle?",
+   "a": "Larry Ellison",
+   "w": [
+    "Michael Dell",
+    "Marc Benioff",
+    "Larry Page"
+   ],
+   "d": "A",
+   "x": [
+    "The founder of Dell, a PC maker, not Oracle.",
+    "The founder of Salesforce, a different software company.",
+    "A co-founder of Google, not Oracle."
+   ],
+   "e": "Larry Ellison co-founded Oracle in 1977 with Bob Miner and Ed Oates."
+  },
+  {
+   "q": "Who co-founded Valve together with Mike Harrington?",
+   "a": "Gabe Newell",
+   "w": [
+    "Tim Sweeney",
+    "Hideo Kojima",
+    "John Carmack"
+   ],
+   "d": "A",
+   "x": [
+    "The founder of Epic Games, a different studio.",
+    "The creator of Metal Gear and founder of Kojima Productions.",
+    "A co-founder of id Software and the programmer behind Doom, not of Valve."
+   ],
+   "e": "Gabe Newell, a former Microsoft employee, co-founded Valve in 1996 with Mike Harrington."
+  },
+  {
+   "q": "Who founded SpaceX?",
+   "a": "Elon Musk",
+   "w": [
+    "Jeff Bezos",
+    "Jensen Huang",
+    "Sam Altman"
+   ],
+   "d": "E",
+   "x": [
+    "Founded the rival space company Blue Origin, not SpaceX.",
+    "Co-founder and CEO of NVIDIA, a chip company.",
+    "The CEO of OpenAI, not the founder of SpaceX."
+   ],
+   "e": "Elon Musk founded SpaceX in 2002."
+  },
+  {
+   "q": "Who founded Nintendo in 1889 as a playing-card company?",
+   "a": "Fusajiro Yamauchi",
+   "w": [
+    "Shigeru Miyamoto",
+    "Satoru Iwata",
+    "Hiroshi Yamauchi"
+   ],
+   "d": "D",
+   "x": [
+    "The game designer behind Mario and Zelda, who joined Nintendo only in 1977.",
+    "A later Nintendo president, not the founder.",
+    "Fusajiro's great-grandson who led Nintendo into video games as its third president; the founder was Fusajiro."
+   ],
+   "e": "Fusajiro Yamauchi founded Nintendo in Kyoto to make hanafuda playing cards."
+  },
+  {
+   "q": "Who founded Atari?",
+   "a": "Nolan Bushnell",
+   "w": [
+    "Gabe Newell",
+    "Steve Jobs",
+    "Ralph Baer"
+   ],
+   "d": "A",
+   "x": [
+    "The co-founder of Valve, not Atari.",
+    "Worked at Atari early in his career but did not found it.",
+    "Known as the father of home video games (Magnavox Odyssey), not the founder of Atari."
+   ],
+   "e": "Nolan Bushnell founded Atari in 1972; its early hit Pong helped start the arcade era."
+  },
+  {
+   "q": "Who co-founded the networking company Cisco?",
+   "a": "Leonard Bosack and Sandy Lerner",
+   "w": [
+    "Robert Metcalfe and David Boggs",
+    "Vint Cerf and Bob Kahn",
+    "Larry Ellison and Bob Miner"
+   ],
+   "d": "D",
+   "x": [
+    "The inventors of Ethernet, not the founders of Cisco.",
+    "The designers of TCP/IP, not the founders of Cisco.",
+    "Co-founders of Oracle, a database company."
+   ],
+   "e": "Leonard Bosack and Sandy Lerner founded Cisco in 1984."
+  },
+  {
+   "q": "Who founded the e-commerce platform Shopify?",
+   "a": "Tobias Lütke, Daniel Weinand and Scott Lake",
+   "w": [
+    "Reed Hastings and Marc Randolph",
+    "Evan Spiegel and Bobby Murphy",
+    "Brian Chesky, Joe Gebbia and Nathan Blecharczyk"
+   ],
+   "d": "D",
+   "x": [
+    "The co-founders of Netflix.",
+    "The co-founders of Snapchat.",
+    "The co-founders of Airbnb."
+   ],
+   "e": "Shopify was founded in Canada in 2006 by Tobias Lütke, Daniel Weinand and Scott Lake."
+  },
+  {
+   "q": "Who founded Spotify together with Martin Lorentzon?",
+   "a": "Daniel Ek",
+   "w": [
+    "Reed Hastings",
+    "Jack Dorsey",
+    "Evan Spiegel"
+   ],
+   "d": "A",
+   "x": [
+    "The co-founder of Netflix, a video streaming company.",
+    "A co-founder of Twitter and the founder of Square.",
+    "A co-founder of Snapchat."
+   ],
+   "e": "Daniel Ek and Martin Lorentzon founded Spotify in Sweden in 2006."
+  },
+  {
+   "q": "Who founded Dropbox together with Arash Ferdowsi?",
+   "a": "Drew Houston",
+   "w": [
+    "Eric Yuan",
+    "Stewart Butterfield",
+    "Brian Chesky"
+   ],
+   "d": "A",
+   "x": [
+    "The founder of Zoom.",
+    "A co-founder of Slack.",
+    "A co-founder of Airbnb."
+   ],
+   "e": "Drew Houston and Arash Ferdowsi founded Dropbox in 2007."
+  },
+  {
+   "q": "Who co-founded Instagram?",
+   "a": "Kevin Systrom and Mike Krieger",
+   "w": [
+    "Jack Dorsey and Biz Stone",
+    "Evan Spiegel and Bobby Murphy",
+    "Chad Hurley and Steve Chen"
+   ],
+   "d": "A",
+   "x": [
+    "Co-founders of Twitter, not Instagram.",
+    "The founders of Snapchat.",
+    "Co-founders of YouTube."
+   ],
+   "e": "Kevin Systrom and Mike Krieger launched Instagram in 2010; Facebook bought it in 2012."
+  },
+  {
+   "q": "Who founded YouTube?",
+   "a": "Chad Hurley, Steve Chen and Jawed Karim",
+   "w": [
+    "Kevin Systrom and Mike Krieger",
+    "Larry Page and Sergey Brin",
+    "Jack Dorsey, Biz Stone and Evan Williams"
+   ],
+   "d": "A",
+   "x": [
+    "The founders of Instagram.",
+    "Google's founders, who only bought YouTube in 2006.",
+    "The people behind Twitter."
+   ],
+   "e": "YouTube was founded in 2005 by three former PayPal employees: Chad Hurley, Steve Chen and Jawed Karim."
+  },
+  {
+   "q": "Who was the first person to upload a video to YouTube?",
+   "a": "Jawed Karim",
+   "w": [
+    "Chad Hurley",
+    "Steve Chen",
+    "Larry Page"
+   ],
+   "d": "A",
+   "x": [
+    "Another co-founder, but not the uploader of the first video.",
+    "Another co-founder, but not the uploader of the first video.",
+    "A Google co-founder; Google bought YouTube a year later."
+   ],
+   "e": "Co-founder Jawed Karim uploaded the first YouTube video in April 2005."
+  },
+  {
+   "q": "What was the first video uploaded to YouTube called?",
+   "a": "Me at the zoo",
+   "w": [
+    "Hello World",
+    "First Upload",
+    "Charlie bit my finger"
+   ],
+   "d": "E",
+   "x": [
+    "A famous first-program message, not the title of the first YouTube video.",
+    "A made-up title, not the real one.",
+    "A viral video from 2007, uploaded after the first one."
+   ],
+   "e": "\"Me at the zoo\" is a short clip of Jawed Karim at the San Diego Zoo."
+  },
+  {
+   "q": "Who founded Wikipedia?",
+   "a": "Jimmy Wales and Larry Sanger",
+   "w": [
+    "Tim Berners-Lee and Robert Cailliau",
+    "Jack Dorsey and Biz Stone",
+    "Marc Andreessen and Eric Bina"
+   ],
+   "d": "A",
+   "x": [
+    "The people behind the World Wide Web at CERN.",
+    "Co-founders of Twitter.",
+    "The creators of the Mosaic browser."
+   ],
+   "e": "Jimmy Wales and Larry Sanger launched Wikipedia in 2001."
+  },
+  {
+   "q": "Who originally founded Tesla in 2003?",
+   "a": "Martin Eberhard and Marc Tarpenning",
+   "w": [
+    "Elon Musk and Peter Thiel",
+    "Travis Kalanick and Garrett Camp",
+    "Mark Zuckerberg and Dustin Moskovitz"
+   ],
+   "d": "D",
+   "x": [
+    "Musk joined only in 2004 and Thiel was not a Tesla founder.",
+    "The co-founders of Uber.",
+    "Co-founders of Facebook."
+   ],
+   "e": "Martin Eberhard and Marc Tarpenning started Tesla Motors in 2003; Elon Musk joined and led funding in 2004."
+  },
+  {
+   "q": "Who is the CEO of NVIDIA?",
+   "a": "Jensen Huang",
+   "w": [
+    "Lisa Su",
+    "Lip-Bu Tan",
+    "Satya Nadella"
+   ],
+   "d": "E",
+   "x": [
+    "The CEO of AMD, a rival chip company.",
+    "The CEO of Intel.",
+    "The CEO of Microsoft."
+   ],
+   "e": "Jensen Huang co-founded NVIDIA in 1993 and still leads it as CEO."
+  },
+  {
+   "q": "Who is the CEO of AMD?",
+   "a": "Lisa Su",
+   "w": [
+    "Jensen Huang",
+    "Lip-Bu Tan",
+    "Arvind Krishna"
+   ],
+   "d": "A",
+   "x": [
+    "The CEO of NVIDIA.",
+    "The CEO of Intel.",
+    "The CEO of IBM."
+   ],
+   "e": "Lisa Su has led AMD since 2014."
+  },
+  {
+   "q": "Who is the CEO of IBM?",
+   "a": "Arvind Krishna",
+   "w": [
+    "Ginni Rometty",
+    "Lisa Su",
+    "Satya Nadella"
+   ],
+   "d": "A",
+   "x": [
+    "A former IBM CEO (2012 to 2020), not the current one.",
+    "The CEO of AMD.",
+    "The CEO of Microsoft."
+   ],
+   "e": "Arvind Krishna became IBM's CEO in 2020."
+  },
+  {
+   "q": "Who is the CEO of Salesforce?",
+   "a": "Marc Benioff",
+   "w": [
+    "Larry Ellison",
+    "Shantanu Narayen",
+    "Michael Dell"
+   ],
+   "d": "A",
+   "x": [
+    "The co-founder and chairman of Oracle.",
+    "The CEO of Adobe.",
+    "The founder and CEO of Dell."
+   ],
+   "e": "Marc Benioff co-founded Salesforce in 1999 and is its chair and CEO."
+  },
+  {
+   "q": "Who is the CEO of Adobe as of 4 November 2026?",
+   "a": "Shantanu Narayen",
+   "w": [
+    "Anil Chakravarthy",
+    "Marc Benioff",
+    "Arvind Krishna"
+   ],
+   "d": "D",
+   "x": [
+    "Named Adobe's next CEO, but he only takes over on 1 December 2026.",
+    "The CEO of Salesforce.",
+    "The CEO of IBM."
+   ],
+   "e": "Narayen remains CEO until 30 November 2026; Anil Chakravarthy takes over on 1 December 2026."
+  },
+  {
+   "q": "Who becomes Adobe's CEO on 1 December 2026?",
+   "a": "Anil Chakravarthy",
+   "w": [
+    "Shantanu Narayen",
+    "David Wadhwani",
+    "Frank Calderoni"
+   ],
+   "d": "D",
+   "x": [
+    "The outgoing CEO, who becomes executive chair.",
+    "A senior Adobe executive reported as a contender who is leaving the company.",
+    "Adobe's lead independent director, who chaired the CEO search."
+   ],
+   "e": "Adobe announced on 3 September 2026 that insider Anil Chakravarthy will succeed Shantanu Narayen."
+  },
+  {
+   "q": "Who have been Spotify's co-CEOs since January 2026?",
+   "a": "Gustav Söderström and Alex Norström",
+   "w": [
+    "Daniel Ek and Martin Lorentzon",
+    "Ted Sarandos and Greg Peters",
+    "Reed Hastings and Marc Randolph"
+   ],
+   "d": "D",
+   "x": [
+    "The two founders; Ek moved to executive chairman.",
+    "Netflix's co-CEOs, not Spotify's.",
+    "The co-founders of Netflix."
+   ],
+   "e": "Daniel Ek became executive chairman on 1 January 2026, and Söderström and Norström became co-CEOs."
+  },
+  {
+   "q": "Who succeeded Jeff Bezos as CEO of Amazon in 2021?",
+   "a": "Andy Jassy",
+   "w": [
+    "Werner Vogels",
+    "Adam Selipsky",
+    "Jeff Wilke"
+   ],
+   "d": "A",
+   "x": [
+    "Amazon's long-time CTO, not its CEO.",
+    "A former CEO of AWS, not of Amazon.",
+    "A former head of Amazon's consumer business who left in 2021."
+   ],
+   "e": "Andy Jassy, previously head of AWS, became Amazon CEO in July 2021."
+  },
+  {
+   "q": "Who succeeded Steve Ballmer as CEO of Microsoft?",
+   "a": "Satya Nadella",
+   "w": [
+    "Bill Gates",
+    "Sundar Pichai",
+    "Paul Allen"
+   ],
+   "d": "E",
+   "x": [
+    "The co-founder and first CEO, who stepped down as CEO in 2000.",
+    "The CEO of Google and Alphabet.",
+    "The co-founder of Microsoft, who never became its CEO."
+   ],
+   "e": "Satya Nadella became Microsoft's CEO in February 2014."
+  },
+  {
+   "q": "Who co-founded and leads Epic Games, maker of Fortnite?",
+   "a": "Tim Sweeney",
+   "w": [
+    "Gabe Newell",
+    "Hideo Kojima",
+    "Markus Persson"
+   ],
+   "d": "A",
+   "x": [
+    "The co-founder of Valve.",
+    "Founder of Kojima Productions.",
+    "The creator of Minecraft."
+   ],
+   "e": "Tim Sweeney founded Epic Games and remains its CEO."
+  },
+  {
+   "q": "Who is the founder and CEO of Roblox?",
+   "a": "David Baszucki",
+   "w": [
+    "Tim Sweeney",
+    "Markus Persson",
+    "Gabe Newell"
+   ],
+   "d": "A",
+   "x": [
+    "The CEO of Epic Games.",
+    "The creator of Minecraft.",
+    "The co-founder of Valve."
+   ],
+   "e": "David Baszucki co-founded Roblox in 2004 and serves as its CEO."
+  },
+  {
+   "q": "Who is popularly known as the creator of Minecraft?",
+   "a": "Markus \"Notch\" Persson",
+   "w": [
+    "Gabe Newell",
+    "Shigeru Miyamoto",
+    "Will Wright"
+   ],
+   "d": "E",
+   "x": [
+    "The co-founder of Valve, which made Half-Life.",
+    "The creator of Mario and Zelda.",
+    "The creator of SimCity and The Sims."
+   ],
+   "e": "Markus Persson, known as Notch, created Minecraft and founded Mojang."
+  },
+  {
+   "q": "Which company originally developed Minecraft?",
+   "a": "Mojang",
+   "w": [
+    "Valve",
+    "Roblox Corporation",
+    "Epic Games"
+   ],
+   "d": "A",
+   "x": [
+    "The developer of Half-Life and Steam.",
+    "The company behind Roblox.",
+    "The developer of Fortnite."
+   ],
+   "e": "Mojang developed Minecraft; Microsoft bought the studio in 2014."
+  },
+  {
+   "q": "What was the original name of Minecraft during its early development?",
+   "a": "Cave Game",
+   "w": [
+    "Block Quest",
+    "Craft World",
+    "Mine Quest"
+   ],
+   "d": "D",
+   "x": [
+    "A made-up name, not the real early title.",
+    "A made-up name, not the real early title.",
+    "A made-up name, not the real early title."
+   ],
+   "e": "Minecraft began as a prototype called \"Cave Game\" before being renamed."
+  },
+  {
+   "q": "Who created Mario, Donkey Kong and The Legend of Zelda?",
+   "a": "Shigeru Miyamoto",
+   "w": [
+    "Hideo Kojima",
+    "Masahiro Sakurai",
+    "Satoru Iwata"
+   ],
+   "d": "A",
+   "x": [
+    "Created Metal Gear and Death Stranding.",
+    "Created Kirby and Super Smash Bros.",
+    "A Nintendo president and programmer, not the creator of those franchises."
+   ],
+   "e": "Shigeru Miyamoto, who joined Nintendo in 1977, designed Mario, Donkey Kong and Zelda."
+  },
+  {
+   "q": "Who created Tetris in 1984?",
+   "a": "Alexey Pajitnov",
+   "w": [
+    "Shigeru Miyamoto",
+    "Will Wright",
+    "Toby Fox"
+   ],
+   "d": "A",
+   "x": [
+    "Created Mario and Zelda, not Tetris.",
+    "Created SimCity and The Sims.",
+    "Created Undertale."
+   ],
+   "e": "Alexey Pajitnov, a programmer at the Soviet Academy of Sciences in Moscow, created Tetris."
+  },
+  {
+   "q": "Which game is famous for its falling tetromino pieces?",
+   "a": "Tetris",
+   "w": [
+    "Pong",
+    "Pac-Man",
+    "Space Invaders"
+   ],
+   "d": "E",
+   "x": [
+    "A simple table-tennis arcade game by Atari.",
+    "A maze game where a character eats dots and avoids ghosts.",
+    "A shooter where the player defends against descending aliens."
+   ],
+   "e": "Tetris has players arrange falling tetromino blocks into complete lines."
+  },
+  {
+   "q": "Who created Metal Gear and Death Stranding?",
+   "a": "Hideo Kojima",
+   "w": [
+    "Hidetaka Miyazaki",
+    "Shigeru Miyamoto",
+    "John Carmack"
+   ],
+   "d": "A",
+   "x": [
+    "Known for Dark Souls and FromSoftware games.",
+    "Created Mario and Zelda.",
+    "Known for the programming behind Doom and Quake."
+   ],
+   "e": "Hideo Kojima created both series and later founded Kojima Productions."
+  },
+  {
+   "q": "Who created The Sims and SimCity?",
+   "a": "Will Wright",
+   "w": [
+    "Sid Meier",
+    "Peter Molyneux",
+    "Gabe Newell"
+   ],
+   "d": "A",
+   "x": [
+    "Known for the Civilization series.",
+    "Known for Populous and Fable.",
+    "The co-founder of Valve."
+   ],
+   "e": "Will Wright designed SimCity (1989) and The Sims (2000)."
+  },
+  {
+   "q": "Which programmer is particularly famous for the technical work behind Doom and Quake's 3D engine?",
+   "a": "John Carmack",
+   "w": [
+    "Will Wright",
+    "Gabe Newell",
+    "Markus Persson"
+   ],
+   "d": "A",
+   "x": [
+    "A designer known for simulation games.",
+    "Co-founded Valve, not the programmer of Doom.",
+    "Created Minecraft."
+   ],
+   "e": "John Carmack's engine programming at id Software powered Doom and Quake."
+  },
+  {
+   "q": "Who created the Dark Souls series at FromSoftware?",
+   "a": "Hidetaka Miyazaki",
+   "w": [
+    "Hideo Kojima",
+    "Masahiro Sakurai",
+    "Yoko Taro"
+   ],
+   "d": "D",
+   "x": [
+    "Known for Metal Gear.",
+    "Known for Kirby and Super Smash Bros.",
+    "Known for the NieR series."
+   ],
+   "e": "Hidetaka Miyazaki directed Demon's Souls and Dark Souls at FromSoftware."
+  },
+  {
+   "q": "Who created Kirby and Super Smash Bros.?",
+   "a": "Masahiro Sakurai",
+   "w": [
+    "Shigeru Miyamoto",
+    "Satoru Iwata",
+    "Eiji Aonuma"
+   ],
+   "d": "D",
+   "x": [
+    "Created Mario and Zelda.",
+    "A Nintendo president and programmer.",
+    "A producer of The Legend of Zelda."
+   ],
+   "e": "Masahiro Sakurai created Kirby (1992) and directed Super Smash Bros."
+  },
+  {
+   "q": "Who created Gran Turismo?",
+   "a": "Kazunori Yamauchi",
+   "w": [
+    "Keita Takahashi",
+    "Hideo Kojima",
+    "Shigeru Miyamoto"
+   ],
+   "d": "D",
+   "x": [
+    "Created Katamari Damacy.",
+    "Created Metal Gear.",
+    "Created Mario and Zelda."
+   ],
+   "e": "Kazunori Yamauchi of Polyphony Digital created the racing series Gran Turismo."
+  },
+  {
+   "q": "Who created Katamari Damacy?",
+   "a": "Keita Takahashi",
+   "w": [
+    "Toby Fox",
+    "Kazunori Yamauchi",
+    "Masahiro Sakurai"
+   ],
+   "d": "D",
+   "x": [
+    "Created Undertale.",
+    "Created Gran Turismo.",
+    "Created Kirby and Super Smash Bros."
+   ],
+   "e": "Keita Takahashi created the quirky rolling game Katamari Damacy."
+  },
+  {
+   "q": "Who created Undertale?",
+   "a": "Toby Fox",
+   "w": [
+    "Markus Persson",
+    "Keita Takahashi",
+    "Hidetaka Miyazaki"
+   ],
+   "d": "A",
+   "x": [
+    "Created Minecraft.",
+    "Created Katamari Damacy.",
+    "Created Dark Souls."
+   ],
+   "e": "Toby Fox developed Undertale, released in 2015."
+  },
+  {
+   "q": "Which company created the PlayStation?",
+   "a": "Sony",
+   "w": [
+    "Nintendo",
+    "Microsoft",
+    "Sega"
+   ],
+   "d": "E",
+   "x": [
+    "Makes the Switch and Mario games.",
+    "Makes the Xbox.",
+    "Made the Dreamcast and Sonic the Hedgehog."
+   ],
+   "e": "Sony released the original PlayStation in 1994."
+  },
+  {
+   "q": "Which company makes the Xbox?",
+   "a": "Microsoft",
+   "w": [
+    "Sony",
+    "Nintendo",
+    "Valve"
+   ],
+   "d": "E",
+   "x": [
+    "Makes the PlayStation.",
+    "Makes the Switch.",
+    "Runs Steam and made Half-Life."
+   ],
+   "e": "Microsoft launched the original Xbox in 2001."
+  },
+  {
+   "q": "Which company makes the Nintendo Switch?",
+   "a": "Nintendo",
+   "w": [
+    "Sony",
+    "Sega",
+    "Valve"
+   ],
+   "d": "E",
+   "x": [
+    "Makes the PlayStation.",
+    "A different Japanese game company.",
+    "Makes the Steam Deck handheld."
+   ],
+   "e": "The Switch is a hybrid console released by Nintendo in 2017."
+  },
+  {
+   "q": "Which company developed League of Legends?",
+   "a": "Riot Games",
+   "w": [
+    "Valve",
+    "Blizzard Entertainment",
+    "Epic Games"
+   ],
+   "d": "A",
+   "x": [
+    "Developed Dota 2.",
+    "Developed Overwatch and World of Warcraft.",
+    "Developed Fortnite."
+   ],
+   "e": "Riot Games developed League of Legends (2009) and Valorant (2020)."
+  },
+  {
+   "q": "Which company developed Fortnite?",
+   "a": "Epic Games",
+   "w": [
+    "Riot Games",
+    "Valve",
+    "Activision"
+   ],
+   "d": "A",
+   "x": [
+    "Developed League of Legends and Valorant.",
+    "Developed Counter-Strike and Dota 2.",
+    "Publishes Call of Duty."
+   ],
+   "e": "Epic Games, led by Tim Sweeney, released Fortnite in 2017."
+  },
+  {
+   "q": "Which company developed Valorant?",
+   "a": "Riot Games",
+   "w": [
+    "Epic Games",
+    "Blizzard Entertainment",
+    "Valve"
+   ],
+   "d": "A",
+   "x": [
+    "Developed Fortnite.",
+    "Developed Overwatch.",
+    "Developed Counter-Strike."
+   ],
+   "e": "Valorant is a tactical shooter released by Riot Games in 2020."
+  },
+  {
+   "q": "Which company developed Overwatch?",
+   "a": "Blizzard Entertainment",
+   "w": [
+    "Riot Games",
+    "Valve",
+    "Epic Games"
+   ],
+   "d": "A",
+   "x": [
+    "Developed League of Legends.",
+    "Developed Team Fortress 2 and Counter-Strike.",
+    "Developed Fortnite."
+   ],
+   "e": "Blizzard Entertainment released the hero shooter Overwatch in 2016."
+  },
+  {
+   "q": "Which company developed Counter-Strike and Dota 2?",
+   "a": "Valve",
+   "w": [
+    "Blizzard Entertainment",
+    "Riot Games",
+    "Epic Games"
+   ],
+   "d": "A",
+   "x": [
+    "Developed Warcraft and Overwatch.",
+    "Developed League of Legends.",
+    "Developed Fortnite."
+   ],
+   "e": "Valve developed Dota 2 and owns Counter-Strike, which began as a mod of Half-Life."
+  },
+  {
+   "q": "Which company developed the Grand Theft Auto games?",
+   "a": "Rockstar Games",
+   "w": [
+    "Bethesda Game Studios",
+    "CD Projekt Red",
+    "Ubisoft"
+   ],
+   "d": "A",
+   "x": [
+    "Developed The Elder Scrolls and Fallout.",
+    "Developed The Witcher.",
+    "Developed Assassin's Creed."
+   ],
+   "e": "Rockstar Games publishes and develops the Grand Theft Auto series."
+  },
+  {
+   "q": "Which company developed The Elder Scrolls games?",
+   "a": "Bethesda Game Studios",
+   "w": [
+    "Rockstar Games",
+    "CD Projekt Red",
+    "FromSoftware"
+   ],
+   "d": "A",
+   "x": [
+    "Developed Grand Theft Auto.",
+    "Developed The Witcher.",
+    "Developed Dark Souls."
+   ],
+   "e": "Bethesda Game Studios developed The Elder Scrolls, including Skyrim."
+  },
+  {
+   "q": "Which company developed The Witcher games?",
+   "a": "CD Projekt Red",
+   "w": [
+    "Bethesda Game Studios",
+    "Rockstar Games",
+    "FromSoftware"
+   ],
+   "d": "D",
+   "x": [
+    "Developed The Elder Scrolls.",
+    "Developed Grand Theft Auto.",
+    "Developed Dark Souls."
+   ],
+   "e": "CD Projekt Red, a Polish studio, developed The Witcher series and Cyberpunk 2077."
+  },
+  {
+   "q": "Which company developed Dark Souls?",
+   "a": "FromSoftware",
+   "w": [
+    "CD Projekt Red",
+    "Bethesda Game Studios",
+    "Capcom"
+   ],
+   "d": "A",
+   "x": [
+    "Developed The Witcher.",
+    "Developed The Elder Scrolls.",
+    "Developed Resident Evil and Monster Hunter."
+   ],
+   "e": "FromSoftware developed Dark Souls, directed by Hidetaka Miyazaki."
+  },
+  {
+   "q": "What was Valve's first major game?",
+   "a": "Half-Life",
+   "w": [
+    "Counter-Strike",
+    "Portal",
+    "Dota 2"
+   ],
+   "d": "A",
+   "x": [
+    "Began as a Half-Life mod and was later adopted by Valve.",
+    "Released in 2007, long after Half-Life.",
+    "Released in 2013."
+   ],
+   "e": "Half-Life (1998) was Valve's first major game."
+  },
+  {
+   "q": "Which Valve platform became famous for digital game distribution?",
+   "a": "Steam",
+   "w": [
+    "Epic Games Store",
+    "Battle.net",
+    "Origin"
+   ],
+   "d": "E",
+   "x": [
+    "Epic's store, a competitor to Steam.",
+    "Blizzard's game launcher.",
+    "EA's former game launcher."
+   ],
+   "e": "Steam is Valve's digital distribution and services platform."
+  },
+  {
+   "q": "Which company did Gabe Newell work for before co-founding Valve?",
+   "a": "Microsoft",
+   "w": [
+    "Apple",
+    "Atari",
+    "Nintendo"
+   ],
+   "d": "A",
+   "x": [
+    "He did not work at Apple.",
+    "He did not work at Atari.",
+    "He did not work at Nintendo."
+   ],
+   "e": "Gabe Newell spent about 13 years at Microsoft before starting Valve."
+  },
+  {
+   "q": "Which Atari game was one of the earliest hugely successful arcade games?",
+   "a": "Pong",
+   "w": [
+    "Tetris",
+    "Pac-Man",
+    "Doom"
+   ],
+   "d": "A",
+   "x": [
+    "Created in 1984 by Alexey Pajitnov.",
+    "A 1980 arcade game by Namco, not Atari.",
+    "A 1993 PC shooter from id Software."
+   ],
+   "e": "Pong (1972) was one of Atari's first major arcade hits."
+  },
+  {
+   "q": "In which year did Shigeru Miyamoto join Nintendo?",
+   "a": "1977",
+   "w": [
+    "1969",
+    "1981",
+    "1989"
+   ],
+   "d": "D",
+   "x": [
+    "Earlier than his actual start date.",
+    "The year Donkey Kong was released.",
+    "Later than his actual start date."
+   ],
+   "e": "Miyamoto joined Nintendo in 1977 and went on to create Donkey Kong and Mario."
+  },
+  {
+   "q": "Which company acquired Mojang, the maker of Minecraft, in 2014?",
+   "a": "Microsoft",
+   "w": [
+    "Sony",
+    "Nintendo",
+    "Google"
+   ],
+   "d": "A",
+   "x": [
+    "Did not buy Mojang.",
+    "Did not buy Mojang.",
+    "Did not buy Mojang."
+   ],
+   "e": "Microsoft bought Mojang in 2014 for about $2.5 billion."
+  },
+  {
+   "q": "What was Nintendo originally founded to make in 1889?",
+   "a": "Hanafuda playing cards",
+   "w": [
+    "Toy robots",
+    "Radio receivers",
+    "Electronic calculators"
+   ],
+   "d": "D",
+   "x": [
+    "Not what Nintendo first made.",
+    "Not what Nintendo first made.",
+    "Not what Nintendo first made."
+   ],
+   "e": "Nintendo began as a Kyoto company making Japanese hanafuda playing cards."
+  },
+  {
+   "q": "Who was Apple's third co-founder, alongside Steve Jobs and Steve Wozniak?",
+   "a": "Ronald Wayne",
+   "w": [
+    "Mike Markkula",
+    "Jony Ive",
+    "John Sculley"
+   ],
+   "d": "A",
+   "x": [
+    "An early investor and chairman, not a co-founder.",
+    "Apple's famed designer, who joined in 1992.",
+    "Apple's CEO from 1983 to 1993."
+   ],
+   "e": "Ronald Wayne co-founded Apple in 1976 but sold his share within weeks."
+  },
+  {
+   "q": "What was Apple's first major personal computer?",
+   "a": "Apple I",
+   "w": [
+    "Apple II",
+    "Macintosh",
+    "Lisa"
+   ],
+   "d": "A",
+   "x": [
+    "The follow-up to the Apple I.",
+    "Released in 1984.",
+    "An early GUI computer from 1983."
+   ],
+   "e": "The Apple I (1976) was hand-built by Wozniak; the Apple II followed in 1977."
+  },
+  {
+   "q": "Who designed the Apple II?",
+   "a": "Steve Wozniak",
+   "w": [
+    "Steve Jobs",
+    "Jony Ive",
+    "Ronald Wayne"
+   ],
+   "d": "A",
+   "x": [
+    "The co-founder who handled marketing and vision.",
+    "Joined Apple much later.",
+    "The third co-founder, who left early."
+   ],
+   "e": "Steve Wozniak designed the Apple I and Apple II hardware."
+  },
+  {
+   "q": "Which company did Apple acquire in the mid-1990s to bring Steve Jobs back?",
+   "a": "NeXT",
+   "w": [
+    "Pixar",
+    "Be Inc.",
+    "Palm"
+   ],
+   "d": "D",
+   "x": [
+    "Jobs ran it, but Disney, not Apple, later bought it.",
+    "Apple considered it but chose NeXT.",
+    "A handheld maker Apple did not buy."
+   ],
+   "e": "Apple acquired NeXT, the company Jobs founded after leaving Apple."
+  },
+  {
+   "q": "Which Apple device, introduced in 2007, helped popularize the modern smartphone?",
+   "a": "iPhone",
+   "w": [
+    "iPad",
+    "iPod",
+    "Apple Watch"
+   ],
+   "d": "E",
+   "x": [
+    "Released in 2010.",
+    "A music player from 2001.",
+    "Released in 2015."
+   ],
+   "e": "Steve Jobs unveiled the first iPhone in January 2007."
+  },
+  {
+   "q": "Who was Apple's CEO when the first iPhone was introduced?",
+   "a": "Steve Jobs",
+   "w": [
+    "Tim Cook",
+    "John Sculley",
+    "Steve Wozniak"
+   ],
+   "d": "E",
+   "x": [
+    "Became CEO in 2011.",
+    "CEO from 1983 to 1993.",
+    "Co-founder, but not CEO at that time."
+   ],
+   "e": "Steve Jobs led Apple when the iPhone was introduced in 2007."
+  },
+  {
+   "q": "What was Microsoft's original name, often stylized with a hyphen?",
+   "a": "Micro-Soft",
+   "w": [
+    "Traf-O-Data",
+    "MITS Software",
+    "Gates-Allen Software"
+   ],
+   "d": "A",
+   "x": [
+    "Their earlier traffic-data venture.",
+    "MITS made the Altair, whose BASIC they wrote.",
+    "Not a real name of the company."
+   ],
+   "e": "Bill Gates and Paul Allen wrote the name as \"Micro-Soft\" in 1975."
+  },
+  {
+   "q": "Which programming ecosystem is strongly associated with Microsoft?",
+   "a": ".NET",
+   "w": [
+    "Swift",
+    "Java",
+    "Kotlin"
+   ],
+   "d": "A",
+   "x": [
+    "Apple's programming language.",
+    "Created at Sun Microsystems, now owned by Oracle.",
+    "Developed by JetBrains and adopted by Google for Android."
+   ],
+   "e": ".NET is Microsoft's development platform, used with C#."
+  },
+  {
+   "q": "What was the original name of Google's search engine at Stanford?",
+   "a": "BackRub",
+   "w": [
+    "PageRank",
+    "Googol",
+    "Stanford Search"
+   ],
+   "d": "A",
+   "x": [
+    "The ranking algorithm, not the engine's name.",
+    "The number that inspired the name Google.",
+    "Not a real name."
+   ],
+   "e": "Larry Page and Sergey Brin built BackRub at Stanford before renaming it Google."
+  },
+  {
+   "q": "At which university did Larry Page and Sergey Brin develop BackRub?",
+   "a": "Stanford University",
+   "w": [
+    "MIT",
+    "Harvard University",
+    "UC Berkeley"
+   ],
+   "d": "A",
+   "x": [
+    "Not where they developed it.",
+    "Where Facebook began, not Google.",
+    "Not where they developed it."
+   ],
+   "e": "Page and Brin were PhD students at Stanford."
+  },
+  {
+   "q": "Which web browser was developed by Google?",
+   "a": "Google Chrome",
+   "w": [
+    "Firefox",
+    "Safari",
+    "Microsoft Edge"
+   ],
+   "d": "E",
+   "x": [
+    "Made by Mozilla.",
+    "Made by Apple.",
+    "Made by Microsoft."
+   ],
+   "e": "Google released Chrome in 2008."
+  },
+  {
+   "q": "Who is credited with inventing the World Wide Web?",
+   "a": "Tim Berners-Lee",
+   "w": [
+    "Vint Cerf",
+    "Bill Gates",
+    "Marc Andreessen"
+   ],
+   "d": "E",
+   "x": [
+    "Co-designed TCP/IP, the Internet's protocols, not the Web.",
+    "Co-founded Microsoft.",
+    "Co-created the Mosaic browser later on."
+   ],
+   "e": "Tim Berners-Lee proposed and built the Web at CERN, with the first website going live in 1991."
+  },
+  {
+   "q": "What was the very first website about?",
+   "a": "The World Wide Web project itself",
+   "w": [
+    "The Large Hadron Collider",
+    "A directory of search engines",
+    "Tim Berners-Lee's biography"
+   ],
+   "d": "A",
+   "x": [
+    "Not the topic of the first website.",
+    "Not the topic of the first website.",
+    "Not the topic of the first website."
+   ],
+   "e": "The first website at CERN explained the World Wide Web project and how to use it."
+  },
+  {
+   "q": "What does WWW stand for?",
+   "a": "World Wide Web",
+   "w": [
+    "World Wide Wire",
+    "Web Wide World",
+    "Wide World Web"
+   ],
+   "d": "E",
+   "x": [
+    "Not what WWW stands for.",
+    "Not what WWW stands for.",
+    "Not what WWW stands for."
+   ],
+   "e": "WWW stands for World Wide Web, the system of linked pages accessed through browsers."
+  },
+  {
+   "q": "Which network was an important precursor to today's Internet?",
+   "a": "ARPANET",
+   "w": [
+    "Ethernet",
+    "Intranet",
+    "Telnet"
+   ],
+   "d": "A",
+   "x": [
+    "A local-area networking technology, not a precursor network.",
+    "A private network inside an organization.",
+    "A remote-login protocol, not a network."
+   ],
+   "e": "ARPANET, funded by the US Department of Defense, sent its first message in 1969."
+  },
+  {
+   "q": "In what year did the first website go online?",
+   "a": "1991",
+   "w": [
+    "1983",
+    "1989",
+    "1995"
+   ],
+   "d": "A",
+   "x": [
+    "The year ARPANET switched to TCP/IP.",
+    "The year Berners-Lee proposed the Web.",
+    "Years after the first website; the year Windows 95 and Java launched."
+   ],
+   "e": "The first website, at info.cern.ch, went public in 1991."
+  },
+  {
+   "q": "In what year was the Linux kernel first released?",
+   "a": "1991",
+   "w": [
+    "1984",
+    "1996",
+    "2001"
+   ],
+   "d": "A",
+   "x": [
+    "Too early; this is the year of the original Macintosh.",
+    "Too late for the first release.",
+    "Far later than the first release."
+   ],
+   "e": "Linus Torvalds announced and released the first Linux kernel in 1991."
+  },
+  {
+   "q": "Who is widely recognized for writing an early published algorithm intended for machine processing?",
+   "a": "Ada Lovelace",
+   "w": [
+    "Grace Hopper",
+    "Alan Turing",
+    "Charles Babbage"
+   ],
+   "d": "A",
+   "x": [
+    "Developed an early compiler and helped create COBOL.",
+    "Laid the foundations of theoretical computer science and AI.",
+    "Designed the Analytical Engine itself."
+   ],
+   "e": "In 1843 Ada Lovelace published notes with an algorithm for Babbage's Analytical Engine."
+  },
+  {
+   "q": "Who made foundational contributions to theoretical computer science and artificial intelligence, including the Turing Test?",
+   "a": "Alan Turing",
+   "w": [
+    "Ada Lovelace",
+    "Charles Babbage",
+    "Grace Hopper"
+   ],
+   "d": "A",
+   "x": [
+    "Wrote an early published algorithm in the 1840s.",
+    "Designed early mechanical computers.",
+    "Pioneered compilers and COBOL."
+   ],
+   "e": "Alan Turing's work on computation and \"Computing Machinery and Intelligence\" laid foundations for CS and AI."
+  },
+  {
+   "q": "Which platform is widely used for hosting and collaborating on Git repositories?",
+   "a": "GitHub",
+   "w": [
+    "Stack Overflow",
+    "Dropbox",
+    "Trello"
+   ],
+   "d": "A",
+   "x": [
+    "A question-and-answer site for programmers.",
+    "A file-storage service.",
+    "A project-management board tool."
+   ],
+   "e": "GitHub hosts Git repositories and was bought by Microsoft in 2018."
+  },
+  {
+   "q": "What is software called when its source code is available under defined license terms?",
+   "a": "Open-source software",
+   "w": [
+    "Freeware",
+    "Shareware",
+    "Proprietary software"
+   ],
+   "d": "A",
+   "x": [
+    "Free to use, but the source code is not necessarily open.",
+    "Distributed free for a trial, usually with payment expected.",
+    "Source code is kept private."
+   ],
+   "e": "Open-source software publishes its source code under licenses that allow use, study and modification."
+  },
+  {
+   "q": "Which statement about the Internet and the World Wide Web is correct?",
+   "a": "The Web is a service that runs on the Internet",
+   "w": [
+    "They are two names for the same thing",
+    "The Internet is a service that runs on the Web",
+    "The Web existed before the Internet"
+   ],
+   "d": "A",
+   "x": [
+    "They are different: the Internet is the network; the Web is one service on it.",
+    "This reverses the relationship.",
+    "The Internet came first; the Web arrived around 1989 to 1991."
+   ],
+   "e": "The Internet is the global network, and the Web (pages, links, browsers) is one service on top of it."
+  },
+  {
+   "q": "How many people co-founded Apple in 1976?",
+   "a": "Three",
+   "w": [
+    "Two",
+    "Four",
+    "Five"
+   ],
+   "d": "A",
+   "x": [
+    "Apple had a third co-founder, Ronald Wayne.",
+    "There were three co-founders, not four.",
+    "There were three co-founders, not five."
+   ],
+   "e": "Steve Jobs, Steve Wozniak and Ronald Wayne co-founded Apple."
+  },
+  {
+   "q": "HTML is best described as a:",
+   "a": "Markup language",
+   "w": [
+    "Programming language",
+    "Database language",
+    "Operating system"
+   ],
+   "d": "E",
+   "x": [
+    "HTML has no logic or control flow of its own.",
+    "SQL is the standard database language.",
+    "HTML is not an operating system."
+   ],
+   "e": "HTML marks up the structure of web pages; it is not a programming language."
+  },
+  {
+   "q": "What is Steam primarily?",
+   "a": "A digital distribution and services platform",
+   "w": [
+    "A first-person shooter game",
+    "A game engine",
+    "A cloud storage service"
+   ],
+   "d": "A",
+   "x": [
+    "Valve's shooters include Half-Life, but Steam itself is not a game.",
+    "Valve's engine is called Source.",
+    "Not its main purpose."
+   ],
+   "e": "Steam, from Valve, sells and delivers games and provides community and services features."
+  },
+  {
+   "q": "Roblox was originally envisioned as:",
+   "a": "A platform for creating and sharing experiences",
+   "w": [
+    "A single open-world RPG",
+    "A game console",
+    "A streaming video service"
+   ],
+   "d": "A",
+   "x": [
+    "It is a platform, not a single RPG.",
+    "It runs on existing devices, not its own hardware.",
+    "Not what Roblox is."
+   ],
+   "e": "Roblox lets users build and play each other's experiences, rather than being one single game."
+  },
+  {
+   "q": "In what year was Tetris created?",
+   "a": "1984",
+   "w": [
+    "1972",
+    "1989",
+    "1991"
+   ],
+   "d": "A",
+   "x": [
+    "The year Atari released Pong.",
+    "The year Tetris came to the Game Boy.",
+    "Far later than its creation."
+   ],
+   "e": "Alexey Pajitnov created Tetris in 1984."
+  },
+  {
+   "q": "Which company makes the Galaxy line of smartphones?",
+   "a": "Samsung",
+   "w": [
+    "Huawei",
+    "Xiaomi",
+    "Google"
+   ],
+   "d": "E",
+   "x": [
+    "Makes the Pura and Mate phones.",
+    "Makes the Redmi and Mi phones.",
+    "Makes the Pixel phones."
+   ],
+   "e": "Samsung, a South Korean company, makes the Galaxy phones."
+  },
+  {
+   "q": "What does USB stand for?",
+   "a": "Universal Serial Bus",
+   "w": [
+    "Unified Serial Bus",
+    "Universal System Bus",
+    "United Serial Backplane"
+   ],
+   "d": "E",
+   "x": [
+    "Not the real expansion.",
+    "Not the real expansion.",
+    "Not the real expansion."
+   ],
+   "e": "USB stands for Universal Serial Bus."
+  },
+  {
+   "q": "What does HDMI stand for?",
+   "a": "High-Definition Multimedia Interface",
+   "w": [
+    "High-Density Media Input",
+    "Hyper Digital Media Interface",
+    "High-Definition Memory Interface"
+   ],
+   "d": "A",
+   "x": [
+    "Not the real expansion.",
+    "Not the real expansion.",
+    "Not the real expansion."
+   ],
+   "e": "HDMI carries digital video and audio over a single cable."
+  },
+  {
+   "q": "What does QR stand for in QR code?",
+   "a": "Quick Response",
+   "w": [
+    "Quality Recognition",
+    "Quick Reference",
+    "Quadratic Resolution"
+   ],
+   "d": "A",
+   "x": [
+    "Not the real expansion.",
+    "Not the real expansion.",
+    "Not the real expansion."
+   ],
+   "e": "QR stands for Quick Response; Denso Wave invented it in 1994."
+  },
+  {
+   "q": "What does NFC stand for?",
+   "a": "Near Field Communication",
+   "w": [
+    "Network File Control",
+    "Near Frequency Channel",
+    "Node Fixed Connection"
+   ],
+   "d": "A",
+   "x": [
+    "Not the real expansion.",
+    "Not the real expansion.",
+    "Not the real expansion."
+   ],
+   "e": "NFC lets devices exchange data over a few centimetres, used in tap-to-pay."
+  },
+  {
+   "q": "Which technology allows devices to communicate by radio over only a few centimetres, as in tap-to-pay?",
+   "a": "NFC",
+   "w": [
+    "Bluetooth",
+    "Wi-Fi Direct",
+    "Zigbee"
+   ],
+   "d": "A",
+   "x": [
+    "Works over about ten metres, not a few centimetres.",
+    "A longer-range wireless link.",
+    "A low-power mesh protocol with much longer range."
+   ],
+   "e": "NFC works at very short range, which suits contactless payments."
+  },
+  {
+   "q": "Which fictional AI assistant is associated with Iron Man?",
+   "a": "JARVIS",
+   "w": [
+    "HAL 9000",
+    "Skynet",
+    "Cortana"
+   ],
+   "d": "E",
+   "x": [
+    "The AI of 2001: A Space Odyssey.",
+    "The AI of the Terminator films.",
+    "The AI companion in the Halo games."
+   ],
+   "e": "JARVIS is Tony Stark's AI assistant in the Marvel films."
+  },
+  {
+   "q": "Which fictional operating system features in the movie Her?",
+   "a": "OS1",
+   "w": [
+    "Skynet",
+    "WOPR",
+    "Cortana"
+   ],
+   "d": "A",
+   "x": [
+    "The AI of the Terminator films.",
+    "The computer in the film WarGames.",
+    "The AI companion in Halo."
+   ],
+   "e": "In Her, the operating system OS1 gives users a conversational AI companion."
+  },
+  {
+   "q": "Which fictional AI controls the spaceship in 2001: A Space Odyssey?",
+   "a": "HAL 9000",
+   "w": [
+    "JARVIS",
+    "Skynet",
+    "KITT"
+   ],
+   "d": "E",
+   "x": [
+    "Iron Man's assistant.",
+    "The AI of the Terminator films.",
+    "The talking car in Knight Rider."
+   ],
+   "e": "HAL 9000 runs the Discovery One spacecraft in the 1968 film."
+  },
+  {
+   "q": "Which game franchise features the character Master Chief?",
+   "a": "Halo",
+   "w": [
+    "Gears of War",
+    "Destiny",
+    "Call of Duty"
+   ],
+   "d": "E",
+   "x": [
+    "Features Marcus Fenix.",
+    "A different shooter franchise.",
+    "A military shooter series without Master Chief."
+   ],
+   "e": "Master Chief is the main protagonist of the Halo series."
+  },
+  {
+   "q": "Which game franchise features the character Link?",
+   "a": "The Legend of Zelda",
+   "w": [
+    "Metroid",
+    "Final Fantasy",
+    "Fire Emblem"
+   ],
+   "d": "E",
+   "x": [
+    "Features Samus Aran.",
+    "Features characters like Cloud and Squall.",
+    "A tactical RPG franchise."
+   ],
+   "e": "Link is the hero of The Legend of Zelda."
+  },
+  {
+   "q": "Which game franchise features Pikachu?",
+   "a": "Pokémon",
+   "w": [
+    "Digimon",
+    "Yu-Gi-Oh!",
+    "Dragon Quest"
+   ],
+   "d": "E",
+   "x": [
+    "A separate monster franchise.",
+    "A card-game franchise.",
+    "A Japanese RPG series."
+   ],
+   "e": "Pikachu is the Electric-type mascot of Pokémon."
+  },
+  {
+   "q": "Which game franchise features Lara Croft?",
+   "a": "Tomb Raider",
+   "w": [
+    "Uncharted",
+    "Resident Evil",
+    "Assassin's Creed"
+   ],
+   "d": "E",
+   "x": [
+    "Features Nathan Drake.",
+    "A horror franchise.",
+    "Features assassins across history."
+   ],
+   "e": "Lara Croft is the adventurer of Tomb Raider."
+  },
+  {
+   "q": "Which game franchise features Kratos?",
+   "a": "God of War",
+   "w": [
+    "Devil May Cry",
+    "Halo",
+    "Dark Souls"
+   ],
+   "d": "A",
+   "x": [
+    "Features Dante.",
+    "Features Master Chief.",
+    "Features unnamed player characters."
+   ],
+   "e": "Kratos is the protagonist of God of War."
+  },
+  {
+   "q": "Which Philippine agency regulates telecommunications and broadcast-related services?",
+   "a": "National Telecommunications Commission (NTC)",
+   "w": [
+    "Department of Information and Communications Technology (DICT)",
+    "National Privacy Commission (NPC)",
+    "Department of Trade and Industry (DTI)"
+   ],
+   "d": "A",
+   "x": [
+    "Handles ICT development and policy, not the regulation of telecom services.",
+    "Enforces the Data Privacy Act.",
+    "Handles trade and e-commerce."
+   ],
+   "e": "The NTC regulates telecoms and broadcast services in the Philippines."
+  },
+  {
+   "q": "What does DICT stand for in the Philippines?",
+   "a": "Department of Information and Communications Technology",
+   "w": [
+    "Department of Internet and Cyber Technology",
+    "Department of Information and Computer Training",
+    "Digital Infrastructure and Communications Taskforce"
+   ],
+   "d": "A",
+   "x": [
+    "Not the real name.",
+    "Not the real name.",
+    "Not the real name."
+   ],
+   "e": "DICT, created by RA 10844, is responsible for ICT development and policy."
   }
  ],
  "cards": [
@@ -2428,6 +4076,1093 @@
     "Bennett and Brassard",
     "Bennett & Brassard",
     "Charles Bennett, Gilles Brassard"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who co-founded Apple with Steve Jobs and Ronald Wayne?",
+   "a": "Steve Wozniak",
+   "alt": [
+    "Wozniak"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who co-founded Google with Sergey Brin?",
+   "a": "Larry Page",
+   "alt": [
+    "Page"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who co-founded Google with Larry Page?",
+   "a": "Sergey Brin",
+   "alt": [
+    "Brin"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who is the co-founder and CEO of NVIDIA?",
+   "a": "Jensen Huang",
+   "alt": [
+    "Huang"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who co-founded NVIDIA with Jensen Huang and Chris Malachowsky?",
+   "a": "Curtis Priem",
+   "alt": [
+    "Priem"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who founded Dell Technologies?",
+   "a": "Michael Dell",
+   "alt": [
+    "Dell"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who co-founded Oracle?",
+   "a": "Larry Ellison",
+   "alt": [
+    "Ellison"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who founded Valve together with Mike Harrington?",
+   "a": "Gabe Newell",
+   "alt": [
+    "Newell"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who is commonly known as \"GabeN\" in gaming culture?",
+   "a": "Gabe Newell",
+   "alt": [
+    "Newell"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who founded SpaceX?",
+   "a": "Elon Musk",
+   "alt": [
+    "Musk"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who founded Nintendo?",
+   "a": "Fusajiro Yamauchi",
+   "alt": [
+    "Yamauchi"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who founded Atari?",
+   "a": "Nolan Bushnell",
+   "alt": [
+    "Bushnell"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who co-founded Cisco?",
+   "a": "Leonard Bosack and Sandy Lerner",
+   "alt": [
+    "Bosack and Lerner",
+    "Sandy Lerner and Leonard Bosack"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who founded Shopify?",
+   "a": "Tobias Lütke, Daniel Weinand and Scott Lake",
+   "alt": [
+    "Tobias Lütke",
+    "Lütke",
+    "Tobias Lutke"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who founded Spotify together with Martin Lorentzon?",
+   "a": "Daniel Ek",
+   "alt": [
+    "Ek"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who founded Dropbox together with Arash Ferdowsi?",
+   "a": "Drew Houston",
+   "alt": [
+    "Houston"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who originally founded Tesla in 2003?",
+   "a": "Martin Eberhard and Marc Tarpenning",
+   "alt": [
+    "Eberhard and Tarpenning"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who co-founded Instagram?",
+   "a": "Kevin Systrom and Mike Krieger",
+   "alt": [
+    "Systrom and Krieger"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who founded YouTube?",
+   "a": "Chad Hurley, Steve Chen and Jawed Karim",
+   "alt": [
+    "Hurley, Chen and Karim"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who was the first person to upload a video to YouTube?",
+   "a": "Jawed Karim",
+   "alt": [
+    "Karim"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What was the first YouTube video called?",
+   "a": "Me at the zoo",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Who founded Wikipedia?",
+   "a": "Jimmy Wales and Larry Sanger",
+   "alt": [
+    "Wales and Sanger"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who is the CEO of NVIDIA?",
+   "a": "Jensen Huang",
+   "alt": [
+    "Huang"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who is the CEO of AMD?",
+   "a": "Lisa Su",
+   "alt": [
+    "Su"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who is the CEO of IBM?",
+   "a": "Arvind Krishna",
+   "alt": [
+    "Krishna"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who is the CEO of Salesforce?",
+   "a": "Marc Benioff",
+   "alt": [
+    "Benioff"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who is the CEO of Adobe until 30 November 2026?",
+   "a": "Shantanu Narayen",
+   "alt": [
+    "Narayen"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who becomes Adobe CEO on 1 December 2026?",
+   "a": "Anil Chakravarthy",
+   "alt": [
+    "Chakravarthy"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who are Spotify's co-CEOs since January 2026?",
+   "a": "Gustav Söderström and Alex Norström",
+   "alt": [
+    "Söderström and Norström",
+    "Soderstrom and Norstrom"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who was Apple's CEO before John Ternus?",
+   "a": "Tim Cook",
+   "alt": [
+    "Cook"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who succeeded Steve Ballmer as Microsoft CEO?",
+   "a": "Satya Nadella",
+   "alt": [
+    "Nadella"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who succeeded Jeff Bezos as Amazon CEO in 2021?",
+   "a": "Andy Jassy",
+   "alt": [
+    "Jassy"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who co-founded and leads Epic Games?",
+   "a": "Tim Sweeney",
+   "alt": [
+    "Sweeney"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who is the founder and CEO of Roblox?",
+   "a": "David Baszucki",
+   "alt": [
+    "Baszucki"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who is popularly known as the creator of Minecraft?",
+   "a": "Markus \"Notch\" Persson",
+   "alt": [
+    "Notch",
+    "Markus Persson",
+    "Persson"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who was Apple's CEO when the first iPhone was introduced?",
+   "a": "Steve Jobs",
+   "alt": [
+    "Jobs"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Who created Mario, Donkey Kong and The Legend of Zelda?",
+   "a": "Shigeru Miyamoto",
+   "alt": [
+    "Miyamoto"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who created Tetris?",
+   "a": "Alexey Pajitnov",
+   "alt": [
+    "Pajitnov",
+    "Alexey Pazhitnov"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who created Metal Gear and Death Stranding?",
+   "a": "Hideo Kojima",
+   "alt": [
+    "Kojima"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who created The Sims and SimCity?",
+   "a": "Will Wright",
+   "alt": [
+    "Wright"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which programmer is famous for the technical work behind Doom?",
+   "a": "John Carmack",
+   "alt": [
+    "Carmack"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who created the Dark Souls series?",
+   "a": "Hidetaka Miyazaki",
+   "alt": [
+    "Miyazaki"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who created Kirby and Super Smash Bros.?",
+   "a": "Masahiro Sakurai",
+   "alt": [
+    "Sakurai"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who created Gran Turismo?",
+   "a": "Kazunori Yamauchi",
+   "alt": [
+    "Yamauchi"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Who created Katamari Damacy?",
+   "a": "Keita Takahashi",
+   "alt": [
+    "Takahashi"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who created Undertale?",
+   "a": "Toby Fox",
+   "alt": [
+    "Fox"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which game designer joined Nintendo in 1977?",
+   "a": "Shigeru Miyamoto",
+   "alt": [
+    "Miyamoto"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which company created Super Mario?",
+   "a": "Nintendo",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which company created PlayStation?",
+   "a": "Sony",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which company created Xbox?",
+   "a": "Microsoft",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which company created the Nintendo Switch?",
+   "a": "Nintendo",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which company developed League of Legends?",
+   "a": "Riot Games",
+   "alt": [
+    "Riot"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which company developed Valorant?",
+   "a": "Riot Games",
+   "alt": [
+    "Riot"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which company developed Fortnite?",
+   "a": "Epic Games",
+   "alt": [
+    "Epic"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which company originally developed Minecraft?",
+   "a": "Mojang",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which company developed Roblox?",
+   "a": "Roblox Corporation",
+   "alt": [
+    "Roblox"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which company developed Grand Theft Auto?",
+   "a": "Rockstar Games",
+   "alt": [
+    "Rockstar"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which company developed The Elder Scrolls?",
+   "a": "Bethesda Game Studios",
+   "alt": [
+    "Bethesda"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which company developed Dark Souls?",
+   "a": "FromSoftware",
+   "alt": [
+    "From Software"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which company developed The Witcher games?",
+   "a": "CD Projekt Red",
+   "alt": [
+    "CD Projekt"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which company developed Counter-Strike?",
+   "a": "Valve",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which company developed Dota 2?",
+   "a": "Valve",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which company developed Overwatch?",
+   "a": "Blizzard Entertainment",
+   "alt": [
+    "Blizzard"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "What was the original name of Minecraft during early development?",
+   "a": "Cave Game",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which game is famous for falling tetromino pieces?",
+   "a": "Tetris",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which Atari game was one of its earliest hugely successful arcade games?",
+   "a": "Pong",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What was Valve's first major game?",
+   "a": "Half-Life",
+   "alt": [
+    "Half Life"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which platform made Valve famous for digital game distribution?",
+   "a": "Steam",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which company acquired Mojang in 2014?",
+   "a": "Microsoft",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What was Apple's first major personal computer?",
+   "a": "Apple I",
+   "alt": [
+    "Apple 1"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which computer followed the Apple I?",
+   "a": "Apple II",
+   "alt": [
+    "Apple 2"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who designed the Apple II?",
+   "a": "Steve Wozniak",
+   "alt": [
+    "Wozniak"
+   ]
+  },
+  {
+   "d": "D",
+   "q": "Which company did Apple acquire in the mid-1990s that brought Steve Jobs back?",
+   "a": "NeXT",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which Apple device introduced in 2007 popularized the modern smartphone era?",
+   "a": "iPhone",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What operating system powers Apple's iPhones?",
+   "a": "iOS",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What operating system does Apple use on Macs?",
+   "a": "macOS",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What was Microsoft's original name, often stylized with a hyphen?",
+   "a": "Micro-Soft",
+   "alt": [
+    "Micro Soft"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which programming ecosystem is strongly associated with Microsoft?",
+   "a": ".NET",
+   "alt": [
+    "dotnet",
+    "dot net"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which Microsoft product is used for team communication and collaboration?",
+   "a": "Microsoft Teams",
+   "alt": [
+    "Teams"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which Microsoft software is commonly used for spreadsheets?",
+   "a": "Microsoft Excel",
+   "alt": [
+    "Excel"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which Microsoft software is commonly used for presentations?",
+   "a": "Microsoft PowerPoint",
+   "alt": [
+    "PowerPoint"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which Microsoft software is commonly used for word processing?",
+   "a": "Microsoft Word",
+   "alt": [
+    "Word"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What was Google's search engine originally called at Stanford?",
+   "a": "BackRub",
+   "alt": [
+    "Back Rub"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "At which university did Page and Brin develop BackRub?",
+   "a": "Stanford University",
+   "alt": [
+    "Stanford"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which web browser was developed by Google?",
+   "a": "Google Chrome",
+   "alt": [
+    "Chrome"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What is Google's parent company?",
+   "a": "Alphabet",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Who is credited with inventing the World Wide Web?",
+   "a": "Tim Berners-Lee",
+   "alt": [
+    "Berners-Lee",
+    "Sir Tim Berners-Lee"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What was the first website about?",
+   "a": "The World Wide Web project itself",
+   "alt": [
+    "World Wide Web project",
+    "The WWW project"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What does WWW stand for?",
+   "a": "World Wide Web",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Twitter was renamed to what in 2023?",
+   "a": "X",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Who was the first person to write an early published algorithm intended for machine processing?",
+   "a": "Ada Lovelace",
+   "alt": [
+    "Lovelace"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Who made foundational contributions to theoretical computer science and AI?",
+   "a": "Alan Turing",
+   "alt": [
+    "Turing"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "In what year did the first website go online?",
+   "a": "1991",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which network was an important precursor to the Internet?",
+   "a": "ARPANET",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Who created Linux?",
+   "a": "Linus Torvalds",
+   "alt": [
+    "Torvalds"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "In what year was Linux first released?",
+   "a": "1991",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Who created Git?",
+   "a": "Linus Torvalds",
+   "alt": [
+    "Torvalds"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which platform is widely used for hosting and collaborating on Git repositories?",
+   "a": "GitHub",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is software called when its source code is available under defined license terms?",
+   "a": "Open-source software",
+   "alt": [
+    "Open source",
+    "Open source software"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Is HTML a programming language or a markup language?",
+   "a": "Markup language",
+   "alt": [
+    "Markup",
+    "a markup language"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Are the Internet and the World Wide Web the same thing?",
+   "a": "No",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which company makes the Galaxy smartphone line?",
+   "a": "Samsung",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What does USB stand for?",
+   "a": "Universal Serial Bus",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does HDMI stand for?",
+   "a": "High-Definition Multimedia Interface",
+   "alt": [
+    "High Definition Multimedia Interface"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does QR stand for?",
+   "a": "Quick Response",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What does NFC stand for?",
+   "a": "Near Field Communication",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which radio technology lets devices communicate over very short distances, as in tap-to-pay?",
+   "a": "NFC",
+   "alt": [
+    "Near Field Communication"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which fictional AI assistant is associated with Iron Man?",
+   "a": "JARVIS",
+   "alt": [
+    "J.A.R.V.I.S."
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which fictional operating system is associated with the movie Her?",
+   "a": "OS1",
+   "alt": [
+    "OS 1"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which fictional AI controls the spaceship in 2001: A Space Odyssey?",
+   "a": "HAL 9000",
+   "alt": [
+    "HAL"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which game franchise features Master Chief?",
+   "a": "Halo",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which game franchise features the character Link?",
+   "a": "The Legend of Zelda",
+   "alt": [
+    "Zelda"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which game franchise features Pikachu?",
+   "a": "Pokémon",
+   "alt": [
+    "Pokemon"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which game franchise features Lara Croft?",
+   "a": "Tomb Raider",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which game franchise features Kratos?",
+   "a": "God of War",
+   "alt": []
+  },
+  {
+   "d": "D",
+   "q": "Which Filipino-American engineer is associated with microprocessor and PC technology contributions?",
+   "a": "Diosdado Banatao",
+   "alt": [
+    "Dado Banatao",
+    "Banatao"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What does DICT stand for in the Philippines?",
+   "a": "Department of Information and Communications Technology",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which Philippine agency regulates telecommunications and broadcast-related services?",
+   "a": "National Telecommunications Commission",
+   "alt": [
+    "NTC"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What is the brain of the computer?",
+   "a": "CPU",
+   "alt": [
+    "Central Processing Unit"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "What is the temporary, volatile memory of a computer?",
+   "a": "RAM",
+   "alt": [
+    "Random Access Memory"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which language defines the structure of web pages?",
+   "a": "HTML",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which language is used for web styling?",
+   "a": "CSS",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which language is the web scripting/programming language?",
+   "a": "JavaScript",
+   "alt": [
+    "JS"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which protocol provides secure web communication?",
+   "a": "HTTPS",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What converts domain names to IP addresses?",
+   "a": "DNS",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What automatically assigns network configuration?",
+   "a": "DHCP",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which transport protocol is reliable and connection-oriented?",
+   "a": "TCP",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which transport protocol is connectionless?",
+   "a": "UDP",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which device connects different networks?",
+   "a": "Router",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which device commonly connects devices in a LAN?",
+   "a": "Switch",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What uniquely identifies a database record?",
+   "a": "Primary key",
+   "alt": [
+    "Primary Key"
+   ]
+  },
+  {
+   "d": "E",
+   "q": "Which data structure is LIFO?",
+   "a": "Stack",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which data structure is FIFO?",
+   "a": "Queue",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is a deceptive attempt to steal information called?",
+   "a": "Phishing",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "What is malicious software called?",
+   "a": "Malware",
+   "alt": []
+  },
+  {
+   "d": "E",
+   "q": "Which malware demands payment?",
+   "a": "Ransomware",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is identity verification called?",
+   "a": "Authentication",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is permission determination called?",
+   "a": "Authorization",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which objective concerns acceptable data loss?",
+   "a": "RPO",
+   "alt": [
+    "Recovery Point Objective"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which objective concerns restoration time?",
+   "a": "RTO",
+   "alt": [
+    "Recovery Time Objective"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "Which analytics answers \"What happened?\"",
+   "a": "Descriptive",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which analytics answers \"Why did it happen?\"",
+   "a": "Diagnostic",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which analytics answers \"What will likely happen?\"",
+   "a": "Predictive",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "Which analytics answers \"What should we do?\"",
+   "a": "Prescriptive",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is the blueprint for an object?",
+   "a": "Class",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is an instance of a class?",
+   "a": "Object",
+   "alt": []
+  },
+  {
+   "d": "A",
+   "q": "What is it called when methods share a name but have different parameters?",
+   "a": "Overloading",
+   "alt": [
+    "Method overloading"
+   ]
+  },
+  {
+   "d": "A",
+   "q": "What is it called when a subclass replaces inherited method behavior?",
+   "a": "Overriding",
+   "alt": [
+    "Method overriding"
    ]
   }
  ]

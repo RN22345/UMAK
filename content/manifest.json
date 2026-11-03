@@ -122,9 +122,16 @@
    "file": "16_techno.md"
   },
   {
+   "id": "trivia",
+   "group": "Extras",
+   "title": "IT, Gaming & Internet Trivia",
+   "lesson": "ai",
+   "file": "17_trivia.md"
+  },
+  {
    "id": "ai",
    "group": "Extras",
-   "title": "AI & Tech Trivia",
+   "title": "AI & Tech Industry (2026)",
    "lesson": "ai",
    "file": "13_ai.md"
   },
