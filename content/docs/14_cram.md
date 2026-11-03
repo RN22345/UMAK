@@ -1,5 +1,5 @@
-# 14 · Cram Sheet — Acronyms, Numbers, Confusable Pairs, Formulas
-*Read this the night before and the morning of. Everything here is expanded in files 02–13.*
+# Cram Sheet — Acronyms, Numbers, Confusable Pairs, Formulas
+*Read this the night before and the morning of. Everything here is expanded in the lesson docs.*
 
 ---
 

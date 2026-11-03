@@ -1,4 +1,4 @@
-# 07 · Computer Networks & Telecommunication
+# Computer Networks & Telecommunication
 *Lots of acronym/port/layer identification here. Memorize the tables.*
 
 ---

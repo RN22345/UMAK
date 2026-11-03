@@ -1,5 +1,5 @@
-# 09 · Database Management Systems (DBMS)
-*(Lesson 8a — pairs with `10_Data_Science_and_Analytics.md`.)* SQL syntax, keys, normalization and ACID are the favorite exam topics.
+# Database Management Systems (DBMS)
+*(Lesson 8a — pairs with the **Data Science & Analytics** doc.)* SQL syntax, keys, normalization and ACID are the favorite exam topics.
 
 ---
 

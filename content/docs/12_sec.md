@@ -1,4 +1,4 @@
-# 12 · IT Security (Cybersecurity)
+# IT Security (Cybersecurity)
 *(Lesson 10.)* Heavy on terms, attack names, crypto, laws and tools — high-yield for identification.
 
 ---

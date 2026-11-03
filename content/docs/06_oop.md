@@ -1,4 +1,4 @@
-# 06 · Object-Oriented Programming (OOP)
+# Object-Oriented Programming (OOP)
 *Language-agnostic concepts first, then Java / C++ / Python / C# snippets and tracing. Good for **Average/Difficult** identification and code-output MCQs.*
 
 ---

@@ -1,4 +1,4 @@
-# 11 · E-commerce & Web Design
+# E-commerce & Web Design
 *(Lesson 9.)* Two halves: **A. Web design/development** (HTML, CSS, JS, UX, SEO) and **B. E-commerce** (models, payments, marketing, laws). Many "Easy" identification items live here (tags, properties, acronyms, company names).
 
 ---
@@ -112,7 +112,7 @@
 - **Concepts:** **Long tail** (Chris Anderson), **network effects**, **disintermediation / reintermediation**, **platform business**, **freemium**, **viral marketing**, **flash sale**, **gamification**, **UGC reviews**.
 
 ## 11. Trust, law & ethics
-- **Security & trust:** HTTPS padlock, trust seals, secure payment, privacy policy, return policy, seller verification, escrow, reviews. Threats: phishing, fake stores, card-not-present fraud, account takeover, counterfeit goods, bots/scalpers, chargeback abuse, data breaches. → `12_IT_Security.md`.
+- **Security & trust:** HTTPS padlock, trust seals, secure payment, privacy policy, return policy, seller verification, escrow, reviews. Threats: phishing, fake stores, card-not-present fraud, account takeover, counterfeit goods, bots/scalpers, chargeback abuse, data breaches. → the **IT Security** doc.
 - **Philippine laws & agencies:**
   - **E-Commerce Act — Republic Act 8792 (2000):** legal recognition of electronic data messages, documents and signatures; penalizes hacking, piracy via electronic means.
   - **Internet Transactions Act of 2023 — RA 11967:** regulates online transactions, creates the **E-Commerce Bureau** under **DTI**; online merchants/platform responsibility, consumer redress.

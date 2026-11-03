@@ -1,5 +1,5 @@
-# 16 · Information Assurance & Security (IAS)
-*(Coach's IAS-COMBINED reviewer — 589 slides from Whitman & Mattord, **Principles of Information Security**, 5th/6th ed., Chapters 1–10.)* Lesson-10 "IT Security" (file 12) is the broad survey; **this file is the textbook-slide version** — expect questions that follow these slides' exact lists and definitions.
+# Information Assurance & Security (IAS)
+*(Coach's IAS-COMBINED reviewer — 589 slides from Whitman & Mattord, **Principles of Information Security**, 5th/6th ed., Chapters 1–10.)* Lesson 10 "IT Security" is the broad survey; **this doc is the textbook-slide version** — expect questions that follow these slides' exact lists and definitions.
 
 ---
 

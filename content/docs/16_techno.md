@@ -1,4 +1,4 @@
-# 15 · Technopreneurship
+# Technopreneurship
 *(Coach's TECHNO-COMBINED reviewer — digest of all 6 lessons.)* Slide-based, so questions will mirror the **wording of the slides**: lists, types, steps, definitions. Memorize the numbered lists.
 
 > ⚠️ Where the slides differ from the "textbook" version, this file gives the **slide's wording first** and flags the difference.

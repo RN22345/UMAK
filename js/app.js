@@ -43,7 +43,7 @@ function updateCountdown(){
   const el=document.getElementById('countdown');
   const now=new Date(); const t0=new Date(now.getFullYear(),now.getMonth(),now.getDate());
   const d=Math.round((EVENT_DATE-t0)/86400000);
-  el.innerHTML = d>0 ? 'Quiz Bee · Nov 4 · <b>'+d+' day'+(d===1?'':'s')+'</b> to go' : d===0 ? '<b>Today is Quiz Bee day</b>' : 'Quiz Bee · Nov 4 · done';
+  el.innerHTML = d>0 ? '<span class="long">Quiz Bee · Nov 4 · </span><b>'+d+' day'+(d===1?'':'s')+'</b> to go' : d===0 ? '<b>Today is Quiz Bee day</b>' : '<span class="long">Quiz Bee · Nov 4 · </span>done';
 }
 
 /* ---------- router ---------- */
@@ -63,9 +63,18 @@ function go(t){ if(location.hash==='#'+t) route(); else location.hash=t; }
 window.addEventListener('hashchange',route);
 
 /* ---------- shared UI: lesson picker ---------- */
+let pickOpen=null; // remembered open/closed state; default open on wide screens, closed on phones
 function lessonPicker(sel, key, onChange){
-  const box=h('div',{class:'stack'});
+  const det=h('details',{class:'pick'});
+  det.open = pickOpen==null ? window.innerWidth>700 : pickOpen;
+  det.addEventListener('toggle',()=>{ pickOpen=det.open; });
+  const sum=h('summary'), box=h('div',{class:'stack pickbody'});
+  det.append(sum,box);
   function draw(){
+    const n=LESSONS.reduce((s,l)=>s+(sel.has(l.id)?l[key].length:0),0);
+    sum.replaceChildren(
+      h('span',{class:'t'}, sel.size===LESSONS.length?'All '+LESSONS.length+' lessons':sel.size+' of '+LESSONS.length+' lessons'),
+      h('span',{class:'n'}, n+(key==='mcq'?' questions':' cards')));
     const chips=LESSONS.map(l=>{
       const on=sel.has(l.id);
       return h('button',{class:'chip','aria-pressed':on?'true':'false',onclick:()=>{ on?sel.delete(l.id):sel.add(l.id); onChange(); draw(); }},
@@ -75,51 +84,133 @@ function lessonPicker(sel, key, onChange){
       h('div',{class:'row'},
         h('button',{class:'btn small',onclick:()=>{LESSONS.forEach(l=>sel.add(l.id));onChange();draw();}},'Select all'),
         h('button',{class:'btn small',onclick:()=>{sel.clear();onChange();draw();}},'Clear'),
-        h('button',{class:'btn small',onclick:()=>{sel.clear();LESSONS.filter(l=>l.no!=='+').forEach(l=>sel.add(l.id));onChange();draw();}},"Coach's lessons only (no trivia)")),
+        h('button',{class:'btn small',onclick:()=>{sel.clear();LESSONS.filter(l=>l.no!=='+').forEach(l=>sel.add(l.id));onChange();draw();}},"No trivia")),
       h('div',{class:'chips'},chips));
   }
-  draw(); return box;
+  draw(); return det;
 }
 
 /* ====================================================================
    REVIEW
 ==================================================================== */
+/* Make a markdown table readable: wrap it for scrolling and, for wide tables, tag cells so
+   phones can show each row as a small card (label above value) instead of a sideways scroller. */
+function prepTable(t){
+  const heads=[...t.querySelectorAll('thead th')].map(x=>x.textContent.trim());
+  const rows=[...t.querySelectorAll('tbody tr')];
+  const numCol=/^(#|no\.?|)$/i.test(heads[0]||'');
+  rows.forEach(r=>{
+    const cells=[...r.children];
+    cells.forEach((c,i)=>{
+      c.dataset.l=heads[i]||'';
+      const txt=c.textContent.trim();
+      if(!txt||/^[–—-]$/.test(txt)) c.classList.add('empty');
+    });
+    const ti=numCol&&cells.length>1?1:0;
+    cells[ti].classList.add('ttl');
+    if(ti){ cells[0].classList.add('num'); cells[ti].dataset.num=cells[0].textContent.trim(); }
+  });
+  const avg=rows.reduce((s,r)=>s+r.textContent.length,0)/Math.max(1,rows.length);
+  if(heads.length>=3 && (heads.length>3 || avg>80)) t.classList.add('cards');
+  const w=h('div',{class:'tablewrap'+(t.classList.contains('cards')?' cardwrap':'')}); t.replaceWith(w); w.append(t);
+}
+
 function viewReview(root){
   const docs=DATA.docs;
   const reviewed=store.get('reviewed',{});
   let cur=store.get('doc',docs[0].id);
   if(!docs.find(d=>d.id===cur)) cur=docs[0].id;
-  const nav=h('nav',{class:'docnav','aria-label':'Documents'});
-  const body=h('div',{class:'doc'});
-  root.append(h('div',{class:'review'},nav,body));
+  let secs=[];                                   // sections of the open doc: {el,label}
+  const side=h('nav',{class:'docnav','aria-label':'Review documents'});
+  const bar=h('div',{class:'docbar'});
+  const body=h('div',{class:'doc md'});
+  const sheet=h('dialog',{class:'sheet'});
+  sheet.addEventListener('click',e=>{ if(e.target===sheet) sheet.close(); });
+  root.append(h('div',{class:'review'},side,h('div',{class:'docmain'},bar,body)),sheet);
 
-  function drawNav(){
-    const groups=[]; let last=null;
+  const idx=()=>docs.findIndex(d=>d.id===cur);
+  function pick(id){ cur=id; store.set('doc',id); if(sheet.open) sheet.close(); drawDoc(); window.scrollTo(0,0); }
+  function jumpTo(i){ const s=secs[i]; if(!s) return; s.el.open=true; s.el.scrollIntoView({behavior:'smooth',block:'start'}); }
+
+  function docList(withToc){
+    const out=[]; let last=null;
     docs.forEach(d=>{
-      if(d.group!==last){ nav.append(); groups.push(h('div',{class:'g'},d.group)); last=d.group; }
-      groups.push(h('button',{'aria-current':d.id===cur?'true':'false',onclick:()=>{cur=d.id;store.set('doc',cur);drawNav();drawDoc();window.scrollTo(0,0);}},
-        h('span',{class:'ck'+(reviewed[d.id]?' on':'')}), d.title));
+      if(d.group!==last){ out.push(h('div',{class:'g'},d.group)); last=d.group; }
+      const on=d.id===cur;
+      out.push(h('button',{class:'ditem','aria-current':on?'true':'false',onclick:()=>pick(d.id)},
+        h('span',{class:'ck'+(reviewed[d.id]?' on':'')}), h('span',{class:'t'},d.title)));
+      if(on&&withToc&&secs.length>1) out.push(h('div',{class:'toc'},secs.map((s,i)=>h('button',{onclick:()=>jumpTo(i)},s.label))));
     });
-    nav.replaceChildren(...groups);
+    return out;
   }
+  const doneCount=()=>docs.filter(d=>reviewed[d.id]).length;
+  function openSheet(title,content){
+    sheet.replaceChildren(
+      h('div',{class:'sheet-head'},h('b',null,title),h('button',{class:'btn small',onclick:()=>sheet.close()},'Close')),
+      h('div',{class:'sheet-body'},content));
+    sheet.showModal();
+    const c=sheet.querySelector('[aria-current="true"]'); if(c) c.scrollIntoView({block:'center'});
+  }
+  function drawNav(){
+    side.replaceChildren(
+      h('div',{class:'prog'},h('p',{class:'label'},'Reviewed '+doneCount()+' of '+docs.length),h('div',{class:'progress'},h('i',{style:'width:'+pct(doneCount(),docs.length)+'%'}))),
+      h('div',{class:'dlist'},docList(true)));
+    const d=docs[idx()];
+    bar.replaceChildren(
+      h('button',{class:'barbtn main','aria-haspopup':'dialog',onclick:()=>openSheet('Choose a doc',[h('p',{class:'hint'},'Reviewed '+doneCount()+' of '+docs.length),h('div',{class:'dlist'},docList(false))])},
+        h('span',{class:'lbl'},'Doc'),h('span',{class:'t'},d.title),h('span',{class:'chev','aria-hidden':'true'})),
+      secs.length>1?h('button',{class:'barbtn','aria-haspopup':'dialog',onclick:()=>openSheet('Jump to section',h('div',{class:'dlist'},secs.map((s,i)=>h('button',{class:'ditem',onclick:()=>{ sheet.close(); setTimeout(()=>jumpTo(i),60); }},h('span',{class:'t'},s.label)))))},'Sections'):null);
+  }
+
   function drawDoc(){
     const d=docs.find(x=>x.id===cur);
     const art=h('article',{class:'md'});
     if(window.marked){ art.innerHTML=marked.parse(d.md,{gfm:true,breaks:false,mangle:false,headerIds:false}); }
     else art.append(h('pre',null,d.md));
-    art.querySelectorAll('table').forEach(t=>{ const w=h('div',{class:'tablewrap'}); t.replaceWith(w); w.append(t); });
+    art.querySelectorAll('hr').forEach(x=>x.remove());
+    art.querySelectorAll('table').forEach(prepTable);
     art.querySelectorAll('a').forEach(a=>{ const hr=a.getAttribute('href')||''; if(!/^https?:/.test(hr)) a.replaceWith(...a.childNodes); else {a.target='_blank';a.rel='noopener noreferrer';} });
-    const heads=[...art.querySelectorAll('h2')];
-    const jump=h('div',{class:'jump','aria-label':'Jump to section'}, heads.map(x=>h('button',{onclick:()=>x.scrollIntoView({behavior:'smooth',block:'start'})}, x.textContent.replace(/^\d+\.\s*/,'').slice(0,34))));
+    const h1=art.querySelector('h1'); const title=h1?h1.textContent.trim():d.title; if(h1) h1.remove();
+
+    // split into an intro and collapsible sections (one per ## heading)
+    const lead=h('div',{class:'lead'}), content=h('div',{class:'secs'});
+    let into=lead; const secEls=[]; secs=[];
+    [...art.childNodes].forEach(n=>{
+      if(n.nodeName==='H2'){
+        const raw=n.textContent.trim(), m=raw.match(/^(\d+)\.\s*(.+)$/);
+        const label=m?m[2]:raw;
+        const det=h('details',{class:'sec',open:!/flashcard seeds|^sources$/i.test(label)},
+          h('summary',null,m?h('span',{class:'n'},m[1]):null,h('h2',null,label)));
+        into=h('div',{class:'secbody'}); det.append(into); content.append(det);
+        secEls.push(det); secs.push({el:det,label});
+      } else into.append(n);
+    });
+
     const l=d.lesson?LBY[d.lesson]:null;
-    const head=h('div',{class:'doc-head'},
-      h('label',{class:'switch'},h('input',{type:'checkbox',id:'rv-'+d.id,checked:!!reviewed[d.id],onchange:e=>{ if(e.target.checked) reviewed[d.id]=1; else delete reviewed[d.id]; store.set('reviewed',reviewed); drawNav(); }}),'Mark as reviewed'),
-      l ? h('div',{class:'row'},
-          h('button',{class:'btn small primary',onclick:()=>{ store.set('quizSetup',Object.assign(store.get('quizSetup',{}),{sel:[l.id]})); go('quiz'); }},'Quiz this lesson ('+l.mcq.length+')'),
-          h('button',{class:'btn small',onclick:()=>{ store.set('cardSetup',Object.assign(store.get('cardSetup',{}),{sel:[l.id]})); go('cards'); }},'Flashcards ('+l.cards.length+')')) : null);
-    body.replaceChildren(head, heads.length>2?jump:'', art);
+    const tog=h('button',{class:'btn small',onclick:()=>{ const o=secEls.some(s=>!s.open); secEls.forEach(s=>s.open=o); }});
+    const syncTog=()=>{ tog.textContent=secEls.some(s=>!s.open)?'Expand all':'Collapse all'; };
+    secEls.forEach(s=>s.addEventListener('toggle',syncTog)); syncTog();
+    const head=h('header',{class:'doc-head'},
+      h('h1',null,title),
+      l?h('p',{class:'meta'},(l.no==='+'?'Trivia':'Lesson '+l.no)+' · '+l.mcq.length+' questions · '+l.cards.length+' flashcards'):null,
+      h('div',{class:'row'},
+        l?h('button',{class:'btn small primary',onclick:()=>{ store.set('quizSetup',Object.assign(store.get('quizSetup',{}),{sel:[l.id]})); go('quiz'); }},'Quiz this lesson'):null,
+        l?h('button',{class:'btn small',onclick:()=>{ store.set('cardSetup',Object.assign(store.get('cardSetup',{}),{sel:[l.id]})); go('cards'); }},'Flashcards'):null,
+        secEls.length>1?tog:null));
+
+    const rv=h('button',{class:'btn toggle','aria-pressed':reviewed[d.id]?'true':'false',onclick:()=>{
+      if(reviewed[d.id]) delete reviewed[d.id]; else reviewed[d.id]=1;
+      store.set('reviewed',reviewed); drawNav(); paintRv(); }});
+    const paintRv=()=>{ const on=!!reviewed[d.id]; rv.setAttribute('aria-pressed',on?'true':'false'); rv.textContent=on?'✓ Reviewed':'Mark as reviewed'; };
+    paintRv();
+    const i=idx(), pv=docs[i-1], nx=docs[i+1];
+    const pn=(dir,x)=>x?h('button',{class:'pnbtn '+dir,onclick:()=>pick(x.id)},h('small',null,dir==='prev'?'Previous':'Next'),h('span',null,x.title)):h('span');
+    const foot=h('footer',{class:'doc-foot'},rv,h('div',{class:'pn'},pn('prev',pv),pn('next',nx)));
+
+    body.replaceChildren(head, lead.childNodes.length?lead:'', content, foot);
+    drawNav();
   }
-  drawNav(); drawDoc();
+  drawDoc();
 }
 
 /* ====================================================================
@@ -188,7 +279,7 @@ function viewQuiz(root){
     drawPresets();
     sumEl=h('div',{class:'summary'});
     startBtn=h('button',{class:'btn primary',onclick:start},'Start quiz');
-    const seg=(key,opts)=>h('div',{class:'seg',role:'group'},opts.map(([v,t])=>h('button',{'aria-pressed':S[key]===v?'true':'false',onclick:()=>{S[key]=v;persist();draw();}},t)));
+    const seg=(key,opts,cls)=>h('div',{class:'seg'+(cls?' '+cls:''),role:'group'},opts.map(([v,t])=>h('button',{'aria-pressed':S[key]===v?'true':'false',onclick:()=>{S[key]=v;persist();draw();}},t)));
     const sw=(key,text)=>h('label',{class:'switch'},h('input',{type:'checkbox',id:'qs-'+key,checked:!!S[key],onchange:e=>{S[key]=e.target.checked;persist();refreshSummary();}}),text);
     const picker=lessonPicker(sel,'mcq',()=>{persist();refreshSummary();});
     const dSeg=h('div',{class:'seg',role:'group','aria-label':'Difficulty'},['E','A','D'].map(d=>h('button',{'aria-pressed':S.diffs.includes(d)?'true':'false',onclick:()=>{ const s2=new Set(S.diffs); if(s2.has(d)){ if(s2.size>1) s2.delete(d);} else s2.add(d); S.diffs=[...s2]; persist(); draw(); }},DIFF[d])));
@@ -198,7 +289,7 @@ function viewQuiz(root){
       h('section',null,h('p',{class:'label'},'1 · Lessons'),picker),
       h('section',null,h('p',{class:'label'},'2 · How many questions'),presetBox,h('p',{class:'hint'},'Elimination round: 100 questions, 60 minutes. Questions and choices are shuffled every time.')),
       h('section',{class:'stack'},h('p',{class:'label'},'3 · Options'),
-        h('div',{class:'row'},seg('mode',[['exam','Exam: results at the end'],['practice','Practice: instant feedback']]),
+        h('div',{class:'row'},seg('mode',[['exam','Exam: results at the end'],['practice','Practice: instant feedback']],'wide'),
           S.mode==='exam'?sw('timer','Time limit'):null),
         h('div',{class:'row'},sw('balanced','Balance across lessons'),sw('smart','Favor questions I missed or have not seen')),
         h('p',{class:'label'},'Difficulty'),dSeg,
@@ -403,7 +494,7 @@ function viewCards(root){
       h('button',{'aria-pressed':S.n==='max'?'true':'false',disabled:S.mode==='finals',onclick:()=>{S.n='max';customEl.value='';persist();drawPresets();refreshSummary();}},'All')),customEl); customEl.disabled=S.mode==='finals'; }
     drawPresets();
     sumEl=h('div',{class:'summary'}); startBtn=h('button',{class:'btn primary',onclick:start},S.mode==='finals'?'Start finals simulation':'Start');
-    const modeSeg=h('div',{class:'seg',role:'group'},[['flip','Flip and self-grade'],['type','Type the answer'],['finals','Finals simulation']].map(([v,t])=>h('button',{'aria-pressed':S.mode===v?'true':'false',onclick:()=>{S.mode=v;persist();draw();}},t)));
+    const modeSeg=h('div',{class:'seg wide',role:'group'},[['flip','Flip and self-grade'],['type','Type the answer'],['finals','Finals simulation']].map(([v,t])=>h('button',{'aria-pressed':S.mode===v?'true':'false',onclick:()=>{S.mode=v;persist();draw();}},t)));
     const dSeg=h('div',{class:'seg',role:'group','aria-label':'Difficulty'},['E','A','D'].map(d=>h('button',{'aria-pressed':S.diffs.includes(d)?'true':'false',disabled:S.mode==='finals',onclick:()=>{ const s2=new Set(S.diffs); if(s2.has(d)){ if(s2.size>1) s2.delete(d);} else s2.add(d); S.diffs=[...s2]; persist(); draw(); }},DIFF[d])));
     const sw=(key,text)=>h('label',{class:'switch'},h('input',{type:'checkbox',id:'cs-'+key,checked:!!S[key],onchange:e=>{S[key]=e.target.checked;persist();refreshSummary();}}),text);
     const picker=lessonPicker(sel,'cards',()=>{persist();refreshSummary();});
@@ -561,15 +652,15 @@ function viewProgress(root){
       h('div',{class:'tile'},h('p',{class:'label'},'Cards seen'),h('b',null,tcs+' / '+tc)),
       h('div',{class:'tile'},h('p',{class:'label'},'Card accuracy'),h('b',null,tca?pct(tcc,tca)+'%':'—'))),
     weak.length?h('div',{class:'resume'},h('div',null,h('b',null,'Focus next: '),weak.map(w=>w.r.l.title+' ('+Math.round(w.acc*100)+'%)').join(' · ')),
-      h('button',{class:'btn primary small',onclick:()=>{ store.set('quizSetup',Object.assign(store.get('quizSetup',{}),{sel:weak.map(w=>w.r.l.id)})); go('quiz'); }},'Quiz these')):null,
-    h('section',null,h('p',{class:'label'},'By lesson'),h('div',{class:'card scroll-x'},h('table',{class:'plain'},
-      h('thead',null,h('tr',null,['Lesson','MCQ seen','MCQ accuracy','Cards seen','Card accuracy'].map(t=>h('th',null,t)))),
-      h('tbody',null,rows.map(r=>h('tr',null,
-        h('td',null,(r.l.no==='+'?'':r.l.no+'. ')+r.l.title),
-        h('td',{class:'mono'},r.ms+'/'+r.l.mcq.length),
-        h('td',null,r.ma?h('div',{class:'bar',style:'grid-template-columns:1fr 46px;min-width:130px'},h('span',{class:'tr'},h('i',{style:'width:'+pct(r.mc,r.ma)+'%'})),h('span',{class:'v'},pct(r.mc,r.ma)+'%')):h('span',{class:'muted'},'—')),
-        h('td',{class:'mono'},r.cs+'/'+r.l.cards.length),
-        h('td',null,r.ca?h('div',{class:'bar',style:'grid-template-columns:1fr 46px;min-width:130px'},h('span',{class:'tr'},h('i',{style:'width:'+pct(r.cc,r.ca)+'%'})),h('span',{class:'v'},pct(r.cc,r.ca)+'%')):h('span',{class:'muted'},'—')))))))),
+      h('button',{class:'btn primary small',onclick:()=>{ store.set('quizSetup',Object.assign(store.get('quizSetup',{}),{sel:weak.map(w=>w.r.l.id)})); go('quiz'); }},'Quiz these')):'',
+    h('section',null,h('p',{class:'label'},'By lesson'),h('div',{class:'lrows'},rows.map(r=>{
+      const mini=(label,seen,total,ok,att)=>h('div',{class:'mini'},h('span',{class:'k'},label),
+        h('span',{class:'tr'},h('i',{style:'width:'+(att?pct(ok,att):0)+'%'})),
+        h('span',{class:'v'},att?pct(ok,att)+'%':'—'),
+        h('span',{class:'s'},seen+' / '+total+' seen'));
+      return h('div',{class:'lrow'},h('b',null,(r.l.no==='+'?'':r.l.no+'. ')+r.l.title),
+        h('div',{class:'minis'},mini('MCQ',r.ms,r.l.mcq.length,r.mc,r.ma),mini('Cards',r.cs,r.l.cards.length,r.cc,r.ca)));
+    }))),
     h('section',null,h('p',{class:'label'},'Recent sessions'),
       hist.length?h('div',{class:'card scroll-x'},h('table',{class:'plain'},h('thead',null,h('tr',null,['When','Type','Score','Time'].map(t=>h('th',null,t)))),
         h('tbody',null,hist.slice(0,12).map(x=>h('tr',null,

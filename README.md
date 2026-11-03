@@ -14,6 +14,9 @@ content/docs/*.md        review documents
 build.py              content/ -> js/data.js (with sanity checks)
 ```
 
+## Review docs
+Each `content/docs/*.md` is split into collapsible sections at every `##` heading (a numbered heading like `## 3. Memory` gets a number badge, and a section named "Flashcard seeds" or "Sources" starts collapsed). The `# Title` and the italic line under it become the page header. Tables with 4+ columns (or long rows) turn into stacked cards on phones, so keep a header row on every table. Write doc text to stand alone: don't refer to other docs by file name.
+
 ## Editing content
 1. Edit a lesson in `content/lessons/<id>.json` or a doc in `content/docs/`.
    - MCQ: `{"q": "...", "a": "correct", "w": ["wrong1", "wrong2", "wrong3"], "d": "E|A|D", "e": "one-sentence explanation"}` (`d` is required; `e` is optional and shown after answering)

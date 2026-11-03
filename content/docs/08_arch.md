@@ -1,4 +1,4 @@
-# 08 · Computer Architecture & Organization
+# Computer Architecture & Organization
 *How the CPU, memory, buses and I/O are organized. Includes modern chip/GPU facts for trivia.*
 
 ---
